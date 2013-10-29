@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[tchikuba's blog]]></title>
+  <link href="http://tchikuba.github.io/atom.xml" rel="self"/>
+  <link href="http://tchikuba.github.io/"/>
+  <updated>2013-10-29T15:57:55+09:00</updated>
+  <id>http://tchikuba.github.io/</id>
+  <author>
+    <name><![CDATA[tchikuba]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[テスト投稿]]></title>
+    <link href="http://tchikuba.github.io/blog/2013/10/28/title/"/>
+    <updated>2013-10-28T18:24:00+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2013/10/28/title</id>
+    <content type="html"><![CDATA[<p>これはテスト</p>
+]]></content>
+  </entry>
+  
+</feed>
