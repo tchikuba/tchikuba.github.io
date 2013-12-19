@@ -3,7 +3,7 @@ layout: post
 title: "GitHub PagesとOctopressなblog初投稿"
 date: 2013-10-29 20:00
 comments: true
-categories: 
+categories: [profile, octopress]
 ---
 このブログ初投稿。
 

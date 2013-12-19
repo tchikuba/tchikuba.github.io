@@ -3,7 +3,7 @@ layout: post
 title: "Octopressブログ環境をVagrantのboxで複数マシンで使う"
 date: 2013-10-30 20:00
 comments: true
-categories:
+categories: [octopress, vagrant]
 ---
 Linuxで整えたOctopressでブログ書く環境をWindowsとMacでもそれぞれ作りたかったのとrubyのバージョンとか揃えるの億劫だしそれぞれ作るの面倒だなと思ったけど、既にvagrantな環境誰か作ってんじゃね？と思ってググったらありました。
 
