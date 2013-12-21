@@ -17,7 +17,7 @@ categories: [DevLOVE, GENBA, profile]
 
 ## どんな職種か
 * C,C++,PHP,Perl,Javaを経て現在はRuby/RoRを使うwebエンジニアをやってます。
-* プロダクト指向が強くエンジニアだけどweb領域の事業そのものに興味があります。
+* プロダクト指向が強いエンジニアでweb領域の事業そのものに興味があります。
 
 ## 現場につながるような経歴など
 * 事業企画や営業を経て数々の失敗を経験しその反省からエンジニアのキャリアがスタートしました。
@@ -88,4 +88,4 @@ categories: [DevLOVE, GENBA, profile]
 
 ***
 
-*次のDevLOVE Advent Calendar 2013 「現場」の記事はnnasakiさんが担当です。*
+*次のDevLOVE Advent Calendar 2013 「現場」の記事は[nnasakiさん](http://nnasaki.hatenablog.com/entry/2013/12/20/040046)が担当です。*

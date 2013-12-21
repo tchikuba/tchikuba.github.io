@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: 
 
 Sitemap: http://tchikuba.github.io/sitemap.xml 
