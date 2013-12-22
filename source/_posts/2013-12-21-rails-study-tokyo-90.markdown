@@ -10,7 +10,7 @@ keywords: "ruby, rails, 勉強会, TDD, テスト, OOP, オブジェクト指向
 
 [Rails勉強会@東京 第90回](http://railsmeetingtokyo.doorkeeper.jp/events/7642)に参加してきました。
 
-非常に勉強になったのと嬉しかったのはいつもrails関連情報でお世話になってる[酒と泪とRubyとRailsと](http://morizyun.github.io/)のブログ書かれてる[morizyunさん](https://twitter.com/zyunnosuke)に初めて会えたこと。あと実は一度行ってみたかった[永和システムマネジメント](http://www.esm.co.jp/)さんのオフィス。アジャイル関連で有名な会社で在籍されている方の訳書などに色々お世話になっているので心の中で頭下げて来ました。最近のだとリーン開発の現場って本が熱い。(後述)
+非常に勉強になったのと嬉しかったのはいつもrails関連情報でお世話になってる[酒と泪とRubyとRailsと](http://morizyun.github.io/)のブログ書かれてる[@@zyunnosukeさん](https://twitter.com/zyunnosuke)に初めて会えたこと。あと実は一度行ってみたかった[永和システムマネジメント](http://www.esm.co.jp/)さんのオフィス。アジャイル関連で有名な会社で在籍されている方の訳書などに色々お世話になっているので心の中で頭下げて来ました。最近のだとリーン開発の現場って本が熱い。(後述)
 
 - - -
 
@@ -29,7 +29,7 @@ keywords: "ruby, rails, 勉強会, TDD, テスト, OOP, オブジェクト指向
   - ポルターガイスト現象って勝手に物が動くことを指すけど、命名の由来もそこから来たんじゃないか。
 * [herokuでrails](http://morizyun.github.io/blog/heroku-rails4-postgresql-introduction/)
   - 勉強会の中1hで何故か自分の時間が取られたんですがその間にpoltergeistを軽く触ってみようと思ってrails環境作ろうと思ってどうせならherokuでやってみようと思って参考にした記事。
-  - また例によってmorizyunさん。ありがとうございます！
+  - また例によって@zyunnosukeさん。ありがとうございます！
 * [.rvmrcから.ruby-gemsetと.ruby-versionに移行](http://qiita.com/prinum/items/ac9feadbbe497649ab3f)
   - rvm入れたりとこの辺の環境構築に思ったより時間がかかって結局勉強会の中1hではruby2/rails4な環境構築だけで終わってしまったというオチ。
 
@@ -56,7 +56,7 @@ keywords: "ruby, rails, 勉強会, TDD, テスト, OOP, オブジェクト指向
 * [MOGOK](http://mogok.jp/index.html)
   - 参加者の方が関わっているサービス。
   - 他にもミニ四駆のサイト趣味で作られている方がいたのですがどうも見つからない。。
-    * 追記：morizyunさんが教えてくれました。[このサイト](http://mini4wg.com/)。
+    * 追記：@zyunnosukeさんが教えてくれました。[このサイト](http://mini4wg.com/)。
     * 全然どうでも良い話だけど、私もダッシュ四駆郎とかコロコロコミックで読んでた世代なのでミニ四駆やってみようかな〜
 * [Joruri](http://joruri.org/)
   - wordpressみたいなrubyのプロダクトってあるの？って話から出てきた話題。
@@ -85,4 +85,4 @@ keywords: "ruby, rails, 勉強会, TDD, テスト, OOP, オブジェクト指向
 またスケジュールが合えば積極的に参加して行こうと思います。
 
 ### 追記
-私が参加しなかったRails4.1betaリリースノートの話題は[morizyunさんのまとめ](http://morizyun.github.io/blog/rspec-changelog-rails-tokyo-90/)が詳しいです。さすがです！
+私が参加しなかったRails4.1betaリリースノートの話題は[@zyunnosukeさんのまとめ](http://morizyun.github.io/blog/rspec-changelog-rails-tokyo-90/)が詳しいです。さすがです！
