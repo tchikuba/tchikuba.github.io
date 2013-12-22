@@ -10,7 +10,7 @@ keywords: "ruby, rails, 勉強会, TDD, テスト, OOP, オブジェクト指向
 
 [Rails勉強会@東京 第90回](http://railsmeetingtokyo.doorkeeper.jp/events/7642)に参加してきました。
 
-非常に勉強になったのと嬉しかったのはいつもrails関連情報でお世話になってる[酒と泪とRubyとRailsと](http://morizyun.github.io/)のブログ書かれてる[@@zyunnosukeさん](https://twitter.com/zyunnosuke)に初めて会えたこと。あと実は一度行ってみたかった[永和システムマネジメント](http://www.esm.co.jp/)さんのオフィス。アジャイル関連で有名な会社で在籍されている方の訳書などに色々お世話になっているので心の中で頭下げて来ました。最近のだとリーン開発の現場って本が熱い。(後述)
+非常に勉強になったのと嬉しかったのはいつもrails関連情報でお世話になってる[酒と泪とRubyとRailsと](http://morizyun.github.io/)のブログ書かれてる[@zyunnosukeさん](https://twitter.com/zyunnosuke)に初めて会えたこと。あと実は一度行ってみたかった[永和システムマネジメント](http://www.esm.co.jp/)さんのオフィス。アジャイル関連で有名な会社で在籍されている方の訳書などに色々お世話になっているので心の中で頭下げて来ました。最近のだとリーン開発の現場って本が熱い。(後述)
 
 - - -
 
