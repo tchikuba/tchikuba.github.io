@@ -4,6 +4,8 @@ title: "現場のリーダーシップの正義"
 date: 2013-12-19 00:00
 comments: true
 categories: [DevLOVE, GENBA, profile]
+description: "DevLOVE Advent Calendar 2013 「現場」の40日目の記事。自己紹介と現場という言葉から想起される自分の考えについて。"
+keywords: "devlove, advent calendar, 現場, lean, リーン, agile, アジャイル, リーダーシップ"
 ---
 *この記事は[DevLOVE Advent Calendar 2013 「現場」](http://devlove.doorkeeper.jp/events/7039)の40日目の記事です。
 [N_Aさん](https://github.com/N-A/rendo/issues/1)からバトンをお預かりしました。*

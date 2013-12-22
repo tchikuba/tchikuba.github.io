@@ -4,6 +4,8 @@ title: "PHP勉強会＠東京#72で発表しました"
 date: 2013-10-31 20:00
 comments: true
 categories: [php, phpstudy]
+description: "PHP勉強会@東京#72で発表した際に使用したスライドを共有"
+keywords: "php, 勉強会, beer, ビール"
 ---
 [2013-10-28にEngine Yardさんで行われたPHP勉強会@東京](http://atnd.org/events/44600)で発表する機会をもらいました。
 

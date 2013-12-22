@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Rails勉強会@東京#90に参加してきました"
-date: 2013-12-21 17:43
+date: 2013-12-21 20:00
 comments: true
 categories: [study, ruby, rails]
+description: "rails勉強会@東京#90に参加してきたのでまとめを書きました"
+keywords: "ruby, rails, 勉強会, TDD, テスト, OOP, オブジェクト指向プログラミング, DDD, ドメイン駆動設計"
 ---
 
 [Rails勉強会@東京 第90回](http://railsmeetingtokyo.doorkeeper.jp/events/7642)に参加してきました。
@@ -54,6 +56,8 @@ categories: [study, ruby, rails]
 * [MOGOK](http://mogok.jp/index.html)
   - 参加者の方が関わっているサービス。
   - 他にもミニ四駆のサイト趣味で作られている方がいたのですがどうも見つからない。。
+    * 追記：morizyunさんが教えてくれました。[このサイト](http://mini4wg.com/)。
+    * 全然どうでも良い話だけど、私もダッシュ四駆郎とかコロコロコミックで読んでた世代なのでミニ四駆やってみようかな〜
 * [Joruri](http://joruri.org/)
   - wordpressみたいなrubyのプロダクトってあるの？って話から出てきた話題。
   - 実際に徳島では本当にたくさんのサイトがこれで作られてるんですねぇ。知らなかった。
@@ -79,3 +83,6 @@ categories: [study, ruby, rails]
 ざっとまとめるとこんな感じかな。
 個人的にはちょっと新鮮な空気の勉強会でしたがリアルな課題感をその場で確認することが出来るのでこういう形式はより実践向けで良いんじゃないかと思いました。
 またスケジュールが合えば積極的に参加して行こうと思います。
+
+### 追記
+私が参加しなかったRails4.1betaリリースノートの話題は[morizyunさんのまとめ](http://morizyun.github.io/blog/rspec-changelog-rails-tokyo-90/)が詳しいです。さすがです！

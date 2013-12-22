@@ -4,6 +4,8 @@ title: "GitHub PagesとOctopressなblog初投稿"
 date: 2013-10-28 20:00
 comments: true
 categories: [profile, octopress]
+description: "このブログ(tchikuba's blog)初投稿。ブログを始めた理由について書きました"
+keywords: "blog, ブログ, 勉強会, lean, リーン, agile, アジャイル, github pages, octopress, bitbucket, ruby, rails"
 ---
 このブログ初投稿。
 
