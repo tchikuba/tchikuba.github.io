@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「オープンソースエンジニア生存戦略」をデブサミ2014初日に聞いてきた"
+title: "富士通小崎資広氏「オープンソースエンジニア生存戦略」@デブサミ2014初日を聞いてきた"
 date: 2014-02-13 14:00
 comments: true
 categories: [devsumi2014, ruby, fujitsu]
@@ -9,19 +9,25 @@ keywords: "デブサミ, 2014, 小崎資広, 富士通, パナソニック, レ�
 ---
 
 楽しみにしていた[デブサミ2014](http://event.shoeisha.jp/devsumi/20140213/)、ついに始まりました！
-僭越ながら今年はコーヒースポンサーとして協賛してみました。
-実際に会場には最前列2列にわたってコーヒースポンサー用の特別席が設けられており、机もあるので超快適です。
+僭越ながら今年は1万円払ってコーヒースポンサーとして協賛してみました。
+会場には最前列2列にわたってコーヒースポンサー用の特別席が設けられており、電源タップ付き机があるので超快適です。
 個人的にはオススメですよ、コーヒースポンサー！
 
 - - -
 
 さて初日の本日はあまり参加出来ないのですが、、早速[「オープンソースエンジニア生存戦略」](http://event.shoeisha.jp/devsumi/20140213/session/365/)というセッションに参加してきました。
-話を聞きながらメモを取ったんですがあまりにも面白い内容だったので中途半端ですが公開しちゃいます。
-また後日、肉付けしようかなとは思いますが。
+話を聞きながらメモを取ったんですがあまりにも面白い内容だったので公開しちゃいました。
+
+![open sorce engineer 1](/images/developers-summit2014-first-day/open-source-engineer1.jpg)
+
+- - -
 
 # 会場
 * [目黒雅叙園](https://www.megurogajoen.co.jp/) A会場
-* ハッシュタグ: [#devsumi](https://twitter.com/search?q=%23devsumi&src=typd) [#devsumiA](https://twitter.com/search?q=%23devsumiA&src=typd)
+* ハッシュタグ: 
+  - [#devsumi](https://twitter.com/search?q=%23devsumi&src=typd) 
+  - [#devsumiA](https://twitter.com/search?q=%23devsumiA&src=typd)
+  - [togetter](http://togetter.com/li/628529)
 
 # 発表者
 * [小崎 資広さん@富士通](http://news.mynavi.jp/articles/2011/11/21/elf5/)
@@ -42,9 +48,6 @@ keywords: "デブサミ, 2014, 小崎資広, 富士通, パナソニック, レ�
 # 富士通HPC時代
 * しばらく穏やかな開発
 * その後ひょんなことからデスマへ投入
-* 辞めたいと思うように
-
-# Linuxカーネル専業へ
 * 辞めたいと思ってることがバレてOS部隊から引き抜き
 
 # OSSにコントリビュートする理由
@@ -61,6 +64,8 @@ keywords: "デブサミ, 2014, 小崎資広, 富士通, パナソニック, レ�
 * [@ITでLinuxカーネル動向みたいなタイトルで連載を開始](http://www.atmarkit.co.jp/flinux/index/indexfiles/watchindex.html)
 * オーストラリア人のユーモアのセンスは人類の理解を超えている(お前の英語はわからん)
   - by Paul Jackson
+
+![open sorce engineer 2](/images/developers-summit2014-first-day/open-source-engineer2.jpg)
 
 # なぜパッチが汚くなるか
 * だいたい複数の問題／パッチに分割可能
