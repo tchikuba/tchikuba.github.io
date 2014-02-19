@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "デブサミ2014初日「何故クックパッドのサービス開発は日々進化しているのか」を聞いた"
+title: "cookpad庄司嘉織氏「何故クックパッドのサービス開発は日々進化しているのか」@デブサミ2014初日を聞いた"
 date: 2014-02-13 18:00
 comments: true
-categories: [devsumi2014, cookpad, DevOps]
+categories: [devsumi2014, cookpad, DevOps, Ruby, Rails]
 description: "2014年2月13日(木)に行われたデブサミ2014のセッション「何故クックパッドのサービス開発は日々進化しているのか」を聞いたまとめです。"
-keywords: "デブサミ2014, クックパッド, cookpad"
+keywords: "デブサミ2014, クックパッド, cookpad, Ruby, Rails"
 ---
 
 引き続き[「何故クックパッドのサービス開発は日々進化しているのか」](http://event.shoeisha.jp/devsumi/20140213/session/377/)
@@ -14,6 +14,9 @@ keywords: "デブサミ2014, クックパッド, cookpad"
 # profile
 * 庄司嘉織@クックパッド
 * 部長だけどプログラマ
+* スライド
+
+<script async class="speakerdeck-embed" data-id="8cc658a076ac013148646268bd6e389b" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 # cookpad
 * クックパッドはクックパッドだけじゃなくて新規事業もやってますよを覚えておいて
@@ -27,7 +30,7 @@ keywords: "デブサミ2014, クックパッド, cookpad"
 * ほぼ全員デブサミ来てない。2/14バレンタインデーの前日は一番アクセスが多い
 
 # サービス開発
-* Chankoの紹介。cookpadのサービス開発を表している
+* Chankoの紹介。cookpadのサービス開発を端的にあらわしているgem。
 * 金曜リリース禁止なので4日でmergeされたコミットが167ある
 * Github。DBスキーマ変更もプルリクエストで、設計もissuesで。
 * デザイナーもGithubで
