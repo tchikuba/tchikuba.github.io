@@ -96,8 +96,11 @@ disqus_show_comment_count: false
 # Google Analytics
 google_analytics_tracking_id: UA-46605167-1
 
-# Facebook Like
+# Facebook
+facebook_app_id: 659253570789231
+facebook_locale: ja_JP
 facebook_like: true
+default_ogp_image: /images/facebook_profile.jpg
 
 # for hatena bookmark
 hatena_button: true
