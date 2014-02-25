@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "「エンジニア近未来ワークスタイル2014」@GoogleJapanオフィスに行ってきた"
-date: 2014-02-14 22:00
+date: 2014-02-14 23:00
 comments: true
-categories: 
-description: 
-keywords: 
+categories: [engineer, life-style, google, freelance]
+description: "2014年2月14日(金)にGoogle Japanオフィスで行われた「エンジニア近未来ワークスタイル2014」というイベントに参加した際のレポートです。"
+keywords: "エンジニア,engineer,ライフスタイル,life style,google,フリーランス,freelance"
 ---
 
 [デブサミ2014](http://event.shoeisha.jp/devsumi/20140213/)のあと更にイベントは続きます！
@@ -33,6 +33,9 @@ keywords:
 
 ## [シェアゼロ](http://share0.net/)の中の人
 * HPがかなりひどいｗ
+* 今回のイベントの企画者。以下のイベント記事が詳しいです。
+  - [元アップルジャパンCEO 山元賢治さん登壇！エンジニア近未来ワークスタイル2014 イベントレポ【前編】](http://prosheet.jp/blog/event/260/)
+  - [エンジニア近未来ワークスタイル2014　イベントレポ【後編】](http://prosheet.jp/blog/event/296/)
 
 
 # 基調講演「これからの世界」で働くリーダーとは　〜エンジニアが生き抜くために〜

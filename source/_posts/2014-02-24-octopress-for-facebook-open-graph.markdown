@@ -66,6 +66,10 @@ default_ogp_image: /images/xxx.jpg ←手順2でアップロードした画像�
 </head>
 {% endcodeblock %}
 
+```
+aaa
+```
+
 # facebookアプリの設定でApp Domainsを指定しないとJSエラー発生
 https://developers.facebook.com/x/apps/659253570789231/settings/
 * Add Platformからウェブサイトを登録してApp Domainsを指定しないとFB側でエラー発生
