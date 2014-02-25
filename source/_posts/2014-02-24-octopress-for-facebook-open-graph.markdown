@@ -6,7 +6,7 @@ comments: true
 categories: [Octopress, Facebook, OGP]
 description: "Octopressでfacebook用OGPを設定する際に以外と引っ掛かるところがあったので共有します。"
 keywords: "Octopress,Facebook,OGP"
-published: false
+published: true
 ---
 
 Octopressでfacebook用OGPを設定する際、以外と引っ掛かるところがあったので手順をまとめておきます。
@@ -21,6 +21,9 @@ Octopressでfacebook用OGPを設定する際、以外と引っ掛かるところ
 ## 1. facebookのapp_idを取得する
 まずfacebookアプリのapp_idを取得します。
 取得方法は[facebookのOGP設定について](http://www.issun.com/blog/ogp/)等を参照すると良いかと。
+
+* facebookアプリの設定で`App Domains`を指定しないとJSエラー発生が発生するのでご注意を。
+* `+Add Platform`をクリックして`ウェブサイト`を選択して`サイトURL``Mobile Site URL`を設定してから`App Domains`を入力しないと順序が逆だとfacebook側で警告が出ますのでご注意を。
 
 ## 2. OGP用の画像をアップロードする
 OGPの`og:image`に指定する画像をアップロードします。
@@ -65,13 +68,15 @@ default_ogp_image: /images/xxx.jpg ←手順2でアップロードした画像�
 ```
 {% endraw %}
 
-# facebookアプリの設定でApp Domainsを指定しないとJSエラー発生
-https://developers.facebook.com/x/apps/659253570789231/settings/
-* Add Platformからウェブサイトを登録してApp Domainsを指定しないとFB側でエラー発生
+## 6. 記事をアップしてOGPデバッガーで確認する
+facebookが提供している[OGPデバッガー](https://developers.facebook.com/tools/debug)で
+OGPが意図するように設定されているか確認します。
 
-# OGPの画像が十分に大きくないよ警告が出る
-http://ore.hatenablog.jp/entry/2013/02/24/185923
+* "OGPの画像が十分に大きくないよ"という警告が出ました。十分に大きいサイズでないと出るようです。
+  - 以下参考
+  - [Facebookのog:imageが無視されて異なる画像が勝手に指定される件（推奨サイズの追記あり）](http://ore.hatenablog.jp/entry/2013/02/24/185923)
+* "authorに関するOGPが設定不十分だよ"という警告もよく出るようです。
+  - 以下参考
+  - [ブログの記事をFacebookでシェアした時に、作成者名を表示させる方法 #wpacja2013](http://mekemoke.jp/2013/12/1319.html)
 
-# FBのデバッガーは便利
-https://developers.facebook.com/tools/debug
-
+以上
