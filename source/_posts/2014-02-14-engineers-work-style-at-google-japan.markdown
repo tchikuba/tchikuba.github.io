@@ -3,7 +3,7 @@ layout: post
 title: "「エンジニア近未来ワークスタイル2014」@GoogleJapanオフィスに行ってきた"
 date: 2014-02-14 23:00
 comments: true
-categories: [engineer, life-style, google, freelance]
+categories: [engineer, work-style, google, freelance]
 description: "2014年2月14日(金)にGoogle Japanオフィスで行われた「エンジニア近未来ワークスタイル2014」というイベントに参加した際のレポートです。"
 keywords: "エンジニア,engineer,ライフスタイル,life style,google,フリーランス,freelance"
 ---
