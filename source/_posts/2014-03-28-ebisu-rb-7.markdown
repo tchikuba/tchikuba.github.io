@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Ebisu.rb #8に参加してみた"
+title: "Ebisu.rb #7に参加しました"
 date: 2014-03-28 21:07:32 +0900
 comments: true
 categories: [ruby, study]
-description: "2014年3月28日(金)にEngine Yardにて行われたEbisu.rb#8に参加したレポートです"
+description: "2014年3月28日(金)にEngine Yardにて行われたEbisu.rb#7に参加したレポートです"
 keywords: "ruby,ebisu.rb,恵比寿,Engine Yard,エンジンヤード,勉強会"
 ---
 
-[Ebisu.rb#8](http://ebisurb.doorkeeper.jp/events/9707)に参加してみました。いわゆる地域rb系の勉強会は初参加だったので楽しみにしていました。
+[Ebisu.rb#7](http://ebisurb.doorkeeper.jp/events/9707)に参加してみました。いわゆる地域rb系の勉強会は初参加だったので楽しみにしていました。
 ネタはTDD/BDD/ATDD関連でテストの実践的な書き方的な話をしたいなとは思っていたんですが
 全くもってまとまっていなかったのでできなかったのが悔やまれます。。
 
@@ -37,3 +37,5 @@ keywords: "ruby,ebisu.rb,恵比寿,Engine Yard,エンジンヤード,勉強会"
 
 あと全くの余談ですが、ホントはRuby書きたいけどお仕事ではPHP書いてますとかPHP書いてたけど念願叶ってRuby書ける部署に異動出来たとか
 どこかで聞いたことのあるような話題があってホッコリしたりしてｗ
+
+なお次回#8は2014/4/25(金)になりました。詳細は[こちら](http://ebisurb.doorkeeper.jp/events/10288)。
