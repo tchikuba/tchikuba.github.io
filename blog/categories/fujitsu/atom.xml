@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: fujitsu | tchikuba's blog]]></title>
+  <link href="http://tchikuba.github.io/blog/categories/fujitsu/atom.xml" rel="self"/>
+  <link href="http://tchikuba.github.io/"/>
+  <updated>2018-10-08T23:21:59+09:00</updated>
+  <id>http://tchikuba.github.io/</id>
+  <author>
+    <name><![CDATA[tchikuba]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[富士通小崎資広氏「オープンソースエンジニア生存戦略」@デブサミ2014初日を聞いてきた]]></title>
+    <link href="http://tchikuba.github.io/blog/2014/02/13/developers-summit2014-first-day/"/>
+    <updated>2014-02-13T14:00:00+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2014/02/13/developers-summit2014-first-day</id>
+    <content type="html"><![CDATA[<p>楽しみにしていた<a href="http://event.shoeisha.jp/devsumi/20140213/">デブサミ2014</a>、ついに始まりました！
+僭越ながら今年は1万円払ってコーヒースポンサーとして協賛してみました。
+会場には最前列2列にわたってコーヒースポンサー用の特別席が設けられており、電源タップ付き机があるので超快適です。
+個人的にはオススメですよ、コーヒースポンサー！</p>
+
+<hr />
+
+<p>さて初日の本日はあまり参加出来ないのですが、、早速<a href="http://event.shoeisha.jp/devsumi/20140213/session/365/">「オープンソースエンジニア生存戦略」</a>というセッションに参加してきました。
+話を聞きながらメモを取ったんですがあまりにも面白い内容だったので公開しちゃいました。</p>
+
+<p><img src="/images/developers-summit2014-first-day/open-source-engineer1.jpg" alt="open sorce engineer 1" /></p>
+
+<hr />
+
+<h1>会場</h1>
+
+<ul>
+<li><a href="https://www.megurogajoen.co.jp/">目黒雅叙園</a> A会場</li>
+<li>ハッシュタグ:
+
+<ul>
+<li><a href="https://twitter.com/search?q=%23devsumi&amp;src=typd">#devsumi</a></li>
+<li><a href="https://twitter.com/search?q=%23devsumiA&amp;src=typd">#devsumiA</a></li>
+<li><a href="http://togetter.com/li/628529">togetter</a></li>
+</ul>
+</li>
+</ul>
+
+
+<h1>発表者</h1>
+
+<ul>
+<li><a href="http://news.mynavi.jp/articles/2011/11/21/elf5/">小崎 資広さん@富士通</a></li>
+<li>2011年よりボストン在住、レッドハット社に常駐してRHEL開発</li>
+<li>1999年新卒でパナソニック入社、2005年に富士通へ転職</li>
+<li>Linuxカーネル／Rubyコミッタ</li>
+</ul>
+
+
+<h1>データ放送ブラウザ</h1>
+
+<ul>
+<li>パナソニックに学部卒で放り込まれたプロジェクト</li>
+<li>リモコンのDボタンで出てくるやつ</li>
+<li><a href="http://e-words.jp/w/BML.html">BML</a>というマークアップ言語で出来てるそうな</li>
+<li>規格を決めながら開発を進めるというとんでもプロジェクト</li>
+<li>教訓
+
+<ul>
+<li>マネージャーはみんな自信がない。大声で話せばチームは動く</li>
+<li>相手によって言葉を変えないと大変</li>
+<li>Don&rsquo;t ask. 自分の頭で考える</li>
+</ul>
+</li>
+</ul>
+
+
+<h1>富士通HPC時代</h1>
+
+<ul>
+<li>しばらく穏やかな開発</li>
+<li>その後ひょんなことからデスマへ投入</li>
+<li>辞めたいと思ってることがバレてOS部隊から引き抜き</li>
+</ul>
+
+
+<h1>OSSにコントリビュートする理由</h1>
+
+<ul>
+<li>コードは書いた瞬間から負債になる。</li>
+<li>マージコストを極小にする為に書いたら即マージする
+
+<ul>
+<li>byリーナス・トーバルズ</li>
+</ul>
+</li>
+</ul>
+
+
+<h1>当時抱えていた問題</h1>
+
+<ul>
+<li>RHEL5のメモリ管理のトラブル</li>
+<li>kernelとglibcのポリシーが違うバカバカしい問題</li>
+</ul>
+
+
+<h1>やったこと</h1>
+
+<ul>
+<li>LKMLの1日1000通飛んでくるメールに全て目を通した</li>
+<li><a href="http://www.atmarkit.co.jp/flinux/index/indexfiles/watchindex.html">@ITでLinuxカーネル動向みたいなタイトルで連載を開始</a></li>
+<li>オーストラリア人のユーモアのセンスは人類の理解を超えている(お前の英語はわからん)
+
+<ul>
+<li>by Paul Jackson</li>
+</ul>
+</li>
+</ul>
+
+
+<p><img src="/images/developers-summit2014-first-day/open-source-engineer2.jpg" alt="open sorce engineer 2" /></p>
+
+<h1>なぜパッチが汚くなるか</h1>
+
+<ul>
+<li>だいたい複数の問題／パッチに分割可能</li>
+<li>テトリス問題(富士通内ではこう呼んでいる)</li>
+</ul>
+
+
+<h1>最後のまとめ</h1>
+
+<ul>
+<li>仕事忙しくてOSSできないといつまでも出来ない</li>
+<li>燃え盛っている時に火中の栗を拾うのが良い</li>
+<li>任せられるので時間やリソースを自分で好きに出来る</li>
+<li>アウトプットを外に出す、ブログ書くとか連載するとか</li>
+<li>人事権持っている人はコードを読んでる暇がないのでそういうの大事</li>
+<li>地道な改善を積み重ねてOSSの人間関係を成長させる</li>
+</ul>
+
+
+<h1>質疑</h1>
+
+<ul>
+<li>学生時代PCには縁がなかった</li>
+<li>花開いたのは就職してから</li>
+<li>コードの速読したのが良かった</li>
+</ul>
+
+
+<hr />
+
+<p>やっぱり読み返してみて色々補足が必要そうな箇所ありますが、
+それでも面白かったんで熱が覚めないうちにアップしておきます！
+もっと話聞きたかった〜(twitterでもそういう感想の方が複数いましたねｗ)</p>
+]]></content>
+  </entry>
+  
+</feed>

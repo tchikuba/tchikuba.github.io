@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Facebook | tchikuba's blog]]></title>
+  <link href="http://tchikuba.github.io/blog/categories/facebook/atom.xml" rel="self"/>
+  <link href="http://tchikuba.github.io/"/>
+  <updated>2018-10-08T23:21:59+09:00</updated>
+  <id>http://tchikuba.github.io/</id>
+  <author>
+    <name><![CDATA[tchikuba]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octopressでfacebook用OGPを設定する方法]]></title>
+    <link href="http://tchikuba.github.io/blog/2014/02/24/octopress-for-facebook-open-graph/"/>
+    <updated>2014-02-24T20:00:00+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2014/02/24/octopress-for-facebook-open-graph</id>
+    <content type="html"><![CDATA[<p>Octopressでfacebook用OGPを設定する際、意外と引っ掛かるところがあったので手順をまとめておきます。</p>
+
+<h1>OctopressでOGP設定する際に参考にしたサイト</h1>
+
+<ul>
+<li><a href="http://www.mk-mode.com/octopress/2012/12/31/octopress-facebook-ogp/">Octopress &ndash; Facebook OGP 設定！</a></li>
+<li><a href="http://www.sankitch.me/blog/2012/05/09/octopress-customize/">Octopressの気になるところを修正してみた</a></li>
+<li><a href="http://morizyun.github.io/blog/octopress-facebook-ogp-upgrade/">OctopressでFacebookシェア用にOGPを設定する</a></li>
+</ul>
+
+
+<h1>手順</h1>
+
+<h2>1. facebookのapp_idを取得する</h2>
+
+<p>まずfacebookアプリのapp_idを取得します。
+取得方法は<a href="http://www.issun.com/blog/ogp/">facebookのOGP設定について</a>等を参照すると良いかと。</p>
+
+<ul>
+<li>facebookアプリの設定で<code>App Domains</code>を指定しないとJSエラー発生が発生するのでご注意を。</li>
+<li><code>+Add Platform</code>をクリックして<code>ウェブサイト</code>を選択して<code>サイトURL``Mobile Site URL</code>を設定してから<code>App Domains</code>を入力しないと順序が逆だとfacebook側で警告が出ますのでご注意を。</li>
+</ul>
+
+
+<h2>2. OGP用の画像をアップロードする</h2>
+
+<p>OGPの<code>og:image</code>プロパティに指定する画像をアップロードします。</p>
+
+<h2>3. _config.ymlを編集する</h2>
+
+<p><code>facebook_app_id</code>, <code>facebook_locale</code>, <code>default_ogp_image</code>をセットします。</p>
+
+<p><code>yaml _config.yml
+facebook_app_id: app_id ←手順1で取得したapp_id
+facebook_locale: ja_JP
+default_ogp_image: /images/xxx.jpg ←手順2でアップロードした画像の相対パス
+</code></p>
+
+<h2>4. source/_includes/facebook_like.htmlを編集する</h2>
+
+<p>以下のように手順3でセットした<code>facebook_locale</code>と<code>facebook_app_id</code>を動的になるよう修正します。</p>
+
+<p>
+``` html source/_includes/facebook_like.html
+{% if site.facebook_like %}</p>
+
+<div id="fb-root"></div>
+
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/{{ site.facebook_locale }}/all.js#appId={{ site.facebook_app_id }}&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<p>{% endif %}
+```
+</p>
+
+<h2>5. source/_includes/custom/facebook_ogp.htmlを編集する</h2>
+
+<p>以下のようなOGPをセットします。</p>
+
+<p>
+<code>html source/_includes/custom/facebook_ogp.html
+&lt;meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}" /&gt;
+&lt;meta property="og:description" content="{{ description | strip_html | condense_spaces | truncate:150 }}" /&gt;
+&lt;meta property="og:url" content="{{ canonical }}/" /&gt;
+&lt;meta property="og:image" content="{{ site.url }}{% if page.ogp_image %}{{ page.ogp_image }}{% else %}{{ site.default_ogp_image }}{% endif %}" /&gt;
+&lt;meta property="og:author" content="{{ site.author }}" /&gt;
+&lt;meta property="og:site_name" content="{{ site.title }}" /&gt;
+&lt;meta property="og:locale" content="{{ site.facebook_locale }}" /&gt;
+&lt;meta property="og:type" content="{% if page.index %}blog{% else %}article{% endif %}" /&gt;
+&lt;meta property="fb:app_id" content="{{ site.facebook_app_id }}" /&gt;
+</code>
+</p>
+
+<ul>
+<li><code>og:image</code>はフルパスで指定</li>
+</ul>
+
+
+<h2>6. source/_includes/head.htmlを編集する</h2>
+
+<p>上記<code>facebook_ogp.html</code>をインクルードする記述を<code>&lt;/head&gt;</code>の直前に追加します。</p>
+
+<p>
+<code>html source/_includes/head.html
+  (略)
+  {% include custom/facebook_ogp.html %}
+&lt;/head&gt;
+</code></p>
+
+<p>また、"authorに関するOGPが設定不十分だよ"という以下の警告が出ます。</p>
+
+<blockquote><p>&ldquo;The meta tag on the page was specified with name ‘author’, which matches a configured property of this object type. It will be ignored unless specified with the meta property attribute instead of the meta name attribute.&rdquo;</p></blockquote>
+
+<p>これを解消する為には以下のmetaタグを削除します。</p>
+
+<p><code>html source/_includes/head.html
+  &lt;meta name="author" content="{{ site.author }}"&gt;
+</code>
+</p>
+
+<p>以下参考記事です。</p>
+
+<ul>
+<li><a href="http://mekemoke.jp/2013/12/1319.html">ブログの記事をFacebookでシェアした時に、作成者名を表示させる方法 #wpacja2013</a></li>
+</ul>
+
+
+<h2>7. 記事をアップしてOGPデバッガーで確認する</h2>
+
+<p>facebookが提供している<a href="https://developers.facebook.com/tools/debug">OGPデバッガー</a>で
+OGPが意図するように設定されているか確認します。</p>
+
+<p>以下はデバッガーで確認するとよく出る警告です。</p>
+
+<blockquote><p>&ldquo;og:image should be larger. Provided og:image is not big enough. Please use an image that&rsquo;s at least 200x200 and preferably 1500x1500.&rdquo;</p></blockquote>
+
+<ul>
+<li>&ldquo;OGPの画像が十分に大きくないよ"という警告。十分に大きいサイズでないと出るようです。以下参考記事。
+
+<ul>
+<li><a href="http://ore.hatenablog.jp/entry/2013/02/24/185923">Facebookのog:imageが無視されて異なる画像が勝手に指定される件（推奨サイズの追記あり）</a></li>
+<li>推奨は1500x1500らしいのですがそこまで大きくなくても私の場合800pxくらいで大丈夫でした。</li>
+</ul>
+</li>
+</ul>
+
+
+<p>以上</p>
+]]></content>
+  </entry>
+  
+</feed>

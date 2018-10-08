@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: work | tchikuba's blog]]></title>
+  <link href="http://tchikuba.github.io/blog/categories/work/atom.xml" rel="self"/>
+  <link href="http://tchikuba.github.io/"/>
+  <updated>2018-10-08T23:21:59+09:00</updated>
+  <id>http://tchikuba.github.io/</id>
+  <author>
+    <name><![CDATA[tchikuba]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[RubyKaigi 2017 2日目 Matz基調講演＋α]]></title>
+    <link href="http://tchikuba.github.io/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day/"/>
+    <updated>2017-09-19T09:49:45+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day</id>
+    <content type="html"><![CDATA[<p>RubyKaigi 2017は広島での開催。昨年は京都で今年は広島ということで、暫く地方の流れなのかしら？</p>
+
+<h2>Keynote : Yukihiro &ldquo;Matz&rdquo; Matsumoto @yukihiro_matz</h2>
+
+<ul>
+<li>世界最大規模のRubyカンファレンスがRubyKaigi
+
+<ul>
+<li>何を話すか困る</li>
+<li>松田さんには聴衆置いてきぼりでも良いので聞いたこと無い話、技術的な話してよとオファー来る</li>
+<li>才能の話をする</li>
+<li>天才プログラマーと言われるけど自分でそう思ったことはない</li>
+<li>自称プログラミング言語デザイナ</li>
+<li>matzが初めて触れたプログラミング言語はBasic</li>
+<li>自分の思考をまとめるツール=プログラミング言語</li>
+<li>I love all programming languages.</li>
+<li>「matzは他の言語に攻撃的だから嫌い」と言われることがある</li>
+<li>Rubyのmatzだから他言語を貶めてRubyアゲようとしてる、と言われるけど本人全くそんなつもりはない</li>
+<li>とはいえ昔Pythonのメーリスに乗り込んでRubyならこんなことできるよと言ったこともあるけど(笑)</li>
+</ul>
+</li>
+<li>Simula(1968)：初のオブジェクト指向言語の話を</li>
+<li>Animal &ndash; Horse &ndash; Zebraが表現できるように</li>
+<li>Dr. Kristen Nygaard（クリステン・ニゴール）</li>
+<li>「全てのオブジェクト指向言語は私の孫みたいなもんでなぁ」←会った時言われた</li>
+<li>単一継承（木構造）→多重継承（ネットワーク構造）</li>
+<li>C3リニアリゼーションアルゴリズム</li>
+<li>Mixin（Lisp界隈はFlavorsと呼んでた）</li>
+<li>アイスクリームとチョコチップのたとえ</li>
+<li>Rubyはこれをmoduleとして採用</li>
+<li>namespace（ex.Net::HTTP）／singleton（ex.FileUtils）／メソッドの集合（ex.Math）としてのmoduleも</li>
+<li>2013年2.0から新たな機能</li>
+<li>Alias method chain：欠点もある→Module#prependがRailsコミュニティから複数人から提案があった</li>
+<li>一度prependしたら外せないようにするのは敢えて→待てよ</li>
+<li>CLOS（Common Lisp Object System）という言語を想起</li>
+<li>アスペクト指向プログラミングといっても良い（Gregor Kiczalesが考えた）</li>
+<li>リファインメントとしてのmodule</li>
+<li>なぜモンキーパッチングというのか？</li>
+<li>ゲリラ→ゴリラ→モンキーになったっぽい</li>
+<li>ActiveSupportがモンキーパッチングの良い例</li>
+<li>2.days.ago（これRubyかよ）ってのができるようになる</li>
+<li>スコープを区切ったモンキーパッチングなら良いのでは</li>
+<li>Selector namespace （Smallscript）</li>
+<li>Rubyのリファインメント
+
+<ul>
+<li>C#のエクステンションみたいな→ex.RSpec：特定のスコープだけで呼ぶ（現時点でリファインメント使ってない）</li>
+<li>既存のメソッドを置き換える</li>
+</ul>
+</li>
+<li>Structual type checkとしてのmodule（まだプロポーザル）
+
+<ul>
+<li>静的型付けとして将来的には取り込まれる可能性</li>
+</ul>
+</li>
+<li>Ruby3x3への取り組み
+
+<ul>
+<li>MJIT</li>
+<li>Rubex</li>
+<li>Fiber / Guild</li>
+<li>AutoFiber（Unicorn作った人）</li>
+</ul>
+</li>
+<li>静的型付けの取り組みも本日午後に3発表あり</li>
+<li>Matzが手を動かすというよりゴールを示すリードデザイナ</li>
+<li>RubyはMatzの言語というより我々の言語</li>
+<li>ご覧のスポンサーの提供でお送りしています(笑)ブースに行ってくれると私の顔が立つ
+
+<ul>
+<li>Heroku</li>
+<li>VASILY</li>
+<li>Sansan</li>
+<li>Speee</li>
+<li>RakSul</li>
+<li>リクルートマーケティングパートナーズ</li>
+<li>Linkers</li>
+</ul>
+</li>
+</ul>
+
+
+<p>こっから先は話聞くのをメインにしてたので細かくはメモとってなかったので気になる所だけ…</p>
+
+<h2>An introduction and future of Ruby coverage library : Yusuke Endoh @mametter</h2>
+
+<ul>
+<li>カバレッジの種類にも色々ある
+
+<ul>
+<li>条件true/false両方をカバー</li>
+<li>LINEカバレッジだと後置ifなど見逃すケースも</li>
+</ul>
+</li>
+<li>カバレッジをゴールにするのはよくない</li>
+<li>SimpleCovはcoverage.soのラッパー</li>
+</ul>
+
+
+<h2>Improve extension API: C++ as better language for extension : Kouhei Sutou @ktou</h2>
+
+<ul>
+<li>高速化の為にはC/C++とRubyを行ったり来たりしないこと</li>
+<li>C++11
+
+<ul>
+<li>型推論auto</li>
+<li>ラムダ式</li>
+</ul>
+</li>
+<li>遅延メソッド定義</li>
+</ul>
+
+
+<h2>Automated Type Contracts Generation for Ruby : Valentin Fondaratov @rubymine</h2>
+
+<ul>
+<li>JetBrainsの中の人の静的解析の話</li>
+<li>RubyMineの各プロジェクトのテストコードをクラウド化して情報集める的な（たしか）</li>
+</ul>
+
+
+<h2>Type Checking Ruby Programs with Annotations : Soutaro Matsumoto @soutaro</h2>
+
+<ul>
+<li>ずっと前から色々型チェック関連やってる人</li>
+<li><a href="https://github.com/soutaro/steep">Steep</a></li>
+</ul>
+
+
+<h2>Bending The Curve: Putting Rust in Ruby with Helix : Godfrey Chan @chancancode / Terence Lee @hone02</h2>
+
+<ul>
+<li>Herokuの中の人＆もうすぐ中の人（デカい外人もHerokuの中の人）</li>
+<li>RustでRubyのライブラリ作ろう的な <a href="https://github.com/tildeio/helix">https://github.com/tildeio/helix</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[【速報】RubyKaigi 2016初日参加レポート]]></title>
+    <link href="http://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day/"/>
+    <updated>2016-09-08T10:17:39+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day</id>
+    <content type="html"><![CDATA[<p>聞きながらの自分用メモなのでちょっと正確でない点がありそうですが。</p>
+
+<h2>Ruby3 presented by matz</h2>
+
+<ul>
+<li>Typingの話</li>
+<li>SmallTalk→Java→Ruby,JavaScript→Swift,Go→？</li>
+<li>近視眼的な判断で静的型付けを選択するのは危険</li>
+<li>そもそも未来の型とは？</li>
+<li>Duck typing: アヒルが歩くように。アヒルのように振る舞えばOK</li>
+<li>Duckとは期待される振る舞い</li>
+<li>プログラマのメンタルコストを下げたい</li>
+<li>GoのStructual SubtypingはNominal Subtypingより良さ気</li>
+<li>Rubyには歴史的にこれまで型指定がない</li>
+<li>動的型付けの欠点もある</li>
+<li>エラーメッセージが親切じゃない</li>
+<li>型は絶対に書きたくない(会場笑) DRYじゃないし</li>
+<li>Type Annotation,Mixed/Gradual Typingはダメなアイディア</li>
+<li>人にお願いするんじゃなくて技術で解決したいよね</li>
+<li>型推論は素晴らしい</li>
+<li>インタフェース書きたくない</li>
+<li>型の名前を決めるのは結構なコスト。振る舞いがわかっていれば名前を付けたくない</li>
+<li>振る舞いを決める型のデータベースのようなものと型推論を組み合わせると80%くらいは推論可能では</li>
+<li>オープンクラスとかで再定義しちゃうと型推論無効に</li>
+<li>型データベースをgem化して利用して型推論の精度向上とか</li>
+<li>ダックタイピングを維持して型推論をRubyらしく行う</li>
+<li>これらの構想はすべてRubyistが楽しく生産性を維持できるために検討していること</li>
+<li>Ruby3はいつか？ I don&rsquo;t know.(会場笑)</li>
+<li>次の東京オリンピックの時にはRuby3あると良いなぁ</li>
+<li>OSSコミュニティは前に進めないとつまらない。前に進めるためには何でもやる</li>
+</ul>
+
+
+<h2>dRuby presented by @m_seki</h2>
+
+<ul>
+<li>dRubyが生まれたのは1999年</li>
+<li>dRubyはオーパーツ</li>
+<li>shttpsrv: WEBrickより前のRuby製webサーバ</li>
+<li>Rubyのように振る舞う分散オブジェクト</li>
+<li>DRb.start_serviceだけでdRubyの準備可能</li>
+<li>サーバーとクライアントが入れ替わる例</li>
+<li>OOPっぽい感じ</li>
+<li>Queueを使って待合せのデモ</li>
+<li>dRubyはtwitterのプロトタイピングでdRuby/Rindaだったらしい</li>
+<li>プロトタイピングとしての利用価値がある気がする</li>
+<li>セキュリティ系メソッドは消してしまいたい。危ないものは危なく見えるべき</li>
+</ul>
+
+
+<h2>Welcome to haconiwa presented by @udzura</h2>
+
+<ul>
+<li>Drone.io</li>
+<li>dockerらしいコマンドをしょっちゅう打ってた</li>
+<li>Sqaleで使ってるLXC</li>
+<li>haconiwaコマンドでRubyで書かれたプロファイル定義を実行とか</li>
+<li>hacorbコマンドとかでmrubyスクリプトのコンテナ実行</li>
+<li>cgroups的な</li>
+<li>最初はCRubyで実装</li>
+<li>システムコール扱うのに色々嵌ったのでmruby実装へ</li>
+<li>mrubyはコンテナが取り扱うシステムコールをサポートしてるので使いやすい</li>
+</ul>
+
+
+<h2>A proposal of new concurrency model for Ruby 3 presented by @ko1</h2>
+
+<ul>
+<li>資料
+
+<ul>
+<li><a href="http://www.atdot.net/~ko1/activities/2016_rubykaigi.pdf">スライド</a></li>
+<li><a href="http://www.atdot.net/~ko1/diary/201609.html#d6">日本語スクリプト</a></li>
+</ul>
+</li>
+<li>Ruby 3に取り入れられたいと思う並列プログラミングについて</li>
+<li>C言語のポインタと比較するとRubyはGCあるのでハッピープログラムできる</li>
+<li>data raceやrace conditionが発生する例を通してスレッドセーフなプログラミングが如何に難しいかを知る</li>
+<li>Mutexを利用して同期を取るのはバグと性能低下の狭間にある</li>
+<li>Ruby 3ではGuild(ギルド)というスレッドにかわる新たな概念を提案</li>
+<li>Guildは複数スレッドを含む上位概念的なもの</li>
+<li>複数のGuild間での可変オブジェクト受け渡しにはチャネルを使ってコピーするか移籍(transfer membership)という新しい概念で</li>
+<li>Guild内のスレッド間はスレッドセーフが保証される</li>
+<li>これらのGuildの概念でRuby 3で実現したい並列プログラミングのゴールをすべて満たす感じに</li>
+<li>Guild概念導入でスレッドセーフが保証されないキモいコードを書けないようにする方向性</li>
+</ul>
+
+
+<h2>Isomorphic web programming in Ruby presented by @youchan</h2>
+
+<ul>
+<li>去年はHyaliteの話をした</li>
+<li>Menilite: クライアントサイドでもARとか使える的な(JS嫌いなのでw)</li>
+<li>デモ、デモ、ひたすらデモ</li>
+</ul>
+
+
+<h2>Unifying Fixnum and Bignum into Integer presented by @tanaka_akr</h2>
+
+<ul>
+<li>Ruby 2.4ではFixnum,BignumクラスがなくなりIntegerに統合</li>
+<li>環境によってFixnumが扱えるサイズは異なる
+
+<ul>
+<li>手元の環境(OS X Yosemite)だと(2<strong>62-1).classはFixnum,(2</strong>62).classはBignum</li>
+</ul>
+</li>
+<li>Fixnum,BignumはCommon Lispから来てる</li>
+<li>以下のコード無限ループになるけど許容するしか。
+max = 1
+max *= 2 if max.class == Fixnum
+puts max</li>
+<li>教育的に分かりやすい、数学的にも正しい、とmatzに押し込んだ</li>
+</ul>
+
+
+<h2>Scalable job queue system built with Docker presented by @k0kubun</h2>
+
+<ul>
+<li>coockpadでrails開発者の開発効率を向上する為の開発</li>
+<li>RubyKaigiでrailsの話をすると怒られる</li>
+<li>syoryukenってgemはSQSをジョブキューとして使うやつ</li>
+<li>barbequeを作った</li>
+<li>web consoleもあるよ(rails製)</li>
+<li>kuroko2という社内のクローズツールが秀逸すぎたので本来ジョブキュー使うべきところでも出番なし</li>
+<li>kuroko2はOSS化進めてる</li>
+<li>ECSとAutoScalingグループでスケールを自動化</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[イベント「CTOだったNight」@dotsに参加してきました！]]></title>
+    <link href="http://tchikuba.github.io/blog/2016/07/04/previous-cto-night/"/>
+    <updated>2016-07-04T19:38:50+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2016/07/04/previous-cto-night</id>
+    <content type="html"><![CDATA[<p>最近比較的よく行ってる渋谷dotsで行われた<a href="http://eventdots.jp/event/591871">「CTOだったNight」</a>というイベントに参加してきました！
+主催はnanapiの元CTO<a href="https://www.facebook.com/shuichi.wada">和田(wadap)さん</a>。
+話の内容をメモっておいたんですが、思いの外面白かったのでブログ記事としてアップしておきます！</p>
+
+<p>最初は自分用の箇条書きとして書いてたのでちょっと読みづらいかもですがご容赦を…</p>
+
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftchikuba%2Fposts%2F1075437859197673&width=500" width="500" height="371" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+
+<h2>ビズリーチ/レイハウオリ<a href="https://www.facebook.com/shin.takeuchi">竹内さん</a></h2>
+
+<h3>はじめに</h3>
+
+<ul>
+<li>ビズリーチ最近CMやってるらしい</li>
+<li>CTOを1年前に退任した理由
+
+<ul>
+<li>マネジメントの割合が大きくなる</li>
+<li>エンジニアが自由に研究開発するのもお金がないと</li>
+<li>そのための事業創造したい</li>
+</ul>
+</li>
+</ul>
+
+
+<h3>うまくいくCTOとうまくいかないCTOの10の違い</h3>
+
+<ul>
+<li>(1)なんでも作れる技術力
+
+<ul>
+<li>人間力があって技術力はそこそこだと超技術力があるエンジニアに尊敬されない</li>
+</ul>
+</li>
+<li>(2)技術を手段として使える
+
+<ul>
+<li>技術を目的化した発言する人は経営陣が耳を貸さない</li>
+</ul>
+</li>
+<li>(3)経済のルールに争わない</li>
+<li>(4)何よりも人を大切にできる
+
+<ul>
+<li>5-10人くらいに増えるタイミングで引っかかるCTOが多い</li>
+</ul>
+</li>
+<li>(5)ビジネス人格
+
+<ul>
+<li>キャラ設定が必要</li>
+<li>人格とか</li>
+</ul>
+</li>
+<li>(6)本気で社長と対立しない
+
+<ul>
+<li>社長が非エンジニアだとムカつくことしか言わない</li>
+<li>人間は動物だと思って悟りを開いた→社長が可愛くみえてくる</li>
+<li>しょうがないしょうがない</li>
+</ul>
+</li>
+<li>(7)発信力</li>
+<li>(8)外交力</li>
+<li>(9)株/SOの交渉ができる
+
+<ul>
+<li>ちゃんと取らないとダメ</li>
+<li>最低5%は取らないと→希薄されても2,3%とか</li>
+<li>1%だったら辞める</li>
+<li>蓋開けるとCFOがいっぱい持ってたのが通例なのでCFOなんかに負けないように頑張りましょう</li>
+</ul>
+</li>
+<li>(10)何があっても辞めない
+
+<ul>
+<li>辞めない、という前提に立つと価値観を変えないといけない場面がある</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>BASE<a href="https://www.facebook.com/fshin2000">藤川(えふしん)さん</a> &ndash; モバツイでCEO/CTOをやってた頃の振り返り</h2>
+
+<h3>CTOがエースエンジニアであり続ける問題</h3>
+
+<ul>
+<li>AWS運用で工数取られる</li>
+<li>CTOは自分よりも技術的に優れた人間を探すべき</li>
+<li>CTOが技術を触って良いのはコアコンピタンスだけに絞る</li>
+<li>人工知能系CTOとか育成問題に悩む</li>
+</ul>
+
+
+<h3>足回りと未来をつくるコンフリクト</h3>
+
+<ul>
+<li>余裕がなさすぎてやるべきことを理解できてなかった</li>
+<li>現状維持バイアスを捨てるべき</li>
+</ul>
+
+
+<h3>BASEでは</h3>
+
+<ul>
+<li>コードを書かない宣言</li>
+<li>社長のビジョンを支える立ち位置</li>
+<li>マイクロマネジメントの罠にハマっていないか</li>
+<li>港区には近寄らない(夜の街)</li>
+</ul>
+
+
+<h2>パネルディスカッション</h2>
+
+<h3>CTOを辞めた理由</h3>
+
+<ul>
+<li>営業が強くてエンジニアの立場がない</li>
+<li>新しい働き方や新しいサービスを自分でやってみたくなった</li>
+<li>社長と合わなかった、最後何かが切れる音がした感じ</li>
+<li>エンジニアよりデータサイエンティストが大事でエンジニア育てる文化がなかった、頭の悪い経営陣</li>
+</ul>
+
+
+<h3>もしCTOをやり直すなら</h3>
+
+<ul>
+<li>もっと人を見る、リスクを負ってでも入れてくれるか、SOとか</li>
+<li>早目に人を入れればよかった</li>
+<li>なんでも自分でやっちゃう、もっと優先度高い仕事できれば、採用をもっと任せればよかった</li>
+<li>IPOとか長く続く会社とかやってみたいと思う、スポットライトは2年半で売却、IPO3%,10%,1/3とか</li>
+</ul>
+
+
+<h3>社長(経営)との関係性</h3>
+
+<ul>
+<li>CTOだったけどリードエンジニア的な振る舞いだった、あまり経営求められず</li>
+<li>営業系出身社長だと放任でコミュニケーションがとれず1on1入れたり、エンジニア出身だとマイクロマネジメントになりやすい、外部を入れると通じる</li>
+<li>飲み行く、はっきり言う関係性ができてれば良い、社長って人格に欠陥ある人多い、でも本気でいう</li>
+<li>社長が中途半端にコード書けると良くないからPHP以外の言語選んだり</li>
+</ul>
+
+
+<h3>これからCTOになる人に伝えたいこと</h3>
+
+<ul>
+<li>エンジニア的な論理はプログラミング以外のところにも役立つ</li>
+<li>コミュニケーション、エンジニアだけじゃなくビジネスサイドの人とも、コミュニケーションを仕組化する、CTOは孤独だから相談する人を作っておく</li>
+<li>会社全体とかビジネスのことを考えるようになるから良い、営業の話も聞きながら技術的負債に向き合ったり</li>
+<li>マネジメント系の本とか読むとか勉強してアウトプットできるようになる、マネジメントだけどコーチングできてないとか、お互いフィードバック貰って成長・学習する</li>
+</ul>
+
+
+<h2>所感</h2>
+
+<p>CTOに限らず、ビジネスサイドと近い立ち位置で仕事しているエンジニアの方なら誰もが共感できる内容だったかなと思いました。</p>
+
+<p>私自身も経験に照らし合わせて非常に共感した次第です(笑)</p>
+
+<p>大切なことは異文化コミュニケーションであることを受け入れつつも、コミュニケーションを諦めないで主張すべきは主張することかなと。</p>
+
+<p>また、場合によってはみずからの価値観を見直す柔軟性も必要なことだなとも思います。</p>
+
+<p>ある意味政治というか、相反する部分をいかに粘り強くコミュニケーションを取って折り合いをつけるか、という点が重要ですね。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[イベント「dots.女子部勉強会 vol.7 わたし、一生エンジニア宣言！～ 女性エンジニアとして長く働く秘訣 ～」に参加しました！]]></title>
+    <link href="http://tchikuba.github.io/blog/2016/03/26/dots-womans-is-eternal-engineers/"/>
+    <updated>2016-03-26T01:00:00+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2016/03/26/dots-womans-is-eternal-engineers</id>
+    <content type="html"><![CDATA[<p>先日<a href="http://eventdots.jp/event/581423">「dots.女子部勉強会 vol.7 わたし、一生エンジニア宣言！～ 女性エンジニアとして長く働く秘訣 ～」</a>
+というイベントに参加してきました。
+私の妻も私と同じエンジニアでdots.女子部の一員として運営に関わっています。
+妻からこのイベントを企画していることを事前に聞いており、参加を楽しみにしていました。</p>
+
+<p>参加した当日はノートPCを持っていくのを忘れていたので、スマホからひたすらtwitterで実況中継していました（笑）
+備忘録的な意味も込めて、当日のtweetをtogetterまとめっぽくお届けします。</p>
+
+<hr />
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> 夫婦エンジニア系勉強会なう／【満席御礼☆増枠！】dots.女子部勉強会 vol.7 わたし、一生エンジニア宣言！～ 女性エンジニアとして長く働く秘訣 ～ <a href="https://t.co/adjBw1WsRX">https://t.co/adjBw1WsRX</a> <a href="https://t.co/aPFt6UVTge">pic.twitter.com/aPFt6UVTge</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712953224685162496">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">遠距離恋愛の参考になるのかw <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712953816107212800">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>※遠距離恋愛の参考にしたいというdots.女子部メンバーの話を受けて</p>
+
+<h2>夫婦共働きで子供がいるってどんな生活リズム？</h2>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">6,7時に起きて1930以降に娘を迎えに行く。無認可保育園で22時夕食付き。週に1回土曜ヘルパーさんに掃除してもらってる。子供に生活リズム合わせて貰ってる感じ。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712955153498767360">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">週に1度くらいは自炊する。妻の飯はうまい <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712955613215522817">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">1930に迎えに行く。市立の保育園。仕事は自宅でも出来る感じ。最短で22時に寝室に連れて行くがなかなか寝ない。自炊は好きな方で週3,4は自宅で食べるよう努力してる。子供生まれる前は2330くらいまで仕事でコード書いてた。早く帰れないと思ったが何とかなってる <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712956654203981824">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">育休産休半年とったのがリセットになったかも。子供出来る前は昼前に出社して終電で帰るとかだった <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712957549968904192">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">子供出来る前の行きつけの店は子供出来てからは行けなくなった。ウニ、白子ポン酢の離乳食はいける <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712957969789419520">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">マネージャーになったんでコーディング以外の仕事も増えたが、それが子供出来てからは良かったかも。デバッグしてるとなかなか手を止められない <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712958720309735424">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h2>家事の役割分担とかどうしてる？</h2>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">家事は分担してるが出来る限り家事を発生させない。ヘルパーに頼む。ヘルパーに抵抗あっても使うと便利で離れられなくなる。お試しもできるのでじっくり選べば良い。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712959669937971200">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ルンバで自動化。だけど片付けしないと使えない。食洗機使う。メンタルコストが小さい方がやる。旦那の方が家事やってるかも。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712960205303119872">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">子供を病院に連れて行くとか分担難しい。授乳期は女性。風呂入れるのは男性とか。子育てのフェーズによって役割も変わる。病児保育使うケースも。大学の先生は暇じゃないけど休校という必殺技が <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712961486805577728">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">小学生になると大変。学童とか、週3日在宅ワークで外部サービス使うとか。出来なくなったら働き方変えるとか。保育園は凄いところ。保育園行ってるといつの間にか橋持てるとか。小学生だと急にサポートが手薄になる。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712962348487606272">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h2>子供にはお金がかかるけど、どうやって踏ん切りつけた？</h2>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">子供欲しいから必要コストだし、投資信託を始めよう的な。スマホ買うタイミングに似てるかも。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712963055773061124">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h2>夫婦でエンジニアって同業のメリット・デメリットは？</h2>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">同業だと理解がある。実際に助けて貰える。コミュニティも広がる。パソコン見てるだけでは仕事してると思われない。twitterで公開処刑される辛み。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712963563875278848">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">英語のabstract書いて貰ったり、自宅ネットワーク調整して貰ったり。家庭内稟議が通りやすい。テクノロジーに対する不信感がない。子供手当が年収高い方に付く、拮抗してると入れ替わったり。コードレビューしたら怒ってた。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712965062034456576">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h2>地方移住とか考えたりする？</h2>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">地方移住はあまり。仕事は東京やりやすい。子育ては地方かも。教育に対する意識は東京高い。米国への移住は考えたことあり。大学の先生は地方が良いかも。2人揃って移住はタイミング難しい。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712966647728832512">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">東京はサービス充実してる。夜遅くまでお店やってるし。沖縄に子供2人いる女性でリモートワークしてる人もいる。仕事の幅は変わる。どの区を選ぶか子育てには重要。千代田、港、文京は良い。認可保育園は質が担保、コストは圧倒的に安い。無認可寛容。高いけどサービス充実 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712968433600581632">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">家でも普通に仕事してる。子供は気を引いてくるし自宅だと難しい面も。テレビ会議中も泣いてる子供が映り込んだり。youtube便利、広告スキップを1歳半で覚えた。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712969683930992640">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>※リモートワーク的な文脈での話。</p>
+
+<h2>2人目ができると更にカオスって聞くけどどう？</h2>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">2人目は厳しいかな。保育園2名同じとこ入れられないとか。周り見てると2人いると大変。発熱が交互に来るので休みがちに。俺が俺がな30歳頃だと厳しい感じかも。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712971349669511177">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h2>どれくらい産休・育休って取ったの？</h2>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">生まれる3ヶ月前に休んで3ヶ月で復帰。旦那は1週間育休取った。産休入ってすぐ生まれた、6ヶ月育休。旦那は転職したてて育休取れず。保育園行けるかは死活問題だが分断がある。Googleは男性もほとんど1ヶ月育休取る。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712972849837805568">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h2>今後の夢とかは？</h2>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">成長の過程をnohanaで子供の写真を両親に共有。60歳になってもコーディング出来るの示す。妻が偉くなって。プログラマの多様性が低いのが謎。偉くなること。子育てでも謎な性差別が多い。当たり前が当たり前になる世の中。子育ては男性が言うと受け止められ方が違う <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712975220647141376">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h2>終了後の懇親会</h2>
+
+<div id="fb-root"></div>
+
+
+<script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div class="fb-post" data-href="https://www.facebook.com/tchikuba/posts/1003043319770461" data-width="500"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/tchikuba/posts/1003043319770461"><p>&#x30aa;&#x30b5;&#x30ec;&#x306a;&#x30b1;&#x30fc;&#x30bf;&#x30ea;&#x30f3;&#x30b0;</p><a href="https://www.facebook.com/tchikuba">竹馬 力</a>さんの投稿&nbsp;<a href="https://www.facebook.com/tchikuba/posts/1003043319770461">2016年3月24日</a></blockquote></div></div>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">本日はwomen techmakers様にスポンサードして頂いております！この後は懇親会♡ <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://t.co/2D1w15ZvN6">pic.twitter.com/2D1w15ZvN6</a></p>&mdash; dots. 女子部 - 公式アカウント (@dotsgirls) <a href="https://twitter.com/dotsgirls/status/712977420005933057">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h2>他の参加者の方の感想</h2>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">女性向けの話を男性に聞いてほしいってのはとてもわかる。今日参加者に結構多いのはとても嬉しいし、まじでパネラーの旦那様お二方が素晴らしいし、本当にビデオ撮って見せつければ良かったって後悔してる。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; ちゃんとく (@tokutoku393) <a href="https://twitter.com/tokutoku393/status/712976611251867648">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">今日は貴重なお話をありがとうございました！私の彼氏がすごい楽しんでました。参加して良かった«٩(*´ ꒳ `*)۶» <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; なほ (@LaurierPetit) <a href="https://twitter.com/LaurierPetit/status/713004792126177280">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">今日楽しかった〜〜。なんか漠然とした不安はいつでもありますって言われて、その言葉になんか安心した。<a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; りほ (@rllllho) <a href="https://twitter.com/rllllho/status/713011568552751104">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">帰宅！ 楽しかったです、ありがとうございました。最後の皆さんの感想が割とみんな「（二組とも）いい旦那様だな〜と思いました」だったのがちょっと受けたw <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Kinuko Yasuda (@kinu) <a href="https://twitter.com/kinu/status/713013770071572480">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<hr />
+
+<h2>やっぱりエンジニア夫婦って(・∀・)ｲｲﾈ!!</h2>
+
+<p>勉強会に参加して感じたことです。
+同業だと問題もあるという話を聞いたりもしますが、ふたりともエンジニアである場合、メリットばかりが目についてデメリットってほとんど思いつかないです。
+テクノロジーへの理解があるという点、非常に共感しました。新しい製品を買ったりするのに家庭内稟議は圧倒的に通りやすいんじゃないかとｗ</p>
+
+<p>あと、今回登壇されたご夫婦2組とも、男性の優秀さもさることながら、女性の優秀さが凄いなと感じました。
+なのでプログラマである私の妻にも、このご夫婦に見習って凄くなってもらおうと思います（笑）</p>
+
+<h2>エンジニア・チームのダイバーシティ向上を！</h2>
+
+<p>私は日頃から、ダイバーシティの観点から、あらゆる組織は男女比率がおよそ半々である方が良いと考えています。
+しかしながら現時点では、特にエンジニアの世界では圧倒的に男性比率が高い状況があります。</p>
+
+<p>たとえば、10代、20代の女性をターゲットにしたwebサービス開発エンジニアは全員男性で、女性が1人もいない、などのケースも比較的よく耳にします。
+中長期的に続くことが前提のサービスにあって、手を動かすエンジニアがdog foodingできることは、成功する確率を高める最も大きな要因の1つだと思います。
+その意味では、女性向けのwebサービスであれば女性エンジニアが手を動かした方が、より良いサービスを創ることができるのではないでしょうか。</p>
+
+<p>今後もしエンジニアのチームを構成することがあるとすれば、できる限り男女比率を半々になるようにやっていきたいと改めて決意した次第です！</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[「dots.2周年記念パーティ」に参加しました！]]></title>
+    <link href="http://tchikuba.github.io/blog/2015/10/30/dots-2years-party/"/>
+    <updated>2015-10-30T19:22:05+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2015/10/30/dots-2years-party</id>
+    <content type="html"><![CDATA[<p>2015年10月30日(金)に行われた<a href="http://eventdots.jp/">dots</a>の<a href="http://eventdots.jp/event/571415">2周年記念パーティー</a>に参加してきました！
+rubyのパパこと<a href="https://twitter.com/yukihiro_matz">matz</a>の話が聞けるということで楽しみにしてたイベントでした。
+またdotsは渋谷のイベント・コワーキングスペースを2015年8月から運営しており、運営に関わっている人が知人でもあり、ちょこちょこ利用させて貰ってます。</p>
+
+<hr />
+
+<p>※リアルタイム更新してました！</p>
+
+<h2>まつもとゆきひろ氏</h2>
+
+<ul>
+<li>PHPで出来てるdotsにあまり関係ないruby開発者のまつもとゆきひろです（笑）</li>
+<li>スライドタイトルにデザイナってつけたのは渋谷でお洒落感出したかったからむりくり。</li>
+<li>ひろゆきの方が圧倒的に多い名前で2ch作った人ですよね？って間違えられた。</li>
+<li>同じように西村博之氏がruby作った人ですよね？って間違えられたことがあるらしい。</li>
+<li>プログラミングなんて教育出来ないですよねーとか言って嫌がられる。</li>
+<li>昔のスパコンは今のiPhone5と同じCPUパワー。</li>
+<li>言語が進化することで脳の限界で出来なかったことを出来るようになった。</li>
+<li>本質を理解すればバズワードではなくなる。</li>
+<li>C10K/C100K問題</li>
+<li>変わらないものが大事。数学・アルゴリズム・コンピュータ基礎・基本プロトコル・人間・インタフェースの原理</li>
+<li>matzが尊敬するデイブ・トーマス</li>
+<li>中学の時にプログラミングやったらコンピュータが思う通りに動いて「カワイイ」と思ったのが原点</li>
+<li>basic言語の辛みからプログラミング言語に関心を持った高校生時代。Pascalの本とか。</li>
+<li>未来はコンピュータと直接インタラクションするようになる。スタートレックのコンピュータみたいな。</li>
+<li>reactとか面白い。</li>
+</ul>
+
+
+<h2>パネルディスカッション</h2>
+
+<ul>
+<li>エンジニアの働き方とか</li>
+<li>ビットジャーニー代表井原さん：なんで呼ばれた感満載で技術分かんない</li>
+<li>VASILYのCTO今村さん：かっこいい写真</li>
+<li>クラウドワークスCTO大場さん：娘と一緒に登壇</li>
+<li>クックパッドCTO舘野さん：本日のモデレーター</li>
+</ul>
+
+
+<h3>未来に必要な技術とは？</h3>
+
+<ul>
+<li>スティーブ・ジョブズ見たらクズだった。クズさが必要by大場さん</li>
+<li>ベースになる技術が必要</li>
+<li>好きなモノを突き詰めてる人に任せたいと思う</li>
+</ul>
+
+
+<h3>未来に繋がる考え方は？</h3>
+
+<ul>
+<li>何の為に学ぶかをしっかり持つ。信念が大事</li>
+<li>仕事してても好きな仕事を優先してたまつもとゆきひろさん。クズ感出てきましたねｂｙ大場さん</li>
+<li>人の能力の総量は桁が違うということはない。あとはパラメータの問題。なので何か1つのことに振る方が集中出来る。ｂｙまつもとさん</li>
+</ul>
+
+
+<h3>どう働くべきなのか？</h3>
+
+<ul>
+<li>エンジニアが得意なことを1つの会社が囲うのは勿体無い。会社もオープンソース化すべき。ｂｙ井原さん</li>
+<li>毎朝保育所に子供をデプロイ（笑）して出社するとか、全力出せる時間が少なくなる。生活も子供中心。労働のオープンソース化までやりたいｂｙ大場さん</li>
+<li>朝来ないからと言って全力を出せないとは思っていない信頼感がある。エンジニアはパフォーマンスを出せる時間に集中することｂｙ今村さん</li>
+</ul>
+
+
+<h3>今後のオープンソースの動向</h3>
+
+<ul>
+<li>欲しいOSS
+
+<ul>
+<li>クラウド・ビッグデータ等のOSSは既にあるよね。hadoop,sparkとか。2世代目に凄いの来るかも。ｂｙまつもとさん</li>
+<li>meteorとかactive value？コンセプト。リアルタイムでデータを出力し続ける。データバインディングに革新が起きればSPAが画期的に変わってくる可能性。ｂｙまつもとさん</li>
+<li>口に出すの恥ずかしいソシャゲを登壇中にやるまつもとゆきひろさん（笑）</li>
+<li>TreasureData, Elasticsearchとか、更に運用を楽にしてくれるOSSがもっと出てくるかも。ｂｙ大場さん</li>
+<li>hashicoop製品使い始めたところ。決定版はまだまだなので欲しい。マーケティングオートメーション的なOSSとか。意思決定を支えるOSS。サービスレイヤーに近いOSS。ｂｙ今村さん</li>
+<li>kaizen platform的なものとかあるけどミドルウェアが違うので各社自社で実装している。ｂｙ舘野さん</li>
+<li>製品を半オープンソースにして製品のコードを使っている会社のエンジニアがプルリクエスト送ってくるみたいな。企業のありかた。レベニューシェアとか。ｂｙ井原さん</li>
+</ul>
+</li>
+<li>注目される開発コミュニティ
+
+<ul>
+<li>黎明期のOSSコミュニティは自身の影響度が大きいのでエンジニアとしてはやりがいがある。ｂｙ舘野さん</li>
+<li>日本人がいないコミュニティに入ると国際化対応とか日本人しか分からないところで貢献できるよねｂｙ大場さん</li>
+<li>開発コミュニティの敷居を下げるような活動とかOSSとかが必要。最初の一歩を手伝うような活動とかｂｙ今村さん</li>
+<li>コードレビューすらしていない会社もたくさん。OSS以前の問題で底上げが必要かもｂｙ井原さん</li>
+<li>大体動くけど隙があるOSSは他の人がコミットしてくれる。OSSに必要なのは炎上力だ！ｂｙまつもとさん</li>
+<li>DHHとか敢えて目立つ発言して炎上させてる節がある。あれもOSS運用力の一つかもｂｙ舘野さん</li>
+<li>コミュニティへの帰属意識が変わってきている。github時代は様々なOSSにコミットするように変わってきているｂｙまつもとさん</li>
+</ul>
+</li>
+<li>質問
+
+<ul>
+<li>好きなことに全振りすれば良い。サポートにはサポートの、新技術を開発する人にはその人の意味があるｂｙまつもとさん</li>
+<li>ダブルクリックというユーザーインターフェースが悪い（笑）ｂｙ今村さん</li>
+<li>ハードウェア系もArduinoから始まるオープン化で組合せでやりたいことが出来るようになってきたｂｙ舘野さん</li>
+<li>toC向けのハードウェアサービスレイヤのイノベーションはこれから起きるんじゃないか。mrubyとかも2020年とかにもっと爆発的に広まるんじゃないかｂｙ舘野さん</li>
+<li>新しいことが生まれる時は未知との遭遇から。ハードウェアエンジニアとウェブエンジニアだと摩擦が起きるけどそれを乗り越えたらイノベーションがｂｙまつもとさん</li>
+<li>時間の使い方や優先順位を伝えるのも重要だがノンバーバルな部分が伝わるのでちゃんと朝・晩は一緒に娘と飯を食うように自分にルールを課したｂｙまつもとさん</li>
+</ul>
+</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

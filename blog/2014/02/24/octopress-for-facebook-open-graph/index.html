@@ -1,0 +1,451 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Octopressでfacebook用OGPを設定する方法 - tchikuba's blog</title>
+
+  
+  <meta name="description" content="Octopressでfacebook用OGPを設定する際に以外と引っ掛かるところがあったので共有します。">
+  <meta name="keywords" content="Octopress,Facebook,OGP">
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://tchikuba.github.io/blog/2014/02/24/octopress-for-facebook-open-graph/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="tchikuba's blog" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<script language="JavaScript">
+$(document).ready( function () {
+  $("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
+})
+</script>
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-46605167-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+  <meta property="og:title" content="Octopressでfacebook用OGPを設定する方法 - tchikuba's blog" />
+<meta property="og:description" content="Octopressでfacebook用OGPを設定する際に以外と引っ掛かるところがあったので共有します。" />
+<meta property="og:url" content="http://tchikuba.github.io/blog/2014/02/24/octopress-for-facebook-open-graph/" />
+<meta property="og:image" content="http://tchikuba.github.io/images/facebook_profile.jpg" />
+<meta property="og:author" content="tchikuba" />
+<meta property="og:site_name" content="tchikuba's blog" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:type" content="article" />
+<meta property="fb:app_id" content="659253570789231" />
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">tchikuba's blog</a></h1>
+  
+    <h2>Beer Driven Developer / Lean Engineerの徒然</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:tchikuba.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Octopressでfacebook用OGPを設定する方法</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-02-24T20:00:00+09:00" pubdate data-updated="true">Feb 24<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Octopressでfacebook用OGPを設定する際、意外と引っ掛かるところがあったので手順をまとめておきます。</p>
+
+<h1>OctopressでOGP設定する際に参考にしたサイト</h1>
+
+<ul>
+<li><a href="http://www.mk-mode.com/octopress/2012/12/31/octopress-facebook-ogp/">Octopress &ndash; Facebook OGP 設定！</a></li>
+<li><a href="http://www.sankitch.me/blog/2012/05/09/octopress-customize/">Octopressの気になるところを修正してみた</a></li>
+<li><a href="http://morizyun.github.io/blog/octopress-facebook-ogp-upgrade/">OctopressでFacebookシェア用にOGPを設定する</a></li>
+</ul>
+
+
+<h1>手順</h1>
+
+<h2>1. facebookのapp_idを取得する</h2>
+
+<p>まずfacebookアプリのapp_idを取得します。
+取得方法は<a href="http://www.issun.com/blog/ogp/">facebookのOGP設定について</a>等を参照すると良いかと。</p>
+
+<ul>
+<li>facebookアプリの設定で<code>App Domains</code>を指定しないとJSエラー発生が発生するのでご注意を。</li>
+<li><code>+Add Platform</code>をクリックして<code>ウェブサイト</code>を選択して<code>サイトURL``Mobile Site URL</code>を設定してから<code>App Domains</code>を入力しないと順序が逆だとfacebook側で警告が出ますのでご注意を。</li>
+</ul>
+
+
+<h2>2. OGP用の画像をアップロードする</h2>
+
+<p>OGPの<code>og:image</code>プロパティに指定する画像をアップロードします。</p>
+
+<h2>3. _config.ymlを編集する</h2>
+
+<p><code>facebook_app_id</code>, <code>facebook_locale</code>, <code>default_ogp_image</code>をセットします。</p>
+
+<figure class='code'><figcaption><span>_config.yml</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">facebook_app_id</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">app_id ←手順1で取得したapp_id</span>
+</span><span class='line'><span class="l-Scalar-Plain">facebook_locale</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">ja_JP</span>
+</span><span class='line'><span class="l-Scalar-Plain">default_ogp_image</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/images/xxx.jpg ←手順2でアップロードした画像の相対パス</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>4. source/_includes/facebook_like.htmlを編集する</h2>
+
+<p>以下のように手順3でセットした<code>facebook_locale</code>と<code>facebook_app_id</code>を動的になるよう修正します。</p>
+
+<figure class='code'><figcaption><span>source/_includes/facebook_like.html</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'>{% if site.facebook_like %}
+</span><span class='line'><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;fb-root&quot;</span><span class="nt">&gt;&lt;/div&gt;</span>
+</span><span class='line'><span class="nt">&lt;script&gt;</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">d</span><span class="p">,</span> <span class="nx">s</span><span class="p">,</span> <span class="nx">id</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>  <span class="kd">var</span> <span class="nx">js</span><span class="p">,</span> <span class="nx">fjs</span> <span class="o">=</span> <span class="nx">d</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="nx">s</span><span class="p">)[</span><span class="mi">0</span><span class="p">];</span>
+</span><span class='line'>  <span class="k">if</span> <span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="nx">id</span><span class="p">))</span> <span class="p">{</span><span class="k">return</span><span class="p">;}</span>
+</span><span class='line'>  <span class="nx">js</span> <span class="o">=</span> <span class="nx">d</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span> <span class="nx">js</span><span class="p">.</span><span class="nx">id</span> <span class="o">=</span> <span class="nx">id</span><span class="p">;</span>
+</span><span class='line'>  <span class="nx">js</span><span class="p">.</span><span class="nx">src</span> <span class="o">=</span> <span class="s2">&quot;//connect.facebook.net/{{ site.facebook_locale }}/all.js#appId={{ site.facebook_app_id }}&amp;xfbml=1&quot;</span><span class="p">;</span>
+</span><span class='line'>  <span class="nx">fjs</span><span class="p">.</span><span class="nx">parentNode</span><span class="p">.</span><span class="nx">insertBefore</span><span class="p">(</span><span class="nx">js</span><span class="p">,</span> <span class="nx">fjs</span><span class="p">);</span>
+</span><span class='line'><span class="p">}(</span><span class="nb">document</span><span class="p">,</span> <span class="s1">&#39;script&#39;</span><span class="p">,</span> <span class="s1">&#39;facebook-jssdk&#39;</span><span class="p">));</span><span class="nt">&lt;/script&gt;</span>
+</span><span class='line'>{% endif %}
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>5. source/_includes/custom/facebook_ogp.htmlを編集する</h2>
+
+<p>以下のようなOGPをセットします。</p>
+
+<figure class='code'><figcaption><span>source/_includes/custom/facebook_ogp.html</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;og:title&quot;</span> <span class="na">content=</span><span class="s">&quot;{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}&quot;</span> <span class="nt">/&gt;</span>
+</span><span class='line'><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;og:description&quot;</span> <span class="na">content=</span><span class="s">&quot;{{ description | strip_html | condense_spaces | truncate:150 }}&quot;</span> <span class="nt">/&gt;</span>
+</span><span class='line'><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;og:url&quot;</span> <span class="na">content=</span><span class="s">&quot;{{ canonical }}/&quot;</span> <span class="nt">/&gt;</span>
+</span><span class='line'><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;og:image&quot;</span> <span class="na">content=</span><span class="s">&quot;{{ site.url }}{% if page.ogp_image %}{{ page.ogp_image }}{% else %}{{ site.default_ogp_image }}{% endif %}&quot;</span> <span class="nt">/&gt;</span>
+</span><span class='line'><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;og:author&quot;</span> <span class="na">content=</span><span class="s">&quot;{{ site.author }}&quot;</span> <span class="nt">/&gt;</span>
+</span><span class='line'><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;og:site_name&quot;</span> <span class="na">content=</span><span class="s">&quot;{{ site.title }}&quot;</span> <span class="nt">/&gt;</span>
+</span><span class='line'><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;og:locale&quot;</span> <span class="na">content=</span><span class="s">&quot;{{ site.facebook_locale }}&quot;</span> <span class="nt">/&gt;</span>
+</span><span class='line'><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;og:type&quot;</span> <span class="na">content=</span><span class="s">&quot;{% if page.index %}blog{% else %}article{% endif %}&quot;</span> <span class="nt">/&gt;</span>
+</span><span class='line'><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;fb:app_id&quot;</span> <span class="na">content=</span><span class="s">&quot;{{ site.facebook_app_id }}&quot;</span> <span class="nt">/&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li><code>og:image</code>はフルパスで指定</li>
+</ul>
+
+
+<h2>6. source/_includes/head.htmlを編集する</h2>
+
+<p>上記<code>facebook_ogp.html</code>をインクルードする記述を<code>&lt;/head&gt;</code>の直前に追加します。</p>
+
+<figure class='code'><figcaption><span>source/_includes/head.html</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'>  (略)
+</span><span class='line'>  {% include custom/facebook_ogp.html %}
+</span><span class='line'><span class="nt">&lt;/head&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>また、&#8221;authorに関するOGPが設定不十分だよ&#8221;という以下の警告が出ます。</p>
+
+<blockquote><p>&ldquo;The meta tag on the page was specified with name ‘author’, which matches a configured property of this object type. It will be ignored unless specified with the meta property attribute instead of the meta name attribute.&rdquo;</p></blockquote>
+
+<p>これを解消する為には以下のmetaタグを削除します。</p>
+
+<figure class='code'><figcaption><span>source/_includes/head.html</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'>  <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">&quot;author&quot;</span> <span class="na">content=</span><span class="s">&quot;{{ site.author }}&quot;</span><span class="nt">&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>以下参考記事です。</p>
+
+<ul>
+<li><a href="http://mekemoke.jp/2013/12/1319.html">ブログの記事をFacebookでシェアした時に、作成者名を表示させる方法 #wpacja2013</a></li>
+</ul>
+
+
+<h2>7. 記事をアップしてOGPデバッガーで確認する</h2>
+
+<p>facebookが提供している<a href="https://developers.facebook.com/tools/debug">OGPデバッガー</a>で
+OGPが意図するように設定されているか確認します。</p>
+
+<p>以下はデバッガーで確認するとよく出る警告です。</p>
+
+<blockquote><p>&ldquo;og:image should be larger. Provided og:image is not big enough. Please use an image that&rsquo;s at least 200x200 and preferably 1500x1500.&rdquo;</p></blockquote>
+
+<ul>
+<li>&ldquo;OGPの画像が十分に大きくないよ&#8221;という警告。十分に大きいサイズでないと出るようです。以下参考記事。
+
+<ul>
+<li><a href="http://ore.hatenablog.jp/entry/2013/02/24/185923">Facebookのog:imageが無視されて異なる画像が勝手に指定される件（推奨サイズの追記あり）</a></li>
+<li>推奨は1500x1500らしいのですがそこまで大きくなくても私の場合800pxくらいで大丈夫でした。</li>
+</ul>
+</li>
+</ul>
+
+
+<p>以上</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">tchikuba</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-02-24T20:00:00+09:00" pubdate data-updated="true">Feb 24<span>th</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/facebook/'>Facebook</a>, <a class='category' href='/blog/categories/ogp/'>OGP</a>, <a class='category' href='/blog/categories/octopress/'>Octopress</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  <a href="http://b.hatena.ne.jp/entry/http://tchikuba.github.io/blog/2014/02/24/octopress-for-facebook-open-graph/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tchikuba.github.io/blog/2014/02/24/octopress-for-facebook-open-graph/" data-via="tchikuba" data-counturl="http://tchikuba.github.io/blog/2014/02/24/octopress-for-facebook-open-graph/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/02/14/engineers-work-style-at-google-japan/" title="Previous Post: 「エンジニア近未来ワークスタイル2014」@GoogleJapanオフィスに行ってきた">&laquo; 「エンジニア近未来ワークスタイル2014」@GoogleJapanオフィスに行ってきた</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2014/03/21/users-event-of-crowdworks-2nd-anniversary/" title="Next Post: 「クラウドワークス2周年記念 ユーザー大交流会」に参加してきました">「クラウドワークス2周年記念 ユーザー大交流会」に参加してきました &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2018/09/27/minnano-code-meetup/">イベント「~エンジニア×先生×NPOで語る、これが本当のプログラミング教育~みんなのコードmeetup」に参加してきました</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/12/11/super-getting-started-books/">【書籍レビュー】超入門シリーズ本を献本頂きました</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day/">RubyKaigi 2017 2日目 Matz基調講演＋α</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/07/19/programming-skils-for-entrepreneur/">イベント「非エンジニア起業家に求められるプログラミングスキルとは」に参加しました！</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/05/22/ruby-on-rails-5-application-programming/">【書籍レビュー】Ruby on Rails 5 アプリケーションプログラミングを献本頂きました</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/09/08/rubykaigi2016-1st-day/">【速報】RubyKaigi 2016初日参加レポート</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/07/04/previous-cto-night/">イベント「CTOだったNight」@dotsに参加してきました！</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/03/26/dots-womans-is-eternal-engineers/">イベント「dots.女子部勉強会 vol.7 わたし、一生エンジニア宣言！～ 女性エンジニアとして長く働く秘訣 ～」に参加しました！</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/12/05/life-of-creative-people/">21世紀型のクリエイティブな働き方・思考・組織の新しいあたりまえ</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/10/31/ecma-script-6-study/">「ECMAScript6勉強会」HappyHalloween JS 祭！！に参加してきました！</a>
+      </li>
+    
+  </ul>
+</section>
+<section>
+  <h1>About Me</h1>
+  <p>tchikuba (<a href="http://twitter.com/tchikuba" target="_blank">@tchikuba</a>)</p>
+  <h3>vim Ruby Rails PHP</h3>
+  <h3>CoffeeScript AngularJS</h3>
+  <h3>BDD TDD Lean Agile</h3>
+  <h3>Statistics Machine Learning</h3>
+  <h3>Beer Driving Singing SNS</h3>
+</section>
+
+
+
+
+<section>
+  <h1>Latest Tweets</h1>
+    <a class="twitter-timeline" href="https://twitter.com/tchikuba" data-widget-id="413610122833690624">@tchikuba からのツイート</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</section>
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2018 - tchikuba -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+  - <span class="credit">Theme by <a href="http://www.gehaxelt.in">Gehaxelt</a></span>
+  <span class="credit">and <a href="http://www.it-solutions-neef.de">IT Solutions Neef</a></span>
+</p>
+
+</footer>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#appId=659253570789231&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

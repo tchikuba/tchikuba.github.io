@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: css | tchikuba's blog]]></title>
+  <link href="http://tchikuba.github.io/blog/categories/css/atom.xml" rel="self"/>
+  <link href="http://tchikuba.github.io/"/>
+  <updated>2018-10-08T23:21:59+09:00</updated>
+  <id>http://tchikuba.github.io/</id>
+  <author>
+    <name><![CDATA[tchikuba]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[【書籍レビュー】超入門シリーズ本を献本頂きました]]></title>
+    <link href="http://tchikuba.github.io/blog/2017/12/11/super-getting-started-books/"/>
+    <updated>2017-12-11T19:47:03+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2017/12/11/super-getting-started-books</id>
+    <content type="html"><![CDATA[<p><a href="/blog/2017/05/22/ruby-on-rails-5-application-programming/">前回</a>に引き続き、WINGSプロジェクトが監修し、技術評論社から出版されている超入門シリーズ本を以下の3冊献本して頂きました。</p>
+
+<p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/B071GQQDNM/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071GQQDNM&linkCode=as2&tag=athome0a-22&linkId=31b2a479600687cd2a87420281ca995e"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B071GQQDNM&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071GQQDNM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/B071X8SKXN/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071X8SKXN&linkCode=as2&tag=athome0a-22&linkId=ec260d486540778f7bdc4f8fdd0cebfb"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B071X8SKXN&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071X8SKXN" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/B071GTJSPL/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071GTJSPL&linkCode=as2&tag=athome0a-22&linkId=fcb1d876a5f5de8815781b325db0b4d6"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B071GTJSPL&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071GTJSPL" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<p>それぞれの本についてレビューをば。</p>
+
+<p>※関係者の方々、対応が遅くなり申し訳ありません。。</p>
+
+<hr />
+
+<h2>【書評】<a target="_blank" href="https://www.amazon.co.jp/gp/product/B071GQQDNM/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071GQQDNM&linkCode=as2&tag=athome0a-22&linkId=942c9cecdc280376dec9ed521cf1406c">たった1日で基本が身に付く！  HTML&amp;CSS超入門</a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071GQQDNM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></h2>
+
+<p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/B071GQQDNM/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071GQQDNM&linkCode=as2&tag=athome0a-22&linkId=31b2a479600687cd2a87420281ca995e"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B071GQQDNM&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071GQQDNM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<h3>webサイトとはそもそもなんぞや？という点からちゃんと解説されている</h3>
+
+<p>超入門書なだけあって、そもそもwebサイトがサーバーに設置されていてブラウザなどのクライアントからアクセスして読み込むものだ、的な基礎的な部分からちゃんと解説されています。
+また、技術的側面だけでなく、webサイトを設置する目的やどう設計するか？についてもちゃんと触れられている点が素晴らしいです。</p>
+
+<h3>HTML5をベースとしたセマンティックwebが意識されている</h3>
+
+<p>超入門書といえど、headerタグやfooterタグなどを通してセマンティックwebについて早い段階でちゃんと解説されています。</p>
+
+<h3>CSS（Cascading Style Sheets）の基本がしっかり理解できる</h3>
+
+<p>CSSの発展の歴史を紹介していたり、HTMLタグをwebページの装飾目的で使うことを戒めたりなど、経験あるwebサイト制作者の方の言葉が散りばめられている辺り、好感が持てる印象でした。</p>
+
+<p>あと、私自身はサーバーサイドエンジニアなのでHTMLとCSSはなんとなくのフィーリングで理解しているところもあったので、例えばボックスモデルなどは恥ずかしながらmargin, border, padding辺りの違いについての認識が甘いところがあります。その辺りがちゃんと体系的に再確認できたのは良かったです。</p>
+
+<p>同様の理由で、段組みレイアウトの辺りの解説もまた、何がブロックレベル要素で何がインライン要素なのかとかあまり意識できてなかったり、フロートレイアウトなどもフィーリングで理解していたところがあったので正直勉強になりました。</p>
+
+<h3>レスポンシブデザインに対応している</h3>
+
+<p>最近では必須のレスポンシブデザインに対応しており、具体的にはスマートフォン対応する具体的な方法についても解説されています。
+私自身、メディアクエリとかちゃんと理解できてなかったところがありました。。</p>
+
+<h3>総評</h3>
+
+<p>本書を一通りなぞれば、コーヒーショップのレスポンシブなホームページのサンプルを制作することができます。
+本書を足がかりにすれば、<strong>読者は基本的なwebデザインのうちHTML・CSSコーディングができるようになる</strong>と思います。</p>
+
+<p>その意味で本書は良書だなーと思いました。</p>
+
+<p>また、私みたいにサーバーサイドエンジニアが本業なんだけど、フロントエンドはそこまで詳しくないけどちゃんと体系的にイチからインプットしたい、というモチベーションがある人には刺さるかもしれません。
+とはいえフロントエンドもある程度できるエンジニアにはちょっと物足りないかもしれませんが。</p>
+
+<p>余談ですが、<em>「本業サーバーサイドエンジニアに贈る基礎から学ぶフロントエンド」</em>的な書籍があったら実はニーズあるんじゃないかと思いましたｗ</p>
+
+<h2>【書評】<a target="_blank" href="https://www.amazon.co.jp/gp/product/B071X8SKXN/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071X8SKXN&linkCode=as2&tag=athome0a-22&linkId=9d4e7a69fed84321916b7baa8a77ebad">たった1日で基本が身に付く！  JavaScript超入門</a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071X8SKXN" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></h2>
+
+<p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/B071X8SKXN/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071X8SKXN&linkCode=as2&tag=athome0a-22&linkId=ec260d486540778f7bdc4f8fdd0cebfb"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B071X8SKXN&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071X8SKXN" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<h3>webアプリケーションとはなんぞや？についてちゃんと解説されている</h3>
+
+<p>超入門シリーズ本にはおなじみですが、ターゲット読者層がプログラミング未経験者なので、そもそもwebアプリケーションってなんだっけ？とかサーバーサイド、クライアントサイドの違いみたいな基礎的なところから解説が始まります。</p>
+
+<p>執筆者の立場として個人的に思うのですが、このあたりの解説ってすんなり説明するのが意外に難しいところだったりします。
+どこまで歴史的な背景やバックグラウンドを説明するのかとか。</p>
+
+<p>このあたりの部分、前半部分での説明が超入門者向けにも過不足なく非常に分かりやすいのではないかと思います。</p>
+
+<p>また、JavaScriptでできることの幅が広がりつつある昨今ですが、その辺りにも触れつつ、本書でカバーする範囲をクライアントサイドのwebアプリケーション機能開発に特化していると明記していることもわかりやすさを担保することに繋がっている気がします。</p>
+
+<h3>イベントやAPI、WebStorageについて扱っている</h3>
+
+<p>超入門者向けでも、JavaScriptによるwebアプリケーションの基礎としてイベントドリブンモデルについて解説されています。
+本書はwebアプリケーション前提なので、JavaScriptを語る上で密接に関わってくるイベントについて1つの章を割いて解説を加えているのかもしれません。</p>
+
+<p>後半の章では、Flickr APIを用いて画像検索するアプリ作成を行っており、より実践的な内容になっています。
+更に、Webstorageについても触れられており、こちらもAPI同様、より実践的な内容かなという印象です。</p>
+
+<h3>Windows環境にApacheインストールの辛い</h3>
+
+<p>これも超入門シリーズ本全般で辛いところではありますが、環境構築でWindowsを前提とするツラミはちょっとあるかなと。
+webアプリケーションにおけるJavaScriptというところで、Apacheのインストールは避けられなかったかもしれませんが。</p>
+
+<h3>オブジェクトがいきなり出てくる</h3>
+
+<p>超入門者にとって、前半の早い段階でオブジェクトという概念がいきなり出てくるのでちょっとギョッとするかもしれません。
+JavaScriptの性質上、しょうがない側面も大きいかなと思いつつ。。</p>
+
+<h3>総評</h3>
+
+<p>全体的にプログラミング言語としての側面からJavaScriptを論じるというより、<strong>より実践的なwebアプリ開発を行う手段としてのJavaScriptを紹介した書籍</strong>という印象を受けました。</p>
+
+<p>プログラミングを全く学習したことのない人向けにしては、プログラミングの基礎的な部分、例えば3大制御構造などについて体系的な解説がそれほど多くなかった印象だったので注意が必要かもしれません。</p>
+
+<p>逆に、<strong>JavaScriptを使って具体的にどういうアプリが作れるのか？という点にフォーカスしたい方にとっては良書</strong>と言えそうです。</p>
+
+<h2>【書評】<a target="_blank" href="https://www.amazon.co.jp/gp/product/B071GTJSPL/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071GTJSPL&linkCode=as2&tag=athome0a-22&linkId=f6e7a1ddc17c34e523450926d9863f48">たった1日で基本が身に付く！ Java超入門</a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071GTJSPL" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></h2>
+
+<p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/B071GTJSPL/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071GTJSPL&linkCode=as2&tag=athome0a-22&linkId=fcb1d876a5f5de8815781b325db0b4d6"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B071GTJSPL&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071GTJSPL" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<h3>コンパイルエラーなど基本的な部分が紹介されている</h3>
+
+<p>超入門向けらしく、半角スペースをなくすとコンパイルエラーが発生するなど超入門者向けの内容がちゃんと解説されています。</p>
+
+<h3>（凄い細かい話ですが）nullの正しい発音がコラムにｗ</h3>
+
+<p>nullは英語では「ナル」と発音するそうです。nullの紹介のところでコラムとして「正しく発音しましょう」って紹介がありました。
+ちなみに私は普段「ヌル」と発音してます。スミマセン！</p>
+
+<h3>二重ループが取り上げられている</h3>
+
+<p>プログラミング初心者にとって最もつまづきやすいのがループと言われます。
+ループを取り扱う章の最後に、本書ではループ処理がネストしている二重ループについて取り上げられています。
+これはプログラミング初心者にとっては有り難い解説かもしれません。</p>
+
+<p>同様に、配列の章の後半で配列とループ処理、ループ処理と条件分岐の組み合わせについても取り上げられており、二重ループ同様、プログラミング初心者にとってはプログラムが複雑になる過程をちゃんと説明してくれていて理解の助けになりそうだなと思いました。</p>
+
+<h3>クラス解説で後半2章分割かれている</h3>
+
+<p>クラスの基礎について1章分、クラスの利用について1章分を割いており、クラスに関する解説はかなりページ数を割いている印象です。
+このあたりはそもそも扱っている内容が重いせいか、その他の章の解説に比べて超入門者がページをまたいであちこちに行ったり来たりして理解を深める必要があるように感じました。</p>
+
+<p>このあたりをプログラミング初心者に分かりやすく解説できる自信は正直私もないのですが（汗）</p>
+
+<h3>総評</h3>
+
+<p>総合的に見て、<strong>プログラミングが全く初めての人にとって、Javaを学習する目的で本書は向いている</strong>と思います。</p>
+
+<p>ただ、個人的には<strong>そもそも「オブジェクト指向」という概念がプログラミング初心者には分かりづらい気がするのでその点をどうフォローするか、というのはある意味プログラミング教育の永遠のテーマと言える</strong>かもしれません。</p>
+]]></content>
+  </entry>
+  
+</feed>

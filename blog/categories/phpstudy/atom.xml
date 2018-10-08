@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: phpstudy | tchikuba's blog]]></title>
+  <link href="http://tchikuba.github.io/blog/categories/phpstudy/atom.xml" rel="self"/>
+  <link href="http://tchikuba.github.io/"/>
+  <updated>2018-10-08T23:21:59+09:00</updated>
+  <id>http://tchikuba.github.io/</id>
+  <author>
+    <name><![CDATA[tchikuba]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[PHP勉強会＠東京#72で発表しました]]></title>
+    <link href="http://tchikuba.github.io/blog/2013/10/31/phpstudy-tokyo-72/"/>
+    <updated>2013-10-31T20:00:00+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2013/10/31/phpstudy-tokyo-72</id>
+    <content type="html"><![CDATA[<p><a href="http://atnd.org/events/44600">2013-10-28にEngine Yardさんで行われたPHP勉強会@東京</a>で発表する機会をもらいました。</p>
+
+<p>以下がそのスライドです。</p>
+
+<hr />
+
+<script async class="speakerdeck-embed" data-id="77c27f5023eb01314e123239ed40666d" data-ratio="1.2994923857868" src="//speakerdeck.com/assets/embed.js"></script>
+
+
+<hr />
+
+<p>スライド冒頭にも書いてある通りですが、<a href="http://phpcon.php.gr.jp/w/2013/">PHPカンファレンス2013</a>で発表枠15分もらっていたのですが諸事情で持ち時間が3分しかなく十分に話せなかっただろうという配慮で、<a href="https://twitter.com/yando">Engine Yard安藤さん</a>からリベンジの機会をいただきました。</p>
+
+<p>PHP勉強会@東京は勉強会としては珍しい形式でスタートします。
+勉強会冒頭にビールで乾杯して自己紹介した後、予定されていたセッションがスタートするという感じで、 普段自称BDD(ビール駆動開発)エンジニアとしてはかなり嬉しい形式なのです＾＾</p>
+
+<p>というわけでかなりエンジンのかかった状態で発表させてもらいすごく楽しかった！</p>
+]]></content>
+  </entry>
+  
+</feed>

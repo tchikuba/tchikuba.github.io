@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: geek | tchikuba's blog]]></title>
+  <link href="http://tchikuba.github.io/blog/categories/geek/atom.xml" rel="self"/>
+  <link href="http://tchikuba.github.io/"/>
+  <updated>2018-10-08T23:21:59+09:00</updated>
+  <id>http://tchikuba.github.io/</id>
+  <author>
+    <name><![CDATA[tchikuba]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[「Team GeekによるFearless Change」@デブサミ2014 2日目を聞いた]]></title>
+    <link href="http://tchikuba.github.io/blog/2014/02/14/team-geek-of-developers-summit-2014/"/>
+    <updated>2014-02-14T11:30:00+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2014/02/14/team-geek-of-developers-summit-2014</id>
+    <content type="html"><![CDATA[<p>さぁ、<a href="http://event.shoeisha.jp/devsumi/20140213/">デブサミ2014</a>も2日目に入りました！
+今日はどっぷり丸1日いろんなセッションに参加予定です。
+が、外はまさかの2週連続の大雪という。。
+残念ですが今後のセッションも楽しみにしているので是非継続してくれることを願いつつ。。</p>
+
+<p>2日目の朝は<a href="http://event.shoeisha.jp/devsumi/20140213/session/409/">サイバーエージェント藤田さんのセッション</a>があったんですが
+デブサミはやはりエンジニアよりの話をということで
+<a href="http://event.shoeisha.jp/devsumi/20140213/session/425/">「Team GeekによるFearless Change」</a>というセッションを聞きました。
+ほとんど本の宣伝的なセッションでしたがTeam Geek読んだことあって、素晴らしい本だったので聞いて良かったです。</p>
+
+<hr />
+
+<h1>導入</h1>
+
+<ul>
+<li>発表者：ワイクル株式会社 角征典さん twitter: <a href="https://twitter.com/kdmsnr">@kdmsnr</a></li>
+<li>アジャイル開発を非エンジニアに理解してもらう為のワークショップをやってる
+
+<ul>
+<li>若干お金儲けの為というのも否めない</li>
+<li>エンジニアはアジャイル開発の為にお金使わないので</li>
+</ul>
+</li>
+<li>エンジニアはコードを書くことで価値を提供する</li>
+<li>組織変革の為の時間をエンジニアがさくのは微妙</li>
+</ul>
+
+
+<h1><a href="http://ja.wikipedia.org/wiki/%E6%9C%89%E6%A9%9F%E4%BD%93%E8%AB%96">有機的自然観</a> &lt;=> <a href="http://kotobank.jp/word/%E6%A9%9F%E6%A2%B0%E8%AB%96%E7%9A%84%E8%87%AA%E7%84%B6%E8%A6%B3">機械論的自然観</a></h1>
+
+<ul>
+<li>点と点をつなげること
+
+<ul>
+<li>by スティーブ・ジョブズ</li>
+</ul>
+</li>
+<li><a href="http://ja.wikipedia.org/wiki/%E3%83%91%E3%82%BF%E3%83%B3%E3%83%BB%E3%83%A9%E3%83%B3%E3%82%B2%E3%83%BC%E3%82%B8">パターン・ランゲージ</a>
+
+<ul>
+<li>by <a href="http://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%88%E3%83%95%E3%82%A1%E3%83%BC%E3%83%BB%E3%82%A2%E3%83%AC%E3%82%B0%E3%82%B6%E3%83%B3%E3%83%80%E3%83%BC">クリストファー・アレグザンダー</a></li>
+<li>自然の美しさを人工的に表現したい</li>
+</ul>
+</li>
+<li>機械論的自然観では人間を表現出来ない</li>
+</ul>
+
+
+<h1>パターン・ランゲージ</h1>
+
+<ul>
+<li>場当たり的対応で良いのか
+
+<ul>
+<li>出来事の連続が大切</li>
+<li>変化は少しずつ発生する</li>
+<li>人間の反応は予測出来ない</li>
+<li>一度に一つのパターン</li>
+</ul>
+</li>
+<li>同じアイディアでも受け入れ方は違う場合がある
+
+<ul>
+<li>同じアイディアをチョコチップクッキーをあげて相談すると受け入れられた</li>
+<li>何もあげないで相談すると受け入れられなかった→アイディアではなく食べ物が大事</li>
+<li>フード三原則</li>
+</ul>
+</li>
+<li>結束力を高める
+
+<ul>
+<li>感謝</li>
+</ul>
+</li>
+<li>自分で人を巻き込むパターンを作ろう
+
+<ul>
+<li>愛されキャラパターン
+
+<ul>
+<li>「いいひと」戦略 by 岡田斗司夫</li>
+</ul>
+</li>
+<li>でもやるんだよパターン
+
+<ul>
+<li>因果鉄道の旅 by 根本敬</li>
+</ul>
+</li>
+<li>現実歪曲空間を演出するパターン
+
+<ul>
+<li>スティーブ・ジョブズのRDF(Reality Distortion Field)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>パターンの構造は文脈・問題・制約・解決の4つ</li>
+<li>パターンの連続がパターン・ランゲージ</li>
+<li><a href="http://fearlessjourney.info/">Fearless Journeyというカード</a>を売ってるw
+
+<ul>
+<li>HPがクール過ぎる。。</li>
+<li>レキサスの社員ブログの<a href="http://blog.lexues.co.jp/15344.html">この記事</a>が分かりやすいですね。</li>
+</ul>
+</li>
+</ul>
+
+
+<h1>パターンとフレームワーク</h1>
+
+<ul>
+<li>XPとスクラム</li>
+<li>プラクティスと原則</li>
+<li>レシピとマニュアル</li>
+<li>フレームワークとしてTeam Geekという本をオススメしたい</li>
+<li>アジャイルってヒトコトも言ってないのにアジャイルっぽい</li>
+<li>新しいソフトウェア開発手法 by <a href="http://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%83%BB%E3%83%95%E3%82%A1%E3%82%A6%E3%83%A9%E3%83%BC">マーティン・ファウラー</a>
+
+<ul>
+<li>俺がアジャイル育てたんだよ</li>
+<li>アジャイル宣言参加したかった</li>
+<li>スケジュールがコンフリクトして参加出来ず</li>
+</ul>
+</li>
+</ul>
+
+
+<h1>組織／チーム</h1>
+
+<ul>
+<li>自然のプログラマ == ハッカー／ギーク</li>
+<li>三本柱HRT(ハート)の話: 謙虚・尊敬・信頼</li>
+<li>弱点がないのは危険。弱点を公開していく方が組織がうまくいく</li>
+<li>弱点を見せる。見せた弱点を克服する必要はない。チームで補完。チームは競争相手ではない</li>
+<li>怪我の話は盛り上がる</li>
+<li>技術スキルよりも文化の適合を選択すべき</li>
+<li><a href="http://itpro.nikkeibp.co.jp/article/Keyword/20100723/350589/">サーバント・リーダーシップ</a>
+
+<ul>
+<li>謙虚と犠牲は区別がつかない</li>
+<li>チームのためなら衝突も健全</li>
+<li>衝突後に後腐れがないように</li>
+</ul>
+</li>
+</ul>
+
+
+<hr />
+
+<p>特にTeam Geekはマジオススメしたい本です。
+自分ちょうど組織で苦戦してた時に読んでかなり救われた本でした。
+HRT! HRT! HRT!ってなりますw
+<a href="http://blog.jmuk.org/2013/07/team-geek.html">このブログ</a>に詳細な書評が書いてありました。</p>
+
+<p>今日のセッションで紹介のあった本は以下の通りです。</p>
+
+<ul>
+<li>Team Geek</li>
+</ul>
+
+
+<p><a href="http://www.amazon.co.jp/gp/product/4873116309/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4873116309&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4873116309&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4873116309" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<ul>
+<li>Fearless Change アジャイルに効く アイデアを組織に広めるための48のパターン</li>
+</ul>
+
+
+<p><a href="http://www.amazon.co.jp/gp/product/462108786X/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=462108786X&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=462108786X&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=462108786X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<ul>
+<li>超情報化社会におけるサバイバル術 「いいひと」戦略</li>
+</ul>
+
+
+<p><a href="http://www.amazon.co.jp/gp/product/4838725485/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4838725485&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4838725485&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4838725485" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<ul>
+<li>因果鉄道の旅</li>
+</ul>
+
+
+<p><a href="http://www.amazon.co.jp/gp/product/4344414640/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4344414640&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4344414640&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4344414640" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<ul>
+<li>ゴロツキはいつも食卓を襲う</li>
+</ul>
+
+
+<p><a href="http://www.amazon.co.jp/gp/product/4778313135/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4778313135&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4778313135&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4778313135" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,386 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Atlassian長沢氏「デベロッパー戦国時代！ストーリーをつなぐ開発環境と3つの秘訣」@デブサミ2014 2日目 - tchikuba's blog</title>
+
+  
+  <meta name="description" content="2014年2月14日(金)に行われたデブサミ2014 2日目のセッション「デベロッパー戦国時代！ストーリーをつなぐ開発環境と3つの秘訣」を聞いた内容のまとめです。">
+  <meta name="keywords" content="デブサミ2014, アトラシアン, Atlassian, 長沢智治">
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://tchikuba.github.io/blog/2014/02/14/atlassian-of-developers-summit-2014/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="tchikuba's blog" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<script language="JavaScript">
+$(document).ready( function () {
+  $("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
+})
+</script>
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-46605167-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+  <meta property="og:title" content="Atlassian長沢氏「デベロッパー戦国時代！ストーリーをつなぐ開発環境と3つの秘訣」@デブサミ2014 2日目 - tchikuba's blog" />
+<meta property="og:description" content="2014年2月14日(金)に行われたデブサミ2014 2日目のセッション「デベロッパー戦国時代！ストーリーをつなぐ開発環境と3つの秘訣」を聞いた内容のまとめです。" />
+<meta property="og:url" content="http://tchikuba.github.io/blog/2014/02/14/atlassian-of-developers-summit-2014/" />
+<meta property="og:image" content="http://tchikuba.github.io/images/facebook_profile.jpg" />
+<meta property="og:author" content="tchikuba" />
+<meta property="og:site_name" content="tchikuba's blog" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:type" content="article" />
+<meta property="fb:app_id" content="659253570789231" />
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">tchikuba's blog</a></h1>
+  
+    <h2>Beer Driven Developer / Lean Engineerの徒然</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:tchikuba.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Atlassian長沢氏「デベロッパー戦国時代！ストーリーをつなぐ開発環境と3つの秘訣」@デブサミ2014 2日目</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-02-14T14:50:00+09:00" pubdate data-updated="true">Feb 14<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>デブサミ2014 2日目の午後2のセッションはAtlassian長沢氏の「デベロッパー戦国時代！ストーリーをつなぐ開発環境と3つの秘訣」を聞きにきました！
+Atlassian、いつも</p>
+
+<ul>
+<li><a href="https://www.atlassian.com/ja/software/hipchat/overview">HipChat</a>,</li>
+<li><a href="https://www.atlassian.com/ja/software/confluence">Confluence</a>,</li>
+<li><a href="https://www.atlassian.com/ja/software/bitbucket/overview">Bitbucket</a>,</li>
+<li><a href="https://www.atlassian.com/ja/software/stash">Stash</a></li>
+</ul>
+
+
+<p>とか仕事＆プライベートで諸々お世話になってるので楽しみにしてました。
+他にも色々有名なツール提供してますよね。</p>
+
+<ul>
+<li><a href="https://www.atlassian.com/ja/software/jira">JIRA</a></li>
+<li><a href="https://www.atlassian.com/ja/software/bamboo">Bamboo</a></li>
+</ul>
+
+
+<hr />
+
+<h1>profile</h1>
+
+<ul>
+<li>発表者：<a href="https://www.atlassian.com/ja/">Atlassian</a>エバンジェリスト<a href="https://twitter.com/tomohn">長沢智治氏</a>
+
+<ul>
+<li>エバンジェリストになって1ヶ月くらい</li>
+<li><a href="http://japan.blogs.atlassian.com/2014/01/evangelist-tomoharu-nagasawa/">Atlassianブログのこの記事</a>で知ってました</li>
+</ul>
+</li>
+<li>発表スライド：<a href="http://re-workstyle.com/articles/devsumi-2014-atlassian-evangelist-session/">デブサミ2014 【14-D-4】アトラシアン エバンジェリストが語るこれからの開発スタイル</a></li>
+</ul>
+
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/31195345" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/tomohn/14d4" title="【14-D-4】デベロッパー戦国時代！ストーリーをつなぐ開発環境と３つの秘訣" target="_blank">【14-D-4】デベロッパー戦国時代！ストーリーをつなぐ開発環境と３つの秘訣</a> </strong> from <strong><a href="http://www.slideshare.net/tomohn" target="_blank">Tomoharu Nagasawa</a></strong> </div></p>
+
+<h1>Atlassian社</h1>
+
+<ul>
+<li>Atlassianはノーセールス。つまり営業がいない。クチコミで使ってもらっている</li>
+<li>開発支援ツールに特化。ビジネスモデルとして興味深い</li>
+<li>日本オフィスは<a href="http://www.rbbtoday.com/article/2014/01/31/116447.html">マリノスタウン</a>にある</li>
+</ul>
+
+
+<h1>これからの開発</h1>
+
+<ul>
+<li>BML: <a href="http://lean.st/principles/build-measure-learn">Build Measure Learn</a>
+
+<ul>
+<li>リーン・スタートアップ by エリック・リース</li>
+</ul>
+</li>
+<li>開発現場に求められる資質＝現場力 これからの開発には現場の資質が問われる</li>
+<li>複雑性が増しており欧米では既に開発現場は複雑度の高い現場ばかり(日本も同様の流れ)
+
+<ul>
+<li>定義されたプロセスモデル &lt;&ndash;> 実測駆動なプロセスモデル</li>
+<li>実測駆動なプロセスモデルでの開発が重要</li>
+</ul>
+</li>
+<li>「一度開発してリリースしたら終わりです、運用フェーズは知りません」的な分断されている開発は少なくなりつつある</li>
+<li><a href="http://ameblo.jp/masato119/entry-10921100680.html">建設的相互作用</a>を意図的に発生させる仕組みが必要</li>
+</ul>
+
+
+<h1>関連書籍</h1>
+
+<div>
+<a href="http://www.amazon.co.jp/gp/product/4822248976/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4822248976&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4822248976&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4822248976" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.co.jp/gp/product/B00F3UTIQY/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00F3UTIQY&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00F3UTIQY&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B00F3UTIQY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+</div>
+
+
+<hr />
+
+<p>開発と運用保守が分断されている開発と連続性のある開発があって後者が主流になっていくのは事業会社が内製を選択すると当然だと思います。
+そして運用保守を考慮した開発とは高度だというのもその通りですね。
+個人的には内製と受託開発に関わらず、開発と運用保守が分断されない組織構造を推奨していく世の中になると良いなぁと思っています。</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">tchikuba</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-02-14T14:50:00+09:00" pubdate data-updated="true">Feb 14<span>th</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/atlassian/'>Atlassian</a>, <a class='category' href='/blog/categories/company/'>company</a>, <a class='category' href='/blog/categories/devsumi2014/'>devsumi2014</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  <a href="http://b.hatena.ne.jp/entry/http://tchikuba.github.io/blog/2014/02/14/atlassian-of-developers-summit-2014/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tchikuba.github.io/blog/2014/02/14/atlassian-of-developers-summit-2014/" data-via="tchikuba" data-counturl="http://tchikuba.github.io/blog/2014/02/14/atlassian-of-developers-summit-2014/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/02/14/impact-mapping-of-developers-summit-2014/" title="Previous Post: 「IMPACT MAPPING～インパクトのあるソフトウェアを作る」@デブサミ2014 2日目を聞いてきた">&laquo; 「IMPACT MAPPING～インパクトのあるソフトウェアを作る」@デブサミ2014 2日目を聞いてきた</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2014/02/14/engineers-free-life-style-of-developers-summit-2014/" title="Next Post: ミイル/トレタ増井雄一郎氏「エンジニアだからできる 自由な生き方」@デブサミ2014 2日目">ミイル/トレタ増井雄一郎氏「エンジニアだからできる 自由な生き方」@デブサミ2014 2日目 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2018/09/27/minnano-code-meetup/">イベント「~エンジニア×先生×NPOで語る、これが本当のプログラミング教育~みんなのコードmeetup」に参加してきました</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/12/11/super-getting-started-books/">【書籍レビュー】超入門シリーズ本を献本頂きました</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day/">RubyKaigi 2017 2日目 Matz基調講演＋α</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/07/19/programming-skils-for-entrepreneur/">イベント「非エンジニア起業家に求められるプログラミングスキルとは」に参加しました！</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/05/22/ruby-on-rails-5-application-programming/">【書籍レビュー】Ruby on Rails 5 アプリケーションプログラミングを献本頂きました</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/09/08/rubykaigi2016-1st-day/">【速報】RubyKaigi 2016初日参加レポート</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/07/04/previous-cto-night/">イベント「CTOだったNight」@dotsに参加してきました！</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/03/26/dots-womans-is-eternal-engineers/">イベント「dots.女子部勉強会 vol.7 わたし、一生エンジニア宣言！～ 女性エンジニアとして長く働く秘訣 ～」に参加しました！</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/12/05/life-of-creative-people/">21世紀型のクリエイティブな働き方・思考・組織の新しいあたりまえ</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/10/31/ecma-script-6-study/">「ECMAScript6勉強会」HappyHalloween JS 祭！！に参加してきました！</a>
+      </li>
+    
+  </ul>
+</section>
+<section>
+  <h1>About Me</h1>
+  <p>tchikuba (<a href="http://twitter.com/tchikuba" target="_blank">@tchikuba</a>)</p>
+  <h3>vim Ruby Rails PHP</h3>
+  <h3>CoffeeScript AngularJS</h3>
+  <h3>BDD TDD Lean Agile</h3>
+  <h3>Statistics Machine Learning</h3>
+  <h3>Beer Driving Singing SNS</h3>
+</section>
+
+
+
+
+<section>
+  <h1>Latest Tweets</h1>
+    <a class="twitter-timeline" href="https://twitter.com/tchikuba" data-widget-id="413610122833690624">@tchikuba からのツイート</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</section>
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2018 - tchikuba -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+  - <span class="credit">Theme by <a href="http://www.gehaxelt.in">Gehaxelt</a></span>
+  <span class="credit">and <a href="http://www.it-solutions-neef.de">IT Solutions Neef</a></span>
+</p>
+
+</footer>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#appId=659253570789231&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

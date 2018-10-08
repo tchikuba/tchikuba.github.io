@@ -1,0 +1,444 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Rails勉強会@東京#90に参加してきました - tchikuba's blog</title>
+
+  
+  <meta name="description" content="rails勉強会@東京#90に参加してきたのでまとめを書きました">
+  <meta name="keywords" content="ruby, rails, 勉強会, TDD, テスト, OOP, オブジェクト指向プログラミング, DDD, ドメイン駆動設計">
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://tchikuba.github.io/blog/2013/12/21/rails-study-tokyo-90/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="tchikuba's blog" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<script language="JavaScript">
+$(document).ready( function () {
+  $("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
+})
+</script>
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-46605167-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+  <meta property="og:title" content="Rails勉強会@東京#90に参加してきました - tchikuba's blog" />
+<meta property="og:description" content="rails勉強会@東京#90に参加してきたのでまとめを書きました" />
+<meta property="og:url" content="http://tchikuba.github.io/blog/2013/12/21/rails-study-tokyo-90/" />
+<meta property="og:image" content="http://tchikuba.github.io/images/facebook_profile.jpg" />
+<meta property="og:author" content="tchikuba" />
+<meta property="og:site_name" content="tchikuba's blog" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:type" content="article" />
+<meta property="fb:app_id" content="659253570789231" />
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">tchikuba's blog</a></h1>
+  
+    <h2>Beer Driven Developer / Lean Engineerの徒然</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:tchikuba.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Rails勉強会@東京#90に参加してきました</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-21T20:00:00+09:00" pubdate data-updated="true">Dec 21<span>st</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><a href="http://railsmeetingtokyo.doorkeeper.jp/events/7642">Rails勉強会@東京 第90回</a>に参加してきました。</p>
+
+<p>非常に勉強になったのと嬉しかったのはいつもrails関連情報でお世話になってる<a href="http://morizyun.github.io/">酒と泪とRubyとRailsと</a>のブログ書かれてる<a href="https://twitter.com/zyunnosuke">@zyunnosukeさん</a>に初めて会えたこと。あと実は一度行ってみたかった<a href="http://www.esm.co.jp/">永和システムマネジメント</a>さんのオフィス。アジャイル関連で有名な会社で在籍されている方の訳書などに色々お世話になっているので心の中で頭下げて来ました。最近のだとリーン開発の現場って本が熱い。(後述)</p>
+
+<hr />
+
+<p>いつも参加している勉強会とは趣向が違い、予め決まったお題に沿って勉強会が進行するのではなく、今日参加したメンバーがやりたいことを持ち寄ってテーマを決めて進めるという、結構新しいスタイルでした。個人的には最初「結構行き当たりばったりなのね」って思ったんですが、実際に進行してみてこういう形式も悪くないなぁと感じた。そしてある意味その方が高度な勉強会だなと。</p>
+
+<p>最初自己紹介した後、やりたいことを列挙して共通のもの＋挙手でテーマを決めるという感じ。
+結局テーマは<em>「railsでのテストの基礎＋rails4.1.0beta1リリースノート読む or railsでOOPするには」</em>になり、後半はOOPに参加した。</p>
+
+<p>以下にざっと話題になったコンテンツのURLを中心にまとめておきます。</p>
+
+<h3>テスト関連</h3>
+
+<ul>
+<li><a href="http://blog.livedoor.jp/sasata299/archives/51924944.html">poltergeist</a>
+
+<ul>
+<li>js含めたacceptanceテストやるならコレだねという話。</li>
+<li>デフォルトのdriverだとseleniumだけどそれだとブラウザで重いからヘッドレスでブラウザエミュレータ上でテスト進めてくれる。</li>
+<li>ポルターガイスト現象って勝手に物が動くことを指すけど、命名の由来もそこから来たんじゃないか。</li>
+</ul>
+</li>
+<li><a href="http://morizyun.github.io/blog/heroku-rails4-postgresql-introduction/">herokuでrails</a>
+
+<ul>
+<li>勉強会の中1hで何故か自分の時間が取られたんですがその間にpoltergeistを軽く触ってみようと思ってrails環境作ろうと思ってどうせならherokuでやってみようと思って参考にした記事。</li>
+<li>また例によって@zyunnosukeさん。ありがとうございます！</li>
+</ul>
+</li>
+<li><a href="http://qiita.com/prinum/items/ac9feadbbe497649ab3f">.rvmrcから.ruby-gemsetと.ruby-versionに移行</a>
+
+<ul>
+<li>rvm入れたりとこの辺の環境構築に思ったより時間がかかって結局勉強会の中1hではruby2/rails4な環境構築だけで終わってしまったというオチ。</li>
+</ul>
+</li>
+</ul>
+
+
+<hr />
+
+<h3>rails OOP</h3>
+
+<ul>
+<li><a href="http://techracho.bpsinc.jp/hachi8833/2013_11_19/14738">肥大化したActiveRecordモデルをリファクタリングする7つの方法(翻訳)</a>
+
+<ul>
+<li>最近仕事でコントローラーに寄った処理をリファクタリングしてて自分の中で課題感じている箇所。</li>
+<li>この辺の課題感を最初の何やりたいで提示したら採用してもらえたので勉強会後半はこれについて半分のグループで議論することに。</li>
+</ul>
+</li>
+<li><a href="http://dodemoyoiblog.blogspot.jp/2012/09/dci-data-context-interaction.html">DCI</a>
+
+<ul>
+<li>rails界隈で所謂普通の(DDDの流れから来る)OOP派とDCI派で一時期議論があったという話を聞いた。</li>
+<li>自分DCIという概念を初めて聞いたのでちょっと理解がまだ不十分なところもあるけど、modelとroleを分けて必要なコンテキストでroleをincludeしましょう、という設計思想の模様。</li>
+<li>個人的にはDDDとも親和性の高い考え方ではあるなぁと思った。特に上記ブログで紹介されている以下の部分、非常に共感出来ます。
+
+<blockquote><p><em>まずはビジネスロジックやユーザエクスペリエンスに基づいて大枠の設計がなされ、局所的な最適化に各種ツールが活用される。その優先度が逆転してはいけない。</em></p></blockquote></li>
+</ul>
+</li>
+<li><a href="http://qiita.com/advent-calendar/2013/ruby-on-rails">Ruby on Rails Advent Calendar 2013</a>
+
+<ul>
+<li>rails OOP的な話は結構今年のadvent calendarでも色々ブログ書かれてたよね、という話があった。</li>
+<li>実際見返してみると確かに。以下のエントリが今の自分の課題感とマッチしてた感じ。
+
+<ul>
+<li><a href="http://qiita.com/joker1007/items/2a03500017766bdb0234">てめえらのRailsはオブジェクト指向じゃねえ！まずはCallbackクラス、Validatorクラスを活用しろ！</a></li>
+<li><a href="http://a-suenami.hatenablog.com/entry/2013/12/06/092146">Railsでサービスとフォームを導入してみる話</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+
+<hr />
+
+<h3>その他</h3>
+
+<ul>
+<li><a href="http://mogok.jp/index.html">MOGOK</a>
+
+<ul>
+<li>参加者の方が関わっているサービス。</li>
+<li>他にもミニ四駆のサイト趣味で作られている方がいたのですがどうも見つからない。。
+
+<ul>
+<li>追記：@zyunnosukeさんが教えてくれました。<a href="http://mini4wg.com/">このサイト</a>。</li>
+<li>全然どうでも良い話だけど、私もダッシュ四駆郎とかコロコロコミックで読んでた世代なのでミニ四駆やってみようかな〜</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="http://joruri.org/">Joruri</a>
+
+<ul>
+<li>wordpressみたいなrubyのプロダクトってあるの？って話から出てきた話題。</li>
+<li>実際に徳島では本当にたくさんのサイトがこれで作られてるんですねぇ。知らなかった。</li>
+<li><a href="https://github.com/joruri/joruricms">githubにソースあった</a>んでチラ見してたんですがテストがなくコントローラーがちょっとレガシー入ってる感じではありましたけど何か面白そうだった。</li>
+</ul>
+</li>
+<li><a href="http://middlemanjp.github.io/">Middleman</a>
+
+<ul>
+<li>CMSの流れで最近流行りの静的サイトジェネレータ。</li>
+<li>最近だとrubyでCMSやるならこれで良いんじゃないかという話が出てました。</li>
+</ul>
+</li>
+</ul>
+
+
+<hr />
+
+<h3>関連書籍</h3>
+
+<p>個人的には前述のリーン開発の現場って本がずっと私が勉強会とかで主張してたことがまとまってる感じがして嬉しいです。
+あとテスト関連だとthe rspec book、OOP関連だとエリック・エヴァンスのDDDがオススメ。</p>
+
+<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?t=athome0a-22&o=9&p=8&l=as1&asins=427406932X&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+
+
+
+<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?t=athome0a-22&o=9&p=8&l=as1&asins=4798121932&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+
+
+
+<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?t=athome0a-22&o=9&p=8&l=as1&asins=4798121967&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+
+<hr />
+
+<p>ざっとまとめるとこんな感じかな。
+個人的にはちょっと新鮮な空気の勉強会でしたがリアルな課題感をその場で確認することが出来るのでこういう形式はより実践向けで良いんじゃないかと思いました。
+またスケジュールが合えば積極的に参加して行こうと思います。</p>
+
+<h3>追記</h3>
+
+<p>私が参加しなかったRails4.1betaリリースノートの話題は<a href="http://morizyun.github.io/blog/rspec-changelog-rails-tokyo-90/">@zyunnosukeさんのまとめ</a>が詳しいです。さすがです！</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">tchikuba</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-21T20:00:00+09:00" pubdate data-updated="true">Dec 21<span>st</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/rails/'>rails</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>, <a class='category' href='/blog/categories/study/'>study</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  <a href="http://b.hatena.ne.jp/entry/http://tchikuba.github.io/blog/2013/12/21/rails-study-tokyo-90/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tchikuba.github.io/blog/2013/12/21/rails-study-tokyo-90/" data-via="tchikuba" data-counturl="http://tchikuba.github.io/blog/2013/12/21/rails-study-tokyo-90/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/12/19/devlove-advent-calendar-2013-genba/" title="Previous Post: 現場のリーダーシップの正義">&laquo; 現場のリーダーシップの正義</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2014/01/30/devlove-kayac-yanasawa/" title="Next Post: 「おもしろ自分戦略 -カヤック柳澤さんと考える-」に参加してきた">「おもしろ自分戦略 -カヤック柳澤さんと考える-」に参加してきた &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2018/09/27/minnano-code-meetup/">イベント「~エンジニア×先生×NPOで語る、これが本当のプログラミング教育~みんなのコードmeetup」に参加してきました</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/12/11/super-getting-started-books/">【書籍レビュー】超入門シリーズ本を献本頂きました</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day/">RubyKaigi 2017 2日目 Matz基調講演＋α</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/07/19/programming-skils-for-entrepreneur/">イベント「非エンジニア起業家に求められるプログラミングスキルとは」に参加しました！</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/05/22/ruby-on-rails-5-application-programming/">【書籍レビュー】Ruby on Rails 5 アプリケーションプログラミングを献本頂きました</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/09/08/rubykaigi2016-1st-day/">【速報】RubyKaigi 2016初日参加レポート</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/07/04/previous-cto-night/">イベント「CTOだったNight」@dotsに参加してきました！</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/03/26/dots-womans-is-eternal-engineers/">イベント「dots.女子部勉強会 vol.7 わたし、一生エンジニア宣言！～ 女性エンジニアとして長く働く秘訣 ～」に参加しました！</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/12/05/life-of-creative-people/">21世紀型のクリエイティブな働き方・思考・組織の新しいあたりまえ</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/10/31/ecma-script-6-study/">「ECMAScript6勉強会」HappyHalloween JS 祭！！に参加してきました！</a>
+      </li>
+    
+  </ul>
+</section>
+<section>
+  <h1>About Me</h1>
+  <p>tchikuba (<a href="http://twitter.com/tchikuba" target="_blank">@tchikuba</a>)</p>
+  <h3>vim Ruby Rails PHP</h3>
+  <h3>CoffeeScript AngularJS</h3>
+  <h3>BDD TDD Lean Agile</h3>
+  <h3>Statistics Machine Learning</h3>
+  <h3>Beer Driving Singing SNS</h3>
+</section>
+
+
+
+
+<section>
+  <h1>Latest Tweets</h1>
+    <a class="twitter-timeline" href="https://twitter.com/tchikuba" data-widget-id="413610122833690624">@tchikuba からのツイート</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</section>
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2018 - tchikuba -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+  - <span class="credit">Theme by <a href="http://www.gehaxelt.in">Gehaxelt</a></span>
+  <span class="credit">and <a href="http://www.it-solutions-neef.de">IT Solutions Neef</a></span>
+</p>
+
+</footer>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#appId=659253570789231&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

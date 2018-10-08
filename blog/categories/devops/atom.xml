@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: DevOps | tchikuba's blog]]></title>
+  <link href="http://tchikuba.github.io/blog/categories/devops/atom.xml" rel="self"/>
+  <link href="http://tchikuba.github.io/"/>
+  <updated>2018-10-08T23:21:59+09:00</updated>
+  <id>http://tchikuba.github.io/</id>
+  <author>
+    <name><![CDATA[tchikuba]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[cookpad庄司嘉織氏「何故クックパッドのサービス開発は日々進化しているのか」@デブサミ2014初日を聞いた]]></title>
+    <link href="http://tchikuba.github.io/blog/2014/02/13/cookpad-of-developers-summit2014/"/>
+    <updated>2014-02-13T18:00:00+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2014/02/13/cookpad-of-developers-summit2014</id>
+    <content type="html"><![CDATA[<p>引き続き<a href="http://event.shoeisha.jp/devsumi/20140213/session/377/">「何故クックパッドのサービス開発は日々進化しているのか」</a>
+を聞いたので内容を共有します。</p>
+
+<h1>profile</h1>
+
+<ul>
+<li>庄司嘉織@クックパッド</li>
+<li>部長だけどプログラマ</li>
+<li>スライド</li>
+</ul>
+
+
+<script async class="speakerdeck-embed" data-id="8cc658a076ac013148646268bd6e389b" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+
+<h1>cookpad</h1>
+
+<ul>
+<li>クックパッドはクックパッドだけじゃなくて新規事業もやってますよを覚えておいて</li>
+<li>Ruby2.0 Rails3.2 : 絶賛Rails4.0.1へ移行作業中</li>
+<li>超絶大規模(スライド参照)</li>
+<li>サービス開発40+ / インフラ部5 / 技術部 10+</li>
+<li>cookpad本体いじるメンバーは20名程度</li>
+<li>Opsはインフラ部の部長のスライドを参照</li>
+<li>技術部コミットメントCI10分以内</li>
+<li>ユーザを向いたものづくり(スライド)</li>
+<li>ほぼ全員デブサミ来てない。2/14バレンタインデーの前日は一番アクセスが多い</li>
+</ul>
+
+
+<h1>サービス開発</h1>
+
+<ul>
+<li>Chankoの紹介。cookpadのサービス開発を端的にあらわしているgem。</li>
+<li>金曜リリース禁止なので4日でmergeされたコミットが167ある</li>
+<li>Github。DBスキーマ変更もプルリクエストで、設計もissuesで。</li>
+<li>デザイナーもGithubで</li>
+<li><a href="http://blog.monochromegane.com/blog/2013/12/23/lgtm-chrome-extension/">LGTM: looks good to me</a></li>
+</ul>
+
+
+<h1>deploy</h1>
+
+<ul>
+<li>時間帯9:30-17:00の間 休日の前日は基本なし</li>
+<li>インフラがデプロイロックを開発者にお願いする。インフラが権威的にならないようにする</li>
+</ul>
+
+
+<h1>ユーザーサポート</h1>
+
+<ul>
+<li>ユーザーサポートもGithubで</li>
+<li>hipchat通知＆エンジニアが見やすい場所</li>
+<li>サポートの人はエンジニアに投げた後の進捗が気になるのでGithub利用オススメ</li>
+<li>元々違うチケット管理システムをサポートは使用していた。エンジニアさんに迷惑かけちゃいけない的な文化まずい</li>
+<li>正しいと思ったら勝手に行動して良い。自分で文化を作れる</li>
+</ul>
+
+
+<h1>文化</h1>
+
+<ul>
+<li>DevOps社内ではそれほど意識してなくて後付っぽい感じ</li>
+<li>立場の違いに応じて社員ひとりひとりにユーザーがいる</li>
+<li>エンジニアの文化が良いと思うなら他の人達にも取り入れてもらう</li>
+<li>クックパッドのエンジニアは社外の開発者にも貢献することが求められている</li>
+<li>エンジニアの評価基準の一つになっている</li>
+<li>文化を作るために気をつける：ルールを作らない。ルールにしない</li>
+<li>それが正しいと思ったら行動する</li>
+<li>いいだしっぺがやるから問題ない</li>
+<li>文化が共有されていればそれでまわる</li>
+<li>It&rsquo;s easier to ask forgiveness than it is to get permission.
+
+<ul>
+<li>許可求めるより良いと思ったらやった方が早い</li>
+<li>cobol開発者の言葉</li>
+</ul>
+</li>
+<li>文化を共有し信頼し実行</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

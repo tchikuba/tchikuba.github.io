@@ -1,0 +1,430 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>【速報】RubyKaigi 2016初日参加レポート - tchikuba's blog</title>
+
+  
+  <meta name="description" content="RubyKaigi 2016初日参加レポート">
+  <meta name="keywords" content="イベント,Ruby,エンジニア,engineer">
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="tchikuba's blog" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<script language="JavaScript">
+$(document).ready( function () {
+  $("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
+})
+</script>
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-46605167-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+  <meta property="og:title" content="【速報】RubyKaigi 2016初日参加レポート - tchikuba's blog" />
+<meta property="og:description" content="RubyKaigi 2016初日参加レポート" />
+<meta property="og:url" content="http://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day/" />
+<meta property="og:image" content="http://tchikuba.github.io/images/facebook_profile.jpg" />
+<meta property="og:author" content="tchikuba" />
+<meta property="og:site_name" content="tchikuba's blog" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:type" content="article" />
+<meta property="fb:app_id" content="659253570789231" />
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">tchikuba's blog</a></h1>
+  
+    <h2>Beer Driven Developer / Lean Engineerの徒然</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:tchikuba.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">【速報】RubyKaigi 2016初日参加レポート</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-09-08T10:17:39+09:00" pubdate data-updated="true">Sep 8<span>th</span>, 2016</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>聞きながらの自分用メモなのでちょっと正確でない点がありそうですが。</p>
+
+<h2>Ruby3 presented by matz</h2>
+
+<ul>
+<li>Typingの話</li>
+<li>SmallTalk→Java→Ruby,JavaScript→Swift,Go→？</li>
+<li>近視眼的な判断で静的型付けを選択するのは危険</li>
+<li>そもそも未来の型とは？</li>
+<li>Duck typing: アヒルが歩くように。アヒルのように振る舞えばOK</li>
+<li>Duckとは期待される振る舞い</li>
+<li>プログラマのメンタルコストを下げたい</li>
+<li>GoのStructual SubtypingはNominal Subtypingより良さ気</li>
+<li>Rubyには歴史的にこれまで型指定がない</li>
+<li>動的型付けの欠点もある</li>
+<li>エラーメッセージが親切じゃない</li>
+<li>型は絶対に書きたくない(会場笑) DRYじゃないし</li>
+<li>Type Annotation,Mixed/Gradual Typingはダメなアイディア</li>
+<li>人にお願いするんじゃなくて技術で解決したいよね</li>
+<li>型推論は素晴らしい</li>
+<li>インタフェース書きたくない</li>
+<li>型の名前を決めるのは結構なコスト。振る舞いがわかっていれば名前を付けたくない</li>
+<li>振る舞いを決める型のデータベースのようなものと型推論を組み合わせると80%くらいは推論可能では</li>
+<li>オープンクラスとかで再定義しちゃうと型推論無効に</li>
+<li>型データベースをgem化して利用して型推論の精度向上とか</li>
+<li>ダックタイピングを維持して型推論をRubyらしく行う</li>
+<li>これらの構想はすべてRubyistが楽しく生産性を維持できるために検討していること</li>
+<li>Ruby3はいつか？ I don&rsquo;t know.(会場笑)</li>
+<li>次の東京オリンピックの時にはRuby3あると良いなぁ</li>
+<li>OSSコミュニティは前に進めないとつまらない。前に進めるためには何でもやる</li>
+</ul>
+
+
+<h2>dRuby presented by @m_seki</h2>
+
+<ul>
+<li>dRubyが生まれたのは1999年</li>
+<li>dRubyはオーパーツ</li>
+<li>shttpsrv: WEBrickより前のRuby製webサーバ</li>
+<li>Rubyのように振る舞う分散オブジェクト</li>
+<li>DRb.start_serviceだけでdRubyの準備可能</li>
+<li>サーバーとクライアントが入れ替わる例</li>
+<li>OOPっぽい感じ</li>
+<li>Queueを使って待合せのデモ</li>
+<li>dRubyはtwitterのプロトタイピングでdRuby/Rindaだったらしい</li>
+<li>プロトタイピングとしての利用価値がある気がする</li>
+<li>セキュリティ系メソッドは消してしまいたい。危ないものは危なく見えるべき</li>
+</ul>
+
+
+<h2>Welcome to haconiwa presented by @udzura</h2>
+
+<ul>
+<li>Drone.io</li>
+<li>dockerらしいコマンドをしょっちゅう打ってた</li>
+<li>Sqaleで使ってるLXC</li>
+<li>haconiwaコマンドでRubyで書かれたプロファイル定義を実行とか</li>
+<li>hacorbコマンドとかでmrubyスクリプトのコンテナ実行</li>
+<li>cgroups的な</li>
+<li>最初はCRubyで実装</li>
+<li>システムコール扱うのに色々嵌ったのでmruby実装へ</li>
+<li>mrubyはコンテナが取り扱うシステムコールをサポートしてるので使いやすい</li>
+</ul>
+
+
+<h2>A proposal of new concurrency model for Ruby 3 presented by @ko1</h2>
+
+<ul>
+<li>資料
+
+<ul>
+<li><a href="http://www.atdot.net/~ko1/activities/2016_rubykaigi.pdf">スライド</a></li>
+<li><a href="http://www.atdot.net/~ko1/diary/201609.html#d6">日本語スクリプト</a></li>
+</ul>
+</li>
+<li>Ruby 3に取り入れられたいと思う並列プログラミングについて</li>
+<li>C言語のポインタと比較するとRubyはGCあるのでハッピープログラムできる</li>
+<li>data raceやrace conditionが発生する例を通してスレッドセーフなプログラミングが如何に難しいかを知る</li>
+<li>Mutexを利用して同期を取るのはバグと性能低下の狭間にある</li>
+<li>Ruby 3ではGuild(ギルド)というスレッドにかわる新たな概念を提案</li>
+<li>Guildは複数スレッドを含む上位概念的なもの</li>
+<li>複数のGuild間での可変オブジェクト受け渡しにはチャネルを使ってコピーするか移籍(transfer membership)という新しい概念で</li>
+<li>Guild内のスレッド間はスレッドセーフが保証される</li>
+<li>これらのGuildの概念でRuby 3で実現したい並列プログラミングのゴールをすべて満たす感じに</li>
+<li>Guild概念導入でスレッドセーフが保証されないキモいコードを書けないようにする方向性</li>
+</ul>
+
+
+<h2>Isomorphic web programming in Ruby presented by @youchan</h2>
+
+<ul>
+<li>去年はHyaliteの話をした</li>
+<li>Menilite: クライアントサイドでもARとか使える的な(JS嫌いなのでw)</li>
+<li>デモ、デモ、ひたすらデモ</li>
+</ul>
+
+
+<h2>Unifying Fixnum and Bignum into Integer presented by @tanaka_akr</h2>
+
+<ul>
+<li>Ruby 2.4ではFixnum,BignumクラスがなくなりIntegerに統合</li>
+<li>環境によってFixnumが扱えるサイズは異なる
+
+<ul>
+<li>手元の環境(OS X Yosemite)だと(2<strong>62-1).classはFixnum,(2</strong>62).classはBignum</li>
+</ul>
+</li>
+<li>Fixnum,BignumはCommon Lispから来てる</li>
+<li>以下のコード無限ループになるけど許容するしか。
+max = 1
+max *= 2 if max.class == Fixnum
+puts max</li>
+<li>教育的に分かりやすい、数学的にも正しい、とmatzに押し込んだ</li>
+</ul>
+
+
+<h2>Scalable job queue system built with Docker presented by @k0kubun</h2>
+
+<ul>
+<li>coockpadでrails開発者の開発効率を向上する為の開発</li>
+<li>RubyKaigiでrailsの話をすると怒られる</li>
+<li>syoryukenってgemはSQSをジョブキューとして使うやつ</li>
+<li>barbequeを作った</li>
+<li>web consoleもあるよ(rails製)</li>
+<li>kuroko2という社内のクローズツールが秀逸すぎたので本来ジョブキュー使うべきところでも出番なし</li>
+<li>kuroko2はOSS化進めてる</li>
+<li>ECSとAutoScalingグループでスケールを自動化</li>
+</ul>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">tchikuba</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-09-08T10:17:39+09:00" pubdate data-updated="true">Sep 8<span>th</span>, 2016</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/programming/'>programming</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>, <a class='category' href='/blog/categories/work/'>work</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  <a href="http://b.hatena.ne.jp/entry/http://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day/" data-via="tchikuba" data-counturl="http://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2016/07/04/previous-cto-night/" title="Previous Post: イベント「CTOだったNight」@dotsに参加してきました！">&laquo; イベント「CTOだったNight」@dotsに参加してきました！</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2017/05/22/ruby-on-rails-5-application-programming/" title="Next Post: 【書籍レビュー】Ruby on Rails 5 アプリケーションプログラミングを献本頂きました">【書籍レビュー】Ruby on Rails 5 アプリケーションプログラミングを献本頂きました &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2018/09/27/minnano-code-meetup/">イベント「~エンジニア×先生×NPOで語る、これが本当のプログラミング教育~みんなのコードmeetup」に参加してきました</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/12/11/super-getting-started-books/">【書籍レビュー】超入門シリーズ本を献本頂きました</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day/">RubyKaigi 2017 2日目 Matz基調講演＋α</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/07/19/programming-skils-for-entrepreneur/">イベント「非エンジニア起業家に求められるプログラミングスキルとは」に参加しました！</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/05/22/ruby-on-rails-5-application-programming/">【書籍レビュー】Ruby on Rails 5 アプリケーションプログラミングを献本頂きました</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/09/08/rubykaigi2016-1st-day/">【速報】RubyKaigi 2016初日参加レポート</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/07/04/previous-cto-night/">イベント「CTOだったNight」@dotsに参加してきました！</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/03/26/dots-womans-is-eternal-engineers/">イベント「dots.女子部勉強会 vol.7 わたし、一生エンジニア宣言！～ 女性エンジニアとして長く働く秘訣 ～」に参加しました！</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/12/05/life-of-creative-people/">21世紀型のクリエイティブな働き方・思考・組織の新しいあたりまえ</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/10/31/ecma-script-6-study/">「ECMAScript6勉強会」HappyHalloween JS 祭！！に参加してきました！</a>
+      </li>
+    
+  </ul>
+</section>
+<section>
+  <h1>About Me</h1>
+  <p>tchikuba (<a href="http://twitter.com/tchikuba" target="_blank">@tchikuba</a>)</p>
+  <h3>vim Ruby Rails PHP</h3>
+  <h3>CoffeeScript AngularJS</h3>
+  <h3>BDD TDD Lean Agile</h3>
+  <h3>Statistics Machine Learning</h3>
+  <h3>Beer Driving Singing SNS</h3>
+</section>
+
+
+
+
+<section>
+  <h1>Latest Tweets</h1>
+    <a class="twitter-timeline" href="https://twitter.com/tchikuba" data-widget-id="413610122833690624">@tchikuba からのツイート</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</section>
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2018 - tchikuba -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+  - <span class="credit">Theme by <a href="http://www.gehaxelt.in">Gehaxelt</a></span>
+  <span class="credit">and <a href="http://www.it-solutions-neef.de">IT Solutions Neef</a></span>
+</p>
+
+</footer>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#appId=659253570789231&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

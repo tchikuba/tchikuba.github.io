@@ -1,0 +1,438 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>富士通小崎資広氏「オープンソースエンジニア生存戦略」@デブサミ2014初日を聞いてきた - tchikuba's blog</title>
+
+  
+  <meta name="description" content="2014年2月13日のデブサミ2014で聞いた「オープンソースエンジニア生存戦略」セッションのまとめです。">
+  <meta name="keywords" content="デブサミ, 2014, 小崎資広, 富士通, パナソニック, レッドハット, redhat, OSS, エンジニア, Ruby">
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://tchikuba.github.io/blog/2014/02/13/developers-summit2014-first-day/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="tchikuba's blog" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<script language="JavaScript">
+$(document).ready( function () {
+  $("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
+})
+</script>
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-46605167-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+  <meta property="og:title" content="富士通小崎資広氏「オープンソースエンジニア生存戦略」@デブサミ2014初日を聞いてきた - tchikuba's blog" />
+<meta property="og:description" content="2014年2月13日のデブサミ2014で聞いた「オープンソースエンジニア生存戦略」セッションのまとめです。" />
+<meta property="og:url" content="http://tchikuba.github.io/blog/2014/02/13/developers-summit2014-first-day/" />
+<meta property="og:image" content="http://tchikuba.github.io/images/facebook_profile.jpg" />
+<meta property="og:author" content="tchikuba" />
+<meta property="og:site_name" content="tchikuba's blog" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:type" content="article" />
+<meta property="fb:app_id" content="659253570789231" />
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">tchikuba's blog</a></h1>
+  
+    <h2>Beer Driven Developer / Lean Engineerの徒然</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:tchikuba.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">富士通小崎資広氏「オープンソースエンジニア生存戦略」@デブサミ2014初日を聞いてきた</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-02-13T14:00:00+09:00" pubdate data-updated="true">Feb 13<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>楽しみにしていた<a href="http://event.shoeisha.jp/devsumi/20140213/">デブサミ2014</a>、ついに始まりました！
+僭越ながら今年は1万円払ってコーヒースポンサーとして協賛してみました。
+会場には最前列2列にわたってコーヒースポンサー用の特別席が設けられており、電源タップ付き机があるので超快適です。
+個人的にはオススメですよ、コーヒースポンサー！</p>
+
+<hr />
+
+<p>さて初日の本日はあまり参加出来ないのですが、、早速<a href="http://event.shoeisha.jp/devsumi/20140213/session/365/">「オープンソースエンジニア生存戦略」</a>というセッションに参加してきました。
+話を聞きながらメモを取ったんですがあまりにも面白い内容だったので公開しちゃいました。</p>
+
+<p><img src="/images/developers-summit2014-first-day/open-source-engineer1.jpg" alt="open sorce engineer 1" /></p>
+
+<hr />
+
+<h1>会場</h1>
+
+<ul>
+<li><a href="https://www.megurogajoen.co.jp/">目黒雅叙園</a> A会場</li>
+<li>ハッシュタグ:
+
+<ul>
+<li><a href="https://twitter.com/search?q=%23devsumi&amp;src=typd">#devsumi</a></li>
+<li><a href="https://twitter.com/search?q=%23devsumiA&amp;src=typd">#devsumiA</a></li>
+<li><a href="http://togetter.com/li/628529">togetter</a></li>
+</ul>
+</li>
+</ul>
+
+
+<h1>発表者</h1>
+
+<ul>
+<li><a href="http://news.mynavi.jp/articles/2011/11/21/elf5/">小崎 資広さん@富士通</a></li>
+<li>2011年よりボストン在住、レッドハット社に常駐してRHEL開発</li>
+<li>1999年新卒でパナソニック入社、2005年に富士通へ転職</li>
+<li>Linuxカーネル／Rubyコミッタ</li>
+</ul>
+
+
+<h1>データ放送ブラウザ</h1>
+
+<ul>
+<li>パナソニックに学部卒で放り込まれたプロジェクト</li>
+<li>リモコンのDボタンで出てくるやつ</li>
+<li><a href="http://e-words.jp/w/BML.html">BML</a>というマークアップ言語で出来てるそうな</li>
+<li>規格を決めながら開発を進めるというとんでもプロジェクト</li>
+<li>教訓
+
+<ul>
+<li>マネージャーはみんな自信がない。大声で話せばチームは動く</li>
+<li>相手によって言葉を変えないと大変</li>
+<li>Don&rsquo;t ask. 自分の頭で考える</li>
+</ul>
+</li>
+</ul>
+
+
+<h1>富士通HPC時代</h1>
+
+<ul>
+<li>しばらく穏やかな開発</li>
+<li>その後ひょんなことからデスマへ投入</li>
+<li>辞めたいと思ってることがバレてOS部隊から引き抜き</li>
+</ul>
+
+
+<h1>OSSにコントリビュートする理由</h1>
+
+<ul>
+<li>コードは書いた瞬間から負債になる。</li>
+<li>マージコストを極小にする為に書いたら即マージする
+
+<ul>
+<li>byリーナス・トーバルズ</li>
+</ul>
+</li>
+</ul>
+
+
+<h1>当時抱えていた問題</h1>
+
+<ul>
+<li>RHEL5のメモリ管理のトラブル</li>
+<li>kernelとglibcのポリシーが違うバカバカしい問題</li>
+</ul>
+
+
+<h1>やったこと</h1>
+
+<ul>
+<li>LKMLの1日1000通飛んでくるメールに全て目を通した</li>
+<li><a href="http://www.atmarkit.co.jp/flinux/index/indexfiles/watchindex.html">@ITでLinuxカーネル動向みたいなタイトルで連載を開始</a></li>
+<li>オーストラリア人のユーモアのセンスは人類の理解を超えている(お前の英語はわからん)
+
+<ul>
+<li>by Paul Jackson</li>
+</ul>
+</li>
+</ul>
+
+
+<p><img src="/images/developers-summit2014-first-day/open-source-engineer2.jpg" alt="open sorce engineer 2" /></p>
+
+<h1>なぜパッチが汚くなるか</h1>
+
+<ul>
+<li>だいたい複数の問題／パッチに分割可能</li>
+<li>テトリス問題(富士通内ではこう呼んでいる)</li>
+</ul>
+
+
+<h1>最後のまとめ</h1>
+
+<ul>
+<li>仕事忙しくてOSSできないといつまでも出来ない</li>
+<li>燃え盛っている時に火中の栗を拾うのが良い</li>
+<li>任せられるので時間やリソースを自分で好きに出来る</li>
+<li>アウトプットを外に出す、ブログ書くとか連載するとか</li>
+<li>人事権持っている人はコードを読んでる暇がないのでそういうの大事</li>
+<li>地道な改善を積み重ねてOSSの人間関係を成長させる</li>
+</ul>
+
+
+<h1>質疑</h1>
+
+<ul>
+<li>学生時代PCには縁がなかった</li>
+<li>花開いたのは就職してから</li>
+<li>コードの速読したのが良かった</li>
+</ul>
+
+
+<hr />
+
+<p>やっぱり読み返してみて色々補足が必要そうな箇所ありますが、
+それでも面白かったんで熱が覚めないうちにアップしておきます！
+もっと話聞きたかった〜(twitterでもそういう感想の方が複数いましたねｗ)</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">tchikuba</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-02-13T14:00:00+09:00" pubdate data-updated="true">Feb 13<span>th</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/devsumi2014/'>devsumi2014</a>, <a class='category' href='/blog/categories/fujitsu/'>fujitsu</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  <a href="http://b.hatena.ne.jp/entry/http://tchikuba.github.io/blog/2014/02/13/developers-summit2014-first-day/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tchikuba.github.io/blog/2014/02/13/developers-summit2014-first-day/" data-via="tchikuba" data-counturl="http://tchikuba.github.io/blog/2014/02/13/developers-summit2014-first-day/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/02/10/entrepreneurship-of-20-30s/" title="Previous Post: 「20代の起業論 & 30代(超)の起業論」参加レポート">&laquo; 「20代の起業論 & 30代(超)の起業論」参加レポート</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2014/02/13/cookpad-of-developers-summit2014/" title="Next Post: cookpad庄司嘉織氏「何故クックパッドのサービス開発は日々進化しているのか」@デブサミ2014初日を聞いた">cookpad庄司嘉織氏「何故クックパッドのサービス開発は日々進化しているのか」@デブサミ2014初日を聞いた &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2018/09/27/minnano-code-meetup/">イベント「~エンジニア×先生×NPOで語る、これが本当のプログラミング教育~みんなのコードmeetup」に参加してきました</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/12/11/super-getting-started-books/">【書籍レビュー】超入門シリーズ本を献本頂きました</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day/">RubyKaigi 2017 2日目 Matz基調講演＋α</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/07/19/programming-skils-for-entrepreneur/">イベント「非エンジニア起業家に求められるプログラミングスキルとは」に参加しました！</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/05/22/ruby-on-rails-5-application-programming/">【書籍レビュー】Ruby on Rails 5 アプリケーションプログラミングを献本頂きました</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/09/08/rubykaigi2016-1st-day/">【速報】RubyKaigi 2016初日参加レポート</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/07/04/previous-cto-night/">イベント「CTOだったNight」@dotsに参加してきました！</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/03/26/dots-womans-is-eternal-engineers/">イベント「dots.女子部勉強会 vol.7 わたし、一生エンジニア宣言！～ 女性エンジニアとして長く働く秘訣 ～」に参加しました！</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/12/05/life-of-creative-people/">21世紀型のクリエイティブな働き方・思考・組織の新しいあたりまえ</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/10/31/ecma-script-6-study/">「ECMAScript6勉強会」HappyHalloween JS 祭！！に参加してきました！</a>
+      </li>
+    
+  </ul>
+</section>
+<section>
+  <h1>About Me</h1>
+  <p>tchikuba (<a href="http://twitter.com/tchikuba" target="_blank">@tchikuba</a>)</p>
+  <h3>vim Ruby Rails PHP</h3>
+  <h3>CoffeeScript AngularJS</h3>
+  <h3>BDD TDD Lean Agile</h3>
+  <h3>Statistics Machine Learning</h3>
+  <h3>Beer Driving Singing SNS</h3>
+</section>
+
+
+
+
+<section>
+  <h1>Latest Tweets</h1>
+    <a class="twitter-timeline" href="https://twitter.com/tchikuba" data-widget-id="413610122833690624">@tchikuba からのツイート</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</section>
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2018 - tchikuba -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+  - <span class="credit">Theme by <a href="http://www.gehaxelt.in">Gehaxelt</a></span>
+  <span class="credit">and <a href="http://www.it-solutions-neef.de">IT Solutions Neef</a></span>
+</p>
+
+</footer>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#appId=659253570789231&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

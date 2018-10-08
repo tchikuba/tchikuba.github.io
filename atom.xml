@@ -1,0 +1,2954 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[tchikuba's blog]]></title>
+  <link href="http://tchikuba.github.io/atom.xml" rel="self"/>
+  <link href="http://tchikuba.github.io/"/>
+  <updated>2018-10-08T23:21:59+09:00</updated>
+  <id>http://tchikuba.github.io/</id>
+  <author>
+    <name><![CDATA[tchikuba]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[イベント「~エンジニア×先生×NPOで語る、これが本当のプログラミング教育~みんなのコードmeetup」に参加してきました]]></title>
+    <link href="http://tchikuba.github.io/blog/2018/09/27/minnano-code-meetup/"/>
+    <updated>2018-09-27T19:14:24+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2018/09/27/minnano-code-meetup</id>
+    <content type="html"><![CDATA[<p>2018/09/27(木)に行われたイベント<a href="https://connpass.com/event/100886/">「~エンジニア×先生×NPOで語る、これが本当のプログラミング教育~みんなのコードmeetup」</a>にブログ投稿枠で参加してきました！</p>
+
+<p>私はプログラミング教育には関心が高いのですが、どちらかというと現状は社会人向けの方に現状はコミットしています。</p>
+
+<p><a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3420715&pid=885401979" target="_blank" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3420715&pid=885401979" height="1" width="1" border="0">TechAcademy [テックアカデミー]</a>という社会人向けのプログラミングスクールでwebアプリケーションコース（Ruby on Rails）の講師（メンター）をやっていたりします。</p>
+
+<p>が、過去、小学校の教員免許状も取得したこともあり、学校教育におけるプログラミング教育にも将来的には関わっていきたいなと思っています。</p>
+
+<p>NPO法人のみんなのコードは、本業のリブセンスでのご縁もあり、以前から知っていましたが、今回のイベントに知人のFacebookエンジニアである安藤さんもパネラーとして参加されるというので、同日行われていたMeguro.rbの参加を見送って、このイベントに参加することにしました。</p>
+
+<h2>小学校プログラミング教育最前線のお話 by NPO法人みんなのコード代表 <a href="https://twitter.com/yutatone">利根川 裕太</a></h2>
+
+<p>最初にアイスブレイクで2人1組になってトランプ5枚のカードを大きい順に並べ替えるゲームで和みました。
+ソートアルゴリズムを特にIT機器を通さずに体験するゲームということで、広く言えばこういうものも、プログラミング教育の一環とも言えるのではないかと思いました。</p>
+
+<p>その後、利根川さんからみんなのコードが目指す世界についてアナウンスがありました。
+一応紹介しておくと、NPO法人みんなのコードは、プログラミングを教える人を教える活動を行っています。
+つまり、教員の方を中心にプログラミング教育の教え方を教えるような感じです。</p>
+
+<p>ご高齢ながらプログラミングを独学で習得して一躍有名人となった<a href="https://www.huffingtonpost.jp/kei-kudo/100-2018-0313_a_23383928/">若宮正子さん</a>などのストーリーを通して、コンピュータを用いて何らかの課題解決をしている事例を紹介されていたのが印象的でした。</p>
+
+<p>私が話を聞きながら疑問に感じたポイントは、プログラミング教育以前に、学校のような比較的伝統ある古い組織において、ITを導入することでより効率的に物事を進めたり、人とつながったりなど、ITの恩恵を受ける体験に実は乏しく、ITが持つ力の大きさみたいなものを教員が実感する必要があるのでは？ということでした。</p>
+
+<p>実際にそのような趣旨で質問してみたところ、プログラミング教育がきっかけになって、学校側のITリテラシーがあがる、という事例も実際に出てきているそうです。</p>
+
+<h2>エンジニア×先生×NPOのパネルディスカッション</h2>
+
+<p>後半からは、以下のパネラーの方々の簡単な自己紹介の後、プログラミング教育に関するパネルディスカッションが行われました。</p>
+
+<h3>パネラーの方々</h3>
+
+<ul>
+<li>エンジニア：FacebookエンジニアのAndo氏
+
+<ul>
+<li>中学校の社会の教員採用試験も受けた経験あり。</li>
+<li>デジタルハリウッドでの講師経験あり。</li>
+</ul>
+</li>
+<li>先生：千葉大学教育学部附属小学校 教諭／ICT活用教育部 主任　小池 翔太氏
+
+<ul>
+<li>5年目の小学校教員。</li>
+<li>IBM×国立天文台「位置天文学×エンジニア」などのプログラミング教育事例の紹介。</li>
+</ul>
+</li>
+<li>NPO法人みんなのコードCTO：田中高明氏
+
+<ul>
+<li>元世界史の教師からエンジニアに転向。</li>
+</ul>
+</li>
+<li>NPO法人みんなのコード主任講師：福田晴一氏
+
+<ul>
+<li>和田中学校藤原さん（民間出身の元校長先生）と一緒にやっていた元先生。</li>
+<li>余談ですが私は藤原さんが提唱されている<a href="https://logmi.jp/131707">トライセクター・リーダー</a>って考え方に共感してます。簡単にいえば、3つの全く違うそれぞれの分野で100人に1人の人材になり、それを3つ掛け合わせると100万人に1人の人材になれる、というキャリアみたいな感じ。</li>
+</ul>
+</li>
+</ul>
+
+
+<h3>パネルディスカッション詳細</h3>
+
+<p>詳細と見出しには書きましたけど、ここからは議論が面白くて前のめりに聞くのが中心だったのであまり網羅的にメモできていませんが、個人的に印象に残った議論とその所感を中心に書き起こしておきます。</p>
+
+<h4>実際の教育現場がどうなのか？by福田氏</h4>
+
+<p>福田さんは元先生で、現在はみんなのコードで全国を飛び回って、先生のためのプログラミング教育について研修をされているそうです。いわゆる「プログラミング指導教員養成塾」的なものをされています。</p>
+
+<p>福田さん曰く、全国を回った所感として、「3つの格差」について話をされていたのが印象的でした。</p>
+
+<ul>
+<li>自治体の格差</li>
+<li>インフラの格差</li>
+<li>教員の格差</li>
+</ul>
+
+
+<p>教育に関して、地方は東京から3年くらい遅れて広まっていくところがあり、「公教育の犯罪」とまで言及されていました。</p>
+
+<p>以前からも流行り廃りみたいなものは、東京から広まっていくのはあったと思いますけど、単なる流行はSNSなどインターネットが普及する昨今では、地方に広まっていくのもかなりのスピード感あるなぁという印象があります。恐らく、インターネットの恩恵を享受しにくいサービスみたいなものは、やはり東京一極集中というのはある気がします。</p>
+
+<p>学校の先生方にプログラミング教育の必要性を訴えるには、求められる背景の理論武装が必要だけど、一度理解してもらえればちゃんと堅実に推進してくれるという話は印象的でしたね。確かに教育の現場って理屈っぽい先生方多かった印象ありますね。理屈っぽいという意味では、エンジニアも同類項ですがｗ</p>
+
+<h4>学級経営にも生きるプログラミング教育by小池氏</h4>
+
+<p>プログラミングで求められる自発性みたいなものがあり、たとえば、アイルランドから始まった<a href="https://coderdojo.jp/">CoderDojo</a>では、あまりトップダウン的なアプローチで何かを強制的にさせることは行いません。あくまでも子どもたちの自主性にまかせてやることを決めるので、一人ひとりの個性が大切にされます。</p>
+
+<p>同じような流れで、一度プログラミング教育を経験した子どもたちが、プログラミング教育以外の分野でも、ボトムアップ的なアプローチで色々と試行錯誤し出す、ということがあり、これは大きなメリットの1つであると小池さんが言ってました。</p>
+
+<p>本来、「教育とは子どもたちの個性に合わせてある」というのが持論ですが、どこかで横並びの画一性みたいなものが管理上求められる部分もあるので、この矛盾とどう戦って行くのかが重要なのかなぁと個人的には思いました。子どもたちに合わせるなら、個人指導みたいなのがベストだけど、現状の公教育は集団授業前提なので、なかなか子どもたちそれぞれに合わせていられない部分はあると思います。</p>
+
+<h4>プログラミング教育のデメリットは？by安藤氏</h4>
+
+<p>公教育にはほぼすべての大人が子どもの頃に経験したもので評価してしまうけど、実は最新の公教育がどうなっているのか？とい実態を把握している人はそう多くないです。だからこそ、安藤さんはプログラミング教育についても「知ったかぶりする人が多い印象」という表現をされていたのが印象的でした。</p>
+
+<p>安藤さんは前述のCoderDojoでも子どもたちに教えた経験があります。教育の現場として、「IE（ブラウザ）を開くのに15分かかる」「キーボードで入力すると急激にハードルがあがる。&#8221;こんにちは&#8221;と入力するのに1分かかったり」と事例はなるほどなぁという感じでした。個人的にはいい加減、キーボードに変わるより直感的な入力デバイスが必要な気がしていますが。誰かベンチャーでやらないかなｗ現状だと音声入力の精度がかなり向上している感ありますが、どうもプログラミングの入力となると記号などが多いので難しそう。音声入力専用のプログラミング言語とか作れば良いのかしら。</p>
+
+<p>話がそれました。</p>
+
+<p>いずれにしても、公教育におけるプログラミング教育は、そのハードルをかなり下げる必要があるという主張は共感できました。確かに、野球やサッカーの競技人口の裾野は広がっていますが、だからといってみんながプロの選手になる訳ではないです。プログラミングも同様で、職業エンジニアに求められるハードルと混同してはいけないと思います。</p>
+
+<p>「議論のすれ違いー」</p>
+
+<p>このように安藤さんは表現していましたが、私もまったく同感で、ポジショントークによるものが大きい気がしています。産業界ではいわゆるホワイトカラーの仕事が増えていて、かけた時間と成果が一致しない類の質が求められるようになってきています。この流れの中で、プログラミング的思考が求められることが少なくありません。それでなんとなく一斉に「これからはプログラミング教育の時代だー！」みたいな温度感高めの人たちが一定増えているのが現状かなとも思います。</p>
+
+<p>この話を書いていて思い出したのが、サイバーエージェント系列の<a href="https://techkidsschool.jp/">CA Tech Kids</a>とCA藤田さんとの対談の<a href="https://forbesjapan.com/articles/detail/20482">この記事</a>です。この記事の後半に出てくるのですが、プロ野球と同じように、高校生向けのドラフト会議のエンジニア版をやるというのが興味深いなぁということです。こんな感じで、エンジニアとしてのエリート教育もあって良いと思います。大事なのはダイバーシティですね。野球でもサッカーでも、だいたい日本代表レベルで活躍する人って、地域のリトルリーグとかそういうのやってましたよね。ガチ勢は意外と学校の部活とかやんない感じでした。そんなノリでプログラミング教育も浸透すると良いのかなぁと思います。</p>
+
+<h4>プログルの紹介by田中氏</h4>
+
+<p>公教育におけるプログラミング教育のハードルを下げる取り組みとしてみんなのコードとして取り組んでいるのが、<a href="https://proguru.jp/">プログル</a>です。これはプログラミング教育における定番Scratchっぽいものですね。</p>
+
+<p>イベント当日は、自治体別アクセスランキングなどを見せてもらいましたが、全国からアクセスされて使われていました。</p>
+
+<p>Scratchもそうですが、これ系のやつって子どもたちにやらせるとみんな総じて「楽しかったー！またやりたい！」ってほぼなるんですよね。この満足度はやりがいあって良いなと。うがった見方ばかりしかできない大人にはならないように気をつけましょう（違）</p>
+
+<h2>プログラミング教育に対する私見</h2>
+
+<p>既に所感もあわせて記述したのでその通りですがｗ</p>
+
+<p>やはりどの目線で話をするのか、というのが一番大きいですね。やはりプロのエンジニアになるためのプログラミング教育と、プログラミング的思考を養ったり、プログラミング教育の出会いの場を提供するという公教育では役割が違って当然です。2020年小学校教育でプログラミング教育が必修化されるとか、センター試験で科目化されるとかの時代の流れもあって、このあたりの棲み分けが現状カオスになっている印象はあります。</p>
+
+<p>まぁ何事も活動が広まっていくプロセスにはカオス期というのは避けて通れないので、あと5-10年くらいかけてもっと洗練されていくのかなぁと思います。公教育の体育の授業でソフトボールや野球をやるのと、リトルリーグに所属した人がプロ野球選手になるプロセスに文句いう人がいないようにプログラミング教育が自然になっていく時代がやってくるのは間違いないでしょう。</p>
+
+<p>私はエンジニアなので、日本が少子高齢社会の中で高い生産性を保ってより高い価値ある仕事を創造していくには、プログラミング教育は何かしら必須であると考えているので、そのうち時代がやってくるさ♪という傍観者ではなくて、何かしらプログラミング教育へのコミットメントを増やしていきたいです。</p>
+
+<p>頑張ります！</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[【書籍レビュー】超入門シリーズ本を献本頂きました]]></title>
+    <link href="http://tchikuba.github.io/blog/2017/12/11/super-getting-started-books/"/>
+    <updated>2017-12-11T19:47:03+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2017/12/11/super-getting-started-books</id>
+    <content type="html"><![CDATA[<p><a href="http://tchikuba.github.io/blog/2017/05/22/ruby-on-rails-5-application-programming/">前回</a>に引き続き、WINGSプロジェクトが監修し、技術評論社から出版されている超入門シリーズ本を以下の3冊献本して頂きました。</p>
+
+<p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/B071GQQDNM/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071GQQDNM&linkCode=as2&tag=athome0a-22&linkId=31b2a479600687cd2a87420281ca995e"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B071GQQDNM&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071GQQDNM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/B071X8SKXN/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071X8SKXN&linkCode=as2&tag=athome0a-22&linkId=ec260d486540778f7bdc4f8fdd0cebfb"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B071X8SKXN&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071X8SKXN" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/B071GTJSPL/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071GTJSPL&linkCode=as2&tag=athome0a-22&linkId=fcb1d876a5f5de8815781b325db0b4d6"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B071GTJSPL&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071GTJSPL" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<p>それぞれの本についてレビューをば。</p>
+
+<p>※関係者の方々、対応が遅くなり申し訳ありません。。</p>
+
+<hr />
+
+<h2>【書評】<a target="_blank" href="https://www.amazon.co.jp/gp/product/B071GQQDNM/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071GQQDNM&linkCode=as2&tag=athome0a-22&linkId=942c9cecdc280376dec9ed521cf1406c">たった1日で基本が身に付く！  HTML&amp;CSS超入門</a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071GQQDNM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></h2>
+
+<p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/B071GQQDNM/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071GQQDNM&linkCode=as2&tag=athome0a-22&linkId=31b2a479600687cd2a87420281ca995e"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B071GQQDNM&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071GQQDNM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<h3>webサイトとはそもそもなんぞや？という点からちゃんと解説されている</h3>
+
+<p>超入門書なだけあって、そもそもwebサイトがサーバーに設置されていてブラウザなどのクライアントからアクセスして読み込むものだ、的な基礎的な部分からちゃんと解説されています。
+また、技術的側面だけでなく、webサイトを設置する目的やどう設計するか？についてもちゃんと触れられている点が素晴らしいです。</p>
+
+<h3>HTML5をベースとしたセマンティックwebが意識されている</h3>
+
+<p>超入門書といえど、headerタグやfooterタグなどを通してセマンティックwebについて早い段階でちゃんと解説されています。</p>
+
+<h3>CSS（Cascading Style Sheets）の基本がしっかり理解できる</h3>
+
+<p>CSSの発展の歴史を紹介していたり、HTMLタグをwebページの装飾目的で使うことを戒めたりなど、経験あるwebサイト制作者の方の言葉が散りばめられている辺り、好感が持てる印象でした。</p>
+
+<p>あと、私自身はサーバーサイドエンジニアなのでHTMLとCSSはなんとなくのフィーリングで理解しているところもあったので、例えばボックスモデルなどは恥ずかしながらmargin, border, padding辺りの違いについての認識が甘いところがあります。その辺りがちゃんと体系的に再確認できたのは良かったです。</p>
+
+<p>同様の理由で、段組みレイアウトの辺りの解説もまた、何がブロックレベル要素で何がインライン要素なのかとかあまり意識できてなかったり、フロートレイアウトなどもフィーリングで理解していたところがあったので正直勉強になりました。</p>
+
+<h3>レスポンシブデザインに対応している</h3>
+
+<p>最近では必須のレスポンシブデザインに対応しており、具体的にはスマートフォン対応する具体的な方法についても解説されています。
+私自身、メディアクエリとかちゃんと理解できてなかったところがありました。。</p>
+
+<h3>総評</h3>
+
+<p>本書を一通りなぞれば、コーヒーショップのレスポンシブなホームページのサンプルを制作することができます。
+本書を足がかりにすれば、<strong>読者は基本的なwebデザインのうちHTML・CSSコーディングができるようになる</strong>と思います。</p>
+
+<p>その意味で本書は良書だなーと思いました。</p>
+
+<p>また、私みたいにサーバーサイドエンジニアが本業なんだけど、フロントエンドはそこまで詳しくないけどちゃんと体系的にイチからインプットしたい、というモチベーションがある人には刺さるかもしれません。
+とはいえフロントエンドもある程度できるエンジニアにはちょっと物足りないかもしれませんが。</p>
+
+<p>余談ですが、<em>「本業サーバーサイドエンジニアに贈る基礎から学ぶフロントエンド」</em>的な書籍があったら実はニーズあるんじゃないかと思いましたｗ</p>
+
+<h2>【書評】<a target="_blank" href="https://www.amazon.co.jp/gp/product/B071X8SKXN/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071X8SKXN&linkCode=as2&tag=athome0a-22&linkId=9d4e7a69fed84321916b7baa8a77ebad">たった1日で基本が身に付く！  JavaScript超入門</a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071X8SKXN" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></h2>
+
+<p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/B071X8SKXN/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071X8SKXN&linkCode=as2&tag=athome0a-22&linkId=ec260d486540778f7bdc4f8fdd0cebfb"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B071X8SKXN&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071X8SKXN" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<h3>webアプリケーションとはなんぞや？についてちゃんと解説されている</h3>
+
+<p>超入門シリーズ本にはおなじみですが、ターゲット読者層がプログラミング未経験者なので、そもそもwebアプリケーションってなんだっけ？とかサーバーサイド、クライアントサイドの違いみたいな基礎的なところから解説が始まります。</p>
+
+<p>執筆者の立場として個人的に思うのですが、このあたりの解説ってすんなり説明するのが意外に難しいところだったりします。
+どこまで歴史的な背景やバックグラウンドを説明するのかとか。</p>
+
+<p>このあたりの部分、前半部分での説明が超入門者向けにも過不足なく非常に分かりやすいのではないかと思います。</p>
+
+<p>また、JavaScriptでできることの幅が広がりつつある昨今ですが、その辺りにも触れつつ、本書でカバーする範囲をクライアントサイドのwebアプリケーション機能開発に特化していると明記していることもわかりやすさを担保することに繋がっている気がします。</p>
+
+<h3>イベントやAPI、WebStorageについて扱っている</h3>
+
+<p>超入門者向けでも、JavaScriptによるwebアプリケーションの基礎としてイベントドリブンモデルについて解説されています。
+本書はwebアプリケーション前提なので、JavaScriptを語る上で密接に関わってくるイベントについて1つの章を割いて解説を加えているのかもしれません。</p>
+
+<p>後半の章では、Flickr APIを用いて画像検索するアプリ作成を行っており、より実践的な内容になっています。
+更に、Webstorageについても触れられており、こちらもAPI同様、より実践的な内容かなという印象です。</p>
+
+<h3>Windows環境にApacheインストールの辛い</h3>
+
+<p>これも超入門シリーズ本全般で辛いところではありますが、環境構築でWindowsを前提とするツラミはちょっとあるかなと。
+webアプリケーションにおけるJavaScriptというところで、Apacheのインストールは避けられなかったかもしれませんが。</p>
+
+<h3>オブジェクトがいきなり出てくる</h3>
+
+<p>超入門者にとって、前半の早い段階でオブジェクトという概念がいきなり出てくるのでちょっとギョッとするかもしれません。
+JavaScriptの性質上、しょうがない側面も大きいかなと思いつつ。。</p>
+
+<h3>総評</h3>
+
+<p>全体的にプログラミング言語としての側面からJavaScriptを論じるというより、<strong>より実践的なwebアプリ開発を行う手段としてのJavaScriptを紹介した書籍</strong>という印象を受けました。</p>
+
+<p>プログラミングを全く学習したことのない人向けにしては、プログラミングの基礎的な部分、例えば3大制御構造などについて体系的な解説がそれほど多くなかった印象だったので注意が必要かもしれません。</p>
+
+<p>逆に、<strong>JavaScriptを使って具体的にどういうアプリが作れるのか？という点にフォーカスしたい方にとっては良書</strong>と言えそうです。</p>
+
+<h2>【書評】<a target="_blank" href="https://www.amazon.co.jp/gp/product/B071GTJSPL/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071GTJSPL&linkCode=as2&tag=athome0a-22&linkId=f6e7a1ddc17c34e523450926d9863f48">たった1日で基本が身に付く！ Java超入門</a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071GTJSPL" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></h2>
+
+<p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/B071GTJSPL/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071GTJSPL&linkCode=as2&tag=athome0a-22&linkId=fcb1d876a5f5de8815781b325db0b4d6"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B071GTJSPL&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071GTJSPL" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<h3>コンパイルエラーなど基本的な部分が紹介されている</h3>
+
+<p>超入門向けらしく、半角スペースをなくすとコンパイルエラーが発生するなど超入門者向けの内容がちゃんと解説されています。</p>
+
+<h3>（凄い細かい話ですが）nullの正しい発音がコラムにｗ</h3>
+
+<p>nullは英語では「ナル」と発音するそうです。nullの紹介のところでコラムとして「正しく発音しましょう」って紹介がありました。
+ちなみに私は普段「ヌル」と発音してます。スミマセン！</p>
+
+<h3>二重ループが取り上げられている</h3>
+
+<p>プログラミング初心者にとって最もつまづきやすいのがループと言われます。
+ループを取り扱う章の最後に、本書ではループ処理がネストしている二重ループについて取り上げられています。
+これはプログラミング初心者にとっては有り難い解説かもしれません。</p>
+
+<p>同様に、配列の章の後半で配列とループ処理、ループ処理と条件分岐の組み合わせについても取り上げられており、二重ループ同様、プログラミング初心者にとってはプログラムが複雑になる過程をちゃんと説明してくれていて理解の助けになりそうだなと思いました。</p>
+
+<h3>クラス解説で後半2章分割かれている</h3>
+
+<p>クラスの基礎について1章分、クラスの利用について1章分を割いており、クラスに関する解説はかなりページ数を割いている印象です。
+このあたりはそもそも扱っている内容が重いせいか、その他の章の解説に比べて超入門者がページをまたいであちこちに行ったり来たりして理解を深める必要があるように感じました。</p>
+
+<p>このあたりをプログラミング初心者に分かりやすく解説できる自信は正直私もないのですが（汗）</p>
+
+<h3>総評</h3>
+
+<p>総合的に見て、<strong>プログラミングが全く初めての人にとって、Javaを学習する目的で本書は向いている</strong>と思います。</p>
+
+<p>ただ、個人的には<strong>そもそも「オブジェクト指向」という概念がプログラミング初心者には分かりづらい気がするのでその点をどうフォローするか、というのはある意味プログラミング教育の永遠のテーマと言える</strong>かもしれません。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[RubyKaigi 2017 2日目 Matz基調講演＋α]]></title>
+    <link href="http://tchikuba.github.io/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day/"/>
+    <updated>2017-09-19T09:49:45+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day</id>
+    <content type="html"><![CDATA[<p>RubyKaigi 2017は広島での開催。昨年は京都で今年は広島ということで、暫く地方の流れなのかしら？</p>
+
+<h2>Keynote : Yukihiro &ldquo;Matz&rdquo; Matsumoto @yukihiro_matz</h2>
+
+<ul>
+<li>世界最大規模のRubyカンファレンスがRubyKaigi
+
+<ul>
+<li>何を話すか困る</li>
+<li>松田さんには聴衆置いてきぼりでも良いので聞いたこと無い話、技術的な話してよとオファー来る</li>
+<li>才能の話をする</li>
+<li>天才プログラマーと言われるけど自分でそう思ったことはない</li>
+<li>自称プログラミング言語デザイナ</li>
+<li>matzが初めて触れたプログラミング言語はBasic</li>
+<li>自分の思考をまとめるツール=プログラミング言語</li>
+<li>I love all programming languages.</li>
+<li>「matzは他の言語に攻撃的だから嫌い」と言われることがある</li>
+<li>Rubyのmatzだから他言語を貶めてRubyアゲようとしてる、と言われるけど本人全くそんなつもりはない</li>
+<li>とはいえ昔Pythonのメーリスに乗り込んでRubyならこんなことできるよと言ったこともあるけど(笑)</li>
+</ul>
+</li>
+<li>Simula(1968)：初のオブジェクト指向言語の話を</li>
+<li>Animal &ndash; Horse &ndash; Zebraが表現できるように</li>
+<li>Dr. Kristen Nygaard（クリステン・ニゴール）</li>
+<li>「全てのオブジェクト指向言語は私の孫みたいなもんでなぁ」←会った時言われた</li>
+<li>単一継承（木構造）→多重継承（ネットワーク構造）</li>
+<li>C3リニアリゼーションアルゴリズム</li>
+<li>Mixin（Lisp界隈はFlavorsと呼んでた）</li>
+<li>アイスクリームとチョコチップのたとえ</li>
+<li>Rubyはこれをmoduleとして採用</li>
+<li>namespace（ex.Net::HTTP）／singleton（ex.FileUtils）／メソッドの集合（ex.Math）としてのmoduleも</li>
+<li>2013年2.0から新たな機能</li>
+<li>Alias method chain：欠点もある→Module#prependがRailsコミュニティから複数人から提案があった</li>
+<li>一度prependしたら外せないようにするのは敢えて→待てよ</li>
+<li>CLOS（Common Lisp Object System）という言語を想起</li>
+<li>アスペクト指向プログラミングといっても良い（Gregor Kiczalesが考えた）</li>
+<li>リファインメントとしてのmodule</li>
+<li>なぜモンキーパッチングというのか？</li>
+<li>ゲリラ→ゴリラ→モンキーになったっぽい</li>
+<li>ActiveSupportがモンキーパッチングの良い例</li>
+<li>2.days.ago（これRubyかよ）ってのができるようになる</li>
+<li>スコープを区切ったモンキーパッチングなら良いのでは</li>
+<li>Selector namespace （Smallscript）</li>
+<li>Rubyのリファインメント
+
+<ul>
+<li>C#のエクステンションみたいな→ex.RSpec：特定のスコープだけで呼ぶ（現時点でリファインメント使ってない）</li>
+<li>既存のメソッドを置き換える</li>
+</ul>
+</li>
+<li>Structual type checkとしてのmodule（まだプロポーザル）
+
+<ul>
+<li>静的型付けとして将来的には取り込まれる可能性</li>
+</ul>
+</li>
+<li>Ruby3x3への取り組み
+
+<ul>
+<li>MJIT</li>
+<li>Rubex</li>
+<li>Fiber / Guild</li>
+<li>AutoFiber（Unicorn作った人）</li>
+</ul>
+</li>
+<li>静的型付けの取り組みも本日午後に3発表あり</li>
+<li>Matzが手を動かすというよりゴールを示すリードデザイナ</li>
+<li>RubyはMatzの言語というより我々の言語</li>
+<li>ご覧のスポンサーの提供でお送りしています(笑)ブースに行ってくれると私の顔が立つ
+
+<ul>
+<li>Heroku</li>
+<li>VASILY</li>
+<li>Sansan</li>
+<li>Speee</li>
+<li>RakSul</li>
+<li>リクルートマーケティングパートナーズ</li>
+<li>Linkers</li>
+</ul>
+</li>
+</ul>
+
+
+<p>こっから先は話聞くのをメインにしてたので細かくはメモとってなかったので気になる所だけ…</p>
+
+<h2>An introduction and future of Ruby coverage library : Yusuke Endoh @mametter</h2>
+
+<ul>
+<li>カバレッジの種類にも色々ある
+
+<ul>
+<li>条件true/false両方をカバー</li>
+<li>LINEカバレッジだと後置ifなど見逃すケースも</li>
+</ul>
+</li>
+<li>カバレッジをゴールにするのはよくない</li>
+<li>SimpleCovはcoverage.soのラッパー</li>
+</ul>
+
+
+<h2>Improve extension API: C++ as better language for extension : Kouhei Sutou @ktou</h2>
+
+<ul>
+<li>高速化の為にはC/C++とRubyを行ったり来たりしないこと</li>
+<li>C++11
+
+<ul>
+<li>型推論auto</li>
+<li>ラムダ式</li>
+</ul>
+</li>
+<li>遅延メソッド定義</li>
+</ul>
+
+
+<h2>Automated Type Contracts Generation for Ruby : Valentin Fondaratov @rubymine</h2>
+
+<ul>
+<li>JetBrainsの中の人の静的解析の話</li>
+<li>RubyMineの各プロジェクトのテストコードをクラウド化して情報集める的な（たしか）</li>
+</ul>
+
+
+<h2>Type Checking Ruby Programs with Annotations : Soutaro Matsumoto @soutaro</h2>
+
+<ul>
+<li>ずっと前から色々型チェック関連やってる人</li>
+<li><a href="https://github.com/soutaro/steep">Steep</a></li>
+</ul>
+
+
+<h2>Bending The Curve: Putting Rust in Ruby with Helix : Godfrey Chan @chancancode / Terence Lee @hone02</h2>
+
+<ul>
+<li>Herokuの中の人＆もうすぐ中の人（デカい外人もHerokuの中の人）</li>
+<li>RustでRubyのライブラリ作ろう的な <a href="https://github.com/tildeio/helix">https://github.com/tildeio/helix</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[イベント「非エンジニア起業家に求められるプログラミングスキルとは」に参加しました！]]></title>
+    <link href="http://tchikuba.github.io/blog/2017/07/19/programming-skils-for-entrepreneur/"/>
+    <updated>2017-07-19T19:00:00+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2017/07/19/programming-skils-for-entrepreneur</id>
+    <content type="html"><![CDATA[<p>昨晩<a href="http://everevo.com/event/39414">「非エンジニア起業家に求められるプログラミングスキルとは」</a>
+というイベントに参加してきました。</p>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">久々サムライインキュベートなう <a href="https://t.co/H9RSzbhKfQ">pic.twitter.com/H9RSzbhKfQ</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/887250994463203328">2017年7月18日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>私はエンジニアで本来参加対象者って感じではないんですが、参加した目的は以下でした。</p>
+
+<ul>
+<li>参加者がエグゼクティブ向けプログラミング教育のターゲットとなる可能性のある人なので、話してニーズがあるかを確認する</li>
+<li>起業家にどれだけプログラミングスキルが求められる温度感なのか確認する</li>
+<li>今進めているプログラミング教育メディアの構想の壁打ちをしてみる</li>
+</ul>
+
+
+<hr />
+
+<p>目的は概ね達成できたかなと思っています。
+参加者の中で実際にニーズを持っていそうな人・ペルソナが特定できなかった部分はちょっと課題。</p>
+
+<p><a href="http://www.officedeyasai.jp/">OFFICE DE YASAI</a>というサービスを運営している
+株式会社KOMPEITOのCEOの川岸さん(登壇者)と話して感じたんですが、
+ある程度ステージが進んだエグゼクティブだとより短期的な成果を求めるのでどこまで何が良くなるのか？
+ということを提示できないとニーズを掘り起こすのが厳しそうだということ。</p>
+
+<p>また、その意味ではよりアーリーステージの起業家の方がニーズがあるのかもしれないと思いました。
+ただ、アーリーステージ起業家の場合だと、本人がプログラミングスキルそのものを身に付けるという話なので、
+その意味では私が想定するエグゼクティブ向けプログラミング研修とは違うかも。</p>
+
+<p>全体的にエンジニアの私にとってはそれほど真新しい話はなかったんですが、
+サムライインキュベートが支援するようなサービス開発のベンチャーは基本的に起業家がプログラミングできることか
+チームにエンジニアがいることが支援の条件でやはりアメリカ同様プログラミングスキルに対する
+ビジネス評価の温度感は高いです（当然か）。</p>
+
+<hr />
+
+<p>あとは以下、昨晩のメモと感じたことを箇条書きで記しておきます。</p>
+
+<ul>
+<li>アメリカにはプログラミングスクール女子校がある</li>
+</ul>
+
+
+<p>女性向けサービス開発を行う上で女性の感性が必要なので女性がプログラミングスキルを身に着けて起業家になる女子校があるそう。
+嫁に運営やらせたら面白いかも？とちょっと思いました。
+こういうニッチに特化した方が集客しやすい側面がありそう。</p>
+
+<ul>
+<li>エンジニアを起業家にする教育を施す学校のニーズは一定あるかも？</li>
+</ul>
+
+
+<p>登壇していた<a href="http://gsacademy.tokyo/">G’sアカデミー</a>も起業家向けのプログラミング教育を行ってますが、
+むしろエンジニア界隈で最近主流になってきているプロダクトマネージャーの流れで、
+エンジニアを起業家にする方が筋が良い場合があるのでは？と思いました。</p>
+
+<p>その延長線で、エンジニアを起業家にする教育を施す起業家養成学校をやったらニーズはありそうな気がしたんですがどうでしょう。</p>
+
+<ul>
+<li>和田さん曰く「プログラミングとエンジニアリングは分けて考えている」</li>
+</ul>
+
+
+<p>最低限動くモノづくりができるというプログラミングと、より良い設計やコードといった高度なエンジニアリングとは分けて考えている、
+ということ。
+CEOはプログラミングはできるべき、エンジニアリングまでは必要ない、とのこと。この主張は分かりやすく共感できた。</p>
+
+<ul>
+<li>G&#8217;sアカデミー児玉さん曰く「スクールの立ち上げに複数関わってきた経験から言えば、集客は難しい。良い講師を揃えれば生徒が集まるかというとそうでもなく工夫が必要」</li>
+</ul>
+
+
+<p>直感的に経験からの重い言葉と理解しました。
+個人的にはスクール立ち上げの経験がないので実感としてはまだ分からないですが、
+恐らくスクールに参加しようと思わせるマーケティングが必要だということと理解しました。</p>
+
+<hr />
+
+<p>現在少しずつ実験的に開発を進めている<a href="https://www.grami-sensei.com/">プログラミング教育メディア</a>の構想は筋は悪くなさそうという感触は得られました。ただ、ターゲットとなるペルソナは今回のイベントの参加者とはちょっとズレがあるのでその点は考慮が必要で引き続きヒアリングを進める必要がありそう。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[【書籍レビュー】Ruby on Rails 5 アプリケーションプログラミングを献本頂きました]]></title>
+    <link href="http://tchikuba.github.io/blog/2017/05/22/ruby-on-rails-5-application-programming/"/>
+    <updated>2017-05-22T21:02:41+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2017/05/22/ruby-on-rails-5-application-programming</id>
+    <content type="html"><![CDATA[<p>久々にブログ更新。</p>
+
+<p>ここ最近、友人から紹介されて<a href="http://www.wings.msn.to/">WINGSプロジェクト</a>という技術書執筆者のコミュニティに属して、色々と執筆を行っていたりします。
+たとえば、<a href="http://codezine.jp/">CodeZine</a>で<a href="http://codezine.jp/article/corner/681">「サンプルコードで学ぶRuby on Rails 5実践入門」</a>という連載中です(もうすぐ連載終了予定ですが)。</p>
+
+<p>さて本題ですが、このWINGSプロジェクトの主催者である山田祥寛さん著「Ruby on Rails 5 アプリケーションプログラミング」という技術書を献本頂いたのでレビューを書きます。</p>
+
+<p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/4774188832/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4774188832&linkCode=as2&tag=athome0a-22&linkId=c0d7575094675a2af0c9a951687667f7"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4774188832&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=4774188832" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<h2>網羅性が高い</h2>
+
+<p>全体的にRailsの機能をまんべんなく解説しています。
+たとえばDBから動的にセレクトボックスを生成するoptions_from_collection_for_selectビューヘルパーなど、かなり広範囲にカバーされている印象でした。
+また、ActiveRecordのlock_versionカラムによるオプティミスティック同時実行制御についても触れられています。
+さらに、フロントエンドの開発のところで、CoffeeScriptには三項演算子がないなど、CoffeeScriptの基本的な文法まで触れられているのでRubyしか触ったことがない人にとってもこれ1冊でRailsの基礎を身につけることがある程度できそうです。
+あとscss -iでSCSSがインタラクティブモードで起動できるとか実は初めて知ったことも書いてありましたｗ</p>
+
+<h2>解説が分かりやすい(特に解説図)</h2>
+
+<p>専属テクニカルライターとしてキャリアの長い山田さんならではの分かりやすい解説が特徴かと。
+Rails初心者が読んでも非常に分かりやすいと思います。
+また、ところどころで差し込まれている解説図が直感的に理解しやすいもので感心しました。</p>
+
+<h2>随所にRails5以前のバージョンの知見が散りばめられている</h2>
+
+<p>NOTEとしてRails5以前だとどうだったかの解説があります。
+たとえばStrong Parametersの解説など、3系・4系のバージョンと絡めてRails5への理解を深める解説が散りばめられています。</p>
+
+<h2>註釈が結構細かい</h2>
+
+<p>右側が本文、左側の余白に様々な註釈があり、知識を補強する解説が掲載されています。
+結構かゆいところに手が届く感じの註釈が多い感じで表層的な理解に留まらず背景知識も深く理解できそうです。</p>
+
+<h2>環境構築はちょっと注意が必要</h2>
+
+<p>環境構築がWindowsとLinux両方をサポートしているのですが、Railsをガチで開発する場合結構Macで開発することが実際多いかなと。
+Macでの手順の記述がないのはちょっと残念な印象です。
+また、Railsも直接gemをインストールしていますが、実践的にはrbenvでRubyをインストールしてbundler経由でRailsをプロジェクトローカルにインストールすることがほとんどなので、その辺のデファクトが分かっていない人にとってはちょっと注意が必要かなと。
+まぁ、そもそも上級者向けの書籍ではないのでその辺は当初から割愛しているのかな、とは思いますが。</p>
+
+<h2>Action Cableの詳細解説がない</h2>
+
+<p>Rails5の目玉機能の1つにAction Cableがあることはサラっと触れられているのですが、残念ながら詳細の解説がないです。
+この辺はページ数の関係で省略したんでしょうか。まぁこれちゃんと説明すると結構面倒なんですよねｗ</p>
+
+<h2>総評</h2>
+
+<p>個人的には網羅性と分かりやすさの観点で、初心者を脱却しつつある方が体系的にRailsを捉え直すのにちょうど良い書籍かなと。
+全くの私見ですが個人的にはパーフェクトRuby on Railsより分かりやすい印象ですｗ</p>
+
+<p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/4774188832/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4774188832&linkCode=as2&tag=athome0a-22&linkId=c0d7575094675a2af0c9a951687667f7"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4774188832&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=4774188832" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a target="_blank"  href="https://www.amazon.co.jp/gp/product/4774165166/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4774165166&linkCode=as2&tag=athome0a-22&linkId=37d1c46125129eacafd60a4a7f4fa96d"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4774165166&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=4774165166" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a target="_blank"  href="https://www.amazon.co.jp/gp/product/4774189774/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4774189774&linkCode=as2&tag=athome0a-22&linkId=ff1909afe5cc88049c9d1fce1130803c"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4774189774&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=4774189774" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[【速報】RubyKaigi 2016初日参加レポート]]></title>
+    <link href="http://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day/"/>
+    <updated>2016-09-08T10:17:39+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day</id>
+    <content type="html"><![CDATA[<p>聞きながらの自分用メモなのでちょっと正確でない点がありそうですが。</p>
+
+<h2>Ruby3 presented by matz</h2>
+
+<ul>
+<li>Typingの話</li>
+<li>SmallTalk→Java→Ruby,JavaScript→Swift,Go→？</li>
+<li>近視眼的な判断で静的型付けを選択するのは危険</li>
+<li>そもそも未来の型とは？</li>
+<li>Duck typing: アヒルが歩くように。アヒルのように振る舞えばOK</li>
+<li>Duckとは期待される振る舞い</li>
+<li>プログラマのメンタルコストを下げたい</li>
+<li>GoのStructual SubtypingはNominal Subtypingより良さ気</li>
+<li>Rubyには歴史的にこれまで型指定がない</li>
+<li>動的型付けの欠点もある</li>
+<li>エラーメッセージが親切じゃない</li>
+<li>型は絶対に書きたくない(会場笑) DRYじゃないし</li>
+<li>Type Annotation,Mixed/Gradual Typingはダメなアイディア</li>
+<li>人にお願いするんじゃなくて技術で解決したいよね</li>
+<li>型推論は素晴らしい</li>
+<li>インタフェース書きたくない</li>
+<li>型の名前を決めるのは結構なコスト。振る舞いがわかっていれば名前を付けたくない</li>
+<li>振る舞いを決める型のデータベースのようなものと型推論を組み合わせると80%くらいは推論可能では</li>
+<li>オープンクラスとかで再定義しちゃうと型推論無効に</li>
+<li>型データベースをgem化して利用して型推論の精度向上とか</li>
+<li>ダックタイピングを維持して型推論をRubyらしく行う</li>
+<li>これらの構想はすべてRubyistが楽しく生産性を維持できるために検討していること</li>
+<li>Ruby3はいつか？ I don&rsquo;t know.(会場笑)</li>
+<li>次の東京オリンピックの時にはRuby3あると良いなぁ</li>
+<li>OSSコミュニティは前に進めないとつまらない。前に進めるためには何でもやる</li>
+</ul>
+
+
+<h2>dRuby presented by @m_seki</h2>
+
+<ul>
+<li>dRubyが生まれたのは1999年</li>
+<li>dRubyはオーパーツ</li>
+<li>shttpsrv: WEBrickより前のRuby製webサーバ</li>
+<li>Rubyのように振る舞う分散オブジェクト</li>
+<li>DRb.start_serviceだけでdRubyの準備可能</li>
+<li>サーバーとクライアントが入れ替わる例</li>
+<li>OOPっぽい感じ</li>
+<li>Queueを使って待合せのデモ</li>
+<li>dRubyはtwitterのプロトタイピングでdRuby/Rindaだったらしい</li>
+<li>プロトタイピングとしての利用価値がある気がする</li>
+<li>セキュリティ系メソッドは消してしまいたい。危ないものは危なく見えるべき</li>
+</ul>
+
+
+<h2>Welcome to haconiwa presented by @udzura</h2>
+
+<ul>
+<li>Drone.io</li>
+<li>dockerらしいコマンドをしょっちゅう打ってた</li>
+<li>Sqaleで使ってるLXC</li>
+<li>haconiwaコマンドでRubyで書かれたプロファイル定義を実行とか</li>
+<li>hacorbコマンドとかでmrubyスクリプトのコンテナ実行</li>
+<li>cgroups的な</li>
+<li>最初はCRubyで実装</li>
+<li>システムコール扱うのに色々嵌ったのでmruby実装へ</li>
+<li>mrubyはコンテナが取り扱うシステムコールをサポートしてるので使いやすい</li>
+</ul>
+
+
+<h2>A proposal of new concurrency model for Ruby 3 presented by @ko1</h2>
+
+<ul>
+<li>資料
+
+<ul>
+<li><a href="http://www.atdot.net/~ko1/activities/2016_rubykaigi.pdf">スライド</a></li>
+<li><a href="http://www.atdot.net/~ko1/diary/201609.html#d6">日本語スクリプト</a></li>
+</ul>
+</li>
+<li>Ruby 3に取り入れられたいと思う並列プログラミングについて</li>
+<li>C言語のポインタと比較するとRubyはGCあるのでハッピープログラムできる</li>
+<li>data raceやrace conditionが発生する例を通してスレッドセーフなプログラミングが如何に難しいかを知る</li>
+<li>Mutexを利用して同期を取るのはバグと性能低下の狭間にある</li>
+<li>Ruby 3ではGuild(ギルド)というスレッドにかわる新たな概念を提案</li>
+<li>Guildは複数スレッドを含む上位概念的なもの</li>
+<li>複数のGuild間での可変オブジェクト受け渡しにはチャネルを使ってコピーするか移籍(transfer membership)という新しい概念で</li>
+<li>Guild内のスレッド間はスレッドセーフが保証される</li>
+<li>これらのGuildの概念でRuby 3で実現したい並列プログラミングのゴールをすべて満たす感じに</li>
+<li>Guild概念導入でスレッドセーフが保証されないキモいコードを書けないようにする方向性</li>
+</ul>
+
+
+<h2>Isomorphic web programming in Ruby presented by @youchan</h2>
+
+<ul>
+<li>去年はHyaliteの話をした</li>
+<li>Menilite: クライアントサイドでもARとか使える的な(JS嫌いなのでw)</li>
+<li>デモ、デモ、ひたすらデモ</li>
+</ul>
+
+
+<h2>Unifying Fixnum and Bignum into Integer presented by @tanaka_akr</h2>
+
+<ul>
+<li>Ruby 2.4ではFixnum,BignumクラスがなくなりIntegerに統合</li>
+<li>環境によってFixnumが扱えるサイズは異なる
+
+<ul>
+<li>手元の環境(OS X Yosemite)だと(2<strong>62-1).classはFixnum,(2</strong>62).classはBignum</li>
+</ul>
+</li>
+<li>Fixnum,BignumはCommon Lispから来てる</li>
+<li>以下のコード無限ループになるけど許容するしか。
+max = 1
+max *= 2 if max.class == Fixnum
+puts max</li>
+<li>教育的に分かりやすい、数学的にも正しい、とmatzに押し込んだ</li>
+</ul>
+
+
+<h2>Scalable job queue system built with Docker presented by @k0kubun</h2>
+
+<ul>
+<li>coockpadでrails開発者の開発効率を向上する為の開発</li>
+<li>RubyKaigiでrailsの話をすると怒られる</li>
+<li>syoryukenってgemはSQSをジョブキューとして使うやつ</li>
+<li>barbequeを作った</li>
+<li>web consoleもあるよ(rails製)</li>
+<li>kuroko2という社内のクローズツールが秀逸すぎたので本来ジョブキュー使うべきところでも出番なし</li>
+<li>kuroko2はOSS化進めてる</li>
+<li>ECSとAutoScalingグループでスケールを自動化</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[イベント「CTOだったNight」@dotsに参加してきました！]]></title>
+    <link href="http://tchikuba.github.io/blog/2016/07/04/previous-cto-night/"/>
+    <updated>2016-07-04T19:38:50+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2016/07/04/previous-cto-night</id>
+    <content type="html"><![CDATA[<p>最近比較的よく行ってる渋谷dotsで行われた<a href="http://eventdots.jp/event/591871">「CTOだったNight」</a>というイベントに参加してきました！
+主催はnanapiの元CTO<a href="https://www.facebook.com/shuichi.wada">和田(wadap)さん</a>。
+話の内容をメモっておいたんですが、思いの外面白かったのでブログ記事としてアップしておきます！</p>
+
+<p>最初は自分用の箇条書きとして書いてたのでちょっと読みづらいかもですがご容赦を…</p>
+
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftchikuba%2Fposts%2F1075437859197673&width=500" width="500" height="371" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+
+<h2>ビズリーチ/レイハウオリ<a href="https://www.facebook.com/shin.takeuchi">竹内さん</a></h2>
+
+<h3>はじめに</h3>
+
+<ul>
+<li>ビズリーチ最近CMやってるらしい</li>
+<li>CTOを1年前に退任した理由
+
+<ul>
+<li>マネジメントの割合が大きくなる</li>
+<li>エンジニアが自由に研究開発するのもお金がないと</li>
+<li>そのための事業創造したい</li>
+</ul>
+</li>
+</ul>
+
+
+<h3>うまくいくCTOとうまくいかないCTOの10の違い</h3>
+
+<ul>
+<li>(1)なんでも作れる技術力
+
+<ul>
+<li>人間力があって技術力はそこそこだと超技術力があるエンジニアに尊敬されない</li>
+</ul>
+</li>
+<li>(2)技術を手段として使える
+
+<ul>
+<li>技術を目的化した発言する人は経営陣が耳を貸さない</li>
+</ul>
+</li>
+<li>(3)経済のルールに争わない</li>
+<li>(4)何よりも人を大切にできる
+
+<ul>
+<li>5-10人くらいに増えるタイミングで引っかかるCTOが多い</li>
+</ul>
+</li>
+<li>(5)ビジネス人格
+
+<ul>
+<li>キャラ設定が必要</li>
+<li>人格とか</li>
+</ul>
+</li>
+<li>(6)本気で社長と対立しない
+
+<ul>
+<li>社長が非エンジニアだとムカつくことしか言わない</li>
+<li>人間は動物だと思って悟りを開いた→社長が可愛くみえてくる</li>
+<li>しょうがないしょうがない</li>
+</ul>
+</li>
+<li>(7)発信力</li>
+<li>(8)外交力</li>
+<li>(9)株/SOの交渉ができる
+
+<ul>
+<li>ちゃんと取らないとダメ</li>
+<li>最低5%は取らないと→希薄されても2,3%とか</li>
+<li>1%だったら辞める</li>
+<li>蓋開けるとCFOがいっぱい持ってたのが通例なのでCFOなんかに負けないように頑張りましょう</li>
+</ul>
+</li>
+<li>(10)何があっても辞めない
+
+<ul>
+<li>辞めない、という前提に立つと価値観を変えないといけない場面がある</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>BASE<a href="https://www.facebook.com/fshin2000">藤川(えふしん)さん</a> &ndash; モバツイでCEO/CTOをやってた頃の振り返り</h2>
+
+<h3>CTOがエースエンジニアであり続ける問題</h3>
+
+<ul>
+<li>AWS運用で工数取られる</li>
+<li>CTOは自分よりも技術的に優れた人間を探すべき</li>
+<li>CTOが技術を触って良いのはコアコンピタンスだけに絞る</li>
+<li>人工知能系CTOとか育成問題に悩む</li>
+</ul>
+
+
+<h3>足回りと未来をつくるコンフリクト</h3>
+
+<ul>
+<li>余裕がなさすぎてやるべきことを理解できてなかった</li>
+<li>現状維持バイアスを捨てるべき</li>
+</ul>
+
+
+<h3>BASEでは</h3>
+
+<ul>
+<li>コードを書かない宣言</li>
+<li>社長のビジョンを支える立ち位置</li>
+<li>マイクロマネジメントの罠にハマっていないか</li>
+<li>港区には近寄らない(夜の街)</li>
+</ul>
+
+
+<h2>パネルディスカッション</h2>
+
+<h3>CTOを辞めた理由</h3>
+
+<ul>
+<li>営業が強くてエンジニアの立場がない</li>
+<li>新しい働き方や新しいサービスを自分でやってみたくなった</li>
+<li>社長と合わなかった、最後何かが切れる音がした感じ</li>
+<li>エンジニアよりデータサイエンティストが大事でエンジニア育てる文化がなかった、頭の悪い経営陣</li>
+</ul>
+
+
+<h3>もしCTOをやり直すなら</h3>
+
+<ul>
+<li>もっと人を見る、リスクを負ってでも入れてくれるか、SOとか</li>
+<li>早目に人を入れればよかった</li>
+<li>なんでも自分でやっちゃう、もっと優先度高い仕事できれば、採用をもっと任せればよかった</li>
+<li>IPOとか長く続く会社とかやってみたいと思う、スポットライトは2年半で売却、IPO3%,10%,1/3とか</li>
+</ul>
+
+
+<h3>社長(経営)との関係性</h3>
+
+<ul>
+<li>CTOだったけどリードエンジニア的な振る舞いだった、あまり経営求められず</li>
+<li>営業系出身社長だと放任でコミュニケーションがとれず1on1入れたり、エンジニア出身だとマイクロマネジメントになりやすい、外部を入れると通じる</li>
+<li>飲み行く、はっきり言う関係性ができてれば良い、社長って人格に欠陥ある人多い、でも本気でいう</li>
+<li>社長が中途半端にコード書けると良くないからPHP以外の言語選んだり</li>
+</ul>
+
+
+<h3>これからCTOになる人に伝えたいこと</h3>
+
+<ul>
+<li>エンジニア的な論理はプログラミング以外のところにも役立つ</li>
+<li>コミュニケーション、エンジニアだけじゃなくビジネスサイドの人とも、コミュニケーションを仕組化する、CTOは孤独だから相談する人を作っておく</li>
+<li>会社全体とかビジネスのことを考えるようになるから良い、営業の話も聞きながら技術的負債に向き合ったり</li>
+<li>マネジメント系の本とか読むとか勉強してアウトプットできるようになる、マネジメントだけどコーチングできてないとか、お互いフィードバック貰って成長・学習する</li>
+</ul>
+
+
+<h2>所感</h2>
+
+<p>CTOに限らず、ビジネスサイドと近い立ち位置で仕事しているエンジニアの方なら誰もが共感できる内容だったかなと思いました。</p>
+
+<p>私自身も経験に照らし合わせて非常に共感した次第です(笑)</p>
+
+<p>大切なことは異文化コミュニケーションであることを受け入れつつも、コミュニケーションを諦めないで主張すべきは主張することかなと。</p>
+
+<p>また、場合によってはみずからの価値観を見直す柔軟性も必要なことだなとも思います。</p>
+
+<p>ある意味政治というか、相反する部分をいかに粘り強くコミュニケーションを取って折り合いをつけるか、という点が重要ですね。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[イベント「dots.女子部勉強会 vol.7 わたし、一生エンジニア宣言！～ 女性エンジニアとして長く働く秘訣 ～」に参加しました！]]></title>
+    <link href="http://tchikuba.github.io/blog/2016/03/26/dots-womans-is-eternal-engineers/"/>
+    <updated>2016-03-26T01:00:00+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2016/03/26/dots-womans-is-eternal-engineers</id>
+    <content type="html"><![CDATA[<p>先日<a href="http://eventdots.jp/event/581423">「dots.女子部勉強会 vol.7 わたし、一生エンジニア宣言！～ 女性エンジニアとして長く働く秘訣 ～」</a>
+というイベントに参加してきました。
+私の妻も私と同じエンジニアでdots.女子部の一員として運営に関わっています。
+妻からこのイベントを企画していることを事前に聞いており、参加を楽しみにしていました。</p>
+
+<p>参加した当日はノートPCを持っていくのを忘れていたので、スマホからひたすらtwitterで実況中継していました（笑）
+備忘録的な意味も込めて、当日のtweetをtogetterまとめっぽくお届けします。</p>
+
+<hr />
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> 夫婦エンジニア系勉強会なう／【満席御礼☆増枠！】dots.女子部勉強会 vol.7 わたし、一生エンジニア宣言！～ 女性エンジニアとして長く働く秘訣 ～ <a href="https://t.co/adjBw1WsRX">https://t.co/adjBw1WsRX</a> <a href="https://t.co/aPFt6UVTge">pic.twitter.com/aPFt6UVTge</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712953224685162496">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">遠距離恋愛の参考になるのかw <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712953816107212800">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>※遠距離恋愛の参考にしたいというdots.女子部メンバーの話を受けて</p>
+
+<h2>夫婦共働きで子供がいるってどんな生活リズム？</h2>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">6,7時に起きて1930以降に娘を迎えに行く。無認可保育園で22時夕食付き。週に1回土曜ヘルパーさんに掃除してもらってる。子供に生活リズム合わせて貰ってる感じ。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712955153498767360">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">週に1度くらいは自炊する。妻の飯はうまい <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712955613215522817">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">1930に迎えに行く。市立の保育園。仕事は自宅でも出来る感じ。最短で22時に寝室に連れて行くがなかなか寝ない。自炊は好きな方で週3,4は自宅で食べるよう努力してる。子供生まれる前は2330くらいまで仕事でコード書いてた。早く帰れないと思ったが何とかなってる <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712956654203981824">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">育休産休半年とったのがリセットになったかも。子供出来る前は昼前に出社して終電で帰るとかだった <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712957549968904192">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">子供出来る前の行きつけの店は子供出来てからは行けなくなった。ウニ、白子ポン酢の離乳食はいける <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712957969789419520">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">マネージャーになったんでコーディング以外の仕事も増えたが、それが子供出来てからは良かったかも。デバッグしてるとなかなか手を止められない <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712958720309735424">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h2>家事の役割分担とかどうしてる？</h2>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">家事は分担してるが出来る限り家事を発生させない。ヘルパーに頼む。ヘルパーに抵抗あっても使うと便利で離れられなくなる。お試しもできるのでじっくり選べば良い。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712959669937971200">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ルンバで自動化。だけど片付けしないと使えない。食洗機使う。メンタルコストが小さい方がやる。旦那の方が家事やってるかも。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712960205303119872">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">子供を病院に連れて行くとか分担難しい。授乳期は女性。風呂入れるのは男性とか。子育てのフェーズによって役割も変わる。病児保育使うケースも。大学の先生は暇じゃないけど休校という必殺技が <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712961486805577728">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">小学生になると大変。学童とか、週3日在宅ワークで外部サービス使うとか。出来なくなったら働き方変えるとか。保育園は凄いところ。保育園行ってるといつの間にか橋持てるとか。小学生だと急にサポートが手薄になる。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712962348487606272">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h2>子供にはお金がかかるけど、どうやって踏ん切りつけた？</h2>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">子供欲しいから必要コストだし、投資信託を始めよう的な。スマホ買うタイミングに似てるかも。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712963055773061124">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h2>夫婦でエンジニアって同業のメリット・デメリットは？</h2>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">同業だと理解がある。実際に助けて貰える。コミュニティも広がる。パソコン見てるだけでは仕事してると思われない。twitterで公開処刑される辛み。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712963563875278848">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">英語のabstract書いて貰ったり、自宅ネットワーク調整して貰ったり。家庭内稟議が通りやすい。テクノロジーに対する不信感がない。子供手当が年収高い方に付く、拮抗してると入れ替わったり。コードレビューしたら怒ってた。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712965062034456576">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h2>地方移住とか考えたりする？</h2>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">地方移住はあまり。仕事は東京やりやすい。子育ては地方かも。教育に対する意識は東京高い。米国への移住は考えたことあり。大学の先生は地方が良いかも。2人揃って移住はタイミング難しい。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712966647728832512">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">東京はサービス充実してる。夜遅くまでお店やってるし。沖縄に子供2人いる女性でリモートワークしてる人もいる。仕事の幅は変わる。どの区を選ぶか子育てには重要。千代田、港、文京は良い。認可保育園は質が担保、コストは圧倒的に安い。無認可寛容。高いけどサービス充実 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712968433600581632">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">家でも普通に仕事してる。子供は気を引いてくるし自宅だと難しい面も。テレビ会議中も泣いてる子供が映り込んだり。youtube便利、広告スキップを1歳半で覚えた。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712969683930992640">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>※リモートワーク的な文脈での話。</p>
+
+<h2>2人目ができると更にカオスって聞くけどどう？</h2>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">2人目は厳しいかな。保育園2名同じとこ入れられないとか。周り見てると2人いると大変。発熱が交互に来るので休みがちに。俺が俺がな30歳頃だと厳しい感じかも。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712971349669511177">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h2>どれくらい産休・育休って取ったの？</h2>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">生まれる3ヶ月前に休んで3ヶ月で復帰。旦那は1週間育休取った。産休入ってすぐ生まれた、6ヶ月育休。旦那は転職したてて育休取れず。保育園行けるかは死活問題だが分断がある。Googleは男性もほとんど1ヶ月育休取る。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712972849837805568">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h2>今後の夢とかは？</h2>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">成長の過程をnohanaで子供の写真を両親に共有。60歳になってもコーディング出来るの示す。妻が偉くなって。プログラマの多様性が低いのが謎。偉くなること。子育てでも謎な性差別が多い。当たり前が当たり前になる世の中。子育ては男性が言うと受け止められ方が違う <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712975220647141376">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h2>終了後の懇親会</h2>
+
+<div id="fb-root"></div>
+
+
+<script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div class="fb-post" data-href="https://www.facebook.com/tchikuba/posts/1003043319770461" data-width="500"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/tchikuba/posts/1003043319770461"><p>&#x30aa;&#x30b5;&#x30ec;&#x306a;&#x30b1;&#x30fc;&#x30bf;&#x30ea;&#x30f3;&#x30b0;</p><a href="https://www.facebook.com/tchikuba">竹馬 力</a>さんの投稿&nbsp;<a href="https://www.facebook.com/tchikuba/posts/1003043319770461">2016年3月24日</a></blockquote></div></div>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">本日はwomen techmakers様にスポンサードして頂いております！この後は懇親会♡ <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://t.co/2D1w15ZvN6">pic.twitter.com/2D1w15ZvN6</a></p>&mdash; dots. 女子部 - 公式アカウント (@dotsgirls) <a href="https://twitter.com/dotsgirls/status/712977420005933057">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h2>他の参加者の方の感想</h2>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">女性向けの話を男性に聞いてほしいってのはとてもわかる。今日参加者に結構多いのはとても嬉しいし、まじでパネラーの旦那様お二方が素晴らしいし、本当にビデオ撮って見せつければ良かったって後悔してる。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; ちゃんとく (@tokutoku393) <a href="https://twitter.com/tokutoku393/status/712976611251867648">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">今日は貴重なお話をありがとうございました！私の彼氏がすごい楽しんでました。参加して良かった«٩(*´ ꒳ `*)۶» <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; なほ (@LaurierPetit) <a href="https://twitter.com/LaurierPetit/status/713004792126177280">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">今日楽しかった〜〜。なんか漠然とした不安はいつでもありますって言われて、その言葉になんか安心した。<a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; りほ (@rllllho) <a href="https://twitter.com/rllllho/status/713011568552751104">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">帰宅！ 楽しかったです、ありがとうございました。最後の皆さんの感想が割とみんな「（二組とも）いい旦那様だな〜と思いました」だったのがちょっと受けたw <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Kinuko Yasuda (@kinu) <a href="https://twitter.com/kinu/status/713013770071572480">2016年3月24日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<hr />
+
+<h2>やっぱりエンジニア夫婦って(・∀・)ｲｲﾈ!!</h2>
+
+<p>勉強会に参加して感じたことです。
+同業だと問題もあるという話を聞いたりもしますが、ふたりともエンジニアである場合、メリットばかりが目についてデメリットってほとんど思いつかないです。
+テクノロジーへの理解があるという点、非常に共感しました。新しい製品を買ったりするのに家庭内稟議は圧倒的に通りやすいんじゃないかとｗ</p>
+
+<p>あと、今回登壇されたご夫婦2組とも、男性の優秀さもさることながら、女性の優秀さが凄いなと感じました。
+なのでプログラマである私の妻にも、このご夫婦に見習って凄くなってもらおうと思います（笑）</p>
+
+<h2>エンジニア・チームのダイバーシティ向上を！</h2>
+
+<p>私は日頃から、ダイバーシティの観点から、あらゆる組織は男女比率がおよそ半々である方が良いと考えています。
+しかしながら現時点では、特にエンジニアの世界では圧倒的に男性比率が高い状況があります。</p>
+
+<p>たとえば、10代、20代の女性をターゲットにしたwebサービス開発エンジニアは全員男性で、女性が1人もいない、などのケースも比較的よく耳にします。
+中長期的に続くことが前提のサービスにあって、手を動かすエンジニアがdog foodingできることは、成功する確率を高める最も大きな要因の1つだと思います。
+その意味では、女性向けのwebサービスであれば女性エンジニアが手を動かした方が、より良いサービスを創ることができるのではないでしょうか。</p>
+
+<p>今後もしエンジニアのチームを構成することがあるとすれば、できる限り男女比率を半々になるようにやっていきたいと改めて決意した次第です！</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[21世紀型のクリエイティブな働き方・思考・組織の新しいあたりまえ]]></title>
+    <link href="http://tchikuba.github.io/blog/2015/12/05/life-of-creative-people/"/>
+    <updated>2015-12-05T23:06:08+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2015/12/05/life-of-creative-people</id>
+    <content type="html"><![CDATA[<p><em>この記事は<a href="http://qiita.com/advent-calendar/2015/livesense_2">リブセンスアドベントカレンダー2015(その2)</a>の5日目です。</em></p>
+
+<ul>
+<li><em>4日目の記事：<a href="http://qiita.com/ma2saka/items/2cd6cb3a8007fdf9fe2e">Amazon LinuxでPHP7をソースからコンパイルしてSymfony3をMariaDB10</a></em></li>
+<li><em>6日目の記事：<a href="http://qiita.com/stackline">stacklineさん</a></em></li>
+</ul>
+
+
+<p>私は現在<a href="https://www.ieshil.com/">IESHIL（イエシル）</a>という中古マンション価格査定サイトのエンジニアやってます。
+担当は雑用係です。
+リブセンスに入社して約2年半ですがリブセンスでwebサービスの自社開発の文脈に身を置いて色々思うところがあるのでその辺をちょっと言語化してみます。</p>
+
+<h1>プロフィールとバックグラウンド</h1>
+
+<p>私はエンジニアになったのが2004年8月でした。
+7年間フリーランスのエンジニアとしてお客さんのところに常駐して作業するという形で、所謂社畜フリーランスでした。
+前半4年間は大手SIer、後半3年間はエンタメ系事業会社に常駐していました。</p>
+
+<p>前半の4年間では小さいプロジェクトだったこともあり、ウォーターフォールで言うところの要件定義、基本設計、詳細設計、実装、テスト設計、
+単体テスト、結合テスト、受入テスト、リリースなどソフトウェア開発の全工程を担当してエンジニアとしての基礎力を身に着けた時期でした。</p>
+
+<p>後半の3年間では所謂「ステークホルダーと調整して設計書を書くSE」「ベンダーコントロールPM」的な立ち位置で
+主に自分が手を動かさず人に手を動かしてもらう為の環境整備的なことをやっていました。
+今思い返すと、この時期に所謂プロジェクトマネジメント的なところの基礎力を身に着けた時期だったと思います。</p>
+
+<p>そうこうしているうちにより大きなやりがいと責任ある立場でやれる仕事をしたいと思い、新規事業のプレイングマネージャー的なポジションを探していたところ
+あの2011年3月11日が来て、人生短いんだからやりたいと思ったことをやるべきだと踏ん切りがついて前職となるPR会社の新規事業の開発マネージャーとして転職しました。
+この時期に要求仕様の変化が激しい新規事業、所謂スタートアップ的な文脈ではウォーターフォール型の開発の行き詰まりを実感し、
+アジャイルやリーンな開発(技術開発だけでなく事業開発含め)の手法を模索し貴重な経験をした時期でした。</p>
+
+<p>開発マネージャーとして約2年間働いた後、現職のリブセンスに転職をして現在に至ります。
+リブセンスでの強烈なエンジニア文化の中で、エンジニア含めた事業に関わる全ての人が効率の良さと気持ちの良さをどうやったら追求出来るかを最近良く考えます。</p>
+
+<h1>SIerから事業会社の文脈へシフトして感じたビジネスとエンジニアリングの関係性</h1>
+
+<p>自分のキャリアを振り返ってみると受託開発が主であるSIerから徐々に自社サービスを展開する事業会社へとシフトして行ったことになります。
+私のキャリアの文脈が徐々にシフトしたのは単なる偶然な気がしますが、この経験があるからこそなのか、最近良く考えていることがあります。
+それは、<strong>ビジネスとエンジニアリングは一体不可分である</strong>ということです。</p>
+
+<iframe src="https://docs.google.com/presentation/d/1X3EhINjgf6aDLynMZ3_o0H5XQ7Lca6d1b4hZEUjVz-g/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+<p>ある意味これは最早当たり前の時代になってきたんだと思われますが、私が10年前にいたSIerの文脈だと実感として結構違っていました。
+あくまでも受託開発では発注側のお客様がいて請負契約に基づいて予め定義したシステムを納品することが目的です。
+出来上がったシステムがお客様が使ってみた結果、それがビジネス上価値を生み出すか否かは短期的には関係がありませんでした。</p>
+
+<p>しかし事業が社内にあり内製出来るエンジニアチームを持っている文脈では事情が異なります。
+当然ですが開発を行った結果ビジネス上無価値なものを作ってしまったとしたら基本的にその当事者が作り直す必要があります。
+開発と運用が一体となっている文脈では、要件の変化に伴い柔軟にシステムを変更する必要がありまたそれに耐え得る品質を
+ソースコード上の保守性、DDD(ドメイン駆動設計)等を用いたビジネスドメイン設計、CI等で担保する必要があります。</p>
+
+<p>これまでの私の経験上、感じていることをまとめると以下の様な図になる気がしています。</p>
+
+<iframe src="https://docs.google.com/presentation/d/1XNnCjrtSZhOxKDazJqrdHVyfvsPZ19o2w_BvszbHIlk/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+<p>発注者と受託者という関係では、前者から後者へ金銭的な授受が行われる為、ビジネスパートナーといえど、構造上どうしても主従関係のような強弱がついてしまいます。
+当然上手く行っている受託開発も存在しますが、経験上上手く行かないパターンを見ることが少なからずありました。</p>
+
+<p>※ただ最近は一括請負契約の構造上の問題を解決する受託開発の手法の1つとして<a href="http://tchikuba.github.io/blog/2014/10/20/sonic-garden-kuranuki-book/">「納品のない受託開発」</a>
+を手掛ける<a href="http://www.atmarkit.co.jp/ait/articles/1504/27/news001.html">ソニックガーデンさんの事例</a>は注目したいところです。</p>
+
+<p>上記の図に表現した通り、時代の変遷と共にエンジニアリングの比重を相対的に大きくしていますが、これも実感としてあるところです。
+昨今のビジネスにおいては「如何にビジネス上の営みをシステムに落とし込むか」という点の比重が徐々に拡大している気がします。
+当然ながらビジネス上のシステム化とは、エンジニアリングの観点でのシステム化だけではなく、機械的に出来ることと出来ないことを選別した上で
+人手でどこまで行うのか、人をどう配置するのか、関わる人に要求される職能は等、多岐にわたります。
+しかしながらそれらの人が業務上関わる場所に全てシステムが介在することもまた事実であり、その範囲は時代を追うごとに拡大していると思うのです。</p>
+
+<p>もっと言えばビジネスに近接する立場にある非エンジニアの日頃の業務にこそ、効率化の余地があることが多いとも感じます。
+余談ですが最近日経の記事にコーディング・ブートキャンプの話がありました。</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">これはマジその通り。特に非エンジニア領域での需要があると実感してる／米で進む大学離れブートキャンプでＩＴの即戦力｜日経カレッジカフェ via <a href="https://twitter.com/hashtag/Kamelio?src=hash">#Kamelio</a> <a href="https://t.co/AsAnCWjYXE">https://t.co/AsAnCWjYXE</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/672073513377796096">2015, 12月 2</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>この記事から類推するに、非エンジニアが何らかのビジネス上の課題解決の為にコーディングを勉強する需要があるんじゃないかと思います。</p>
+
+<p>いずれにしても現時点で痛感していることをまとめると、
+<strong>ビジネス上1つのプロセスでしかなかったシステム化が、ビジネス上最も重要なプロセスの1つとなり、その後、ビジネスと一体化しつつある</strong>
+ということです。</p>
+
+<p>これらのことは既に各方面の偉い人が唱えていることで、理論上は当たり前だと思うのですが、これを経験上私が感じれていることに
+スティーブ・ジョブズ曰くの<a href="http://blogs.itmedia.co.jp/tooki/2010/04/connecting-the-.html">connecting the dots</a>を感じてちょっぴり嬉しいのです。
+頭で理解したことと体験で会得したものでは実は雲泥の差だなと思いますので。</p>
+
+<h1>ゴール思考とシステム思考の融合</h1>
+
+<p><a href="http://blogs.itmedia.co.jp/tooki/2010/04/connecting-the-.html">connecting the dotsのリンク先の記事</a>に曰く、</p>
+
+<blockquote><p>点と点を繋げるということは、あらかじめ仕込むことは出来ないということです。
+しかし、振り返ってみると「あの時のことが役立った」とか、「あそこで出会った人に、こんなタイミングで助けられた」といったことって意外とあるものなんですよね。</p></blockquote>
+
+<p>とあります。</p>
+
+<p>私も自分の経験を振り返ってみて思うのですが、その通りだなと。
+これ実はある意味<a href="http://www.a-kumahira.co.jp/fifth/system.html">「システム思考」</a>だな、ということを最近しみじみ感じます。
+少なくとも予め仕込むことは出来ないという点においては、ゴール思考とは遠い気がします。</p>
+
+<p>私実は11年間エンジニアやる前、1年くらい超ブラック企業と言われた某営業会社で営業をしていた時期が(一応)ありました。
+この企業が物凄い体育会系ノリだったのと超絶ゴール思考的で理系出身だった私には全く考え方が合わず辛い思いをした苦い経験でした。
+既に亡くなった(笑)会社でもう時効だから書いちゃいますけど、当時の上司から2回辞表書けって言われて書いたりして(笑)
+1回目の辞表なんて「まだ辞めたくないけど上司に辞表書けって言われたので辞表書きました」という内容の辞表だったりして(笑)</p>
+
+<p>今でこそ笑い話ですが、この経験が実は比較的ネガティブな原体験として、<strong>極端なゴール思考では歪みが生まれて持続可能な発展でなくなる</strong>
+ということが自分の中に焼き付きました。その後も若干紆余曲折あったんですが、この体験が元になってエンジニアリングを1から勉強してエンジニアになろうと思えました。
+当然ながらこの時はシステム思考なんて言葉も知る由もないんですが、振り返ってみれば、目の前の課題解決を積み重ねるアプローチを欲していたんだと思います。</p>
+
+<p>また、実はゴール思考も適切な範囲であればモチベーションコントロールとして有効であることも体験していることも重要です。
+システム思考だけだとビジネス上実現したいビジョン等から外れてしまっても暫く気付かないケースがあるように思います。
+個人的には<strong>ゴール思考とシステム思考の融合を目指したい</strong>と考えています。私の体験上でもそれは理に適っていると思われるのです。</p>
+
+<h1>ヒエラルキーとホラクラシー</h1>
+
+<p>このような文脈にあってもう1つ私の中で良く考えることがあります。それはクリエイティブな組織の在り方についてです。
+<a href="http://tchikuba.github.io/blog/2015/01/22/new-type-organization/">私はその1つの解としてホラクラシー型組織の構築があるのではないか？と考えています。</a>
+ホラクラシーとは、マネージャーの存在しないセルフ・マネジメント型組織のことで、ザッポスが導入したことで有名です。</p>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="InterAction Green | ほんとうはこわい、ザッポス。ホラクラシーって何？" src="http://hatenablog.com/embed?url=http://www.interactiongreen.com/?p=864" frameborder="0" scrolling="no"></iframe>
+
+
+<p>最近のハーバード・ビジネス・レビューにホラクラシーに関する記事がありました。</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">ホラクラシーに懐疑的な視点。確かに現状の組織形態では合わない場面もあると思うけどクリエイティブな仕事は移行出来ると思う／管理職を置かない組織が理想なのか？ 導入前に自問すべき4つの質問 <a href="https://t.co/YY3L0RCtGn">https://t.co/YY3L0RCtGn</a> <a href="https://twitter.com/dhbr_japan">@dhbr_japan</a>さんから</p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/672302472178720769">2015, 12月 3</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>この記事に曰く、</p>
+
+<blockquote><p>ホラクラシーの大部分は、優れたマネジメントによく見られる要素を単に体系化していると気づいた。
+ホラクラシーの導入にまつわる細部にとらわれず、それが何に対処するためのものなのかを掘り下げて考えれば、見えてくることがある。
+問題は、ヒエラルキーそのものがいかに正当性を失ったかではなく、速まっている世の中の動向に対してヒエラルキーでは動きが遅れることなのだ。</p></blockquote>
+
+<p>とあります。</p>
+
+<p>確かにヒエラルキー型組織で優れたマネージャーは、出来るだけ現場に裁量を与えて信頼し、問題が発生した場合だけ出来るだけ迅速に対応し
+問題の責任を取るタイプが多い気がします。極論、成功は部下の功績とし、失敗は上司(自分)の責任とするタイプですね。
+まぁ体験的には大体ヒエラルキー型組織だと中間管理職層は人間が腐っていく例を良く見てきた気がしますが(笑)
+私が開発マネージャーだった際にこういう優れたマネージャー像を目指して奮闘してましたが、理想像からは程遠い感じだったような気がします(汗)</p>
+
+<p>いずれにしてもスピード感を持って変化に対して対応していく為には現場でコトに当たっている当人が誰かに判断を仰ぐことなく
+自分の判断で臨機応変に行動することが出来てしかもその判断が正当であれば(結果がどうあれ)最も正しいと思います。
+まぁ逆に振り返って判断が正当でないように第三者からは見えても、結果がマズい方向ではなく良い方向であればヨシとすることもあるかもしれません。</p>
+
+<p>私は、クリエイティブな仕事に携わる人々が関わる組織が今のところ最も上手く行く方法論としてホラクラシーを捉えています。
+逆に1ヶ月ほど前にバズってた、CIAのスパイマニュアルの記事がヒエラルキーの問題点を端的に表していると思いました。</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">これは必見。まぁ組織が成熟してくるとこうなりがちなんだろうけど／CIAのスパイマニュアルに学ぶ「会社をダメにする11の行動様式」 <a href="https://t.co/RcLV7aNegb">https://t.co/RcLV7aNegb</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/662106316492709889">2015, 11月 5</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>曰く、</p>
+
+<blockquote><p>会社内での組織的位置付けにこだわる。
+これからしようとすることが、本当にその組織の権限内なのか、より上層部の決断を仰がなくてよいのか、といった疑問点を常に指摘する</p></blockquote>
+
+<p>これとかまさに先ほど書いた現場の臨機応変な判断を阻害する真逆の論理で一見正当性が見えるので厄介なんですよね(苦笑)</p>
+
+<h1><a href="https://kotobank.jp/word/%E4%B8%8D%E4%BA%8C-617901">「不二」</a>という視座から垣間見る21世紀のスタンダード</h1>
+
+<p>ちょっとここまで書いた所で息切れしてきましたが(笑)そろそろ結論めいたことを書きたいと思います。
+結局のところ私の体験という文脈の中でしか実感を持って判断出来ないと思っていまして、その意味では至極主観的極まりない話だということが前提ですが。
+現時点での私の文脈(コンテキスト)では、これら一見相反するように見えるものが実は一体不可分である、ということです。</p>
+
+<p>まず、ビジネス上使われる一部に過ぎなかったエンジニアリングが、経営の中心となりつつあります。
+次に、極端なゴール思考の行き詰まりや矛盾から、持続可能な発展を考慮したゴール思考によるビジョンに基づいたシステム思考の重要性に気付きました。
+最後に、ヒエラルキー型組織の矛盾の中でキラリと光るマネージャーを垣間見たり、理想像目指して奮闘したりするも、
+マネージャーとなってコードを書かなくなったらエンジニアとして終わりなんじゃないかと自問自答して、
+私自身の手でエンジニアのホラクラシー型組織を実現したいと夢見て現実と奮闘していたりします。</p>
+
+<p>私の体験としては実は予期せず元いたコンテキストがあったからこそ、気付きを得たと言えますし、
+対立しているように書いたことも実は存在意義が多分にあり一体不可分なのだと思えるのです。
+これを代弁する考え方に仏教の用語で<a href="https://kotobank.jp/word/%E4%B8%8D%E4%BA%8C-617901">「不二(ふに)」</a>という言葉があります。</p>
+
+<p>曰く、</p>
+
+<blockquote><p>対立していて二元的に見える事柄も、絶対的な立場から見ると対立がなく一つのものであるということ。</p></blockquote>
+
+<p>前述のような見方が絶対的な立場か否かは分かりません。</p>
+
+<p>ただ、ヒエラルキー型組織でウォーターフォール型開発を一通り経験出来たからこそ、その長短を体得することができたのだと思います。
+ビジネスと遠いところで開発をしていたからこそ、ビジネスに近接するところで開発する際の違いを痛感し開発プロセスを多少なりとも改善してきました。
+そもそもホラクラシー型組織を上手く回す為にはセルフ・マネジメントが出来る優秀なメンバーのみで組織を構成する必要がありそうです。
+職能的にジュニアクラスのメンバーは一向に力を発揮出来ないことになりそうですが、敢えてヒエラルキー型組織で力を付けるという選択肢もあるかもしれません。</p>
+
+<p>これらを踏まえた上で、私自身の経験に即して、これからの時代以下のような流れになっていくのかなと考えています。</p>
+
+<ul>
+<li>事業会社の内製化により下請けも含めたSIerは斜陽産業化する。</li>
+<li>事業会社がweb企業・インターネット企業となるのが当たり前になる。</li>
+<li>新しいビジネスを起こす人はエンジニアの素養のあることが当たり前になる。</li>
+<li>エンジニアの素養のある人が起業するので、エンジニアの評価がよりまともになり、まともなエンジニアがよりHappyになる。</li>
+<li>非エンジニアの職種では徐々に人工知能や機械学習による自動化が進みよりクリエイティブな仕事をせざるを得ないようになる。</li>
+<li>日頃ルーチンワークが辛いと言って仕事がつまらない思いをしている人は少なくなっていく。(仕事自体がなくなるので)</li>
+<li>プログラミング教育が官民共に爆発的に広まる。</li>
+<li>エンジニアの仕事はコーディングによってビジネス上の価値を創造することが評価のポイントになる。</li>
+<li>世の中の複雑性は増していく一方で先が簡単に読めなくなり、反復型アプローチが問題解決の主流になる。</li>
+<li>ある一定の人々に共感される極めて倫理的なビジョンを有するテックドリブンな企業が緩やかに受け入れられ世界を変えていく。</li>
+<li>急進的なスタートアップより、持続可能な発展を掲げるスモールビジネスが大量に浸透していく。</li>
+<li>副業やリモートワークがより普及して組織力は弱まり、クリエイティブな個人がクローズアップされる。</li>
+<li>自律した働き方の出来るクリエイティブな個人が集まり、プロジェクト単位でギルド的集団を形成し、質の高い仕事を成し遂げる。</li>
+<li>自律した働き方が出来るまでの職業訓練が比較的安価で受けられる教育的な仕組みが出来ていく。</li>
+</ul>
+
+
+<p>私自身はこれまでの経験を踏まえてやりたいことが比較的明確になりつつあるのですが、
+キーワードは<strong>ITと新規事業と教育</strong>ということで一応一貫しているつもりなのでこの方向性は常に持ちつつ、
+これまでのエンジニアとしての技術的な方向性から、更にビジネス・経営的な方向性で社会貢献出来る人材になろうと決意しています！</p>
+
+<p><em>この記事は<a href="http://qiita.com/advent-calendar/2015/livesense_2">リブセンスアドベントカレンダー2015(その2)</a>の5日目です。</em></p>
+
+<ul>
+<li><em>4日目の記事：<a href="http://qiita.com/ma2saka/items/2cd6cb3a8007fdf9fe2e">Amazon LinuxでPHP7をソースからコンパイルしてSymfony3をMariaDB10</a></em></li>
+<li><em>6日目の記事：<a href="http://qiita.com/stackline">stacklineさん</a></em></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[「ECMAScript6勉強会」HappyHalloween JS 祭！！に参加してきました！]]></title>
+    <link href="http://tchikuba.github.io/blog/2015/10/31/ecma-script-6-study/"/>
+    <updated>2015-10-31T13:42:40+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2015/10/31/ecma-script-6-study</id>
+    <content type="html"><![CDATA[<p>2015年10月31日(土)に行われた<a href="http://eventdots.jp/event/571557">「ECMAScript6勉強会」HappyHalloween JS 祭！！</a>に参加してきました！
+ハロウィンということで仮装して参加すると参加費が半額になるというちょっと変わったイベントでしたｗ</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://twitter.com/hashtag/eventdots?src=hash">#eventdots</a> ハロウィン仕様の女子エンジニアたち <a href="https://t.co/d5IIPxpf2o">pic.twitter.com/d5IIPxpf2o</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/660315159399796736">2015, 10月 31</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>※リアルタイム更新してました！</p>
+
+<h2>『Good evening, ES6』byよしこ氏 <a href="https://twitter.com/yoshiko_pg">@yoshiko_pg</a></h2>
+
+<ul>
+<li>発表スライド
+
+<ul>
+<li><iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Good afternoon, ES6 - @yoshiko_pg" src="http://hatenablog.com/embed?url=http://yoshiko-pg.github.io/slides/20151031-es6-halloween/" frameborder="0" scrolling="no"></iframe></li>
+</ul>
+</li>
+<li>var &ndash;> constで変数の上書き禁止が可能に</li>
+<li>Template Strings</li>
+<li>関数のDefault Parametersが使えるように</li>
+<li>Rest Parametersで&hellip;argsで引数がarrayで取れるように</li>
+<li>Spread operator(スプレッド演算子)でapplyメソッド使用せずに配列を展開出来るように</li>
+<li>yoshiko氏の年齢がサンプルコードで暴露されてる（笑）</li>
+<li>Destructuringで変数の入れ替えの為のtmp変数が不要に</li>
+<li>Effective ES6(slideshareのスライドがオススメ)</li>
+<li>ES6をES5に変換するBabelを使うとES6で書くことが出来る</li>
+<li>Scratch JS(chrome拡張)入れるとES6をコンソール上で試せる</li>
+<li>gulpfileをv3.9.0以上ならES6で書ける</li>
+</ul>
+
+
+<h2>『Promises』by矢倉 眞隆氏 <a href="https://twitter.com/myakura">@myakura</a></h2>
+
+<ul>
+<li>発表の様子
+
+<ul>
+<li><blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">お次は矢倉さんによるPromiseのお話！ <a href="https://twitter.com/hashtag/eventdots?src=hash">#eventdots</a> <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://t.co/kRmQIKpQiY">pic.twitter.com/kRmQIKpQiY</a></p>&mdash; dots. 女子部 &ndash; 公式アカウント (@dotsgirls) <a href="https://twitter.com/dotsgirls/status/660320481405366272">2015, 10月 31</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+</ul>
+</li>
+<li>非同期処理について洗濯機とかお風呂とかの例</li>
+<li>JSでの非同期処理だとコールバックヘルに陥りがち</li>
+<li>thenで非同期処理を実行することが可能。メソッドチェーンで繋げることが出来る。</li>
+<li>Async functionでコールバックパターンから開放される方針。try,catchで書ける。MS EdgeやFirefoxで実装される予定。</li>
+</ul>
+
+
+<h2>『Function and Class』by川田 寛氏 <a href="https://twitter.com/_furoshiki">@_furoshiki</a></h2>
+
+<ul>
+<li>発表の様子
+
+<ul>
+<li><blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">pixiv川田さんによる『ECMAscript6 arrows &amp; classes』です！ガチャピンがすごいお似合いです！ <a href="https://twitter.com/hashtag/eventdots?src=hash">#eventdots</a> <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://t.co/1J9rSXJe5j">pic.twitter.com/1J9rSXJe5j</a></p>&mdash; dots. 女子部 &ndash; 公式アカウント (@dotsgirls) <a href="https://twitter.com/dotsgirls/status/660324997202771968">2015, 10月 31</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+</ul>
+</li>
+<li>Arrow Function
+
+<ul>
+<li>朝起きたらクリックイベント書きたくなる（笑）CoffeeScriptであるやつ(&ndash;>, =>)</li>
+<li>function,selfを書かなくて済むようになる</li>
+<li>引数は括弧を省略可能</li>
+</ul>
+</li>
+<li>ES6クラス
+
+<ul>
+<li>ES5まではclassなのにfunctionだしprototypeとか謎の宣言が必要だったがES6からclassが使えるように</li>
+<li>extendsも使えるように</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>『ブラウザで今すぐES6を使おう』by林 優一氏 <a href="https://twitter.com/frontainer">@frontainer</a></h2>
+
+<ul>
+<li>LIGのCTOやってる人</li>
+<li>ES2015のブラウザ実装状況はIE10で10%,Chromeで65%程度</li>
+<li>WebPack
+
+<ul>
+<li>Module Bundler require();したものの依存関係を解決してまとめる</li>
+<li>webpackコマンドで1つのJSとして合体して出力してくれる</li>
+<li>webpack.config.jsで設定を定義しておくとwebpackコマンドのみでいける</li>
+</ul>
+</li>
+<li>Browserify?</li>
+<li>Loader
+
+<ul>
+<li>読み込んだファイルに何かしらの処理をさせる</li>
+<li>html-loader</li>
+<li>babel-loader</li>
+</ul>
+</li>
+<li>babel-runtime
+
+<ul>
+<li>ファイルサイズに注意だが使った分だけ増える</li>
+</ul>
+</li>
+<li>frontplate
+
+<ul>
+<li>gulp + webpack + babelをまとめたやつを林さんが公開</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>『Years with JavaScript.Next』by dynamis氏 <a href="https://twitter.com/dynamitter">@dynamitter</a></h2>
+
+<ul>
+<li>発表の様子
+
+<ul>
+<li><blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">Javascriptの祖先図！初めて知りました！ <a href="https://twitter.com/hashtag/eventdots?src=hash">#eventdots</a> <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://t.co/VH1pY4EGYa">pic.twitter.com/VH1pY4EGYa</a></p>&mdash; dots. 女子部 &ndash; 公式アカウント (@dotsgirls) <a href="https://twitter.com/dotsgirls/status/660331941720289281">2015, 10月 31</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+</ul>
+</li>
+<li>FF1.0の日本語担当で死んだ思い出</li>
+<li>ECMAScript4はYahoo!とMSの猛烈な反対に合い陽の目を見ず</li>
+<li>FirefoxOSでES6書こう</li>
+<li>佐藤徹平さん(@teppeis)イチオシ</li>
+<li>FxDevCon キャンセル待ちだけど参加してね</li>
+</ul>
+
+
+<h2>QA</h2>
+
+<ul>
+<li>エディタ
+
+<ul>
+<li>vim, webstorm, atomとか。Visual Studio Codeも使いやすいかも</li>
+<li>FirefoxのScratchpadが便利でオススメ</li>
+<li>ES6に一番対応出来てるのはFirefoxじゃなくてEdge13(96%ぐらいES6対応が完了)</li>
+<li>プラグインでESlintとか入れればどのエディタでも使える</li>
+</ul>
+</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[「dots.2周年記念パーティ」に参加しました！]]></title>
+    <link href="http://tchikuba.github.io/blog/2015/10/30/dots-2years-party/"/>
+    <updated>2015-10-30T19:22:05+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2015/10/30/dots-2years-party</id>
+    <content type="html"><![CDATA[<p>2015年10月30日(金)に行われた<a href="http://eventdots.jp/">dots</a>の<a href="http://eventdots.jp/event/571415">2周年記念パーティー</a>に参加してきました！
+rubyのパパこと<a href="https://twitter.com/yukihiro_matz">matz</a>の話が聞けるということで楽しみにしてたイベントでした。
+またdotsは渋谷のイベント・コワーキングスペースを2015年8月から運営しており、運営に関わっている人が知人でもあり、ちょこちょこ利用させて貰ってます。</p>
+
+<hr />
+
+<p>※リアルタイム更新してました！</p>
+
+<h2>まつもとゆきひろ氏</h2>
+
+<ul>
+<li>PHPで出来てるdotsにあまり関係ないruby開発者のまつもとゆきひろです（笑）</li>
+<li>スライドタイトルにデザイナってつけたのは渋谷でお洒落感出したかったからむりくり。</li>
+<li>ひろゆきの方が圧倒的に多い名前で2ch作った人ですよね？って間違えられた。</li>
+<li>同じように西村博之氏がruby作った人ですよね？って間違えられたことがあるらしい。</li>
+<li>プログラミングなんて教育出来ないですよねーとか言って嫌がられる。</li>
+<li>昔のスパコンは今のiPhone5と同じCPUパワー。</li>
+<li>言語が進化することで脳の限界で出来なかったことを出来るようになった。</li>
+<li>本質を理解すればバズワードではなくなる。</li>
+<li>C10K/C100K問題</li>
+<li>変わらないものが大事。数学・アルゴリズム・コンピュータ基礎・基本プロトコル・人間・インタフェースの原理</li>
+<li>matzが尊敬するデイブ・トーマス</li>
+<li>中学の時にプログラミングやったらコンピュータが思う通りに動いて「カワイイ」と思ったのが原点</li>
+<li>basic言語の辛みからプログラミング言語に関心を持った高校生時代。Pascalの本とか。</li>
+<li>未来はコンピュータと直接インタラクションするようになる。スタートレックのコンピュータみたいな。</li>
+<li>reactとか面白い。</li>
+</ul>
+
+
+<h2>パネルディスカッション</h2>
+
+<ul>
+<li>エンジニアの働き方とか</li>
+<li>ビットジャーニー代表井原さん：なんで呼ばれた感満載で技術分かんない</li>
+<li>VASILYのCTO今村さん：かっこいい写真</li>
+<li>クラウドワークスCTO大場さん：娘と一緒に登壇</li>
+<li>クックパッドCTO舘野さん：本日のモデレーター</li>
+</ul>
+
+
+<h3>未来に必要な技術とは？</h3>
+
+<ul>
+<li>スティーブ・ジョブズ見たらクズだった。クズさが必要by大場さん</li>
+<li>ベースになる技術が必要</li>
+<li>好きなモノを突き詰めてる人に任せたいと思う</li>
+</ul>
+
+
+<h3>未来に繋がる考え方は？</h3>
+
+<ul>
+<li>何の為に学ぶかをしっかり持つ。信念が大事</li>
+<li>仕事してても好きな仕事を優先してたまつもとゆきひろさん。クズ感出てきましたねｂｙ大場さん</li>
+<li>人の能力の総量は桁が違うということはない。あとはパラメータの問題。なので何か1つのことに振る方が集中出来る。ｂｙまつもとさん</li>
+</ul>
+
+
+<h3>どう働くべきなのか？</h3>
+
+<ul>
+<li>エンジニアが得意なことを1つの会社が囲うのは勿体無い。会社もオープンソース化すべき。ｂｙ井原さん</li>
+<li>毎朝保育所に子供をデプロイ（笑）して出社するとか、全力出せる時間が少なくなる。生活も子供中心。労働のオープンソース化までやりたいｂｙ大場さん</li>
+<li>朝来ないからと言って全力を出せないとは思っていない信頼感がある。エンジニアはパフォーマンスを出せる時間に集中することｂｙ今村さん</li>
+</ul>
+
+
+<h3>今後のオープンソースの動向</h3>
+
+<ul>
+<li>欲しいOSS
+
+<ul>
+<li>クラウド・ビッグデータ等のOSSは既にあるよね。hadoop,sparkとか。2世代目に凄いの来るかも。ｂｙまつもとさん</li>
+<li>meteorとかactive value？コンセプト。リアルタイムでデータを出力し続ける。データバインディングに革新が起きればSPAが画期的に変わってくる可能性。ｂｙまつもとさん</li>
+<li>口に出すの恥ずかしいソシャゲを登壇中にやるまつもとゆきひろさん（笑）</li>
+<li>TreasureData, Elasticsearchとか、更に運用を楽にしてくれるOSSがもっと出てくるかも。ｂｙ大場さん</li>
+<li>hashicoop製品使い始めたところ。決定版はまだまだなので欲しい。マーケティングオートメーション的なOSSとか。意思決定を支えるOSS。サービスレイヤーに近いOSS。ｂｙ今村さん</li>
+<li>kaizen platform的なものとかあるけどミドルウェアが違うので各社自社で実装している。ｂｙ舘野さん</li>
+<li>製品を半オープンソースにして製品のコードを使っている会社のエンジニアがプルリクエスト送ってくるみたいな。企業のありかた。レベニューシェアとか。ｂｙ井原さん</li>
+</ul>
+</li>
+<li>注目される開発コミュニティ
+
+<ul>
+<li>黎明期のOSSコミュニティは自身の影響度が大きいのでエンジニアとしてはやりがいがある。ｂｙ舘野さん</li>
+<li>日本人がいないコミュニティに入ると国際化対応とか日本人しか分からないところで貢献できるよねｂｙ大場さん</li>
+<li>開発コミュニティの敷居を下げるような活動とかOSSとかが必要。最初の一歩を手伝うような活動とかｂｙ今村さん</li>
+<li>コードレビューすらしていない会社もたくさん。OSS以前の問題で底上げが必要かもｂｙ井原さん</li>
+<li>大体動くけど隙があるOSSは他の人がコミットしてくれる。OSSに必要なのは炎上力だ！ｂｙまつもとさん</li>
+<li>DHHとか敢えて目立つ発言して炎上させてる節がある。あれもOSS運用力の一つかもｂｙ舘野さん</li>
+<li>コミュニティへの帰属意識が変わってきている。github時代は様々なOSSにコミットするように変わってきているｂｙまつもとさん</li>
+</ul>
+</li>
+<li>質問
+
+<ul>
+<li>好きなことに全振りすれば良い。サポートにはサポートの、新技術を開発する人にはその人の意味があるｂｙまつもとさん</li>
+<li>ダブルクリックというユーザーインターフェースが悪い（笑）ｂｙ今村さん</li>
+<li>ハードウェア系もArduinoから始まるオープン化で組合せでやりたいことが出来るようになってきたｂｙ舘野さん</li>
+<li>toC向けのハードウェアサービスレイヤのイノベーションはこれから起きるんじゃないか。mrubyとかも2020年とかにもっと爆発的に広まるんじゃないかｂｙ舘野さん</li>
+<li>新しいことが生まれる時は未知との遭遇から。ハードウェアエンジニアとウェブエンジニアだと摩擦が起きるけどそれを乗り越えたらイノベーションがｂｙまつもとさん</li>
+<li>時間の使い方や優先順位を伝えるのも重要だがノンバーバルな部分が伝わるのでちゃんと朝・晩は一緒に娘と飯を食うように自分にルールを課したｂｙまつもとさん</li>
+</ul>
+</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[「Jubatusハッカソンwith読売新聞」に参加してきました！]]></title>
+    <link href="http://tchikuba.github.io/blog/2015/09/10/jubatus-hackathon-with-yomiuri/"/>
+    <updated>2015-09-10T00:05:28+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2015/09/10/jubatus-hackathon-with-yomiuri</id>
+    <content type="html"><![CDATA[<p>先月8/23(土)、8/24(日)の2日間で<a href="http://matome.naver.jp/odai/2137457967026150101">歌舞伎座タワーのドワンゴ本社</a>を会場として行われた
+<a href="http://jubatus.connpass.com/event/18166/">Jubatusハッカソンwith読売新聞</a>に参加してきました！
+読売新聞の記事の写真にバッチリ写ってましたｗ</p>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="新聞記事と分析技術で新サービス考える「ハッカソン」 : 科学 : 読売新聞（YOMIURI ONLINE）" src="http://hatenablog.com/embed?url=http://www.yomiuri.co.jp/science/feature/CO018532/20150825-OYT8T50064.html" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">ビッグデータの分析技術とヨミウリ・オンラインの記事を使った「Ｊｕｂａｔｕｓハッカソン　ｗｉｔｈ　読売新聞」。優勝したのは、どんなアイデアだったでしょう？&#10;<a href="http://t.co/euayPP6mU0">http://t.co/euayPP6mU0</a> <a href="http://t.co/BbQxG2Vkc7">pic.twitter.com/BbQxG2Vkc7</a></p>&mdash; 読売新聞YOL (@Yomiuri_Online) <a href="https://twitter.com/Yomiuri_Online/status/636103332449259520">2015, 8月 25</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>ちょっと遅くなってしまいましたが参加レポートをば。</p>
+
+<p><a href="http://jubat.us/ja/">Jubatus</a>は「ユバタス」と読み、<a href="https://www.preferred-networks.jp/">Preferred Networks</a>と
+<a href="http://www.sic.ecl.ntt.co.jp/">NTTソフトウェアイノベーションセンタ</a>が開発した
+オンライン機械学習向け分散処理フレームワークです。 ※公式HPの受け売りですが(笑)</p>
+
+<p>今回のハッカソンはピンで参加したのでその場で即興でチームビルディングしました。
+以前から知人で<a href="http://www.senkyo-com.jp/team/">選挙ドットコムCTOの佐藤さん</a>
+率いるチームで<strong>「2030年の日本の首相を予測する」</strong>というチャレンジング？(笑)なテーマに挑戦しました。
+大枠やったことを書くと、1985年時点での各政治家の当選回数、世襲か否か、得票数、選挙区の都市などを説明変数として
+2000年の閣僚経験数が一番多い政治家=首相を推定する
+回帰モデルを5年毎に作って2015年時点から2030年を推定する、という感じです。
+説明変数のデータは主にwebクロールしてきたものを利用しました。</p>
+
+<p>私の担当は<a href="http://tchikuba.github.io/blog/2015/06/22/artificial-intelligence-hackathon/">前回参加したハッカソン</a>同様、この辺のクロール周りだったんですが
+やはり時間がかかって思ったより大変でした。(前処理大事)
+収穫としては<a href="http://ja.dbpedia.org/">DBpedia</a>の存在を知ったことです。
+<a href="http://www.asahi-net.or.jp/~ax2s-kmtn/internet/rdf/rdf-sparql-query.html">SPARQL</a>というSQLライクな言語でデータの関係性を含めてデータ取得出来ます。
+例えば<a href="http://ja.dbpedia.org/page/%E5%AE%89%E5%80%8D%E6%99%8B%E4%B8%89">安倍晋三</a>だと<em>prop-ja:内閣</em>を参照すると閣僚経験数が分かります。
+※SPARQLって難解で使いづらいんですがｗ</p>
+
+<p>で、肝心の結果なんですがこれが面白かった(笑)
+以下、首相に最も近い順の予測結果です。</p>
+
+<ol>
+<li>亀井静香</li>
+<li>甘利明</li>
+<li>前原誠司</li>
+<li>石破茂</li>
+<li>岡田克也</li>
+<li>枝野幸男</li>
+<li>林芳正</li>
+<li>安倍晋三</li>
+<li>藤井比早之</li>
+<li>大畠章宏</li>
+</ol>
+
+
+<p>ホントはチームメンバーみんなで「小泉進次郎」とか期待してたんですが全くかすりもせず(笑)
+1位の亀井静香は2030年には94歳だし(笑)
+ちょっと悔いが残ったのはJubatusのオンライン機械学習の良さを全く活かせてなかったりwebインタフェースがなかった辺りでした。
+ただ今回のようにかなり具体的なデータで機械学習を応用すると話題としては面白いものが出来るなぁということが改めて実感出来たのは収穫でした。</p>
+
+<p>以下は発表会の様子です。</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">jubatusハッカソンwith読売新聞の発表会なう <a href="https://twitter.com/hashtag/jubatus_hackathon?src=hash">#jubatus_hackathon</a> <a href="http://t.co/dP0cSD5In8">pic.twitter.com/dP0cSD5In8</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/635360000207007744">2015, 8月 23</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>発表会はどなたもかなりガチの内容で非常に刺激を受けました。
+その中でも特に印象に残っていたのが<a href="http://dwango.co.jp/recruit/people/detailed03.html">ドワンゴの小田桐さん</a>の発表でした。
+ニコニコ動画のコメントを<a href="http://chainer.org/">Chainer</a>によるディープラーニングでカテゴライズや次のコメントを予測する、
+みたいなことをやってそのモデルをtwitterに応用しても結構使えるよね、という内容でした。
+スライドが公開されていないかググってみたんですがちょっと見当たらず残念ですが・・・</p>
+
+<p>ちなみにこのChainerもJubatusを開発したPreferred Networksが開発したディープラーニングフレームワークです。</p>
+
+<h2>「Jubatusハッカソンwith読売新聞」参加レポート</h2>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Jubatus ハッカソン with 読売新聞に参加してきました - てくすた" src="http://hatenablog.com/embed?url=http://texta.pixta.jp/entry/2015/08/28/190353" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Jubatusハッカソン with 読売新聞に参加しました | kanonjiのブログ" src="http://hatenablog.com/embed?url=http://kanonji.info/blog/2015/08/27/report-jubatus-hackathon-with-yomiuri-shimbun/" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="「Jubatus ハッカソン with 読売新聞」で入賞した！ - 雀巽の日記帳" src="http://hatenablog.com/embed?url=http://necojackarc.hatenablog.com/entry/2015/08/23/210608" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Jubatusハッカソンに参加してきました - yustam.jp" src="http://hatenablog.com/embed?url=http://yustam.hatenablog.com/entry/2015/08/24/071123" frameborder="0" scrolling="no"></iframe>
+
+
+<h2>Jubatusと自然言語処理</h2>
+
+<p>同じチームメンバーの方がまとめたQiita記事が分かりやすいです。
+自然言語処理を行う際に避けて通れない前処理が機能としてJubatusに備わっているので便利ですね。</p>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="jubatas - Jubatusで自然言語処理を使うときのまとめ（備忘録） - Qiita" src="http://hatenablog.com/embed?url=http://qiita.com/GushiSnow/items/15ef4c21aa1e8a09a4c5" frameborder="0" scrolling="no"></iframe>
+
+
+<h2>オンライン(機械)学習とは</h2>
+
+<p>オンライン機械学習はJubatusの最大の特徴とされています。「機械」を省略して「オンライン学習」とも呼ばれます。
+オンライン学習について分かりやすい解説は以下のNTTデータの記事です。</p>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="ビッグデータ時代の機械学習アルゴリズム：オンライン学習 | NTTデータ" src="http://hatenablog.com/embed?url=http://www.nttdata.com/jp/ja/insights/trend_keyword/2014110601.html" frameborder="0" scrolling="no"></iframe>
+
+
+<p>以下の記述がオンライン学習について端的に言い表しています。</p>
+
+<blockquote><p>オンライン学習は機械学習モデルにおける学習アルゴリズムの1つであり、データを1つずつ読み込んでモデル更新を繰り返すことで学習を行う手法です。反対に、データを全て読み込んでから学習する手法をバッチ学習と呼びます。</p></blockquote>
+
+<p>バッチ学習のデメリットとオンライン学習のメリットについては以下の記述が分かりやすいです。</p>
+
+<blockquote><p>通常、機械学習で作成したモデルは運用していくうちに徐々に精度が低下するため、モデルの精度維持のためには定期的に新たなデータを加えたモデル更新が必要となります。この時、バッチ学習では過去のデータと新しいデータを合わせてモデルを1から作り直す必要があり、多くの計算時間が必要になります。オンライン学習を用いれば、新たなデータのみを既存のモデルに取り込む逐次更新が可能になるため、モデルの精度維持がわずかな時間で可能になります。これを推し進めて、発生したデータをその場でモデルに反映すれば、モデルの精度低下を意識する必要すらなくなります。</p></blockquote>
+
+<p>このオンライン学習が迷惑メール判定ロジックに利用されていることを考えるとオンラインであることのメリットが分かりやすいですね。
+常に迷惑メールの対象は増えていくのでバッチ学習で学習したモデルを運用してもすぐにそのモデルは古いものになってしまって
+新しい迷惑メールを判定出来ないことになってしまいますよね。
+そういう意味で特に変化の早いビジネス上では、IoTの絡みも相まってオンライン学習は今後拡大していくだろうと思います。</p>
+
+<h2>機械学習周りの勉強法</h2>
+
+<p>私自身、機械学習周りのインプットをし始めたのはここ半年くらいです。
+インプットを初めて痛感するのは、統計学、機械学習、人工知能などの情報をググっても断片的な知識ばかりであまり体系的にまとまっていないので
+初学者が体系的に知識をカテゴライズすることの難易度が高いという点でした。
+体系的に知識を学ぶにはネットで楽しないでちゃんと本読めよ、というのが王道ではあるのですが、、
+そう言っては身も蓋もないので何か良い方法はないかなと。</p>
+
+<p>そこで個人的に最近良くお世話になっている<a href="http://tjo.hatenablog.com/">銀座で働くデータサイエンティストのブログ</a>を書かれている
+<a href="http://www.linkedin.com/in/tjozaki">Takashi J. OZAKI</a>さんの以下の記事がオススメです。</p>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="社会人が統計学や機械学習を学ぶなら「落下傘方式」で - 銀座で働くデータサイエンティストのブログ" src="http://hatenablog.com/embed?url=http://tjo.hatenablog.com/entry/2014/03/31/191907" frameborder="0" scrolling="no"></iframe>
+
+
+<p>ここで出てくる「落下傘方式」とは</p>
+
+<blockquote><p>「必要になった時に必要な項目だけ学び、覚えたらとにかく実践してみる」</p></blockquote>
+
+<p>という定義だそうですが、この勉強法はwebエンジニアとの親和性が高いんじゃないかと思います。
+ググッたらちょっと古い「Rubyのパパ」こと<a href="https://twitter.com/yukihiro_matz">matz</a>の記事がヒットしました。OSSのコードを読む場合の戦略の一つとして紹介されてました。</p>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="フリー言語で真のプログラミングを学ぶ - Part1　オープンソース/C言語に学ぶ「ソースコードの読み方」：ITpro" src="http://hatenablog.com/embed?url=http://itpro.nikkeibp.co.jp/article/COLUMN/20070622/275606/" frameborder="0" scrolling="no"></iframe>
+
+
+<p>特に私の場合は機械学習アルゴリズムそのものを研究する訳ではなく、既に確立された機械学習アルゴリズムを利用するユーザーの立場なので、
+実際にJubatusを触ってみたりpythonの機械学習ライブラリの<a href="http://pandas.pydata.org/">pandas</a>や<a href="http://scikit-learn.org/stable/">scikit-learn</a>を
+実データで利用してみた方が理解が進んでいる気がします。</p>
+
+<h3>pandasの参考になった入門記事</h3>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Python - 10分でPandasを学ぶ - Qiita" src="http://hatenablog.com/embed?url=http://qiita.com/tkazusa/items/23bc0142bf277d397260" frameborder="0" scrolling="no"></iframe>
+
+
+<h3>scikit-learnの参考になった入門記事</h3>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="pythonの機械学習ライブラリscikit-learnの紹介 - 唯物是真 @Scaled_Wurm" src="http://hatenablog.com/embed?url=http://sucrose.hatenablog.com/entry/2013/05/25/133021" frameborder="0" scrolling="no"></iframe>
+
+
+<h3>Chainerの参考になった入門記事</h3>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Python - 【機械学習】ディープラーニング フレームワークChainerを試しながら解説してみる。 - Qiita" src="http://hatenablog.com/embed?url=http://qiita.com/kenmatsu4/items/7b8d24d4c5144a686412" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="機械学習 - 深層学習でニュース記事を分類する - Qiita" src="http://hatenablog.com/embed?url=http://qiita.com/hogefugabar/items/c27ed578717c5e7288c0" frameborder="0" scrolling="no"></iframe>
+
+
+<h2>参考書籍</h2>
+
+<div>
+<a href="http://www.amazon.co.jp/gp/product/4621061224/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4621061224&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4621061224&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4621061224" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+<a href="http://www.amazon.co.jp/gp/product/4130420658/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4130420658&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4130420658&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4130420658" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+<a href="http://www.amazon.co.jp/gp/product/4627849710/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4627849710&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4627849710&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4627849710" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+<a href="http://www.amazon.co.jp/gp/product/B00UAAK07S/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00UAAK07S&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00UAAK07S&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B00UAAK07S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+<a href="http://www.amazon.co.jp/gp/product/B0152OV4VW/ref=as_li_tf_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B0152OV4VW&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0152OV4VW&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B0152OV4VW" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[イベント「人工知能ハッカソン」に参加してきました！]]></title>
+    <link href="http://tchikuba.github.io/blog/2015/06/22/artificial-intelligence-hackathon/"/>
+    <updated>2015-06-22T22:15:31+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2015/06/22/artificial-intelligence-hackathon</id>
+    <content type="html"><![CDATA[<p>最近、人工知能について非常に興味関心があります。
+ロジスティック回帰による数値予測や機械学習、特にニューラルネットワーク・ディープラーニングへの興味関心が発展して最近では専ら人工知能についての話題に釘付けです。
+そんな折に丁度タイミング良くサムライインキュベートさんからのメルマガで<a href="http://event.samurai-incubate.asia/ubic/">「人工知能ハッカソン」</a>
+が開催されることを知り、応募してみたところ見事参加抽選に当選したので過日(2015/5/23-24)参加してきました。</p>
+
+<p>(当選時の喜びの声)</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">ハッカソン当選通知ｷﾀ━(ﾟ∀ﾟ)━!／【人工知能】ハッカソン ＜UBIC×Samurai＞〜益々盛り上がる人工知能技術を活用したサー&#8230; (開催日時：2015/05/23 11:00 ～ 2015/05/24 19:00) <a href="http://t.co/DYe6f2CGpe">http://t.co/DYe6f2CGpe</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/599096521615781888">2015, 5月 15</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<br>
+
+
+<h1>ハッカソン当日の模様</h1>
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">若手エンジニアが人工知能のビジネス活用を競うハッカソン - 最優秀賞は? - マイナビニュース: マイナビニュース 若手エンジニアが人工知能のビジネス活用を競うハッカソン -… <a href="http://t.co/Qv53xo0f9o">http://t.co/Qv53xo0f9o</a> <a href="http://t.co/DhmPIm5QiC">pic.twitter.com/DhmPIm5QiC</a></p>&mdash; ビジネスソース JP (@BizSourceJP) <a href="https://twitter.com/BizSourceJP/status/603146213030932481">2015, 5月 26</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>1日目前半にアイディアソンやって1日目後半、2日目に開発をやるというガチなハッカソン自体、
+初参加でしたので良い経験になりました。今回のハッカソンでは基本ハスラー、ハッカー、デザイナの3つの役割の人が各チームに均等に割り振られるルールのようでした。
+私がいたチームはハスラー2名、ハッカー3名(サーバサイドエンジニア2名、インフラエンジニア1名)な構成でした。
+やはりデザイナかフロントエンドエンジニアがいないとプロダクトの見栄えが・・・な感じでした。。</p>
+
+<p>ネタとしてはうちのチームでは「みんなのカイシャ(仮)」というタイトルで開発を行いました。
+過去の判例の情報解析を手掛ける<a href="http://www.ubic.co.jp/">UBICさん</a>が用意した自然言語処理系の人工知能APIを使って
+選択肢に企業理念を候補として出力して選択していくと企業理念が似通った企業を推薦してくれるというものです。
+クローラによるデータの収集や前処理に時間をかけすぎて肝心の人工知能APIバックエンドの実装が中途半端だったのが悔やまれました。</p>
+
+<p>(2日目の成果発表の様子)</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">人工知能ハッカソン、成果発表中。1チーム目から面白い！ <a href="https://twitter.com/hashtag/AIhack?src=hash">#AIhack</a> <a href="http://t.co/jvUVYxOpBU">pic.twitter.com/jvUVYxOpBU</a></p>&mdash; サムライインキュベート両角 (@ryokado) <a href="https://twitter.com/ryokado/status/602389148721287169">2015, 5月 24</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>以下の通り、優勝したのはダイエット家庭教師等を手掛ける<a href="https://www.finc.co.jp/">FiNC</a>のインターンの方がいたチームでした。</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">《人工知能ハッカソンにてFiNCのインター生が優勝しました！》&#10;&#10;5月23日と24日の両日にわたり、株式会社サムライインキュベートとUBICが開催した人工知能ハッカソンに、FiNCのインターン生や社員が参加してきました！&#8230; <a href="http://t.co/upOrpdQUNF">http://t.co/upOrpdQUNF</a></p>&mdash; 玉野井桐子 (@tamanoifinc) <a href="https://twitter.com/tamanoifinc/status/603371855651581952">2015, 5月 27</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="人工知能ハッカソンでFiNCエンジニアがW賞！ | FiNC公式blog" src="http://hatenablog.com/embed?url=https://finc.co.jp/blog/?p=829" frameborder="0" scrolling="no"></iframe>
+
+
+<h1>ハッカソンに参加して感じたこと</h1>
+
+<p>参加して思ったのはハッカソンは(アイディア出しよりは)開発メインでテック寄りな方が良いかなという点です。
+アイディア出しに注力するならハッカソンじゃなくてアイディアソンとして別枠でやった方が時間的な制約で中途半端にならずに良いかなと思います。
+開催する側のメリットとしても2点あると思っていて、1点目はAPI提供側が開発時にストレスなく組み込めるか温度感を見る点、
+2点目は提供したAPIが具体的な課題解決にどのように応用されるかアイディアの幅を見る点。
+この2点の検証が盛り込まれた今回のハッカソンだったと思うのですが、提供されたAPIがシンプル過ぎてちょっと拍子抜けした参加者もいたようで
+両方の検証がUBICさん的に十分に出来たのかはちょっと疑問が残る内容だったかもしれません。</p>
+
+<p>ところで今回のハッカソンのメンターが<a href="https://twitter.com/masuidrive">トレタ増井雄一郎さん</a>と
+<a href="http://ymatsuo.com/japanese/">東京大学准教授の松尾豊さん</a>だったのも参加理由の一つでした。
+<a href="http://tchikuba.github.io/blog/2014/02/14/engineers-free-life-style-of-developers-summit-2014/">増井さんのお話を1年前のデブサミ2014で聞いたことがあり</a>、
+スタートアップ的な考え方からのツッコミが聞けそうだなと思っていたところ
+まさに想像通りのフィードバックがあってその視点が非常に参考になりました。</p>
+
+<p>また、松尾豊さんは人工知能の専門家で
+<a href="http://www.amazon.co.jp/gp/product/B00UAAK07S/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B00UAAK07S&linkCode=as2&tag=athome0a-22">人工知能は人間を超えるか (角川ＥＰＵＢ選書)</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B00UAAK07S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+という有名な本の著者だということを知っており一度お会いしてみたかった方でした。
+(この書籍は後日読んで興味深かったので次回のブログ記事のネタで書こうかと思います)
+ハッカソンの中間と発表時にチームへのフィードバックをいただいたのと、ハッカソン終了後にご挨拶して
+日頃の興味関心事等について色々意見交換が出来たのは収穫でした。</p>
+
+<p><a href="http://www.amazon.co.jp/gp/product/B00UAAK07S/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00UAAK07S&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00UAAK07S&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B00UAAK07S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<p>ハッカソンで実際に何を作るのかという以上に、ハッカソンのテーマ(今回なら人工知能)に興味関心が近い人と繋がれる、
+という意味でハッカソンに参加することは有意義だなと思いました。
+初日にハスラー2名と私の3人で飲みに行って意見交換したんですが、参加者やメンターの方と直接会って意見交換するのは貴重な時間だと思います。
+私は常日頃人が会うことで生じる「場のエネルギー」を信じているところがあり(別にオカルトという訳ではなく)
+共通の指向性を持った人同士が出会う場としては相当良い場ですね。</p>
+
+<h1>人工知能ハッカソンの記事</h1>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="UBICとサムライインキュベートが「人工知能ハッカソン」を開催｜株式会社UBICのプレスリリース" src="http://hatenablog.com/embed?url=http://prtimes.jp/main/html/rd/p/000000096.000006776.html" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="人工知能ハッカソンを初めて開催！若手エンジニアが人工知能を使って、「今そこにある課題」の解決に挑戦（2015年5月23日・24日）共催：サムライ・インキュベート｜ライブラリー｜行動情報データ解析のUBIC" src="http://hatenablog.com/embed?url=http://www.ubic.co.jp/library/features/2015/20150608152729.html" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="若手エンジニアが人工知能のビジネス活用を競うハッカソン - 最優秀賞は? | マイナビニュース" src="http://hatenablog.com/embed?url=http://news.mynavi.jp/news/2015/05/26/439/" frameborder="0" scrolling="no"></iframe>
+
+
+<h1>参加者の方のレポート</h1>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="人工知能ハッカソンに行った - an odd fellow" src="http://hatenablog.com/embed?url=http://roronya.hatenablog.com/entry/2015/05/25/092550" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="No profit grows where is no pleasure ta'en.: 「【人工知能】ハッカソン」に参加しました" src="http://hatenablog.com/embed?url=http://itagakishintaro.blogspot.jp/2015/05/blog-post.html" frameborder="0" scrolling="no"></iframe>
+
+
+<p><a href="http://www.amazon.co.jp/gp/product/B00UAAK07S/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00UAAK07S&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00UAAK07S&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B00UAAK07S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[td-clientを使ってHiveより早いPrestoクエリを実行する方法をrakeタスクで]]></title>
+    <link href="http://tchikuba.github.io/blog/2015/05/20/how-to-execute-presto-query-on-tresuredata-client/"/>
+    <updated>2015-05-20T20:05:22+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2015/05/20/how-to-execute-presto-query-on-tresuredata-client</id>
+    <content type="html"><![CDATA[<p>最近、Hadoop(Tresure Data)と格闘してます。</p>
+
+<p>td-clientを使ってTresureDataからデータを取得するrakeタスクを書いててHiveクエリだと遅いのでPresto使いたいなと思うことがありました。
+td-clientのREADMEなど公式情報をざっと確認したところ見当たりませんでしたが、
+td-client-rubyのソースコードを見たら案の定クエリタイプを指定するインタフェースがありました。</p>
+
+<p><a href="https://github.com/treasure-data/td-client-ruby/blob/master/lib/td/client.rb#L182">https://github.com/treasure-data/td-client-ruby/blob/master/lib/td/client.rb#L182</a></p>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="td-client-ruby/client.rb at master · treasure-data/td-client-ruby · GitHub" src="http://hatenablog.com/embed?url=https://github.com/treasure-data/td-client-ruby/blob/master/lib/td/client.rb#L182" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<figure class='code'><figcaption><span>client.rb#L182付近</span><a href='https://gist.github.com/tchikuba/c1c9e48f88ff7c6d2c94'>gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'>  <span class="c1"># @param [String] db_name</span>
+</span><span class='line'>  <span class="c1"># @param [String] q</span>
+</span><span class='line'>  <span class="c1"># @param [String] result_url</span>
+</span><span class='line'>  <span class="c1"># @param [Fixnum] priority</span>
+</span><span class='line'>  <span class="c1"># @param [Fixnum] retry_limit</span>
+</span><span class='line'>  <span class="c1"># @param [Hash] opts</span>
+</span><span class='line'>  <span class="c1"># @return [Job]</span>
+</span><span class='line'>  <span class="k">def</span> <span class="nf">query</span><span class="p">(</span><span class="n">db_name</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">result_url</span><span class="o">=</span><span class="kp">nil</span><span class="p">,</span> <span class="n">priority</span><span class="o">=</span><span class="kp">nil</span><span class="p">,</span> <span class="n">retry_limit</span><span class="o">=</span><span class="kp">nil</span><span class="p">,</span> <span class="n">opts</span><span class="o">=</span><span class="p">{})</span>
+</span><span class='line'>    <span class="c1"># for compatibility, assume type is hive unless specifically specified</span>
+</span><span class='line'>    <span class="n">type</span> <span class="o">=</span> <span class="n">opts</span><span class="o">[</span><span class="ss">:type</span><span class="o">]</span> <span class="o">||</span> <span class="n">opts</span><span class="o">[</span><span class="s1">&#39;type&#39;</span><span class="o">]</span> <span class="o">||</span> <span class="ss">:hive</span>
+</span><span class='line'>    <span class="k">raise</span> <span class="no">ArgumentError</span><span class="p">,</span> <span class="s2">&quot;The specified query type is not supported: </span><span class="si">#{</span><span class="n">type</span><span class="si">}</span><span class="s2">&quot;</span> <span class="k">unless</span> <span class="o">[</span><span class="ss">:hive</span><span class="p">,</span> <span class="ss">:pig</span><span class="p">,</span> <span class="ss">:impala</span><span class="p">,</span> <span class="ss">:presto</span><span class="o">].</span><span class="n">include?</span><span class="p">(</span><span class="n">type</span><span class="p">)</span>
+</span><span class='line'>    <span class="n">job_id</span> <span class="o">=</span> <span class="vi">@api</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">type</span><span class="p">,</span> <span class="n">db_name</span><span class="p">,</span> <span class="n">result_url</span><span class="p">,</span> <span class="n">priority</span><span class="p">,</span> <span class="n">retry_limit</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span><span class='line'>    <span class="no">Job</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="nb">self</span><span class="p">,</span> <span class="n">job_id</span><span class="p">,</span> <span class="n">type</span><span class="p">,</span> <span class="n">q</span><span class="p">)</span>
+</span><span class='line'>  <span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>上記の通りqueryメソッドの第5引数にoptsというハッシュで指定するオプションがあり、
+<code>type: :presto</code>な指定をするとHiveではなくPrestoでクエリが発行されます。</p>
+
+<p>以下、rakeタスクでのサンプルコードです。</p>
+
+<figure class='code'><figcaption><span>rakeタスクでのサンプルコード</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">namespace</span> <span class="ss">:execute</span> <span class="k">do</span>
+</span><span class='line'>  <span class="n">desc</span> <span class="s1">&#39;download treasure data by presto&#39;</span>
+</span><span class='line'>  <span class="n">task</span> <span class="ss">presto</span><span class="p">:</span> <span class="ss">:environment</span> <span class="k">do</span>
+</span><span class='line'>    <span class="n">apikey</span> <span class="o">=</span> <span class="s1">&#39;your api key&#39;</span>
+</span><span class='line'>    <span class="n">db</span> <span class="o">=</span> <span class="s1">&#39;your_db_name&#39;</span>
+</span><span class='line'>    <span class="n">query</span> <span class="o">=</span> <span class="s1">&#39;select count(*) from your_table_name&#39;</span>
+</span><span class='line'>    <span class="n">client</span> <span class="o">=</span> <span class="ss">TreasureData</span><span class="p">:</span><span class="ss">:Client</span><span class="o">.</span><span class="n">new</span> <span class="n">apikey</span>
+</span><span class='line'>    <span class="n">job</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">query</span> <span class="n">db</span><span class="p">,</span> <span class="n">query</span><span class="p">,</span> <span class="kp">nil</span><span class="p">,</span> <span class="kp">nil</span><span class="p">,</span> <span class="kp">nil</span><span class="p">,</span> <span class="ss">type</span><span class="p">:</span> <span class="ss">:presto</span>
+</span><span class='line'>    <span class="k">until</span> <span class="n">job</span><span class="o">.</span><span class="n">finished?</span>
+</span><span class='line'>      <span class="nb">sleep</span> <span class="mi">2</span>
+</span><span class='line'>      <span class="n">job</span><span class="o">.</span><span class="n">update_status!</span>
+</span><span class='line'>    <span class="k">end</span>
+</span><span class='line'>    <span class="n">job</span><span class="o">.</span><span class="n">update_status!</span>
+</span><span class='line'>    <span class="nb">p</span> <span class="n">job</span><span class="o">.</span><span class="n">result</span> <span class="k">if</span> <span class="n">job</span><span class="o">.</span><span class="n">finished?</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>実行</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>bin/rake execute:presto
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>結果</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="o">[[</span>100<span class="o">]]</span> <span class="c"># your_db_name.your_table_nameの件数</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>上記のように単純なクエリの場合、Hiveだとパフォーマンス的にwebアプリ等から動的に取得するのが
+現実的に時間がかかりすぎたクエリでもPrestoであれば動的にデータ取得可能なので利用の幅が広がりますね。</p>
+
+<h2>合わせて読みたい</h2>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="『Prestoとは何か，Prestoで何ができるか』 - トレジャーデータ（Treasure Data）公式ブログ" src="http://hatenablog.com/embed?url=http://treasure-data.hateblo.jp/entry/2014/07/10/150250" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="[Ruby on Rails]td-clientでTreasureDataにQueryを発行する ｜ Developers.IO" src="http://hatenablog.com/embed?url=http://dev.classmethod.jp/server-side/ruby-on-rails/ruby-on-railstd-client_treasuredata_query_issue/" frameborder="0" scrolling="no"></iframe>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[好きなことを仕事にするという論調を何故批判する向きが多いのかふと疑問に思った]]></title>
+    <link href="http://tchikuba.github.io/blog/2015/04/21/work-found-job/"/>
+    <updated>2015-04-21T20:00:00+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2015/04/21/work-found-job</id>
+    <content type="html"><![CDATA[<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="僕がアクセンチュアを辞めた理由 - 元外資系コンサルタントがなぜ鎌倉で自給的生活をはじめたか？" src="http://hatenablog.com/embed?url=http://u1style.hatenablog.com/entry/2015/03/27/%E5%83%95%E3%81%8C%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%81%E3%83%A5%E3%82%A2%E3%82%92%E8%BE%9E%E3%82%81%E3%81%9F%E7%90%86%E7%94%B1" frameborder="0" scrolling="no"></iframe>
+
+
+<p>私はちょっと前にこのブログ記事を読んで凄い共感しました。
+記事のコメント欄を読むと比較的肯定的な意見が多いようです。
+一方、はてブのコメントだとかなり批判的な意見が多いように思います。
+コメントも合わせて読んで色々思うところがあったのでちょっと自分としての考えをブログにまとめておこうと思いました。</p>
+
+<p>個人的には自分が正しいと思う価値観や信念に素直になって自分の仕事を選んで行こう。
+何も規模や効率化だけを選ばなくても食べていける選択肢はある、って解釈しました。</p>
+
+<blockquote class="twitter-tweet" data-cards="hidden" lang="ja"><p>これは秀逸なエントリ！めちゃくちゃ共感。スモールビジネスに注目しているが端的にこれはスモールビジネスの話だと思う／僕がアクセンチュアを辞めた理由 - 元外資系コンサルタントがなぜ鎌倉で自給的生活をはじめたか？ <a href="http://t.co/wqOQQwWblQ">http://t.co/wqOQQwWblQ</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/582166409603469313">2015, 3月 29</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>この記事の方に対する嫉妬が邪魔するのか、単に価値観が違うのか、理解できない向きもあるようで、
+それが個人的には不思議だったんですよね。一般的には好きなことを仕事に出来ていない人が想像より多いのかな？と。
+そこでちょっと好きなことを仕事にするという切り口で色々な考え方を調べてみることにしました。</p>
+
+<br><br>
+
+
+<h1>否定的な意見</h1>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="「好きなことを仕事にしよう」という無責任で有害なアドバイス" src="http://hatenablog.com/embed?url=http://blogos.com/article/100200/" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="「好きなことを仕事にするのが幸せ」は大きな間違い | キャリアのことならキャリアパーク" src="http://hatenablog.com/embed?url=https://careerpark.jp/39115?page=3" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="好きなことを仕事にしてはいけないたった3つの理由と、石崎がAV男優に勧誘された経験 | 石崎力也は旅先で食べ過ぎてお金持ちになりました。" src="http://hatenablog.com/embed?url=http://rikiyaishizaki.com/2013/05/12/161/" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="仕事選びで好きなこと・やりたいことを重視してはいけない理由 | 就活のことならキャリアパーク" src="http://hatenablog.com/embed?url=https://careerpark.jp/764?page=2" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="好きな事を仕事にしてはいけない後悔する前に読む３つの理由！ - 履歴書Do" src="http://hatenablog.com/embed?url=http://www.rirekisyodo.com/research/thinglike-work.html" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="「好きなことを仕事にしてはいけない」という意味 World of granshe." src="http://hatenablog.com/embed?url=http://granshe.blog.shinobi.jp/Entry/177/" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="ほぼ日刊イトイ新聞 - おとなの小論文教室。" src="http://hatenablog.com/embed?url=https://www.1101.com/essay/2007-11-14.html" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<blockquote class="twitter-tweet" lang="ja"><p>好きなことを仕事にしたい&#10;でもそんなのひと握りどころかひとつまみくらいの人しかできないんだろな</p>&mdash; きょろすけ (@Kyonnnncy) <a href="https://twitter.com/Kyonnnncy/status/590372188206673920">2015, 4月 21</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" lang="ja"><p>自分の好きなことを仕事にしたい！とか言う人いる。それは素敵だと思う。でも、その考え方を人に押し付けたり、見せつけないで！</p>&mdash; 百姓の奇妙な冒険 (@hyakusho_T) <a href="https://twitter.com/hyakusho_T/status/590371562814967808">2015, 4月 21</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" lang="ja"><p>好きなことを仕事にしていっぱいいっぱいになるよや勤務時間最適な地味な仕事か…まだまだいくつか面接予定詰め込もう。</p>&mdash; Ｓ.ＳＨＩＺＵＫＡ (@Jeshikasan) <a href="https://twitter.com/Jeshikasan/status/590414576715337728">2015, 4月 21</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<br><br>
+
+
+<h1>肯定的な意見</h1>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="好きなことを仕事にしたほうがいい本当の理由3つ ｜ ライフハッカー［日本版］" src="http://hatenablog.com/embed?url=http://www.lifehacker.jp/2014/12/141228do_what_they_love.html" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="好きこそものの上手なれ！好きなことを仕事にする、5つの条件 | Dreamer" src="http://hatenablog.com/embed?url=http://goodluckjapan.com/sukikos/" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="「ハングリーであれ。愚か者であれ」スティーヴ･ジョブズ伝説の卒業式スピーチ全文 - ログミー" src="http://hatenablog.com/embed?url=http://logmi.jp/4311" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="好きなことを仕事にするが間違い！好きなことでお金を稼ぐ意識へ - うさもふ" src="http://hatenablog.com/embed?url=http://www.usamofu.com/entry/2015/03/29/003019" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="天職を仕事にするための１２のステップ" src="http://hatenablog.com/embed?url=http://www.tekisyoku.jp/category/1642246.html" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="起業して思った「好きなことを仕事にする」ための５つの条件 | Books&Apps" src="http://hatenablog.com/embed?url=http://blog.tinect.jp/?p=10684" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="「好きなことを仕事にする」を諦めている人たちの末路を想像する : まだ東京で消耗してるの？" src="http://hatenablog.com/embed?url=http://www.ikedahayato.com/20140226/2256282.html" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<blockquote class="twitter-tweet" lang="ja"><p>やっぱり好きなことを仕事にできたら最高だよね！&#10;そのために辛いことも楽しいこともあるけど、頑張って学校通わなきゃ！</p>&mdash; エリー@AAA真駒内 (@AAA_Eri101) <a href="https://twitter.com/AAA_Eri101/status/590370273678917632">2015, 4月 21</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" lang="ja"><p>「好きなことを仕事にすれば、 二度と仕事をしているとは感じないだろう。 byエルビス・プレスリー」 その通りだね！！仕事をしたくてしたくてたまらなくなるんだ！！そして本当に良い仕事ができる☆</p>&mdash; 伊藤元二@人生を幸せに生きる秘訣 (@motoito) <a href="https://twitter.com/motoito/status/590366254512275456">2015, 4月 21</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" lang="ja"><p>将来好きなことを仕事に出来たら一番幸せな訳だと個人的に思う訳で、という訳で叶う叶わないはひとまず置いといて自分の好きなことで職に就くことを夢にしてる人には何処に就職目標立てればいいのかその為にどうすればいいのか悩む会を作りたいねって寝言言って寝る(ृ 　 ु *`ω､)ु ⋆゜</p>&mdash; 菜織@眠い (@naori_knvl) <a href="https://twitter.com/naori_knvl/status/590177743163129856">2015, 4月 20</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<br><br>
+
+
+<h1>中立的？な意見</h1>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="「好きなことを仕事にする」のはなぜ危険なのか : うだまの「へんだま」" src="http://hatenablog.com/embed?url=http://hendama.blog.jp/archives/1019980387.html" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="念願叶ってだったのに…「好きな事を仕事にすると嫌いになる」って本当？ - NAVER まとめ" src="http://hatenablog.com/embed?url=http://matome.naver.jp/odai/2139567206676338601" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<br><br>
+
+
+<h1>その他</h1>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="好きなことを仕事にできてますか？60代の約5割が「できている」！聞けば納得の理由って？ – しらべぇ ｜ 気になるアレを大調査ニュース！" src="http://hatenablog.com/embed?url=http://sirabee.com/2015/01/26/15843/" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<br><br>
+
+
+<h1>私見</h1>
+
+<p>上記の通り色々意見がありますが、職業を選択するときははなんだかんだ言って好きか、
+好きになれそうかを基準にした方がこれからの時代にはマッチしていると改めて思いました。
+で一度選択したら多少何があっても好きになれるまで修行だと思って踏ん張ってみて、
+その仕事を好きになって自他共に認められるようになったら次のステージを検討しても良いのかなと。</p>
+
+<p>あと学生を卒業したばかりの新社会人や第二新卒などのジュニアクラスの人は修行だと思って、
+選択した仕事を好きになる為に一定の努力をするのは必要ってことでしょう。
+といっても所謂ブラック企業でただひたむきに働き続けるのはブラック企業に加担することになってしまうので良くないので、
+そういうケースに該当するかも？って思ったら経験豊富な人に相談した方が良いですけどね。</p>
+
+<p>一番重要なのは、好きな仕事でどうやったら継続的に稼げる(少なくとも食っていける)ようになるかを
+真剣に考えて行動していくということ。
+そして個人的にはよりクリエイティブな仕事を選択すると好きな仕事で継続的に稼げる可能性が高いと思っています。
+好きな仕事って1つじゃない可能性もあるので、もし色々好きになれそうで1つに絞れないって人は
+よりクリエイティブな仕事を選択すると幸せになれると思います。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[金融イノベーションビジネスカンファレンス(FIBC)2015に参加しました]]></title>
+    <link href="http://tchikuba.github.io/blog/2015/02/26/fibc2015/"/>
+    <updated>2015-02-26T16:00:00+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2015/02/26/fibc2015</id>
+    <content type="html"><![CDATA[<p>縁あって<a href="http://fibc.info/fibc2015_event/">金融イノベーションビジネスカンファレンス(FIBC2015)</a>に参加してきました。
+普段参加するイベントはweb技術系かスタートアップ系のものがほとんどですが、
+いつも参加するスタートアップ関連イベントに比べてスーツ率がかなり高いのが金融らしいなと思いましたｗ
+同じ感想持った方がいましたねｗ</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p>FIBC2015 金融イノベーション ビジネス カンファレンス。金融サービス関連のピッチが熱く面白い。テーマゆえか、スーツ姿だらけのイベントでびっくり。 <a href="http://t.co/XToGJN8Hy5">http://t.co/XToGJN8Hy5</a></p>&mdash; 中嶋文彦 (@monfumi) <a href="https://twitter.com/monfumi/status/570826917491965952">2015, 2月 26</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<hr />
+
+<p>あと、いつも参加するイベントに比べて50-60代くらいのおじさまがいるのも新鮮でした。</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p>FIBC2015のスケジュール <a href="https://twitter.com/hashtag/FIBC?src=hash">#FIBC</a> <a href="http://t.co/vv0piHwg6K">pic.twitter.com/vv0piHwg6K</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/570846221532684288">2015, 2月 26</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<hr />
+
+<h1>オープニングスピーチ</h1>
+
+<ul>
+<li>ソーシャルトレーディング</li>
+<li>ロボット取引</li>
+<li>英語であんまり聞き取れずキーワードのみメモ。。</li>
+</ul>
+
+
+<h1>finピッチ第1部</h1>
+
+<ul>
+<li>7分で1ピッチ</li>
+<li>参加者も投票可能</li>
+</ul>
+
+
+<h2>クラウド給与計算ソフトfreee</h2>
+
+<ul>
+<li>給与計算を半分くらいが社長がやってるのって理不尽な気がする</li>
+<li>スモールビジネス向け</li>
+</ul>
+
+
+<h2>メリービズ</h2>
+
+<ul>
+<li>自力で経費書類入力行うやつ</li>
+<li>プレゼンがアナログでおもろい</li>
+<li>経費データを業界毎に解析して生ハム保険（笑）など新たなサービス開発も</li>
+</ul>
+
+
+<h2>Dr.Wallet</h2>
+
+<ul>
+<li>Drつけて人っぽいネーミング</li>
+<li>レシートを写メってアプリ経由で送信、在宅ワーカーが入力</li>
+<li>クーポンの仕組みも CLO(card linked offer: 見せないクーポン)</li>
+<li>テンポの良いしゃべり方する人、赤メガネ</li>
+<li>生涯使えるお金管理サービス ＜ー キャチフレーズ</li>
+<li>リブセンスがやってるお祝い金モデルに近い＜CLO</li>
+<li>データ入力平均6時間後</li>
+<li>CLO: 現在amazonポイントほぼ現金</li>
+<li>在宅ワーカーはクラウドワーカーで地方の主婦とか</li>
+</ul>
+
+
+<h2>Moneytree</h2>
+
+<ul>
+<li>CEOはオーストラリア出身</li>
+</ul>
+
+
+<blockquote class="twitter-tweet" lang="ja"><p>ただいま開催中のFIBC、Moneytreeよりポールのプレゼンテーションがはじまりました！<a href="https://twitter.com/hashtag/FIBC2015?src=hash">#FIBC2015</a> <a href="http://t.co/H6NJaWtR5j">pic.twitter.com/H6NJaWtR5j</a></p>&mdash; Moneytree (@moneytreejp) <a href="https://twitter.com/moneytreejp/status/570813115471826945">2015, 2月 26</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<ul>
+<li>appleのbestアプリを2013,2014連続で受賞</li>
+<li>お金だけじゃなくてポイントにも対応</li>
+<li>70万DL、リワード広告とペイドインストール一切使ってない！この数字にこだわらない法が良い（至言）</li>
+<li>未来から来たアプリ</li>
+<li>セキュリティ頑張って結果大手とパートナーシップを締結</li>
+<li>アカウントアグリゲーションは金融機関の顧客に不利益でなければOKとされている</li>
+</ul>
+
+
+<h2>coincheck for EC</h2>
+
+<blockquote class="twitter-tweet" lang="ja"><p>FIBC2015でピッチに立つCoinCheckの和田さん。<a href="https://twitter.com/hashtag/%E3%83%93%E3%83%83%E3%83%88%E3%82%B3%E3%82%A4%E3%83%B3?src=hash">#ビットコイン</a> の特徴からサービス展開まで7分という短い時間に良くまとめられてました！ <a href="https://twitter.com/hashtag/bitcoin?src=hash">#bitcoin</a> <a href="http://t.co/RdygzTpO04">pic.twitter.com/RdygzTpO04</a></p>&mdash; caicaikiki (@caicaikiki) <a href="https://twitter.com/caicaikiki/status/570824630698577921">2015, 2月 26</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<ul>
+<li>ビットコイン決済</li>
+<li>送金に優れている</li>
+<li>怪しいイメージだが最近は大手がスタートアップに投資開始</li>
+<li>ビットコインは自民党が支援</li>
+<li>ビットコイン取引所 月間1億円取引</li>
+<li>ビットコイン決済めちゃ便利！手数料1%!</li>
+<li>デモでは日本を訪れる外国人向けにsimカードを売っているサイトで利用可能</li>
+<li>和田CEO 1990年生まれ！</li>
+<li>越境ECにビットコインは相性が良いと考えている</li>
+<li>自主規制団体作ったりしてる</li>
+</ul>
+
+
+<h2>Liquid</h2>
+
+<ul>
+<li>生体認証システムの会社</li>
+<li>カードでID一致させた後画像照合してるのが既存の指紋認証</li>
+<li>指紋そのものをキーとしているのが大きな違い</li>
+<li>100ホテルで利用開始予定</li>
+<li>国内800店舗で利用可能になる予定</li>
+<li>手数料に依存しないビジネスモデルも構築中
+
+<ul>
+<li>面白そう</li>
+</ul>
+</li>
+<li>10秒で登録可能</li>
+<li>指紋読み取りデバイスは10-200ドルくらいの幅がある</li>
+</ul>
+
+
+<p>ここまでで1部完了</p>
+
+<h1>finピッチ第2部</h1>
+
+<h2>スーパー乱数表</h2>
+
+<ul>
+<li>WBCの特集で取り上げられた</li>
+<li>色々凄い技術の特許とか持っている人らしい</li>
+</ul>
+
+
+<h2>Capy</h2>
+
+<ul>
+<li>社長コレない</li>
+<li>元々画像をパズルで認証するやつで有名になったがパズル屋やめた</li>
+<li>有名になると撃破されるのでパズルやめても良いんじゃないか みつを</li>
+<li>そこでリアルタイムブラックリスト</li>
+<li>captchaから入ってくる攻撃者のIPリストを提供(現在無料)</li>
+<li>アバターcaptcha: 人に帽子を被せて下さい</li>
+<li>画像解析だけでなく意味解析も合わせて行う</li>
+<li>1認証1円で提供</li>
+</ul>
+
+
+<h2>ETFラップ</h2>
+
+<ul>
+<li>白髪のおじさん56歳での起業</li>
+<li>ロボットによる投資アドバイザリーサービス</li>
+<li>時代が変わり円建てでの資産形成はリスクが大きい</li>
+<li>5000以上あるETFから50銘柄をピックアップしてグローバル分散投資</li>
+<li>諸々カスタマイズして提供する</li>
+<li><a href="http://www.money-design.com/">www.money-design.com</a></li>
+</ul>
+
+
+<h2>アノマリーサーチ</h2>
+
+<ul>
+<li>ANOMARY: 市場の歪み=取引チャンス</li>
+<li>節分天井彼岸底(初めて聞いたｗ)
+
+<ul>
+<li>ジブリの法則もアノマリーの一種なのかな</li>
+</ul>
+</li>
+<li>投資はどこまで人工知能で代替できるのか(というより支援できるのか)</li>
+<li>シグナル配信＆他の人の戦略をコピー出来る</li>
+<li>バックテストも実施可能</li>
+<li>人によって投資する対象は違うのでカスタマイズ可能に</li>
+</ul>
+
+
+<h2>ZUU SIGNALS</h2>
+
+<ul>
+<li>フィナンシャルメディアプラットフォーム</li>
+<li>月間150万UU 配信先含めると1000万超え</li>
+<li>30-40代の70%が運用未経験だがこの世代に団塊の世代の資産が移ってくる</li>
+<li>保有資産のシグナルを信号に見立てて青・黄・赤の3色で配信してくれるサービスを提供</li>
+<li>投資を分かりやすくするのがコンセプト。ちょっとみんかぶに似ているサービス</li>
+<li>初心者向けだと情報が多過ぎる程投資判断に迷うことがある</li>
+<li>なのでメディアを作って段々投信判断が出来るように教育も兼ねている</li>
+</ul>
+
+
+<h2>FINATEXT</h2>
+
+<ul>
+<li>最後のセッション</li>
+<li>あすかぶ！という株アプリ(iOS&amp;Android)</li>
+<li>初心者・若年層にターゲットを絞る</li>
+<li>思ったより経験者が多く</li>
+<li>プレゼンうまい、情熱的</li>
+</ul>
+
+
+<blockquote class="twitter-tweet" lang="ja"><p>あすかぶの林氏はプレゼンが上手すぎる。その点だけは間違いなく神がかりだな。 <a href="https://twitter.com/hashtag/FIBC2015?src=hash">#FIBC2015</a></p>&mdash; JAXA生まれ慶應育ち (@geojackass) <a href="https://twitter.com/geojackass/status/570840291881541632">2015, 2月 26</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<ul>
+<li>みんかぶと似たような仕組みで予想結果によるランキングとか企業の豆知識とか</li>
+<li>3ヶ月で作ったアプリ</li>
+<li>若者が熱くなるポイントは手軽さ</li>
+</ul>
+
+
+<p>これで2部完了</p>
+
+<h1>FinPitch大企業枠</h1>
+
+<h2>マネックス証券</h2>
+
+<ul>
+<li><a href="http://answer.monex.co.jp/">answer</a>という資産運用目標や保有銘柄を管理出来るアプリ</li>
+<li>一部の金融機関でアグリゲーションでデータ取り込み(スクレイピング)</li>
+<li>設定した目標にどの程度到達しているのかをスコアで評価する</li>
+</ul>
+
+
+<h2>リクルートライフスタイル</h2>
+
+<ul>
+<li><a href="https://airregi.jp/">AirREGI</a>の紹介</li>
+<li>POSレジアプリ</li>
+<li>他社サービスとも連携している Squareとか</li>
+</ul>
+
+
+<h1>キーノートスピーチ</h1>
+
+<blockquote class="twitter-tweet" lang="ja"><p>これからキーノートスピーチ <a href="http://t.co/wbSO2E59Za">pic.twitter.com/wbSO2E59Za</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/570851803148849152">2015, 2月 26</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<ul>
+<li><a href="http://www.sophiabank.co.jp/partner/fujisawa">シンクタンク・ソフィアバンク藤沢久美氏</a>。ダボス会議でヤングリーダー。7回程参加して感じるのは今、社会全体の転換期にあること</li>
+<li>貨幣経済から贈与経済へ。相手に心を使う。結婚式のご祝儀が貨幣経済。</li>
+<li>金融とはそもそも何か？非常に考えさせられる。富を再分配するプラットフォームが金融。現在の銀行や証券会社の限界を感じる。slow&amp;nallow</li>
+</ul>
+
+
+<blockquote class="twitter-tweet" lang="ja"><p>FIBC2015のキーノートスピーチに登壇しているシンクタンク・ソフィアバンクの藤沢氏の講演が深い。金融とは何か。考えさせられる。 <a href="https://twitter.com/hashtag/FIBC?src=hash">#FIBC</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/570854519619194880">2015, 2月 26</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<ul>
+<li>グローバル化は多様化だ。IT革命やグローバル化が与えてくれるもの。1人1人の個人の力がエンパワーメントされること。権力が入れ替わる。革命の言葉そのもの</li>
+<li>個人が権力を行使するのは勇気がいる。それに必要なのが安心、仕組み。その仕組を提供するのが今日のピッチイベントで披露されていたサービスなど</li>
+<li>ビジョンがあるものがワクワクする</li>
+<li>大阪で先物取り引きが生まれた</li>
+<li>大仏を作ったのも究極のクラウドファンディング=勧進 お金が出せない人は土や労働力を提供</li>
+<li>なぜ投資したか？アンケートに儲けたいから10番目だった。共感したから、応援したいからが1,2番目だった。</li>
+<li>日本は不思議な国。全体的なレベルが高いのは日本の凄いところ</li>
+<li>もっともっと大きな夢を持って失敗を恐れずチャレンジして欲しい</li>
+</ul>
+
+
+<h1>ピッチの表彰式</h1>
+
+<ul>
+<li>オーディエンス賞：メリービズ</li>
+<li>ソニー銀行イノベーション賞：ZUU Signals</li>
+<li>FIBC2015大賞：Capy</li>
+<li>審査員特別賞：Dr.Wallet</li>
+<li>ISID特別賞：あすかぶ！</li>
+</ul>
+
+
+<p>この後、ネットワーキングの時間がありました。
+ピッチ登壇者がブースを出し、軽食をつまみまながら登壇者と参加者が交流するという形式でした。
+個人的にも非常に刺激的な時間を過ごすことが出来て楽しかった！</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p>先日参加したFIBCの記事／金融イノベーションビジネスカンファレンス（FIBC）開催、大賞に選ばれたのは…（ZUU online） - Yahoo!ニュース <a href="http://t.co/Dusk1md15C">http://t.co/Dusk1md15C</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/572233265681072128">2015, 3月 2</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bufferにインスパイアされて、以前から私が書き溜めていた21世紀型ニュータイプ組織を晒してみました]]></title>
+    <link href="http://tchikuba.github.io/blog/2015/01/22/new-type-organization/"/>
+    <updated>2015-01-22T21:25:44+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2015/01/22/new-type-organization</id>
+    <content type="html"><![CDATA[<p><a href="http://hrnabi.com/2015/01/21/5353/">CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ</a>
+というHRナビの記事に興奮したのでこれは久しぶりにブログ記事を書しかない！と決意しました。
+興奮したのは自分が起業したらこういう会社にしたいな、こういう組織が良いな、と思って以前から書き溜めていた内容と結構重複するところがあったからです。
+この記事、タイトルが内容のごく一部というか表層的な部分しか表現出来ておらず、何かチープな印象すら受けるんですよね。。
+給料を公開してる事実自体、実は物凄く小さいことで、もっと根源的な組織論みたいなものがテーマで、21世紀に新たに拡大していく有機的な組織の本質を
+浮き彫りにしてくれていることが、この記事の核心なんです。なのでまだ読んでない方は是非熟読をオススメします。</p>
+
+<p>まず本題に入る前にこの記事を読んだ人の感想をピックアップしてみます。</p>
+
+<blockquote class="twitter-tweet" data-cards="hidden" lang="ja"><p>このサービスでこんなにお金もらえるのか。アメリカいいな。&#10;ちなみにこの投稿もBufferのスケジュール投稿&#10;<a href="http://t.co/WMMd5CHmpq">http://t.co/WMMd5CHmpq</a></p>&mdash; 児玉秋二 (@robox0917) <a href="https://twitter.com/robox0917/status/558164663297671168">2015, 1月 22</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>こういう捉え方はちょっと寂しいような気もしますが、私はむしろこの規模の企業の社長としては貰ってない方だなと率直に思いました。
+と同時に従業員の平均給与はそこそこ良いのかなとも思います。
+ビジネスは仕組み作りなので、Bufferはそれが着実に出来ているということなんじゃないでしょうか。</p>
+
+<hr />
+
+<blockquote class="twitter-tweet" lang="ja"><p>最後の方にある、利用していないサービス料金は返すというところに、この会社の考え方が表れててとてもよいね。 / CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ&#10;<a href="http://t.co/joq14GpO6O">http://t.co/joq14GpO6O</a> <a href="https://twitter.com/hashtag/NewsPicks?src=hash">#NewsPicks</a></p>&mdash; ジョン (@yori102) <a href="https://twitter.com/yori102/status/558158198901719043">2015, 1月 22</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>この意見は私もその通りだなと思いました。これからは資本主義で競争するのではなく人道主義で競争する時代になっているのだと確信します。
+インターネットが普及したことで物事がオープンになり、資本主義の為に多少なりとも人道主義を犠牲にすることが出来ない程、衆人監視の目が光っているのだと思います。</p>
+
+<hr />
+
+<blockquote class="twitter-tweet" data-cards="hidden" lang="ja"><p>この記事、面白いな。特に組織体系。CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ | HRナビ <a href="http://t.co/bjdje6TB69">http://t.co/bjdje6TB69</a></p>&mdash; NPO法人D×P　今井紀明（共同代表） (@NoriakiImai) <a href="https://twitter.com/NoriakiImai/status/558155025252237312">2015, 1月 22</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-cards="hidden" lang="ja"><p>Bufferの透明感あるマネジメントスタイル個人的に好き。途中に出てくる組織論の変遷についても勉強になった＞CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ <a href="http://t.co/483OHswpbC">http://t.co/483OHswpbC</a></p>&mdash; Akihisa Ishikawa (@a_ishikawa) <a href="https://twitter.com/a_ishikawa/status/558122469866090497">2015, 1月 22</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-cards="hidden" lang="ja"><p>組織をデザインするってほんとにおもろい。うちは今二人だけど、いつかもう少し大きなチームにしたいなと思ってる。 / “CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ | HRナビ” <a href="http://t.co/QHK1KNPlwq">http://t.co/QHK1KNPlwq</a></p>&mdash; Hikari Mimura (@picacch) <a href="https://twitter.com/picacch/status/558119299131662336">2015, 1月 22</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>ホントそうですよね！記事では自律分散型の組織運営としてフレデリック・ラルーの講演内容から引用して紹介していますね。
+このフレデリック・ラルー(Frederic Laloux)という人、カタカナでググっても全然情報出てこないんですが、
+<a href="http://www.reinventingorganizations.com/">Reinventing Organizations</a>という本の著者のようです。</p>
+
+<p><a href="http://www.amazon.co.jp/gp/product/B00ICS9VI4/ref=as_li_tf_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00ICS9VI4&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00ICS9VI4&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B00ICS9VI4" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<p>直訳すると再発明組織ですね。まさにこのブログ記事のテーマ。</p>
+
+<hr />
+
+<blockquote class="twitter-tweet" data-cards="hidden" lang="ja"><p>居住地によって給与が変わるのは良いと思う。肩書きもいらない、けど日本はなくしたところで見えない肩書きみたいなのが残りそう。 CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ | HRナビ <a href="http://t.co/CbKdGJg8iq">http://t.co/CbKdGJg8iq</a></p>&mdash; Toru Maseguchi (@toru) <a href="https://twitter.com/toru/status/558143549909499904">2015, 1月 22</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" lang="ja"><p>「肩書きがアイデンティティになってしまう」これなぁ。特に日本人は規律を重んじて、期待に応えようとするからその傾向が強い。 / CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く&#8230;&#10;<a href="http://t.co/p5wWR9ppQm">http://t.co/p5wWR9ppQm</a> <a href="https://twitter.com/hashtag/NewsPicks?src=hash">#NewsPicks</a></p>&mdash; (ぼn＾ω＾nん) (@vonvovon) <a href="https://twitter.com/vonvovon/status/558109378310848514">2015, 1月 22</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>確かにBufferはグローバル企業で日本に閉じた場合に上手く行くかは必ず議論として出るところかと思うのですが、
+ここはむしろ日本でも組織のイノベーションの波からは逃れられないと思います。実感値として。</p>
+
+<hr />
+
+<blockquote class="twitter-tweet" data-cards="hidden" lang="ja"><p>これは興味深い同時に面白い&#10;&#10;CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ&#10;HRナビ <a href="http://t.co/2Iw9H7UICT">http://t.co/2Iw9H7UICT</a></p>&mdash; コーヒー屋 (@coffea_canephor) <a href="https://twitter.com/coffea_canephor/status/558133886564446208">2015, 1月 22</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" lang="ja"><p>世界で大切にしたい会社ベスト23 Buffer、尊敬する現役経営者の一人ジョエル。すべての経営者に読んでほしい。見ている世界が違う。</p>&mdash; Ken@世界23周の旅 (@u23ken) <a href="https://twitter.com/u23ken/status/558112840431992833">2015, 1月 22</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<div id="fb-root"></div>
+
+
+<p> <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = &ldquo;//connect.facebook.net/ja_JP/all.js#xfbml=1&rdquo;; fjs.parentNode.insertBefore(js, fjs); }(document, &lsquo;script&rsquo;, &lsquo;facebook-jssdk&rsquo;));</script></p>
+
+<div class="fb-post" data-href="https://www.facebook.com/kenji.sudo/posts/10153050396583809" data-width="466"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/kenji.sudo/posts/10153050396583809">投稿</a> by <a href="https://www.facebook.com/kenji.sudo">須藤 憲司</a>.</div></div>
+
+
+<p>Kaizen PlatformのUSオフィスとBufferが同じビルってのはへぇ×２でしたｗ</p>
+
+<hr />
+
+<p>このようにざっとSNSから声を市況かぶ全力2階建てばりに並べてみましたけど概ね好意的な意見が多かったように思います。
+中には少数ながら給料公開とかダメでしょって見解の方もいましたが。
+そしてやはり給料のことよりも組織論の部分に感じ入る方が多かったんじゃないかなと。</p>
+
+<p>んで、このHRナビの記事読んで思い出したのが、私が常日頃書き溜めていた「もし自分が起業するなら」というタイトルのgoogleスプレッドシート。
+かなりこっ恥ずかしいようなタイトルではあるんですが、今回の記事で紹介されていた事例のいくつかと共通する点が少なからずありました。
+情報をオープンにした方がより良い方向に進むという実感があるので思い切って晒してみようと思います。</p>
+
+<h2>明朗会計</h2>
+
+<p>全社員が貰っている報酬を内外問わず公開する。</p>
+
+<h2>透明性</h2>
+
+<p>小声でヒソヒソ隠れて話をする必要のない会社にしたい。ヒソヒソ話が多い職場は気持ちが悪い。</p>
+
+<h2>アメーバ経営</h2>
+
+<p>会社の組織を10人前後で構成する小集団に分け、独立採算制を徹底させる「部門別採算制度」の仕組み。</p>
+
+<h2>小組織</h2>
+
+<p>10人前後のスペシャリスト同士が集まって高効率な組織を作る。報酬も会社の利益の山分け方式など。
+この組織はスペシャリストだけがおり自身でマネージメントを兼務する為、マネージャーは必要ない。</p>
+
+<h2>評価制度</h2>
+
+<p>四半期毎など従来型のスパンでの目標管理シートではビジネス環境の変化による目標変更に柔軟に対応出来ない。
+そこでよりアジャイルな評価制度を取り込む。</p>
+
+<h2>自社開発</h2>
+
+<p>技術を外部に委託せず自社で賄いこれを財産とする。</p>
+
+<h2>社会的意義</h2>
+
+<p>会社が社会に提供している価値に内外問わず誰もが共感してくれる。むしろ共感しない人がいない。</p>
+
+<h2>ノー残業</h2>
+
+<p>従業員の残業を原則禁止とする。家族や勉強会など社外のコミュニティを大事にすることを奨励する。</p>
+
+<hr />
+
+<p>ここ1年くらいで書き溜めてきたものなんですが、読み返すとまだ抽象的過ぎるものもありますがベースラインは的を得ている気がしています。
+Bufferのジョエル・ガスコインCEOもインタビューで言ってましたが、これまで既存の組織にいくつか所属していて感じた違和感をベースに、本来あるべき組織について、理想論じゃん無理無理的なことは全く考えずに書き溜めてきたものです。
+個人的にはまだまだ網羅的にちゃんと考えきれていない点もあるかなと思っているので今後この記事をちょっとずつ更新していこうと思います。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[書籍『「納品」をなくせばうまくいく』から見えてきたエンジニアのキャリアのこれから]]></title>
+    <link href="http://tchikuba.github.io/blog/2014/10/20/sonic-garden-kuranuki-book/"/>
+    <updated>2014-10-20T21:29:10+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2014/10/20/sonic-garden-kuranuki-book</id>
+    <content type="html"><![CDATA[<p>結構時間が経ってしまいましたが、3ヶ月程前に
+<a href="http://attitude4webperson.doorkeeper.jp/events/12244">「ビール片手にプログラマーを一生の仕事にするために出来ることを考えてみませんか？」</a>
+というイベントに行ってきました。</p>
+
+<p>兼ねてから直接お会いしてみたかった<a href="http://www.sonicgarden.jp/">ソニックガーデン</a>の
+<a href="https://twitter.com/kuranuki">倉貫義人</a>さんの話を直接聞けるということで参加しようと思いました。</p>
+
+<p>このイベントで紹介もされていた倉貫さんの著書
+<a href="http://www.amazon.co.jp/gp/product/B00LSQ8G4W/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B00LSQ8G4W&linkCode=as2&tag=athome0a-22">「納品」をなくせばうまくいく</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B00LSQ8G4W" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+をちょうど読んでいたということもありました。</p>
+
+<p><a href="http://www.amazon.co.jp/gp/product/B00LSQ8G4W/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00LSQ8G4W&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00LSQ8G4W&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B00LSQ8G4W" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<p>このイベントで本の感想をブログに書きますと倉貫さんに宣言しておきながら大分遅きに失した感があるのですが、、
+この本を読んで見て感じたことを徒然に書き残しておきます。</p>
+
+<hr />
+
+<p><img src="http://tchikuba.github.io/images/sonicgarden-book/1.jpg" alt="sonicgarden book 1" /></p>
+
+<h1>エンジニアに求められるパラダイムシフト</h1>
+
+<p>納品のない受託開発ではビジネスにおいてソフトウェアを所有することから利用するという発想の転換が必要ですが、
+エンジニアにも発想の転換が必要でそれはシステムを完成させることから持続発展させることにより重きを置くということ。</p>
+
+<p>具体的には以下の様な思考の変化が必要でこれが分かりやすいです。</p>
+
+<ul>
+<li>バグをなるべく出さないようにする → バグが出てもすぐ直せるようにする</li>
+<li>サーバーは停止しないようにする → 停止してもすぐに復旧できるようにする</li>
+<li>機能追加をやりやすいように作っておく → 今どうしても必要なものだけに集中する(=<a href="http://www.weblio.jp/content/YAGNI">YAGNI</a>)</li>
+</ul>
+
+
+<p>私としてはこれは経験的にその通りだという実感があります。
+ただし一般に直感的には正しくないような気がしてしまうので一定の経験がないプログラマだと前者の方にウェイトを置いてしまいがちな気がします。</p>
+
+<p>大事なことはビジネスドメインに近接する場所でエンジニアが仕様の決定から実装、運用まで一気通貫で対応しているか？という点です。
+こういう立場で日々の開発を行っているエンジニアであればこのパラダイムシフトは非常に受け入れ易いと思います。</p>
+
+<p><img src="http://tchikuba.github.io/images/sonicgarden-book/2.jpg" alt="sonicgarden book 2" /></p>
+
+<h1>エンジニアが会社を選ぶ基準</h1>
+
+<p>「顧客と社員の両方を幸せにする仕組みが会社の本質」とは至言だと思いました。
+倉貫さん曰く</p>
+
+<blockquote><p>そのために精神論を語って働かせるというのはナンセンスであり、
+会社やビジネスできちんとお金が回り、評価される仕組みを作ることが経営だと思います</p></blockquote>
+
+<p>とのこと。裏を返せばエンジニアが現実に妥協せずこういう評価軸を持ってちゃんと会社を選別していく必要があるんでしょうね。</p>
+
+<p>また会社に拡大志向があるか否かについても自分の考えを持っておく必要があります。
+倉貫さん曰く</p>
+
+<blockquote><p>会社は大きくなくても良い。むしろ小さな会社の方が良い。</p></blockquote>
+
+<p>とあり、ソニックガーデンはそれほど拡大志向は持ち合わせていないと判断出来ます。
+どちらが良いかは価値観の問題もあると思いますが、個人的にはこのソニックガーデンの方針に非常に共感した次第です。
+この会社の方向性が自分の方向性とあまりに合わない場合はどこかで必ず歪みが出てきてしまうので注意した方が良さ気です。</p>
+
+<p>そもそも倉貫さんのこのツイートのようにエンジニアがもっとビジネスセンスを持った方が良い(人が多い)ということかもしれないとも思いました。</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p>これからのビジネスマンにITリテラシーが必須になるのと同じように、経営リテラシーを持つと良いだろう。特にソフトウェアエンジニアには、そういうことに無頓着な人が多い気がする。それは別に経営すべきという訳ではなくて、経営リテラシーを身に付けるだけで、自分の会社がどういう会社かわかる。</p>&mdash; Yoshihito Kuranuki (@kuranuki) <a href="https://twitter.com/kuranuki/status/516452427076104192">2014, 9月 29</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p></p>
+
+<h1>求められるパーソナリティ</h1>
+
+<p>サッカーなどのチームスポーツと同じようにエンジニアにも優れた人格であることやチームの為に貢献できる性格であることが求められる、とありました。
+そもそもエンジニアである以前に社会人や人として当たり前のことだとは思うのですが、
+技術を追い求めるあまり個人主義に走りがちなエンジニアであるからこそ、常にチームの大事さを意識しておきたいところですね。</p>
+
+<p>エンジニアは職人気質だから気難しいところがあっても仕方がないなどと私がエンジニアになりたてだった10年前は言われたものですが、
+これからはそういうスタンスでは一流のエンジニアにはなれないと思います。</p>
+
+<p>そして個人的には更にもう一歩進んだ考え方として「人間臭いエンジニア」を目指したいです。
+人は感じて動くから「感動」というそうです。決して理屈で人が動くのではないと思います。
+理屈が必要とされるエンジニアリングだからこそ、感情豊かに日々の開発ライフを送ることが必要だと思います。</p>
+
+<p><img src="http://tchikuba.github.io/images/sonicgarden-book/3.jpg" alt="sonicgarden book 3" /></p>
+
+<h1>よりスピーディーに進化していく人間としてのエンジニア</h1>
+
+<p><a href="http://ja.wikipedia.org/wiki/%E3%82%B1%E3%83%B3%E3%83%88%E3%83%BB%E3%83%99%E3%83%83%E3%82%AF">ケント・ベック</a>と
+<a href="http://blogs.itmedia.co.jp/hiranabe/2011/03/agile-japan-2011-april-15-linda-rising.html">リンダ・ライジング</a>
+の印象的な言葉が最後に紹介されていました。
+曰く</p>
+
+<blockquote><p>Embrace Change &ndash; 変化を抱擁せよ<br/>
+Fearless Change &ndash; 変化を自然と捉えるようになった時、自ら変わることを恐れてはいけない<br/>
+Social Change &ndash; 自らを変化できるようになったならば、自らの変化を周囲に広めていく</p></blockquote>
+
+<p>これはもはやエンジニアに限った話ではなく、より普遍的な、これからの時代に生きる人への重要な示唆に富んだ教訓ですね。
+人がインターネットを得た結果、空間的な距離が問題にならなくなりより早いスピードで世の中が変化するようになっています。
+裏を返せば、人の成長のスピードもより早くなる可能性があるということだと、私は前向きに捉えています。</p>
+
+<p>紹介された言葉は、より早く人が成長していく為に必要なことそのものだと思いました。
+そしてより深い次元では自らの変化を周囲に広めることで他の人が良い方向に変化する手助けをすることこそ、
+人が更に成長する為に必要なたったひとつのことだと信じています！</p>
+
+<p><a href="http://www.amazon.co.jp/gp/product/B00LSQ8G4W/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00LSQ8G4W&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00LSQ8G4W&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B00LSQ8G4W" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ebisu.rb#9に参加してきました！]]></title>
+    <link href="http://tchikuba.github.io/blog/2014/05/28/ebisu-rb-9/"/>
+    <updated>2014-05-28T20:26:12+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2014/05/28/ebisu-rb-9</id>
+    <content type="html"><![CDATA[<p><a href="http://ebisurb.doorkeeper.jp/events/11520">Ebisu.rb#9</a>に参加してきました。
+<a href="http://tchikuba.github.io/blog/2014/03/28/ebisu-rb-7/">#7</a>,
+<a href="http://tchikuba.github.io/blog/2014/04/25/ebisu-rb-8/">#8</a>に続き
+3ヶ月連続の開催で、Ebisu.rbが再開してからは今のところ皆勤賞です！
+<a href="https://twitter.com/yando">yando</a>さん、いつも会場提供ありがとうございます！</p>
+
+<h3>会場の様子</h3>
+
+<p><img src="http://tchikuba.github.io/images/ebisu-rb-9/1.jpg" alt="ebisu rb 1" /></p>
+
+<hr />
+
+<p>以前もこのブログに書いた通りですがEbisu.rbは最初にビールで乾杯して自己紹介から始めます。
+今回#9ではビール新商品がたくさん持ち込まれていつもにも増してビールの消費量が熱かった気がします。
+飲みながらtech話をやるってのは個人的には結構盛り上がるので楽しいな、と。</p>
+
+<p>ただ今回結構酔っ払って何の話したのか良く覚えてないのが玉に瑕。。
+翌日PC立ち上げたら残っていたのが<a href="https://www.bloc.io/ruby-warrior#/">Ruby Warrior</a>というブラウザゲームでしたｗ
+ちょっとやってみたけどなかなか面白い！</p>
+
+<p>次は内容を忘れないようにして、、引き続きまた参加したいと思います！</p>
+
+<h3>兵どもが夢の跡</h3>
+
+<blockquote class="twitter-tweet" lang="ja"><p><a href="https://twitter.com/search?q=%23ebisurb&amp;src=hash">#ebisurb</a> たのしかった！ <a href="http://t.co/l3GIlAN24z">pic.twitter.com/l3GIlAN24z</a></p>&mdash; ukitazume (@ukitazume) <a href="https://twitter.com/ukitazume/statuses/469858747133607937">2014, 5月 23</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Railsでeコマースサイトを効率的に開発する為のgem, Spree (Tokyo Rubyist Meetup)]]></title>
+    <link href="http://tchikuba.github.io/blog/2014/05/15/ecommerce-rails-spree/"/>
+    <updated>2014-05-15T19:45:58+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2014/05/15/ecommerce-rails-spree</id>
+    <content type="html"><![CDATA[<p><a href="http://trbmeetup.doorkeeper.jp/events/10739">eコマースとRails &ndash; Spreeの全て</a>
+という<a href="http://trbmeetup.doorkeeper.jp/">Tokyo Rubyist Meetup</a>のイベントに参加してきました。</p>
+
+<p>イベント会場は<a href="http://voyagegroup.com/">VOYAGE GROUP</a>のお洒落オフィスの
+<a href="http://voyagegroup.com/business/office/office015/">Bar AJITO</a>にて。
+有料だったんでお酒を飲みながらのイベントでした。</p>
+
+<p><img src="http://tchikuba.github.io/images/ecommerce-rails-spree/1.jpg" alt="spree 1" /></p>
+
+<p><a href="http://www.ohmyglasses.jp/">Oh My Glasses</a>は中の人を知っていてRails+Spreeで出来ているというのは
+知っていたのですが、Spreeがどういうgemなのかはあまり知らなかったのと、
+これまでeコマースwebサイト開発にそれなりにどっぷり漬かっていたので業務ドメインを
+どういう感じで抽象化しているのかという点に興味があり参加しました。</p>
+
+<p>Oh My Glasses白土さんの当日の資料はこちら。</p>
+
+<script async class="speakerdeck-embed" data-id="fe74a650bda6013191822a9c30b9cc56" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+
+<hr />
+
+<p>迂闊だったんですがTokyo Rubyist Meetupコミュニティの説明にも書いてありましたが
+このコミュニティ、公用語は英語で、2つ目のセッションである<a href="http://www.degica.com/">デジカ（Degica）</a>の
+中の人の発表は英語だったので、英語が得意でない私には内容3割くらいしか理解が出来なかったかなと。。</p>
+
+<p><img src="http://tchikuba.github.io/images/ecommerce-rails-spree/2.jpg" alt="spree 2" /></p>
+
+<hr />
+
+<p>・・・英語少しずつでも勉強しよっと。</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: hackathon | tchikuba's blog]]></title>
+  <link href="http://tchikuba.github.io/blog/categories/hackathon/atom.xml" rel="self"/>
+  <link href="http://tchikuba.github.io/"/>
+  <updated>2018-10-08T23:21:59+09:00</updated>
+  <id>http://tchikuba.github.io/</id>
+  <author>
+    <name><![CDATA[tchikuba]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[「Jubatusハッカソンwith読売新聞」に参加してきました！]]></title>
+    <link href="http://tchikuba.github.io/blog/2015/09/10/jubatus-hackathon-with-yomiuri/"/>
+    <updated>2015-09-10T00:05:28+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2015/09/10/jubatus-hackathon-with-yomiuri</id>
+    <content type="html"><![CDATA[<p>先月8/23(土)、8/24(日)の2日間で<a href="http://matome.naver.jp/odai/2137457967026150101">歌舞伎座タワーのドワンゴ本社</a>を会場として行われた
+<a href="http://jubatus.connpass.com/event/18166/">Jubatusハッカソンwith読売新聞</a>に参加してきました！
+読売新聞の記事の写真にバッチリ写ってましたｗ</p>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="新聞記事と分析技術で新サービス考える「ハッカソン」 : 科学 : 読売新聞（YOMIURI ONLINE）" src="http://hatenablog.com/embed?url=http://www.yomiuri.co.jp/science/feature/CO018532/20150825-OYT8T50064.html" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">ビッグデータの分析技術とヨミウリ・オンラインの記事を使った「Ｊｕｂａｔｕｓハッカソン　ｗｉｔｈ　読売新聞」。優勝したのは、どんなアイデアだったでしょう？&#10;<a href="http://t.co/euayPP6mU0">http://t.co/euayPP6mU0</a> <a href="http://t.co/BbQxG2Vkc7">pic.twitter.com/BbQxG2Vkc7</a></p>&mdash; 読売新聞YOL (@Yomiuri_Online) <a href="https://twitter.com/Yomiuri_Online/status/636103332449259520">2015, 8月 25</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>ちょっと遅くなってしまいましたが参加レポートをば。</p>
+
+<p><a href="http://jubat.us/ja/">Jubatus</a>は「ユバタス」と読み、<a href="https://www.preferred-networks.jp/">Preferred Networks</a>と
+<a href="http://www.sic.ecl.ntt.co.jp/">NTTソフトウェアイノベーションセンタ</a>が開発した
+オンライン機械学習向け分散処理フレームワークです。 ※公式HPの受け売りですが(笑)</p>
+
+<p>今回のハッカソンはピンで参加したのでその場で即興でチームビルディングしました。
+以前から知人で<a href="http://www.senkyo-com.jp/team/">選挙ドットコムCTOの佐藤さん</a>
+率いるチームで<strong>「2030年の日本の首相を予測する」</strong>というチャレンジング？(笑)なテーマに挑戦しました。
+大枠やったことを書くと、1985年時点での各政治家の当選回数、世襲か否か、得票数、選挙区の都市などを説明変数として
+2000年の閣僚経験数が一番多い政治家=首相を推定する
+回帰モデルを5年毎に作って2015年時点から2030年を推定する、という感じです。
+説明変数のデータは主にwebクロールしてきたものを利用しました。</p>
+
+<p>私の担当は<a href="/blog/2015/06/22/artificial-intelligence-hackathon/">前回参加したハッカソン</a>同様、この辺のクロール周りだったんですが
+やはり時間がかかって思ったより大変でした。(前処理大事)
+収穫としては<a href="http://ja.dbpedia.org/">DBpedia</a>の存在を知ったことです。
+<a href="http://www.asahi-net.or.jp/~ax2s-kmtn/internet/rdf/rdf-sparql-query.html">SPARQL</a>というSQLライクな言語でデータの関係性を含めてデータ取得出来ます。
+例えば<a href="http://ja.dbpedia.org/page/%E5%AE%89%E5%80%8D%E6%99%8B%E4%B8%89">安倍晋三</a>だと<em>prop-ja:内閣</em>を参照すると閣僚経験数が分かります。
+※SPARQLって難解で使いづらいんですがｗ</p>
+
+<p>で、肝心の結果なんですがこれが面白かった(笑)
+以下、首相に最も近い順の予測結果です。</p>
+
+<ol>
+<li>亀井静香</li>
+<li>甘利明</li>
+<li>前原誠司</li>
+<li>石破茂</li>
+<li>岡田克也</li>
+<li>枝野幸男</li>
+<li>林芳正</li>
+<li>安倍晋三</li>
+<li>藤井比早之</li>
+<li>大畠章宏</li>
+</ol>
+
+
+<p>ホントはチームメンバーみんなで「小泉進次郎」とか期待してたんですが全くかすりもせず(笑)
+1位の亀井静香は2030年には94歳だし(笑)
+ちょっと悔いが残ったのはJubatusのオンライン機械学習の良さを全く活かせてなかったりwebインタフェースがなかった辺りでした。
+ただ今回のようにかなり具体的なデータで機械学習を応用すると話題としては面白いものが出来るなぁということが改めて実感出来たのは収穫でした。</p>
+
+<p>以下は発表会の様子です。</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">jubatusハッカソンwith読売新聞の発表会なう <a href="https://twitter.com/hashtag/jubatus_hackathon?src=hash">#jubatus_hackathon</a> <a href="http://t.co/dP0cSD5In8">pic.twitter.com/dP0cSD5In8</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/635360000207007744">2015, 8月 23</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>発表会はどなたもかなりガチの内容で非常に刺激を受けました。
+その中でも特に印象に残っていたのが<a href="http://dwango.co.jp/recruit/people/detailed03.html">ドワンゴの小田桐さん</a>の発表でした。
+ニコニコ動画のコメントを<a href="http://chainer.org/">Chainer</a>によるディープラーニングでカテゴライズや次のコメントを予測する、
+みたいなことをやってそのモデルをtwitterに応用しても結構使えるよね、という内容でした。
+スライドが公開されていないかググってみたんですがちょっと見当たらず残念ですが・・・</p>
+
+<p>ちなみにこのChainerもJubatusを開発したPreferred Networksが開発したディープラーニングフレームワークです。</p>
+
+<h2>「Jubatusハッカソンwith読売新聞」参加レポート</h2>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Jubatus ハッカソン with 読売新聞に参加してきました - てくすた" src="http://hatenablog.com/embed?url=http://texta.pixta.jp/entry/2015/08/28/190353" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Jubatusハッカソン with 読売新聞に参加しました | kanonjiのブログ" src="http://hatenablog.com/embed?url=http://kanonji.info/blog/2015/08/27/report-jubatus-hackathon-with-yomiuri-shimbun/" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="「Jubatus ハッカソン with 読売新聞」で入賞した！ - 雀巽の日記帳" src="http://hatenablog.com/embed?url=http://necojackarc.hatenablog.com/entry/2015/08/23/210608" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Jubatusハッカソンに参加してきました - yustam.jp" src="http://hatenablog.com/embed?url=http://yustam.hatenablog.com/entry/2015/08/24/071123" frameborder="0" scrolling="no"></iframe>
+
+
+<h2>Jubatusと自然言語処理</h2>
+
+<p>同じチームメンバーの方がまとめたQiita記事が分かりやすいです。
+自然言語処理を行う際に避けて通れない前処理が機能としてJubatusに備わっているので便利ですね。</p>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="jubatas - Jubatusで自然言語処理を使うときのまとめ（備忘録） - Qiita" src="http://hatenablog.com/embed?url=http://qiita.com/GushiSnow/items/15ef4c21aa1e8a09a4c5" frameborder="0" scrolling="no"></iframe>
+
+
+<h2>オンライン(機械)学習とは</h2>
+
+<p>オンライン機械学習はJubatusの最大の特徴とされています。「機械」を省略して「オンライン学習」とも呼ばれます。
+オンライン学習について分かりやすい解説は以下のNTTデータの記事です。</p>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="ビッグデータ時代の機械学習アルゴリズム：オンライン学習 | NTTデータ" src="http://hatenablog.com/embed?url=http://www.nttdata.com/jp/ja/insights/trend_keyword/2014110601.html" frameborder="0" scrolling="no"></iframe>
+
+
+<p>以下の記述がオンライン学習について端的に言い表しています。</p>
+
+<blockquote><p>オンライン学習は機械学習モデルにおける学習アルゴリズムの1つであり、データを1つずつ読み込んでモデル更新を繰り返すことで学習を行う手法です。反対に、データを全て読み込んでから学習する手法をバッチ学習と呼びます。</p></blockquote>
+
+<p>バッチ学習のデメリットとオンライン学習のメリットについては以下の記述が分かりやすいです。</p>
+
+<blockquote><p>通常、機械学習で作成したモデルは運用していくうちに徐々に精度が低下するため、モデルの精度維持のためには定期的に新たなデータを加えたモデル更新が必要となります。この時、バッチ学習では過去のデータと新しいデータを合わせてモデルを1から作り直す必要があり、多くの計算時間が必要になります。オンライン学習を用いれば、新たなデータのみを既存のモデルに取り込む逐次更新が可能になるため、モデルの精度維持がわずかな時間で可能になります。これを推し進めて、発生したデータをその場でモデルに反映すれば、モデルの精度低下を意識する必要すらなくなります。</p></blockquote>
+
+<p>このオンライン学習が迷惑メール判定ロジックに利用されていることを考えるとオンラインであることのメリットが分かりやすいですね。
+常に迷惑メールの対象は増えていくのでバッチ学習で学習したモデルを運用してもすぐにそのモデルは古いものになってしまって
+新しい迷惑メールを判定出来ないことになってしまいますよね。
+そういう意味で特に変化の早いビジネス上では、IoTの絡みも相まってオンライン学習は今後拡大していくだろうと思います。</p>
+
+<h2>機械学習周りの勉強法</h2>
+
+<p>私自身、機械学習周りのインプットをし始めたのはここ半年くらいです。
+インプットを初めて痛感するのは、統計学、機械学習、人工知能などの情報をググっても断片的な知識ばかりであまり体系的にまとまっていないので
+初学者が体系的に知識をカテゴライズすることの難易度が高いという点でした。
+体系的に知識を学ぶにはネットで楽しないでちゃんと本読めよ、というのが王道ではあるのですが、、
+そう言っては身も蓋もないので何か良い方法はないかなと。</p>
+
+<p>そこで個人的に最近良くお世話になっている<a href="http://tjo.hatenablog.com/">銀座で働くデータサイエンティストのブログ</a>を書かれている
+<a href="http://www.linkedin.com/in/tjozaki">Takashi J. OZAKI</a>さんの以下の記事がオススメです。</p>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="社会人が統計学や機械学習を学ぶなら「落下傘方式」で - 銀座で働くデータサイエンティストのブログ" src="http://hatenablog.com/embed?url=http://tjo.hatenablog.com/entry/2014/03/31/191907" frameborder="0" scrolling="no"></iframe>
+
+
+<p>ここで出てくる「落下傘方式」とは</p>
+
+<blockquote><p>「必要になった時に必要な項目だけ学び、覚えたらとにかく実践してみる」</p></blockquote>
+
+<p>という定義だそうですが、この勉強法はwebエンジニアとの親和性が高いんじゃないかと思います。
+ググッたらちょっと古い「Rubyのパパ」こと<a href="https://twitter.com/yukihiro_matz">matz</a>の記事がヒットしました。OSSのコードを読む場合の戦略の一つとして紹介されてました。</p>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="フリー言語で真のプログラミングを学ぶ - Part1　オープンソース/C言語に学ぶ「ソースコードの読み方」：ITpro" src="http://hatenablog.com/embed?url=http://itpro.nikkeibp.co.jp/article/COLUMN/20070622/275606/" frameborder="0" scrolling="no"></iframe>
+
+
+<p>特に私の場合は機械学習アルゴリズムそのものを研究する訳ではなく、既に確立された機械学習アルゴリズムを利用するユーザーの立場なので、
+実際にJubatusを触ってみたりpythonの機械学習ライブラリの<a href="http://pandas.pydata.org/">pandas</a>や<a href="http://scikit-learn.org/stable/">scikit-learn</a>を
+実データで利用してみた方が理解が進んでいる気がします。</p>
+
+<h3>pandasの参考になった入門記事</h3>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Python - 10分でPandasを学ぶ - Qiita" src="http://hatenablog.com/embed?url=http://qiita.com/tkazusa/items/23bc0142bf277d397260" frameborder="0" scrolling="no"></iframe>
+
+
+<h3>scikit-learnの参考になった入門記事</h3>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="pythonの機械学習ライブラリscikit-learnの紹介 - 唯物是真 @Scaled_Wurm" src="http://hatenablog.com/embed?url=http://sucrose.hatenablog.com/entry/2013/05/25/133021" frameborder="0" scrolling="no"></iframe>
+
+
+<h3>Chainerの参考になった入門記事</h3>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Python - 【機械学習】ディープラーニング フレームワークChainerを試しながら解説してみる。 - Qiita" src="http://hatenablog.com/embed?url=http://qiita.com/kenmatsu4/items/7b8d24d4c5144a686412" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="機械学習 - 深層学習でニュース記事を分類する - Qiita" src="http://hatenablog.com/embed?url=http://qiita.com/hogefugabar/items/c27ed578717c5e7288c0" frameborder="0" scrolling="no"></iframe>
+
+
+<h2>参考書籍</h2>
+
+<div>
+<a href="http://www.amazon.co.jp/gp/product/4621061224/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4621061224&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4621061224&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4621061224" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+<a href="http://www.amazon.co.jp/gp/product/4130420658/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4130420658&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4130420658&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4130420658" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+<a href="http://www.amazon.co.jp/gp/product/4627849710/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4627849710&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4627849710&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4627849710" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+<a href="http://www.amazon.co.jp/gp/product/B00UAAK07S/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00UAAK07S&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00UAAK07S&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B00UAAK07S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+<a href="http://www.amazon.co.jp/gp/product/B0152OV4VW/ref=as_li_tf_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B0152OV4VW&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0152OV4VW&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B0152OV4VW" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[イベント「人工知能ハッカソン」に参加してきました！]]></title>
+    <link href="http://tchikuba.github.io/blog/2015/06/22/artificial-intelligence-hackathon/"/>
+    <updated>2015-06-22T22:15:31+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2015/06/22/artificial-intelligence-hackathon</id>
+    <content type="html"><![CDATA[<p>最近、人工知能について非常に興味関心があります。
+ロジスティック回帰による数値予測や機械学習、特にニューラルネットワーク・ディープラーニングへの興味関心が発展して最近では専ら人工知能についての話題に釘付けです。
+そんな折に丁度タイミング良くサムライインキュベートさんからのメルマガで<a href="http://event.samurai-incubate.asia/ubic/">「人工知能ハッカソン」</a>
+が開催されることを知り、応募してみたところ見事参加抽選に当選したので過日(2015/5/23-24)参加してきました。</p>
+
+<p>(当選時の喜びの声)</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">ハッカソン当選通知ｷﾀ━(ﾟ∀ﾟ)━!／【人工知能】ハッカソン ＜UBIC×Samurai＞〜益々盛り上がる人工知能技術を活用したサー... (開催日時：2015/05/23 11:00 ～ 2015/05/24 19:00) <a href="http://t.co/DYe6f2CGpe">http://t.co/DYe6f2CGpe</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/599096521615781888">2015, 5月 15</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<br>
+
+
+<h1>ハッカソン当日の模様</h1>
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">若手エンジニアが人工知能のビジネス活用を競うハッカソン - 最優秀賞は? - マイナビニュース: マイナビニュース 若手エンジニアが人工知能のビジネス活用を競うハッカソン -… <a href="http://t.co/Qv53xo0f9o">http://t.co/Qv53xo0f9o</a> <a href="http://t.co/DhmPIm5QiC">pic.twitter.com/DhmPIm5QiC</a></p>&mdash; ビジネスソース JP (@BizSourceJP) <a href="https://twitter.com/BizSourceJP/status/603146213030932481">2015, 5月 26</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>1日目前半にアイディアソンやって1日目後半、2日目に開発をやるというガチなハッカソン自体、
+初参加でしたので良い経験になりました。今回のハッカソンでは基本ハスラー、ハッカー、デザイナの3つの役割の人が各チームに均等に割り振られるルールのようでした。
+私がいたチームはハスラー2名、ハッカー3名(サーバサイドエンジニア2名、インフラエンジニア1名)な構成でした。
+やはりデザイナかフロントエンドエンジニアがいないとプロダクトの見栄えが・・・な感じでした。。</p>
+
+<p>ネタとしてはうちのチームでは「みんなのカイシャ(仮)」というタイトルで開発を行いました。
+過去の判例の情報解析を手掛ける<a href="http://www.ubic.co.jp/">UBICさん</a>が用意した自然言語処理系の人工知能APIを使って
+選択肢に企業理念を候補として出力して選択していくと企業理念が似通った企業を推薦してくれるというものです。
+クローラによるデータの収集や前処理に時間をかけすぎて肝心の人工知能APIバックエンドの実装が中途半端だったのが悔やまれました。</p>
+
+<p>(2日目の成果発表の様子)</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">人工知能ハッカソン、成果発表中。1チーム目から面白い！ <a href="https://twitter.com/hashtag/AIhack?src=hash">#AIhack</a> <a href="http://t.co/jvUVYxOpBU">pic.twitter.com/jvUVYxOpBU</a></p>&mdash; サムライインキュベート両角 (@ryokado) <a href="https://twitter.com/ryokado/status/602389148721287169">2015, 5月 24</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>以下の通り、優勝したのはダイエット家庭教師等を手掛ける<a href="https://www.finc.co.jp/">FiNC</a>のインターンの方がいたチームでした。</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">《人工知能ハッカソンにてFiNCのインター生が優勝しました！》&#10;&#10;5月23日と24日の両日にわたり、株式会社サムライインキュベートとUBICが開催した人工知能ハッカソンに、FiNCのインターン生や社員が参加してきました！... <a href="http://t.co/upOrpdQUNF">http://t.co/upOrpdQUNF</a></p>&mdash; 玉野井桐子 (@tamanoifinc) <a href="https://twitter.com/tamanoifinc/status/603371855651581952">2015, 5月 27</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="人工知能ハッカソンでFiNCエンジニアがW賞！ | FiNC公式blog" src="http://hatenablog.com/embed?url=https://finc.co.jp/blog/?p=829" frameborder="0" scrolling="no"></iframe>
+
+
+<h1>ハッカソンに参加して感じたこと</h1>
+
+<p>参加して思ったのはハッカソンは(アイディア出しよりは)開発メインでテック寄りな方が良いかなという点です。
+アイディア出しに注力するならハッカソンじゃなくてアイディアソンとして別枠でやった方が時間的な制約で中途半端にならずに良いかなと思います。
+開催する側のメリットとしても2点あると思っていて、1点目はAPI提供側が開発時にストレスなく組み込めるか温度感を見る点、
+2点目は提供したAPIが具体的な課題解決にどのように応用されるかアイディアの幅を見る点。
+この2点の検証が盛り込まれた今回のハッカソンだったと思うのですが、提供されたAPIがシンプル過ぎてちょっと拍子抜けした参加者もいたようで
+両方の検証がUBICさん的に十分に出来たのかはちょっと疑問が残る内容だったかもしれません。</p>
+
+<p>ところで今回のハッカソンのメンターが<a href="https://twitter.com/masuidrive">トレタ増井雄一郎さん</a>と
+<a href="http://ymatsuo.com/japanese/">東京大学准教授の松尾豊さん</a>だったのも参加理由の一つでした。
+<a href="/blog/2014/02/14/engineers-free-life-style-of-developers-summit-2014/">増井さんのお話を1年前のデブサミ2014で聞いたことがあり</a>、
+スタートアップ的な考え方からのツッコミが聞けそうだなと思っていたところ
+まさに想像通りのフィードバックがあってその視点が非常に参考になりました。</p>
+
+<p>また、松尾豊さんは人工知能の専門家で
+<a href="http://www.amazon.co.jp/gp/product/B00UAAK07S/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B00UAAK07S&linkCode=as2&tag=athome0a-22">人工知能は人間を超えるか (角川ＥＰＵＢ選書)</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B00UAAK07S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+という有名な本の著者だということを知っており一度お会いしてみたかった方でした。
+(この書籍は後日読んで興味深かったので次回のブログ記事のネタで書こうかと思います)
+ハッカソンの中間と発表時にチームへのフィードバックをいただいたのと、ハッカソン終了後にご挨拶して
+日頃の興味関心事等について色々意見交換が出来たのは収穫でした。</p>
+
+<p><a href="http://www.amazon.co.jp/gp/product/B00UAAK07S/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00UAAK07S&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00UAAK07S&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B00UAAK07S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<p>ハッカソンで実際に何を作るのかという以上に、ハッカソンのテーマ(今回なら人工知能)に興味関心が近い人と繋がれる、
+という意味でハッカソンに参加することは有意義だなと思いました。
+初日にハスラー2名と私の3人で飲みに行って意見交換したんですが、参加者やメンターの方と直接会って意見交換するのは貴重な時間だと思います。
+私は常日頃人が会うことで生じる「場のエネルギー」を信じているところがあり(別にオカルトという訳ではなく)
+共通の指向性を持った人同士が出会う場としては相当良い場ですね。</p>
+
+<h1>人工知能ハッカソンの記事</h1>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="UBICとサムライインキュベートが「人工知能ハッカソン」を開催｜株式会社UBICのプレスリリース" src="http://hatenablog.com/embed?url=http://prtimes.jp/main/html/rd/p/000000096.000006776.html" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="人工知能ハッカソンを初めて開催！若手エンジニアが人工知能を使って、「今そこにある課題」の解決に挑戦（2015年5月23日・24日）共催：サムライ・インキュベート｜ライブラリー｜行動情報データ解析のUBIC" src="http://hatenablog.com/embed?url=http://www.ubic.co.jp/library/features/2015/20150608152729.html" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="若手エンジニアが人工知能のビジネス活用を競うハッカソン - 最優秀賞は? | マイナビニュース" src="http://hatenablog.com/embed?url=http://news.mynavi.jp/news/2015/05/26/439/" frameborder="0" scrolling="no"></iframe>
+
+
+<h1>参加者の方のレポート</h1>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="人工知能ハッカソンに行った - an odd fellow" src="http://hatenablog.com/embed?url=http://roronya.hatenablog.com/entry/2015/05/25/092550" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="No profit grows where is no pleasure ta'en.: 「【人工知能】ハッカソン」に参加しました" src="http://hatenablog.com/embed?url=http://itagakishintaro.blogspot.jp/2015/05/blog-post.html" frameborder="0" scrolling="no"></iframe>
+
+
+<p><a href="http://www.amazon.co.jp/gp/product/B00UAAK07S/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00UAAK07S&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00UAAK07S&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B00UAAK07S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+]]></content>
+  </entry>
+  
+</feed>

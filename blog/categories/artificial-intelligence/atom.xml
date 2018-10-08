@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: artificial intelligence | tchikuba's blog]]></title>
+  <link href="http://tchikuba.github.io/blog/categories/artificial-intelligence/atom.xml" rel="self"/>
+  <link href="http://tchikuba.github.io/"/>
+  <updated>2018-10-08T23:21:59+09:00</updated>
+  <id>http://tchikuba.github.io/</id>
+  <author>
+    <name><![CDATA[tchikuba]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[イベント「人工知能ハッカソン」に参加してきました！]]></title>
+    <link href="http://tchikuba.github.io/blog/2015/06/22/artificial-intelligence-hackathon/"/>
+    <updated>2015-06-22T22:15:31+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2015/06/22/artificial-intelligence-hackathon</id>
+    <content type="html"><![CDATA[<p>最近、人工知能について非常に興味関心があります。
+ロジスティック回帰による数値予測や機械学習、特にニューラルネットワーク・ディープラーニングへの興味関心が発展して最近では専ら人工知能についての話題に釘付けです。
+そんな折に丁度タイミング良くサムライインキュベートさんからのメルマガで<a href="http://event.samurai-incubate.asia/ubic/">「人工知能ハッカソン」</a>
+が開催されることを知り、応募してみたところ見事参加抽選に当選したので過日(2015/5/23-24)参加してきました。</p>
+
+<p>(当選時の喜びの声)</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">ハッカソン当選通知ｷﾀ━(ﾟ∀ﾟ)━!／【人工知能】ハッカソン ＜UBIC×Samurai＞〜益々盛り上がる人工知能技術を活用したサー... (開催日時：2015/05/23 11:00 ～ 2015/05/24 19:00) <a href="http://t.co/DYe6f2CGpe">http://t.co/DYe6f2CGpe</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/599096521615781888">2015, 5月 15</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<br>
+
+
+<h1>ハッカソン当日の模様</h1>
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">若手エンジニアが人工知能のビジネス活用を競うハッカソン - 最優秀賞は? - マイナビニュース: マイナビニュース 若手エンジニアが人工知能のビジネス活用を競うハッカソン -… <a href="http://t.co/Qv53xo0f9o">http://t.co/Qv53xo0f9o</a> <a href="http://t.co/DhmPIm5QiC">pic.twitter.com/DhmPIm5QiC</a></p>&mdash; ビジネスソース JP (@BizSourceJP) <a href="https://twitter.com/BizSourceJP/status/603146213030932481">2015, 5月 26</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>1日目前半にアイディアソンやって1日目後半、2日目に開発をやるというガチなハッカソン自体、
+初参加でしたので良い経験になりました。今回のハッカソンでは基本ハスラー、ハッカー、デザイナの3つの役割の人が各チームに均等に割り振られるルールのようでした。
+私がいたチームはハスラー2名、ハッカー3名(サーバサイドエンジニア2名、インフラエンジニア1名)な構成でした。
+やはりデザイナかフロントエンドエンジニアがいないとプロダクトの見栄えが・・・な感じでした。。</p>
+
+<p>ネタとしてはうちのチームでは「みんなのカイシャ(仮)」というタイトルで開発を行いました。
+過去の判例の情報解析を手掛ける<a href="http://www.ubic.co.jp/">UBICさん</a>が用意した自然言語処理系の人工知能APIを使って
+選択肢に企業理念を候補として出力して選択していくと企業理念が似通った企業を推薦してくれるというものです。
+クローラによるデータの収集や前処理に時間をかけすぎて肝心の人工知能APIバックエンドの実装が中途半端だったのが悔やまれました。</p>
+
+<p>(2日目の成果発表の様子)</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">人工知能ハッカソン、成果発表中。1チーム目から面白い！ <a href="https://twitter.com/hashtag/AIhack?src=hash">#AIhack</a> <a href="http://t.co/jvUVYxOpBU">pic.twitter.com/jvUVYxOpBU</a></p>&mdash; サムライインキュベート両角 (@ryokado) <a href="https://twitter.com/ryokado/status/602389148721287169">2015, 5月 24</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>以下の通り、優勝したのはダイエット家庭教師等を手掛ける<a href="https://www.finc.co.jp/">FiNC</a>のインターンの方がいたチームでした。</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">《人工知能ハッカソンにてFiNCのインター生が優勝しました！》&#10;&#10;5月23日と24日の両日にわたり、株式会社サムライインキュベートとUBICが開催した人工知能ハッカソンに、FiNCのインターン生や社員が参加してきました！... <a href="http://t.co/upOrpdQUNF">http://t.co/upOrpdQUNF</a></p>&mdash; 玉野井桐子 (@tamanoifinc) <a href="https://twitter.com/tamanoifinc/status/603371855651581952">2015, 5月 27</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="人工知能ハッカソンでFiNCエンジニアがW賞！ | FiNC公式blog" src="http://hatenablog.com/embed?url=https://finc.co.jp/blog/?p=829" frameborder="0" scrolling="no"></iframe>
+
+
+<h1>ハッカソンに参加して感じたこと</h1>
+
+<p>参加して思ったのはハッカソンは(アイディア出しよりは)開発メインでテック寄りな方が良いかなという点です。
+アイディア出しに注力するならハッカソンじゃなくてアイディアソンとして別枠でやった方が時間的な制約で中途半端にならずに良いかなと思います。
+開催する側のメリットとしても2点あると思っていて、1点目はAPI提供側が開発時にストレスなく組み込めるか温度感を見る点、
+2点目は提供したAPIが具体的な課題解決にどのように応用されるかアイディアの幅を見る点。
+この2点の検証が盛り込まれた今回のハッカソンだったと思うのですが、提供されたAPIがシンプル過ぎてちょっと拍子抜けした参加者もいたようで
+両方の検証がUBICさん的に十分に出来たのかはちょっと疑問が残る内容だったかもしれません。</p>
+
+<p>ところで今回のハッカソンのメンターが<a href="https://twitter.com/masuidrive">トレタ増井雄一郎さん</a>と
+<a href="http://ymatsuo.com/japanese/">東京大学准教授の松尾豊さん</a>だったのも参加理由の一つでした。
+<a href="/blog/2014/02/14/engineers-free-life-style-of-developers-summit-2014/">増井さんのお話を1年前のデブサミ2014で聞いたことがあり</a>、
+スタートアップ的な考え方からのツッコミが聞けそうだなと思っていたところ
+まさに想像通りのフィードバックがあってその視点が非常に参考になりました。</p>
+
+<p>また、松尾豊さんは人工知能の専門家で
+<a href="http://www.amazon.co.jp/gp/product/B00UAAK07S/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B00UAAK07S&linkCode=as2&tag=athome0a-22">人工知能は人間を超えるか (角川ＥＰＵＢ選書)</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B00UAAK07S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+という有名な本の著者だということを知っており一度お会いしてみたかった方でした。
+(この書籍は後日読んで興味深かったので次回のブログ記事のネタで書こうかと思います)
+ハッカソンの中間と発表時にチームへのフィードバックをいただいたのと、ハッカソン終了後にご挨拶して
+日頃の興味関心事等について色々意見交換が出来たのは収穫でした。</p>
+
+<p><a href="http://www.amazon.co.jp/gp/product/B00UAAK07S/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00UAAK07S&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00UAAK07S&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B00UAAK07S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<p>ハッカソンで実際に何を作るのかという以上に、ハッカソンのテーマ(今回なら人工知能)に興味関心が近い人と繋がれる、
+という意味でハッカソンに参加することは有意義だなと思いました。
+初日にハスラー2名と私の3人で飲みに行って意見交換したんですが、参加者やメンターの方と直接会って意見交換するのは貴重な時間だと思います。
+私は常日頃人が会うことで生じる「場のエネルギー」を信じているところがあり(別にオカルトという訳ではなく)
+共通の指向性を持った人同士が出会う場としては相当良い場ですね。</p>
+
+<h1>人工知能ハッカソンの記事</h1>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="UBICとサムライインキュベートが「人工知能ハッカソン」を開催｜株式会社UBICのプレスリリース" src="http://hatenablog.com/embed?url=http://prtimes.jp/main/html/rd/p/000000096.000006776.html" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="人工知能ハッカソンを初めて開催！若手エンジニアが人工知能を使って、「今そこにある課題」の解決に挑戦（2015年5月23日・24日）共催：サムライ・インキュベート｜ライブラリー｜行動情報データ解析のUBIC" src="http://hatenablog.com/embed?url=http://www.ubic.co.jp/library/features/2015/20150608152729.html" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="若手エンジニアが人工知能のビジネス活用を競うハッカソン - 最優秀賞は? | マイナビニュース" src="http://hatenablog.com/embed?url=http://news.mynavi.jp/news/2015/05/26/439/" frameborder="0" scrolling="no"></iframe>
+
+
+<h1>参加者の方のレポート</h1>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="人工知能ハッカソンに行った - an odd fellow" src="http://hatenablog.com/embed?url=http://roronya.hatenablog.com/entry/2015/05/25/092550" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="No profit grows where is no pleasure ta'en.: 「【人工知能】ハッカソン」に参加しました" src="http://hatenablog.com/embed?url=http://itagakishintaro.blogspot.jp/2015/05/blog-post.html" frameborder="0" scrolling="no"></iframe>
+
+
+<p><a href="http://www.amazon.co.jp/gp/product/B00UAAK07S/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00UAAK07S&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00UAAK07S&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B00UAAK07S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+]]></content>
+  </entry>
+  
+</feed>

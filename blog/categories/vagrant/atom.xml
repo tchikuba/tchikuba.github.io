@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: vagrant | tchikuba's blog]]></title>
+  <link href="http://tchikuba.github.io/blog/categories/vagrant/atom.xml" rel="self"/>
+  <link href="http://tchikuba.github.io/"/>
+  <updated>2018-10-08T23:21:59+09:00</updated>
+  <id>http://tchikuba.github.io/</id>
+  <author>
+    <name><![CDATA[tchikuba]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octopressブログ環境をVagrantのboxで複数マシンで使う]]></title>
+    <link href="http://tchikuba.github.io/blog/2013/10/30/octopress-vagrant/"/>
+    <updated>2013-10-30T20:00:00+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2013/10/30/octopress-vagrant</id>
+    <content type="html"><![CDATA[<p>Linuxで整えたOctopressでブログ書く環境をWindowsとMacでもそれぞれ作りたかったのとrubyのバージョンとか揃えるの億劫だしそれぞれ作るの面倒だなと思ったけど、既にvagrantな環境誰か作ってんじゃね？と思ってググったらありました。</p>
+
+<blockquote><p><a href="https://github.com/aequasi/octopress-vagrant">octopress-vagrant</a></p></blockquote>
+
+<p>世の中考えることは一緒ですね！</p>
+
+<p>というわけで早速vagrant upしたらすぐにvirtualboxにてブログ書ける環境を整えることが出来ました。
+手順は以下に。</p>
+
+<ul>
+<li>リモートリポジトリ(私の場合Bitbucket)とGitHubにゲストOS側のssh公開鍵を追加登録</li>
+<li>Vagrantfileのポート4000番のフォワード設定を追加</li>
+<li>ubuntuのデフォルトロケールを日本語に変更</li>
+<li>リモートリポジトリからOctopressソースをgit clone</li>
+<li>rake generateを叩いて[octopress root]/publicにhtmlの実態を生成</li>
+</ul>
+
+
+<p>これでホストOSから<code>http://localhost:4000</code>にアクセスするとvirtualbox上で動いているゲストOSに構築されたブログが見えるようになります。
+後は<a href="http://www.packer.io/">Packer</a>でboxイメージも共有すると良いかもしれません。</p>
+
+<p>余談ですが、DevOps面白いですね！
+PHP開発環境をxampp/mamppとかで作ったり手動でVMWare上でVM開発環境作ったりして格闘してた経験のある私としてはホント良い時代になったなぁと痛感する次第。</p>
+]]></content>
+  </entry>
+  
+</feed>

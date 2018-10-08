@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ec | tchikuba's blog]]></title>
+  <link href="http://tchikuba.github.io/blog/categories/ec/atom.xml" rel="self"/>
+  <link href="http://tchikuba.github.io/"/>
+  <updated>2018-10-08T23:21:59+09:00</updated>
+  <id>http://tchikuba.github.io/</id>
+  <author>
+    <name><![CDATA[tchikuba]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Railsでeコマースサイトを効率的に開発する為のgem, Spree (Tokyo Rubyist Meetup)]]></title>
+    <link href="http://tchikuba.github.io/blog/2014/05/15/ecommerce-rails-spree/"/>
+    <updated>2014-05-15T19:45:58+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2014/05/15/ecommerce-rails-spree</id>
+    <content type="html"><![CDATA[<p><a href="http://trbmeetup.doorkeeper.jp/events/10739">eコマースとRails &ndash; Spreeの全て</a>
+という<a href="http://trbmeetup.doorkeeper.jp/">Tokyo Rubyist Meetup</a>のイベントに参加してきました。</p>
+
+<p>イベント会場は<a href="http://voyagegroup.com/">VOYAGE GROUP</a>のお洒落オフィスの
+<a href="http://voyagegroup.com/business/office/office015/">Bar AJITO</a>にて。
+有料だったんでお酒を飲みながらのイベントでした。</p>
+
+<p><img src="/images/ecommerce-rails-spree/1.jpg" alt="spree 1" /></p>
+
+<p><a href="http://www.ohmyglasses.jp/">Oh My Glasses</a>は中の人を知っていてRails+Spreeで出来ているというのは
+知っていたのですが、Spreeがどういうgemなのかはあまり知らなかったのと、
+これまでeコマースwebサイト開発にそれなりにどっぷり漬かっていたので業務ドメインを
+どういう感じで抽象化しているのかという点に興味があり参加しました。</p>
+
+<p>Oh My Glasses白土さんの当日の資料はこちら。</p>
+
+<script async class="speakerdeck-embed" data-id="fe74a650bda6013191822a9c30b9cc56" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+
+<hr />
+
+<p>迂闊だったんですがTokyo Rubyist Meetupコミュニティの説明にも書いてありましたが
+このコミュニティ、公用語は英語で、2つ目のセッションである<a href="http://www.degica.com/">デジカ（Degica）</a>の
+中の人の発表は英語だったので、英語が得意でない私には内容3割くらいしか理解が出来なかったかなと。。</p>
+
+<p><img src="/images/ecommerce-rails-spree/2.jpg" alt="spree 2" /></p>
+
+<hr />
+
+<p>・・・英語少しずつでも勉強しよっと。</p>
+]]></content>
+  </entry>
+  
+</feed>

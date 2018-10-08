@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: matz | tchikuba's blog]]></title>
+  <link href="http://tchikuba.github.io/blog/categories/matz/atom.xml" rel="self"/>
+  <link href="http://tchikuba.github.io/"/>
+  <updated>2018-10-08T23:21:59+09:00</updated>
+  <id>http://tchikuba.github.io/</id>
+  <author>
+    <name><![CDATA[tchikuba]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[RubyKaigi 2017 2日目 Matz基調講演＋α]]></title>
+    <link href="http://tchikuba.github.io/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day/"/>
+    <updated>2017-09-19T09:49:45+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day</id>
+    <content type="html"><![CDATA[<p>RubyKaigi 2017は広島での開催。昨年は京都で今年は広島ということで、暫く地方の流れなのかしら？</p>
+
+<h2>Keynote : Yukihiro &ldquo;Matz&rdquo; Matsumoto @yukihiro_matz</h2>
+
+<ul>
+<li>世界最大規模のRubyカンファレンスがRubyKaigi
+
+<ul>
+<li>何を話すか困る</li>
+<li>松田さんには聴衆置いてきぼりでも良いので聞いたこと無い話、技術的な話してよとオファー来る</li>
+<li>才能の話をする</li>
+<li>天才プログラマーと言われるけど自分でそう思ったことはない</li>
+<li>自称プログラミング言語デザイナ</li>
+<li>matzが初めて触れたプログラミング言語はBasic</li>
+<li>自分の思考をまとめるツール=プログラミング言語</li>
+<li>I love all programming languages.</li>
+<li>「matzは他の言語に攻撃的だから嫌い」と言われることがある</li>
+<li>Rubyのmatzだから他言語を貶めてRubyアゲようとしてる、と言われるけど本人全くそんなつもりはない</li>
+<li>とはいえ昔Pythonのメーリスに乗り込んでRubyならこんなことできるよと言ったこともあるけど(笑)</li>
+</ul>
+</li>
+<li>Simula(1968)：初のオブジェクト指向言語の話を</li>
+<li>Animal &ndash; Horse &ndash; Zebraが表現できるように</li>
+<li>Dr. Kristen Nygaard（クリステン・ニゴール）</li>
+<li>「全てのオブジェクト指向言語は私の孫みたいなもんでなぁ」←会った時言われた</li>
+<li>単一継承（木構造）→多重継承（ネットワーク構造）</li>
+<li>C3リニアリゼーションアルゴリズム</li>
+<li>Mixin（Lisp界隈はFlavorsと呼んでた）</li>
+<li>アイスクリームとチョコチップのたとえ</li>
+<li>Rubyはこれをmoduleとして採用</li>
+<li>namespace（ex.Net::HTTP）／singleton（ex.FileUtils）／メソッドの集合（ex.Math）としてのmoduleも</li>
+<li>2013年2.0から新たな機能</li>
+<li>Alias method chain：欠点もある→Module#prependがRailsコミュニティから複数人から提案があった</li>
+<li>一度prependしたら外せないようにするのは敢えて→待てよ</li>
+<li>CLOS（Common Lisp Object System）という言語を想起</li>
+<li>アスペクト指向プログラミングといっても良い（Gregor Kiczalesが考えた）</li>
+<li>リファインメントとしてのmodule</li>
+<li>なぜモンキーパッチングというのか？</li>
+<li>ゲリラ→ゴリラ→モンキーになったっぽい</li>
+<li>ActiveSupportがモンキーパッチングの良い例</li>
+<li>2.days.ago（これRubyかよ）ってのができるようになる</li>
+<li>スコープを区切ったモンキーパッチングなら良いのでは</li>
+<li>Selector namespace （Smallscript）</li>
+<li>Rubyのリファインメント
+
+<ul>
+<li>C#のエクステンションみたいな→ex.RSpec：特定のスコープだけで呼ぶ（現時点でリファインメント使ってない）</li>
+<li>既存のメソッドを置き換える</li>
+</ul>
+</li>
+<li>Structual type checkとしてのmodule（まだプロポーザル）
+
+<ul>
+<li>静的型付けとして将来的には取り込まれる可能性</li>
+</ul>
+</li>
+<li>Ruby3x3への取り組み
+
+<ul>
+<li>MJIT</li>
+<li>Rubex</li>
+<li>Fiber / Guild</li>
+<li>AutoFiber（Unicorn作った人）</li>
+</ul>
+</li>
+<li>静的型付けの取り組みも本日午後に3発表あり</li>
+<li>Matzが手を動かすというよりゴールを示すリードデザイナ</li>
+<li>RubyはMatzの言語というより我々の言語</li>
+<li>ご覧のスポンサーの提供でお送りしています(笑)ブースに行ってくれると私の顔が立つ
+
+<ul>
+<li>Heroku</li>
+<li>VASILY</li>
+<li>Sansan</li>
+<li>Speee</li>
+<li>RakSul</li>
+<li>リクルートマーケティングパートナーズ</li>
+<li>Linkers</li>
+</ul>
+</li>
+</ul>
+
+
+<p>こっから先は話聞くのをメインにしてたので細かくはメモとってなかったので気になる所だけ…</p>
+
+<h2>An introduction and future of Ruby coverage library : Yusuke Endoh @mametter</h2>
+
+<ul>
+<li>カバレッジの種類にも色々ある
+
+<ul>
+<li>条件true/false両方をカバー</li>
+<li>LINEカバレッジだと後置ifなど見逃すケースも</li>
+</ul>
+</li>
+<li>カバレッジをゴールにするのはよくない</li>
+<li>SimpleCovはcoverage.soのラッパー</li>
+</ul>
+
+
+<h2>Improve extension API: C++ as better language for extension : Kouhei Sutou @ktou</h2>
+
+<ul>
+<li>高速化の為にはC/C++とRubyを行ったり来たりしないこと</li>
+<li>C++11
+
+<ul>
+<li>型推論auto</li>
+<li>ラムダ式</li>
+</ul>
+</li>
+<li>遅延メソッド定義</li>
+</ul>
+
+
+<h2>Automated Type Contracts Generation for Ruby : Valentin Fondaratov @rubymine</h2>
+
+<ul>
+<li>JetBrainsの中の人の静的解析の話</li>
+<li>RubyMineの各プロジェクトのテストコードをクラウド化して情報集める的な（たしか）</li>
+</ul>
+
+
+<h2>Type Checking Ruby Programs with Annotations : Soutaro Matsumoto @soutaro</h2>
+
+<ul>
+<li>ずっと前から色々型チェック関連やってる人</li>
+<li><a href="https://github.com/soutaro/steep">Steep</a></li>
+</ul>
+
+
+<h2>Bending The Curve: Putting Rust in Ruby with Helix : Godfrey Chan @chancancode / Terence Lee @hone02</h2>
+
+<ul>
+<li>Herokuの中の人＆もうすぐ中の人（デカい外人もHerokuの中の人）</li>
+<li>RustでRubyのライブラリ作ろう的な <a href="https://github.com/tildeio/helix">https://github.com/tildeio/helix</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

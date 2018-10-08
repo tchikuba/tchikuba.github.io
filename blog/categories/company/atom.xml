@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: company | tchikuba's blog]]></title>
+  <link href="http://tchikuba.github.io/blog/categories/company/atom.xml" rel="self"/>
+  <link href="http://tchikuba.github.io/"/>
+  <updated>2018-10-08T23:21:59+09:00</updated>
+  <id>http://tchikuba.github.io/</id>
+  <author>
+    <name><![CDATA[tchikuba]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Bufferにインスパイアされて、以前から私が書き溜めていた21世紀型ニュータイプ組織を晒してみました]]></title>
+    <link href="http://tchikuba.github.io/blog/2015/01/22/new-type-organization/"/>
+    <updated>2015-01-22T21:25:44+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2015/01/22/new-type-organization</id>
+    <content type="html"><![CDATA[<p><a href="http://hrnabi.com/2015/01/21/5353/">CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ</a>
+というHRナビの記事に興奮したのでこれは久しぶりにブログ記事を書しかない！と決意しました。
+興奮したのは自分が起業したらこういう会社にしたいな、こういう組織が良いな、と思って以前から書き溜めていた内容と結構重複するところがあったからです。
+この記事、タイトルが内容のごく一部というか表層的な部分しか表現出来ておらず、何かチープな印象すら受けるんですよね。。
+給料を公開してる事実自体、実は物凄く小さいことで、もっと根源的な組織論みたいなものがテーマで、21世紀に新たに拡大していく有機的な組織の本質を
+浮き彫りにしてくれていることが、この記事の核心なんです。なのでまだ読んでない方は是非熟読をオススメします。</p>
+
+<p>まず本題に入る前にこの記事を読んだ人の感想をピックアップしてみます。</p>
+
+<blockquote class="twitter-tweet" data-cards="hidden" lang="ja"><p>このサービスでこんなにお金もらえるのか。アメリカいいな。&#10;ちなみにこの投稿もBufferのスケジュール投稿&#10;<a href="http://t.co/WMMd5CHmpq">http://t.co/WMMd5CHmpq</a></p>&mdash; 児玉秋二 (@robox0917) <a href="https://twitter.com/robox0917/status/558164663297671168">2015, 1月 22</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>こういう捉え方はちょっと寂しいような気もしますが、私はむしろこの規模の企業の社長としては貰ってない方だなと率直に思いました。
+と同時に従業員の平均給与はそこそこ良いのかなとも思います。
+ビジネスは仕組み作りなので、Bufferはそれが着実に出来ているということなんじゃないでしょうか。</p>
+
+<hr />
+
+<blockquote class="twitter-tweet" lang="ja"><p>最後の方にある、利用していないサービス料金は返すというところに、この会社の考え方が表れててとてもよいね。 / CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ&#10;<a href="http://t.co/joq14GpO6O">http://t.co/joq14GpO6O</a> <a href="https://twitter.com/hashtag/NewsPicks?src=hash">#NewsPicks</a></p>&mdash; ジョン (@yori102) <a href="https://twitter.com/yori102/status/558158198901719043">2015, 1月 22</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>この意見は私もその通りだなと思いました。これからは資本主義で競争するのではなく人道主義で競争する時代になっているのだと確信します。
+インターネットが普及したことで物事がオープンになり、資本主義の為に多少なりとも人道主義を犠牲にすることが出来ない程、衆人監視の目が光っているのだと思います。</p>
+
+<hr />
+
+<blockquote class="twitter-tweet" data-cards="hidden" lang="ja"><p>この記事、面白いな。特に組織体系。CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ | HRナビ <a href="http://t.co/bjdje6TB69">http://t.co/bjdje6TB69</a></p>&mdash; NPO法人D×P　今井紀明（共同代表） (@NoriakiImai) <a href="https://twitter.com/NoriakiImai/status/558155025252237312">2015, 1月 22</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-cards="hidden" lang="ja"><p>Bufferの透明感あるマネジメントスタイル個人的に好き。途中に出てくる組織論の変遷についても勉強になった＞CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ <a href="http://t.co/483OHswpbC">http://t.co/483OHswpbC</a></p>&mdash; Akihisa Ishikawa (@a_ishikawa) <a href="https://twitter.com/a_ishikawa/status/558122469866090497">2015, 1月 22</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" data-cards="hidden" lang="ja"><p>組織をデザインするってほんとにおもろい。うちは今二人だけど、いつかもう少し大きなチームにしたいなと思ってる。 / “CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ | HRナビ” <a href="http://t.co/QHK1KNPlwq">http://t.co/QHK1KNPlwq</a></p>&mdash; Hikari Mimura (@picacch) <a href="https://twitter.com/picacch/status/558119299131662336">2015, 1月 22</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>ホントそうですよね！記事では自律分散型の組織運営としてフレデリック・ラルーの講演内容から引用して紹介していますね。
+このフレデリック・ラルー(Frederic Laloux)という人、カタカナでググっても全然情報出てこないんですが、
+<a href="http://www.reinventingorganizations.com/">Reinventing Organizations</a>という本の著者のようです。</p>
+
+<p><a href="http://www.amazon.co.jp/gp/product/B00ICS9VI4/ref=as_li_tf_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00ICS9VI4&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00ICS9VI4&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B00ICS9VI4" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<p>直訳すると再発明組織ですね。まさにこのブログ記事のテーマ。</p>
+
+<hr />
+
+<blockquote class="twitter-tweet" data-cards="hidden" lang="ja"><p>居住地によって給与が変わるのは良いと思う。肩書きもいらない、けど日本はなくしたところで見えない肩書きみたいなのが残りそう。 CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ | HRナビ <a href="http://t.co/CbKdGJg8iq">http://t.co/CbKdGJg8iq</a></p>&mdash; Toru Maseguchi (@toru) <a href="https://twitter.com/toru/status/558143549909499904">2015, 1月 22</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" lang="ja"><p>「肩書きがアイデンティティになってしまう」これなぁ。特に日本人は規律を重んじて、期待に応えようとするからその傾向が強い。 / CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く...&#10;<a href="http://t.co/p5wWR9ppQm">http://t.co/p5wWR9ppQm</a> <a href="https://twitter.com/hashtag/NewsPicks?src=hash">#NewsPicks</a></p>&mdash; (ぼn＾ω＾nん) (@vonvovon) <a href="https://twitter.com/vonvovon/status/558109378310848514">2015, 1月 22</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>確かにBufferはグローバル企業で日本に閉じた場合に上手く行くかは必ず議論として出るところかと思うのですが、
+ここはむしろ日本でも組織のイノベーションの波からは逃れられないと思います。実感値として。</p>
+
+<hr />
+
+<blockquote class="twitter-tweet" data-cards="hidden" lang="ja"><p>これは興味深い同時に面白い&#10;&#10;CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ&#10;HRナビ <a href="http://t.co/2Iw9H7UICT">http://t.co/2Iw9H7UICT</a></p>&mdash; コーヒー屋 (@coffea_canephor) <a href="https://twitter.com/coffea_canephor/status/558133886564446208">2015, 1月 22</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" lang="ja"><p>世界で大切にしたい会社ベスト23 Buffer、尊敬する現役経営者の一人ジョエル。すべての経営者に読んでほしい。見ている世界が違う。</p>&mdash; Ken@世界23周の旅 (@u23ken) <a href="https://twitter.com/u23ken/status/558112840431992833">2015, 1月 22</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<div id="fb-root"></div>
+
+
+<p> <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = &ldquo;//connect.facebook.net/ja_JP/all.js#xfbml=1&rdquo;; fjs.parentNode.insertBefore(js, fjs); }(document, &lsquo;script&rsquo;, &lsquo;facebook-jssdk&rsquo;));</script></p>
+
+<div class="fb-post" data-href="https://www.facebook.com/kenji.sudo/posts/10153050396583809" data-width="466"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/kenji.sudo/posts/10153050396583809">投稿</a> by <a href="https://www.facebook.com/kenji.sudo">須藤 憲司</a>.</div></div>
+
+
+<p>Kaizen PlatformのUSオフィスとBufferが同じビルってのはへぇ×２でしたｗ</p>
+
+<hr />
+
+<p>このようにざっとSNSから声を市況かぶ全力2階建てばりに並べてみましたけど概ね好意的な意見が多かったように思います。
+中には少数ながら給料公開とかダメでしょって見解の方もいましたが。
+そしてやはり給料のことよりも組織論の部分に感じ入る方が多かったんじゃないかなと。</p>
+
+<p>んで、このHRナビの記事読んで思い出したのが、私が常日頃書き溜めていた「もし自分が起業するなら」というタイトルのgoogleスプレッドシート。
+かなりこっ恥ずかしいようなタイトルではあるんですが、今回の記事で紹介されていた事例のいくつかと共通する点が少なからずありました。
+情報をオープンにした方がより良い方向に進むという実感があるので思い切って晒してみようと思います。</p>
+
+<h2>明朗会計</h2>
+
+<p>全社員が貰っている報酬を内外問わず公開する。</p>
+
+<h2>透明性</h2>
+
+<p>小声でヒソヒソ隠れて話をする必要のない会社にしたい。ヒソヒソ話が多い職場は気持ちが悪い。</p>
+
+<h2>アメーバ経営</h2>
+
+<p>会社の組織を10人前後で構成する小集団に分け、独立採算制を徹底させる「部門別採算制度」の仕組み。</p>
+
+<h2>小組織</h2>
+
+<p>10人前後のスペシャリスト同士が集まって高効率な組織を作る。報酬も会社の利益の山分け方式など。
+この組織はスペシャリストだけがおり自身でマネージメントを兼務する為、マネージャーは必要ない。</p>
+
+<h2>評価制度</h2>
+
+<p>四半期毎など従来型のスパンでの目標管理シートではビジネス環境の変化による目標変更に柔軟に対応出来ない。
+そこでよりアジャイルな評価制度を取り込む。</p>
+
+<h2>自社開発</h2>
+
+<p>技術を外部に委託せず自社で賄いこれを財産とする。</p>
+
+<h2>社会的意義</h2>
+
+<p>会社が社会に提供している価値に内外問わず誰もが共感してくれる。むしろ共感しない人がいない。</p>
+
+<h2>ノー残業</h2>
+
+<p>従業員の残業を原則禁止とする。家族や勉強会など社外のコミュニティを大事にすることを奨励する。</p>
+
+<hr />
+
+<p>ここ1年くらいで書き溜めてきたものなんですが、読み返すとまだ抽象的過ぎるものもありますがベースラインは的を得ている気がしています。
+Bufferのジョエル・ガスコインCEOもインタビューで言ってましたが、これまで既存の組織にいくつか所属していて感じた違和感をベースに、本来あるべき組織について、理想論じゃん無理無理的なことは全く考えずに書き溜めてきたものです。
+個人的にはまだまだ網羅的にちゃんと考えきれていない点もあるかなと思っているので今後この記事をちょっとずつ更新していこうと思います。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[書籍『「納品」をなくせばうまくいく』から見えてきたエンジニアのキャリアのこれから]]></title>
+    <link href="http://tchikuba.github.io/blog/2014/10/20/sonic-garden-kuranuki-book/"/>
+    <updated>2014-10-20T21:29:10+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2014/10/20/sonic-garden-kuranuki-book</id>
+    <content type="html"><![CDATA[<p>結構時間が経ってしまいましたが、3ヶ月程前に
+<a href="http://attitude4webperson.doorkeeper.jp/events/12244">「ビール片手にプログラマーを一生の仕事にするために出来ることを考えてみませんか？」</a>
+というイベントに行ってきました。</p>
+
+<p>兼ねてから直接お会いしてみたかった<a href="http://www.sonicgarden.jp/">ソニックガーデン</a>の
+<a href="https://twitter.com/kuranuki">倉貫義人</a>さんの話を直接聞けるということで参加しようと思いました。</p>
+
+<p>このイベントで紹介もされていた倉貫さんの著書
+<a href="http://www.amazon.co.jp/gp/product/B00LSQ8G4W/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B00LSQ8G4W&linkCode=as2&tag=athome0a-22">「納品」をなくせばうまくいく</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B00LSQ8G4W" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+をちょうど読んでいたということもありました。</p>
+
+<p><a href="http://www.amazon.co.jp/gp/product/B00LSQ8G4W/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00LSQ8G4W&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00LSQ8G4W&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B00LSQ8G4W" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<p>このイベントで本の感想をブログに書きますと倉貫さんに宣言しておきながら大分遅きに失した感があるのですが、、
+この本を読んで見て感じたことを徒然に書き残しておきます。</p>
+
+<hr />
+
+<p><img src="/images/sonicgarden-book/1.jpg" alt="sonicgarden book 1" /></p>
+
+<h1>エンジニアに求められるパラダイムシフト</h1>
+
+<p>納品のない受託開発ではビジネスにおいてソフトウェアを所有することから利用するという発想の転換が必要ですが、
+エンジニアにも発想の転換が必要でそれはシステムを完成させることから持続発展させることにより重きを置くということ。</p>
+
+<p>具体的には以下の様な思考の変化が必要でこれが分かりやすいです。</p>
+
+<ul>
+<li>バグをなるべく出さないようにする → バグが出てもすぐ直せるようにする</li>
+<li>サーバーは停止しないようにする → 停止してもすぐに復旧できるようにする</li>
+<li>機能追加をやりやすいように作っておく → 今どうしても必要なものだけに集中する(=<a href="http://www.weblio.jp/content/YAGNI">YAGNI</a>)</li>
+</ul>
+
+
+<p>私としてはこれは経験的にその通りだという実感があります。
+ただし一般に直感的には正しくないような気がしてしまうので一定の経験がないプログラマだと前者の方にウェイトを置いてしまいがちな気がします。</p>
+
+<p>大事なことはビジネスドメインに近接する場所でエンジニアが仕様の決定から実装、運用まで一気通貫で対応しているか？という点です。
+こういう立場で日々の開発を行っているエンジニアであればこのパラダイムシフトは非常に受け入れ易いと思います。</p>
+
+<p><img src="/images/sonicgarden-book/2.jpg" alt="sonicgarden book 2" /></p>
+
+<h1>エンジニアが会社を選ぶ基準</h1>
+
+<p>「顧客と社員の両方を幸せにする仕組みが会社の本質」とは至言だと思いました。
+倉貫さん曰く</p>
+
+<blockquote><p>そのために精神論を語って働かせるというのはナンセンスであり、
+会社やビジネスできちんとお金が回り、評価される仕組みを作ることが経営だと思います</p></blockquote>
+
+<p>とのこと。裏を返せばエンジニアが現実に妥協せずこういう評価軸を持ってちゃんと会社を選別していく必要があるんでしょうね。</p>
+
+<p>また会社に拡大志向があるか否かについても自分の考えを持っておく必要があります。
+倉貫さん曰く</p>
+
+<blockquote><p>会社は大きくなくても良い。むしろ小さな会社の方が良い。</p></blockquote>
+
+<p>とあり、ソニックガーデンはそれほど拡大志向は持ち合わせていないと判断出来ます。
+どちらが良いかは価値観の問題もあると思いますが、個人的にはこのソニックガーデンの方針に非常に共感した次第です。
+この会社の方向性が自分の方向性とあまりに合わない場合はどこかで必ず歪みが出てきてしまうので注意した方が良さ気です。</p>
+
+<p>そもそも倉貫さんのこのツイートのようにエンジニアがもっとビジネスセンスを持った方が良い(人が多い)ということかもしれないとも思いました。</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p>これからのビジネスマンにITリテラシーが必須になるのと同じように、経営リテラシーを持つと良いだろう。特にソフトウェアエンジニアには、そういうことに無頓着な人が多い気がする。それは別に経営すべきという訳ではなくて、経営リテラシーを身に付けるだけで、自分の会社がどういう会社かわかる。</p>&mdash; Yoshihito Kuranuki (@kuranuki) <a href="https://twitter.com/kuranuki/status/516452427076104192">2014, 9月 29</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p></p>
+
+<h1>求められるパーソナリティ</h1>
+
+<p>サッカーなどのチームスポーツと同じようにエンジニアにも優れた人格であることやチームの為に貢献できる性格であることが求められる、とありました。
+そもそもエンジニアである以前に社会人や人として当たり前のことだとは思うのですが、
+技術を追い求めるあまり個人主義に走りがちなエンジニアであるからこそ、常にチームの大事さを意識しておきたいところですね。</p>
+
+<p>エンジニアは職人気質だから気難しいところがあっても仕方がないなどと私がエンジニアになりたてだった10年前は言われたものですが、
+これからはそういうスタンスでは一流のエンジニアにはなれないと思います。</p>
+
+<p>そして個人的には更にもう一歩進んだ考え方として「人間臭いエンジニア」を目指したいです。
+人は感じて動くから「感動」というそうです。決して理屈で人が動くのではないと思います。
+理屈が必要とされるエンジニアリングだからこそ、感情豊かに日々の開発ライフを送ることが必要だと思います。</p>
+
+<p><img src="/images/sonicgarden-book/3.jpg" alt="sonicgarden book 3" /></p>
+
+<h1>よりスピーディーに進化していく人間としてのエンジニア</h1>
+
+<p><a href="http://ja.wikipedia.org/wiki/%E3%82%B1%E3%83%B3%E3%83%88%E3%83%BB%E3%83%99%E3%83%83%E3%82%AF">ケント・ベック</a>と
+<a href="http://blogs.itmedia.co.jp/hiranabe/2011/03/agile-japan-2011-april-15-linda-rising.html">リンダ・ライジング</a>
+の印象的な言葉が最後に紹介されていました。
+曰く</p>
+
+<blockquote><p>Embrace Change &ndash; 変化を抱擁せよ<br/>
+Fearless Change &ndash; 変化を自然と捉えるようになった時、自ら変わることを恐れてはいけない<br/>
+Social Change &ndash; 自らを変化できるようになったならば、自らの変化を周囲に広めていく</p></blockquote>
+
+<p>これはもはやエンジニアに限った話ではなく、より普遍的な、これからの時代に生きる人への重要な示唆に富んだ教訓ですね。
+人がインターネットを得た結果、空間的な距離が問題にならなくなりより早いスピードで世の中が変化するようになっています。
+裏を返せば、人の成長のスピードもより早くなる可能性があるということだと、私は前向きに捉えています。</p>
+
+<p>紹介された言葉は、より早く人が成長していく為に必要なことそのものだと思いました。
+そしてより深い次元では自らの変化を周囲に広めることで他の人が良い方向に変化する手助けをすることこそ、
+人が更に成長する為に必要なたったひとつのことだと信じています！</p>
+
+<p><a href="http://www.amazon.co.jp/gp/product/B00LSQ8G4W/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00LSQ8G4W&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00LSQ8G4W&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B00LSQ8G4W" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[サムライインキュベート榊原氏「一人でコンビニにもいけなかった僕が、イスラエルで世界企業を生み出すことになった。」トークイベント参加レポート]]></title>
+    <link href="http://tchikuba.github.io/blog/2014/03/25/sakakibara-samurai/"/>
+    <updated>2014-03-25T19:36:23+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2014/03/25/sakakibara-samurai</id>
+    <content type="html"><![CDATA[<p><a href="http://everevo.com/event/11800">「一人でコンビニにもいけなかった僕が、イスラエルで世界企業を生み出すことになった。」</a>という
+<a href="http://the-incubator.jp/interview/005/index.html">サムライインキュベート榊原健太郎氏</a>の話が聞けるイベントに参加してきたのでそのレポートです。
+これまでサムライインキュベートが係るイベントには何度か参加したことがありますが、代表の榊原氏の話ってあまり聞いたことがなかったので参加してみました。</p>
+
+<h1>講演メモ</h1>
+
+<h2>起業をすることのリスクや意義</h2>
+
+<ul>
+<li>サムライ軍団で成功している起業家に経歴・出身地・性別・年齢などは全く関係ない</li>
+<li>支援先企業の某社長は4回結婚、子供6人いる。3回の結婚は同じ人で子供出来る度に再婚。結婚や子供が出来たが起業しない理由にはならない好例。</li>
+<li>〜だから起業出来ないというのは全て"言い訳でしかない"</li>
+<li>子供の教育のリスクを考えるとやらないで後悔する親の姿を子供に見せるより、挑戦して失敗を語れる親の姿を子供に見せられるようになろう</li>
+</ul>
+
+
+<h2>自身の取り組み</h2>
+
+<ul>
+<li>やりたいことが見つかったのはここ3年くらい</li>
+<li>35歳くらいにならないと本当にやりたいことは見つからない。なので若い連中には焦らなくて良いと言っている</li>
+<li>日経新聞に出ると信用される。掲載されると信用される不思議なメディア＝日経新聞</li>
+<li>日経新聞に自ら営業は一切しない。相手が取材したくなるようなことを手掛けることを意識している</li>
+<li>ファンド出資元：フジテレビ／新銀行東京／ベンチャーユナイテッド／ビットアイルなど</li>
+<li>サムライ軍団は潰れない仕組み作りをしている。過去5年で潰れた企業は1社もない</li>
+<li>出来ないリミッターを常に振り切ってきたのがこの3年間だった</li>
+<li>目の前のことを解決し続けたらどんどん目線が高くなった</li>
+</ul>
+
+
+<h2>質疑応答など</h2>
+
+<ul>
+<li>工事現場の人向けのwebサービスなど、現在市場が全くないところに投資をしていることが多い</li>
+<li>誰も知らないことを知る為に実際に会いに行く。47都道府県全てまわって講演などを行ってきた。マイナーな地方のネタは知らない人がほとんどなので高価値</li>
+<li>&ldquo;バカなんで"たくさん人に会う。行き詰まった場合も良く人に会って解決</li>
+<li>イスラエルは金融システムなどを創りだしたユダヤ人の国。技術系スタートアップも多い。また紛争も多く日本人の自分がこの問題を理解したい</li>
+<li>目標はノーベル平和賞を取ること！</li>
+</ul>
+
+
+<h2>最後に参加者へのメッセージ</h2>
+
+<ul>
+<li>不運にも亡くなった人のことを偲ぶなど、自分のことだけを考えずにいるとより成長出来るし行動が変わるもの</li>
+<li>4/19(土)にサムライベンチャーサミットがありますよ</li>
+</ul>
+
+
+<h1>所感</h1>
+
+<p>何となくスタートアップ界隈だと35歳って既におじさんな感じがするんですが、榊原さんが35歳で本当にやりたいことが明確になってきた、
+という話をしていたのには非常に勇気をもらいました。(私現在35歳＾＾)</p>
+
+<p>また何度か口癖のように繰り返していたキーワードがありました。
+それは「言い訳でしかない」「起業のリスクは実は低い」「バカなんで」という3つ。</p>
+
+<p>言い訳でしかないーこれは起業に関わらずどんなことでも同じ気がします。何かをやらない理由を考えていても意味が無いってことですよね。</p>
+
+<p>起業のリスクは実は低いーこれもこれまで何度か聞いていた話ではありました。が、これまでやはりどこかでリスクはあるよな・・と思っているところがありました。
+でも榊原さんの話を聞いていると"そうだな、その通り、リスクって低いんだよね"と素直に思えました。</p>
+
+<p>バカなんでーこれは榊原さんの謙遜もあったのかなとも思いましたけど、そのソリューションとして徹底して人に会って解決するというところに
+共感しました。個人的にもwebの力は認めつつも本当に重要な情報は人づてで会って話すと効率的に得られるというのは実感としてあります。
+個人的にもこういうところ真似したいなと思います！</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[「クラウドワークス2周年記念 ユーザー大交流会」に参加してきました]]></title>
+    <link href="http://tchikuba.github.io/blog/2014/03/21/users-event-of-crowdworks-2nd-anniversary/"/>
+    <updated>2014-03-21T15:14:52+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2014/03/21/users-event-of-crowdworks-2nd-anniversary</id>
+    <content type="html"><![CDATA[<p><a href="http://crowdworks.doorkeeper.jp/events/9207">クラウドワークス2周年記念 ユーザー大交流会</a>に参加してきました。</p>
+
+<h1>はじめに</h1>
+
+<ul>
+<li>挨拶：クラウドワークス代表吉田氏</li>
+<li>&ldquo;ありがとう"ボタンのエピソードが印象的でした。
+
+<ul>
+<li>クラウドワークスは2回目の起業。</li>
+<li>1回目に起業した会社では一緒に働いていた取締役に顧客を奪われて一人になってしまった。</li>
+<li>全て失って孤独を感じていたところに、取引のあった上場企業からお歳暮が届いた。</li>
+<li>小企業の自分のことを覚えてくれていたんだと感動すると共に、仕事をして関わった人に"ありがとう"と言ってもらう為に仕事しているんだと再認識出来た。</li>
+<li>この体験が基になってクラウドワークスに"ありがとう"ボタンを設置した、とのこと。</li>
+</ul>
+</li>
+<li>著作</li>
+</ul>
+
+
+<p><a href="http://www.amazon.co.jp/gp/product/4862803903/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4862803903&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4862803903&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4862803903" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<h1>基調講演</h1>
+
+<h2>スピーカー</h2>
+
+<ul>
+<li>一般社団法人ソーシャル・デザイン代表理事長沼博之氏</li>
+<li>著作</li>
+</ul>
+
+
+<p><a href="http://www.amazon.co.jp/gp/product/448413232X/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=448413232X&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=448413232X&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=448413232X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<h2>講演メモ</h2>
+
+<ul>
+<li>これまでの歴史を紐解いてみると、文明転換は働き方の転換から始まっている</li>
+<li>企業が主役だった時代から個が主役の時代への転換期を今、迎えている</li>
+<li>&ldquo;ソーシャルセンシティビティ"が高いチームが最も成果物の質が高い by MITリサーチ
+
+<ul>
+<li>和訳すると"社会的感受性"。<a href="http://yusakuhamajima.wordpress.com/2013/12/14/socialsensitivity/">このブログ</a>に詳しいです。</li>
+<li>こちらが元ネタ→<a href="http://www.globis.jp/1970">茂木健一郎氏「知性とは何か」～G1サミット2012レポート～</a></li>
+</ul>
+</li>
+<li>様々なモノ・コトも変化している
+
+<ul>
+<li><a href="http://gigazine.net/news/20120829-parrot-ardrone-2/">AR Drone</a></li>
+<li>アマダナ バーチャル棚</li>
+<li>New supply chain model</li>
+</ul>
+</li>
+<li>人間をコンピュータが超える<a href="http://jein.jp/jifs/scientific-topics/820-topic45.html">技術的特異点</a>を間もなく迎えるであろう時代</li>
+<li>人間性喪失・人間疎外から人間回帰へ時代は向かう</li>
+</ul>
+
+
+<h1>自由なライフスタイルと働き方</h1>
+
+<h2>松田氏</h2>
+
+<ul>
+<li>自転車で世界中を旅しながら売上を落とさず生活することが出来るか実証実験中</li>
+<li>過去3年間で営業したことがないくらい仕事には恵まれている</li>
+<li>&ldquo;やりたいこと"を追求することが大切</li>
+</ul>
+
+
+<h2>三河氏</h2>
+
+<ul>
+<li>2010年からフリーランス。2011年からマラソンが趣味。沖縄本島1周走ったり。</li>
+<li>男性の子育て参加を世の中に広める活動も色々画策中</li>
+<li>ママさんライターなど仕事だけになっていない人の方がバランス感覚に優れていると感じることが多く、実際に一緒に働きやすい。</li>
+</ul>
+
+
+<h1>シニアの働き方</h1>
+
+<p>このセッションではメモが取れませんでしたので感想を。
+個人的には地方でのリモートワークを題材にした隣のセッションに行こうかと思っていましたが、そちらのセッションはかなり人が多い感じだったのと
+実はシニアの方の生の声を聞いた方が勉強になるんじゃないかと思い直してこちらのセッションを聞きました。
+セッションでお話されていた御年67歳くらいの方は、3年くらい前の64歳からiPhone/Androidアプリの開発を勉強して
+クラウドワークスで仕事を受けるようになったそうです。現役時代のお仕事は外資系IT企業だと仰っていたので日本IBMかな？と思ったんですが。
+プログラマ35歳定年説なんてありましたけど、学習意欲・情熱があれば年齢は関係ないんだなと思わせてくれる、淡々とお話されるけどパワフルな方でした。</p>
+
+<p>あとクラウドワークスでは現状受注者として普通に登録すると住んでいる都道府県や年代が見えるようになっていますが、
+任意でこれらを非表示にする機能を提供しているという話をクラウドワークス代表の吉田氏がしていました。
+受注者が住んでいる地域や年齢で発注者から差別されないようにという配慮のようです。
+これはどんどん進めていったら良いと思いました。
+余談ですがアメリカだと年齢は転職時の面接でも聞いちゃいけないみたいですね。
+職能に年齢は関係がないという考え方に基づいているようです。</p>
+
+<h1>表彰式＆懇親会</h1>
+
+<p>クラウドワークスで2013年に最も活躍した○○な人を表彰するイベントもやってました。
+印象的だったのはたくさん"ありがとう"ボタンを押してもらった人が19歳の地方在住の方だったこと。
+色々凄い時代になったんだなぁと痛感しました。</p>
+
+<p>表彰式が終わって全体で2周年記念の写真撮影の後、懇親会が行われました。
+ここでは勉強会でよくある光景で食事＆飲み物が置いてある幾つかのテーブルが用意され、そのテーブルを囲んだ人同士で名刺交換といった感じでした。
+私の卓ではデザイナとアプリエンジニアとライターとサーバサイドエンジニア(=私)がいて"このメンバーで起業できんじゃん！"
+って感じで終始楽しい時間を過ごすことが出来ました。</p>
+
+<h1>所感</h1>
+
+<p>長沼さんの基調講演を聞いていてワクワクしました。
+と同時に日本の古き良き大企業なんかを見ていると全く想像が出来ない別世界のようにも思えます。
+これをどこまで実感出来るかで今後自分の真の力が付くかが分かれるような気がしました。
+色々深いです。</p>
+
+<p>あとフリーランスとして圧倒的なネームバリューを築いた人は実はクラウドワークスのようなクラウドソーシングサイトを使う必要はなくて
+既に色々なところから引っ張りだこになってると思います。
+また冷静に考えるとクラウドワークスを使って仕事のマッチングが出来ても、その後発注者と受注者で信頼関係が出来てしまえば
+ヘンな話クラウドワークスの存在価値が薄れてしまって結局中抜き＝クラウドワークスを介さず契約ということも容易に起こり得るんじゃないかなと。
+この辺りの課題感をどうクラウドワークスが解決していくのかは今後注目しておきたいなと思いました。</p>
+
+<p>個人的にはRailsアプリという点でクラウドワークスを何となく応援するようになりましたがこれも何かの縁？これからも頑張って欲しいです！</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Atlassian長沢氏「デベロッパー戦国時代！ストーリーをつなぐ開発環境と3つの秘訣」@デブサミ2014 2日目]]></title>
+    <link href="http://tchikuba.github.io/blog/2014/02/14/atlassian-of-developers-summit-2014/"/>
+    <updated>2014-02-14T14:50:00+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2014/02/14/atlassian-of-developers-summit-2014</id>
+    <content type="html"><![CDATA[<p>デブサミ2014 2日目の午後2のセッションはAtlassian長沢氏の「デベロッパー戦国時代！ストーリーをつなぐ開発環境と3つの秘訣」を聞きにきました！
+Atlassian、いつも</p>
+
+<ul>
+<li><a href="https://www.atlassian.com/ja/software/hipchat/overview">HipChat</a>,</li>
+<li><a href="https://www.atlassian.com/ja/software/confluence">Confluence</a>,</li>
+<li><a href="https://www.atlassian.com/ja/software/bitbucket/overview">Bitbucket</a>,</li>
+<li><a href="https://www.atlassian.com/ja/software/stash">Stash</a></li>
+</ul>
+
+
+<p>とか仕事＆プライベートで諸々お世話になってるので楽しみにしてました。
+他にも色々有名なツール提供してますよね。</p>
+
+<ul>
+<li><a href="https://www.atlassian.com/ja/software/jira">JIRA</a></li>
+<li><a href="https://www.atlassian.com/ja/software/bamboo">Bamboo</a></li>
+</ul>
+
+
+<hr />
+
+<h1>profile</h1>
+
+<ul>
+<li>発表者：<a href="https://www.atlassian.com/ja/">Atlassian</a>エバンジェリスト<a href="https://twitter.com/tomohn">長沢智治氏</a>
+
+<ul>
+<li>エバンジェリストになって1ヶ月くらい</li>
+<li><a href="http://japan.blogs.atlassian.com/2014/01/evangelist-tomoharu-nagasawa/">Atlassianブログのこの記事</a>で知ってました</li>
+</ul>
+</li>
+<li>発表スライド：<a href="http://re-workstyle.com/articles/devsumi-2014-atlassian-evangelist-session/">デブサミ2014 【14-D-4】アトラシアン エバンジェリストが語るこれからの開発スタイル</a></li>
+</ul>
+
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/31195345" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/tomohn/14d4" title="【14-D-4】デベロッパー戦国時代！ストーリーをつなぐ開発環境と３つの秘訣" target="_blank">【14-D-4】デベロッパー戦国時代！ストーリーをつなぐ開発環境と３つの秘訣</a> </strong> from <strong><a href="http://www.slideshare.net/tomohn" target="_blank">Tomoharu Nagasawa</a></strong> </div></p>
+
+<h1>Atlassian社</h1>
+
+<ul>
+<li>Atlassianはノーセールス。つまり営業がいない。クチコミで使ってもらっている</li>
+<li>開発支援ツールに特化。ビジネスモデルとして興味深い</li>
+<li>日本オフィスは<a href="http://www.rbbtoday.com/article/2014/01/31/116447.html">マリノスタウン</a>にある</li>
+</ul>
+
+
+<h1>これからの開発</h1>
+
+<ul>
+<li>BML: <a href="http://lean.st/principles/build-measure-learn">Build Measure Learn</a>
+
+<ul>
+<li>リーン・スタートアップ by エリック・リース</li>
+</ul>
+</li>
+<li>開発現場に求められる資質＝現場力 これからの開発には現場の資質が問われる</li>
+<li>複雑性が増しており欧米では既に開発現場は複雑度の高い現場ばかり(日本も同様の流れ)
+
+<ul>
+<li>定義されたプロセスモデル &lt;&ndash;> 実測駆動なプロセスモデル</li>
+<li>実測駆動なプロセスモデルでの開発が重要</li>
+</ul>
+</li>
+<li>「一度開発してリリースしたら終わりです、運用フェーズは知りません」的な分断されている開発は少なくなりつつある</li>
+<li><a href="http://ameblo.jp/masato119/entry-10921100680.html">建設的相互作用</a>を意図的に発生させる仕組みが必要</li>
+</ul>
+
+
+<h1>関連書籍</h1>
+
+<div>
+<a href="http://www.amazon.co.jp/gp/product/4822248976/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4822248976&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4822248976&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4822248976" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.co.jp/gp/product/B00F3UTIQY/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00F3UTIQY&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00F3UTIQY&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=B00F3UTIQY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+</div>
+
+
+<hr />
+
+<p>開発と運用保守が分断されている開発と連続性のある開発があって後者が主流になっていくのは事業会社が内製を選択すると当然だと思います。
+そして運用保守を考慮した開発とは高度だというのもその通りですね。
+個人的には内製と受託開発に関わらず、開発と運用保守が分断されない組織構造を推奨していく世の中になると良いなぁと思っています。</p>
+]]></content>
+  </entry>
+  
+</feed>

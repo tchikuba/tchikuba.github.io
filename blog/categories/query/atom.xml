@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: query | tchikuba's blog]]></title>
+  <link href="http://tchikuba.github.io/blog/categories/query/atom.xml" rel="self"/>
+  <link href="http://tchikuba.github.io/"/>
+  <updated>2018-10-08T23:21:59+09:00</updated>
+  <id>http://tchikuba.github.io/</id>
+  <author>
+    <name><![CDATA[tchikuba]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[td-clientを使ってHiveより早いPrestoクエリを実行する方法をrakeタスクで]]></title>
+    <link href="http://tchikuba.github.io/blog/2015/05/20/how-to-execute-presto-query-on-tresuredata-client/"/>
+    <updated>2015-05-20T20:05:22+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2015/05/20/how-to-execute-presto-query-on-tresuredata-client</id>
+    <content type="html"><![CDATA[<p>最近、Hadoop(Tresure Data)と格闘してます。</p>
+
+<p>td-clientを使ってTresureDataからデータを取得するrakeタスクを書いててHiveクエリだと遅いのでPresto使いたいなと思うことがありました。
+td-clientのREADMEなど公式情報をざっと確認したところ見当たりませんでしたが、
+td-client-rubyのソースコードを見たら案の定クエリタイプを指定するインタフェースがありました。</p>
+
+<p><a href="https://github.com/treasure-data/td-client-ruby/blob/master/lib/td/client.rb#L182">https://github.com/treasure-data/td-client-ruby/blob/master/lib/td/client.rb#L182</a></p>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="td-client-ruby/client.rb at master · treasure-data/td-client-ruby · GitHub" src="http://hatenablog.com/embed?url=https://github.com/treasure-data/td-client-ruby/blob/master/lib/td/client.rb#L182" frameborder="0" scrolling="no"></iframe>
+
+
+<p>``` ruby client.rb#L182付近 <a href="https://gist.github.com/tchikuba/c1c9e48f88ff7c6d2c94">https://gist.github.com/tchikuba/c1c9e48f88ff7c6d2c94</a> gist
+  # @param [String] db_name
+  # @param [String] q
+  # @param [String] result_url
+  # @param [Fixnum] priority
+  # @param [Fixnum] retry_limit
+  # @param [Hash] opts
+  # @return [Job]
+  def query(db_name, q, result_url=nil, priority=nil, retry_limit=nil, opts={})</p>
+
+<pre><code># for compatibility, assume type is hive unless specifically specified
+type = opts[:type] || opts['type'] || :hive
+raise ArgumentError, "The specified query type is not supported: #{type}" unless [:hive, :pig, :impala, :presto].include?(type)
+job_id = @api.query(q, type, db_name, result_url, priority, retry_limit, opts)
+Job.new(self, job_id, type, q)
+</code></pre>
+
+<p>  end
+```</p>
+
+<p>上記の通りqueryメソッドの第5引数にoptsというハッシュで指定するオプションがあり、
+<code>type: :presto</code>な指定をするとHiveではなくPrestoでクエリが発行されます。</p>
+
+<p>以下、rakeタスクでのサンプルコードです。</p>
+
+<p>``` ruby rakeタスクでのサンプルコード
+namespace :execute do
+  desc &lsquo;download treasure data by presto&rsquo;
+  task presto: :environment do</p>
+
+<pre><code>apikey = 'your api key'
+db = 'your_db_name'
+query = 'select count(*) from your_table_name'
+client = TreasureData::Client.new apikey
+job = client.query db, query, nil, nil, nil, type: :presto
+until job.finished?
+  sleep 2
+  job.update_status!
+end
+job.update_status!
+p job.result if job.finished?
+</code></pre>
+
+<p>  end
+end
+```</p>
+
+<p><code>bash 実行
+bin/rake execute:presto
+</code></p>
+
+<p><code>bash 結果
+[[100]] # your_db_name.your_table_nameの件数
+</code></p>
+
+<p>上記のように単純なクエリの場合、Hiveだとパフォーマンス的にwebアプリ等から動的に取得するのが
+現実的に時間がかかりすぎたクエリでもPrestoであれば動的にデータ取得可能なので利用の幅が広がりますね。</p>
+
+<h2>合わせて読みたい</h2>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="『Prestoとは何か，Prestoで何ができるか』 - トレジャーデータ（Treasure Data）公式ブログ" src="http://hatenablog.com/embed?url=http://treasure-data.hateblo.jp/entry/2014/07/10/150250" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="[Ruby on Rails]td-clientでTreasureDataにQueryを発行する ｜ Developers.IO" src="http://hatenablog.com/embed?url=http://dev.classmethod.jp/server-side/ruby-on-rails/ruby-on-railstd-client_treasuredata_query_issue/" frameborder="0" scrolling="no"></iframe>
+
+]]></content>
+  </entry>
+  
+</feed>

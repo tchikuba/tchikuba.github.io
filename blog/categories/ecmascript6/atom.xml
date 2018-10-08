@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ECMAScript6 | tchikuba's blog]]></title>
+  <link href="http://tchikuba.github.io/blog/categories/ecmascript6/atom.xml" rel="self"/>
+  <link href="http://tchikuba.github.io/"/>
+  <updated>2018-10-08T23:21:59+09:00</updated>
+  <id>http://tchikuba.github.io/</id>
+  <author>
+    <name><![CDATA[tchikuba]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[「ECMAScript6勉強会」HappyHalloween JS 祭！！に参加してきました！]]></title>
+    <link href="http://tchikuba.github.io/blog/2015/10/31/ecma-script-6-study/"/>
+    <updated>2015-10-31T13:42:40+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2015/10/31/ecma-script-6-study</id>
+    <content type="html"><![CDATA[<p>2015年10月31日(土)に行われた<a href="http://eventdots.jp/event/571557">「ECMAScript6勉強会」HappyHalloween JS 祭！！</a>に参加してきました！
+ハロウィンということで仮装して参加すると参加費が半額になるというちょっと変わったイベントでしたｗ</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://twitter.com/hashtag/eventdots?src=hash">#eventdots</a> ハロウィン仕様の女子エンジニアたち <a href="https://t.co/d5IIPxpf2o">pic.twitter.com/d5IIPxpf2o</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/660315159399796736">2015, 10月 31</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>※リアルタイム更新してました！</p>
+
+<h2>『Good evening, ES6』byよしこ氏 <a href="https://twitter.com/yoshiko_pg">@yoshiko_pg</a></h2>
+
+<ul>
+<li>発表スライド
+
+<ul>
+<li><iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Good afternoon, ES6 - @yoshiko_pg" src="http://hatenablog.com/embed?url=http://yoshiko-pg.github.io/slides/20151031-es6-halloween/" frameborder="0" scrolling="no"></iframe></li>
+</ul>
+</li>
+<li>var &ndash;> constで変数の上書き禁止が可能に</li>
+<li>Template Strings</li>
+<li>関数のDefault Parametersが使えるように</li>
+<li>Rest Parametersで&hellip;argsで引数がarrayで取れるように</li>
+<li>Spread operator(スプレッド演算子)でapplyメソッド使用せずに配列を展開出来るように</li>
+<li>yoshiko氏の年齢がサンプルコードで暴露されてる（笑）</li>
+<li>Destructuringで変数の入れ替えの為のtmp変数が不要に</li>
+<li>Effective ES6(slideshareのスライドがオススメ)</li>
+<li>ES6をES5に変換するBabelを使うとES6で書くことが出来る</li>
+<li>Scratch JS(chrome拡張)入れるとES6をコンソール上で試せる</li>
+<li>gulpfileをv3.9.0以上ならES6で書ける</li>
+</ul>
+
+
+<h2>『Promises』by矢倉 眞隆氏 <a href="https://twitter.com/myakura">@myakura</a></h2>
+
+<ul>
+<li>発表の様子
+
+<ul>
+<li><blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">お次は矢倉さんによるPromiseのお話！ <a href="https://twitter.com/hashtag/eventdots?src=hash">#eventdots</a> <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://t.co/kRmQIKpQiY">pic.twitter.com/kRmQIKpQiY</a></p>&mdash; dots. 女子部 &ndash; 公式アカウント (@dotsgirls) <a href="https://twitter.com/dotsgirls/status/660320481405366272">2015, 10月 31</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+</ul>
+</li>
+<li>非同期処理について洗濯機とかお風呂とかの例</li>
+<li>JSでの非同期処理だとコールバックヘルに陥りがち</li>
+<li>thenで非同期処理を実行することが可能。メソッドチェーンで繋げることが出来る。</li>
+<li>Async functionでコールバックパターンから開放される方針。try,catchで書ける。MS EdgeやFirefoxで実装される予定。</li>
+</ul>
+
+
+<h2>『Function and Class』by川田 寛氏 <a href="https://twitter.com/_furoshiki">@_furoshiki</a></h2>
+
+<ul>
+<li>発表の様子
+
+<ul>
+<li><blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">pixiv川田さんによる『ECMAscript6 arrows &amp; classes』です！ガチャピンがすごいお似合いです！ <a href="https://twitter.com/hashtag/eventdots?src=hash">#eventdots</a> <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://t.co/1J9rSXJe5j">pic.twitter.com/1J9rSXJe5j</a></p>&mdash; dots. 女子部 &ndash; 公式アカウント (@dotsgirls) <a href="https://twitter.com/dotsgirls/status/660324997202771968">2015, 10月 31</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+</ul>
+</li>
+<li>Arrow Function
+
+<ul>
+<li>朝起きたらクリックイベント書きたくなる（笑）CoffeeScriptであるやつ(&ndash;>, =>)</li>
+<li>function,selfを書かなくて済むようになる</li>
+<li>引数は括弧を省略可能</li>
+</ul>
+</li>
+<li>ES6クラス
+
+<ul>
+<li>ES5まではclassなのにfunctionだしprototypeとか謎の宣言が必要だったがES6からclassが使えるように</li>
+<li>extendsも使えるように</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>『ブラウザで今すぐES6を使おう』by林 優一氏 <a href="https://twitter.com/frontainer">@frontainer</a></h2>
+
+<ul>
+<li>LIGのCTOやってる人</li>
+<li>ES2015のブラウザ実装状況はIE10で10%,Chromeで65%程度</li>
+<li>WebPack
+
+<ul>
+<li>Module Bundler require();したものの依存関係を解決してまとめる</li>
+<li>webpackコマンドで1つのJSとして合体して出力してくれる</li>
+<li>webpack.config.jsで設定を定義しておくとwebpackコマンドのみでいける</li>
+</ul>
+</li>
+<li>Browserify?</li>
+<li>Loader
+
+<ul>
+<li>読み込んだファイルに何かしらの処理をさせる</li>
+<li>html-loader</li>
+<li>babel-loader</li>
+</ul>
+</li>
+<li>babel-runtime
+
+<ul>
+<li>ファイルサイズに注意だが使った分だけ増える</li>
+</ul>
+</li>
+<li>frontplate
+
+<ul>
+<li>gulp + webpack + babelをまとめたやつを林さんが公開</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>『Years with JavaScript.Next』by dynamis氏 <a href="https://twitter.com/dynamitter">@dynamitter</a></h2>
+
+<ul>
+<li>発表の様子
+
+<ul>
+<li><blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">Javascriptの祖先図！初めて知りました！ <a href="https://twitter.com/hashtag/eventdots?src=hash">#eventdots</a> <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://t.co/VH1pY4EGYa">pic.twitter.com/VH1pY4EGYa</a></p>&mdash; dots. 女子部 &ndash; 公式アカウント (@dotsgirls) <a href="https://twitter.com/dotsgirls/status/660331941720289281">2015, 10月 31</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+</ul>
+</li>
+<li>FF1.0の日本語担当で死んだ思い出</li>
+<li>ECMAScript4はYahoo!とMSの猛烈な反対に合い陽の目を見ず</li>
+<li>FirefoxOSでES6書こう</li>
+<li>佐藤徹平さん(@teppeis)イチオシ</li>
+<li>FxDevCon キャンセル待ちだけど参加してね</li>
+</ul>
+
+
+<h2>QA</h2>
+
+<ul>
+<li>エディタ
+
+<ul>
+<li>vim, webstorm, atomとか。Visual Studio Codeも使いやすいかも</li>
+<li>FirefoxのScratchpadが便利でオススメ</li>
+<li>ES6に一番対応出来てるのはFirefoxじゃなくてEdge13(96%ぐらいES6対応が完了)</li>
+<li>プラグインでESlintとか入れればどのエディタでも使える</li>
+</ul>
+</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

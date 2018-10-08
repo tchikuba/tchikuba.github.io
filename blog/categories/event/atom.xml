@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: event | tchikuba's blog]]></title>
+  <link href="http://tchikuba.github.io/blog/categories/event/atom.xml" rel="self"/>
+  <link href="http://tchikuba.github.io/"/>
+  <updated>2018-10-08T23:21:59+09:00</updated>
+  <id>http://tchikuba.github.io/</id>
+  <author>
+    <name><![CDATA[tchikuba]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[イベント「非エンジニア起業家に求められるプログラミングスキルとは」に参加しました！]]></title>
+    <link href="http://tchikuba.github.io/blog/2017/07/19/programming-skils-for-entrepreneur/"/>
+    <updated>2017-07-19T19:00:00+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2017/07/19/programming-skils-for-entrepreneur</id>
+    <content type="html"><![CDATA[<p>昨晩<a href="http://everevo.com/event/39414">「非エンジニア起業家に求められるプログラミングスキルとは」</a>
+というイベントに参加してきました。</p>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">久々サムライインキュベートなう <a href="https://t.co/H9RSzbhKfQ">pic.twitter.com/H9RSzbhKfQ</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/887250994463203328">2017年7月18日</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>私はエンジニアで本来参加対象者って感じではないんですが、参加した目的は以下でした。</p>
+
+<ul>
+<li>参加者がエグゼクティブ向けプログラミング教育のターゲットとなる可能性のある人なので、話してニーズがあるかを確認する</li>
+<li>起業家にどれだけプログラミングスキルが求められる温度感なのか確認する</li>
+<li>今進めているプログラミング教育メディアの構想の壁打ちをしてみる</li>
+</ul>
+
+
+<hr />
+
+<p>目的は概ね達成できたかなと思っています。
+参加者の中で実際にニーズを持っていそうな人・ペルソナが特定できなかった部分はちょっと課題。</p>
+
+<p><a href="http://www.officedeyasai.jp/">OFFICE DE YASAI</a>というサービスを運営している
+株式会社KOMPEITOのCEOの川岸さん(登壇者)と話して感じたんですが、
+ある程度ステージが進んだエグゼクティブだとより短期的な成果を求めるのでどこまで何が良くなるのか？
+ということを提示できないとニーズを掘り起こすのが厳しそうだということ。</p>
+
+<p>また、その意味ではよりアーリーステージの起業家の方がニーズがあるのかもしれないと思いました。
+ただ、アーリーステージ起業家の場合だと、本人がプログラミングスキルそのものを身に付けるという話なので、
+その意味では私が想定するエグゼクティブ向けプログラミング研修とは違うかも。</p>
+
+<p>全体的にエンジニアの私にとってはそれほど真新しい話はなかったんですが、
+サムライインキュベートが支援するようなサービス開発のベンチャーは基本的に起業家がプログラミングできることか
+チームにエンジニアがいることが支援の条件でやはりアメリカ同様プログラミングスキルに対する
+ビジネス評価の温度感は高いです（当然か）。</p>
+
+<hr />
+
+<p>あとは以下、昨晩のメモと感じたことを箇条書きで記しておきます。</p>
+
+<ul>
+<li>アメリカにはプログラミングスクール女子校がある</li>
+</ul>
+
+
+<p>女性向けサービス開発を行う上で女性の感性が必要なので女性がプログラミングスキルを身に着けて起業家になる女子校があるそう。
+嫁に運営やらせたら面白いかも？とちょっと思いました。
+こういうニッチに特化した方が集客しやすい側面がありそう。</p>
+
+<ul>
+<li>エンジニアを起業家にする教育を施す学校のニーズは一定あるかも？</li>
+</ul>
+
+
+<p>登壇していた<a href="http://gsacademy.tokyo/">G’sアカデミー</a>も起業家向けのプログラミング教育を行ってますが、
+むしろエンジニア界隈で最近主流になってきているプロダクトマネージャーの流れで、
+エンジニアを起業家にする方が筋が良い場合があるのでは？と思いました。</p>
+
+<p>その延長線で、エンジニアを起業家にする教育を施す起業家養成学校をやったらニーズはありそうな気がしたんですがどうでしょう。</p>
+
+<ul>
+<li>和田さん曰く「プログラミングとエンジニアリングは分けて考えている」</li>
+</ul>
+
+
+<p>最低限動くモノづくりができるというプログラミングと、より良い設計やコードといった高度なエンジニアリングとは分けて考えている、
+ということ。
+CEOはプログラミングはできるべき、エンジニアリングまでは必要ない、とのこと。この主張は分かりやすく共感できた。</p>
+
+<ul>
+<li>G'sアカデミー児玉さん曰く「スクールの立ち上げに複数関わってきた経験から言えば、集客は難しい。良い講師を揃えれば生徒が集まるかというとそうでもなく工夫が必要」</li>
+</ul>
+
+
+<p>直感的に経験からの重い言葉と理解しました。
+個人的にはスクール立ち上げの経験がないので実感としてはまだ分からないですが、
+恐らくスクールに参加しようと思わせるマーケティングが必要だということと理解しました。</p>
+
+<hr />
+
+<p>現在少しずつ実験的に開発を進めている<a href="https://www.grami-sensei.com/">プログラミング教育メディア</a>の構想は筋は悪くなさそうという感触は得られました。ただ、ターゲットとなるペルソナは今回のイベントの参加者とはちょっとズレがあるのでその点は考慮が必要で引き続きヒアリングを進める必要がありそう。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[「ECMAScript6勉強会」HappyHalloween JS 祭！！に参加してきました！]]></title>
+    <link href="http://tchikuba.github.io/blog/2015/10/31/ecma-script-6-study/"/>
+    <updated>2015-10-31T13:42:40+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2015/10/31/ecma-script-6-study</id>
+    <content type="html"><![CDATA[<p>2015年10月31日(土)に行われた<a href="http://eventdots.jp/event/571557">「ECMAScript6勉強会」HappyHalloween JS 祭！！</a>に参加してきました！
+ハロウィンということで仮装して参加すると参加費が半額になるというちょっと変わったイベントでしたｗ</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://twitter.com/hashtag/eventdots?src=hash">#eventdots</a> ハロウィン仕様の女子エンジニアたち <a href="https://t.co/d5IIPxpf2o">pic.twitter.com/d5IIPxpf2o</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/660315159399796736">2015, 10月 31</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>※リアルタイム更新してました！</p>
+
+<h2>『Good evening, ES6』byよしこ氏 <a href="https://twitter.com/yoshiko_pg">@yoshiko_pg</a></h2>
+
+<ul>
+<li>発表スライド
+
+<ul>
+<li><iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Good afternoon, ES6 - @yoshiko_pg" src="http://hatenablog.com/embed?url=http://yoshiko-pg.github.io/slides/20151031-es6-halloween/" frameborder="0" scrolling="no"></iframe></li>
+</ul>
+</li>
+<li>var &ndash;> constで変数の上書き禁止が可能に</li>
+<li>Template Strings</li>
+<li>関数のDefault Parametersが使えるように</li>
+<li>Rest Parametersで&hellip;argsで引数がarrayで取れるように</li>
+<li>Spread operator(スプレッド演算子)でapplyメソッド使用せずに配列を展開出来るように</li>
+<li>yoshiko氏の年齢がサンプルコードで暴露されてる（笑）</li>
+<li>Destructuringで変数の入れ替えの為のtmp変数が不要に</li>
+<li>Effective ES6(slideshareのスライドがオススメ)</li>
+<li>ES6をES5に変換するBabelを使うとES6で書くことが出来る</li>
+<li>Scratch JS(chrome拡張)入れるとES6をコンソール上で試せる</li>
+<li>gulpfileをv3.9.0以上ならES6で書ける</li>
+</ul>
+
+
+<h2>『Promises』by矢倉 眞隆氏 <a href="https://twitter.com/myakura">@myakura</a></h2>
+
+<ul>
+<li>発表の様子
+
+<ul>
+<li><blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">お次は矢倉さんによるPromiseのお話！ <a href="https://twitter.com/hashtag/eventdots?src=hash">#eventdots</a> <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://t.co/kRmQIKpQiY">pic.twitter.com/kRmQIKpQiY</a></p>&mdash; dots. 女子部 &ndash; 公式アカウント (@dotsgirls) <a href="https://twitter.com/dotsgirls/status/660320481405366272">2015, 10月 31</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+</ul>
+</li>
+<li>非同期処理について洗濯機とかお風呂とかの例</li>
+<li>JSでの非同期処理だとコールバックヘルに陥りがち</li>
+<li>thenで非同期処理を実行することが可能。メソッドチェーンで繋げることが出来る。</li>
+<li>Async functionでコールバックパターンから開放される方針。try,catchで書ける。MS EdgeやFirefoxで実装される予定。</li>
+</ul>
+
+
+<h2>『Function and Class』by川田 寛氏 <a href="https://twitter.com/_furoshiki">@_furoshiki</a></h2>
+
+<ul>
+<li>発表の様子
+
+<ul>
+<li><blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">pixiv川田さんによる『ECMAscript6 arrows &amp; classes』です！ガチャピンがすごいお似合いです！ <a href="https://twitter.com/hashtag/eventdots?src=hash">#eventdots</a> <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://t.co/1J9rSXJe5j">pic.twitter.com/1J9rSXJe5j</a></p>&mdash; dots. 女子部 &ndash; 公式アカウント (@dotsgirls) <a href="https://twitter.com/dotsgirls/status/660324997202771968">2015, 10月 31</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+</ul>
+</li>
+<li>Arrow Function
+
+<ul>
+<li>朝起きたらクリックイベント書きたくなる（笑）CoffeeScriptであるやつ(&ndash;>, =>)</li>
+<li>function,selfを書かなくて済むようになる</li>
+<li>引数は括弧を省略可能</li>
+</ul>
+</li>
+<li>ES6クラス
+
+<ul>
+<li>ES5まではclassなのにfunctionだしprototypeとか謎の宣言が必要だったがES6からclassが使えるように</li>
+<li>extendsも使えるように</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>『ブラウザで今すぐES6を使おう』by林 優一氏 <a href="https://twitter.com/frontainer">@frontainer</a></h2>
+
+<ul>
+<li>LIGのCTOやってる人</li>
+<li>ES2015のブラウザ実装状況はIE10で10%,Chromeで65%程度</li>
+<li>WebPack
+
+<ul>
+<li>Module Bundler require();したものの依存関係を解決してまとめる</li>
+<li>webpackコマンドで1つのJSとして合体して出力してくれる</li>
+<li>webpack.config.jsで設定を定義しておくとwebpackコマンドのみでいける</li>
+</ul>
+</li>
+<li>Browserify?</li>
+<li>Loader
+
+<ul>
+<li>読み込んだファイルに何かしらの処理をさせる</li>
+<li>html-loader</li>
+<li>babel-loader</li>
+</ul>
+</li>
+<li>babel-runtime
+
+<ul>
+<li>ファイルサイズに注意だが使った分だけ増える</li>
+</ul>
+</li>
+<li>frontplate
+
+<ul>
+<li>gulp + webpack + babelをまとめたやつを林さんが公開</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>『Years with JavaScript.Next』by dynamis氏 <a href="https://twitter.com/dynamitter">@dynamitter</a></h2>
+
+<ul>
+<li>発表の様子
+
+<ul>
+<li><blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">Javascriptの祖先図！初めて知りました！ <a href="https://twitter.com/hashtag/eventdots?src=hash">#eventdots</a> <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://t.co/VH1pY4EGYa">pic.twitter.com/VH1pY4EGYa</a></p>&mdash; dots. 女子部 &ndash; 公式アカウント (@dotsgirls) <a href="https://twitter.com/dotsgirls/status/660331941720289281">2015, 10月 31</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+</ul>
+</li>
+<li>FF1.0の日本語担当で死んだ思い出</li>
+<li>ECMAScript4はYahoo!とMSの猛烈な反対に合い陽の目を見ず</li>
+<li>FirefoxOSでES6書こう</li>
+<li>佐藤徹平さん(@teppeis)イチオシ</li>
+<li>FxDevCon キャンセル待ちだけど参加してね</li>
+</ul>
+
+
+<h2>QA</h2>
+
+<ul>
+<li>エディタ
+
+<ul>
+<li>vim, webstorm, atomとか。Visual Studio Codeも使いやすいかも</li>
+<li>FirefoxのScratchpadが便利でオススメ</li>
+<li>ES6に一番対応出来てるのはFirefoxじゃなくてEdge13(96%ぐらいES6対応が完了)</li>
+<li>プラグインでESlintとか入れればどのエディタでも使える</li>
+</ul>
+</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[「dots.2周年記念パーティ」に参加しました！]]></title>
+    <link href="http://tchikuba.github.io/blog/2015/10/30/dots-2years-party/"/>
+    <updated>2015-10-30T19:22:05+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2015/10/30/dots-2years-party</id>
+    <content type="html"><![CDATA[<p>2015年10月30日(金)に行われた<a href="http://eventdots.jp/">dots</a>の<a href="http://eventdots.jp/event/571415">2周年記念パーティー</a>に参加してきました！
+rubyのパパこと<a href="https://twitter.com/yukihiro_matz">matz</a>の話が聞けるということで楽しみにしてたイベントでした。
+またdotsは渋谷のイベント・コワーキングスペースを2015年8月から運営しており、運営に関わっている人が知人でもあり、ちょこちょこ利用させて貰ってます。</p>
+
+<hr />
+
+<p>※リアルタイム更新してました！</p>
+
+<h2>まつもとゆきひろ氏</h2>
+
+<ul>
+<li>PHPで出来てるdotsにあまり関係ないruby開発者のまつもとゆきひろです（笑）</li>
+<li>スライドタイトルにデザイナってつけたのは渋谷でお洒落感出したかったからむりくり。</li>
+<li>ひろゆきの方が圧倒的に多い名前で2ch作った人ですよね？って間違えられた。</li>
+<li>同じように西村博之氏がruby作った人ですよね？って間違えられたことがあるらしい。</li>
+<li>プログラミングなんて教育出来ないですよねーとか言って嫌がられる。</li>
+<li>昔のスパコンは今のiPhone5と同じCPUパワー。</li>
+<li>言語が進化することで脳の限界で出来なかったことを出来るようになった。</li>
+<li>本質を理解すればバズワードではなくなる。</li>
+<li>C10K/C100K問題</li>
+<li>変わらないものが大事。数学・アルゴリズム・コンピュータ基礎・基本プロトコル・人間・インタフェースの原理</li>
+<li>matzが尊敬するデイブ・トーマス</li>
+<li>中学の時にプログラミングやったらコンピュータが思う通りに動いて「カワイイ」と思ったのが原点</li>
+<li>basic言語の辛みからプログラミング言語に関心を持った高校生時代。Pascalの本とか。</li>
+<li>未来はコンピュータと直接インタラクションするようになる。スタートレックのコンピュータみたいな。</li>
+<li>reactとか面白い。</li>
+</ul>
+
+
+<h2>パネルディスカッション</h2>
+
+<ul>
+<li>エンジニアの働き方とか</li>
+<li>ビットジャーニー代表井原さん：なんで呼ばれた感満載で技術分かんない</li>
+<li>VASILYのCTO今村さん：かっこいい写真</li>
+<li>クラウドワークスCTO大場さん：娘と一緒に登壇</li>
+<li>クックパッドCTO舘野さん：本日のモデレーター</li>
+</ul>
+
+
+<h3>未来に必要な技術とは？</h3>
+
+<ul>
+<li>スティーブ・ジョブズ見たらクズだった。クズさが必要by大場さん</li>
+<li>ベースになる技術が必要</li>
+<li>好きなモノを突き詰めてる人に任せたいと思う</li>
+</ul>
+
+
+<h3>未来に繋がる考え方は？</h3>
+
+<ul>
+<li>何の為に学ぶかをしっかり持つ。信念が大事</li>
+<li>仕事してても好きな仕事を優先してたまつもとゆきひろさん。クズ感出てきましたねｂｙ大場さん</li>
+<li>人の能力の総量は桁が違うということはない。あとはパラメータの問題。なので何か1つのことに振る方が集中出来る。ｂｙまつもとさん</li>
+</ul>
+
+
+<h3>どう働くべきなのか？</h3>
+
+<ul>
+<li>エンジニアが得意なことを1つの会社が囲うのは勿体無い。会社もオープンソース化すべき。ｂｙ井原さん</li>
+<li>毎朝保育所に子供をデプロイ（笑）して出社するとか、全力出せる時間が少なくなる。生活も子供中心。労働のオープンソース化までやりたいｂｙ大場さん</li>
+<li>朝来ないからと言って全力を出せないとは思っていない信頼感がある。エンジニアはパフォーマンスを出せる時間に集中することｂｙ今村さん</li>
+</ul>
+
+
+<h3>今後のオープンソースの動向</h3>
+
+<ul>
+<li>欲しいOSS
+
+<ul>
+<li>クラウド・ビッグデータ等のOSSは既にあるよね。hadoop,sparkとか。2世代目に凄いの来るかも。ｂｙまつもとさん</li>
+<li>meteorとかactive value？コンセプト。リアルタイムでデータを出力し続ける。データバインディングに革新が起きればSPAが画期的に変わってくる可能性。ｂｙまつもとさん</li>
+<li>口に出すの恥ずかしいソシャゲを登壇中にやるまつもとゆきひろさん（笑）</li>
+<li>TreasureData, Elasticsearchとか、更に運用を楽にしてくれるOSSがもっと出てくるかも。ｂｙ大場さん</li>
+<li>hashicoop製品使い始めたところ。決定版はまだまだなので欲しい。マーケティングオートメーション的なOSSとか。意思決定を支えるOSS。サービスレイヤーに近いOSS。ｂｙ今村さん</li>
+<li>kaizen platform的なものとかあるけどミドルウェアが違うので各社自社で実装している。ｂｙ舘野さん</li>
+<li>製品を半オープンソースにして製品のコードを使っている会社のエンジニアがプルリクエスト送ってくるみたいな。企業のありかた。レベニューシェアとか。ｂｙ井原さん</li>
+</ul>
+</li>
+<li>注目される開発コミュニティ
+
+<ul>
+<li>黎明期のOSSコミュニティは自身の影響度が大きいのでエンジニアとしてはやりがいがある。ｂｙ舘野さん</li>
+<li>日本人がいないコミュニティに入ると国際化対応とか日本人しか分からないところで貢献できるよねｂｙ大場さん</li>
+<li>開発コミュニティの敷居を下げるような活動とかOSSとかが必要。最初の一歩を手伝うような活動とかｂｙ今村さん</li>
+<li>コードレビューすらしていない会社もたくさん。OSS以前の問題で底上げが必要かもｂｙ井原さん</li>
+<li>大体動くけど隙があるOSSは他の人がコミットしてくれる。OSSに必要なのは炎上力だ！ｂｙまつもとさん</li>
+<li>DHHとか敢えて目立つ発言して炎上させてる節がある。あれもOSS運用力の一つかもｂｙ舘野さん</li>
+<li>コミュニティへの帰属意識が変わってきている。github時代は様々なOSSにコミットするように変わってきているｂｙまつもとさん</li>
+</ul>
+</li>
+<li>質問
+
+<ul>
+<li>好きなことに全振りすれば良い。サポートにはサポートの、新技術を開発する人にはその人の意味があるｂｙまつもとさん</li>
+<li>ダブルクリックというユーザーインターフェースが悪い（笑）ｂｙ今村さん</li>
+<li>ハードウェア系もArduinoから始まるオープン化で組合せでやりたいことが出来るようになってきたｂｙ舘野さん</li>
+<li>toC向けのハードウェアサービスレイヤのイノベーションはこれから起きるんじゃないか。mrubyとかも2020年とかにもっと爆発的に広まるんじゃないかｂｙ舘野さん</li>
+<li>新しいことが生まれる時は未知との遭遇から。ハードウェアエンジニアとウェブエンジニアだと摩擦が起きるけどそれを乗り越えたらイノベーションがｂｙまつもとさん</li>
+<li>時間の使い方や優先順位を伝えるのも重要だがノンバーバルな部分が伝わるのでちゃんと朝・晩は一緒に娘と飯を食うように自分にルールを課したｂｙまつもとさん</li>
+</ul>
+</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

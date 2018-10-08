@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: google | tchikuba's blog]]></title>
+  <link href="http://tchikuba.github.io/blog/categories/google/atom.xml" rel="self"/>
+  <link href="http://tchikuba.github.io/"/>
+  <updated>2018-10-08T23:21:59+09:00</updated>
+  <id>http://tchikuba.github.io/</id>
+  <author>
+    <name><![CDATA[tchikuba]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[「エンジニア近未来ワークスタイル2014」@GoogleJapanオフィスに行ってきた]]></title>
+    <link href="http://tchikuba.github.io/blog/2014/02/14/engineers-work-style-at-google-japan/"/>
+    <updated>2014-02-14T23:00:00+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2014/02/14/engineers-work-style-at-google-japan</id>
+    <content type="html"><![CDATA[<p><a href="http://event.shoeisha.jp/devsumi/20140213/">デブサミ2014</a>のあと更にイベントは続きます！
+というわけで<a href="http://everevo.com/event/10001">「エンジニア近未来ワークスタイル2014」</a>に参加しました！
+大雪の中でしたが、初のGoogle Japanオフィス訪問ということもあり、またイベントの内容にも大満足で参加して本当に良かったです。</p>
+
+<hr />
+
+<h1>sponserの人の話</h1>
+
+<h2>googleの人</h2>
+
+<ul>
+<li>なぜ日本から<a href="http://app.famitsu.com/20140213_316346/">Flappy Bird</a>が出なかったのか。結構悔しい思いをしている</li>
+<li>アントレプレナーシップを持った人がもっとたくさん日本から出ると良いな</li>
+</ul>
+
+
+<h2>良くわかんない人</h2>
+
+<ul>
+<li>ITなのにOOPがわからんという話しとった</li>
+</ul>
+
+
+<h2><a href="http://www.acro-net.com/">アクロネット</a>亀山さん</h2>
+
+<ul>
+<li>アクロネットさん、以前一緒に仕事したことあるなぁ</li>
+<li>フリーランスのエンジニアを大量採用した時にお世話になりました</li>
+</ul>
+
+
+<h2><a href="http://goalist.co.jp/">Goalist</a>入倉さん</h2>
+
+<ul>
+<li><a href="http://hrog.net/">HRog.net</a>という人材業界に特化したキュレーションメディアやってるところ。何かニッチだったから覚えてる気が</li>
+<li>エンジニア3名だけど足りてないそうな</li>
+</ul>
+
+
+<h2><a href="http://share0.net/">シェアゼロ</a>の中の人</h2>
+
+<ul>
+<li>HPがかなりひどいｗ</li>
+<li>今回のイベントの企画者。以下のイベント記事が詳しいです。
+
+<ul>
+<li><a href="http://prosheet.jp/blog/event/260/">元アップルジャパンCEO 山元賢治さん登壇！エンジニア近未来ワークスタイル2014 イベントレポ【前編】</a></li>
+<li><a href="http://prosheet.jp/blog/event/296/">エンジニア近未来ワークスタイル2014　イベントレポ【後編】</a></li>
+</ul>
+</li>
+</ul>
+
+
+<h1>基調講演「これからの世界」で働くリーダーとは　〜エンジニアが生き抜くために〜</h1>
+
+<h2>profile</h2>
+
+<ul>
+<li>発表者：コミュニカ<a href="http://www.odekake.us/index/brilliant_people99.htm">山元賢治氏</a></li>
+<li>日本IBM→日本オラクル→EMCジャパン→日本オラクル→アップルコンピュータ→<a href="http://communica.co.jp/">コミュニカ</a>
+
+<ul>
+<li>外資系社長やってるとたくさん脅迫状が届くｗ</li>
+<li>人工知能の研究をやっていた</li>
+<li>35歳以降すべてアメリカ人がボス</li>
+<li><a href="http://ja.wikipedia.org/wiki/%E3%83%86%E3%82%A3%E3%83%A0%E3%83%BB%E3%82%AF%E3%83%83%E3%82%AF">ティム・クック</a>が同期って凄えぇｗ</li>
+<li>「俺はいつまでもスティーブ・ジョブズのファンだ」という捨て台詞はいてアップルを辞めた</li>
+</ul>
+</li>
+<li>現職のコミュニカで日本のコミュニケーション力向上をテーマに起業</li>
+<li>学生時代は医者になれと言われて育ったが自分には向いてないと思った→IBMの広告見て機械の医者になろうと思った</li>
+<li>IBMに入る為に神戸大学のシステム工学科に入学して勉強に明け暮れた</li>
+</ul>
+
+
+<h2>エンジニアに向けたヒント</h2>
+
+<ul>
+<li><a href="http://diamond.jp/articles/-/35021?page=2">Glorious Discontent</a>: 栄光ある不満
+
+<ul>
+<li>前向きな不満を持て！</li>
+<li>先輩／上司の言うことが全て正しいと思うな</li>
+</ul>
+</li>
+<li>20年前のテレビと現在のテレビを比較すると分かること</li>
+<li>誰かが作った常識の範囲内でしか発想が出てこないのが今の日本</li>
+<li>世の中はずっと変わっている。20年後今と同じものはない</li>
+<li>変わり続けることだけが地球上でたったひとつの真実
+
+<ul>
+<li>The only constant is CHANGE</li>
+<li>Thonly constan tiz CHANGEと聞こえる</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>ここがヘンだよ日本人</h2>
+
+<ul>
+<li>Representative: 当事者意識
+
+<ul>
+<li>居酒屋であの仕事は俺の仕事じゃないとか言ってるから終わってる</li>
+<li>日本人はもっと当事者意識を持てば勝てる！</li>
+</ul>
+</li>
+<li>会議で発言しない日本人
+
+<ul>
+<li>発言しないとバカだと思われる</li>
+<li>MTGは2つある: 意思決定or情報共有</li>
+<li>日本は情報共有ばかりの会議。そういう会議は不要！</li>
+</ul>
+</li>
+<li>部下を引き連れ民族大移動はアホ
+
+<ul>
+<li>スティーブ・ジョブズは死ぬまで自分で車運転してた</li>
+</ul>
+</li>
+<li>会議で寝ている日本人
+
+<ul>
+<li>徹夜が自慢は日本人だけ</li>
+</ul>
+</li>
+<li>未来の坂本龍馬／龍子を
+
+<ul>
+<li>女性が強くなる</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>スティーブ・ジョブズから学んだこと</h2>
+
+<ul>
+<li><a href="http://jobs.gaga.ne.jp/">映画「スティーブ・ジョブズ」</a>見て下さい！</li>
+<li>日本元気がないから日本を元気にしてくれ by スティーブ・ジョブズ</li>
+<li>決めつけない
+
+<ul>
+<li>Stay hungry, Stay foolish.</li>
+<li><a href="http://www.strategic-presentation.com/jobs_stay_hungry_stay_foolish/">この記事</a>は非常に深い洞察ですね。</li>
+</ul>
+</li>
+<li>このままじゃIBMに騙されるぞ、IBMをぶっ壊すTVCMを1984年に流した</li>
+<li>情熱を注ぎ込める仕事を探す</li>
+<li>The Snowball Effect
+
+<ul>
+<li>早め早めの問題解決</li>
+<li>問題が大きくなる前に小さな失敗で</li>
+</ul>
+</li>
+<li>時間と重力だけ平等</li>
+<li>2007年のiPhone</li>
+<li>お財布機能がないのは自分のせい
+
+<ul>
+<li>Kenji, お財布機能はアメリカではまだ必要ないな！はい次の質問・・・</li>
+</ul>
+</li>
+<li><a href="http://ja.wikipedia.org/wiki/Think_different">Think Different</a></li>
+</ul>
+
+
+<h2>まとめ</h2>
+
+<ul>
+<li>20代後半が一番動く
+
+<ul>
+<li>人生の大きな選択</li>
+</ul>
+</li>
+<li>30代前半は更に
+
+<ul>
+<li>一回り下の世代と居酒屋で会う</li>
+</ul>
+</li>
+<li>John Dewey
+
+<ul>
+<li>教育者</li>
+<li>昔はアメリカも日本のような詰め込み教育やっていた</li>
+<li>if we teach as we taught yesterday, we rob our children &hellip;</li>
+</ul>
+</li>
+</ul>
+
+
+<h1>業界リーダーセッション　近未来ワークスタイルの今と未来の検証</h1>
+
+<ul>
+<li>モデレーター: フリーランスエンジニアの会代表</li>
+</ul>
+
+
+<h2>SCENE１：「 受託（クラウドソーシング）」で活きる　　×　「委託（SES等）」で活きる</h2>
+
+<h3>パネリストprofile</h3>
+
+<ul>
+<li><a href="http://www.lancers.jp/">ランサーズ</a>CEO秋好陽介氏</li>
+<li><a href="http://www.pasonatech.co.jp/">パソナテック</a>執行役員粟生万琴氏
+
+<ul>
+<li><a href="http://monostreet.jp/">MONO STREET</a></li>
+<li>農業やる若い人を増やす取り組み</li>
+</ul>
+</li>
+</ul>
+
+
+<h3>クラウドソーシングって稼げるのか</h3>
+
+<ul>
+<li>ランサーズでは人による
+
+<ul>
+<li>週2,3日で年収800万とか稼いでいる人も</li>
+<li>ただし現状まだまだ単価が低い</li>
+</ul>
+</li>
+<li>新規事業開発的なもの：パソナテック</li>
+</ul>
+
+
+<h3>ゴールって</h3>
+
+<ul>
+<li>エンジニアとしてプロダクトを</li>
+<li>女性エンジニアを増やす</li>
+<li>プログラミングを早い段階から体験出来るようなこと</li>
+</ul>
+
+
+<h2>SCENE２： メディアとして活きる　×投資家（インキュベーター）として活きる　　</h2>
+
+<h3>パネリストprofile</h3>
+
+<ul>
+<li>TechwWave編集長・イマジニア　<a href="https://twitter.com/maskin">増田 真樹（maskin）氏</a>
+
+<ul>
+<li>宇都宮在住42歳</li>
+<li>スペインにある会社の一社員としても</li>
+<li>地方に住んでいいても開発できるロールモデルに</li>
+<li><a href="http://techwave.jp/archives/apphack2014.html">2014年2月21日(金)アプリ博</a></li>
+</ul>
+</li>
+<li><a href="http://engineer.east.vc/">East Ventures</a> 　co-founder   <a href="http://ja.wikipedia.org/wiki/%E8%A1%9B%E8%97%A4%E3%83%90%E3%82%BF%E3%83%A9">衛藤 バタラ氏</a>
+
+<ul>
+<li>エンジニアに特化したアクセラレータープログラムの運用</li>
+<li>メルカリ／BASE／ツイキャスなどに投資</li>
+<li>mixi立ち上げた理由
+
+<ul>
+<li>最初Find Job!やってたが笠原さんが作ってたのでコードが汚くずっとやりたくない</li>
+<li>当時アメリカではやっていたSNSをやりたいと笠原さんに言ってmixiを開発</li>
+</ul>
+</li>
+<li>ベンチャー投資が活性化する日本にする</li>
+</ul>
+</li>
+</ul>
+
+
+<h3>なぜ自分がやっていた仕事が変わったのか</h3>
+
+<ul>
+<li>フェーズ毎にやること変えた by 増田真樹氏</li>
+<li>エンジニアにこだわってなかった。単にプロダクト作りたい。今後は投資家としてプロダクトづくりの人を応援したい by 衛藤バタラ氏</li>
+</ul>
+
+
+<h3>日本や海外のエンジニアに期待すること</h3>
+
+<ul>
+<li>世界から見た場合、業界全体での日本の存在感が全くない by 増田真樹氏</li>
+<li>エンジニアは優秀だが嫌でも仕事するのが日本。起業する人は少ない by 衛藤バタラ氏</li>
+</ul>
+
+
+<h2>SCENE３ ：　「起業」で活きる　×「企業」で活きる</h2>
+
+<h3>パネリストprofile</h3>
+
+<ul>
+<li>リーンスタートアップジャパン合同会社　代表　<a href="http://www.opencu.com/2013/07/wanami-lean-start-up/">和波 俊久氏</a>
+
+<ul>
+<li>人生で起業は3回目。それ以外にもいろいろなことをやってきた</li>
+<li>あと3社ぐらいはやりたい</li>
+<li>銅像になりたい（笑）←死んだ後に評価されるしかない</li>
+</ul>
+</li>
+<li>ビズリーチCTO　<a href="https://twitter.com/takeuchi_shin">竹内 真氏</a>
+
+<ul>
+<li>余談ですが彼がCEOやってるレイハウオリさん以前一緒に仕事したことありますね</li>
+<li>業界騒然するような大きな動きを</li>
+<li>死ぬまでチャレンジ、ゴールなんてない</li>
+</ul>
+</li>
+</ul>
+
+
+<h3>フリーランスと起業との違いは</h3>
+
+<ul>
+<li>特にないんじゃ。やりたいことととマッチ度合いで選択 by 和波 俊久氏
+
+<ul>
+<li>アントレプレナーシップ＝社会不適合者</li>
+</ul>
+</li>
+<li>境目くっきり。フリーランスやってクソ忙しいとき死にそうになった。運命共同体を作ろうと思って起業した。（笑）by 竹内 真氏
+
+<ul>
+<li>クソ忙しい時に面白い話がやってくる</li>
+<li>酸素カプセル行ったら睡眠時間が2倍に（笑）</li>
+<li>16h働けば2つできるじゃん（笑）</li>
+<li>1日8hマッサージ1ヶ月受けたら10代に戻れるんじゃないか（笑）という中二病にかかってるｗ</li>
+</ul>
+</li>
+<li>ふたりとも動いてないと死ぬ＝マグロみたいですね（笑） by フリーランスエンジニアの会代表のモデレーターの人</li>
+</ul>
+
+
+<h2>SCENE３：  CEOとして活きる　×CTOとして活きる　　</h2>
+
+<h3>パネリストprofile</h3>
+
+<ul>
+<li>ネットスケットCEO　<a href="http://itnp.net/story/242">芥川 武氏</a>
+
+<ul>
+<li>ものが作れないとダメだということでエンジニア</li>
+<li>日本最大のアダルトサイトを作った！（笑）</li>
+<li>エンジニアの天国を作りたい！
+
+<ul>
+<li>お客さんにバグって言われるとイラッとくる。「仕様です」( ･´ｰ･｀)どや（笑）</li>
+<li>非人間的扱いを受けるエンジニア</li>
+</ul>
+</li>
+<li><a href="http://everevo.com/">everevo</a>: イベントSNS
+
+<ul>
+<li>人生を変えるイベントの出会いを</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>ChatWork　CTO　<a href="https://www.chatwork.com/cw_masaki">山本 正喜氏</a>
+
+<ul>
+<li>現在33歳</li>
+<li>大学在学中に兄とともに<a href="http://www.ecstudio.jp/">EC studio創業(現：ChatWork)</a></li>
+<li><a href="http://www.chatwork.com/ja/">ChatWork</a>知ってる人多数
+
+<ul>
+<li>30万ユーザ</li>
+<li>ビジネスコミュニケーションにおける世界のスタンダードに</li>
+<li>兄の山本 敏行氏は<a href="https://www.facebook.com/silicon.valley.challenge">シリコンバレーへ</a></li>
+</ul>
+</li>
+<li>時間と場所の制約をなくせるのがITの力</li>
+</ul>
+</li>
+</ul>
+
+
+<h3>なぜそのサービスをやりたいと思ったのか</h3>
+
+<ul>
+<li>本当にやりたいことをやろうと決めたらたまたまの縁が広がっていった by 芥川 武氏</li>
+<li>EC studioの効率化オタク的な部分が強みだった。当時からskypeだったが結構使いづらく社内ツールとして開発したのがチャットワーク by 山本 正喜氏
+
+<ul>
+<li><a href="http://blog.ecstudio.jp/ec_studio_blog/090526web-analyst.html">Web Analyst</a>がおおごけした時期</li>
+</ul>
+</li>
+</ul>
+
+
+<h3>起業志向の人へのアドバイス</h3>
+
+<ul>
+<li>非エンジニアの人にたくさん会うこと by 芥川 武氏</li>
+<li>今は起業環境に恵まれている。スタートアップ界隈見てると経営の勉強をもっとした方が良いと思う。 by 山本 正喜氏
+
+<ul>
+<li>プロダクトはみんな興味があるからそこまでシフトしなくても</li>
+<li>ChatWorkはプロダクトよりに見えるかもだが経営を勉強しているからうまく行ってる部分が多いと思っている</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>SCENE5：  日本企業のオフショアで活きる　×グローバル企業で国内で活きる　　</h2>
+
+<h3>パネリストprofile</h3>
+
+<ul>
+<li>日本マイクロソフト　<a href="http://cloud.watch.impress.co.jp/docs/special/20121227_580175.html">砂金 信一郎氏</a>
+
+<ul>
+<li>日本オラクル→ローランド・ベルガー→リアルコム→日本マイクロソフト</li>
+</ul>
+</li>
+</ul>
+
+
+<h1>関連書籍</h1>
+
+<ul>
+<li>WORK SHIFT</li>
+</ul>
+
+
+<p><a href="http://www.amazon.co.jp/gp/product/4833420163/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4833420163&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4833420163&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4833420163" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<ul>
+<li>伝説の元アップル・ジャパン社長の40講義 「これからの世界」で働く君たちへ</li>
+</ul>
+
+
+<p><a href="http://www.amazon.co.jp/gp/product/4478022666/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4478022666&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4478022666&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4478022666" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<hr />
+
+<p>スポンサーの人の挨拶がちょっと長かったですね。。
+山元さんの話すげぇ。めちゃめちゃ刺激になった。というか衝撃。
+最強の国際人という印象でした。そしてスティーブ・ジョブズへの愛が半端無かったす。</p>
+
+<p>また山元さんの基調講演の後、軽い飲食ありの懇親会を挟んでのコラボセッションもまた面白かった！
+今日の登壇者は変人だらけでした。最高に良い意味で。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[「Team GeekによるFearless Change」@デブサミ2014 2日目を聞いた]]></title>
+    <link href="http://tchikuba.github.io/blog/2014/02/14/team-geek-of-developers-summit-2014/"/>
+    <updated>2014-02-14T11:30:00+09:00</updated>
+    <id>http://tchikuba.github.io/blog/2014/02/14/team-geek-of-developers-summit-2014</id>
+    <content type="html"><![CDATA[<p>さぁ、<a href="http://event.shoeisha.jp/devsumi/20140213/">デブサミ2014</a>も2日目に入りました！
+今日はどっぷり丸1日いろんなセッションに参加予定です。
+が、外はまさかの2週連続の大雪という。。
+残念ですが今後のセッションも楽しみにしているので是非継続してくれることを願いつつ。。</p>
+
+<p>2日目の朝は<a href="http://event.shoeisha.jp/devsumi/20140213/session/409/">サイバーエージェント藤田さんのセッション</a>があったんですが
+デブサミはやはりエンジニアよりの話をということで
+<a href="http://event.shoeisha.jp/devsumi/20140213/session/425/">「Team GeekによるFearless Change」</a>というセッションを聞きました。
+ほとんど本の宣伝的なセッションでしたがTeam Geek読んだことあって、素晴らしい本だったので聞いて良かったです。</p>
+
+<hr />
+
+<h1>導入</h1>
+
+<ul>
+<li>発表者：ワイクル株式会社 角征典さん twitter: <a href="https://twitter.com/kdmsnr">@kdmsnr</a></li>
+<li>アジャイル開発を非エンジニアに理解してもらう為のワークショップをやってる
+
+<ul>
+<li>若干お金儲けの為というのも否めない</li>
+<li>エンジニアはアジャイル開発の為にお金使わないので</li>
+</ul>
+</li>
+<li>エンジニアはコードを書くことで価値を提供する</li>
+<li>組織変革の為の時間をエンジニアがさくのは微妙</li>
+</ul>
+
+
+<h1><a href="http://ja.wikipedia.org/wiki/%E6%9C%89%E6%A9%9F%E4%BD%93%E8%AB%96">有機的自然観</a> &lt;=> <a href="http://kotobank.jp/word/%E6%A9%9F%E6%A2%B0%E8%AB%96%E7%9A%84%E8%87%AA%E7%84%B6%E8%A6%B3">機械論的自然観</a></h1>
+
+<ul>
+<li>点と点をつなげること
+
+<ul>
+<li>by スティーブ・ジョブズ</li>
+</ul>
+</li>
+<li><a href="http://ja.wikipedia.org/wiki/%E3%83%91%E3%82%BF%E3%83%B3%E3%83%BB%E3%83%A9%E3%83%B3%E3%82%B2%E3%83%BC%E3%82%B8">パターン・ランゲージ</a>
+
+<ul>
+<li>by <a href="http://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%88%E3%83%95%E3%82%A1%E3%83%BC%E3%83%BB%E3%82%A2%E3%83%AC%E3%82%B0%E3%82%B6%E3%83%B3%E3%83%80%E3%83%BC">クリストファー・アレグザンダー</a></li>
+<li>自然の美しさを人工的に表現したい</li>
+</ul>
+</li>
+<li>機械論的自然観では人間を表現出来ない</li>
+</ul>
+
+
+<h1>パターン・ランゲージ</h1>
+
+<ul>
+<li>場当たり的対応で良いのか
+
+<ul>
+<li>出来事の連続が大切</li>
+<li>変化は少しずつ発生する</li>
+<li>人間の反応は予測出来ない</li>
+<li>一度に一つのパターン</li>
+</ul>
+</li>
+<li>同じアイディアでも受け入れ方は違う場合がある
+
+<ul>
+<li>同じアイディアをチョコチップクッキーをあげて相談すると受け入れられた</li>
+<li>何もあげないで相談すると受け入れられなかった→アイディアではなく食べ物が大事</li>
+<li>フード三原則</li>
+</ul>
+</li>
+<li>結束力を高める
+
+<ul>
+<li>感謝</li>
+</ul>
+</li>
+<li>自分で人を巻き込むパターンを作ろう
+
+<ul>
+<li>愛されキャラパターン
+
+<ul>
+<li>「いいひと」戦略 by 岡田斗司夫</li>
+</ul>
+</li>
+<li>でもやるんだよパターン
+
+<ul>
+<li>因果鉄道の旅 by 根本敬</li>
+</ul>
+</li>
+<li>現実歪曲空間を演出するパターン
+
+<ul>
+<li>スティーブ・ジョブズのRDF(Reality Distortion Field)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>パターンの構造は文脈・問題・制約・解決の4つ</li>
+<li>パターンの連続がパターン・ランゲージ</li>
+<li><a href="http://fearlessjourney.info/">Fearless Journeyというカード</a>を売ってるw
+
+<ul>
+<li>HPがクール過ぎる。。</li>
+<li>レキサスの社員ブログの<a href="http://blog.lexues.co.jp/15344.html">この記事</a>が分かりやすいですね。</li>
+</ul>
+</li>
+</ul>
+
+
+<h1>パターンとフレームワーク</h1>
+
+<ul>
+<li>XPとスクラム</li>
+<li>プラクティスと原則</li>
+<li>レシピとマニュアル</li>
+<li>フレームワークとしてTeam Geekという本をオススメしたい</li>
+<li>アジャイルってヒトコトも言ってないのにアジャイルっぽい</li>
+<li>新しいソフトウェア開発手法 by <a href="http://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%83%BB%E3%83%95%E3%82%A1%E3%82%A6%E3%83%A9%E3%83%BC">マーティン・ファウラー</a>
+
+<ul>
+<li>俺がアジャイル育てたんだよ</li>
+<li>アジャイル宣言参加したかった</li>
+<li>スケジュールがコンフリクトして参加出来ず</li>
+</ul>
+</li>
+</ul>
+
+
+<h1>組織／チーム</h1>
+
+<ul>
+<li>自然のプログラマ == ハッカー／ギーク</li>
+<li>三本柱HRT(ハート)の話: 謙虚・尊敬・信頼</li>
+<li>弱点がないのは危険。弱点を公開していく方が組織がうまくいく</li>
+<li>弱点を見せる。見せた弱点を克服する必要はない。チームで補完。チームは競争相手ではない</li>
+<li>怪我の話は盛り上がる</li>
+<li>技術スキルよりも文化の適合を選択すべき</li>
+<li><a href="http://itpro.nikkeibp.co.jp/article/Keyword/20100723/350589/">サーバント・リーダーシップ</a>
+
+<ul>
+<li>謙虚と犠牲は区別がつかない</li>
+<li>チームのためなら衝突も健全</li>
+<li>衝突後に後腐れがないように</li>
+</ul>
+</li>
+</ul>
+
+
+<hr />
+
+<p>特にTeam Geekはマジオススメしたい本です。
+自分ちょうど組織で苦戦してた時に読んでかなり救われた本でした。
+HRT! HRT! HRT!ってなりますw
+<a href="http://blog.jmuk.org/2013/07/team-geek.html">このブログ</a>に詳細な書評が書いてありました。</p>
+
+<p>今日のセッションで紹介のあった本は以下の通りです。</p>
+
+<ul>
+<li>Team Geek</li>
+</ul>
+
+
+<p><a href="http://www.amazon.co.jp/gp/product/4873116309/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4873116309&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4873116309&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4873116309" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<ul>
+<li>Fearless Change アジャイルに効く アイデアを組織に広めるための48のパターン</li>
+</ul>
+
+
+<p><a href="http://www.amazon.co.jp/gp/product/462108786X/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=462108786X&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=462108786X&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=462108786X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<ul>
+<li>超情報化社会におけるサバイバル術 「いいひと」戦略</li>
+</ul>
+
+
+<p><a href="http://www.amazon.co.jp/gp/product/4838725485/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4838725485&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4838725485&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4838725485" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<ul>
+<li>因果鉄道の旅</li>
+</ul>
+
+
+<p><a href="http://www.amazon.co.jp/gp/product/4344414640/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4344414640&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4344414640&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4344414640" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<ul>
+<li>ゴロツキはいつも食卓を襲う</li>
+</ul>
+
+
+<p><a href="http://www.amazon.co.jp/gp/product/4778313135/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4778313135&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4778313135&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4778313135" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+]]></content>
+  </entry>
+  
+</feed>
