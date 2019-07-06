@@ -8,9 +8,9 @@
   <title>tchikuba's blog</title>
 
   
-  <meta name="description" content="デブサミ2014 2日目。
-ミイル/トレタ増井雄一郎氏の「エンジニアだからできる 自由な生き方」というセッションを聞いて内容をまとめました。
-増井雄一郎さんといえばmrubyのイメージである程度略歴知っていたんでどういう考えなのか聞いてみたかったんですよね。 &hellip;">
+  <meta name="description" content="引き続きデブサミ2014。
+ドワンゴ吉村総一郎氏によるセッション「Play2/Scalaでドメイン駆動設計を利用した大規模Webアプリケーションのスクラム開発の勘所」を聞きました。 いろんなところで良く聞くPHPレガシーコードにどう立ち向かったのか聞いてみたかったです。
+案の定というか、 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -50,9 +50,9 @@ $(document).ready( function () {
 
 
   <meta property="og:title" content="tchikuba's blog" />
-<meta property="og:description" content="デブサミ2014 2日目。
-ミイル/トレタ増井雄一郎氏の「エンジニアだからできる 自由な生き方」というセッションを聞いて内容をまとめました。
-増井雄一郎さんといえばmrubyのイメージである程度略歴知っていたんでどういう考えなのか聞いてみたかったんですよね。 &hellip;" />
+<meta property="og:description" content="引き続きデブサミ2014。
+ドワンゴ吉村総一郎氏によるセッション「Play2/Scalaでドメイン駆動設計を利用した大規模Webアプリケーションのスクラム開発の勘所」を聞きました。 いろんなところで良く聞くPHPレガシーコードにどう立ち向かったのか聞いてみたかったです。
+案の定というか、 &hellip;" />
 <meta property="og:url" content="http://tchikuba.github.io/blog/page/4/" />
 <meta property="og:image" content="http://tchikuba.github.io/images/facebook_profile.jpg" />
 <meta property="og:author" content="tchikuba" />
@@ -94,6 +94,188 @@ $(document).ready( function () {
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/02/14/play2-scala-ddd-scrum-of-developers-summit-2014/">ドワンゴ吉村総一郎氏「Play2/Scalaでドメイン駆動設計を利用した大規模Webアプリケーションのスクラム開発の勘所」@デブサミ2014 2日目</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-02-14T16:50:00+09:00" pubdate data-updated="true">Feb 14<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>引き続き<a href="http://event.shoeisha.jp/devsumi/20140213/">デブサミ2014</a>。
+ドワンゴ吉村総一郎氏によるセッション<a href="http://event.shoeisha.jp/devsumi/20140213/session/407/">「Play2/Scalaでドメイン駆動設計を利用した大規模Webアプリケーションのスクラム開発の勘所」</a>を聞きました。
+<img src="/images/play2-scala-ddd-scrum/1.jpg" alt="top slide" />
+いろんなところで良く聞くPHPレガシーコードにどう立ち向かったのか聞いてみたかったです。
+案の定というか、想像以上のPHPレガシーコードっぷりにちょっと感動すらしましたがｗ</p>
+
+<hr />
+
+<h1>profile</h1>
+
+<ul>
+<li><a href="http://info.dwango.co.jp/">株式会社ドワンゴ</a> <a href="https://twitter.com/sifue">吉村総一郎氏</a></li>
+<li>ウォーターフォール開発とアジャイル開発の両方のマネージャー経験</li>
+<li><a href="http://sifue.hatenablog.com/entry/2014/02/14/195018">スライド</a></li>
+</ul>
+
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/31204064" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/sifue/developers-summit-2014-play2scalaweb" title="Developers Summit 2014 「Play2/Scalaでドメイン駆動設計を利用した大規模Webアプリケーションのスクラム開発の勘所」" target="_blank">Developers Summit 2014 「Play2/Scalaでドメイン駆動設計を利用した大規模Webアプリケーションのスクラム開発の勘所」</a> </strong> from <strong><a href="http://www.slideshare.net/sifue" target="_blank">Yoshimura Soichiro</a></strong> </div></p>
+
+<h1>ニコニコ生放送を書き直す理由</h1>
+
+<ul>
+<li>コードの技術的負債がやばい</li>
+<li>PHPで書かれている: 300万行！
+
+<ul>
+<li>facebookで1000万行と言われているそう</li>
+</ul>
+</li>
+<li>1万行のクラスや4000行のメソッド</li>
+<li>循環的複雑度600超のメソッドががが
+
+<ul>
+<li>あまりに複雑過ぎて龍の巣と言われている（笑）</li>
+<li>まさに壊れかけのジェンガのよう</li>
+</ul>
+</li>
+<li>企画やスケジュールを優先するあまり品質を疎かにする開発体制</li>
+</ul>
+
+
+<h1>どうやって？</h1>
+
+<ul>
+<li>スモールスタート／スモールリリース</li>
+<li>2週間に1度、<a href="http://books.google.co.jp/books?id=qqkQ-HhjZf0C&amp;pg=PA208&amp;lpg=PA208&amp;dq=%E3%82%B7%E3%83%A7%E3%83%BC%E3%82%B1%E3%83%BC%E3%82%B9%E3%80%80%E3%82%A2%E3%82%B8%E3%83%A3%E3%82%A4%E3%83%AB&amp;source=bl&amp;ots=eHDng0u5MV&amp;sig=l4tCZtgK-4xsdDZFHSXr9MgTrCQ&amp;hl=ja&amp;sa=X&amp;ei=gEQAU8qmEIe6lAXtooHADw&amp;ved=0CEAQ6AEwAw#v=onepage&amp;q=%E3%82%B7%E3%83%A7%E3%83%BC%E3%82%B1%E3%83%BC%E3%82%B9%E3%80%80%E3%82%A2%E3%82%B8%E3%83%A3%E3%82%A4%E3%83%AB&amp;f=false">ショーケース</a>を実施</li>
+<li>年末特番もクリアして今のところ大丈夫</li>
+</ul>
+
+
+<h1>裏話</h1>
+
+<ul>
+<li>PHPは素晴らしい: 全てのコレクションをarrayで扱える</li>
+<li>Scalaはたくさんの型があるのでPHPerには辛く初学コストが高い</li>
+<li>並行プログラミングの知識も必要
+
+<ul>
+<li><a href="http://www.atmarkit.co.jp/ait/articles/1209/06/news134.html">Actor</a>とか</li>
+</ul>
+</li>
+<li>インフラ／アプリの組織的な垣根がボトルネックになったので席を近くするなどして改善</li>
+<li>インフラはクラウドではなくオンプレミスで</li>
+<li>DBはMySQL／Redis</li>
+<li><a href="http://gatling-tool.org/">gatling</a>が素晴らしいストレスツール</li>
+</ul>
+
+
+<h1>DDD (Domain Driven Design: <a href="http://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E9%A7%86%E5%8B%95%E8%A8%AD%E8%A8%88">ドメイン駆動設計</a>)</h1>
+
+<ul>
+<li>Play2/Scalaでの開発と相性が良い(スライドP.42)
+<img src="/images/play2-scala-ddd-scrum/2.jpg" alt="slide 42" /></li>
+<li>DDD解説のYouTube動画(42分)が素晴らしい
+
+<ul>
+<li><a href="http://www.youtube.com/watch?v=FNEfk-dlIKU">DevLove Building Blocks 都元ダイスケ</a></li>
+<li>社内勉強会で何度も視聴した</li>
+</ul>
+</li>
+<li>ドメイン層の保守性向上に貢献する</li>
+</ul>
+
+
+<h1>環境</h1>
+
+<ul>
+<li>デプロイには<a href="https://github.com/capistrano/capistrano">Capistrano</a>使用: <a href="http://nadarei.co/mina/">Mina</a>にしようとしたが断念</li>
+<li>IDEは<a href="http://www.jetbrains.com/idea/">IntelliJ IDEA Ultimate</a>に統一</li>
+<li>CIは<a href="http://jenkins-ci.org/">Jenkins</a>
+
+<ul>
+<li>現在scalaのコードは5万行</li>
+<li>重複コード0</li>
+<li>行ベースのカバレッジ52%</li>
+</ul>
+</li>
+<li>Play2/Scalaによる開発には難点もある(スライドP.61)
+<img src="/images/play2-scala-ddd-scrum/3.jpg" alt="slide 61" /></li>
+</ul>
+
+
+<h1>アジャイル／スクラム開発</h1>
+
+<ul>
+<li>GreenHopperなどのツール充実
+
+<ul>
+<li>これは旧称で現在は<a href="https://www.ricksoft.jp/product/atlassian/jira-agile">JIRA Agile</a>という名称になっているようですね。</li>
+</ul>
+</li>
+<li><a href="http://ja.wikipedia.org/wiki/%E3%83%94%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%89%E3%83%A9%E3%83%83%E3%82%AB%E3%83%BC">ドラッガー</a>の書籍はアジャイルと相性が良いので<a href="http://www.atmarkit.co.jp/ait/articles/1205/30/news130.html">スクラムマスター</a>の教育に入れている</li>
+<li>ユーザーの要求理解に時間をかける</li>
+<li>スクラムマスターが常にプレイングマネージャーであれるようにする
+
+<ul>
+<li>スクラムマスターが技術的な観点で理解していないと課題やtodoをブレイクダウンできない</li>
+</ul>
+</li>
+</ul>
+
+
+<h1>関連書籍</h1>
+
+<div>
+<a href="http://www.amazon.co.jp/gp/product/4798121967/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4798121967&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4798121967&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4798121967" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+<a href="http://www.amazon.co.jp/gp/product/4274068560/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4274068560&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4274068560&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4274068560" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+<a href="http://www.amazon.co.jp/gp/product/4478410232/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4478410232&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4478410232&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4478410232" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+<a href="http://www.amazon.co.jp/gp/product/4478012032/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4478012032&linkCode=as2&tag=athome0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4478012032&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=as2&o=9&a=4478012032" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+</div>
+
+
+<hr />
+
+<p>話を聞いていてちょっと感じたのは、内容が盛り沢山過ぎたかなと思いました。
+それなりに早口で発表されていたのでちゃんとメモが取れなかったのが悔やまれます。。
+Play2/Scalaについては実際に触ったことがないので聞いていて非常に勉強になりました。
+またDDDやスクラムに関連付けて発表をされており、説得力が増していたような気がします。
+この辺りは発表者の方のプレゼン技術と技術的な習熟度の高さを感じさせる上手さがあったかと。</p>
+
+<p>あと最後に笑い取ってましたが<a href="http://developers.slashdot.jp/story/14/02/14/0421236/">ドワンゴではC++に関わらず</a>エンジニア募集してるそうですｗ</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -1494,147 +1676,6 @@ github経由で採用したエストニア人は仕事中に仕事と全く関�
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/12/19/devlove-advent-calendar-2013-genba/">現場のリーダーシップの正義</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-12-19T00:00:00+09:00" pubdate data-updated="true">Dec 19<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><em>この記事は<a href="http://devlove.doorkeeper.jp/events/7039">DevLOVE Advent Calendar 2013 「現場」</a>の40日目の記事です。
-<a href="https://github.com/N-A/rendo/issues/1">N_Aさん</a>からバトンをお預かりしました。</em></p>
-
-<hr />
-
-<h1>自己紹介</h1>
-
-<h2>名前</h2>
-
-<ul>
-<li>Tsutomu Chikubaと申します。</li>
-<li>tchikubaで勉強会とかに参加してます。</li>
-</ul>
-
-
-<h2>どんな職種か</h2>
-
-<ul>
-<li>C,C++,PHP,Perl,Javaを経て現在はRuby/RoRを使うwebエンジニアをやってます。</li>
-<li>プロダクト指向が強いエンジニアでweb領域の事業そのものに興味があります。</li>
-</ul>
-
-
-<h2>現場につながるような経歴など</h2>
-
-<ul>
-<li>事業企画や営業を経て数々の失敗を経験しその反省からエンジニアのキャリアがスタートしました。</li>
-<li>フリーランスのエンジニアとして7年間、大手ベンダ・大手事業会社に常駐勤務しました。</li>
-<li>その7年間で所謂エンジニアとしての全工程を経験することが出来た。</li>
-<li>前職で新規事業の開発マネージャーを経験しました。</li>
-<li>大混乱の現場で目覚めたAgile/Lean。</li>
-</ul>
-
-
-<p>前職での奮闘記録として勉強会で発表した資料を2つ程ご紹介。</p>
-
-<hr />
-
-<iframe src="http://www.slideshare.net/slideshow/embed_code/14761605" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
-
-
-<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/tchikuba/facebook-14761605" title="リーンソフトウェア開発で始めるFacebookアプリ開発" target="_blank">リーンソフトウェア開発で始めるFacebookアプリ開発</a> </strong> from <strong><a href="http://www.slideshare.net/tchikuba" target="_blank">Tsutomu Chikuba</a></strong> </div></p>
-
-<hr />
-
-<iframe src="http://www.slideshare.net/slideshow/embed_code/15237558" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
-
-
-<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/tchikuba/ss-15237558" title="ビジネス的に高価値なアジャイルテスト" target="_blank">ビジネス的に高価値なアジャイルテスト</a> </strong> from <strong><a href="http://www.slideshare.net/tchikuba" target="_blank">Tsutomu Chikuba</a></strong> </div></p>
-
-<hr />
-
-<h1>自分にとっての現場</h1>
-
-<h2>今現在自分が現場で何をしているのか</h2>
-
-<p>現在は前職での経験を更に昇華すべく、Ruby on Railsによるwebアプリ開発エンジニアとして新規事業開発に従事しています。
-現場では「ビジネス的に高価値な開発」が一番効率的に行えるように日々工夫しています。
-最近の技術的関心事は<a href="http://takkkun.hatenablog.com/entry/2013/10/12/Capistrano_3%E3%81%B8%E3%81%AE%E6%89%8B%E5%BC%95%E3%81%8D">capistrano3</a>や<a href="http://techracho.bpsinc.jp/hachi8833/2013_11_19/14738">RoRで如何にOOPするか</a>です。</p>
-
-<p>技術的関心事もさることながらいつも心がけるのは、開発のアジリティ向上だけでなくビジネスのアジリティ向上を実現するということ。</p>
-
-<h2>何のためにしてきたか</h2>
-
-<p>私は新規事業が好きです。
-もうちょっと突っ込んだ表現をすると、今ある課題を解決する方法を考えてそれを形にすることが好きです。
-エンジニアとしてのキャリアを10年積んできたので、特に開発の分野で貢献したい。</p>
-
-<p>それが自己表現として自分の生き様だと思うし、そういう意味では自分のためでもある。
-そして新しい価値を提供出来れば課題を解決出来て喜ぶ人がいる、というのが自分の喜びにもなります。
-そういう価値ある仕事を、今いる現場からたくさん生み出していきたいです。</p>
-
-<h2>何をするつもりなのか</h2>
-
-<p>新しい技術を使って新しい価値を生み出せるエンジニアとして更に経験しスキルアップしていきたい。
-そしてビジネス価値に直結する開発サイクルを自他共に回していきたい。</p>
-
-<h2>自分が想う現場とは何か</h2>
-
-<p>現場とは<a href="http://kotobank.jp/word/%E7%8F%BE%E5%A0%B4">「実際に作業が行われている場所。また、企業などで、管理部門に対する実務部門をいう。」</a>(出典：kotobank.jp)</p>
-
-<p><a href="http://www.fesh.jp/detail_2579.html">「事件は会議室で起きてるんじゃない！現場で起きてるんだ！」</a>という言葉は私の好きな言葉です。
-本当にその通りだと思う。と同時にこの言葉と共に想起されるのは「リーダーシップとは」ということ。
-専門的なリーダーシップの解釈は種々あるようですが、私が考えるリーダーシップは<a href="http://nolovenoteam.com/leader-qualification-1316.html">こちらのサイト</a>に記載されている内容に近いと思います。抜粋すると以下のような感じ。</p>
-
-<ul>
-<li><strong>「自分がなんとかしなければ」と行動意欲を燃やす人をリーダーと呼ぶのであって、集団から大事にされたり、偉そうにしている人をリーダーと呼ぶわけではない</strong></li>
-<li><strong>リーダーはチームの目標達成についてもっとも情熱を燃やし、チームが抱えるもっとも困難な課題に率先して挑む</strong></li>
-<li><strong>リーダーに必要なのは理屈でも能力でも結果でもなく、責任だということがはっきり言える</strong></li>
-<li><strong>チームの中でももっとも仲間への愛情が深い人、思いやりを持っている人こそが、リーダーの座にふさわしい</strong></li>
-<li><strong>本当にチームのことを思うのなら、リーダーはメンバーの一人ひとりが自主的にリーダーシップを発揮できるような空気を作ってあげなくてはならない</strong></li>
-<li><strong>リーダーの最終的な仕事は、仲間を全員リーダーにすることなのだ</strong></li>
-</ul>
-
-
-<p>一見、現場とリーダーシップは相反するようにも思われますが、やはり現場に必要なのはリーダーシップだと思うのです。
-これは時に幻想と言われるかもしれませんが、本当のリーダーは実は現場から自然発生的に生まれるのではないか？ということです。
-現場のリーダーシップと対義語にあるのは権威による抑圧ではないかと思うのです。</p>
-
-<p>そして「現場のリーダーシップ」にこそ、実は本当の正義があるのではないかと思われてならないのです。</p>
-
-<p>そういう現場を大切にしながら常に最前線の現場に身を置いていられる自分であり続けようと思っています。</p>
-
-<hr />
-
-<p><em>次のDevLOVE Advent Calendar 2013 「現場」の記事は<a href="http://nnasaki.hatenablog.com/entry/2013/12/20/040046">nnasakiさん</a>が担当です。</em></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/5/">&larr; Older</a>
@@ -1650,6 +1691,10 @@ github経由で採用したエストニア人は仕事中に仕事と全く関�
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2019/07/06/roomba-i7/">エンジニア目線でルンバi7激オススメ！ファクトフルネスを拡張して言うと「レベル5」の生活を手に入れることができるよ</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2018/09/27/minnano-code-meetup/">イベント「~エンジニア×先生×NPOで語る、これが本当のプログラミング教育~みんなのコードmeetup」に参加してきました</a>
@@ -1687,10 +1732,6 @@ github経由で採用したエストニア人は仕事中に仕事と全く関�
         <a href="/blog/2015/12/05/life-of-creative-people/">21世紀型のクリエイティブな働き方・思考・組織の新しいあたりまえ</a>
       </li>
     
-      <li class="post">
-        <a href="/blog/2015/10/31/ecma-script-6-study/">「ECMAScript6勉強会」HappyHalloween JS 祭！！に参加してきました！</a>
-      </li>
-    
   </ul>
 </section>
 <section>
@@ -1718,7 +1759,7 @@ github経由で採用したエストニア人は仕事中に仕事と全く関�
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2018 - tchikuba -
+  Copyright &copy; 2019 - tchikuba -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
   - <span class="credit">Theme by <a href="http://www.gehaxelt.in">Gehaxelt</a></span>
   <span class="credit">and <a href="http://www.it-solutions-neef.de">IT Solutions Neef</a></span>
