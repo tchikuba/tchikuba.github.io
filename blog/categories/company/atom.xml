@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: company | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/company/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/company/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Bufferにインスパイアされて、以前から私が書き溜めていた21世紀型ニュータイプ組織を晒してみました]]></title>
-    <link href="http://tchikuba.github.io/blog/2015/01/22/new-type-organization/"/>
+    <link href="https://tchikuba.github.io/blog/2015/01/22/new-type-organization/"/>
     <updated>2015-01-22T21:25:44+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2015/01/22/new-type-organization</id>
+    <id>https://tchikuba.github.io/blog/2015/01/22/new-type-organization</id>
     <content type="html"><![CDATA[<p><a href="http://hrnabi.com/2015/01/21/5353/">CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ</a>
 というHRナビの記事に興奮したのでこれは久しぶりにブログ記事を書しかない！と決意しました。
 興奮したのは自分が起業したらこういう会社にしたいな、こういう組織が良いな、と思って以前から書き溜めていた内容と結構重複するところがあったからです。
@@ -181,9 +181,9 @@ Bufferのジョエル・ガスコインCEOもインタビューで言ってま�
   
   <entry>
     <title type="html"><![CDATA[書籍『「納品」をなくせばうまくいく』から見えてきたエンジニアのキャリアのこれから]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/10/20/sonic-garden-kuranuki-book/"/>
+    <link href="https://tchikuba.github.io/blog/2014/10/20/sonic-garden-kuranuki-book/"/>
     <updated>2014-10-20T21:29:10+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/10/20/sonic-garden-kuranuki-book</id>
+    <id>https://tchikuba.github.io/blog/2014/10/20/sonic-garden-kuranuki-book</id>
     <content type="html"><![CDATA[<p>結構時間が経ってしまいましたが、3ヶ月程前に
 <a href="http://attitude4webperson.doorkeeper.jp/events/12244">「ビール片手にプログラマーを一生の仕事にするために出来ることを考えてみませんか？」</a>
 というイベントに行ってきました。</p>
@@ -295,9 +295,9 @@ Social Change &ndash; 自らを変化できるようになったならば、自�
   
   <entry>
     <title type="html"><![CDATA[サムライインキュベート榊原氏「一人でコンビニにもいけなかった僕が、イスラエルで世界企業を生み出すことになった。」トークイベント参加レポート]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/03/25/sakakibara-samurai/"/>
+    <link href="https://tchikuba.github.io/blog/2014/03/25/sakakibara-samurai/"/>
     <updated>2014-03-25T19:36:23+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/03/25/sakakibara-samurai</id>
+    <id>https://tchikuba.github.io/blog/2014/03/25/sakakibara-samurai</id>
     <content type="html"><![CDATA[<p><a href="http://everevo.com/event/11800">「一人でコンビニにもいけなかった僕が、イスラエルで世界企業を生み出すことになった。」</a>という
 <a href="http://the-incubator.jp/interview/005/index.html">サムライインキュベート榊原健太郎氏</a>の話が聞けるイベントに参加してきたのでそのレポートです。
 これまでサムライインキュベートが係るイベントには何度か参加したことがありますが、代表の榊原氏の話ってあまり聞いたことがなかったので参加してみました。</p>
@@ -368,9 +368,9 @@ Social Change &ndash; 自らを変化できるようになったならば、自�
   
   <entry>
     <title type="html"><![CDATA[「クラウドワークス2周年記念 ユーザー大交流会」に参加してきました]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/03/21/users-event-of-crowdworks-2nd-anniversary/"/>
+    <link href="https://tchikuba.github.io/blog/2014/03/21/users-event-of-crowdworks-2nd-anniversary/"/>
     <updated>2014-03-21T15:14:52+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/03/21/users-event-of-crowdworks-2nd-anniversary</id>
+    <id>https://tchikuba.github.io/blog/2014/03/21/users-event-of-crowdworks-2nd-anniversary</id>
     <content type="html"><![CDATA[<p><a href="http://crowdworks.doorkeeper.jp/events/9207">クラウドワークス2周年記念 ユーザー大交流会</a>に参加してきました。</p>
 
 <h1>はじめに</h1>
@@ -496,9 +496,9 @@ Social Change &ndash; 自らを変化できるようになったならば、自�
   
   <entry>
     <title type="html"><![CDATA[Atlassian長沢氏「デベロッパー戦国時代！ストーリーをつなぐ開発環境と3つの秘訣」@デブサミ2014 2日目]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/02/14/atlassian-of-developers-summit-2014/"/>
+    <link href="https://tchikuba.github.io/blog/2014/02/14/atlassian-of-developers-summit-2014/"/>
     <updated>2014-02-14T14:50:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/02/14/atlassian-of-developers-summit-2014</id>
+    <id>https://tchikuba.github.io/blog/2014/02/14/atlassian-of-developers-summit-2014</id>
     <content type="html"><![CDATA[<p>デブサミ2014 2日目の午後2のセッションはAtlassian長沢氏の「デベロッパー戦国時代！ストーリーをつなぐ開発環境と3つの秘訣」を聞きにきました！
 Atlassian、いつも</p>
 

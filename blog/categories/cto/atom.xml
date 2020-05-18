@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: CTO | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/cto/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/cto/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[イベント「CTOだったNight」@dotsに参加してきました！]]></title>
-    <link href="http://tchikuba.github.io/blog/2016/07/04/previous-cto-night/"/>
+    <link href="https://tchikuba.github.io/blog/2016/07/04/previous-cto-night/"/>
     <updated>2016-07-04T19:38:50+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2016/07/04/previous-cto-night</id>
+    <id>https://tchikuba.github.io/blog/2016/07/04/previous-cto-night</id>
     <content type="html"><![CDATA[<p>最近比較的よく行ってる渋谷dotsで行われた<a href="http://eventdots.jp/event/591871">「CTOだったNight」</a>というイベントに参加してきました！
 主催はnanapiの元CTO<a href="https://www.facebook.com/shuichi.wada">和田(wadap)さん</a>。
 話の内容をメモっておいたんですが、思いの外面白かったのでブログ記事としてアップしておきます！</p>

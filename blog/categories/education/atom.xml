@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: education | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/education/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/education/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[イベント「~エンジニア×先生×NPOで語る、これが本当のプログラミング教育~みんなのコードmeetup」に参加してきました]]></title>
-    <link href="http://tchikuba.github.io/blog/2018/09/27/minnano-code-meetup/"/>
+    <link href="https://tchikuba.github.io/blog/2018/09/27/minnano-code-meetup/"/>
     <updated>2018-09-27T19:14:24+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2018/09/27/minnano-code-meetup</id>
+    <id>https://tchikuba.github.io/blog/2018/09/27/minnano-code-meetup</id>
     <content type="html"><![CDATA[<p>2018/09/27(木)に行われたイベント<a href="https://connpass.com/event/100886/">「~エンジニア×先生×NPOで語る、これが本当のプログラミング教育~みんなのコードmeetup」</a>にブログ投稿枠で参加してきました！</p>
 
 <p>私はプログラミング教育には関心が高いのですが、どちらかというと現状は社会人向けの方にコミットしています。</p>

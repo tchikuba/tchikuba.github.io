@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: e-commerce | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/e-commerce/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/e-commerce/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Railsでeコマースサイトを効率的に開発する為のgem, Spree (Tokyo Rubyist Meetup)]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/05/15/ecommerce-rails-spree/"/>
+    <link href="https://tchikuba.github.io/blog/2014/05/15/ecommerce-rails-spree/"/>
     <updated>2014-05-15T19:45:58+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/05/15/ecommerce-rails-spree</id>
+    <id>https://tchikuba.github.io/blog/2014/05/15/ecommerce-rails-spree</id>
     <content type="html"><![CDATA[<p><a href="http://trbmeetup.doorkeeper.jp/events/10739">eコマースとRails &ndash; Spreeの全て</a>
 という<a href="http://trbmeetup.doorkeeper.jp/">Tokyo Rubyist Meetup</a>のイベントに参加してきました。</p>
 

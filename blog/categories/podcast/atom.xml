@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: podcast | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/podcast/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/podcast/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[「クリエイティブが輝ける組織をエンジニアリングする」ポッドキャストCEO.FMを始めました]]></title>
-    <link href="http://tchikuba.github.io/blog/2020/02/09/start-ceofm/"/>
+    <link href="https://tchikuba.github.io/blog/2020/02/09/start-ceofm/"/>
     <updated>2020-02-09T20:21:39+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2020/02/09/start-ceofm</id>
+    <id>https://tchikuba.github.io/blog/2020/02/09/start-ceofm</id>
     <content type="html"><![CDATA[<p>2020年1月24日から、一念発起して「<a href="https://anchor.fm/ceofm">CEO.FM</a>」というポッドキャストを始めています。
 2/9現在、<a href="https://anchor.fm/ceofm/episodes/17-ealrqm">エピソード#17</a>まで配信済です。
 365日、毎日配信を目標に、今のところ継続中😁</p>

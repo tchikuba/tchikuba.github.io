@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: product | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/product/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/product/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[エンジニア目線でルンバi7+激オススメ！ファクトフルネスを拡張して言うと「レベル5」の生活を手に入れることができるよ]]></title>
-    <link href="http://tchikuba.github.io/blog/2019/07/06/roomba-i7/"/>
+    <link href="https://tchikuba.github.io/blog/2019/07/06/roomba-i7/"/>
     <updated>2019-07-06T23:01:22+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2019/07/06/roomba-i7</id>
+    <id>https://tchikuba.github.io/blog/2019/07/06/roomba-i7</id>
     <content type="html"><![CDATA[<h2>ルンバi7+を購入したら生活の質が向上したよ</h2>
 
 <p>久しぶりのブログ更新はいつもとは全く違う毛色でお届けします。</p>

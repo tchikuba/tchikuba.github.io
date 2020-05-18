@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: study | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/study/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/study/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ebisu.rb#9に参加してきました！]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/05/28/ebisu-rb-9/"/>
+    <link href="https://tchikuba.github.io/blog/2014/05/28/ebisu-rb-9/"/>
     <updated>2014-05-28T20:26:12+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/05/28/ebisu-rb-9</id>
+    <id>https://tchikuba.github.io/blog/2014/05/28/ebisu-rb-9</id>
     <content type="html"><![CDATA[<p><a href="http://ebisurb.doorkeeper.jp/events/11520">Ebisu.rb#9</a>に参加してきました。
 <a href="http://tchikuba.github.io/blog/2014/03/28/ebisu-rb-7/">#7</a>,
 <a href="http://tchikuba.github.io/blog/2014/04/25/ebisu-rb-8/">#8</a>に続き
@@ -52,9 +52,9 @@
   
   <entry>
     <title type="html"><![CDATA[Railsでテストを書く場合、FactoryGirlなDB接続するかmock_modelなモック作成か(Ebisu.rb#8)]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/04/25/ebisu-rb-8/"/>
+    <link href="https://tchikuba.github.io/blog/2014/04/25/ebisu-rb-8/"/>
     <updated>2014-04-25T23:00:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/04/25/ebisu-rb-8</id>
+    <id>https://tchikuba.github.io/blog/2014/04/25/ebisu-rb-8</id>
     <content type="html"><![CDATA[<p><a href="http://10.29.6.53:4000/blog/2014/03/28/ebisu-rb-7/">前回のEbisu.rb#7</a>に引き続き、
 <a href="http://ebisurb.doorkeeper.jp/events/10288">Ebisu.rb#8</a>も参加しました。</p>
 
@@ -112,9 +112,9 @@ Rspec+mockでユニットテストをそれぞれ書いています。
   
   <entry>
     <title type="html"><![CDATA[Ebisu.rb #7に参加しました]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/03/28/ebisu-rb-7/"/>
+    <link href="https://tchikuba.github.io/blog/2014/03/28/ebisu-rb-7/"/>
     <updated>2014-03-28T21:07:32+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/03/28/ebisu-rb-7</id>
+    <id>https://tchikuba.github.io/blog/2014/03/28/ebisu-rb-7</id>
     <content type="html"><![CDATA[<p><a href="http://ebisurb.doorkeeper.jp/events/9707">Ebisu.rb#7</a>に参加してみました。いわゆる地域rb系の勉強会は初参加だったので楽しみにしていました。
 ネタはTDD/BDD/ATDD関連でテストの実践的な書き方的な話をしたいなとは思っていたんですが
 全くもってまとまっていなかったのでできなかったのが悔やまれます。。</p>
@@ -169,9 +169,9 @@ Rspec+mockでユニットテストをそれぞれ書いています。
   
   <entry>
     <title type="html"><![CDATA[Rails勉強会@東京#90に参加してきました]]></title>
-    <link href="http://tchikuba.github.io/blog/2013/12/21/rails-study-tokyo-90/"/>
+    <link href="https://tchikuba.github.io/blog/2013/12/21/rails-study-tokyo-90/"/>
     <updated>2013-12-21T20:00:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2013/12/21/rails-study-tokyo-90</id>
+    <id>https://tchikuba.github.io/blog/2013/12/21/rails-study-tokyo-90</id>
     <content type="html"><![CDATA[<p><a href="http://railsmeetingtokyo.doorkeeper.jp/events/7642">Rails勉強会@東京 第90回</a>に参加してきました。</p>
 
 <p>非常に勉強になったのと嬉しかったのはいつもrails関連情報でお世話になってる<a href="http://morizyun.github.io/">酒と泪とRubyとRailsと</a>のブログ書かれてる<a href="https://twitter.com/zyunnosuke">@zyunnosukeさん</a>に初めて会えたこと。あと実は一度行ってみたかった<a href="http://www.esm.co.jp/">永和システムマネジメント</a>さんのオフィス。アジャイル関連で有名な会社で在籍されている方の訳書などに色々お世話になっているので心の中で頭下げて来ました。最近のだとリーン開発の現場って本が熱い。(後述)</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: entrepreneur | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/entrepreneur/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/entrepreneur/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[イベント「非エンジニア起業家に求められるプログラミングスキルとは」に参加しました！]]></title>
-    <link href="http://tchikuba.github.io/blog/2017/07/19/programming-skils-for-entrepreneur/"/>
+    <link href="https://tchikuba.github.io/blog/2017/07/19/programming-skils-for-entrepreneur/"/>
     <updated>2017-07-19T19:00:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2017/07/19/programming-skils-for-entrepreneur</id>
+    <id>https://tchikuba.github.io/blog/2017/07/19/programming-skils-for-entrepreneur</id>
     <content type="html"><![CDATA[<p>昨晩<a href="http://everevo.com/event/39414">「非エンジニア起業家に求められるプログラミングスキルとは」</a>
 というイベントに参加してきました。</p>
 

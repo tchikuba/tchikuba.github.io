@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: crowdworks | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/crowdworks/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/crowdworks/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[「クラウドワークス2周年記念 ユーザー大交流会」に参加してきました]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/03/21/users-event-of-crowdworks-2nd-anniversary/"/>
+    <link href="https://tchikuba.github.io/blog/2014/03/21/users-event-of-crowdworks-2nd-anniversary/"/>
     <updated>2014-03-21T15:14:52+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/03/21/users-event-of-crowdworks-2nd-anniversary</id>
+    <id>https://tchikuba.github.io/blog/2014/03/21/users-event-of-crowdworks-2nd-anniversary</id>
     <content type="html"><![CDATA[<p><a href="http://crowdworks.doorkeeper.jp/events/9207">クラウドワークス2周年記念 ユーザー大交流会</a>に参加してきました。</p>
 
 <h1>はじめに</h1>

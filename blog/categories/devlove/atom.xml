@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: DevLOVE | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/devlove/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/devlove/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[「おもしろ自分戦略 -カヤック柳澤さんと考える-」に参加してきた]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/01/30/devlove-kayac-yanasawa/"/>
+    <link href="https://tchikuba.github.io/blog/2014/01/30/devlove-kayac-yanasawa/"/>
     <updated>2014-01-30T23:00:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/01/30/devlove-kayac-yanasawa</id>
+    <id>https://tchikuba.github.io/blog/2014/01/30/devlove-kayac-yanasawa</id>
     <content type="html"><![CDATA[<p><a href="http://www.devlove.org/">DevLOVE</a>主催の<a href="[%E3%82%AB%E3%83%B3%E3%83%8C%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%B3%E3%82%BA%E5%9B%BD%E9%9A%9B%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%93%E3%83%86%E3%82%A3%E3%83%BB%E3%83%95%E3%82%A7%E3%82%B9%E3%83%86%E3%82%A3%E3%83%90%E3%83%AB](http://devlove.doorkeeper.jp/events/7846">おもしろ自分戦略 -カヤック柳澤さんと考える-</a>
 というイベントに参加してきたので参加メモと所感をば。
 個人的には非常に行って良かったイベントでした。
@@ -190,9 +190,9 @@ github経由で採用したエストニア人は仕事中に仕事と全く関�
   
   <entry>
     <title type="html"><![CDATA[現場のリーダーシップの正義]]></title>
-    <link href="http://tchikuba.github.io/blog/2013/12/19/devlove-advent-calendar-2013-genba/"/>
+    <link href="https://tchikuba.github.io/blog/2013/12/19/devlove-advent-calendar-2013-genba/"/>
     <updated>2013-12-19T00:00:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2013/12/19/devlove-advent-calendar-2013-genba</id>
+    <id>https://tchikuba.github.io/blog/2013/12/19/devlove-advent-calendar-2013-genba</id>
     <content type="html"><![CDATA[<p><em>この記事は<a href="http://devlove.doorkeeper.jp/events/7039">DevLOVE Advent Calendar 2013 「現場」</a>の40日目の記事です。
 <a href="https://github.com/N-A/rendo/issues/1">N_Aさん</a>からバトンをお預かりしました。</em></p>
 

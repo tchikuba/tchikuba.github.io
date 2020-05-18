@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: work | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/work/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/work/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[RubyKaigi 2017 2日目 Matz基調講演＋α]]></title>
-    <link href="http://tchikuba.github.io/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day/"/>
+    <link href="https://tchikuba.github.io/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day/"/>
     <updated>2017-09-19T09:49:45+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day</id>
+    <id>https://tchikuba.github.io/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day</id>
     <content type="html"><![CDATA[<p>RubyKaigi 2017は広島での開催。昨年は京都で今年は広島ということで、暫く地方の流れなのかしら？</p>
 
 <h2>Keynote : Yukihiro &ldquo;Matz&rdquo; Matsumoto @yukihiro_matz</h2>
@@ -161,9 +161,9 @@
   
   <entry>
     <title type="html"><![CDATA[【速報】RubyKaigi 2016初日参加レポート]]></title>
-    <link href="http://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day/"/>
+    <link href="https://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day/"/>
     <updated>2016-09-08T10:17:39+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day</id>
+    <id>https://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day</id>
     <content type="html"><![CDATA[<p>聞きながらの自分用メモなのでちょっと正確でない点がありそうですが。</p>
 
 <h2>Ruby3 presented by matz</h2>
@@ -298,9 +298,9 @@ puts max</li>
   
   <entry>
     <title type="html"><![CDATA[イベント「CTOだったNight」@dotsに参加してきました！]]></title>
-    <link href="http://tchikuba.github.io/blog/2016/07/04/previous-cto-night/"/>
+    <link href="https://tchikuba.github.io/blog/2016/07/04/previous-cto-night/"/>
     <updated>2016-07-04T19:38:50+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2016/07/04/previous-cto-night</id>
+    <id>https://tchikuba.github.io/blog/2016/07/04/previous-cto-night</id>
     <content type="html"><![CDATA[<p>最近比較的よく行ってる渋谷dotsで行われた<a href="http://eventdots.jp/event/591871">「CTOだったNight」</a>というイベントに参加してきました！
 主催はnanapiの元CTO<a href="https://www.facebook.com/shuichi.wada">和田(wadap)さん</a>。
 話の内容をメモっておいたんですが、思いの外面白かったのでブログ記事としてアップしておきます！</p>
@@ -472,9 +472,9 @@ puts max</li>
   
   <entry>
     <title type="html"><![CDATA[イベント「dots.女子部勉強会 vol.7 わたし、一生エンジニア宣言！～ 女性エンジニアとして長く働く秘訣 ～」に参加しました！]]></title>
-    <link href="http://tchikuba.github.io/blog/2016/03/26/dots-womans-is-eternal-engineers/"/>
+    <link href="https://tchikuba.github.io/blog/2016/03/26/dots-womans-is-eternal-engineers/"/>
     <updated>2016-03-26T01:00:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2016/03/26/dots-womans-is-eternal-engineers</id>
+    <id>https://tchikuba.github.io/blog/2016/03/26/dots-womans-is-eternal-engineers</id>
     <content type="html"><![CDATA[<p>先日<a href="http://eventdots.jp/event/581423">「dots.女子部勉強会 vol.7 わたし、一生エンジニア宣言！～ 女性エンジニアとして長く働く秘訣 ～」</a>
 というイベントに参加してきました。
 私の妻も私と同じエンジニアでdots.女子部の一員として運営に関わっています。
@@ -732,9 +732,9 @@ puts max</li>
   
   <entry>
     <title type="html"><![CDATA[「dots.2周年記念パーティ」に参加しました！]]></title>
-    <link href="http://tchikuba.github.io/blog/2015/10/30/dots-2years-party/"/>
+    <link href="https://tchikuba.github.io/blog/2015/10/30/dots-2years-party/"/>
     <updated>2015-10-30T19:22:05+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2015/10/30/dots-2years-party</id>
+    <id>https://tchikuba.github.io/blog/2015/10/30/dots-2years-party</id>
     <content type="html"><![CDATA[<p>2015年10月30日(金)に行われた<a href="http://eventdots.jp/">dots</a>の<a href="http://eventdots.jp/event/571415">2周年記念パーティー</a>に参加してきました！
 rubyのパパこと<a href="https://twitter.com/yukihiro_matz">matz</a>の話が聞けるということで楽しみにしてたイベントでした。
 またdotsは渋谷のイベント・コワーキングスペースを2015年8月から運営しており、運営に関わっている人が知人でもあり、ちょこちょこ利用させて貰ってます。</p>

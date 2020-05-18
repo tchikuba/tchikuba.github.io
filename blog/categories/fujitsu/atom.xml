@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: fujitsu | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/fujitsu/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/fujitsu/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[富士通小崎資広氏「オープンソースエンジニア生存戦略」@デブサミ2014初日を聞いてきた]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/02/13/developers-summit2014-first-day/"/>
+    <link href="https://tchikuba.github.io/blog/2014/02/13/developers-summit2014-first-day/"/>
     <updated>2014-02-13T14:00:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/02/13/developers-summit2014-first-day</id>
+    <id>https://tchikuba.github.io/blog/2014/02/13/developers-summit2014-first-day</id>
     <content type="html"><![CDATA[<p>楽しみにしていた<a href="http://event.shoeisha.jp/devsumi/20140213/">デブサミ2014</a>、ついに始まりました！
 僭越ながら今年は1万円払ってコーヒースポンサーとして協賛してみました。
 会場には最前列2列にわたってコーヒースポンサー用の特別席が設けられており、電源タップ付き机があるので超快適です。

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[「クリエイティブが輝ける組織をエンジニアリングする」ポッドキャストCEO.FMを始めました]]></title>
-    <link href="http://tchikuba.github.io/blog/2020/02/09/start-ceofm/"/>
+    <link href="https://tchikuba.github.io/blog/2020/02/09/start-ceofm/"/>
     <updated>2020-02-09T20:21:39+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2020/02/09/start-ceofm</id>
+    <id>https://tchikuba.github.io/blog/2020/02/09/start-ceofm</id>
     <content type="html"><![CDATA[<p>2020年1月24日から、一念発起して「<a href="https://anchor.fm/ceofm">CEO.FM</a>」というポッドキャストを始めています。
 2/9現在、<a href="https://anchor.fm/ceofm/episodes/17-ealrqm">エピソード#17</a>まで配信済です。
 365日、毎日配信を目標に、今のところ継続中😁</p>
@@ -638,9 +638,9 @@
   
   <entry>
     <title type="html"><![CDATA[エンジニア目線でルンバi7+激オススメ！ファクトフルネスを拡張して言うと「レベル5」の生活を手に入れることができるよ]]></title>
-    <link href="http://tchikuba.github.io/blog/2019/07/06/roomba-i7/"/>
+    <link href="https://tchikuba.github.io/blog/2019/07/06/roomba-i7/"/>
     <updated>2019-07-06T23:01:22+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2019/07/06/roomba-i7</id>
+    <id>https://tchikuba.github.io/blog/2019/07/06/roomba-i7</id>
     <content type="html"><![CDATA[<h2>ルンバi7+を購入したら生活の質が向上したよ</h2>
 
 <p>久しぶりのブログ更新はいつもとは全く違う毛色でお届けします。</p>
@@ -820,9 +820,9 @@
   
   <entry>
     <title type="html"><![CDATA[イベント「~エンジニア×先生×NPOで語る、これが本当のプログラミング教育~みんなのコードmeetup」に参加してきました]]></title>
-    <link href="http://tchikuba.github.io/blog/2018/09/27/minnano-code-meetup/"/>
+    <link href="https://tchikuba.github.io/blog/2018/09/27/minnano-code-meetup/"/>
     <updated>2018-09-27T19:14:24+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2018/09/27/minnano-code-meetup</id>
+    <id>https://tchikuba.github.io/blog/2018/09/27/minnano-code-meetup</id>
     <content type="html"><![CDATA[<p>2018/09/27(木)に行われたイベント<a href="https://connpass.com/event/100886/">「~エンジニア×先生×NPOで語る、これが本当のプログラミング教育~みんなのコードmeetup」</a>にブログ投稿枠で参加してきました！</p>
 
 <p>私はプログラミング教育には関心が高いのですが、どちらかというと現状は社会人向けの方にコミットしています。</p>
@@ -958,10 +958,10 @@
   
   <entry>
     <title type="html"><![CDATA[【書籍レビュー】超入門シリーズ本を献本頂きました]]></title>
-    <link href="http://tchikuba.github.io/blog/2017/12/11/super-getting-started-books/"/>
+    <link href="https://tchikuba.github.io/blog/2017/12/11/super-getting-started-books/"/>
     <updated>2017-12-11T19:47:03+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2017/12/11/super-getting-started-books</id>
-    <content type="html"><![CDATA[<p><a href="http://tchikuba.github.io/blog/2017/05/22/ruby-on-rails-5-application-programming/">前回</a>に引き続き、WINGSプロジェクトが監修し、技術評論社から出版されている超入門シリーズ本を以下の3冊献本して頂きました。</p>
+    <id>https://tchikuba.github.io/blog/2017/12/11/super-getting-started-books</id>
+    <content type="html"><![CDATA[<p><a href="https://tchikuba.github.io/blog/2017/05/22/ruby-on-rails-5-application-programming/">前回</a>に引き続き、WINGSプロジェクトが監修し、技術評論社から出版されている超入門シリーズ本を以下の3冊献本して頂きました。</p>
 
 <p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/B071GQQDNM/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071GQQDNM&linkCode=as2&tag=athome0a-22&linkId=31b2a479600687cd2a87420281ca995e"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B071GQQDNM&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071GQQDNM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 
@@ -1092,9 +1092,9 @@ JavaScriptの性質上、しょうがない側面も大きいかなと思いつ�
   
   <entry>
     <title type="html"><![CDATA[RubyKaigi 2017 2日目 Matz基調講演＋α]]></title>
-    <link href="http://tchikuba.github.io/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day/"/>
+    <link href="https://tchikuba.github.io/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day/"/>
     <updated>2017-09-19T09:49:45+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day</id>
+    <id>https://tchikuba.github.io/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day</id>
     <content type="html"><![CDATA[<p>RubyKaigi 2017は広島での開催。昨年は京都で今年は広島ということで、暫く地方の流れなのかしら？</p>
 
 <h2>Keynote : Yukihiro &ldquo;Matz&rdquo; Matsumoto @yukihiro_matz</h2>
@@ -1238,9 +1238,9 @@ JavaScriptの性質上、しょうがない側面も大きいかなと思いつ�
   
   <entry>
     <title type="html"><![CDATA[イベント「非エンジニア起業家に求められるプログラミングスキルとは」に参加しました！]]></title>
-    <link href="http://tchikuba.github.io/blog/2017/07/19/programming-skils-for-entrepreneur/"/>
+    <link href="https://tchikuba.github.io/blog/2017/07/19/programming-skils-for-entrepreneur/"/>
     <updated>2017-07-19T19:00:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2017/07/19/programming-skils-for-entrepreneur</id>
+    <id>https://tchikuba.github.io/blog/2017/07/19/programming-skils-for-entrepreneur</id>
     <content type="html"><![CDATA[<p>昨晩<a href="http://everevo.com/event/39414">「非エンジニア起業家に求められるプログラミングスキルとは」</a>
 というイベントに参加してきました。</p>
 
@@ -1328,9 +1328,9 @@ CEOはプログラミングはできるべき、エンジニアリングまで�
   
   <entry>
     <title type="html"><![CDATA[【書籍レビュー】Ruby on Rails 5 アプリケーションプログラミングを献本頂きました]]></title>
-    <link href="http://tchikuba.github.io/blog/2017/05/22/ruby-on-rails-5-application-programming/"/>
+    <link href="https://tchikuba.github.io/blog/2017/05/22/ruby-on-rails-5-application-programming/"/>
     <updated>2017-05-22T21:02:41+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2017/05/22/ruby-on-rails-5-application-programming</id>
+    <id>https://tchikuba.github.io/blog/2017/05/22/ruby-on-rails-5-application-programming</id>
     <content type="html"><![CDATA[<p>久々にブログ更新。</p>
 
 <p>ここ最近、友人から紹介されて<a href="http://www.wings.msn.to/">WINGSプロジェクト</a>という技術書執筆者のコミュニティに属して、色々と執筆を行っていたりします。
@@ -1389,9 +1389,9 @@ Macでの手順の記述がないのはちょっと残念な印象です。
   
   <entry>
     <title type="html"><![CDATA[【速報】RubyKaigi 2016初日参加レポート]]></title>
-    <link href="http://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day/"/>
+    <link href="https://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day/"/>
     <updated>2016-09-08T10:17:39+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day</id>
+    <id>https://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day</id>
     <content type="html"><![CDATA[<p>聞きながらの自分用メモなのでちょっと正確でない点がありそうですが。</p>
 
 <h2>Ruby3 presented by matz</h2>
@@ -1526,9 +1526,9 @@ puts max</li>
   
   <entry>
     <title type="html"><![CDATA[イベント「CTOだったNight」@dotsに参加してきました！]]></title>
-    <link href="http://tchikuba.github.io/blog/2016/07/04/previous-cto-night/"/>
+    <link href="https://tchikuba.github.io/blog/2016/07/04/previous-cto-night/"/>
     <updated>2016-07-04T19:38:50+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2016/07/04/previous-cto-night</id>
+    <id>https://tchikuba.github.io/blog/2016/07/04/previous-cto-night</id>
     <content type="html"><![CDATA[<p>最近比較的よく行ってる渋谷dotsで行われた<a href="http://eventdots.jp/event/591871">「CTOだったNight」</a>というイベントに参加してきました！
 主催はnanapiの元CTO<a href="https://www.facebook.com/shuichi.wada">和田(wadap)さん</a>。
 話の内容をメモっておいたんですが、思いの外面白かったのでブログ記事としてアップしておきます！</p>
@@ -1700,9 +1700,9 @@ puts max</li>
   
   <entry>
     <title type="html"><![CDATA[イベント「dots.女子部勉強会 vol.7 わたし、一生エンジニア宣言！～ 女性エンジニアとして長く働く秘訣 ～」に参加しました！]]></title>
-    <link href="http://tchikuba.github.io/blog/2016/03/26/dots-womans-is-eternal-engineers/"/>
+    <link href="https://tchikuba.github.io/blog/2016/03/26/dots-womans-is-eternal-engineers/"/>
     <updated>2016-03-26T01:00:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2016/03/26/dots-womans-is-eternal-engineers</id>
+    <id>https://tchikuba.github.io/blog/2016/03/26/dots-womans-is-eternal-engineers</id>
     <content type="html"><![CDATA[<p>先日<a href="http://eventdots.jp/event/581423">「dots.女子部勉強会 vol.7 わたし、一生エンジニア宣言！～ 女性エンジニアとして長く働く秘訣 ～」</a>
 というイベントに参加してきました。
 私の妻も私と同じエンジニアでdots.女子部の一員として運営に関わっています。
@@ -1960,9 +1960,9 @@ puts max</li>
   
   <entry>
     <title type="html"><![CDATA[21世紀型のクリエイティブな働き方・思考・組織の新しいあたりまえ]]></title>
-    <link href="http://tchikuba.github.io/blog/2015/12/05/life-of-creative-people/"/>
+    <link href="https://tchikuba.github.io/blog/2015/12/05/life-of-creative-people/"/>
     <updated>2015-12-05T23:06:08+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2015/12/05/life-of-creative-people</id>
+    <id>https://tchikuba.github.io/blog/2015/12/05/life-of-creative-people</id>
     <content type="html"><![CDATA[<p><em>この記事は<a href="http://qiita.com/advent-calendar/2015/livesense_2">リブセンスアドベントカレンダー2015(その2)</a>の5日目です。</em></p>
 
 <ul>
@@ -2022,7 +2022,7 @@ puts max</li>
 <p>発注者と受託者という関係では、前者から後者へ金銭的な授受が行われる為、ビジネスパートナーといえど、構造上どうしても主従関係のような強弱がついてしまいます。
 当然上手く行っている受託開発も存在しますが、経験上上手く行かないパターンを見ることが少なからずありました。</p>
 
-<p>※ただ最近は一括請負契約の構造上の問題を解決する受託開発の手法の1つとして<a href="http://tchikuba.github.io/blog/2014/10/20/sonic-garden-kuranuki-book/">「納品のない受託開発」</a>
+<p>※ただ最近は一括請負契約の構造上の問題を解決する受託開発の手法の1つとして<a href="https://tchikuba.github.io/blog/2014/10/20/sonic-garden-kuranuki-book/">「納品のない受託開発」</a>
 を手掛ける<a href="http://www.atmarkit.co.jp/ait/articles/1504/27/news001.html">ソニックガーデンさんの事例</a>は注目したいところです。</p>
 
 <p>上記の図に表現した通り、時代の変遷と共にエンジニアリングの比重を相対的に大きくしていますが、これも実感としてあるところです。
@@ -2079,7 +2079,7 @@ puts max</li>
 <h1>ヒエラルキーとホラクラシー</h1>
 
 <p>このような文脈にあってもう1つ私の中で良く考えることがあります。それはクリエイティブな組織の在り方についてです。
-<a href="http://tchikuba.github.io/blog/2015/01/22/new-type-organization/">私はその1つの解としてホラクラシー型組織の構築があるのではないか？と考えています。</a>
+<a href="https://tchikuba.github.io/blog/2015/01/22/new-type-organization/">私はその1つの解としてホラクラシー型組織の構築があるのではないか？と考えています。</a>
 ホラクラシーとは、マネージャーの存在しないセルフ・マネジメント型組織のことで、ザッポスが導入したことで有名です。</p>
 
 <iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="InterAction Green | ほんとうはこわい、ザッポス。ホラクラシーって何？" src="http://hatenablog.com/embed?url=http://www.interactiongreen.com/?p=864" frameborder="0" scrolling="no"></iframe>
@@ -2189,9 +2189,9 @@ puts max</li>
   
   <entry>
     <title type="html"><![CDATA[「ECMAScript6勉強会」HappyHalloween JS 祭！！に参加してきました！]]></title>
-    <link href="http://tchikuba.github.io/blog/2015/10/31/ecma-script-6-study/"/>
+    <link href="https://tchikuba.github.io/blog/2015/10/31/ecma-script-6-study/"/>
     <updated>2015-10-31T13:42:40+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2015/10/31/ecma-script-6-study</id>
+    <id>https://tchikuba.github.io/blog/2015/10/31/ecma-script-6-study</id>
     <content type="html"><![CDATA[<p>2015年10月31日(土)に行われた<a href="http://eventdots.jp/event/571557">「ECMAScript6勉強会」HappyHalloween JS 祭！！</a>に参加してきました！
 ハロウィンということで仮装して参加すると参加費が半額になるというちょっと変わったイベントでしたｗ</p>
 
@@ -2345,9 +2345,9 @@ puts max</li>
   
   <entry>
     <title type="html"><![CDATA[「dots.2周年記念パーティ」に参加しました！]]></title>
-    <link href="http://tchikuba.github.io/blog/2015/10/30/dots-2years-party/"/>
+    <link href="https://tchikuba.github.io/blog/2015/10/30/dots-2years-party/"/>
     <updated>2015-10-30T19:22:05+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2015/10/30/dots-2years-party</id>
+    <id>https://tchikuba.github.io/blog/2015/10/30/dots-2years-party</id>
     <content type="html"><![CDATA[<p>2015年10月30日(金)に行われた<a href="http://eventdots.jp/">dots</a>の<a href="http://eventdots.jp/event/571415">2周年記念パーティー</a>に参加してきました！
 rubyのパパこと<a href="https://twitter.com/yukihiro_matz">matz</a>の話が聞けるということで楽しみにしてたイベントでした。
 またdotsは渋谷のイベント・コワーキングスペースを2015年8月から運営しており、運営に関わっている人が知人でもあり、ちょこちょこ利用させて貰ってます。</p>
@@ -2460,9 +2460,9 @@ rubyのパパこと<a href="https://twitter.com/yukihiro_matz">matz</a>の話が
   
   <entry>
     <title type="html"><![CDATA[「Jubatusハッカソンwith読売新聞」に参加してきました！]]></title>
-    <link href="http://tchikuba.github.io/blog/2015/09/10/jubatus-hackathon-with-yomiuri/"/>
+    <link href="https://tchikuba.github.io/blog/2015/09/10/jubatus-hackathon-with-yomiuri/"/>
     <updated>2015-09-10T00:05:28+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2015/09/10/jubatus-hackathon-with-yomiuri</id>
+    <id>https://tchikuba.github.io/blog/2015/09/10/jubatus-hackathon-with-yomiuri</id>
     <content type="html"><![CDATA[<p>先月8/23(土)、8/24(日)の2日間で<a href="http://matome.naver.jp/odai/2137457967026150101">歌舞伎座タワーのドワンゴ本社</a>を会場として行われた
 <a href="http://jubatus.connpass.com/event/18166/">Jubatusハッカソンwith読売新聞</a>に参加してきました！
 読売新聞の記事の写真にバッチリ写ってましたｗ</p>
@@ -2492,7 +2492,7 @@ rubyのパパこと<a href="https://twitter.com/yukihiro_matz">matz</a>の話が
 回帰モデルを5年毎に作って2015年時点から2030年を推定する、という感じです。
 説明変数のデータは主にwebクロールしてきたものを利用しました。</p>
 
-<p>私の担当は<a href="http://tchikuba.github.io/blog/2015/06/22/artificial-intelligence-hackathon/">前回参加したハッカソン</a>同様、この辺のクロール周りだったんですが
+<p>私の担当は<a href="https://tchikuba.github.io/blog/2015/06/22/artificial-intelligence-hackathon/">前回参加したハッカソン</a>同様、この辺のクロール周りだったんですが
 やはり時間がかかって思ったより大変でした。(前処理大事)
 収穫としては<a href="http://ja.dbpedia.org/">DBpedia</a>の存在を知ったことです。
 <a href="http://www.asahi-net.or.jp/~ax2s-kmtn/internet/rdf/rdf-sparql-query.html">SPARQL</a>というSQLライクな言語でデータの関係性を含めてデータ取得出来ます。
@@ -2653,9 +2653,9 @@ rubyのパパこと<a href="https://twitter.com/yukihiro_matz">matz</a>の話が
   
   <entry>
     <title type="html"><![CDATA[イベント「人工知能ハッカソン」に参加してきました！]]></title>
-    <link href="http://tchikuba.github.io/blog/2015/06/22/artificial-intelligence-hackathon/"/>
+    <link href="https://tchikuba.github.io/blog/2015/06/22/artificial-intelligence-hackathon/"/>
     <updated>2015-06-22T22:15:31+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2015/06/22/artificial-intelligence-hackathon</id>
+    <id>https://tchikuba.github.io/blog/2015/06/22/artificial-intelligence-hackathon</id>
     <content type="html"><![CDATA[<p>最近、人工知能について非常に興味関心があります。
 ロジスティック回帰による数値予測や機械学習、特にニューラルネットワーク・ディープラーニングへの興味関心が発展して最近では専ら人工知能についての話題に釘付けです。
 そんな折に丁度タイミング良くサムライインキュベートさんからのメルマガで<a href="http://event.samurai-incubate.asia/ubic/">「人工知能ハッカソン」</a>
@@ -2724,7 +2724,7 @@ rubyのパパこと<a href="https://twitter.com/yukihiro_matz">matz</a>の話が
 
 <p>ところで今回のハッカソンのメンターが<a href="https://twitter.com/masuidrive">トレタ増井雄一郎さん</a>と
 <a href="http://ymatsuo.com/japanese/">東京大学准教授の松尾豊さん</a>だったのも参加理由の一つでした。
-<a href="http://tchikuba.github.io/blog/2014/02/14/engineers-free-life-style-of-developers-summit-2014/">増井さんのお話を1年前のデブサミ2014で聞いたことがあり</a>、
+<a href="https://tchikuba.github.io/blog/2014/02/14/engineers-free-life-style-of-developers-summit-2014/">増井さんのお話を1年前のデブサミ2014で聞いたことがあり</a>、
 スタートアップ的な考え方からのツッコミが聞けそうだなと思っていたところ
 まさに想像通りのフィードバックがあってその視点が非常に参考になりました。</p>
 
@@ -2774,9 +2774,9 @@ rubyのパパこと<a href="https://twitter.com/yukihiro_matz">matz</a>の話が
   
   <entry>
     <title type="html"><![CDATA[td-clientを使ってHiveより早いPrestoクエリを実行する方法をrakeタスクで]]></title>
-    <link href="http://tchikuba.github.io/blog/2015/05/20/how-to-execute-presto-query-on-tresuredata-client/"/>
+    <link href="https://tchikuba.github.io/blog/2015/05/20/how-to-execute-presto-query-on-tresuredata-client/"/>
     <updated>2015-05-20T20:05:22+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2015/05/20/how-to-execute-presto-query-on-tresuredata-client</id>
+    <id>https://tchikuba.github.io/blog/2015/05/20/how-to-execute-presto-query-on-tresuredata-client</id>
     <content type="html"><![CDATA[<p>最近、Hadoop(Tresure Data)と格闘してます。</p>
 
 <p>td-clientを使ってTresureDataからデータを取得するrakeタスクを書いててHiveクエリだと遅いのでPresto使いたいなと思うことがありました。
@@ -2892,9 +2892,9 @@ td-client-rubyのソースコードを見たら案の定クエリタイプを指
   
   <entry>
     <title type="html"><![CDATA[好きなことを仕事にするという論調を何故批判する向きが多いのかふと疑問に思った]]></title>
-    <link href="http://tchikuba.github.io/blog/2015/04/21/work-found-job/"/>
+    <link href="https://tchikuba.github.io/blog/2015/04/21/work-found-job/"/>
     <updated>2015-04-21T20:00:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2015/04/21/work-found-job</id>
+    <id>https://tchikuba.github.io/blog/2015/04/21/work-found-job</id>
     <content type="html"><![CDATA[<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="僕がアクセンチュアを辞めた理由 - 元外資系コンサルタントがなぜ鎌倉で自給的生活をはじめたか？" src="http://hatenablog.com/embed?url=http://u1style.hatenablog.com/entry/2015/03/27/%E5%83%95%E3%81%8C%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%81%E3%83%A5%E3%82%A2%E3%82%92%E8%BE%9E%E3%82%81%E3%81%9F%E7%90%86%E7%94%B1" frameborder="0" scrolling="no"></iframe>
 
 
@@ -3094,9 +3094,9 @@ td-client-rubyのソースコードを見たら案の定クエリタイプを指
   
   <entry>
     <title type="html"><![CDATA[金融イノベーションビジネスカンファレンス(FIBC)2015に参加しました]]></title>
-    <link href="http://tchikuba.github.io/blog/2015/02/26/fibc2015/"/>
+    <link href="https://tchikuba.github.io/blog/2015/02/26/fibc2015/"/>
     <updated>2015-02-26T16:00:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2015/02/26/fibc2015</id>
+    <id>https://tchikuba.github.io/blog/2015/02/26/fibc2015</id>
     <content type="html"><![CDATA[<p>縁あって<a href="http://fibc.info/fibc2015_event/">金融イノベーションビジネスカンファレンス(FIBC2015)</a>に参加してきました。
 普段参加するイベントはweb技術系かスタートアップ系のものがほとんどですが、
 いつも参加するスタートアップ関連イベントに比べてスーツ率がかなり高いのが金融らしいなと思いましたｗ
@@ -3405,9 +3405,9 @@ td-client-rubyのソースコードを見たら案の定クエリタイプを指
   
   <entry>
     <title type="html"><![CDATA[Bufferにインスパイアされて、以前から私が書き溜めていた21世紀型ニュータイプ組織を晒してみました]]></title>
-    <link href="http://tchikuba.github.io/blog/2015/01/22/new-type-organization/"/>
+    <link href="https://tchikuba.github.io/blog/2015/01/22/new-type-organization/"/>
     <updated>2015-01-22T21:25:44+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2015/01/22/new-type-organization</id>
+    <id>https://tchikuba.github.io/blog/2015/01/22/new-type-organization</id>
     <content type="html"><![CDATA[<p><a href="http://hrnabi.com/2015/01/21/5353/">CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ</a>
 というHRナビの記事に興奮したのでこれは久しぶりにブログ記事を書しかない！と決意しました。
 興奮したのは自分が起業したらこういう会社にしたいな、こういう組織が良いな、と思って以前から書き溜めていた内容と結構重複するところがあったからです。
@@ -3571,9 +3571,9 @@ Bufferのジョエル・ガスコインCEOもインタビューで言ってま�
   
   <entry>
     <title type="html"><![CDATA[書籍『「納品」をなくせばうまくいく』から見えてきたエンジニアのキャリアのこれから]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/10/20/sonic-garden-kuranuki-book/"/>
+    <link href="https://tchikuba.github.io/blog/2014/10/20/sonic-garden-kuranuki-book/"/>
     <updated>2014-10-20T21:29:10+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/10/20/sonic-garden-kuranuki-book</id>
+    <id>https://tchikuba.github.io/blog/2014/10/20/sonic-garden-kuranuki-book</id>
     <content type="html"><![CDATA[<p>結構時間が経ってしまいましたが、3ヶ月程前に
 <a href="http://attitude4webperson.doorkeeper.jp/events/12244">「ビール片手にプログラマーを一生の仕事にするために出来ることを考えてみませんか？」</a>
 というイベントに行ってきました。</p>
@@ -3592,7 +3592,7 @@ Bufferのジョエル・ガスコインCEOもインタビューで言ってま�
 
 <hr />
 
-<p><img src="http://tchikuba.github.io/images/sonicgarden-book/1.jpg" alt="sonicgarden book 1" /></p>
+<p><img src="https://tchikuba.github.io/images/sonicgarden-book/1.jpg" alt="sonicgarden book 1" /></p>
 
 <h1>エンジニアに求められるパラダイムシフト</h1>
 
@@ -3614,7 +3614,7 @@ Bufferのジョエル・ガスコインCEOもインタビューで言ってま�
 <p>大事なことはビジネスドメインに近接する場所でエンジニアが仕様の決定から実装、運用まで一気通貫で対応しているか？という点です。
 こういう立場で日々の開発を行っているエンジニアであればこのパラダイムシフトは非常に受け入れ易いと思います。</p>
 
-<p><img src="http://tchikuba.github.io/images/sonicgarden-book/2.jpg" alt="sonicgarden book 2" /></p>
+<p><img src="https://tchikuba.github.io/images/sonicgarden-book/2.jpg" alt="sonicgarden book 2" /></p>
 
 <h1>エンジニアが会社を選ぶ基準</h1>
 
@@ -3658,7 +3658,7 @@ Bufferのジョエル・ガスコインCEOもインタビューで言ってま�
 人は感じて動くから「感動」というそうです。決して理屈で人が動くのではないと思います。
 理屈が必要とされるエンジニアリングだからこそ、感情豊かに日々の開発ライフを送ることが必要だと思います。</p>
 
-<p><img src="http://tchikuba.github.io/images/sonicgarden-book/3.jpg" alt="sonicgarden book 3" /></p>
+<p><img src="https://tchikuba.github.io/images/sonicgarden-book/3.jpg" alt="sonicgarden book 3" /></p>
 
 <h1>よりスピーディーに進化していく人間としてのエンジニア</h1>
 

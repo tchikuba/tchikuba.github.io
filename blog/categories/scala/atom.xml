@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Scala | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/scala/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/scala/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[ドワンゴ吉村総一郎氏「Play2/Scalaでドメイン駆動設計を利用した大規模Webアプリケーションのスクラム開発の勘所」@デブサミ2014 2日目]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/02/14/play2-scala-ddd-scrum-of-developers-summit-2014/"/>
+    <link href="https://tchikuba.github.io/blog/2014/02/14/play2-scala-ddd-scrum-of-developers-summit-2014/"/>
     <updated>2014-02-14T16:50:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/02/14/play2-scala-ddd-scrum-of-developers-summit-2014</id>
+    <id>https://tchikuba.github.io/blog/2014/02/14/play2-scala-ddd-scrum-of-developers-summit-2014</id>
     <content type="html"><![CDATA[<p>引き続き<a href="http://event.shoeisha.jp/devsumi/20140213/">デブサミ2014</a>。
 ドワンゴ吉村総一郎氏によるセッション<a href="http://event.shoeisha.jp/devsumi/20140213/session/407/">「Play2/Scalaでドメイン駆動設計を利用した大規模Webアプリケーションのスクラム開発の勘所」</a>を聞きました。
 <img src="/images/play2-scala-ddd-scrum/1.jpg" alt="top slide" />

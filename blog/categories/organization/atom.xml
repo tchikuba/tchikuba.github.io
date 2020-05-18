@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: organization | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/organization/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/organization/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[「クリエイティブが輝ける組織をエンジニアリングする」ポッドキャストCEO.FMを始めました]]></title>
-    <link href="http://tchikuba.github.io/blog/2020/02/09/start-ceofm/"/>
+    <link href="https://tchikuba.github.io/blog/2020/02/09/start-ceofm/"/>
     <updated>2020-02-09T20:21:39+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2020/02/09/start-ceofm</id>
+    <id>https://tchikuba.github.io/blog/2020/02/09/start-ceofm</id>
     <content type="html"><![CDATA[<p>2020年1月24日から、一念発起して「<a href="https://anchor.fm/ceofm">CEO.FM</a>」というポッドキャストを始めています。
 2/9現在、<a href="https://anchor.fm/ceofm/episodes/17-ealrqm">エピソード#17</a>まで配信済です。
 365日、毎日配信を目標に、今のところ継続中😁</p>
@@ -638,9 +638,9 @@
   
   <entry>
     <title type="html"><![CDATA[21世紀型のクリエイティブな働き方・思考・組織の新しいあたりまえ]]></title>
-    <link href="http://tchikuba.github.io/blog/2015/12/05/life-of-creative-people/"/>
+    <link href="https://tchikuba.github.io/blog/2015/12/05/life-of-creative-people/"/>
     <updated>2015-12-05T23:06:08+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2015/12/05/life-of-creative-people</id>
+    <id>https://tchikuba.github.io/blog/2015/12/05/life-of-creative-people</id>
     <content type="html"><![CDATA[<p><em>この記事は<a href="http://qiita.com/advent-calendar/2015/livesense_2">リブセンスアドベントカレンダー2015(その2)</a>の5日目です。</em></p>
 
 <ul>
@@ -867,9 +867,9 @@
   
   <entry>
     <title type="html"><![CDATA[Bufferにインスパイアされて、以前から私が書き溜めていた21世紀型ニュータイプ組織を晒してみました]]></title>
-    <link href="http://tchikuba.github.io/blog/2015/01/22/new-type-organization/"/>
+    <link href="https://tchikuba.github.io/blog/2015/01/22/new-type-organization/"/>
     <updated>2015-01-22T21:25:44+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2015/01/22/new-type-organization</id>
+    <id>https://tchikuba.github.io/blog/2015/01/22/new-type-organization</id>
     <content type="html"><![CDATA[<p><a href="http://hrnabi.com/2015/01/21/5353/">CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ</a>
 というHRナビの記事に興奮したのでこれは久しぶりにブログ記事を書しかない！と決意しました。
 興奮したのは自分が起業したらこういう会社にしたいな、こういう組織が良いな、と思って以前から書き溜めていた内容と結構重複するところがあったからです。

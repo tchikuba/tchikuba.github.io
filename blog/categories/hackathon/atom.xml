@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: hackathon | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/hackathon/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/hackathon/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[「Jubatusハッカソンwith読売新聞」に参加してきました！]]></title>
-    <link href="http://tchikuba.github.io/blog/2015/09/10/jubatus-hackathon-with-yomiuri/"/>
+    <link href="https://tchikuba.github.io/blog/2015/09/10/jubatus-hackathon-with-yomiuri/"/>
     <updated>2015-09-10T00:05:28+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2015/09/10/jubatus-hackathon-with-yomiuri</id>
+    <id>https://tchikuba.github.io/blog/2015/09/10/jubatus-hackathon-with-yomiuri</id>
     <content type="html"><![CDATA[<p>先月8/23(土)、8/24(日)の2日間で<a href="http://matome.naver.jp/odai/2137457967026150101">歌舞伎座タワーのドワンゴ本社</a>を会場として行われた
 <a href="http://jubatus.connpass.com/event/18166/">Jubatusハッカソンwith読売新聞</a>に参加してきました！
 読売新聞の記事の写真にバッチリ写ってましたｗ</p>
@@ -208,9 +208,9 @@
   
   <entry>
     <title type="html"><![CDATA[イベント「人工知能ハッカソン」に参加してきました！]]></title>
-    <link href="http://tchikuba.github.io/blog/2015/06/22/artificial-intelligence-hackathon/"/>
+    <link href="https://tchikuba.github.io/blog/2015/06/22/artificial-intelligence-hackathon/"/>
     <updated>2015-06-22T22:15:31+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2015/06/22/artificial-intelligence-hackathon</id>
+    <id>https://tchikuba.github.io/blog/2015/06/22/artificial-intelligence-hackathon</id>
     <content type="html"><![CDATA[<p>最近、人工知能について非常に興味関心があります。
 ロジスティック回帰による数値予測や機械学習、特にニューラルネットワーク・ディープラーニングへの興味関心が発展して最近では専ら人工知能についての話題に釘付けです。
 そんな折に丁度タイミング良くサムライインキュベートさんからのメルマガで<a href="http://event.samurai-incubate.asia/ubic/">「人工知能ハッカソン」</a>

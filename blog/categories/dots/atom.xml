@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: dots | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/dots/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/dots/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[「ECMAScript6勉強会」HappyHalloween JS 祭！！に参加してきました！]]></title>
-    <link href="http://tchikuba.github.io/blog/2015/10/31/ecma-script-6-study/"/>
+    <link href="https://tchikuba.github.io/blog/2015/10/31/ecma-script-6-study/"/>
     <updated>2015-10-31T13:42:40+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2015/10/31/ecma-script-6-study</id>
+    <id>https://tchikuba.github.io/blog/2015/10/31/ecma-script-6-study</id>
     <content type="html"><![CDATA[<p>2015年10月31日(土)に行われた<a href="http://eventdots.jp/event/571557">「ECMAScript6勉強会」HappyHalloween JS 祭！！</a>に参加してきました！
 ハロウィンということで仮装して参加すると参加費が半額になるというちょっと変わったイベントでしたｗ</p>
 
@@ -171,9 +171,9 @@
   
   <entry>
     <title type="html"><![CDATA[「dots.2周年記念パーティ」に参加しました！]]></title>
-    <link href="http://tchikuba.github.io/blog/2015/10/30/dots-2years-party/"/>
+    <link href="https://tchikuba.github.io/blog/2015/10/30/dots-2years-party/"/>
     <updated>2015-10-30T19:22:05+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2015/10/30/dots-2years-party</id>
+    <id>https://tchikuba.github.io/blog/2015/10/30/dots-2years-party</id>
     <content type="html"><![CDATA[<p>2015年10月30日(金)に行われた<a href="http://eventdots.jp/">dots</a>の<a href="http://eventdots.jp/event/571415">2周年記念パーティー</a>に参加してきました！
 rubyのパパこと<a href="https://twitter.com/yukihiro_matz">matz</a>の話が聞けるということで楽しみにしてたイベントでした。
 またdotsは渋谷のイベント・コワーキングスペースを2015年8月から運営しており、運営に関わっている人が知人でもあり、ちょこちょこ利用させて貰ってます。</p>

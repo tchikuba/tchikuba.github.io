@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://tchikuba.github.io/sitemap.xml 
+Sitemap: https://tchikuba.github.io/sitemap.xml 

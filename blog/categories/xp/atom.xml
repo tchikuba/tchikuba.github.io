@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: XP | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/xp/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/xp/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[「IMPACT MAPPING～インパクトのあるソフトウェアを作る」@デブサミ2014 2日目を聞いてきた]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/02/14/impact-mapping-of-developers-summit-2014/"/>
+    <link href="https://tchikuba.github.io/blog/2014/02/14/impact-mapping-of-developers-summit-2014/"/>
     <updated>2014-02-14T13:50:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/02/14/impact-mapping-of-developers-summit-2014</id>
+    <id>https://tchikuba.github.io/blog/2014/02/14/impact-mapping-of-developers-summit-2014</id>
     <content type="html"><![CDATA[<h1>自己紹介</h1>
 
 <ul>
@@ -116,9 +116,9 @@
   
   <entry>
     <title type="html"><![CDATA[「Team GeekによるFearless Change」@デブサミ2014 2日目を聞いた]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/02/14/team-geek-of-developers-summit-2014/"/>
+    <link href="https://tchikuba.github.io/blog/2014/02/14/team-geek-of-developers-summit-2014/"/>
     <updated>2014-02-14T11:30:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/02/14/team-geek-of-developers-summit-2014</id>
+    <id>https://tchikuba.github.io/blog/2014/02/14/team-geek-of-developers-summit-2014</id>
     <content type="html"><![CDATA[<p>さぁ、<a href="http://event.shoeisha.jp/devsumi/20140213/">デブサミ2014</a>も2日目に入りました！
 今日はどっぷり丸1日いろんなセッションに参加予定です。
 が、外はまさかの2週連続の大雪という。。

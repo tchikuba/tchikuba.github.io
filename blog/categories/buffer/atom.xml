@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: buffer | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/buffer/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/buffer/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Bufferにインスパイアされて、以前から私が書き溜めていた21世紀型ニュータイプ組織を晒してみました]]></title>
-    <link href="http://tchikuba.github.io/blog/2015/01/22/new-type-organization/"/>
+    <link href="https://tchikuba.github.io/blog/2015/01/22/new-type-organization/"/>
     <updated>2015-01-22T21:25:44+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2015/01/22/new-type-organization</id>
+    <id>https://tchikuba.github.io/blog/2015/01/22/new-type-organization</id>
     <content type="html"><![CDATA[<p><a href="http://hrnabi.com/2015/01/21/5353/">CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ</a>
 というHRナビの記事に興奮したのでこれは久しぶりにブログ記事を書しかない！と決意しました。
 興奮したのは自分が起業したらこういう会社にしたいな、こういう組織が良いな、と思って以前から書き溜めていた内容と結構重複するところがあったからです。

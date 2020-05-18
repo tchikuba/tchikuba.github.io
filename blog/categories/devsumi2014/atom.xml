@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: devsumi2014 | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/devsumi2014/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/devsumi2014/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[ドワンゴ吉村総一郎氏「Play2/Scalaでドメイン駆動設計を利用した大規模Webアプリケーションのスクラム開発の勘所」@デブサミ2014 2日目]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/02/14/play2-scala-ddd-scrum-of-developers-summit-2014/"/>
+    <link href="https://tchikuba.github.io/blog/2014/02/14/play2-scala-ddd-scrum-of-developers-summit-2014/"/>
     <updated>2014-02-14T16:50:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/02/14/play2-scala-ddd-scrum-of-developers-summit-2014</id>
+    <id>https://tchikuba.github.io/blog/2014/02/14/play2-scala-ddd-scrum-of-developers-summit-2014</id>
     <content type="html"><![CDATA[<p>引き続き<a href="http://event.shoeisha.jp/devsumi/20140213/">デブサミ2014</a>。
 ドワンゴ吉村総一郎氏によるセッション<a href="http://event.shoeisha.jp/devsumi/20140213/session/407/">「Play2/Scalaでドメイン駆動設計を利用した大規模Webアプリケーションのスクラム開発の勘所」</a>を聞きました。
 <img src="/images/play2-scala-ddd-scrum/1.jpg" alt="top slide" />
@@ -170,9 +170,9 @@ Play2/Scalaについては実際に触ったことがないので聞いていて
   
   <entry>
     <title type="html"><![CDATA[ミイル/トレタ増井雄一郎氏「エンジニアだからできる 自由な生き方」@デブサミ2014 2日目]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/02/14/engineers-free-life-style-of-developers-summit-2014/"/>
+    <link href="https://tchikuba.github.io/blog/2014/02/14/engineers-free-life-style-of-developers-summit-2014/"/>
     <updated>2014-02-14T15:50:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/02/14/engineers-free-life-style-of-developers-summit-2014</id>
+    <id>https://tchikuba.github.io/blog/2014/02/14/engineers-free-life-style-of-developers-summit-2014</id>
     <content type="html"><![CDATA[<p>デブサミ2014 2日目。
 ミイル/トレタ増井雄一郎氏の「エンジニアだからできる 自由な生き方」というセッションを聞いて内容をまとめました。
 増井雄一郎さんといえば<a href="https://github.com/mruby/mruby">mruby</a>のイメージである程度略歴知っていたんでどういう考えなのか聞いてみたかったんですよね。
@@ -259,9 +259,9 @@ connecting the dotsに似たような話で、キャリアを形成する際に�
   
   <entry>
     <title type="html"><![CDATA[Atlassian長沢氏「デベロッパー戦国時代！ストーリーをつなぐ開発環境と3つの秘訣」@デブサミ2014 2日目]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/02/14/atlassian-of-developers-summit-2014/"/>
+    <link href="https://tchikuba.github.io/blog/2014/02/14/atlassian-of-developers-summit-2014/"/>
     <updated>2014-02-14T14:50:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/02/14/atlassian-of-developers-summit-2014</id>
+    <id>https://tchikuba.github.io/blog/2014/02/14/atlassian-of-developers-summit-2014</id>
     <content type="html"><![CDATA[<p>デブサミ2014 2日目の午後2のセッションはAtlassian長沢氏の「デベロッパー戦国時代！ストーリーをつなぐ開発環境と3つの秘訣」を聞きにきました！
 Atlassian、いつも</p>
 
@@ -352,9 +352,9 @@ Atlassian、いつも</p>
   
   <entry>
     <title type="html"><![CDATA[「IMPACT MAPPING～インパクトのあるソフトウェアを作る」@デブサミ2014 2日目を聞いてきた]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/02/14/impact-mapping-of-developers-summit-2014/"/>
+    <link href="https://tchikuba.github.io/blog/2014/02/14/impact-mapping-of-developers-summit-2014/"/>
     <updated>2014-02-14T13:50:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/02/14/impact-mapping-of-developers-summit-2014</id>
+    <id>https://tchikuba.github.io/blog/2014/02/14/impact-mapping-of-developers-summit-2014</id>
     <content type="html"><![CDATA[<h1>自己紹介</h1>
 
 <ul>
@@ -453,9 +453,9 @@ Atlassian、いつも</p>
   
   <entry>
     <title type="html"><![CDATA[「Team GeekによるFearless Change」@デブサミ2014 2日目を聞いた]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/02/14/team-geek-of-developers-summit-2014/"/>
+    <link href="https://tchikuba.github.io/blog/2014/02/14/team-geek-of-developers-summit-2014/"/>
     <updated>2014-02-14T11:30:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/02/14/team-geek-of-developers-summit-2014</id>
+    <id>https://tchikuba.github.io/blog/2014/02/14/team-geek-of-developers-summit-2014</id>
     <content type="html"><![CDATA[<p>さぁ、<a href="http://event.shoeisha.jp/devsumi/20140213/">デブサミ2014</a>も2日目に入りました！
 今日はどっぷり丸1日いろんなセッションに参加予定です。
 が、外はまさかの2週連続の大雪という。。

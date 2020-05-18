@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: GENBA | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/genba/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/genba/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[現場のリーダーシップの正義]]></title>
-    <link href="http://tchikuba.github.io/blog/2013/12/19/devlove-advent-calendar-2013-genba/"/>
+    <link href="https://tchikuba.github.io/blog/2013/12/19/devlove-advent-calendar-2013-genba/"/>
     <updated>2013-12-19T00:00:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2013/12/19/devlove-advent-calendar-2013-genba</id>
+    <id>https://tchikuba.github.io/blog/2013/12/19/devlove-advent-calendar-2013-genba</id>
     <content type="html"><![CDATA[<p><em>この記事は<a href="http://devlove.doorkeeper.jp/events/7039">DevLOVE Advent Calendar 2013 「現場」</a>の40日目の記事です。
 <a href="https://github.com/N-A/rendo/issues/1">N_Aさん</a>からバトンをお預かりしました。</em></p>
 

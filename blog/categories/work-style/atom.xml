@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: work-style | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/work-style/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/work-style/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[40分で理解するとあるエンジニアのキャリア]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/04/18/engineers-career-laboratory/"/>
+    <link href="https://tchikuba.github.io/blog/2014/04/18/engineers-career-laboratory/"/>
     <updated>2014-04-18T20:00:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/04/18/engineers-career-laboratory</id>
+    <id>https://tchikuba.github.io/blog/2014/04/18/engineers-career-laboratory</id>
     <content type="html"><![CDATA[<p>本音を言うとちょっとこのブログに書くのこっ恥ずかしいのですが、
 公私共に懇意にしている<a href="http://www.iacc.co.jp/">アイアンドシー・クルーズ</a>の
 <a href="http://iguchikazuhiro.blogspot.jp/">井口さん</a>主催のイベントで
@@ -36,9 +36,9 @@
   
   <entry>
     <title type="html"><![CDATA[「クラウドワークス2周年記念 ユーザー大交流会」に参加してきました]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/03/21/users-event-of-crowdworks-2nd-anniversary/"/>
+    <link href="https://tchikuba.github.io/blog/2014/03/21/users-event-of-crowdworks-2nd-anniversary/"/>
     <updated>2014-03-21T15:14:52+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/03/21/users-event-of-crowdworks-2nd-anniversary</id>
+    <id>https://tchikuba.github.io/blog/2014/03/21/users-event-of-crowdworks-2nd-anniversary</id>
     <content type="html"><![CDATA[<p><a href="http://crowdworks.doorkeeper.jp/events/9207">クラウドワークス2周年記念 ユーザー大交流会</a>に参加してきました。</p>
 
 <h1>はじめに</h1>
@@ -164,9 +164,9 @@
   
   <entry>
     <title type="html"><![CDATA[「エンジニア近未来ワークスタイル2014」@GoogleJapanオフィスに行ってきた]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/02/14/engineers-work-style-at-google-japan/"/>
+    <link href="https://tchikuba.github.io/blog/2014/02/14/engineers-work-style-at-google-japan/"/>
     <updated>2014-02-14T23:00:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/02/14/engineers-work-style-at-google-japan</id>
+    <id>https://tchikuba.github.io/blog/2014/02/14/engineers-work-style-at-google-japan</id>
     <content type="html"><![CDATA[<p><a href="http://event.shoeisha.jp/devsumi/20140213/">デブサミ2014</a>のあと更にイベントは続きます！
 というわけで<a href="http://everevo.com/event/10001">「エンジニア近未来ワークスタイル2014」</a>に参加しました！
 大雪の中でしたが、初のGoogle Japanオフィス訪問ということもあり、またイベントの内容にも大満足で参加して本当に良かったです。</p>
@@ -617,9 +617,9 @@
   
   <entry>
     <title type="html"><![CDATA[ミイル/トレタ増井雄一郎氏「エンジニアだからできる 自由な生き方」@デブサミ2014 2日目]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/02/14/engineers-free-life-style-of-developers-summit-2014/"/>
+    <link href="https://tchikuba.github.io/blog/2014/02/14/engineers-free-life-style-of-developers-summit-2014/"/>
     <updated>2014-02-14T15:50:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/02/14/engineers-free-life-style-of-developers-summit-2014</id>
+    <id>https://tchikuba.github.io/blog/2014/02/14/engineers-free-life-style-of-developers-summit-2014</id>
     <content type="html"><![CDATA[<p>デブサミ2014 2日目。
 ミイル/トレタ増井雄一郎氏の「エンジニアだからできる 自由な生き方」というセッションを聞いて内容をまとめました。
 増井雄一郎さんといえば<a href="https://github.com/mruby/mruby">mruby</a>のイメージである程度略歴知っていたんでどういう考えなのか聞いてみたかったんですよね。

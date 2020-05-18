@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: career | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/career/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/career/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[書籍『「納品」をなくせばうまくいく』から見えてきたエンジニアのキャリアのこれから]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/10/20/sonic-garden-kuranuki-book/"/>
+    <link href="https://tchikuba.github.io/blog/2014/10/20/sonic-garden-kuranuki-book/"/>
     <updated>2014-10-20T21:29:10+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/10/20/sonic-garden-kuranuki-book</id>
+    <id>https://tchikuba.github.io/blog/2014/10/20/sonic-garden-kuranuki-book</id>
     <content type="html"><![CDATA[<p>結構時間が経ってしまいましたが、3ヶ月程前に
 <a href="http://attitude4webperson.doorkeeper.jp/events/12244">「ビール片手にプログラマーを一生の仕事にするために出来ることを考えてみませんか？」</a>
 というイベントに行ってきました。</p>
@@ -129,9 +129,9 @@ Social Change &ndash; 自らを変化できるようになったならば、自�
   
   <entry>
     <title type="html"><![CDATA[40分で理解するとあるエンジニアのキャリア]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/04/18/engineers-career-laboratory/"/>
+    <link href="https://tchikuba.github.io/blog/2014/04/18/engineers-career-laboratory/"/>
     <updated>2014-04-18T20:00:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/04/18/engineers-career-laboratory</id>
+    <id>https://tchikuba.github.io/blog/2014/04/18/engineers-career-laboratory</id>
     <content type="html"><![CDATA[<p>本音を言うとちょっとこのブログに書くのこっ恥ずかしいのですが、
 公私共に懇意にしている<a href="http://www.iacc.co.jp/">アイアンドシー・クルーズ</a>の
 <a href="http://iguchikazuhiro.blogspot.jp/">井口さん</a>主催のイベントで

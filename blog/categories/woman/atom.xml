@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: woman | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/woman/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/woman/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[イベント「dots.女子部勉強会 vol.7 わたし、一生エンジニア宣言！～ 女性エンジニアとして長く働く秘訣 ～」に参加しました！]]></title>
-    <link href="http://tchikuba.github.io/blog/2016/03/26/dots-womans-is-eternal-engineers/"/>
+    <link href="https://tchikuba.github.io/blog/2016/03/26/dots-womans-is-eternal-engineers/"/>
     <updated>2016-03-26T01:00:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2016/03/26/dots-womans-is-eternal-engineers</id>
+    <id>https://tchikuba.github.io/blog/2016/03/26/dots-womans-is-eternal-engineers</id>
     <content type="html"><![CDATA[<p>先日<a href="http://eventdots.jp/event/581423">「dots.女子部勉強会 vol.7 わたし、一生エンジニア宣言！～ 女性エンジニアとして長く働く秘訣 ～」</a>
 というイベントに参加してきました。
 私の妻も私と同じエンジニアでdots.女子部の一員として運営に関わっています。

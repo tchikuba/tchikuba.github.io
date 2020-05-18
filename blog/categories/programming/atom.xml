@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: programming | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/programming/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/programming/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[イベント「~エンジニア×先生×NPOで語る、これが本当のプログラミング教育~みんなのコードmeetup」に参加してきました]]></title>
-    <link href="http://tchikuba.github.io/blog/2018/09/27/minnano-code-meetup/"/>
+    <link href="https://tchikuba.github.io/blog/2018/09/27/minnano-code-meetup/"/>
     <updated>2018-09-27T19:14:24+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2018/09/27/minnano-code-meetup</id>
+    <id>https://tchikuba.github.io/blog/2018/09/27/minnano-code-meetup</id>
     <content type="html"><![CDATA[<p>2018/09/27(木)に行われたイベント<a href="https://connpass.com/event/100886/">「~エンジニア×先生×NPOで語る、これが本当のプログラミング教育~みんなのコードmeetup」</a>にブログ投稿枠で参加してきました！</p>
 
 <p>私はプログラミング教育には関心が高いのですが、どちらかというと現状は社会人向けの方にコミットしています。</p>
@@ -153,9 +153,9 @@
   
   <entry>
     <title type="html"><![CDATA[【書籍レビュー】超入門シリーズ本を献本頂きました]]></title>
-    <link href="http://tchikuba.github.io/blog/2017/12/11/super-getting-started-books/"/>
+    <link href="https://tchikuba.github.io/blog/2017/12/11/super-getting-started-books/"/>
     <updated>2017-12-11T19:47:03+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2017/12/11/super-getting-started-books</id>
+    <id>https://tchikuba.github.io/blog/2017/12/11/super-getting-started-books</id>
     <content type="html"><![CDATA[<p><a href="/blog/2017/05/22/ruby-on-rails-5-application-programming/">前回</a>に引き続き、WINGSプロジェクトが監修し、技術評論社から出版されている超入門シリーズ本を以下の3冊献本して頂きました。</p>
 
 <p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/B071GQQDNM/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071GQQDNM&linkCode=as2&tag=athome0a-22&linkId=31b2a479600687cd2a87420281ca995e"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B071GQQDNM&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071GQQDNM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
@@ -287,9 +287,9 @@ JavaScriptの性質上、しょうがない側面も大きいかなと思いつ�
   
   <entry>
     <title type="html"><![CDATA[RubyKaigi 2017 2日目 Matz基調講演＋α]]></title>
-    <link href="http://tchikuba.github.io/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day/"/>
+    <link href="https://tchikuba.github.io/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day/"/>
     <updated>2017-09-19T09:49:45+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day</id>
+    <id>https://tchikuba.github.io/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day</id>
     <content type="html"><![CDATA[<p>RubyKaigi 2017は広島での開催。昨年は京都で今年は広島ということで、暫く地方の流れなのかしら？</p>
 
 <h2>Keynote : Yukihiro &ldquo;Matz&rdquo; Matsumoto @yukihiro_matz</h2>
@@ -433,9 +433,9 @@ JavaScriptの性質上、しょうがない側面も大きいかなと思いつ�
   
   <entry>
     <title type="html"><![CDATA[イベント「非エンジニア起業家に求められるプログラミングスキルとは」に参加しました！]]></title>
-    <link href="http://tchikuba.github.io/blog/2017/07/19/programming-skils-for-entrepreneur/"/>
+    <link href="https://tchikuba.github.io/blog/2017/07/19/programming-skils-for-entrepreneur/"/>
     <updated>2017-07-19T19:00:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2017/07/19/programming-skils-for-entrepreneur</id>
+    <id>https://tchikuba.github.io/blog/2017/07/19/programming-skils-for-entrepreneur</id>
     <content type="html"><![CDATA[<p>昨晩<a href="http://everevo.com/event/39414">「非エンジニア起業家に求められるプログラミングスキルとは」</a>
 というイベントに参加してきました。</p>
 
@@ -523,9 +523,9 @@ CEOはプログラミングはできるべき、エンジニアリングまで�
   
   <entry>
     <title type="html"><![CDATA[【速報】RubyKaigi 2016初日参加レポート]]></title>
-    <link href="http://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day/"/>
+    <link href="https://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day/"/>
     <updated>2016-09-08T10:17:39+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day</id>
+    <id>https://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day</id>
     <content type="html"><![CDATA[<p>聞きながらの自分用メモなのでちょっと正確でない点がありそうですが。</p>
 
 <h2>Ruby3 presented by matz</h2>

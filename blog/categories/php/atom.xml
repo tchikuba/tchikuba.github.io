@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: php | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/php/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/php/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[PHP勉強会＠東京#72で発表しました]]></title>
-    <link href="http://tchikuba.github.io/blog/2013/10/31/phpstudy-tokyo-72/"/>
+    <link href="https://tchikuba.github.io/blog/2013/10/31/phpstudy-tokyo-72/"/>
     <updated>2013-10-31T20:00:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2013/10/31/phpstudy-tokyo-72</id>
+    <id>https://tchikuba.github.io/blog/2013/10/31/phpstudy-tokyo-72</id>
     <content type="html"><![CDATA[<p><a href="http://atnd.org/events/44600">2013-10-28にEngine Yardさんで行われたPHP勉強会@東京</a>で発表する機会をもらいました。</p>
 
 <p>以下がそのスライドです。</p>

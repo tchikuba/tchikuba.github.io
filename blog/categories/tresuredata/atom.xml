@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: TresureData | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/tresuredata/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/tresuredata/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[td-clientを使ってHiveより早いPrestoクエリを実行する方法をrakeタスクで]]></title>
-    <link href="http://tchikuba.github.io/blog/2015/05/20/how-to-execute-presto-query-on-tresuredata-client/"/>
+    <link href="https://tchikuba.github.io/blog/2015/05/20/how-to-execute-presto-query-on-tresuredata-client/"/>
     <updated>2015-05-20T20:05:22+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2015/05/20/how-to-execute-presto-query-on-tresuredata-client</id>
+    <id>https://tchikuba.github.io/blog/2015/05/20/how-to-execute-presto-query-on-tresuredata-client</id>
     <content type="html"><![CDATA[<p>最近、Hadoop(Tresure Data)と格闘してます。</p>
 
 <p>td-clientを使ってTresureDataからデータを取得するrakeタスクを書いててHiveクエリだと遅いのでPresto使いたいなと思うことがありました。

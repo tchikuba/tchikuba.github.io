@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: vagrant | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/vagrant/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/vagrant/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Octopressブログ環境をVagrantのboxで複数マシンで使う]]></title>
-    <link href="http://tchikuba.github.io/blog/2013/10/30/octopress-vagrant/"/>
+    <link href="https://tchikuba.github.io/blog/2013/10/30/octopress-vagrant/"/>
     <updated>2013-10-30T20:00:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2013/10/30/octopress-vagrant</id>
+    <id>https://tchikuba.github.io/blog/2013/10/30/octopress-vagrant</id>
     <content type="html"><![CDATA[<p>Linuxで整えたOctopressでブログ書く環境をWindowsとMacでもそれぞれ作りたかったのとrubyのバージョンとか揃えるの億劫だしそれぞれ作るの面倒だなと思ったけど、既にvagrantな環境誰か作ってんじゃね？と思ってググったらありました。</p>
 
 <blockquote><p><a href="https://github.com/aequasi/octopress-vagrant">octopress-vagrant</a></p></blockquote>

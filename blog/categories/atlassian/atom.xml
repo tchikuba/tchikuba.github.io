@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Atlassian | tchikuba's blog]]></title>
-  <link href="http://tchikuba.github.io/blog/categories/atlassian/atom.xml" rel="self"/>
-  <link href="http://tchikuba.github.io/"/>
-  <updated>2020-05-07T20:28:05+09:00</updated>
-  <id>http://tchikuba.github.io/</id>
+  <link href="https://tchikuba.github.io/blog/categories/atlassian/atom.xml" rel="self"/>
+  <link href="https://tchikuba.github.io/"/>
+  <updated>2020-05-18T19:59:52+09:00</updated>
+  <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Atlassian長沢氏「デベロッパー戦国時代！ストーリーをつなぐ開発環境と3つの秘訣」@デブサミ2014 2日目]]></title>
-    <link href="http://tchikuba.github.io/blog/2014/02/14/atlassian-of-developers-summit-2014/"/>
+    <link href="https://tchikuba.github.io/blog/2014/02/14/atlassian-of-developers-summit-2014/"/>
     <updated>2014-02-14T14:50:00+09:00</updated>
-    <id>http://tchikuba.github.io/blog/2014/02/14/atlassian-of-developers-summit-2014</id>
+    <id>https://tchikuba.github.io/blog/2014/02/14/atlassian-of-developers-summit-2014</id>
     <content type="html"><![CDATA[<p>デブサミ2014 2日目の午後2のセッションはAtlassian長沢氏の「デベロッパー戦国時代！ストーリーをつなぐ開発環境と3つの秘訣」を聞きにきました！
 Atlassian、いつも</p>
 
