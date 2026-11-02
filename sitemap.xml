@@ -1,253 +1,433 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2013/10/28/github-pages-octopress/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2013/10/30/octopress-vagrant/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2013/10/31/phpstudy-tokyo-72/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2013/12/19/devlove-advent-calendar-2013-genba/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2013/12/21/rails-study-tokyo-90/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2014/01/30/devlove-kayac-yanasawa/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2014/02/10/entrepreneurship-of-20-30s/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2014/02/13/developers-summit2014-first-day/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2014/02/13/cookpad-of-developers-summit2014/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2014/02/14/team-geek-of-developers-summit-2014/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            https://tchikuba.github.io/blog/2014/02/14/impact-mapping-of-developers-summit-2014/
-        </loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2014/02/14/atlassian-of-developers-summit-2014/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            https://tchikuba.github.io/blog/2014/02/14/engineers-free-life-style-of-developers-summit-2014/
-        </loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            https://tchikuba.github.io/blog/2014/02/14/play2-scala-ddd-scrum-of-developers-summit-2014/
-        </loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            https://tchikuba.github.io/blog/2014/02/14/engineers-work-style-at-google-japan/
-        </loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2014/02/24/octopress-for-facebook-open-graph/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            https://tchikuba.github.io/blog/2014/03/21/users-event-of-crowdworks-2nd-anniversary/
-        </loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2014/03/25/sakakibara-samurai/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2014/03/28/ebisu-rb-7/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2014/04/18/engineers-career-laboratory/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2014/04/19/samurai-venture-summit-9th/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2014/04/25/ebisu-rb-8/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2014/05/10/why-choose-ruby-on-rails/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2014/05/15/ecommerce-rails-spree/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2014/05/28/ebisu-rb-9/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2014/10/20/sonic-garden-kuranuki-book/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2015/01/22/new-type-organization/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2015/02/26/fibc2015/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2015/04/21/work-found-job/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            https://tchikuba.github.io/blog/2015/05/20/how-to-execute-presto-query-on-tresuredata-client/
-        </loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2015/06/22/artificial-intelligence-hackathon/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2015/09/10/jubatus-hackathon-with-yomiuri/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2015/10/30/dots-2years-party/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2015/10/31/ecma-script-6-study/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2015/12/05/life-of-creative-people/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2016/03/26/dots-womans-is-eternal-engineers/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2016/07/04/previous-cto-night/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            https://tchikuba.github.io/blog/2017/05/22/ruby-on-rails-5-application-programming/
-        </loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2017/07/19/programming-skils-for-entrepreneur/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2017/12/11/super-getting-started-books/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2018/09/27/minnano-code-meetup/</loc>
-        <lastmod>2019-07-07T15:29:50+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2019/07/06/roomba-i7/</loc>
-        <lastmod>2019-07-07T15:42:19+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2020/02/09/start-ceofm/</loc>
-        <lastmod>2020-05-07T20:27:40+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/2020/07/28/review-dokusyu-python/</loc>
-        <lastmod>2020-07-28T18:16:05+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/</loc>
-        <lastmod>2020-07-28T18:16:05+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/404.html</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/archives/</loc>
-        <lastmod>2020-07-28T18:16:05+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/blog/categories/</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/robots.txt</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/assets/bootstrap/docs/</loc>
-        <lastmod>2020-07-28T18:16:05+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/assets/bootstrap/docs/about.html</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/assets/bootstrap/docs/css.html</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/assets/bootstrap/docs/components.html</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/assets/bootstrap/docs/javascript.html</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/assets/bootstrap/docs/customize.html</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/assets/bootstrap/docs/getting-started.html</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
-    <url>
-        <loc>https://tchikuba.github.io/assets/bootstrap/docs/migration.html</loc>
-        <lastmod>2018-10-01T21:04:17+09:00</lastmod>
-    </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://tchikuba.github.io/blog/2013/10/28/github-pages-octopress/</loc>
+<lastmod>2013-10-28T20:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2013/10/30/octopress-vagrant/</loc>
+<lastmod>2013-10-30T20:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2013/10/31/phpstudy-tokyo-72/</loc>
+<lastmod>2013-10-31T20:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2013/12/19/devlove-advent-calendar-2013-genba/</loc>
+<lastmod>2013-12-19T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2013/12/21/rails-study-tokyo-90/</loc>
+<lastmod>2013-12-21T20:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2014/01/30/devlove-kayac-yanasawa/</loc>
+<lastmod>2014-01-30T23:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2014/02/10/entrepreneurship-of-20-30s/</loc>
+<lastmod>2014-02-10T23:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2014/02/13/developers-summit2014-first-day/</loc>
+<lastmod>2014-02-13T14:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2014/02/13/cookpad-of-developers-summit2014/</loc>
+<lastmod>2014-02-13T18:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2014/02/14/team-geek-of-developers-summit-2014/</loc>
+<lastmod>2014-02-14T11:30:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2014/02/14/impact-mapping-of-developers-summit-2014/</loc>
+<lastmod>2014-02-14T13:50:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2014/02/14/atlassian-of-developers-summit-2014/</loc>
+<lastmod>2014-02-14T14:50:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2014/02/14/engineers-free-life-style-of-developers-summit-2014/</loc>
+<lastmod>2014-02-14T15:50:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2014/02/14/play2-scala-ddd-scrum-of-developers-summit-2014/</loc>
+<lastmod>2014-02-14T16:50:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2014/02/14/engineers-work-style-at-google-japan/</loc>
+<lastmod>2014-02-14T23:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2014/02/24/octopress-for-facebook-open-graph/</loc>
+<lastmod>2014-02-24T20:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2014/03/21/users-event-of-crowdworks-2nd-anniversary/</loc>
+<lastmod>2014-03-21T15:14:52+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2014/03/25/sakakibara-samurai/</loc>
+<lastmod>2014-03-25T19:36:23+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2014/03/28/ebisu-rb-7/</loc>
+<lastmod>2014-03-28T21:07:32+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2014/04/18/engineers-career-laboratory/</loc>
+<lastmod>2014-04-18T20:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2014/04/19/samurai-venture-summit-9th/</loc>
+<lastmod>2014-04-19T23:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2014/04/25/ebisu-rb-8/</loc>
+<lastmod>2014-04-25T23:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2014/05/10/why-choose-ruby-on-rails/</loc>
+<lastmod>2014-05-10T14:50:48+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2014/05/15/ecommerce-rails-spree/</loc>
+<lastmod>2014-05-15T19:45:58+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2014/05/28/ebisu-rb-9/</loc>
+<lastmod>2014-05-28T20:26:12+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2014/10/20/sonic-garden-kuranuki-book/</loc>
+<lastmod>2014-10-20T21:29:10+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2015/01/22/new-type-organization/</loc>
+<lastmod>2015-01-22T21:25:44+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2015/02/26/fibc2015/</loc>
+<lastmod>2015-02-26T16:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2015/04/21/work-found-job/</loc>
+<lastmod>2015-04-21T20:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2015/05/20/how-to-execute-presto-query-on-tresuredata-client/</loc>
+<lastmod>2015-05-20T20:05:22+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2015/06/22/artificial-intelligence-hackathon/</loc>
+<lastmod>2015-06-22T22:15:31+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2015/09/10/jubatus-hackathon-with-yomiuri/</loc>
+<lastmod>2015-09-10T00:05:28+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2015/10/30/dots-2years-party/</loc>
+<lastmod>2015-10-30T19:22:05+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2015/10/31/ecma-script-6-study/</loc>
+<lastmod>2015-10-31T13:42:40+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2015/12/05/life-of-creative-people/</loc>
+<lastmod>2015-12-05T23:06:08+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2016/03/26/dots-womans-is-eternal-engineers/</loc>
+<lastmod>2016-03-26T01:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2016/07/04/previous-cto-night/</loc>
+<lastmod>2016-07-04T19:38:50+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day/</loc>
+<lastmod>2016-09-08T10:17:39+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2017/05/22/ruby-on-rails-5-application-programming/</loc>
+<lastmod>2017-05-22T21:02:41+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2017/07/19/programming-skils-for-entrepreneur/</loc>
+<lastmod>2017-07-19T19:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day/</loc>
+<lastmod>2017-09-19T09:49:45+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2017/12/11/super-getting-started-books/</loc>
+<lastmod>2017-12-11T19:47:03+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2018/09/27/minnano-code-meetup/</loc>
+<lastmod>2018-09-27T19:14:24+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2019/07/06/roomba-i7/</loc>
+<lastmod>2019-07-06T23:01:22+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2020/02/09/start-ceofm/</loc>
+<lastmod>2020-02-09T20:21:39+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/2020/07/28/review-dokusyu-python/</loc>
+<lastmod>2020-07-28T19:20:26+09:00</lastmod>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/archives/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/profile/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/octopress/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/vagrant/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/php/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/phpstudy/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/devlove/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/genba/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/study/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/ruby/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/rails/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/company/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/kayac/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/startup/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/entrepreneurship/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/devsumi2014/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/fujitsu/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/cookpad/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/devops/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/book/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/google/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/geek/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/agile/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/xp/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/scrum/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/lean/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/atlassian/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/engineer/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/work-style/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/play2/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/scala/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/ddd/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/freelance/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/facebook/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/ogp/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/crowdworks/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/career/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/e-commerce/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/ec/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/gem/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/spree/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/buffer/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/organization/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/fintech/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/fibc/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/work/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/tresuredata/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/presto/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/hive/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/query/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/rake/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/artificial-intelligence/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/deep-learning/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/hackathon/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/machine-learning/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/natural-language-processing/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/dots/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/event/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/ecmascript6/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/javascript/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/life/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/creative/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/woman/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/cto/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/programming/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/entrepreneur/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/matz/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/html/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/css/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/java/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/education/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/product/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/engineering/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/podcast/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/ceofm/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/categories/python/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/page/2/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/page/3/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/page/4/</loc>
+</url>
+<url>
+<loc>https://tchikuba.github.io/blog/page/5/</loc>
+</url>
 </urlset>

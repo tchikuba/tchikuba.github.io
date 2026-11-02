@@ -107,8 +107,6 @@ $(document).ready( function () {
 
 
 
-  
-
 
 <time datetime="2015-12-05T23:06:08+09:00" pubdate data-updated="true">Dec 5<span>th</span>, 2015</time>
         
@@ -120,17 +118,15 @@ $(document).ready( function () {
 <div class="entry-content"><p><em>この記事は<a href="http://qiita.com/advent-calendar/2015/livesense_2">リブセンスアドベントカレンダー2015(その2)</a>の5日目です。</em></p>
 
 <ul>
-<li><em>4日目の記事：<a href="http://qiita.com/ma2saka/items/2cd6cb3a8007fdf9fe2e">Amazon LinuxでPHP7をソースからコンパイルしてSymfony3をMariaDB10</a></em></li>
-<li><em>6日目の記事：<a href="http://qiita.com/stackline">stacklineさん</a></em></li>
+  <li><em>4日目の記事：<a href="http://qiita.com/ma2saka/items/2cd6cb3a8007fdf9fe2e">Amazon LinuxでPHP7をソースからコンパイルしてSymfony3をMariaDB10</a></em></li>
+  <li><em>6日目の記事：<a href="http://qiita.com/stackline">stacklineさん</a></em></li>
 </ul>
-
 
 <p>私は現在<a href="https://www.ieshil.com/">IESHIL（イエシル）</a>という中古マンション価格査定サイトのエンジニアやってます。
 担当は雑用係です。
 リブセンスに入社して約2年半ですがリブセンスでwebサービスの自社開発の文脈に身を置いて色々思うところがあるのでその辺をちょっと言語化してみます。</p>
 
-<h1>プロフィールとバックグラウンド</h1>
-
+<h1 id="プロフィールとバックグラウンド">プロフィールとバックグラウンド</h1>
 <p>私はエンジニアになったのが2004年8月でした。
 7年間フリーランスのエンジニアとしてお客さんのところに常駐して作業するという形で、所謂社畜フリーランスでした。
 前半4年間は大手SIer、後半3年間はエンタメ系事業会社に常駐していました。</p>
@@ -150,14 +146,12 @@ $(document).ready( function () {
 <p>開発マネージャーとして約2年間働いた後、現職のリブセンスに転職をして現在に至ります。
 リブセンスでの強烈なエンジニア文化の中で、エンジニア含めた事業に関わる全ての人が効率の良さと気持ちの良さをどうやったら追求出来るかを最近良く考えます。</p>
 
-<h1>SIerから事業会社の文脈へシフトして感じたビジネスとエンジニアリングの関係性</h1>
-
+<h1 id="sierから事業会社の文脈へシフトして感じたビジネスとエンジニアリングの関係性">SIerから事業会社の文脈へシフトして感じたビジネスとエンジニアリングの関係性</h1>
 <p>自分のキャリアを振り返ってみると受託開発が主であるSIerから徐々に自社サービスを展開する事業会社へとシフトして行ったことになります。
 私のキャリアの文脈が徐々にシフトしたのは単なる偶然な気がしますが、この経験があるからこそなのか、最近良く考えていることがあります。
 それは、<strong>ビジネスとエンジニアリングは一体不可分である</strong>ということです。</p>
 
-<iframe src="https://docs.google.com/presentation/d/1X3EhINjgf6aDLynMZ3_o0H5XQ7Lca6d1b4hZEUjVz-g/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
+<iframe src="https://docs.google.com/presentation/d/1X3EhINjgf6aDLynMZ3_o0H5XQ7Lca6d1b4hZEUjVz-g/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 <p>ある意味これは最早当たり前の時代になってきたんだと思われますが、私が10年前にいたSIerの文脈だと実感として結構違っていました。
 あくまでも受託開発では発注側のお客様がいて請負契約に基づいて予め定義したシステムを納品することが目的です。
@@ -170,8 +164,7 @@ $(document).ready( function () {
 
 <p>これまでの私の経験上、感じていることをまとめると以下の様な図になる気がしています。</p>
 
-<iframe src="https://docs.google.com/presentation/d/1XNnCjrtSZhOxKDazJqrdHVyfvsPZ19o2w_BvszbHIlk/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
+<iframe src="https://docs.google.com/presentation/d/1XNnCjrtSZhOxKDazJqrdHVyfvsPZ19o2w_BvszbHIlk/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 <p>発注者と受託者という関係では、前者から後者へ金銭的な授受が行われる為、ビジネスパートナーといえど、構造上どうしても主従関係のような強弱がついてしまいます。
 当然上手く行っている受託開発も存在しますが、経験上上手く行かないパターンを見ることが少なからずありました。</p>
@@ -189,10 +182,7 @@ $(document).ready( function () {
 余談ですが最近日経の記事にコーディング・ブートキャンプの話がありました。</p>
 
 <blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">これはマジその通り。特に非エンジニア領域での需要があると実感してる／米で進む大学離れブートキャンプでＩＴの即戦力｜日経カレッジカフェ via <a href="https://twitter.com/hashtag/Kamelio?src=hash">#Kamelio</a> <a href="https://t.co/AsAnCWjYXE">https://t.co/AsAnCWjYXE</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/672073513377796096">2015, 12月 2</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>この記事から類推するに、非エンジニアが何らかのビジネス上の課題解決の為にコーディングを勉強する需要があるんじゃないかと思います。</p>
 
@@ -204,12 +194,13 @@ $(document).ready( function () {
 スティーブ・ジョブズ曰くの<a href="http://blogs.itmedia.co.jp/tooki/2010/04/connecting-the-.html">connecting the dots</a>を感じてちょっぴり嬉しいのです。
 頭で理解したことと体験で会得したものでは実は雲泥の差だなと思いますので。</p>
 
-<h1>ゴール思考とシステム思考の融合</h1>
+<h1 id="ゴール思考とシステム思考の融合">ゴール思考とシステム思考の融合</h1>
 
 <p><a href="http://blogs.itmedia.co.jp/tooki/2010/04/connecting-the-.html">connecting the dotsのリンク先の記事</a>に曰く、</p>
-
-<blockquote><p>点と点を繋げるということは、あらかじめ仕込むことは出来ないということです。
-しかし、振り返ってみると「あの時のことが役立った」とか、「あそこで出会った人に、こんなタイミングで助けられた」といったことって意外とあるものなんですよね。</p></blockquote>
+<blockquote>
+  <p>点と点を繋げるということは、あらかじめ仕込むことは出来ないということです。
+しかし、振り返ってみると「あの時のことが役立った」とか、「あそこで出会った人に、こんなタイミングで助けられた」といったことって意外とあるものなんですよね。</p>
+</blockquote>
 
 <p>とあります。</p>
 
@@ -230,7 +221,7 @@ $(document).ready( function () {
 システム思考だけだとビジネス上実現したいビジョン等から外れてしまっても暫く気付かないケースがあるように思います。
 個人的には<strong>ゴール思考とシステム思考の融合を目指したい</strong>と考えています。私の体験上でもそれは理に適っていると思われるのです。</p>
 
-<h1>ヒエラルキーとホラクラシー</h1>
+<h1 id="ヒエラルキーとホラクラシー">ヒエラルキーとホラクラシー</h1>
 
 <p>このような文脈にあってもう1つ私の中で良く考えることがあります。それはクリエイティブな組織の在り方についてです。
 <a href="/blog/2015/01/22/new-type-organization/">私はその1つの解としてホラクラシー型組織の構築があるのではないか？と考えています。</a>
@@ -238,20 +229,17 @@ $(document).ready( function () {
 
 <iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="InterAction Green | ほんとうはこわい、ザッポス。ホラクラシーって何？" src="http://hatenablog.com/embed?url=http://www.interactiongreen.com/?p=864" frameborder="0" scrolling="no"></iframe>
 
-
 <p>最近のハーバード・ビジネス・レビューにホラクラシーに関する記事がありました。</p>
 
 <blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">ホラクラシーに懐疑的な視点。確かに現状の組織形態では合わない場面もあると思うけどクリエイティブな仕事は移行出来ると思う／管理職を置かない組織が理想なのか？ 導入前に自問すべき4つの質問 <a href="https://t.co/YY3L0RCtGn">https://t.co/YY3L0RCtGn</a> <a href="https://twitter.com/dhbr_japan">@dhbr_japan</a>さんから</p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/672302472178720769">2015, 12月 3</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>この記事に曰く、</p>
-
-<blockquote><p>ホラクラシーの大部分は、優れたマネジメントによく見られる要素を単に体系化していると気づいた。
+<blockquote>
+  <p>ホラクラシーの大部分は、優れたマネジメントによく見られる要素を単に体系化していると気づいた。
 ホラクラシーの導入にまつわる細部にとらわれず、それが何に対処するためのものなのかを掘り下げて考えれば、見えてくることがある。
-問題は、ヒエラルキーそのものがいかに正当性を失ったかではなく、速まっている世の中の動向に対してヒエラルキーでは動きが遅れることなのだ。</p></blockquote>
+問題は、ヒエラルキーそのものがいかに正当性を失ったかではなく、速まっている世の中の動向に対してヒエラルキーでは動きが遅れることなのだ。</p>
+</blockquote>
 
 <p>とあります。</p>
 
@@ -268,19 +256,17 @@ $(document).ready( function () {
 逆に1ヶ月ほど前にバズってた、CIAのスパイマニュアルの記事がヒエラルキーの問題点を端的に表していると思いました。</p>
 
 <blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">これは必見。まぁ組織が成熟してくるとこうなりがちなんだろうけど／CIAのスパイマニュアルに学ぶ「会社をダメにする11の行動様式」 <a href="https://t.co/RcLV7aNegb">https://t.co/RcLV7aNegb</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/662106316492709889">2015, 11月 5</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>曰く、</p>
-
-<blockquote><p>会社内での組織的位置付けにこだわる。
-これからしようとすることが、本当にその組織の権限内なのか、より上層部の決断を仰がなくてよいのか、といった疑問点を常に指摘する</p></blockquote>
+<blockquote>
+  <p>会社内での組織的位置付けにこだわる。
+これからしようとすることが、本当にその組織の権限内なのか、より上層部の決断を仰がなくてよいのか、といった疑問点を常に指摘する</p>
+</blockquote>
 
 <p>これとかまさに先ほど書いた現場の臨機応変な判断を阻害する真逆の論理で一見正当性が見えるので厄介なんですよね(苦笑)</p>
 
-<h1><a href="https://kotobank.jp/word/%E4%B8%8D%E4%BA%8C-617901">「不二」</a>という視座から垣間見る21世紀のスタンダード</h1>
+<h1 id="不二という視座から垣間見る21世紀のスタンダード"><a href="https://kotobank.jp/word/%E4%B8%8D%E4%BA%8C-617901">「不二」</a>という視座から垣間見る21世紀のスタンダード</h1>
 
 <p>ちょっとここまで書いた所で息切れしてきましたが(笑)そろそろ結論めいたことを書きたいと思います。
 結局のところ私の体験という文脈の中でしか実感を持って判断出来ないと思っていまして、その意味では至極主観的極まりない話だということが前提ですが。
@@ -297,8 +283,9 @@ $(document).ready( function () {
 これを代弁する考え方に仏教の用語で<a href="https://kotobank.jp/word/%E4%B8%8D%E4%BA%8C-617901">「不二(ふに)」</a>という言葉があります。</p>
 
 <p>曰く、</p>
-
-<blockquote><p>対立していて二元的に見える事柄も、絶対的な立場から見ると対立がなく一つのものであるということ。</p></blockquote>
+<blockquote>
+  <p>対立していて二元的に見える事柄も、絶対的な立場から見ると対立がなく一つのものであるということ。</p>
+</blockquote>
 
 <p>前述のような見方が絶対的な立場か否かは分かりません。</p>
 
@@ -310,22 +297,21 @@ $(document).ready( function () {
 <p>これらを踏まえた上で、私自身の経験に即して、これからの時代以下のような流れになっていくのかなと考えています。</p>
 
 <ul>
-<li>事業会社の内製化により下請けも含めたSIerは斜陽産業化する。</li>
-<li>事業会社がweb企業・インターネット企業となるのが当たり前になる。</li>
-<li>新しいビジネスを起こす人はエンジニアの素養のあることが当たり前になる。</li>
-<li>エンジニアの素養のある人が起業するので、エンジニアの評価がよりまともになり、まともなエンジニアがよりHappyになる。</li>
-<li>非エンジニアの職種では徐々に人工知能や機械学習による自動化が進みよりクリエイティブな仕事をせざるを得ないようになる。</li>
-<li>日頃ルーチンワークが辛いと言って仕事がつまらない思いをしている人は少なくなっていく。(仕事自体がなくなるので)</li>
-<li>プログラミング教育が官民共に爆発的に広まる。</li>
-<li>エンジニアの仕事はコーディングによってビジネス上の価値を創造することが評価のポイントになる。</li>
-<li>世の中の複雑性は増していく一方で先が簡単に読めなくなり、反復型アプローチが問題解決の主流になる。</li>
-<li>ある一定の人々に共感される極めて倫理的なビジョンを有するテックドリブンな企業が緩やかに受け入れられ世界を変えていく。</li>
-<li>急進的なスタートアップより、持続可能な発展を掲げるスモールビジネスが大量に浸透していく。</li>
-<li>副業やリモートワークがより普及して組織力は弱まり、クリエイティブな個人がクローズアップされる。</li>
-<li>自律した働き方の出来るクリエイティブな個人が集まり、プロジェクト単位でギルド的集団を形成し、質の高い仕事を成し遂げる。</li>
-<li>自律した働き方が出来るまでの職業訓練が比較的安価で受けられる教育的な仕組みが出来ていく。</li>
+  <li>事業会社の内製化により下請けも含めたSIerは斜陽産業化する。</li>
+  <li>事業会社がweb企業・インターネット企業となるのが当たり前になる。</li>
+  <li>新しいビジネスを起こす人はエンジニアの素養のあることが当たり前になる。</li>
+  <li>エンジニアの素養のある人が起業するので、エンジニアの評価がよりまともになり、まともなエンジニアがよりHappyになる。</li>
+  <li>非エンジニアの職種では徐々に人工知能や機械学習による自動化が進みよりクリエイティブな仕事をせざるを得ないようになる。</li>
+  <li>日頃ルーチンワークが辛いと言って仕事がつまらない思いをしている人は少なくなっていく。(仕事自体がなくなるので)</li>
+  <li>プログラミング教育が官民共に爆発的に広まる。</li>
+  <li>エンジニアの仕事はコーディングによってビジネス上の価値を創造することが評価のポイントになる。</li>
+  <li>世の中の複雑性は増していく一方で先が簡単に読めなくなり、反復型アプローチが問題解決の主流になる。</li>
+  <li>ある一定の人々に共感される極めて倫理的なビジョンを有するテックドリブンな企業が緩やかに受け入れられ世界を変えていく。</li>
+  <li>急進的なスタートアップより、持続可能な発展を掲げるスモールビジネスが大量に浸透していく。</li>
+  <li>副業やリモートワークがより普及して組織力は弱まり、クリエイティブな個人がクローズアップされる。</li>
+  <li>自律した働き方の出来るクリエイティブな個人が集まり、プロジェクト単位でギルド的集団を形成し、質の高い仕事を成し遂げる。</li>
+  <li>自律した働き方が出来るまでの職業訓練が比較的安価で受けられる教育的な仕組みが出来ていく。</li>
 </ul>
-
 
 <p>私自身はこれまでの経験を踏まえてやりたいことが比較的明確になりつつあるのですが、
 キーワードは<strong>ITと新規事業と教育</strong>ということで一応一貫しているつもりなのでこの方向性は常に持ちつつ、
@@ -334,18 +320,15 @@ $(document).ready( function () {
 <p><em>この記事は<a href="http://qiita.com/advent-calendar/2015/livesense_2">リブセンスアドベントカレンダー2015(その2)</a>の5日目です。</em></p>
 
 <ul>
-<li><em>4日目の記事：<a href="http://qiita.com/ma2saka/items/2cd6cb3a8007fdf9fe2e">Amazon LinuxでPHP7をソースからコンパイルしてSymfony3をMariaDB10</a></em></li>
-<li><em>6日目の記事：<a href="http://qiita.com/stackline">stacklineさん</a></em></li>
+  <li><em>4日目の記事：<a href="http://qiita.com/ma2saka/items/2cd6cb3a8007fdf9fe2e">Amazon LinuxでPHP7をソースからコンパイルしてSymfony3をMariaDB10</a></em></li>
+  <li><em>6日目の記事：<a href="http://qiita.com/stackline">stacklineさん</a></em></li>
 </ul>
-
 </div>
 
 
   <footer>
     <p class="meta">
       
-  
-
 <span class="byline author vcard">Posted by <span class="fn">tchikuba</span></span>
 
       
@@ -356,8 +339,6 @@ $(document).ready( function () {
 
 
 
-
-  
 
 
 <time datetime="2015-12-05T23:06:08+09:00" pubdate data-updated="true">Dec 5<span>th</span>, 2015</time>
@@ -466,7 +447,7 @@ $(document).ready( function () {
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2020 - tchikuba -
+  Copyright &copy; 2026 - tchikuba -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
   - <span class="credit">Theme by <a href="http://www.gehaxelt.in">Gehaxelt</a></span>
   <span class="credit">and <a href="http://www.it-solutions-neef.de">IT Solutions Neef</a></span>

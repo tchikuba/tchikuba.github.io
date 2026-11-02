@@ -107,8 +107,6 @@ $(document).ready( function () {
 
 
 
-  
-
 
 <time datetime="2016-09-08T10:17:39+09:00" pubdate data-updated="true">Sep 8<span>th</span>, 2016</time>
         
@@ -119,141 +117,123 @@ $(document).ready( function () {
 
 <div class="entry-content"><p>聞きながらの自分用メモなのでちょっと正確でない点がありそうですが。</p>
 
-<h2>Ruby3 presented by matz</h2>
-
+<h2 id="ruby3-presented-by-matz">Ruby3 presented by matz</h2>
 <ul>
-<li>Typingの話</li>
-<li>SmallTalk→Java→Ruby,JavaScript→Swift,Go→？</li>
-<li>近視眼的な判断で静的型付けを選択するのは危険</li>
-<li>そもそも未来の型とは？</li>
-<li>Duck typing: アヒルが歩くように。アヒルのように振る舞えばOK</li>
-<li>Duckとは期待される振る舞い</li>
-<li>プログラマのメンタルコストを下げたい</li>
-<li>GoのStructual SubtypingはNominal Subtypingより良さ気</li>
-<li>Rubyには歴史的にこれまで型指定がない</li>
-<li>動的型付けの欠点もある</li>
-<li>エラーメッセージが親切じゃない</li>
-<li>型は絶対に書きたくない(会場笑) DRYじゃないし</li>
-<li>Type Annotation,Mixed/Gradual Typingはダメなアイディア</li>
-<li>人にお願いするんじゃなくて技術で解決したいよね</li>
-<li>型推論は素晴らしい</li>
-<li>インタフェース書きたくない</li>
-<li>型の名前を決めるのは結構なコスト。振る舞いがわかっていれば名前を付けたくない</li>
-<li>振る舞いを決める型のデータベースのようなものと型推論を組み合わせると80%くらいは推論可能では</li>
-<li>オープンクラスとかで再定義しちゃうと型推論無効に</li>
-<li>型データベースをgem化して利用して型推論の精度向上とか</li>
-<li>ダックタイピングを維持して型推論をRubyらしく行う</li>
-<li>これらの構想はすべてRubyistが楽しく生産性を維持できるために検討していること</li>
-<li>Ruby3はいつか？ I don&rsquo;t know.(会場笑)</li>
-<li>次の東京オリンピックの時にはRuby3あると良いなぁ</li>
-<li>OSSコミュニティは前に進めないとつまらない。前に進めるためには何でもやる</li>
+  <li>Typingの話</li>
+  <li>SmallTalk→Java→Ruby,JavaScript→Swift,Go→？</li>
+  <li>近視眼的な判断で静的型付けを選択するのは危険</li>
+  <li>そもそも未来の型とは？</li>
+  <li>Duck typing: アヒルが歩くように。アヒルのように振る舞えばOK</li>
+  <li>Duckとは期待される振る舞い</li>
+  <li>プログラマのメンタルコストを下げたい</li>
+  <li>GoのStructual SubtypingはNominal Subtypingより良さ気</li>
+  <li>Rubyには歴史的にこれまで型指定がない</li>
+  <li>動的型付けの欠点もある</li>
+  <li>エラーメッセージが親切じゃない</li>
+  <li>型は絶対に書きたくない(会場笑) DRYじゃないし</li>
+  <li>Type Annotation,Mixed/Gradual Typingはダメなアイディア</li>
+  <li>人にお願いするんじゃなくて技術で解決したいよね</li>
+  <li>型推論は素晴らしい</li>
+  <li>インタフェース書きたくない</li>
+  <li>型の名前を決めるのは結構なコスト。振る舞いがわかっていれば名前を付けたくない</li>
+  <li>振る舞いを決める型のデータベースのようなものと型推論を組み合わせると80%くらいは推論可能では</li>
+  <li>オープンクラスとかで再定義しちゃうと型推論無効に</li>
+  <li>型データベースをgem化して利用して型推論の精度向上とか</li>
+  <li>ダックタイピングを維持して型推論をRubyらしく行う</li>
+  <li>これらの構想はすべてRubyistが楽しく生産性を維持できるために検討していること</li>
+  <li>Ruby3はいつか？ I don&#8217;t know.(会場笑)</li>
+  <li>次の東京オリンピックの時にはRuby3あると良いなぁ</li>
+  <li>OSSコミュニティは前に進めないとつまらない。前に進めるためには何でもやる</li>
 </ul>
 
-
-<h2>dRuby presented by @m_seki</h2>
-
+<h2 id="druby-presented-by-m_seki">dRuby presented by @m_seki</h2>
 <ul>
-<li>dRubyが生まれたのは1999年</li>
-<li>dRubyはオーパーツ</li>
-<li>shttpsrv: WEBrickより前のRuby製webサーバ</li>
-<li>Rubyのように振る舞う分散オブジェクト</li>
-<li>DRb.start_serviceだけでdRubyの準備可能</li>
-<li>サーバーとクライアントが入れ替わる例</li>
-<li>OOPっぽい感じ</li>
-<li>Queueを使って待合せのデモ</li>
-<li>dRubyはtwitterのプロトタイピングでdRuby/Rindaだったらしい</li>
-<li>プロトタイピングとしての利用価値がある気がする</li>
-<li>セキュリティ系メソッドは消してしまいたい。危ないものは危なく見えるべき</li>
+  <li>dRubyが生まれたのは1999年</li>
+  <li>dRubyはオーパーツ</li>
+  <li>shttpsrv: WEBrickより前のRuby製webサーバ</li>
+  <li>Rubyのように振る舞う分散オブジェクト</li>
+  <li>DRb.start_serviceだけでdRubyの準備可能</li>
+  <li>サーバーとクライアントが入れ替わる例</li>
+  <li>OOPっぽい感じ</li>
+  <li>Queueを使って待合せのデモ</li>
+  <li>dRubyはtwitterのプロトタイピングでdRuby/Rindaだったらしい</li>
+  <li>プロトタイピングとしての利用価値がある気がする</li>
+  <li>セキュリティ系メソッドは消してしまいたい。危ないものは危なく見えるべき</li>
 </ul>
 
-
-<h2>Welcome to haconiwa presented by @udzura</h2>
-
+<h2 id="welcome-to-haconiwa-presented-by-udzura">Welcome to haconiwa presented by @udzura</h2>
 <ul>
-<li>Drone.io</li>
-<li>dockerらしいコマンドをしょっちゅう打ってた</li>
-<li>Sqaleで使ってるLXC</li>
-<li>haconiwaコマンドでRubyで書かれたプロファイル定義を実行とか</li>
-<li>hacorbコマンドとかでmrubyスクリプトのコンテナ実行</li>
-<li>cgroups的な</li>
-<li>最初はCRubyで実装</li>
-<li>システムコール扱うのに色々嵌ったのでmruby実装へ</li>
-<li>mrubyはコンテナが取り扱うシステムコールをサポートしてるので使いやすい</li>
+  <li>Drone.io</li>
+  <li>dockerらしいコマンドをしょっちゅう打ってた</li>
+  <li>Sqaleで使ってるLXC</li>
+  <li>haconiwaコマンドでRubyで書かれたプロファイル定義を実行とか</li>
+  <li>hacorbコマンドとかでmrubyスクリプトのコンテナ実行</li>
+  <li>cgroups的な</li>
+  <li>最初はCRubyで実装</li>
+  <li>システムコール扱うのに色々嵌ったのでmruby実装へ</li>
+  <li>mrubyはコンテナが取り扱うシステムコールをサポートしてるので使いやすい</li>
 </ul>
 
-
-<h2>A proposal of new concurrency model for Ruby 3 presented by @ko1</h2>
-
+<h2 id="a-proposal-of-new-concurrency-model-for-ruby-3-presented-by-ko1">A proposal of new concurrency model for Ruby 3 presented by @ko1</h2>
 <ul>
-<li>資料
-
-<ul>
-<li><a href="http://www.atdot.net/~ko1/activities/2016_rubykaigi.pdf">スライド</a></li>
-<li><a href="http://www.atdot.net/~ko1/diary/201609.html#d6">日本語スクリプト</a></li>
-</ul>
-</li>
-<li>Ruby 3に取り入れられたいと思う並列プログラミングについて</li>
-<li>C言語のポインタと比較するとRubyはGCあるのでハッピープログラムできる</li>
-<li>data raceやrace conditionが発生する例を通してスレッドセーフなプログラミングが如何に難しいかを知る</li>
-<li>Mutexを利用して同期を取るのはバグと性能低下の狭間にある</li>
-<li>Ruby 3ではGuild(ギルド)というスレッドにかわる新たな概念を提案</li>
-<li>Guildは複数スレッドを含む上位概念的なもの</li>
-<li>複数のGuild間での可変オブジェクト受け渡しにはチャネルを使ってコピーするか移籍(transfer membership)という新しい概念で</li>
-<li>Guild内のスレッド間はスレッドセーフが保証される</li>
-<li>これらのGuildの概念でRuby 3で実現したい並列プログラミングのゴールをすべて満たす感じに</li>
-<li>Guild概念導入でスレッドセーフが保証されないキモいコードを書けないようにする方向性</li>
+  <li>資料
+    <ul>
+      <li><a href="http://www.atdot.net/~ko1/activities/2016_rubykaigi.pdf">スライド</a></li>
+      <li><a href="http://www.atdot.net/~ko1/diary/201609.html#d6">日本語スクリプト</a></li>
+    </ul>
+  </li>
+  <li>Ruby 3に取り入れられたいと思う並列プログラミングについて</li>
+  <li>C言語のポインタと比較するとRubyはGCあるのでハッピープログラムできる</li>
+  <li>data raceやrace conditionが発生する例を通してスレッドセーフなプログラミングが如何に難しいかを知る</li>
+  <li>Mutexを利用して同期を取るのはバグと性能低下の狭間にある</li>
+  <li>Ruby 3ではGuild(ギルド)というスレッドにかわる新たな概念を提案</li>
+  <li>Guildは複数スレッドを含む上位概念的なもの</li>
+  <li>複数のGuild間での可変オブジェクト受け渡しにはチャネルを使ってコピーするか移籍(transfer membership)という新しい概念で</li>
+  <li>Guild内のスレッド間はスレッドセーフが保証される</li>
+  <li>これらのGuildの概念でRuby 3で実現したい並列プログラミングのゴールをすべて満たす感じに</li>
+  <li>Guild概念導入でスレッドセーフが保証されないキモいコードを書けないようにする方向性</li>
 </ul>
 
-
-<h2>Isomorphic web programming in Ruby presented by @youchan</h2>
-
+<h2 id="isomorphic-web-programming-in-ruby-presented-by-youchan">Isomorphic web programming in Ruby presented by @youchan</h2>
 <ul>
-<li>去年はHyaliteの話をした</li>
-<li>Menilite: クライアントサイドでもARとか使える的な(JS嫌いなのでw)</li>
-<li>デモ、デモ、ひたすらデモ</li>
+  <li>去年はHyaliteの話をした</li>
+  <li>Menilite: クライアントサイドでもARとか使える的な(JS嫌いなのでw)</li>
+  <li>デモ、デモ、ひたすらデモ</li>
 </ul>
 
-
-<h2>Unifying Fixnum and Bignum into Integer presented by @tanaka_akr</h2>
-
+<h2 id="unifying-fixnum-and-bignum-into-integer-presented-by-tanaka_akr">Unifying Fixnum and Bignum into Integer presented by @tanaka_akr</h2>
 <ul>
-<li>Ruby 2.4ではFixnum,BignumクラスがなくなりIntegerに統合</li>
-<li>環境によってFixnumが扱えるサイズは異なる
-
-<ul>
-<li>手元の環境(OS X Yosemite)だと(2<strong>62-1).classはFixnum,(2</strong>62).classはBignum</li>
-</ul>
-</li>
-<li>Fixnum,BignumはCommon Lispから来てる</li>
-<li>以下のコード無限ループになるけど許容するしか。
+  <li>Ruby 2.4ではFixnum,BignumクラスがなくなりIntegerに統合</li>
+  <li>環境によってFixnumが扱えるサイズは異なる
+    <ul>
+      <li>手元の環境(OS X Yosemite)だと(2<strong>62-1).classはFixnum,(2</strong>62).classはBignum</li>
+    </ul>
+  </li>
+  <li>Fixnum,BignumはCommon Lispから来てる</li>
+  <li>以下のコード無限ループになるけど許容するしか。
 max = 1
 max *= 2 if max.class == Fixnum
 puts max</li>
-<li>教育的に分かりやすい、数学的にも正しい、とmatzに押し込んだ</li>
+  <li>教育的に分かりやすい、数学的にも正しい、とmatzに押し込んだ</li>
 </ul>
 
-
-<h2>Scalable job queue system built with Docker presented by @k0kubun</h2>
-
+<h2 id="scalable-job-queue-system-built-with-docker-presented-by-k0kubun">Scalable job queue system built with Docker presented by @k0kubun</h2>
 <ul>
-<li>coockpadでrails開発者の開発効率を向上する為の開発</li>
-<li>RubyKaigiでrailsの話をすると怒られる</li>
-<li>syoryukenってgemはSQSをジョブキューとして使うやつ</li>
-<li>barbequeを作った</li>
-<li>web consoleもあるよ(rails製)</li>
-<li>kuroko2という社内のクローズツールが秀逸すぎたので本来ジョブキュー使うべきところでも出番なし</li>
-<li>kuroko2はOSS化進めてる</li>
-<li>ECSとAutoScalingグループでスケールを自動化</li>
+  <li>coockpadでrails開発者の開発効率を向上する為の開発</li>
+  <li>RubyKaigiでrailsの話をすると怒られる</li>
+  <li>syoryukenってgemはSQSをジョブキューとして使うやつ</li>
+  <li>barbequeを作った</li>
+  <li>web consoleもあるよ(rails製)</li>
+  <li>kuroko2という社内のクローズツールが秀逸すぎたので本来ジョブキュー使うべきところでも出番なし</li>
+  <li>kuroko2はOSS化進めてる</li>
+  <li>ECSとAutoScalingグループでスケールを自動化</li>
 </ul>
-
 </div>
 
 
   <footer>
     <p class="meta">
       
-  
-
 <span class="byline author vcard">Posted by <span class="fn">tchikuba</span></span>
 
       
@@ -264,8 +244,6 @@ puts max</li>
 
 
 
-
-  
 
 
 <time datetime="2016-09-08T10:17:39+09:00" pubdate data-updated="true">Sep 8<span>th</span>, 2016</time>
@@ -374,7 +352,7 @@ puts max</li>
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2020 - tchikuba -
+  Copyright &copy; 2026 - tchikuba -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
   - <span class="credit">Theme by <a href="http://www.gehaxelt.in">Gehaxelt</a></span>
   <span class="credit">and <a href="http://www.it-solutions-neef.de">IT Solutions Neef</a></span>

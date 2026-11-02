@@ -107,8 +107,6 @@ $(document).ready( function () {
 
 
 
-  
-
 
 <time datetime="2013-10-30T20:00:00+09:00" pubdate data-updated="true">Oct 30<span>th</span>, 2013</time>
         
@@ -119,7 +117,9 @@ $(document).ready( function () {
 
 <div class="entry-content"><p>Linuxで整えたOctopressでブログ書く環境をWindowsとMacでもそれぞれ作りたかったのとrubyのバージョンとか揃えるの億劫だしそれぞれ作るの面倒だなと思ったけど、既にvagrantな環境誰か作ってんじゃね？と思ってググったらありました。</p>
 
-<blockquote><p><a href="https://github.com/aequasi/octopress-vagrant">octopress-vagrant</a></p></blockquote>
+<blockquote>
+  <p><a href="https://github.com/aequasi/octopress-vagrant">octopress-vagrant</a></p>
+</blockquote>
 
 <p>世の中考えることは一緒ですね！</p>
 
@@ -127,15 +127,14 @@ $(document).ready( function () {
 手順は以下に。</p>
 
 <ul>
-<li>リモートリポジトリ(私の場合Bitbucket)とGitHubにゲストOS側のssh公開鍵を追加登録</li>
-<li>Vagrantfileのポート4000番のフォワード設定を追加</li>
-<li>ubuntuのデフォルトロケールを日本語に変更</li>
-<li>リモートリポジトリからOctopressソースをgit clone</li>
-<li>rake generateを叩いて[octopress root]/publicにhtmlの実態を生成</li>
+  <li>リモートリポジトリ(私の場合Bitbucket)とGitHubにゲストOS側のssh公開鍵を追加登録</li>
+  <li>Vagrantfileのポート4000番のフォワード設定を追加</li>
+  <li>ubuntuのデフォルトロケールを日本語に変更</li>
+  <li>リモートリポジトリからOctopressソースをgit clone</li>
+  <li>rake generateを叩いて[octopress root]/publicにhtmlの実態を生成</li>
 </ul>
 
-
-<p>これでホストOSから<code>http://localhost:4000</code>にアクセスするとvirtualbox上で動いているゲストOSに構築されたブログが見えるようになります。
+<p>これでホストOSから<code class="language-plaintext highlighter-rouge">http://localhost:4000</code>にアクセスするとvirtualbox上で動いているゲストOSに構築されたブログが見えるようになります。
 後は<a href="http://www.packer.io/">Packer</a>でboxイメージも共有すると良いかもしれません。</p>
 
 <p>余談ですが、DevOps面白いですね！
@@ -146,8 +145,6 @@ PHP開発環境をxampp/mamppとかで作ったり手動でVMWare上でVM開発�
   <footer>
     <p class="meta">
       
-  
-
 <span class="byline author vcard">Posted by <span class="fn">tchikuba</span></span>
 
       
@@ -158,8 +155,6 @@ PHP開発環境をxampp/mamppとかで作ったり手動でVMWare上でVM開発�
 
 
 
-
-  
 
 
 <time datetime="2013-10-30T20:00:00+09:00" pubdate data-updated="true">Oct 30<span>th</span>, 2013</time>
@@ -268,7 +263,7 @@ PHP開発環境をxampp/mamppとかで作ったり手動でVMWare上でVM開発�
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2020 - tchikuba -
+  Copyright &copy; 2026 - tchikuba -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
   - <span class="credit">Theme by <a href="http://www.gehaxelt.in">Gehaxelt</a></span>
   <span class="credit">and <a href="http://www.it-solutions-neef.de">IT Solutions Neef</a></span>

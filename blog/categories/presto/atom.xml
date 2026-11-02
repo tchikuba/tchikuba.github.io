@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Presto | tchikuba's blog]]></title>
   <link href="https://tchikuba.github.io/blog/categories/presto/atom.xml" rel="self"/>
   <link href="https://tchikuba.github.io/"/>
-  <updated>2020-08-07T20:51:12+09:00</updated>
+  <updated>2026-11-02T20:41:28+09:00</updated>
   <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
@@ -28,74 +28,86 @@ td-client-rubyのソースコードを見たら案の定クエリタイプを指
 
 <iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="td-client-ruby/client.rb at master · treasure-data/td-client-ruby · GitHub" src="http://hatenablog.com/embed?url=https://github.com/treasure-data/td-client-ruby/blob/master/lib/td/client.rb#L182" frameborder="0" scrolling="no"></iframe>
 
-
-<p>``` ruby client.rb#L182付近 <a href="https://gist.github.com/tchikuba/c1c9e48f88ff7c6d2c94">https://gist.github.com/tchikuba/c1c9e48f88ff7c6d2c94</a> gist
-  # @param [String] db_name
-  # @param [String] q
-  # @param [String] result_url
-  # @param [Fixnum] priority
-  # @param [Fixnum] retry_limit
-  # @param [Hash] opts
-  # @return [Job]
-  def query(db_name, q, result_url=nil, priority=nil, retry_limit=nil, opts={})</p>
-
-<pre><code># for compatibility, assume type is hive unless specifically specified
-type = opts[:type] || opts['type'] || :hive
-raise ArgumentError, "The specified query type is not supported: #{type}" unless [:hive, :pig, :impala, :presto].include?(type)
-job_id = @api.query(q, type, db_name, result_url, priority, retry_limit, opts)
-Job.new(self, job_id, type, q)
-</code></pre>
-
-<p>  end
-```</p>
+<figure class="code"><figcaption><span>client.rb#L182付近</span><a href="https://gist.github.com/tchikuba/c1c9e48f88ff7c6d2c94">gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+</pre></td><td class="code"><pre><code class="ruby"><span class="line">  <span class="c1"># @param [String] db_name</span>
+</span><span class="line">  <span class="c1"># @param [String] q</span>
+</span><span class="line">  <span class="c1"># @param [String] result_url</span>
+</span><span class="line">  <span class="c1"># @param [Fixnum] priority</span>
+</span><span class="line">  <span class="c1"># @param [Fixnum] retry_limit</span>
+</span><span class="line">  <span class="c1"># @param [Hash] opts</span>
+</span><span class="line">  <span class="c1"># @return [Job]</span>
+</span><span class="line">  <span class="k">def</span> <span class="nf">query</span><span class="p">(</span><span class="n">db_name</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">result_url</span><span class="o">=</span><span class="kp">nil</span><span class="p">,</span> <span class="n">priority</span><span class="o">=</span><span class="kp">nil</span><span class="p">,</span> <span class="n">retry_limit</span><span class="o">=</span><span class="kp">nil</span><span class="p">,</span> <span class="n">opts</span><span class="o">=</span><span class="p">{})</span>
+</span><span class="line">    <span class="c1"># for compatibility, assume type is hive unless specifically specified</span>
+</span><span class="line">    <span class="n">type</span> <span class="o">=</span> <span class="n">opts</span><span class="p">[</span><span class="ss">:type</span><span class="p">]</span> <span class="o">||</span> <span class="n">opts</span><span class="p">[</span><span class="s1">'type'</span><span class="p">]</span> <span class="o">||</span> <span class="ss">:hive</span>
+</span><span class="line">    <span class="k">raise</span> <span class="no">ArgumentError</span><span class="p">,</span> <span class="s2">"The specified query type is not supported: </span><span class="si">#{</span><span class="n">type</span><span class="si">}</span><span class="s2">"</span> <span class="k">unless</span> <span class="p">[</span><span class="ss">:hive</span><span class="p">,</span> <span class="ss">:pig</span><span class="p">,</span> <span class="ss">:impala</span><span class="p">,</span> <span class="ss">:presto</span><span class="p">].</span><span class="nf">include?</span><span class="p">(</span><span class="n">type</span><span class="p">)</span>
+</span><span class="line">    <span class="n">job_id</span> <span class="o">=</span> <span class="vi">@api</span><span class="p">.</span><span class="nf">query</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">type</span><span class="p">,</span> <span class="n">db_name</span><span class="p">,</span> <span class="n">result_url</span><span class="p">,</span> <span class="n">priority</span><span class="p">,</span> <span class="n">retry_limit</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span><span class="line">    <span class="no">Job</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="nb">self</span><span class="p">,</span> <span class="n">job_id</span><span class="p">,</span> <span class="n">type</span><span class="p">,</span> <span class="n">q</span><span class="p">)</span>
+</span><span class="line">  <span class="k">end</span></span></code></pre></td></tr></table></div></figure>
 
 <p>上記の通りqueryメソッドの第5引数にoptsというハッシュで指定するオプションがあり、
-<code>type: :presto</code>な指定をするとHiveではなくPrestoでクエリが発行されます。</p>
+<code class="language-plaintext highlighter-rouge">type: :presto</code>な指定をするとHiveではなくPrestoでクエリが発行されます。</p>
 
 <p>以下、rakeタスクでのサンプルコードです。</p>
 
-<p>``` ruby rakeタスクでのサンプルコード
-namespace :execute do
-  desc &lsquo;download treasure data by presto&rsquo;
-  task presto: :environment do</p>
+<figure class="code"><figcaption><span>rakeタスクでのサンプルコード</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+</pre></td><td class="code"><pre><code class="ruby"><span class="line"><span class="n">namespace</span> <span class="ss">:execute</span> <span class="k">do</span>
+</span><span class="line">  <span class="n">desc</span> <span class="s1">'download treasure data by presto'</span>
+</span><span class="line">  <span class="n">task</span> <span class="ss">presto: :environment</span> <span class="k">do</span>
+</span><span class="line">    <span class="n">apikey</span> <span class="o">=</span> <span class="s1">'your api key'</span>
+</span><span class="line">    <span class="n">db</span> <span class="o">=</span> <span class="s1">'your_db_name'</span>
+</span><span class="line">    <span class="n">query</span> <span class="o">=</span> <span class="s1">'select count(*) from your_table_name'</span>
+</span><span class="line">    <span class="n">client</span> <span class="o">=</span> <span class="no">TreasureData</span><span class="o">::</span><span class="no">Client</span><span class="p">.</span><span class="nf">new</span> <span class="n">apikey</span>
+</span><span class="line">    <span class="n">job</span> <span class="o">=</span> <span class="n">client</span><span class="p">.</span><span class="nf">query</span> <span class="n">db</span><span class="p">,</span> <span class="n">query</span><span class="p">,</span> <span class="kp">nil</span><span class="p">,</span> <span class="kp">nil</span><span class="p">,</span> <span class="kp">nil</span><span class="p">,</span> <span class="ss">type: :presto</span>
+</span><span class="line">    <span class="k">until</span> <span class="n">job</span><span class="p">.</span><span class="nf">finished?</span>
+</span><span class="line">      <span class="nb">sleep</span> <span class="mi">2</span>
+</span><span class="line">      <span class="n">job</span><span class="p">.</span><span class="nf">update_status!</span>
+</span><span class="line">    <span class="k">end</span>
+</span><span class="line">    <span class="n">job</span><span class="p">.</span><span class="nf">update_status!</span>
+</span><span class="line">    <span class="nb">p</span> <span class="n">job</span><span class="p">.</span><span class="nf">result</span> <span class="k">if</span> <span class="n">job</span><span class="p">.</span><span class="nf">finished?</span>
+</span><span class="line">  <span class="k">end</span>
+</span><span class="line"><span class="k">end</span></span></code></pre></td></tr></table></div></figure>
 
-<pre><code>apikey = 'your api key'
-db = 'your_db_name'
-query = 'select count(*) from your_table_name'
-client = TreasureData::Client.new apikey
-job = client.query db, query, nil, nil, nil, type: :presto
-until job.finished?
-  sleep 2
-  job.update_status!
-end
-job.update_status!
-p job.result if job.finished?
-</code></pre>
+<figure class="code"><figcaption><span>実行</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line">bin/rake execute:presto</span></code></pre></td></tr></table></div></figure>
 
-<p>  end
-end
-```</p>
-
-<p><code>bash 実行
-bin/rake execute:presto
-</code></p>
-
-<p><code>bash 結果
-[[100]] # your_db_name.your_table_nameの件数
-</code></p>
+<figure class="code"><figcaption><span>結果</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="o">[[</span>100]] <span class="c"># your_db_name.your_table_nameの件数</span></span></code></pre></td></tr></table></div></figure>
 
 <p>上記のように単純なクエリの場合、Hiveだとパフォーマンス的にwebアプリ等から動的に取得するのが
 現実的に時間がかかりすぎたクエリでもPrestoであれば動的にデータ取得可能なので利用の幅が広がりますね。</p>
 
-<h2>合わせて読みたい</h2>
-
+<h2 id="合わせて読みたい">合わせて読みたい</h2>
 <iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="『Prestoとは何か，Prestoで何ができるか』 - トレジャーデータ（Treasure Data）公式ブログ" src="http://hatenablog.com/embed?url=http://treasure-data.hateblo.jp/entry/2014/07/10/150250" frameborder="0" scrolling="no"></iframe>
 
-
-
-
 <iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="[Ruby on Rails]td-clientでTreasureDataにQueryを発行する ｜ Developers.IO" src="http://hatenablog.com/embed?url=http://dev.classmethod.jp/server-side/ruby-on-rails/ruby-on-railstd-client_treasuredata_query_issue/" frameborder="0" scrolling="no"></iframe>
-
 ]]></content>
   </entry>
   

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Ruby | tchikuba's blog]]></title>
+  <title><![CDATA[Category: ruby | tchikuba's blog]]></title>
   <link href="https://tchikuba.github.io/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="https://tchikuba.github.io/"/>
-  <updated>2020-08-07T20:51:12+09:00</updated>
+  <updated>2026-11-02T20:41:28+09:00</updated>
   <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
@@ -12,6 +12,421 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[RubyKaigi 2017 2日目 Matz基調講演＋α]]></title>
+    <link href="https://tchikuba.github.io/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day/"/>
+    <updated>2017-09-19T09:49:45+09:00</updated>
+    <id>https://tchikuba.github.io/blog/2017/09/19/ruby-kaigi-2017-the-2nd-day</id>
+    <content type="html"><![CDATA[<p>RubyKaigi 2017は広島での開催。昨年は京都で今年は広島ということで、暫く地方の流れなのかしら？</p>
+
+<h2 id="keynote--yukihiro-matz-matsumoto-yukihiro_matz">Keynote : Yukihiro &#8220;Matz&#8221; Matsumoto @yukihiro_matz</h2>
+
+<ul>
+  <li>世界最大規模のRubyカンファレンスがRubyKaigi
+    <ul>
+      <li>何を話すか困る</li>
+      <li>松田さんには聴衆置いてきぼりでも良いので聞いたこと無い話、技術的な話してよとオファー来る</li>
+      <li>才能の話をする</li>
+      <li>天才プログラマーと言われるけど自分でそう思ったことはない</li>
+      <li>自称プログラミング言語デザイナ</li>
+      <li>matzが初めて触れたプログラミング言語はBasic</li>
+      <li>自分の思考をまとめるツール=プログラミング言語</li>
+      <li>I love all programming languages.</li>
+      <li>「matzは他の言語に攻撃的だから嫌い」と言われることがある</li>
+      <li>Rubyのmatzだから他言語を貶めてRubyアゲようとしてる、と言われるけど本人全くそんなつもりはない</li>
+      <li>とはいえ昔Pythonのメーリスに乗り込んでRubyならこんなことできるよと言ったこともあるけど(笑)</li>
+    </ul>
+  </li>
+  <li>Simula(1968)：初のオブジェクト指向言語の話を</li>
+  <li>Animal &ndash; Horse &ndash; Zebraが表現できるように</li>
+  <li>Dr. Kristen Nygaard（クリステン・ニゴール）</li>
+  <li>「全てのオブジェクト指向言語は私の孫みたいなもんでなぁ」←会った時言われた</li>
+  <li>単一継承（木構造）→多重継承（ネットワーク構造）</li>
+  <li>C3リニアリゼーションアルゴリズム</li>
+  <li>Mixin（Lisp界隈はFlavorsと呼んでた）</li>
+  <li>アイスクリームとチョコチップのたとえ</li>
+  <li>Rubyはこれをmoduleとして採用</li>
+  <li>namespace（ex.Net::HTTP）／singleton（ex.FileUtils）／メソッドの集合（ex.Math）としてのmoduleも</li>
+  <li>2013年2.0から新たな機能</li>
+  <li>Alias method chain：欠点もある→Module#prependがRailsコミュニティから複数人から提案があった</li>
+  <li>一度prependしたら外せないようにするのは敢えて→待てよ</li>
+  <li>CLOS（Common Lisp Object System）という言語を想起</li>
+  <li>アスペクト指向プログラミングといっても良い（Gregor Kiczalesが考えた）</li>
+  <li>リファインメントとしてのmodule</li>
+  <li>なぜモンキーパッチングというのか？</li>
+  <li>ゲリラ→ゴリラ→モンキーになったっぽい</li>
+  <li>ActiveSupportがモンキーパッチングの良い例</li>
+  <li>2.days.ago（これRubyかよ）ってのができるようになる</li>
+  <li>スコープを区切ったモンキーパッチングなら良いのでは</li>
+  <li>Selector namespace （Smallscript）</li>
+  <li>Rubyのリファインメント
+    <ul>
+      <li>C#のエクステンションみたいな→ex.RSpec：特定のスコープだけで呼ぶ（現時点でリファインメント使ってない）</li>
+      <li>既存のメソッドを置き換える</li>
+    </ul>
+  </li>
+  <li>Structual type checkとしてのmodule（まだプロポーザル）
+    <ul>
+      <li>静的型付けとして将来的には取り込まれる可能性</li>
+    </ul>
+  </li>
+  <li>Ruby3x3への取り組み
+    <ul>
+      <li>MJIT</li>
+      <li>Rubex</li>
+      <li>Fiber / Guild</li>
+      <li>AutoFiber（Unicorn作った人）</li>
+    </ul>
+  </li>
+  <li>静的型付けの取り組みも本日午後に3発表あり</li>
+  <li>Matzが手を動かすというよりゴールを示すリードデザイナ</li>
+  <li>RubyはMatzの言語というより我々の言語</li>
+  <li>ご覧のスポンサーの提供でお送りしています(笑)ブースに行ってくれると私の顔が立つ
+    <ul>
+      <li>Heroku</li>
+      <li>VASILY</li>
+      <li>Sansan</li>
+      <li>Speee</li>
+      <li>RakSul</li>
+      <li>リクルートマーケティングパートナーズ</li>
+      <li>Linkers</li>
+    </ul>
+  </li>
+</ul>
+
+<p>こっから先は話聞くのをメインにしてたので細かくはメモとってなかったので気になる所だけ…</p>
+
+<h2 id="an-introduction-and-future-of-ruby-coverage-library--yusuke-endoh-mametter">An introduction and future of Ruby coverage library : Yusuke Endoh @mametter</h2>
+
+<ul>
+  <li>カバレッジの種類にも色々ある
+    <ul>
+      <li>条件true/false両方をカバー</li>
+      <li>LINEカバレッジだと後置ifなど見逃すケースも</li>
+    </ul>
+  </li>
+  <li>カバレッジをゴールにするのはよくない</li>
+  <li>SimpleCovはcoverage.soのラッパー</li>
+</ul>
+
+<h2 id="improve-extension-api-c-as-better-language-for-extension--kouhei-sutou-ktou">Improve extension API: C++ as better language for extension : Kouhei Sutou @ktou</h2>
+
+<ul>
+  <li>高速化の為にはC/C++とRubyを行ったり来たりしないこと</li>
+  <li>C++11
+    <ul>
+      <li>型推論auto</li>
+      <li>ラムダ式</li>
+    </ul>
+  </li>
+  <li>遅延メソッド定義</li>
+</ul>
+
+<h2 id="automated-type-contracts-generation-for-ruby--valentin-fondaratov-rubymine">Automated Type Contracts Generation for Ruby : Valentin Fondaratov @rubymine</h2>
+
+<ul>
+  <li>JetBrainsの中の人の静的解析の話</li>
+  <li>RubyMineの各プロジェクトのテストコードをクラウド化して情報集める的な（たしか）</li>
+</ul>
+
+<h2 id="type-checking-ruby-programs-with-annotations--soutaro-matsumoto-soutaro">Type Checking Ruby Programs with Annotations : Soutaro Matsumoto @soutaro</h2>
+
+<ul>
+  <li>ずっと前から色々型チェック関連やってる人</li>
+  <li><a href="https://github.com/soutaro/steep">Steep</a></li>
+</ul>
+
+<h2 id="bending-the-curve-putting-rust-in-ruby-with-helix--godfrey-chan-chancancode--terence-lee-hone02">Bending The Curve: Putting Rust in Ruby with Helix : Godfrey Chan @chancancode / Terence Lee @hone02</h2>
+
+<ul>
+  <li>Herokuの中の人＆もうすぐ中の人（デカい外人もHerokuの中の人）</li>
+  <li>RustでRubyのライブラリ作ろう的な <a href="https://github.com/tildeio/helix">https://github.com/tildeio/helix</a></li>
+</ul>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[【書籍レビュー】Ruby on Rails 5 アプリケーションプログラミングを献本頂きました]]></title>
+    <link href="https://tchikuba.github.io/blog/2017/05/22/ruby-on-rails-5-application-programming/"/>
+    <updated>2017-05-22T21:02:41+09:00</updated>
+    <id>https://tchikuba.github.io/blog/2017/05/22/ruby-on-rails-5-application-programming</id>
+    <content type="html"><![CDATA[<p>久々にブログ更新。</p>
+
+<p>ここ最近、友人から紹介されて<a href="http://www.wings.msn.to/">WINGSプロジェクト</a>という技術書執筆者のコミュニティに属して、色々と執筆を行っていたりします。
+たとえば、<a href="http://codezine.jp/">CodeZine</a>で<a href="http://codezine.jp/article/corner/681">「サンプルコードで学ぶRuby on Rails 5実践入門」</a>という連載中です(もうすぐ連載終了予定ですが)。</p>
+
+<p>さて本題ですが、このWINGSプロジェクトの主催者である山田祥寛さん著「Ruby on Rails 5 アプリケーションプログラミング」という技術書を献本頂いたのでレビューを書きます。</p>
+
+<p><a target="_blank" href="https://www.amazon.co.jp/gp/product/4774188832/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=4774188832&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=c0d7575094675a2af0c9a951687667f7"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=4774188832&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=athome0a-22" /></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=4774188832" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<h2 id="網羅性が高い">網羅性が高い</h2>
+
+<p>全体的にRailsの機能をまんべんなく解説しています。
+たとえばDBから動的にセレクトボックスを生成するoptions_from_collection_for_selectビューヘルパーなど、かなり広範囲にカバーされている印象でした。
+また、ActiveRecordのlock_versionカラムによるオプティミスティック同時実行制御についても触れられています。
+さらに、フロントエンドの開発のところで、CoffeeScriptには三項演算子がないなど、CoffeeScriptの基本的な文法まで触れられているのでRubyしか触ったことがない人にとってもこれ1冊でRailsの基礎を身につけることがある程度できそうです。
+あとscss -iでSCSSがインタラクティブモードで起動できるとか実は初めて知ったことも書いてありましたｗ</p>
+
+<h2 id="解説が分かりやすい特に解説図">解説が分かりやすい(特に解説図)</h2>
+
+<p>専属テクニカルライターとしてキャリアの長い山田さんならではの分かりやすい解説が特徴かと。
+Rails初心者が読んでも非常に分かりやすいと思います。
+また、ところどころで差し込まれている解説図が直感的に理解しやすいもので感心しました。</p>
+
+<h2 id="随所にrails5以前のバージョンの知見が散りばめられている">随所にRails5以前のバージョンの知見が散りばめられている</h2>
+
+<p>NOTEとしてRails5以前だとどうだったかの解説があります。
+たとえばStrong Parametersの解説など、3系・4系のバージョンと絡めてRails5への理解を深める解説が散りばめられています。</p>
+
+<h2 id="註釈が結構細かい">註釈が結構細かい</h2>
+
+<p>右側が本文、左側の余白に様々な註釈があり、知識を補強する解説が掲載されています。
+結構かゆいところに手が届く感じの註釈が多い感じで表層的な理解に留まらず背景知識も深く理解できそうです。</p>
+
+<h2 id="環境構築はちょっと注意が必要">環境構築はちょっと注意が必要</h2>
+
+<p>環境構築がWindowsとLinux両方をサポートしているのですが、Railsをガチで開発する場合結構Macで開発することが実際多いかなと。
+Macでの手順の記述がないのはちょっと残念な印象です。
+また、Railsも直接gemをインストールしていますが、実践的にはrbenvでRubyをインストールしてbundler経由でRailsをプロジェクトローカルにインストールすることがほとんどなので、その辺のデファクトが分かっていない人にとってはちょっと注意が必要かなと。
+まぁ、そもそも上級者向けの書籍ではないのでその辺は当初から割愛しているのかな、とは思いますが。</p>
+
+<h2 id="action-cableの詳細解説がない">Action Cableの詳細解説がない</h2>
+
+<p>Rails5の目玉機能の1つにAction Cableがあることはサラっと触れられているのですが、残念ながら詳細の解説がないです。
+この辺はページ数の関係で省略したんでしょうか。まぁこれちゃんと説明すると結構面倒なんですよねｗ</p>
+
+<h2 id="総評">総評</h2>
+
+<p>個人的には網羅性と分かりやすさの観点で、初心者を脱却しつつある方が体系的にRailsを捉え直すのにちょうど良い書籍かなと。
+全くの私見ですが個人的にはパーフェクトRuby on Railsより分かりやすい印象ですｗ</p>
+
+<p><a target="_blank" href="https://www.amazon.co.jp/gp/product/4774188832/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=4774188832&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=c0d7575094675a2af0c9a951687667f7"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=4774188832&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=athome0a-22" /></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=4774188832" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a target="_blank" href="https://www.amazon.co.jp/gp/product/4774165166/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=4774165166&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=37d1c46125129eacafd60a4a7f4fa96d"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=4774165166&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=athome0a-22" /></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=4774165166" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a target="_blank" href="https://www.amazon.co.jp/gp/product/4774189774/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=4774189774&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=ff1909afe5cc88049c9d1fce1130803c"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=4774189774&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=athome0a-22" /></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=4774189774" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[【速報】RubyKaigi 2016初日参加レポート]]></title>
+    <link href="https://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day/"/>
+    <updated>2016-09-08T10:17:39+09:00</updated>
+    <id>https://tchikuba.github.io/blog/2016/09/08/rubykaigi2016-1st-day</id>
+    <content type="html"><![CDATA[<p>聞きながらの自分用メモなのでちょっと正確でない点がありそうですが。</p>
+
+<h2 id="ruby3-presented-by-matz">Ruby3 presented by matz</h2>
+<ul>
+  <li>Typingの話</li>
+  <li>SmallTalk→Java→Ruby,JavaScript→Swift,Go→？</li>
+  <li>近視眼的な判断で静的型付けを選択するのは危険</li>
+  <li>そもそも未来の型とは？</li>
+  <li>Duck typing: アヒルが歩くように。アヒルのように振る舞えばOK</li>
+  <li>Duckとは期待される振る舞い</li>
+  <li>プログラマのメンタルコストを下げたい</li>
+  <li>GoのStructual SubtypingはNominal Subtypingより良さ気</li>
+  <li>Rubyには歴史的にこれまで型指定がない</li>
+  <li>動的型付けの欠点もある</li>
+  <li>エラーメッセージが親切じゃない</li>
+  <li>型は絶対に書きたくない(会場笑) DRYじゃないし</li>
+  <li>Type Annotation,Mixed/Gradual Typingはダメなアイディア</li>
+  <li>人にお願いするんじゃなくて技術で解決したいよね</li>
+  <li>型推論は素晴らしい</li>
+  <li>インタフェース書きたくない</li>
+  <li>型の名前を決めるのは結構なコスト。振る舞いがわかっていれば名前を付けたくない</li>
+  <li>振る舞いを決める型のデータベースのようなものと型推論を組み合わせると80%くらいは推論可能では</li>
+  <li>オープンクラスとかで再定義しちゃうと型推論無効に</li>
+  <li>型データベースをgem化して利用して型推論の精度向上とか</li>
+  <li>ダックタイピングを維持して型推論をRubyらしく行う</li>
+  <li>これらの構想はすべてRubyistが楽しく生産性を維持できるために検討していること</li>
+  <li>Ruby3はいつか？ I don&#8217;t know.(会場笑)</li>
+  <li>次の東京オリンピックの時にはRuby3あると良いなぁ</li>
+  <li>OSSコミュニティは前に進めないとつまらない。前に進めるためには何でもやる</li>
+</ul>
+
+<h2 id="druby-presented-by-m_seki">dRuby presented by @m_seki</h2>
+<ul>
+  <li>dRubyが生まれたのは1999年</li>
+  <li>dRubyはオーパーツ</li>
+  <li>shttpsrv: WEBrickより前のRuby製webサーバ</li>
+  <li>Rubyのように振る舞う分散オブジェクト</li>
+  <li>DRb.start_serviceだけでdRubyの準備可能</li>
+  <li>サーバーとクライアントが入れ替わる例</li>
+  <li>OOPっぽい感じ</li>
+  <li>Queueを使って待合せのデモ</li>
+  <li>dRubyはtwitterのプロトタイピングでdRuby/Rindaだったらしい</li>
+  <li>プロトタイピングとしての利用価値がある気がする</li>
+  <li>セキュリティ系メソッドは消してしまいたい。危ないものは危なく見えるべき</li>
+</ul>
+
+<h2 id="welcome-to-haconiwa-presented-by-udzura">Welcome to haconiwa presented by @udzura</h2>
+<ul>
+  <li>Drone.io</li>
+  <li>dockerらしいコマンドをしょっちゅう打ってた</li>
+  <li>Sqaleで使ってるLXC</li>
+  <li>haconiwaコマンドでRubyで書かれたプロファイル定義を実行とか</li>
+  <li>hacorbコマンドとかでmrubyスクリプトのコンテナ実行</li>
+  <li>cgroups的な</li>
+  <li>最初はCRubyで実装</li>
+  <li>システムコール扱うのに色々嵌ったのでmruby実装へ</li>
+  <li>mrubyはコンテナが取り扱うシステムコールをサポートしてるので使いやすい</li>
+</ul>
+
+<h2 id="a-proposal-of-new-concurrency-model-for-ruby-3-presented-by-ko1">A proposal of new concurrency model for Ruby 3 presented by @ko1</h2>
+<ul>
+  <li>資料
+    <ul>
+      <li><a href="http://www.atdot.net/~ko1/activities/2016_rubykaigi.pdf">スライド</a></li>
+      <li><a href="http://www.atdot.net/~ko1/diary/201609.html#d6">日本語スクリプト</a></li>
+    </ul>
+  </li>
+  <li>Ruby 3に取り入れられたいと思う並列プログラミングについて</li>
+  <li>C言語のポインタと比較するとRubyはGCあるのでハッピープログラムできる</li>
+  <li>data raceやrace conditionが発生する例を通してスレッドセーフなプログラミングが如何に難しいかを知る</li>
+  <li>Mutexを利用して同期を取るのはバグと性能低下の狭間にある</li>
+  <li>Ruby 3ではGuild(ギルド)というスレッドにかわる新たな概念を提案</li>
+  <li>Guildは複数スレッドを含む上位概念的なもの</li>
+  <li>複数のGuild間での可変オブジェクト受け渡しにはチャネルを使ってコピーするか移籍(transfer membership)という新しい概念で</li>
+  <li>Guild内のスレッド間はスレッドセーフが保証される</li>
+  <li>これらのGuildの概念でRuby 3で実現したい並列プログラミングのゴールをすべて満たす感じに</li>
+  <li>Guild概念導入でスレッドセーフが保証されないキモいコードを書けないようにする方向性</li>
+</ul>
+
+<h2 id="isomorphic-web-programming-in-ruby-presented-by-youchan">Isomorphic web programming in Ruby presented by @youchan</h2>
+<ul>
+  <li>去年はHyaliteの話をした</li>
+  <li>Menilite: クライアントサイドでもARとか使える的な(JS嫌いなのでw)</li>
+  <li>デモ、デモ、ひたすらデモ</li>
+</ul>
+
+<h2 id="unifying-fixnum-and-bignum-into-integer-presented-by-tanaka_akr">Unifying Fixnum and Bignum into Integer presented by @tanaka_akr</h2>
+<ul>
+  <li>Ruby 2.4ではFixnum,BignumクラスがなくなりIntegerに統合</li>
+  <li>環境によってFixnumが扱えるサイズは異なる
+    <ul>
+      <li>手元の環境(OS X Yosemite)だと(2<strong>62-1).classはFixnum,(2</strong>62).classはBignum</li>
+    </ul>
+  </li>
+  <li>Fixnum,BignumはCommon Lispから来てる</li>
+  <li>以下のコード無限ループになるけど許容するしか。
+max = 1
+max *= 2 if max.class == Fixnum
+puts max</li>
+  <li>教育的に分かりやすい、数学的にも正しい、とmatzに押し込んだ</li>
+</ul>
+
+<h2 id="scalable-job-queue-system-built-with-docker-presented-by-k0kubun">Scalable job queue system built with Docker presented by @k0kubun</h2>
+<ul>
+  <li>coockpadでrails開発者の開発効率を向上する為の開発</li>
+  <li>RubyKaigiでrailsの話をすると怒られる</li>
+  <li>syoryukenってgemはSQSをジョブキューとして使うやつ</li>
+  <li>barbequeを作った</li>
+  <li>web consoleもあるよ(rails製)</li>
+  <li>kuroko2という社内のクローズツールが秀逸すぎたので本来ジョブキュー使うべきところでも出番なし</li>
+  <li>kuroko2はOSS化進めてる</li>
+  <li>ECSとAutoScalingグループでスケールを自動化</li>
+</ul>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[「dots.2周年記念パーティ」に参加しました！]]></title>
+    <link href="https://tchikuba.github.io/blog/2015/10/30/dots-2years-party/"/>
+    <updated>2015-10-30T19:22:05+09:00</updated>
+    <id>https://tchikuba.github.io/blog/2015/10/30/dots-2years-party</id>
+    <content type="html"><![CDATA[<p>2015年10月30日(金)に行われた<a href="http://eventdots.jp/">dots</a>の<a href="http://eventdots.jp/event/571415">2周年記念パーティー</a>に参加してきました！
+rubyのパパこと<a href="https://twitter.com/yukihiro_matz">matz</a>の話が聞けるということで楽しみにしてたイベントでした。
+またdotsは渋谷のイベント・コワーキングスペースを2015年8月から運営しており、運営に関わっている人が知人でもあり、ちょこちょこ利用させて貰ってます。</p>
+
+<hr />
+
+<p>※リアルタイム更新してました！</p>
+
+<h2 id="まつもとゆきひろ氏">まつもとゆきひろ氏</h2>
+<ul>
+  <li>PHPで出来てるdotsにあまり関係ないruby開発者のまつもとゆきひろです（笑）</li>
+  <li>スライドタイトルにデザイナってつけたのは渋谷でお洒落感出したかったからむりくり。</li>
+  <li>ひろゆきの方が圧倒的に多い名前で2ch作った人ですよね？って間違えられた。</li>
+  <li>同じように西村博之氏がruby作った人ですよね？って間違えられたことがあるらしい。</li>
+  <li>プログラミングなんて教育出来ないですよねーとか言って嫌がられる。</li>
+  <li>昔のスパコンは今のiPhone5と同じCPUパワー。</li>
+  <li>言語が進化することで脳の限界で出来なかったことを出来るようになった。</li>
+  <li>本質を理解すればバズワードではなくなる。</li>
+  <li>C10K/C100K問題</li>
+  <li>変わらないものが大事。数学・アルゴリズム・コンピュータ基礎・基本プロトコル・人間・インタフェースの原理</li>
+  <li>matzが尊敬するデイブ・トーマス</li>
+  <li>中学の時にプログラミングやったらコンピュータが思う通りに動いて「カワイイ」と思ったのが原点</li>
+  <li>basic言語の辛みからプログラミング言語に関心を持った高校生時代。Pascalの本とか。</li>
+  <li>未来はコンピュータと直接インタラクションするようになる。スタートレックのコンピュータみたいな。</li>
+  <li>reactとか面白い。</li>
+</ul>
+
+<h2 id="パネルディスカッション">パネルディスカッション</h2>
+<ul>
+  <li>エンジニアの働き方とか</li>
+  <li>ビットジャーニー代表井原さん：なんで呼ばれた感満載で技術分かんない</li>
+  <li>VASILYのCTO今村さん：かっこいい写真</li>
+  <li>クラウドワークスCTO大場さん：娘と一緒に登壇</li>
+  <li>クックパッドCTO舘野さん：本日のモデレーター</li>
+</ul>
+
+<h3 id="未来に必要な技術とは">未来に必要な技術とは？</h3>
+<ul>
+  <li>スティーブ・ジョブズ見たらクズだった。クズさが必要by大場さん</li>
+  <li>ベースになる技術が必要</li>
+  <li>好きなモノを突き詰めてる人に任せたいと思う</li>
+</ul>
+
+<h3 id="未来に繋がる考え方は">未来に繋がる考え方は？</h3>
+<ul>
+  <li>何の為に学ぶかをしっかり持つ。信念が大事</li>
+  <li>仕事してても好きな仕事を優先してたまつもとゆきひろさん。クズ感出てきましたねｂｙ大場さん</li>
+  <li>人の能力の総量は桁が違うということはない。あとはパラメータの問題。なので何か1つのことに振る方が集中出来る。ｂｙまつもとさん</li>
+</ul>
+
+<h3 id="どう働くべきなのか">どう働くべきなのか？</h3>
+<ul>
+  <li>エンジニアが得意なことを1つの会社が囲うのは勿体無い。会社もオープンソース化すべき。ｂｙ井原さん</li>
+  <li>毎朝保育所に子供をデプロイ（笑）して出社するとか、全力出せる時間が少なくなる。生活も子供中心。労働のオープンソース化までやりたいｂｙ大場さん</li>
+  <li>朝来ないからと言って全力を出せないとは思っていない信頼感がある。エンジニアはパフォーマンスを出せる時間に集中することｂｙ今村さん</li>
+</ul>
+
+<h3 id="今後のオープンソースの動向">今後のオープンソースの動向</h3>
+<ul>
+  <li>欲しいOSS
+    <ul>
+      <li>クラウド・ビッグデータ等のOSSは既にあるよね。hadoop,sparkとか。2世代目に凄いの来るかも。ｂｙまつもとさん</li>
+      <li>meteorとかactive value？コンセプト。リアルタイムでデータを出力し続ける。データバインディングに革新が起きればSPAが画期的に変わってくる可能性。ｂｙまつもとさん</li>
+      <li>口に出すの恥ずかしいソシャゲを登壇中にやるまつもとゆきひろさん（笑）</li>
+      <li>TreasureData, Elasticsearchとか、更に運用を楽にしてくれるOSSがもっと出てくるかも。ｂｙ大場さん</li>
+      <li>hashicoop製品使い始めたところ。決定版はまだまだなので欲しい。マーケティングオートメーション的なOSSとか。意思決定を支えるOSS。サービスレイヤーに近いOSS。ｂｙ今村さん</li>
+      <li>kaizen platform的なものとかあるけどミドルウェアが違うので各社自社で実装している。ｂｙ舘野さん</li>
+      <li>製品を半オープンソースにして製品のコードを使っている会社のエンジニアがプルリクエスト送ってくるみたいな。企業のありかた。レベニューシェアとか。ｂｙ井原さん</li>
+    </ul>
+  </li>
+  <li>注目される開発コミュニティ
+    <ul>
+      <li>黎明期のOSSコミュニティは自身の影響度が大きいのでエンジニアとしてはやりがいがある。ｂｙ舘野さん</li>
+      <li>日本人がいないコミュニティに入ると国際化対応とか日本人しか分からないところで貢献できるよねｂｙ大場さん</li>
+      <li>開発コミュニティの敷居を下げるような活動とかOSSとかが必要。最初の一歩を手伝うような活動とかｂｙ今村さん</li>
+      <li>コードレビューすらしていない会社もたくさん。OSS以前の問題で底上げが必要かもｂｙ井原さん</li>
+      <li>大体動くけど隙があるOSSは他の人がコミットしてくれる。OSSに必要なのは炎上力だ！ｂｙまつもとさん</li>
+      <li>DHHとか敢えて目立つ発言して炎上させてる節がある。あれもOSS運用力の一つかもｂｙ舘野さん</li>
+      <li>コミュニティへの帰属意識が変わってきている。github時代は様々なOSSにコミットするように変わってきているｂｙまつもとさん</li>
+    </ul>
+  </li>
+  <li>質問
+    <ul>
+      <li>好きなことに全振りすれば良い。サポートにはサポートの、新技術を開発する人にはその人の意味があるｂｙまつもとさん</li>
+      <li>ダブルクリックというユーザーインターフェースが悪い（笑）ｂｙ今村さん</li>
+      <li>ハードウェア系もArduinoから始まるオープン化で組合せでやりたいことが出来るようになってきたｂｙ舘野さん</li>
+      <li>toC向けのハードウェアサービスレイヤのイノベーションはこれから起きるんじゃないか。mrubyとかも2020年とかにもっと爆発的に広まるんじゃないかｂｙ舘野さん</li>
+      <li>新しいことが生まれる時は未知との遭遇から。ハードウェアエンジニアとウェブエンジニアだと摩擦が起きるけどそれを乗り越えたらイノベーションがｂｙまつもとさん</li>
+      <li>時間の使い方や優先順位を伝えるのも重要だがノンバーバルな部分が伝わるのでちゃんと朝・晩は一緒に娘と飯を食うように自分にルールを課したｂｙまつもとさん</li>
+    </ul>
+  </li>
+</ul>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[td-clientを使ってHiveより早いPrestoクエリを実行する方法をrakeタスクで]]></title>
@@ -28,164 +443,86 @@ td-client-rubyのソースコードを見たら案の定クエリタイプを指
 
 <iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="td-client-ruby/client.rb at master · treasure-data/td-client-ruby · GitHub" src="http://hatenablog.com/embed?url=https://github.com/treasure-data/td-client-ruby/blob/master/lib/td/client.rb#L182" frameborder="0" scrolling="no"></iframe>
 
-
-<p>``` ruby client.rb#L182付近 <a href="https://gist.github.com/tchikuba/c1c9e48f88ff7c6d2c94">https://gist.github.com/tchikuba/c1c9e48f88ff7c6d2c94</a> gist
-  # @param [String] db_name
-  # @param [String] q
-  # @param [String] result_url
-  # @param [Fixnum] priority
-  # @param [Fixnum] retry_limit
-  # @param [Hash] opts
-  # @return [Job]
-  def query(db_name, q, result_url=nil, priority=nil, retry_limit=nil, opts={})</p>
-
-<pre><code># for compatibility, assume type is hive unless specifically specified
-type = opts[:type] || opts['type'] || :hive
-raise ArgumentError, "The specified query type is not supported: #{type}" unless [:hive, :pig, :impala, :presto].include?(type)
-job_id = @api.query(q, type, db_name, result_url, priority, retry_limit, opts)
-Job.new(self, job_id, type, q)
-</code></pre>
-
-<p>  end
-```</p>
+<figure class="code"><figcaption><span>client.rb#L182付近</span><a href="https://gist.github.com/tchikuba/c1c9e48f88ff7c6d2c94">gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+</pre></td><td class="code"><pre><code class="ruby"><span class="line">  <span class="c1"># @param [String] db_name</span>
+</span><span class="line">  <span class="c1"># @param [String] q</span>
+</span><span class="line">  <span class="c1"># @param [String] result_url</span>
+</span><span class="line">  <span class="c1"># @param [Fixnum] priority</span>
+</span><span class="line">  <span class="c1"># @param [Fixnum] retry_limit</span>
+</span><span class="line">  <span class="c1"># @param [Hash] opts</span>
+</span><span class="line">  <span class="c1"># @return [Job]</span>
+</span><span class="line">  <span class="k">def</span> <span class="nf">query</span><span class="p">(</span><span class="n">db_name</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">result_url</span><span class="o">=</span><span class="kp">nil</span><span class="p">,</span> <span class="n">priority</span><span class="o">=</span><span class="kp">nil</span><span class="p">,</span> <span class="n">retry_limit</span><span class="o">=</span><span class="kp">nil</span><span class="p">,</span> <span class="n">opts</span><span class="o">=</span><span class="p">{})</span>
+</span><span class="line">    <span class="c1"># for compatibility, assume type is hive unless specifically specified</span>
+</span><span class="line">    <span class="n">type</span> <span class="o">=</span> <span class="n">opts</span><span class="p">[</span><span class="ss">:type</span><span class="p">]</span> <span class="o">||</span> <span class="n">opts</span><span class="p">[</span><span class="s1">'type'</span><span class="p">]</span> <span class="o">||</span> <span class="ss">:hive</span>
+</span><span class="line">    <span class="k">raise</span> <span class="no">ArgumentError</span><span class="p">,</span> <span class="s2">"The specified query type is not supported: </span><span class="si">#{</span><span class="n">type</span><span class="si">}</span><span class="s2">"</span> <span class="k">unless</span> <span class="p">[</span><span class="ss">:hive</span><span class="p">,</span> <span class="ss">:pig</span><span class="p">,</span> <span class="ss">:impala</span><span class="p">,</span> <span class="ss">:presto</span><span class="p">].</span><span class="nf">include?</span><span class="p">(</span><span class="n">type</span><span class="p">)</span>
+</span><span class="line">    <span class="n">job_id</span> <span class="o">=</span> <span class="vi">@api</span><span class="p">.</span><span class="nf">query</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">type</span><span class="p">,</span> <span class="n">db_name</span><span class="p">,</span> <span class="n">result_url</span><span class="p">,</span> <span class="n">priority</span><span class="p">,</span> <span class="n">retry_limit</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span>
+</span><span class="line">    <span class="no">Job</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="nb">self</span><span class="p">,</span> <span class="n">job_id</span><span class="p">,</span> <span class="n">type</span><span class="p">,</span> <span class="n">q</span><span class="p">)</span>
+</span><span class="line">  <span class="k">end</span></span></code></pre></td></tr></table></div></figure>
 
 <p>上記の通りqueryメソッドの第5引数にoptsというハッシュで指定するオプションがあり、
-<code>type: :presto</code>な指定をするとHiveではなくPrestoでクエリが発行されます。</p>
+<code class="language-plaintext highlighter-rouge">type: :presto</code>な指定をするとHiveではなくPrestoでクエリが発行されます。</p>
 
 <p>以下、rakeタスクでのサンプルコードです。</p>
 
-<p>``` ruby rakeタスクでのサンプルコード
-namespace :execute do
-  desc &lsquo;download treasure data by presto&rsquo;
-  task presto: :environment do</p>
+<figure class="code"><figcaption><span>rakeタスクでのサンプルコード</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+</pre></td><td class="code"><pre><code class="ruby"><span class="line"><span class="n">namespace</span> <span class="ss">:execute</span> <span class="k">do</span>
+</span><span class="line">  <span class="n">desc</span> <span class="s1">'download treasure data by presto'</span>
+</span><span class="line">  <span class="n">task</span> <span class="ss">presto: :environment</span> <span class="k">do</span>
+</span><span class="line">    <span class="n">apikey</span> <span class="o">=</span> <span class="s1">'your api key'</span>
+</span><span class="line">    <span class="n">db</span> <span class="o">=</span> <span class="s1">'your_db_name'</span>
+</span><span class="line">    <span class="n">query</span> <span class="o">=</span> <span class="s1">'select count(*) from your_table_name'</span>
+</span><span class="line">    <span class="n">client</span> <span class="o">=</span> <span class="no">TreasureData</span><span class="o">::</span><span class="no">Client</span><span class="p">.</span><span class="nf">new</span> <span class="n">apikey</span>
+</span><span class="line">    <span class="n">job</span> <span class="o">=</span> <span class="n">client</span><span class="p">.</span><span class="nf">query</span> <span class="n">db</span><span class="p">,</span> <span class="n">query</span><span class="p">,</span> <span class="kp">nil</span><span class="p">,</span> <span class="kp">nil</span><span class="p">,</span> <span class="kp">nil</span><span class="p">,</span> <span class="ss">type: :presto</span>
+</span><span class="line">    <span class="k">until</span> <span class="n">job</span><span class="p">.</span><span class="nf">finished?</span>
+</span><span class="line">      <span class="nb">sleep</span> <span class="mi">2</span>
+</span><span class="line">      <span class="n">job</span><span class="p">.</span><span class="nf">update_status!</span>
+</span><span class="line">    <span class="k">end</span>
+</span><span class="line">    <span class="n">job</span><span class="p">.</span><span class="nf">update_status!</span>
+</span><span class="line">    <span class="nb">p</span> <span class="n">job</span><span class="p">.</span><span class="nf">result</span> <span class="k">if</span> <span class="n">job</span><span class="p">.</span><span class="nf">finished?</span>
+</span><span class="line">  <span class="k">end</span>
+</span><span class="line"><span class="k">end</span></span></code></pre></td></tr></table></div></figure>
 
-<pre><code>apikey = 'your api key'
-db = 'your_db_name'
-query = 'select count(*) from your_table_name'
-client = TreasureData::Client.new apikey
-job = client.query db, query, nil, nil, nil, type: :presto
-until job.finished?
-  sleep 2
-  job.update_status!
-end
-job.update_status!
-p job.result if job.finished?
-</code></pre>
+<figure class="code"><figcaption><span>実行</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line">bin/rake execute:presto</span></code></pre></td></tr></table></div></figure>
 
-<p>  end
-end
-```</p>
-
-<p><code>bash 実行
-bin/rake execute:presto
-</code></p>
-
-<p><code>bash 結果
-[[100]] # your_db_name.your_table_nameの件数
-</code></p>
+<figure class="code"><figcaption><span>結果</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="o">[[</span>100]] <span class="c"># your_db_name.your_table_nameの件数</span></span></code></pre></td></tr></table></div></figure>
 
 <p>上記のように単純なクエリの場合、Hiveだとパフォーマンス的にwebアプリ等から動的に取得するのが
 現実的に時間がかかりすぎたクエリでもPrestoであれば動的にデータ取得可能なので利用の幅が広がりますね。</p>
 
-<h2>合わせて読みたい</h2>
-
+<h2 id="合わせて読みたい">合わせて読みたい</h2>
 <iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="『Prestoとは何か，Prestoで何ができるか』 - トレジャーデータ（Treasure Data）公式ブログ" src="http://hatenablog.com/embed?url=http://treasure-data.hateblo.jp/entry/2014/07/10/150250" frameborder="0" scrolling="no"></iframe>
 
-
-
-
 <iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="[Ruby on Rails]td-clientでTreasureDataにQueryを発行する ｜ Developers.IO" src="http://hatenablog.com/embed?url=http://dev.classmethod.jp/server-side/ruby-on-rails/ruby-on-railstd-client_treasuredata_query_issue/" frameborder="0" scrolling="no"></iframe>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[cookpad庄司嘉織氏「何故クックパッドのサービス開発は日々進化しているのか」@デブサミ2014初日を聞いた]]></title>
-    <link href="https://tchikuba.github.io/blog/2014/02/13/cookpad-of-developers-summit2014/"/>
-    <updated>2014-02-13T18:00:00+09:00</updated>
-    <id>https://tchikuba.github.io/blog/2014/02/13/cookpad-of-developers-summit2014</id>
-    <content type="html"><![CDATA[<p>引き続き<a href="http://event.shoeisha.jp/devsumi/20140213/session/377/">「何故クックパッドのサービス開発は日々進化しているのか」</a>
-を聞いたので内容を共有します。</p>
-
-<h1>profile</h1>
-
-<ul>
-<li>庄司嘉織@クックパッド</li>
-<li>部長だけどプログラマ</li>
-<li>スライド</li>
-</ul>
-
-
-<script async class="speakerdeck-embed" data-id="8cc658a076ac013148646268bd6e389b" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-
-
-<h1>cookpad</h1>
-
-<ul>
-<li>クックパッドはクックパッドだけじゃなくて新規事業もやってますよを覚えておいて</li>
-<li>Ruby2.0 Rails3.2 : 絶賛Rails4.0.1へ移行作業中</li>
-<li>超絶大規模(スライド参照)</li>
-<li>サービス開発40+ / インフラ部5 / 技術部 10+</li>
-<li>cookpad本体いじるメンバーは20名程度</li>
-<li>Opsはインフラ部の部長のスライドを参照</li>
-<li>技術部コミットメントCI10分以内</li>
-<li>ユーザを向いたものづくり(スライド)</li>
-<li>ほぼ全員デブサミ来てない。2/14バレンタインデーの前日は一番アクセスが多い</li>
-</ul>
-
-
-<h1>サービス開発</h1>
-
-<ul>
-<li>Chankoの紹介。cookpadのサービス開発を端的にあらわしているgem。</li>
-<li>金曜リリース禁止なので4日でmergeされたコミットが167ある</li>
-<li>Github。DBスキーマ変更もプルリクエストで、設計もissuesで。</li>
-<li>デザイナーもGithubで</li>
-<li><a href="http://blog.monochromegane.com/blog/2013/12/23/lgtm-chrome-extension/">LGTM: looks good to me</a></li>
-</ul>
-
-
-<h1>deploy</h1>
-
-<ul>
-<li>時間帯9:30-17:00の間 休日の前日は基本なし</li>
-<li>インフラがデプロイロックを開発者にお願いする。インフラが権威的にならないようにする</li>
-</ul>
-
-
-<h1>ユーザーサポート</h1>
-
-<ul>
-<li>ユーザーサポートもGithubで</li>
-<li>hipchat通知＆エンジニアが見やすい場所</li>
-<li>サポートの人はエンジニアに投げた後の進捗が気になるのでGithub利用オススメ</li>
-<li>元々違うチケット管理システムをサポートは使用していた。エンジニアさんに迷惑かけちゃいけない的な文化まずい</li>
-<li>正しいと思ったら勝手に行動して良い。自分で文化を作れる</li>
-</ul>
-
-
-<h1>文化</h1>
-
-<ul>
-<li>DevOps社内ではそれほど意識してなくて後付っぽい感じ</li>
-<li>立場の違いに応じて社員ひとりひとりにユーザーがいる</li>
-<li>エンジニアの文化が良いと思うなら他の人達にも取り入れてもらう</li>
-<li>クックパッドのエンジニアは社外の開発者にも貢献することが求められている</li>
-<li>エンジニアの評価基準の一つになっている</li>
-<li>文化を作るために気をつける：ルールを作らない。ルールにしない</li>
-<li>それが正しいと思ったら行動する</li>
-<li>いいだしっぺがやるから問題ない</li>
-<li>文化が共有されていればそれでまわる</li>
-<li>It&rsquo;s easier to ask forgiveness than it is to get permission.
-
-<ul>
-<li>許可求めるより良いと思ったらやった方が早い</li>
-<li>cobol開発者の言葉</li>
-</ul>
-</li>
-<li>文化を共有し信頼し実行</li>
-</ul>
-
 ]]></content>
   </entry>
   

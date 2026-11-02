@@ -110,8 +110,6 @@ $(document).ready( function () {
 
 
 
-  
-
 
 <time datetime="2020-07-28T19:20:26+09:00" pubdate data-updated="true">Jul 28<span>th</span>, 2020</time>
         
@@ -122,36 +120,35 @@ $(document).ready( function () {
 
   <div class="entry-content"><p>技術書執筆者コミュニティのWINGSプロジェクト代表・山田祥寛さん著「独習Python」を献本頂いたのでレビューします。</p>
 
-<p><a href="https://www.amazon.co.jp/dp/B087JDXCX9/ref=as_li_ss_il?_encoding=UTF8&btkr=1&linkCode=li3&tag=athome0a-22&linkId=f539b9d0c9f0b357f49cded4fd689245&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B087JDXCX9&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&language=ja_JP&l=li3&o=9&a=B087JDXCX9" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+<p><a href="https://www.amazon.co.jp/dp/B087JDXCX9/ref=as_li_ss_il?_encoding=UTF8&amp;btkr=1&amp;linkCode=li3&amp;tag=athome0a-22&amp;linkId=f539b9d0c9f0b357f49cded4fd689245&amp;language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B087JDXCX9&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=athome0a-22&amp;language=ja_JP" /></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;language=ja_JP&amp;l=li3&amp;o=9&amp;a=B087JDXCX9" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 
 <p>なおこの記事の前提ですが、私はこれまで業務でPythonをゴリゴリ書いた経験は乏しく、読んだりデバッグ＆修正のような感じの経験が多かったので、そもそもあまりPythonの言語仕様について詳しくありません。</p>
 
 <p>今回の書籍レビューを通して、Pythonに関して体系的に知識を整理する良い機会となりました。</p>
 
-<h2>イントロダクションが充実している</h2>
+<h2 id="イントロダクションが充実している">イントロダクションが充実している</h2>
 
 <p>山田さんの書籍全般に通じることですが、プログラミングが初めての方でもちゃんと歴史的な背景を学ぶことができるよう、丁寧にイントロダクションが記述されている印象でした。</p>
 
 <p>プログラミングが全く初めての方でも、独学が得意な方であれば、これ1冊でPythonやプログラミングの基本的な概念を理解することができると思います。</p>
 
-<h2>細かい知識や用語の引き出しを持てる</h2>
+<h2 id="細かい知識や用語の引き出しを持てる">細かい知識や用語の引き出しを持てる</h2>
 
 <p>私のように体系的にPythonを理解できていない方にとっては、特にPython特有の記法や概念をおさえることができて良かったです。</p>
 
 <p>参考までに私がちゃんと理解していなかったものを列挙しておきます（Python特有のものではないものも含まれています）。</p>
 
 <ul>
-<li>ジャグ配列</li>
-<li>切り捨て除算演算子の<code>//</code></li>
-<li>各種内包表記</li>
-<li>デコレーター</li>
-<li>クロージャー</li>
-<li>関数のモジュール化</li>
-<li>コルーチン</li>
+  <li>ジャグ配列</li>
+  <li>切り捨て除算演算子の<code class="language-plaintext highlighter-rouge">//</code></li>
+  <li>各種内包表記</li>
+  <li>デコレーター</li>
+  <li>クロージャー</li>
+  <li>関数のモジュール化</li>
+  <li>コルーチン</li>
 </ul>
 
-
-<h2>クラスの取り扱いはちょっと薄いような気がする</h2>
+<h2 id="クラスの取り扱いはちょっと薄いような気がする">クラスの取り扱いはちょっと薄いような気がする</h2>
 
 <p>基本的にはPythonを学ぶ上で最初の書籍であることを想定しているからだと思いますが、オブジェクト指向の解説はちょっと駆け足かなと思いました。</p>
 
@@ -159,9 +156,9 @@ $(document).ready( function () {
 
 <p>もしかしたら「<a href="https://amzn.to/2X4ajYi">オブジェクト指向設計実践ガイド</a>」とかのが良いのかも？（Rubyだけどｗ）</p>
 
-<h2>番外編</h2>
+<h2 id="番外編">番外編</h2>
 
-<h3>多重継承</h3>
+<h3 id="多重継承">多重継承</h3>
 
 <p>この書籍でも触れられていますが、 Pythonは多重継承を許容しています。</p>
 
@@ -169,14 +166,12 @@ $(document).ready( function () {
 
 <p>言語仕様として多重継承はマイナーで、私がこれまで経験してきたプログラミング言語（主にC／PHP／JavaScript／Ruby）は許容していないこともあり、ちょっと気持ち悪いと感じてしまいますね😅</p>
 
-<h3>妻と恐竜</h3>
+<h3 id="妻と恐竜">妻と恐竜</h3>
 
 <p>「妻クラスが恐竜（クラス）」ってなんか凄いものを見てしまった感じがしました😭</p>
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">「妻クラスが恐竜」ってパワーワード😎<br><br>「独習Python」P444より<a href="https://t.co/IVnW9rQFVz">https://t.co/IVnW9rQFVz</a> <a href="https://t.co/TEuqsuCIeO">pic.twitter.com/TEuqsuCIeO</a></p>&mdash; 竹馬力@366日後に死ぬ訳にはいかないpodcast（CEOFM） (@tchikuba) <a href="https://twitter.com/tchikuba/status/1288025977075859457?ref_src=twsrc%5Etfw">July 28, 2020</a></blockquote>
-
-
-<p> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">「妻クラスが恐竜」ってパワーワード😎<br /><br />「独習Python」P444より<a href="https://t.co/IVnW9rQFVz">https://t.co/IVnW9rQFVz</a> <a href="https://t.co/TEuqsuCIeO">pic.twitter.com/TEuqsuCIeO</a></p>&mdash; 竹馬力@366日後に死ぬ訳にはいかないpodcast（CEOFM） (@tchikuba) <a href="https://twitter.com/tchikuba/status/1288025977075859457?ref_src=twsrc%5Etfw">July 28, 2020</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>レビューは以上です。</p>
 
@@ -184,7 +179,7 @@ $(document).ready( function () {
 
 <p>気になる方はぜひ手にとってみてください😃</p>
 
-<p><a href="https://www.amazon.co.jp/dp/B087JDXCX9/ref=as_li_ss_il?_encoding=UTF8&btkr=1&linkCode=li3&tag=athome0a-22&linkId=f539b9d0c9f0b357f49cded4fd689245&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B087JDXCX9&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&language=ja_JP&l=li3&o=9&a=B087JDXCX9" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+<p><a href="https://www.amazon.co.jp/dp/B087JDXCX9/ref=as_li_ss_il?_encoding=UTF8&amp;btkr=1&amp;linkCode=li3&amp;tag=athome0a-22&amp;linkId=f539b9d0c9f0b357f49cded4fd689245&amp;language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B087JDXCX9&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=athome0a-22&amp;language=ja_JP" /></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;language=ja_JP&amp;l=li3&amp;o=9&amp;a=B087JDXCX9" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 </div>
   
   
@@ -210,8 +205,6 @@ $(document).ready( function () {
 
 
 
-  
-
 
 <time datetime="2020-02-09T20:21:39+09:00" pubdate data-updated="true">Feb 9<span>th</span>, 2020</time>
         
@@ -226,56 +219,41 @@ $(document).ready( function () {
 
 <iframe src="https://anchor.fm/ceofm/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
-
-<h2>CEO.FMの配信テーマ</h2>
+<h2 id="ceofmの配信テーマ">CEO.FMの配信テーマ</h2>
 
 <p>タイトルにもある通り、CEO.FMは<strong>「クリエイティブが輝ける組織をエンジニアリングする」</strong>番組です。
 番組名の「CEO」は、いわゆる最高経営責任者の意味ではなく、以下の頭文字の略称です。</p>
 
 <ul>
-<li><em>Creative（クリエイティブ）</em></li>
-<li><em>Engineering（エンジニアリング）</em></li>
-<li><em>Organization（組織）</em></li>
+  <li><em>Creative（クリエイティブ）</em></li>
+  <li><em>Engineering（エンジニアリング）</em></li>
+  <li><em>Organization（組織）</em></li>
 </ul>
-
 
 <p>私は、リブセンスでエンジニアリング・マネージャー（EM）、副業で技術顧問を複数社経験しています。</p>
 
 <p>その中で、<strong>エンジニアをはじめとするクリエイティブ職種が力を発揮できる環境（組織）には、一定再現性があるのでは？</strong>という仮説（というかどちらかというと確証に近いもの）が湧いていました。</p>
 
-<h2>書籍「<a href="https://amzn.to/38bt1k5">ティール組織</a>」との出会い</h2>
+<h2 id="書籍ティール組織との出会い">書籍「<a href="https://amzn.to/38bt1k5">ティール組織</a>」との出会い</h2>
 
 <p>様々な現場で奮闘しながら出会ったのが、<a href="https://amzn.to/38bt1k5">ティール組織</a>という書籍。</p>
 
-<p><a href="https://www.amazon.co.jp/%E3%83%86%E3%82%A3%E3%83%BC%E3%83%AB%E7%B5%84%E7%B9%94-%E2%80%95-%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88%E3%81%AE%E5%B8%B8%E8%AD%98%E3%82%92%E8%A6%86%E3%81%99%E6%AC%A1%E4%B8%96%E4%BB%A3%E5%9E%8B%E7%B5%84%E7%B9%94%E3%81%AE%E5%87%BA%E7%8F%BE-%E3%83%95%E3%83%AC%E3%83%87%E3%83%AA%E3%83%83%E3%82%AF%E3%83%BB%E3%83%A9%E3%83%AB%E3%83%BC-ebook/dp/B078YJV9ZW/ref=as_li_ss_il?ie=UTF8&linkCode=li3&tag=athome0a-22&linkId=d5621445a7837b9835e91b05529aba80&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078YJV9ZW&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&language=ja_JP&l=li3&o=9&a=B078YJV9ZW" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+<p><a href="https://www.amazon.co.jp/%E3%83%86%E3%82%A3%E3%83%BC%E3%83%AB%E7%B5%84%E7%B9%94-%E2%80%95-%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88%E3%81%AE%E5%B8%B8%E8%AD%98%E3%82%92%E8%A6%86%E3%81%99%E6%AC%A1%E4%B8%96%E4%BB%A3%E5%9E%8B%E7%B5%84%E7%B9%94%E3%81%AE%E5%87%BA%E7%8F%BE-%E3%83%95%E3%83%AC%E3%83%87%E3%83%AA%E3%83%83%E3%82%AF%E3%83%BB%E3%83%A9%E3%83%AB%E3%83%BC-ebook/dp/B078YJV9ZW/ref=as_li_ss_il?ie=UTF8&amp;linkCode=li3&amp;tag=athome0a-22&amp;linkId=d5621445a7837b9835e91b05529aba80&amp;language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B078YJV9ZW&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=athome0a-22&amp;language=ja_JP" /></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;language=ja_JP&amp;l=li3&amp;o=9&amp;a=B078YJV9ZW" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 
 <p>衝撃。私がこれまでの経験から感じていた課題感や前述の仮説と見事に一致していたからです。</p>
 
 <p>4年ちょっと前のリブセンス・アドベントカレンダーで書いたブロク記事「<a href="https://tchikuba.github.io/blog/2015/12/05/life-of-creative-people/">21世紀型のクリエイティブな働き方・思考・組織の新しいあたりまえ</a>」でも、自律的に働くこと／ホラクラシーについて言及していたり、昨年（2019年）5月に行われた<a href="https://gotanda-em.connpass.com/event/130325/">Gotanda.EM #2</a>でのLTでは、従来の管理型ではない新しいマネジメントに注目していることに言及しています。</p>
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSFNSK70X6zWi5Uerwy8_IMJS-29T0-DqnXzLyASRsA91w8a11mpT7Go9ntBz5xR9GQdo6l4IVT3knH/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSFNSK70X6zWi5Uerwy8_IMJS-29T0-DqnXzLyASRsA91w8a11mpT7Go9ntBz5xR9GQdo6l4IVT3knH/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+<p><br />
+<br />
+<br />
+<strong>私にとって、ティール組織の在り方は、「クリエイティブが力を発揮できる組織には再現性があるのでは？」という問いへの、1つの答えでした。</strong>
+<br />
+<br /></p>
 
-
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p><strong>私にとって、ティール組織の在り方は、「クリエイティブが力を発揮できる組織には再現性があるのでは？」という問いへの、1つの答えでした。</strong></p>
-
-<br/>
-
-
-<br/>
-
-
-<h2>ティール組織の実践者であれ</h2>
+<h2 id="ティール組織の実践者であれ">ティール組織の実践者であれ</h2>
 
 <p>私は<strong>ティール組織の実践者でありたい</strong>と強く願っています。</p>
 
@@ -284,19 +262,15 @@ $(document).ready( function () {
 
 <p>そういう想いで、まずはCEO.FMを始めてみました。</p>
 
-<h2>CEO.FM企画案をテキスト化</h2>
+<h2 id="ceofm企画案をテキスト化">CEO.FM企画案をテキスト化</h2>
 
 <p>ところで、リブセンスVP of Engineeringの<a href="https://twitter.com/noto">@noto</a>と以下のやり取りしてました。</p>
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">実は私も一緒だったりしますｗ</p>&mdash; 竹馬力 (@tchikuba) <a href="https://twitter.com/tchikuba/status/1223059716349104128?ref_src=twsrc%5Etfw">January 31, 2020</a></blockquote>
-
-
-<p> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">文字起こし作ってくださいｗ</p>&mdash; noto (@noto) <a href="https://twitter.com/noto/status/1223059924977979393?ref_src=twsrc%5Etfw">January 31, 2020</a></blockquote>
-
-
-<p> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>ツイートの通り、私も動画／音声コンテンツはあまり見聞きする方じゃないんですよね。テキストの方が、思索しながら熟読したりなど、自分自身で情報のインプットのスピードをコントロールしやすくて。</p>
 
@@ -305,524 +279,449 @@ $(document).ready( function () {
 <p>まぁ配信の雰囲気は感じて頂けるかなと思います。
 もし興味関心が湧いた方がいましたら、ぜひ聴いてみてください！</p>
 
-<h3><a href="https://anchor.fm/ceofm/episodes/1-CEO-FM-eacvud">#1 CEO.FMに込めた思いなど</a></h3>
-
-<ul>
-<li>配信詳細
-
-<ul>
-<li>クリエイティブが活躍しやすい組織をエンジニアリングする、というテーマ</li>
-<li>要はティール組織なんだけど、自分のエンジニアとしての体験を踏まえた内容にしていきたい</li>
-<li>テーマはこれまでtwitterでつぶやいたものやブログで記事化した内容を元にインスパイアされたものにしていく</li>
-<li>隙間時間の有効活用のために、できるだけ細かい時間配分を意識したい
-
-<ul>
-<li>5-10mくらいが理想</li>
-</ul>
-</li>
-<li>当初は1人で開始、回が進むにつれてできればゲストを呼びたい
-
-<ul>
-<li>1人だと話が膨らむか不安</li>
-<li>対話の中でやった方が盛り上がるのでは</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-
-<h3><a href="https://anchor.fm/ceofm/episodes/2-eadmim">#2 配信スタイルと自己紹介</a></h3>
-
-<ul>
-<li>アイスブレイク
-
-<ul>
-<li>5-10mと短い配信なのでできるだけ継続する</li>
-<li>できれば毎日配信にチャレンジする</li>
-<li>365日配信にチャレンジ</li>
-<li>まずは10日の継続配信を目標に</li>
-<li>テーマを絞って配信</li>
-</ul>
-</li>
-<li>配信テーマ
-
-<ul>
-<li>自己紹介</li>
-</ul>
-</li>
-<li>配信詳細
-
-<ul>
-<li>現在何やってるか
-
-<ul>
-<li>リブセンスでIESHILというプロダクトのEM</li>
-<li>Ruby on Railsの受託開発会社の技術顧問</li>
-<li><a href="https://beta.kiitok.com/">kiitok</a>でエンジニアメンター</li>
-<li>執筆関連（書籍紹介）</li>
-<li>一時期副業手広くやりすぎたので整理</li>
-<li>個人開発プロダクト2つほど</li>
-<li>クリエイティブ関連で書道教室に通い始めた</li>
-</ul>
-</li>
-<li>これまでのキャリア
-
-<ul>
-<li>エンジニア16年くらい</li>
-<li>理系、大学では地震の研究「地球潮汐力の地震トリガーについて」</li>
-<li>新卒は起業を志してベンチャー・リンクというバリバリの営業会社へ</li>
-<li>1年足らずで退職後、小学校の教員になる勉強</li>
-<li>その後友人に誘われて起業しようとして失敗</li>
-<li>反省を生かして2004年にエンジニアに
-
-<ul>
-<li>社畜フリーランス</li>
-</ul>
-</li>
-<li>いわゆるSESで7年客先常駐</li>
-<li>4年富士通、3年CCC</li>
-<li>2011年前職で新規事業のEMとしてPRベンチャーへ</li>
-<li>2013年リブセンス入社
-
-<ul>
-<li>1年転職会議</li>
-<li>1年転職ナビ</li>
-<li>5年IESHIL</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-
-<h3><a href="https://anchor.fm/ceofm/episodes/3-eadn5b">#3 ネガティブな原体験</a></h3>
-
-<ul>
-<li>配信テーマ
-
-<ul>
-<li>ネガティブな原体験</li>
-</ul>
-</li>
-<li>配信詳細
-
-<ul>
-<li>ベンチャー・リンク時代の話</li>
-<li>世の中がどういう力学で動くのか興味感心があった</li>
-<li>自然と起業を目指すように</li>
-<li>当時「企業家排出機関」と謳っていたベンチャー・リンクへ</li>
-<li>原体験
-
-<ul>
-<li>睡眠時間4時間取るならやりたいことを1時間やって睡眠時間を3時間に削るべき</li>
-<li>遅刻が原因で辞表を2回書かされた</li>
-<li>「未達は死」フォントサイズ84・赤文字でメーリングリストに送られる</li>
-<li>イベントで私語してたら帰れと怒鳴られた
-
-<ul>
-<li>どうしてそんな言い方するんですか？</li>
-<li>お前の給料誰が払ってんだ</li>
-</ul>
-</li>
-<li>営業行ってきますと出たあと
-
-<ul>
-<li>カラオケ屋に行って仮眠</li>
-<li>自宅に戻ってペーパークラフト</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>合理性に欠けるポイント
-
-<ul>
-<li>人によって適切な睡眠時間は異なる</li>
-<li>一般的には7-9時間</li>
-<li>私自身、平均睡眠時間が8時間になるよう心がけている</li>
-<li>睡眠時間が削られるとネガティブ思考に陥りがち</li>
-<li>時間の使い方は本来個人のもの
-
-<ul>
-<li>時間を守ることを否定してはいない</li>
-</ul>
-</li>
-<li>育つのに一定の時間がかかる新卒に給料泥棒と言っても仕方がない
-
-<ul>
-<li>だったら新卒を採用すべきでない</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>問題の本質
-
-<ul>
-<li>極端なゴール思考は思い通りに行かなかった時の感情の揺れ幅が大きすぎて手に負えなくなる</li>
-<li>複雑性の高い課題を解決するにはシステム思考で課題設定する必要がありそう</li>
-<li>課題設定そのものが進化していく仮説検証的な姿勢が必要なのでは</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-
-<h3><a href="https://anchor.fm/ceofm/episodes/4-eaes10">#4 相手を人として見なくなった時に不幸が始まる</a></h3>
-
-<ul>
-<li>アイスブレイク
-
-<ul>
-<li>配信の回を追うごとにご褒美</li>
-<li>エンジニアの嫁ちゃんの話</li>
-<li>逆嫁ブロック</li>
-</ul>
-</li>
-<li>配信テーマ
-
-<ul>
-<li><a href="https://www.facebook.com/events/2484975668391327/">ティールオンラインカンファレンス</a>での気づき</li>
-</ul>
-</li>
-<li>配信詳細
-
-<ul>
-<li><a href="https://www.facebook.com/groups/398706830590639/">ティール組織研究会</a>について</li>
-<li>そもそもティール組織とは何か</li>
-<li>虐待が起きるのは相手を人と見ていない時</li>
-<li>「人を機能としてみなす」ことはないか内省する</li>
-</ul>
-</li>
-</ul>
-
-
-<h3><a href="https://anchor.fm/ceofm/episodes/5-eaf02s">#5 新規事業に最適な組織運営</a></h3>
-
-<ul>
-<li>アイスブレイク
-
-<ul>
-<li><a href="https://amzn.to/38bCYhr">「ザ・メンタルモデル」</a>著者「由佐美加子さん」の<a href="https://www.youtube.com/watch?v=KqdT9J10rg0">TED動画</a>
-
-<ul>
-<li>約2年前に公開されたもの</li>
-</ul>
-</li>
-<li>世界に自分がないと思っているものは実は自分の中にある</li>
-<li>自分の中にあるものを世の中に出して問うことの大切さを訴えている</li>
-<li>「世界を変える」大言壮語より身近な周囲の5人と共に幸せの方向に向かうこと</li>
-<li>私：お金がないと思っていたけど既にある、という発想になる
-
-<ul>
-<li>一見、非現実的だけど実は凄く前向きな発想では</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>配信テーマ
-
-<ul>
-<li>新規事業に最適な組織</li>
-</ul>
-</li>
-<li>配信詳細
-
-<ul>
-<li>新規事業はいわゆるゼロイチを生み出すもの</li>
-<li>前職のPRベンチャーでの体験
-
-<ul>
-<li>エンジニアリングマネージャーとして従事</li>
-<li>Facebookコマース／ソーシャルギフトサービス</li>
-<li>外注していたシステム開発を内製にシフト</li>
-<li>エンジニアリング組織作り</li>
-<li>ウォーターフォール的な予めしっかり設計する文化からの脱却</li>
-<li>アジャイルやリーンスタートアップのプロセス導入を試行錯誤</li>
-</ul>
-</li>
-<li>気づき
-
-<ul>
-<li>半年後の目標を決めるMBO（目標管理制度）ではビジネスのスピード感に合わない</li>
-<li>新規事業はクリエイティブの1つの形</li>
-<li>そもそもクリエイティブな仕事には従来型の目標管理のやり方は向いていないのでは？と考えるようになった</li>
-<li>組織の運営自体をアジャイルやリーンなやり方に合わせることが大切
-
-<ul>
-<li>「俊敏」</li>
-<li>「贅肉がない引き締まった」</li>
-</ul>
-</li>
-<li>一方で目標を設定すること自体に価値がないとは思わない</li>
-<li>「信頼駆動開発」</li>
-<li>アドラー心理学「コントロールできること」「できないことを立て分ける」
-
-<ul>
-<li><a href="https://amzn.to/2SxtZ3A">嫌われる勇気</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-
-<h3><a href="https://anchor.fm/ceofm/episodes/6-eafnum">#6 新規事業の在り方の変化</a></h3>
-
-<ul>
-<li>アイスブレイク
-
-<ul>
-<li>フィボナッチ数の回でお祝いと言ってたのに前回忘れてた</li>
-<li>フィボナッチ数の説明</li>
-</ul>
-</li>
-<li>配信テーマ
-
-<ul>
-<li>新規事業の在り方の多様性</li>
-</ul>
-</li>
-<li>配信詳細
-
-<ul>
-<li>体験
-
-<ul>
-<li>前職時代</li>
-<li>IESHIL</li>
-</ul>
-</li>
-<li>レバレッジをかけて急成長を遂げるモデルの転換</li>
-<li>Ruby on Railsの開発者デイヴィッド・ハイネマイヤー・ハンソン（DHH）の至言
-
-<ul>
-<li><a href="https://logmi.jp/business/articles/6034">あなたは次のfacebookにはなれないし、なる必要もない</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-
-<h3><a href="https://anchor.fm/ceofm/episodes/7-Part1-eafort">#7 クリエイティブな仕事とは？Part1</a></h3>
-
-<ul>
-<li>アイスブレイク
-
-<ul>
-<li>FBで繋がってる姉がCEOFM聞いてるとFBに書いてた</li>
-<li>ハッとした→できるだけわかりやすく配信するよう心がけたい</li>
-</ul>
-</li>
-<li>配信テーマ
-
-<ul>
-<li>クリエイティブな仕事とは</li>
-</ul>
-</li>
-<li>配信詳細
-
-<ul>
-<li>典型的な仕事
-
-<ul>
-<li>芸術家（音楽家、バンドマン、俳優、作家など）</li>
-<li>スポーツマン</li>
-<li>プログラマ（<a href="https://amzn.to/2HathE5">ハッカーと画家</a>・ポール・グレアム）</li>
-<li>デザイナ、ハスラー（企画職）などのIT従事者</li>
-</ul>
-</li>
-<li>アンチパターンを考えてみる
-
-<ul>
-<li>人を歯車のように見て制御（コントロール）しようとする</li>
-<li>機械で置き換えられる定型的な仕事（創意工夫の余地がない）</li>
-</ul>
-</li>
-<li>原体験
-
-<ul>
-<li>とある技術顧問先で現場の状況を踏まえず政治的にスケジュールが決定される</li>
-</ul>
-</li>
-<li>結論
-
-<ul>
-<li>個人：少なくとも裁量が専門性の範囲で権限移譲されている状態</li>
-<li>全体性：現場のメンバーに寄り添って現場がクリエイティブを取り戻すような働きかけをする</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-
-<h3><a href="https://anchor.fm/ceofm/episodes/8-Part2-eagofl">#8 クリエイティブな仕事とは？Part2</a></h3>
-
-<ul>
-<li>アイスブレイク
-
-<ul>
-<li>フィボナッチ数8おめでとう</li>
-<li>次回は13回目の配信</li>
-</ul>
-</li>
-<li>配信テーマ
-
-<ul>
-<li>クリエイティブな仕事とは②</li>
-</ul>
-</li>
-<li>配信詳細
-
-<ul>
-<li>前回はクリエイティブな仕事を「専門性の範囲で裁量が保障されていること」と定義した</li>
-<li>今回は「専門性の定義」について
-
-<ul>
-<li>特定の分野についてのみ深く関わっているさま。高度な知識や経験を要求されること、またはその度合い。</li>
-</ul>
-</li>
-<li>原体験（興味関心事の変遷）
-
-<ul>
-<li>大学生時代「教育」「新規事業」「経営」</li>
-<li>エンジニア「エンジニアリング」「プロダクト」「組織」</li>
-<li>以前は「IT」「新規事業」「教育」</li>
-<li>現在は「組織」「クリエイティブ」「エンジニアリング」</li>
-</ul>
-</li>
-<li>結論
-
-<ul>
-<li>専門性の定義は従事する個人に委ねられていて、可変なもの</li>
-<li>組織（他の誰か）がオーソライズするものではない</li>
-<li>多様性が増す時代にあって、誰一人として同じキャリアを歩む人はいない＝その意味で専門性のない人もいないと言えるのでは？
-
-<ul>
-<li>余談：トライセクターリーダー
-
-<ul>
-<li>民間、公共、非営利組織の3つのセクターの垣根を越えて活躍するリーダーのこと</li>
-<li><a href="https://logmi.jp/business/articles/131707">藤原和博氏・三角形クレジット理論</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-
-<h3><a href="https://anchor.fm/ceofm/episodes/9-eahed2">#9 コンウェイの法則の本質</a></h3>
-
-<ul>
-<li>アイスブレイク
-
-<ul>
-<li>オブジェクトから想像力を働かせること</li>
-</ul>
-</li>
-<li>配信テーマ
-
-<ul>
-<li>エンジニアリング
-
-<ul>
-<li>コンウェイの法則</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>配信詳細
-
-<ul>
-<li>システム設計は、組織構造を反映したものになる
-
-<ul>
-<li>人の織りなす世界がプログラムに反映されること</li>
-</ul>
-</li>
-<li>原体験
-
-<ul>
-<li>無理なスケジュール、要件変更が頻繁、外注との棲み分け</li>
-<li>プログラムの複雑性が増して手がつけられない状態に</li>
-<li>時間をかけてテストコードで保護しリファクタリング（組織も）</li>
-</ul>
-</li>
-<li>人と法則（システム）は表裏一体＝コンウェイの法則の本質（逆の矢印もあるのでは）
-
-<ul>
-<li>法則は人が発見（開発）している
-
-<ul>
-<li>ニュートン／ファラデー／ケプラー</li>
-</ul>
-</li>
-<li>人は法則（システム）からは逃れられない</li>
-</ul>
-</li>
-<li>エンジニア的な目線（主にボトムアップ）から組織改善へのアプローチの可能性を模索するのがエンジニアリングマネージャーの仕事ではないか</li>
-</ul>
-</li>
-</ul>
-
-
-<h3><a href="https://anchor.fm/ceofm/episodes/10-eai6kc">#10 クリエイティブな組織における適切な評価</a></h3>
-
-<ul>
-<li>アイスブレイク
-
-<ul>
-<li>初回で365日毎日配信、まずは10回を目指したいと宣言して無事に継続</li>
-<li>モチベーションは今の所大丈夫、むしろ＋</li>
-<li>ご褒美はマイク</li>
-</ul>
-</li>
-<li>配信テーマ
-
-<ul>
-<li>クリエイティブな組織における適切な評価</li>
-</ul>
-</li>
-<li>配信詳細
-
-<ul>
-<li>原体験
-
-<ul>
-<li>前職でやっていた360°フィードバック</li>
-<li>KPT（Keep/Problem/Try）を1人1人言い合う</li>
-<li>なんとも言えない感情（悪くない）</li>
-<li>リブセンスでは359°でオンライン（イケてない）</li>
-</ul>
-</li>
-<li>古い目標管理制度だと一方通行</li>
-<li>より双方向の評価経済であるべき</li>
-<li>信頼関係を築くことがまず前提</li>
-</ul>
-</li>
-</ul>
-
-
-<h2>最後に</h2>
+<h3 id="1-ceofmに込めた思いなど"><a href="https://anchor.fm/ceofm/episodes/1-CEO-FM-eacvud">#1 CEO.FMに込めた思いなど</a></h3>
+
+<ul>
+  <li>配信詳細
+    <ul>
+      <li>クリエイティブが活躍しやすい組織をエンジニアリングする、というテーマ</li>
+      <li>要はティール組織なんだけど、自分のエンジニアとしての体験を踏まえた内容にしていきたい</li>
+      <li>テーマはこれまでtwitterでつぶやいたものやブログで記事化した内容を元にインスパイアされたものにしていく</li>
+      <li>隙間時間の有効活用のために、できるだけ細かい時間配分を意識したい
+        <ul>
+          <li>5-10mくらいが理想</li>
+        </ul>
+      </li>
+      <li>当初は1人で開始、回が進むにつれてできればゲストを呼びたい
+        <ul>
+          <li>1人だと話が膨らむか不安</li>
+          <li>対話の中でやった方が盛り上がるのでは</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="2-配信スタイルと自己紹介"><a href="https://anchor.fm/ceofm/episodes/2-eadmim">#2 配信スタイルと自己紹介</a></h3>
+
+<ul>
+  <li>アイスブレイク
+    <ul>
+      <li>5-10mと短い配信なのでできるだけ継続する</li>
+      <li>できれば毎日配信にチャレンジする</li>
+      <li>365日配信にチャレンジ</li>
+      <li>まずは10日の継続配信を目標に</li>
+      <li>テーマを絞って配信</li>
+    </ul>
+  </li>
+  <li>配信テーマ
+    <ul>
+      <li>自己紹介</li>
+    </ul>
+  </li>
+  <li>配信詳細
+    <ul>
+      <li>現在何やってるか
+        <ul>
+          <li>リブセンスでIESHILというプロダクトのEM</li>
+          <li>Ruby on Railsの受託開発会社の技術顧問</li>
+          <li><a href="https://beta.kiitok.com/">kiitok</a>でエンジニアメンター</li>
+          <li>執筆関連（書籍紹介）</li>
+          <li>一時期副業手広くやりすぎたので整理</li>
+          <li>個人開発プロダクト2つほど</li>
+          <li>クリエイティブ関連で書道教室に通い始めた</li>
+        </ul>
+      </li>
+      <li>これまでのキャリア
+        <ul>
+          <li>エンジニア16年くらい</li>
+          <li>理系、大学では地震の研究「地球潮汐力の地震トリガーについて」</li>
+          <li>新卒は起業を志してベンチャー・リンクというバリバリの営業会社へ</li>
+          <li>1年足らずで退職後、小学校の教員になる勉強</li>
+          <li>その後友人に誘われて起業しようとして失敗</li>
+          <li>反省を生かして2004年にエンジニアに
+            <ul>
+              <li>社畜フリーランス</li>
+            </ul>
+          </li>
+          <li>いわゆるSESで7年客先常駐</li>
+          <li>4年富士通、3年CCC</li>
+          <li>2011年前職で新規事業のEMとしてPRベンチャーへ</li>
+          <li>2013年リブセンス入社
+            <ul>
+              <li>1年転職会議</li>
+              <li>1年転職ナビ</li>
+              <li>5年IESHIL</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="3-ネガティブな原体験"><a href="https://anchor.fm/ceofm/episodes/3-eadn5b">#3 ネガティブな原体験</a></h3>
+
+<ul>
+  <li>配信テーマ
+    <ul>
+      <li>ネガティブな原体験</li>
+    </ul>
+  </li>
+  <li>配信詳細
+    <ul>
+      <li>ベンチャー・リンク時代の話</li>
+      <li>世の中がどういう力学で動くのか興味感心があった</li>
+      <li>自然と起業を目指すように</li>
+      <li>当時「企業家排出機関」と謳っていたベンチャー・リンクへ</li>
+      <li>原体験
+        <ul>
+          <li>睡眠時間4時間取るならやりたいことを1時間やって睡眠時間を3時間に削るべき</li>
+          <li>遅刻が原因で辞表を2回書かされた</li>
+          <li>「未達は死」フォントサイズ84・赤文字でメーリングリストに送られる</li>
+          <li>イベントで私語してたら帰れと怒鳴られた
+            <ul>
+              <li>どうしてそんな言い方するんですか？</li>
+              <li>お前の給料誰が払ってんだ</li>
+            </ul>
+          </li>
+          <li>営業行ってきますと出たあと
+            <ul>
+              <li>カラオケ屋に行って仮眠</li>
+              <li>自宅に戻ってペーパークラフト</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>合理性に欠けるポイント
+        <ul>
+          <li>人によって適切な睡眠時間は異なる</li>
+          <li>一般的には7-9時間</li>
+          <li>私自身、平均睡眠時間が8時間になるよう心がけている</li>
+          <li>睡眠時間が削られるとネガティブ思考に陥りがち</li>
+          <li>時間の使い方は本来個人のもの
+            <ul>
+              <li>時間を守ることを否定してはいない</li>
+            </ul>
+          </li>
+          <li>育つのに一定の時間がかかる新卒に給料泥棒と言っても仕方がない
+            <ul>
+              <li>だったら新卒を採用すべきでない</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>問題の本質
+        <ul>
+          <li>極端なゴール思考は思い通りに行かなかった時の感情の揺れ幅が大きすぎて手に負えなくなる</li>
+          <li>複雑性の高い課題を解決するにはシステム思考で課題設定する必要がありそう</li>
+          <li>課題設定そのものが進化していく仮説検証的な姿勢が必要なのでは</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="4-相手を人として見なくなった時に不幸が始まる"><a href="https://anchor.fm/ceofm/episodes/4-eaes10">#4 相手を人として見なくなった時に不幸が始まる</a></h3>
+
+<ul>
+  <li>アイスブレイク
+    <ul>
+      <li>配信の回を追うごとにご褒美</li>
+      <li>エンジニアの嫁ちゃんの話</li>
+      <li>逆嫁ブロック</li>
+    </ul>
+  </li>
+  <li>配信テーマ
+    <ul>
+      <li><a href="https://www.facebook.com/events/2484975668391327/">ティールオンラインカンファレンス</a>での気づき</li>
+    </ul>
+  </li>
+  <li>配信詳細
+    <ul>
+      <li><a href="https://www.facebook.com/groups/398706830590639/">ティール組織研究会</a>について</li>
+      <li>そもそもティール組織とは何か</li>
+      <li>虐待が起きるのは相手を人と見ていない時</li>
+      <li>「人を機能としてみなす」ことはないか内省する</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="5-新規事業に最適な組織運営"><a href="https://anchor.fm/ceofm/episodes/5-eaf02s">#5 新規事業に最適な組織運営</a></h3>
+
+<ul>
+  <li>アイスブレイク
+    <ul>
+      <li><a href="https://amzn.to/38bCYhr">「ザ・メンタルモデル」</a>著者「由佐美加子さん」の<a href="https://www.youtube.com/watch?v=KqdT9J10rg0">TED動画</a>
+        <ul>
+          <li>約2年前に公開されたもの</li>
+        </ul>
+      </li>
+      <li>世界に自分がないと思っているものは実は自分の中にある</li>
+      <li>自分の中にあるものを世の中に出して問うことの大切さを訴えている</li>
+      <li>「世界を変える」大言壮語より身近な周囲の5人と共に幸せの方向に向かうこと</li>
+      <li>私：お金がないと思っていたけど既にある、という発想になる
+        <ul>
+          <li>一見、非現実的だけど実は凄く前向きな発想では</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>配信テーマ
+    <ul>
+      <li>新規事業に最適な組織</li>
+    </ul>
+  </li>
+  <li>配信詳細
+    <ul>
+      <li>新規事業はいわゆるゼロイチを生み出すもの</li>
+      <li>前職のPRベンチャーでの体験
+        <ul>
+          <li>エンジニアリングマネージャーとして従事</li>
+          <li>Facebookコマース／ソーシャルギフトサービス</li>
+          <li>外注していたシステム開発を内製にシフト</li>
+          <li>エンジニアリング組織作り</li>
+          <li>ウォーターフォール的な予めしっかり設計する文化からの脱却</li>
+          <li>アジャイルやリーンスタートアップのプロセス導入を試行錯誤</li>
+        </ul>
+      </li>
+      <li>気づき
+        <ul>
+          <li>半年後の目標を決めるMBO（目標管理制度）ではビジネスのスピード感に合わない</li>
+          <li>新規事業はクリエイティブの1つの形</li>
+          <li>そもそもクリエイティブな仕事には従来型の目標管理のやり方は向いていないのでは？と考えるようになった</li>
+          <li>組織の運営自体をアジャイルやリーンなやり方に合わせることが大切
+            <ul>
+              <li>「俊敏」</li>
+              <li>「贅肉がない引き締まった」</li>
+            </ul>
+          </li>
+          <li>一方で目標を設定すること自体に価値がないとは思わない</li>
+          <li>「信頼駆動開発」</li>
+          <li>アドラー心理学「コントロールできること」「できないことを立て分ける」
+            <ul>
+              <li><a href="https://amzn.to/2SxtZ3A">嫌われる勇気</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="6-新規事業の在り方の変化"><a href="https://anchor.fm/ceofm/episodes/6-eafnum">#6 新規事業の在り方の変化</a></h3>
+
+<ul>
+  <li>アイスブレイク
+    <ul>
+      <li>フィボナッチ数の回でお祝いと言ってたのに前回忘れてた</li>
+      <li>フィボナッチ数の説明</li>
+    </ul>
+  </li>
+  <li>配信テーマ
+    <ul>
+      <li>新規事業の在り方の多様性</li>
+    </ul>
+  </li>
+  <li>配信詳細
+    <ul>
+      <li>体験
+        <ul>
+          <li>前職時代</li>
+          <li>IESHIL</li>
+        </ul>
+      </li>
+      <li>レバレッジをかけて急成長を遂げるモデルの転換</li>
+      <li>Ruby on Railsの開発者デイヴィッド・ハイネマイヤー・ハンソン（DHH）の至言
+        <ul>
+          <li><a href="https://logmi.jp/business/articles/6034">あなたは次のfacebookにはなれないし、なる必要もない</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="7-クリエイティブな仕事とはpart1"><a href="https://anchor.fm/ceofm/episodes/7-Part1-eafort">#7 クリエイティブな仕事とは？Part1</a></h3>
+
+<ul>
+  <li>アイスブレイク
+    <ul>
+      <li>FBで繋がってる姉がCEOFM聞いてるとFBに書いてた</li>
+      <li>ハッとした→できるだけわかりやすく配信するよう心がけたい</li>
+    </ul>
+  </li>
+  <li>配信テーマ
+    <ul>
+      <li>クリエイティブな仕事とは</li>
+    </ul>
+  </li>
+  <li>配信詳細
+    <ul>
+      <li>典型的な仕事
+        <ul>
+          <li>芸術家（音楽家、バンドマン、俳優、作家など）</li>
+          <li>スポーツマン</li>
+          <li>プログラマ（<a href="https://amzn.to/2HathE5">ハッカーと画家</a>・ポール・グレアム）</li>
+          <li>デザイナ、ハスラー（企画職）などのIT従事者</li>
+        </ul>
+      </li>
+      <li>アンチパターンを考えてみる
+        <ul>
+          <li>人を歯車のように見て制御（コントロール）しようとする</li>
+          <li>機械で置き換えられる定型的な仕事（創意工夫の余地がない）</li>
+        </ul>
+      </li>
+      <li>原体験
+        <ul>
+          <li>とある技術顧問先で現場の状況を踏まえず政治的にスケジュールが決定される</li>
+        </ul>
+      </li>
+      <li>結論
+        <ul>
+          <li>個人：少なくとも裁量が専門性の範囲で権限移譲されている状態</li>
+          <li>全体性：現場のメンバーに寄り添って現場がクリエイティブを取り戻すような働きかけをする</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="8-クリエイティブな仕事とはpart2"><a href="https://anchor.fm/ceofm/episodes/8-Part2-eagofl">#8 クリエイティブな仕事とは？Part2</a></h3>
+
+<ul>
+  <li>アイスブレイク
+    <ul>
+      <li>フィボナッチ数8おめでとう</li>
+      <li>次回は13回目の配信</li>
+    </ul>
+  </li>
+  <li>配信テーマ
+    <ul>
+      <li>クリエイティブな仕事とは②</li>
+    </ul>
+  </li>
+  <li>配信詳細
+    <ul>
+      <li>前回はクリエイティブな仕事を「専門性の範囲で裁量が保障されていること」と定義した</li>
+      <li>今回は「専門性の定義」について
+        <ul>
+          <li>特定の分野についてのみ深く関わっているさま。高度な知識や経験を要求されること、またはその度合い。</li>
+        </ul>
+      </li>
+      <li>原体験（興味関心事の変遷）
+        <ul>
+          <li>大学生時代「教育」「新規事業」「経営」</li>
+          <li>エンジニア「エンジニアリング」「プロダクト」「組織」</li>
+          <li>以前は「IT」「新規事業」「教育」</li>
+          <li>現在は「組織」「クリエイティブ」「エンジニアリング」</li>
+        </ul>
+      </li>
+      <li>結論
+        <ul>
+          <li>専門性の定義は従事する個人に委ねられていて、可変なもの</li>
+          <li>組織（他の誰か）がオーソライズするものではない</li>
+          <li>多様性が増す時代にあって、誰一人として同じキャリアを歩む人はいない＝その意味で専門性のない人もいないと言えるのでは？
+            <ul>
+              <li>余談：トライセクターリーダー
+                <ul>
+                  <li>民間、公共、非営利組織の3つのセクターの垣根を越えて活躍するリーダーのこと</li>
+                  <li><a href="https://logmi.jp/business/articles/131707">藤原和博氏・三角形クレジット理論</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="9-コンウェイの法則の本質"><a href="https://anchor.fm/ceofm/episodes/9-eahed2">#9 コンウェイの法則の本質</a></h3>
+
+<ul>
+  <li>アイスブレイク
+    <ul>
+      <li>オブジェクトから想像力を働かせること</li>
+    </ul>
+  </li>
+  <li>配信テーマ
+    <ul>
+      <li>エンジニアリング
+        <ul>
+          <li>コンウェイの法則</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>配信詳細
+    <ul>
+      <li>システム設計は、組織構造を反映したものになる
+        <ul>
+          <li>人の織りなす世界がプログラムに反映されること</li>
+        </ul>
+      </li>
+      <li>原体験
+        <ul>
+          <li>無理なスケジュール、要件変更が頻繁、外注との棲み分け</li>
+          <li>プログラムの複雑性が増して手がつけられない状態に</li>
+          <li>時間をかけてテストコードで保護しリファクタリング（組織も）</li>
+        </ul>
+      </li>
+      <li>人と法則（システム）は表裏一体＝コンウェイの法則の本質（逆の矢印もあるのでは）
+        <ul>
+          <li>法則は人が発見（開発）している
+            <ul>
+              <li>ニュートン／ファラデー／ケプラー</li>
+            </ul>
+          </li>
+          <li>人は法則（システム）からは逃れられない</li>
+        </ul>
+      </li>
+      <li>エンジニア的な目線（主にボトムアップ）から組織改善へのアプローチの可能性を模索するのがエンジニアリングマネージャーの仕事ではないか</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="10-クリエイティブな組織における適切な評価"><a href="https://anchor.fm/ceofm/episodes/10-eai6kc">#10 クリエイティブな組織における適切な評価</a></h3>
+
+<ul>
+  <li>アイスブレイク
+    <ul>
+      <li>初回で365日毎日配信、まずは10回を目指したいと宣言して無事に継続</li>
+      <li>モチベーションは今の所大丈夫、むしろ＋</li>
+      <li>ご褒美はマイク</li>
+    </ul>
+  </li>
+  <li>配信テーマ
+    <ul>
+      <li>クリエイティブな組織における適切な評価</li>
+    </ul>
+  </li>
+  <li>配信詳細
+    <ul>
+      <li>原体験
+        <ul>
+          <li>前職でやっていた360°フィードバック</li>
+          <li>KPT（Keep/Problem/Try）を1人1人言い合う</li>
+          <li>なんとも言えない感情（悪くない）</li>
+          <li>リブセンスでは359°でオンライン（イケてない）</li>
+        </ul>
+      </li>
+      <li>古い目標管理制度だと一方通行</li>
+      <li>より双方向の評価経済であるべき</li>
+      <li>信頼関係を築くことがまず前提</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="最後に">最後に</h2>
 
 <p>ちなみに10回目の配信でご褒美としてAmazonでポチったマイクはこちら。</p>
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/ceofm?src=hash&amp;ref_src=twsrc%5Etfw">#ceofm</a> 用の🎤が早速届いた😆<br>10回目の配信のご褒美😊 <a href="https://t.co/xjS8xmpDlN">pic.twitter.com/xjS8xmpDlN</a></p>&mdash; 竹馬力 (@tchikuba) <a href="https://twitter.com/tchikuba/status/1224107604252622848?ref_src=twsrc%5Etfw">February 2, 2020</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/ceofm?src=hash&amp;ref_src=twsrc%5Etfw">#ceofm</a> 用の🎤が早速届いた😆<br />10回目の配信のご褒美😊 <a href="https://t.co/xjS8xmpDlN">pic.twitter.com/xjS8xmpDlN</a></p>&mdash; 竹馬力 (@tchikuba) <a href="https://twitter.com/tchikuba/status/1224107604252622848?ref_src=twsrc%5Etfw">February 2, 2020</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
-<p> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-
-<p><a href="https://www.amazon.co.jp/gp/product/B0822PZGDJ/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=athome0a-22&linkId=5ea4d7e647bb9bc53655045ab8032597&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0822PZGDJ&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&language=ja_JP&l=li2&o=9&a=B0822PZGDJ" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+<p><a href="https://www.amazon.co.jp/gp/product/B0822PZGDJ/ref=as_li_ss_il?ie=UTF8&amp;psc=1&amp;linkCode=li2&amp;tag=athome0a-22&amp;linkId=5ea4d7e647bb9bc53655045ab8032597&amp;language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B0822PZGDJ&amp;Format=_SL160_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=athome0a-22&amp;language=ja_JP" /></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;language=ja_JP&amp;l=li2&amp;o=9&amp;a=B0822PZGDJ" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 
 <p>12回目の配信からこのマイク使って収録始めました🎤</p>
 
@@ -830,7 +729,6 @@ $(document).ready( function () {
 感想／ご意見などあればTwitterアカウント<a href="https://twitter.com/tchikuba">@tchikuba</a>までぜひ！</p>
 
 <iframe src="https://anchor.fm/ceofm/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
-
 
 <p>内容について共感頂き、かつ応援したいと思われた奇特なそこのあなた。</p>
 
@@ -860,8 +758,6 @@ $(document).ready( function () {
 
 
 
-  
-
 
 <time datetime="2019-07-06T23:01:22+09:00" pubdate data-updated="true">Jul 6<span>th</span>, 2019</time>
         
@@ -870,7 +766,7 @@ $(document).ready( function () {
   </header>
 
 
-  <div class="entry-content"><h2>ルンバi7+を購入したら生活の質が向上したよ</h2>
+  <div class="entry-content"><h2 id="ルンバi7を購入したら生活の質が向上したよ">ルンバi7+を購入したら生活の質が向上したよ</h2>
 
 <p>久しぶりのブログ更新はいつもとは全く違う毛色でお届けします。</p>
 
@@ -884,10 +780,9 @@ $(document).ready( function () {
 
 <p>賃貸時も1LDKでしたがちょっと広くなったのでひとまず掃除が面倒だなぁと思っていたので、<a href="https://amzn.to/2xAs6cs">ルンバi7+</a>を購入したら思いの外、快適で費用対効果抜群だったのでルンバちゃんを褒め称える記事ですｗ</p>
 
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftchikuba%2Fposts%2F2651156554959121&width=500" width="500" height="586" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftchikuba%2Fposts%2F2651156554959121&amp;width=500" width="500" height="586" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-
-<h2>ルンバi7+をAmazonでポチった（ポチることができた）</h2>
+<h2 id="ルンバi7をamazonでポチったポチることができた">ルンバi7+をAmazonでポチった（ポチることができた）</h2>
 
 <p>なんとなく値が張る家電って、できるだけ店頭で見て買いたいみたいな思いがあったんですが、エンジニア目線で見て妙にブランディングがしっかりしているiRobot社とかダイソン社とかはAmazonでポチっても問題ないよね感あり、Amazonでポチりました。</p>
 
@@ -903,17 +798,16 @@ $(document).ready( function () {
 
 <p>という訳でなにが言いたかったかというと、iRobot社のルンバくらいブランディングの立ち位置があるとその辺の時間削減されてユーザー的にも幸せが訪れるということ。</p>
 
-<h2>ルンバi7+の何が良いのか</h2>
+<h2 id="ルンバi7の何が良いのか">ルンバi7+の何が良いのか</h2>
 
 <p>とはいえルンバも色々と種類があってピンきりなので調べたところ、i7+が最上位モデルで以下あたりが特徴でした（認識違ってたらツッコミください）。</p>
 
 <ul>
-<li>ルンバが集めたゴミを一時的に集めておくクリーンベース付きのモデルがある</li>
-<li>ルンバ本体のダストボックスが水洗いできる（それまでのモデルは水洗いできないみたい）</li>
-<li>wifiで繋いでAlexaとも連携できる</li>
-<li>複数の部屋をちゃんと記憶できる（スマートマッピング機能）</li>
+  <li>ルンバが集めたゴミを一時的に集めておくクリーンベース付きのモデルがある</li>
+  <li>ルンバ本体のダストボックスが水洗いできる（それまでのモデルは水洗いできないみたい）</li>
+  <li>wifiで繋いでAlexaとも連携できる</li>
+  <li>複数の部屋をちゃんと記憶できる（スマートマッピング機能）</li>
 </ul>
-
 
 <p>個人的には特に最初のクリーンベースが気に入ったので迷わず最上位モデルのi7+の購入を意思決定しました。クリーンベースがないモデルだと、基本的に毎回本体のダストボックスを掃除してあげる必要があるみたいです。クリーンベースがあれば、30回分はそこに溜められるので1日1回の作業（本体の掃除）が1ヶ月に1回で済むので時間の節約になります。</p>
 
@@ -923,7 +817,7 @@ $(document).ready( function () {
 
 <p>要はメンテナンスにもほとんど手間暇かかりません。</p>
 
-<h2>ルンバi7+のアプリ</h2>
+<h2 id="ルンバi7のアプリ">ルンバi7+のアプリ</h2>
 
 <p>アプリもよくできてると思います。気になる点は、起動後にルンバに接続するまで少し時間がかかるというのと、ルンバが汚れを検出した時に重点的に掃除する「ダートイベント」の「詳細を確認する」のリンク先がオンラインヘルプになっているんだけど、ずっと「ご利用できません」ってなってることくらいかな（関係者の方なんとかしてくだせぃ）。</p>
 
@@ -977,7 +871,7 @@ $(document).ready( function () {
 
 <p>こんな感じで、細部はツッコミどころありましたけど、アプリもなかなかによくできている印象です。</p>
 
-<h2>ルンバi7+のコスパ最強（投資回収が早い）</h2>
+<h2 id="ルンバi7のコスパ最強投資回収が早い">ルンバi7+のコスパ最強（投資回収が早い）</h2>
 
 <p>ここが一番言いたかったことです。</p>
 
@@ -987,17 +881,23 @@ $(document).ready( function () {
 
 <p>仮に自分で掃除するのが半分の20分と仮定すると、我が家にルンバがやってきて2ヶ月なので、</p>
 
-<blockquote><p>1/3時間(20分)×2ヶ月(60日)×時給単価(m)＝20m</p></blockquote>
+<blockquote>
+  <p>1/3時間(20分)×2ヶ月(60日)×時給単価(m)＝20m</p>
+</blockquote>
 
 <p>という数式が成り立ちます。</p>
 
 <p>本体価格が凡そ14万なので、</p>
 
-<blockquote><p>20m≧140,000</p></blockquote>
+<blockquote>
+  <p>20m≧140,000</p>
+</blockquote>
 
 <p>という不等式を解くと</p>
 
-<blockquote><p>時給単価m≧7,000円</p></blockquote>
+<blockquote>
+  <p>時給単価m≧7,000円</p>
+</blockquote>
 
 <p>が導けます（数学が日常生活で役に立った瞬間）。</p>
 
@@ -1011,13 +911,13 @@ $(document).ready( function () {
 
 <p>時間に追われるそこの奥さん！でもご主人でもなんでも良いんですけど、マジおすすめです。当然バリアフリー物件じゃないと導入しづらいってのはありますが。</p>
 
-<p><a href="https://www.amazon.co.jp/gp/product/B07NZJ4MNS/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li3&tag=athome0a-22&linkId=61d5f93aa769133d7c15310c5133d8eb&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07NZJ4MNS&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&language=ja_JP&l=li3&o=9&a=B07NZJ4MNS" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+<p><a href="https://www.amazon.co.jp/gp/product/B07NZJ4MNS/ref=as_li_ss_il?ie=UTF8&amp;psc=1&amp;linkCode=li3&amp;tag=athome0a-22&amp;linkId=61d5f93aa769133d7c15310c5133d8eb&amp;language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B07NZJ4MNS&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=athome0a-22&amp;language=ja_JP" /></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;language=ja_JP&amp;l=li3&amp;o=9&amp;a=B07NZJ4MNS" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 
-<h2>FACTFULNESS（ファクトフルネス）とルンバi7+</h2>
+<h2 id="factfulnessファクトフルネスとルンバi7">FACTFULNESS（ファクトフルネス）とルンバi7+</h2>
 
 <p>話はちょっと変わるんですが、ルンバで生活改善みたいな流れって、以前読んだファクトフルネスって書籍を思い出すんですよね。</p>
 
-<p><a href="https://www.amazon.co.jp/gp/product/B07LG7TG5N/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li3&tag=athome0a-22&linkId=1c725f447b301a5bd9f7f3ffa6a112d7&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07LG7TG5N&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&language=ja_JP&l=li3&o=9&a=B07LG7TG5N" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+<p><a href="https://www.amazon.co.jp/gp/product/B07LG7TG5N/ref=as_li_ss_il?ie=UTF8&amp;psc=1&amp;linkCode=li3&amp;tag=athome0a-22&amp;linkId=1c725f447b301a5bd9f7f3ffa6a112d7&amp;language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B07LG7TG5N&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=athome0a-22&amp;language=ja_JP" /></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;language=ja_JP&amp;l=li3&amp;o=9&amp;a=B07LG7TG5N" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 
 <p>ファクトフルネスについての詳細は割愛します。簡単に言えば「世の中を事実としてちゃんと正しく認識しようね。それから、世界はよりよい方向に発展しているから無駄にネガティブにならないように気をつけよう」みたいな内容の素晴らしい書籍です。正しい国際感覚を身に着けたい人には必読の書。</p>
 
@@ -1026,12 +926,11 @@ $(document).ready( function () {
 <p>例えば歯ブラシなら以下みたいな感じです。</p>
 
 <ul>
-<li>レベル1：指で磨く</li>
-<li>レベル2：歯ブラシ（家族で1本）</li>
-<li>レベル3：歯ブラシ（1人1本）</li>
-<li>レベル4：電動歯ブラシ</li>
+  <li>レベル1：指で磨く</li>
+  <li>レベル2：歯ブラシ（家族で1本）</li>
+  <li>レベル3：歯ブラシ（1人1本）</li>
+  <li>レベル4：電動歯ブラシ</li>
 </ul>
-
 
 <p>掃除に関して言えば、ルンバが起こしたイノベーションって最早レベル4を超えてレベル5なんじゃないかと思うんですよね。</p>
 
@@ -1069,8 +968,6 @@ $(document).ready( function () {
 
 
 
-  
-
 
 <time datetime="2018-09-27T19:14:24+09:00" pubdate data-updated="true">Sep 27<span>th</span>, 2018</time>
         
@@ -1083,13 +980,13 @@ $(document).ready( function () {
 
 <p>私はプログラミング教育には関心が高いのですが、どちらかというと現状は社会人向けの方にコミットしています。</p>
 
-<p><a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3420715&pid=885401979" target="_blank" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3420715&pid=885401979" height="1" width="1" border="0">TechAcademy [テックアカデミー]</a>という社会人向けのプログラミングスクールでwebアプリケーションコース（Ruby on Rails）の講師（メンター）をやっていたりします。</p>
+<p><a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3420715&amp;pid=885401979" target="_blank" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3420715&amp;pid=885401979" height="1" width="1" border="0" />TechAcademy [テックアカデミー]</a>という社会人向けのプログラミングスクールでwebアプリケーションコース（Ruby on Rails）の講師（メンター）をやっていたりします。</p>
 
 <p>が、過去、小学校の教員免許状も取得したこともあり、学校教育におけるプログラミング教育にも将来的には関わっていきたいなと思っています。</p>
 
 <p>NPO法人のみんなのコードは、本業のリブセンスでのご縁もあり、以前から知っていましたが、今回のイベントに知人のFacebookエンジニアである安藤さんもパネラーとして参加されるというので、同日行われていたMeguro.rbの参加を見送って、このイベントに参加することにしました。</p>
 
-<h2>小学校プログラミング教育最前線のお話 by NPO法人みんなのコード代表 <a href="https://twitter.com/yutatone">利根川 裕太</a></h2>
+<h2 id="小学校プログラミング教育最前線のお話-by-npo法人みんなのコード代表-利根川-裕太">小学校プログラミング教育最前線のお話 by NPO法人みんなのコード代表 <a href="https://twitter.com/yutatone">利根川 裕太</a></h2>
 
 <p>最初にアイスブレイクで2人1組になってトランプ5枚のカードを大きい順に並べ替えるゲームで和みました。
 ソートアルゴリズムを特にIT機器を通さずに体験するゲームということで、広く言えばこういうものも、プログラミング教育の一環とも言えるのではないかと思いました。</p>
@@ -1104,59 +1001,53 @@ $(document).ready( function () {
 
 <p>そのような趣旨で質問してみたところ、プログラミング教育がきっかけになって、学校側のITリテラシーがあがる、という事例も実際に出てきているそうです。</p>
 
-<h2>エンジニア×先生×NPOのパネルディスカッション</h2>
+<h2 id="エンジニア先生npoのパネルディスカッション">エンジニア×先生×NPOのパネルディスカッション</h2>
 
 <p>後半からは、以下のパネラーの方々の簡単な自己紹介の後、プログラミング教育に関するパネルディスカッションが行われました。</p>
 
-<h3>パネラーの方々</h3>
+<h3 id="パネラーの方々">パネラーの方々</h3>
 
 <ul>
-<li>エンジニア：FacebookエンジニアのAndo氏
-
-<ul>
-<li>中学校の社会の教員採用試験も受けた経験あり。</li>
-<li>デジタルハリウッドでの講師経験あり。</li>
-</ul>
-</li>
-<li>先生：千葉大学教育学部附属小学校 教諭／ICT活用教育部 主任　小池 翔太氏
-
-<ul>
-<li>5年目の小学校教員。</li>
-<li>IBM×国立天文台「位置天文学×エンジニア」などのプログラミング教育事例の紹介。</li>
-</ul>
-</li>
-<li>NPO法人みんなのコードCTO：田中高明氏
-
-<ul>
-<li>元世界史の教師からエンジニアに転向。</li>
-</ul>
-</li>
-<li>NPO法人みんなのコード主任講師：福田晴一氏
-
-<ul>
-<li>和田中学校藤原さん（民間出身の元校長先生）と一緒にやっていた元先生。</li>
-<li>余談ですが私は藤原さんが提唱されている<a href="https://logmi.jp/131707">トライセクター・リーダー</a>って考え方に共感してます。簡単にいえば、3つの全く違うそれぞれの分野で100人に1人の人材になり、それを3つ掛け合わせると100万人に1人の人材になれる、というキャリアみたいな感じ。</li>
-</ul>
-</li>
+  <li>エンジニア：FacebookエンジニアのAndo氏
+    <ul>
+      <li>中学校の社会の教員採用試験も受けた経験あり。</li>
+      <li>デジタルハリウッドでの講師経験あり。</li>
+    </ul>
+  </li>
+  <li>先生：千葉大学教育学部附属小学校 教諭／ICT活用教育部 主任　小池 翔太氏
+    <ul>
+      <li>5年目の小学校教員。</li>
+      <li>IBM×国立天文台「位置天文学×エンジニア」などのプログラミング教育事例の紹介。</li>
+    </ul>
+  </li>
+  <li>NPO法人みんなのコードCTO：田中高明氏
+    <ul>
+      <li>元世界史の教師からエンジニアに転向。</li>
+    </ul>
+  </li>
+  <li>NPO法人みんなのコード主任講師：福田晴一氏
+    <ul>
+      <li>和田中学校藤原さん（民間出身の元校長先生）と一緒にやっていた元先生。</li>
+      <li>余談ですが私は藤原さんが提唱されている<a href="https://logmi.jp/131707">トライセクター・リーダー</a>って考え方に共感してます。簡単にいえば、3つの全く違うそれぞれの分野で100人に1人の人材になり、それを3つ掛け合わせると100万人に1人の人材になれる、というキャリアみたいな感じ。</li>
+    </ul>
+  </li>
 </ul>
 
-
-<h3>パネルディスカッション詳細</h3>
+<h3 id="パネルディスカッション詳細">パネルディスカッション詳細</h3>
 
 <p>詳細と見出しには書きましたけど、ここからは議論が面白くて前のめりに聞くのが中心だったのであまり網羅的にメモできていませんが、個人的に印象に残った議論とその所感を中心に書き起こしておきます。</p>
 
-<h4>実際の教育現場がどうなのか？by福田氏</h4>
+<h4 id="実際の教育現場がどうなのかby福田氏">実際の教育現場がどうなのか？by福田氏</h4>
 
 <p>福田さんは元先生で、現在はみんなのコードで全国を飛び回って、先生のためのプログラミング教育について研修をされているそうです。いわゆる「プログラミング指導教員養成塾」的なものをされています。</p>
 
 <p>福田さん曰く、全国を回った所感として、「3つの格差」について話をされていたのが印象的でした。</p>
 
 <ul>
-<li>自治体の格差</li>
-<li>インフラの格差</li>
-<li>教員の格差</li>
+  <li>自治体の格差</li>
+  <li>インフラの格差</li>
+  <li>教員の格差</li>
 </ul>
-
 
 <p>教育に関して、地方は東京から3年くらい遅れて広まっていくところがあり、「公教育の犯罪」とまで言及されていました。</p>
 
@@ -1164,7 +1055,7 @@ $(document).ready( function () {
 
 <p>学校の先生方にプログラミング教育の必要性を訴えるには、求められる背景の理論武装が必要だけど、一度理解してもらえればちゃんと堅実に推進してくれるという話は印象的でしたね。私もその昔、小学校に教育実習に行ったことがありますが、確かに教育の現場って理屈っぽい先生方多かった印象ありますね。理屈っぽいという意味では、エンジニアも同類項ですがｗ</p>
 
-<h4>学級経営にも生きるプログラミング教育by小池氏</h4>
+<h4 id="学級経営にも生きるプログラミング教育by小池氏">学級経営にも生きるプログラミング教育by小池氏</h4>
 
 <p>プログラミングで求められる自発性みたいなものがあり、たとえば、アイルランドから始まった<a href="https://coderdojo.jp/">CoderDojo</a>では、あまりトップダウン的なアプローチで何かを強制的にさせることは行いません。あくまでも子どもたちの自主性にまかせてやることを決めるので、一人ひとりの個性が大切にされます。</p>
 
@@ -1172,7 +1063,7 @@ $(document).ready( function () {
 
 <p>本来、「教育とは子どもたちの個性に合わせて行われるべき」というのが持論ですが、どこかで横並びの画一性みたいなものが管理上求められる部分もあるので、この矛盾とどう戦って行くのかが重要だなと個人的には思いました。子どもたちに合わせるなら、個人指導みたいなのがベストだけど、現状の公教育は集団授業前提なので、なかなか子どもたちそれぞれに合わせていられない部分はあると思います。</p>
 
-<h4>プログラミング教育のデメリットは？by安藤氏</h4>
+<h4 id="プログラミング教育のデメリットはby安藤氏">プログラミング教育のデメリットは？by安藤氏</h4>
 
 <p>公教育にはほぼすべての大人が子どもの頃に経験したもので評価してしまうけど、実は最新の公教育がどうなっているのか？という実態を把握している人はそう多くないです。だからこそ、安藤さんはプログラミング教育についても「知ったかぶりする人が多い」という表現をされていたのが印象的でした。</p>
 
@@ -1190,7 +1081,7 @@ $(document).ready( function () {
 
 <p>この話を書いていて思い出したのが、サイバーエージェント系列の<a href="https://techkidsschool.jp/">CA Tech Kids</a>の代表とCA藤田さんとの対談の<a href="https://forbesjapan.com/articles/detail/20482">この記事</a>です。この記事の後半に出てくるのですが、プロ野球と同じように、高校生向けのドラフト会議のエンジニア版をやるというのが興味深いなぁと。こんな感じで、エンジニアとしてのエリート教育もあって良いと思います。大事なのはダイバーシティですね。野球でもサッカーでも、だいたい日本代表レベルで活躍する人って、地域のリトルリーグとかそういうのやってましたよね。ガチ勢は意外と学校の部活とかやんない感じでした。そんなノリでプログラミング教育も浸透すると良いのかなぁと思います。</p>
 
-<h4>プログルの紹介by田中氏</h4>
+<h4 id="プログルの紹介by田中氏">プログルの紹介by田中氏</h4>
 
 <p>公教育におけるプログラミング教育のハードルを下げる取り組みとしてみんなのコードとして取り組んでいるのが、<a href="https://proguru.jp/">プログル</a>です。これはプログラミング教育における定番Scratchっぽいものですね。</p>
 
@@ -1198,7 +1089,7 @@ $(document).ready( function () {
 
 <p>Scratchもそうですが、これ系のやつって子どもたちにやらせるとみんな総じて「楽しかったー！またやりたい！」ってほぼなるんですよね。この満足度はやりがいあって良いなと。うがった見方ばかりしかできない大人にはならないように気をつけましょう（違）。</p>
 
-<h2>プログラミング教育に対する私見</h2>
+<h2 id="プログラミング教育に対する私見">プログラミング教育に対する私見</h2>
 
 <p>既に所感もあわせて記述したのでその通りですが改めて。</p>
 
@@ -1234,8 +1125,6 @@ $(document).ready( function () {
 
 
 
-  
-
 
 <time datetime="2017-12-11T19:47:03+09:00" pubdate data-updated="true">Dec 11<span>th</span>, 2017</time>
         
@@ -1246,11 +1135,11 @@ $(document).ready( function () {
 
   <div class="entry-content"><p><a href="/blog/2017/05/22/ruby-on-rails-5-application-programming/">前回</a>に引き続き、WINGSプロジェクトが監修し、技術評論社から出版されている超入門シリーズ本を以下の3冊献本して頂きました。</p>
 
-<p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/B071GQQDNM/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071GQQDNM&linkCode=as2&tag=athome0a-22&linkId=31b2a479600687cd2a87420281ca995e"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B071GQQDNM&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071GQQDNM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+<p><a target="_blank" href="https://www.amazon.co.jp/gp/product/B071GQQDNM/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B071GQQDNM&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=31b2a479600687cd2a87420281ca995e"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B071GQQDNM&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=athome0a-22" /></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=B071GQQDNM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 
-<p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/B071X8SKXN/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071X8SKXN&linkCode=as2&tag=athome0a-22&linkId=ec260d486540778f7bdc4f8fdd0cebfb"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B071X8SKXN&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071X8SKXN" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+<p><a target="_blank" href="https://www.amazon.co.jp/gp/product/B071X8SKXN/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B071X8SKXN&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=ec260d486540778f7bdc4f8fdd0cebfb"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B071X8SKXN&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=athome0a-22" /></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=B071X8SKXN" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 
-<p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/B071GTJSPL/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071GTJSPL&linkCode=as2&tag=athome0a-22&linkId=fcb1d876a5f5de8815781b325db0b4d6"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B071GTJSPL&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071GTJSPL" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+<p><a target="_blank" href="https://www.amazon.co.jp/gp/product/B071GTJSPL/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B071GTJSPL&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=fcb1d876a5f5de8815781b325db0b4d6"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B071GTJSPL&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=athome0a-22" /></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=B071GTJSPL" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 
 <p>それぞれの本についてレビューをば。</p>
 
@@ -1258,20 +1147,20 @@ $(document).ready( function () {
 
 <hr />
 
-<h2>【書評】<a target="_blank" href="https://www.amazon.co.jp/gp/product/B071GQQDNM/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071GQQDNM&linkCode=as2&tag=athome0a-22&linkId=942c9cecdc280376dec9ed521cf1406c">たった1日で基本が身に付く！  HTML&amp;CSS超入門</a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071GQQDNM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></h2>
+<h2 id="書評たった1日で基本が身に付く--htmlcss超入門">【書評】<a target="_blank" href="https://www.amazon.co.jp/gp/product/B071GQQDNM/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B071GQQDNM&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=942c9cecdc280376dec9ed521cf1406c">たった1日で基本が身に付く！  HTML&amp;CSS超入門</a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=B071GQQDNM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></h2>
 
-<p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/B071GQQDNM/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071GQQDNM&linkCode=as2&tag=athome0a-22&linkId=31b2a479600687cd2a87420281ca995e"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B071GQQDNM&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071GQQDNM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+<p><a target="_blank" href="https://www.amazon.co.jp/gp/product/B071GQQDNM/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B071GQQDNM&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=31b2a479600687cd2a87420281ca995e"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B071GQQDNM&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=athome0a-22" /></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=B071GQQDNM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 
-<h3>webサイトとはそもそもなんぞや？という点からちゃんと解説されている</h3>
+<h3 id="webサイトとはそもそもなんぞやという点からちゃんと解説されている">webサイトとはそもそもなんぞや？という点からちゃんと解説されている</h3>
 
 <p>超入門書なだけあって、そもそもwebサイトがサーバーに設置されていてブラウザなどのクライアントからアクセスして読み込むものだ、的な基礎的な部分からちゃんと解説されています。
 また、技術的側面だけでなく、webサイトを設置する目的やどう設計するか？についてもちゃんと触れられている点が素晴らしいです。</p>
 
-<h3>HTML5をベースとしたセマンティックwebが意識されている</h3>
+<h3 id="html5をベースとしたセマンティックwebが意識されている">HTML5をベースとしたセマンティックwebが意識されている</h3>
 
 <p>超入門書といえど、headerタグやfooterタグなどを通してセマンティックwebについて早い段階でちゃんと解説されています。</p>
 
-<h3>CSS（Cascading Style Sheets）の基本がしっかり理解できる</h3>
+<h3 id="csscascading-style-sheetsの基本がしっかり理解できる">CSS（Cascading Style Sheets）の基本がしっかり理解できる</h3>
 
 <p>CSSの発展の歴史を紹介していたり、HTMLタグをwebページの装飾目的で使うことを戒めたりなど、経験あるwebサイト制作者の方の言葉が散りばめられている辺り、好感が持てる印象でした。</p>
 
@@ -1279,12 +1168,12 @@ $(document).ready( function () {
 
 <p>同様の理由で、段組みレイアウトの辺りの解説もまた、何がブロックレベル要素で何がインライン要素なのかとかあまり意識できてなかったり、フロートレイアウトなどもフィーリングで理解していたところがあったので正直勉強になりました。</p>
 
-<h3>レスポンシブデザインに対応している</h3>
+<h3 id="レスポンシブデザインに対応している">レスポンシブデザインに対応している</h3>
 
 <p>最近では必須のレスポンシブデザインに対応しており、具体的にはスマートフォン対応する具体的な方法についても解説されています。
 私自身、メディアクエリとかちゃんと理解できてなかったところがありました。。</p>
 
-<h3>総評</h3>
+<h3 id="総評">総評</h3>
 
 <p>本書を一通りなぞれば、コーヒーショップのレスポンシブなホームページのサンプルを制作することができます。
 本書を足がかりにすれば、<strong>読者は基本的なwebデザインのうちHTML・CSSコーディングができるようになる</strong>と思います。</p>
@@ -1296,11 +1185,11 @@ $(document).ready( function () {
 
 <p>余談ですが、<em>「本業サーバーサイドエンジニアに贈る基礎から学ぶフロントエンド」</em>的な書籍があったら実はニーズあるんじゃないかと思いましたｗ</p>
 
-<h2>【書評】<a target="_blank" href="https://www.amazon.co.jp/gp/product/B071X8SKXN/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071X8SKXN&linkCode=as2&tag=athome0a-22&linkId=9d4e7a69fed84321916b7baa8a77ebad">たった1日で基本が身に付く！  JavaScript超入門</a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071X8SKXN" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></h2>
+<h2 id="書評たった1日で基本が身に付く--javascript超入門">【書評】<a target="_blank" href="https://www.amazon.co.jp/gp/product/B071X8SKXN/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B071X8SKXN&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=9d4e7a69fed84321916b7baa8a77ebad">たった1日で基本が身に付く！  JavaScript超入門</a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=B071X8SKXN" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></h2>
 
-<p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/B071X8SKXN/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071X8SKXN&linkCode=as2&tag=athome0a-22&linkId=ec260d486540778f7bdc4f8fdd0cebfb"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B071X8SKXN&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071X8SKXN" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+<p><a target="_blank" href="https://www.amazon.co.jp/gp/product/B071X8SKXN/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B071X8SKXN&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=ec260d486540778f7bdc4f8fdd0cebfb"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B071X8SKXN&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=athome0a-22" /></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=B071X8SKXN" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 
-<h3>webアプリケーションとはなんぞや？についてちゃんと解説されている</h3>
+<h3 id="webアプリケーションとはなんぞやについてちゃんと解説されている">webアプリケーションとはなんぞや？についてちゃんと解説されている</h3>
 
 <p>超入門シリーズ本にはおなじみですが、ターゲット読者層がプログラミング未経験者なので、そもそもwebアプリケーションってなんだっけ？とかサーバーサイド、クライアントサイドの違いみたいな基礎的なところから解説が始まります。</p>
 
@@ -1311,7 +1200,7 @@ $(document).ready( function () {
 
 <p>また、JavaScriptでできることの幅が広がりつつある昨今ですが、その辺りにも触れつつ、本書でカバーする範囲をクライアントサイドのwebアプリケーション機能開発に特化していると明記していることもわかりやすさを担保することに繋がっている気がします。</p>
 
-<h3>イベントやAPI、WebStorageについて扱っている</h3>
+<h3 id="イベントやapiwebstorageについて扱っている">イベントやAPI、WebStorageについて扱っている</h3>
 
 <p>超入門者向けでも、JavaScriptによるwebアプリケーションの基礎としてイベントドリブンモデルについて解説されています。
 本書はwebアプリケーション前提なので、JavaScriptを語る上で密接に関わってくるイベントについて1つの章を割いて解説を加えているのかもしれません。</p>
@@ -1319,17 +1208,17 @@ $(document).ready( function () {
 <p>後半の章では、Flickr APIを用いて画像検索するアプリ作成を行っており、より実践的な内容になっています。
 更に、Webstorageについても触れられており、こちらもAPI同様、より実践的な内容かなという印象です。</p>
 
-<h3>Windows環境にApacheインストールの辛い</h3>
+<h3 id="windows環境にapacheインストールの辛い">Windows環境にApacheインストールの辛い</h3>
 
 <p>これも超入門シリーズ本全般で辛いところではありますが、環境構築でWindowsを前提とするツラミはちょっとあるかなと。
 webアプリケーションにおけるJavaScriptというところで、Apacheのインストールは避けられなかったかもしれませんが。</p>
 
-<h3>オブジェクトがいきなり出てくる</h3>
+<h3 id="オブジェクトがいきなり出てくる">オブジェクトがいきなり出てくる</h3>
 
 <p>超入門者にとって、前半の早い段階でオブジェクトという概念がいきなり出てくるのでちょっとギョッとするかもしれません。
 JavaScriptの性質上、しょうがない側面も大きいかなと思いつつ。。</p>
 
-<h3>総評</h3>
+<h3 id="総評-1">総評</h3>
 
 <p>全体的にプログラミング言語としての側面からJavaScriptを論じるというより、<strong>より実践的なwebアプリ開発を行う手段としてのJavaScriptを紹介した書籍</strong>という印象を受けました。</p>
 
@@ -1337,20 +1226,20 @@ JavaScriptの性質上、しょうがない側面も大きいかなと思いつ�
 
 <p>逆に、<strong>JavaScriptを使って具体的にどういうアプリが作れるのか？という点にフォーカスしたい方にとっては良書</strong>と言えそうです。</p>
 
-<h2>【書評】<a target="_blank" href="https://www.amazon.co.jp/gp/product/B071GTJSPL/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071GTJSPL&linkCode=as2&tag=athome0a-22&linkId=f6e7a1ddc17c34e523450926d9863f48">たった1日で基本が身に付く！ Java超入門</a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071GTJSPL" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></h2>
+<h2 id="書評たった1日で基本が身に付く-java超入門">【書評】<a target="_blank" href="https://www.amazon.co.jp/gp/product/B071GTJSPL/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B071GTJSPL&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=f6e7a1ddc17c34e523450926d9863f48">たった1日で基本が身に付く！ Java超入門</a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=B071GTJSPL" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></h2>
 
-<p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/B071GTJSPL/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B071GTJSPL&linkCode=as2&tag=athome0a-22&linkId=fcb1d876a5f5de8815781b325db0b4d6"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B071GTJSPL&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=B071GTJSPL" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+<p><a target="_blank" href="https://www.amazon.co.jp/gp/product/B071GTJSPL/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B071GTJSPL&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=fcb1d876a5f5de8815781b325db0b4d6"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B071GTJSPL&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=athome0a-22" /></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=B071GTJSPL" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 
-<h3>コンパイルエラーなど基本的な部分が紹介されている</h3>
+<h3 id="コンパイルエラーなど基本的な部分が紹介されている">コンパイルエラーなど基本的な部分が紹介されている</h3>
 
 <p>超入門向けらしく、半角スペースをなくすとコンパイルエラーが発生するなど超入門者向けの内容がちゃんと解説されています。</p>
 
-<h3>（凄い細かい話ですが）nullの正しい発音がコラムにｗ</h3>
+<h3 id="凄い細かい話ですがnullの正しい発音がコラムにｗ">（凄い細かい話ですが）nullの正しい発音がコラムにｗ</h3>
 
 <p>nullは英語では「ナル」と発音するそうです。nullの紹介のところでコラムとして「正しく発音しましょう」って紹介がありました。
 ちなみに私は普段「ヌル」と発音してます。スミマセン！</p>
 
-<h3>二重ループが取り上げられている</h3>
+<h3 id="二重ループが取り上げられている">二重ループが取り上げられている</h3>
 
 <p>プログラミング初心者にとって最もつまづきやすいのがループと言われます。
 ループを取り扱う章の最後に、本書ではループ処理がネストしている二重ループについて取り上げられています。
@@ -1358,14 +1247,14 @@ JavaScriptの性質上、しょうがない側面も大きいかなと思いつ�
 
 <p>同様に、配列の章の後半で配列とループ処理、ループ処理と条件分岐の組み合わせについても取り上げられており、二重ループ同様、プログラミング初心者にとってはプログラムが複雑になる過程をちゃんと説明してくれていて理解の助けになりそうだなと思いました。</p>
 
-<h3>クラス解説で後半2章分割かれている</h3>
+<h3 id="クラス解説で後半2章分割かれている">クラス解説で後半2章分割かれている</h3>
 
 <p>クラスの基礎について1章分、クラスの利用について1章分を割いており、クラスに関する解説はかなりページ数を割いている印象です。
 このあたりはそもそも扱っている内容が重いせいか、その他の章の解説に比べて超入門者がページをまたいであちこちに行ったり来たりして理解を深める必要があるように感じました。</p>
 
 <p>このあたりをプログラミング初心者に分かりやすく解説できる自信は正直私もないのですが（汗）</p>
 
-<h3>総評</h3>
+<h3 id="総評-2">総評</h3>
 
 <p>総合的に見て、<strong>プログラミングが全く初めての人にとって、Javaを学習する目的で本書は向いている</strong>と思います。</p>
 
@@ -1395,8 +1284,6 @@ JavaScriptの性質上、しょうがない側面も大きいかなと思いつ�
 
 
 
-  
-
 
 <time datetime="2017-09-19T09:49:45+09:00" pubdate data-updated="true">Sep 19<span>th</span>, 2017</time>
         
@@ -1407,142 +1294,129 @@ JavaScriptの性質上、しょうがない側面も大きいかなと思いつ�
 
   <div class="entry-content"><p>RubyKaigi 2017は広島での開催。昨年は京都で今年は広島ということで、暫く地方の流れなのかしら？</p>
 
-<h2>Keynote : Yukihiro &ldquo;Matz&rdquo; Matsumoto @yukihiro_matz</h2>
+<h2 id="keynote--yukihiro-matz-matsumoto-yukihiro_matz">Keynote : Yukihiro &#8220;Matz&#8221; Matsumoto @yukihiro_matz</h2>
 
 <ul>
-<li>世界最大規模のRubyカンファレンスがRubyKaigi
-
-<ul>
-<li>何を話すか困る</li>
-<li>松田さんには聴衆置いてきぼりでも良いので聞いたこと無い話、技術的な話してよとオファー来る</li>
-<li>才能の話をする</li>
-<li>天才プログラマーと言われるけど自分でそう思ったことはない</li>
-<li>自称プログラミング言語デザイナ</li>
-<li>matzが初めて触れたプログラミング言語はBasic</li>
-<li>自分の思考をまとめるツール=プログラミング言語</li>
-<li>I love all programming languages.</li>
-<li>「matzは他の言語に攻撃的だから嫌い」と言われることがある</li>
-<li>Rubyのmatzだから他言語を貶めてRubyアゲようとしてる、と言われるけど本人全くそんなつもりはない</li>
-<li>とはいえ昔Pythonのメーリスに乗り込んでRubyならこんなことできるよと言ったこともあるけど(笑)</li>
+  <li>世界最大規模のRubyカンファレンスがRubyKaigi
+    <ul>
+      <li>何を話すか困る</li>
+      <li>松田さんには聴衆置いてきぼりでも良いので聞いたこと無い話、技術的な話してよとオファー来る</li>
+      <li>才能の話をする</li>
+      <li>天才プログラマーと言われるけど自分でそう思ったことはない</li>
+      <li>自称プログラミング言語デザイナ</li>
+      <li>matzが初めて触れたプログラミング言語はBasic</li>
+      <li>自分の思考をまとめるツール=プログラミング言語</li>
+      <li>I love all programming languages.</li>
+      <li>「matzは他の言語に攻撃的だから嫌い」と言われることがある</li>
+      <li>Rubyのmatzだから他言語を貶めてRubyアゲようとしてる、と言われるけど本人全くそんなつもりはない</li>
+      <li>とはいえ昔Pythonのメーリスに乗り込んでRubyならこんなことできるよと言ったこともあるけど(笑)</li>
+    </ul>
+  </li>
+  <li>Simula(1968)：初のオブジェクト指向言語の話を</li>
+  <li>Animal &ndash; Horse &ndash; Zebraが表現できるように</li>
+  <li>Dr. Kristen Nygaard（クリステン・ニゴール）</li>
+  <li>「全てのオブジェクト指向言語は私の孫みたいなもんでなぁ」←会った時言われた</li>
+  <li>単一継承（木構造）→多重継承（ネットワーク構造）</li>
+  <li>C3リニアリゼーションアルゴリズム</li>
+  <li>Mixin（Lisp界隈はFlavorsと呼んでた）</li>
+  <li>アイスクリームとチョコチップのたとえ</li>
+  <li>Rubyはこれをmoduleとして採用</li>
+  <li>namespace（ex.Net::HTTP）／singleton（ex.FileUtils）／メソッドの集合（ex.Math）としてのmoduleも</li>
+  <li>2013年2.0から新たな機能</li>
+  <li>Alias method chain：欠点もある→Module#prependがRailsコミュニティから複数人から提案があった</li>
+  <li>一度prependしたら外せないようにするのは敢えて→待てよ</li>
+  <li>CLOS（Common Lisp Object System）という言語を想起</li>
+  <li>アスペクト指向プログラミングといっても良い（Gregor Kiczalesが考えた）</li>
+  <li>リファインメントとしてのmodule</li>
+  <li>なぜモンキーパッチングというのか？</li>
+  <li>ゲリラ→ゴリラ→モンキーになったっぽい</li>
+  <li>ActiveSupportがモンキーパッチングの良い例</li>
+  <li>2.days.ago（これRubyかよ）ってのができるようになる</li>
+  <li>スコープを区切ったモンキーパッチングなら良いのでは</li>
+  <li>Selector namespace （Smallscript）</li>
+  <li>Rubyのリファインメント
+    <ul>
+      <li>C#のエクステンションみたいな→ex.RSpec：特定のスコープだけで呼ぶ（現時点でリファインメント使ってない）</li>
+      <li>既存のメソッドを置き換える</li>
+    </ul>
+  </li>
+  <li>Structual type checkとしてのmodule（まだプロポーザル）
+    <ul>
+      <li>静的型付けとして将来的には取り込まれる可能性</li>
+    </ul>
+  </li>
+  <li>Ruby3x3への取り組み
+    <ul>
+      <li>MJIT</li>
+      <li>Rubex</li>
+      <li>Fiber / Guild</li>
+      <li>AutoFiber（Unicorn作った人）</li>
+    </ul>
+  </li>
+  <li>静的型付けの取り組みも本日午後に3発表あり</li>
+  <li>Matzが手を動かすというよりゴールを示すリードデザイナ</li>
+  <li>RubyはMatzの言語というより我々の言語</li>
+  <li>ご覧のスポンサーの提供でお送りしています(笑)ブースに行ってくれると私の顔が立つ
+    <ul>
+      <li>Heroku</li>
+      <li>VASILY</li>
+      <li>Sansan</li>
+      <li>Speee</li>
+      <li>RakSul</li>
+      <li>リクルートマーケティングパートナーズ</li>
+      <li>Linkers</li>
+    </ul>
+  </li>
 </ul>
-</li>
-<li>Simula(1968)：初のオブジェクト指向言語の話を</li>
-<li>Animal &ndash; Horse &ndash; Zebraが表現できるように</li>
-<li>Dr. Kristen Nygaard（クリステン・ニゴール）</li>
-<li>「全てのオブジェクト指向言語は私の孫みたいなもんでなぁ」←会った時言われた</li>
-<li>単一継承（木構造）→多重継承（ネットワーク構造）</li>
-<li>C3リニアリゼーションアルゴリズム</li>
-<li>Mixin（Lisp界隈はFlavorsと呼んでた）</li>
-<li>アイスクリームとチョコチップのたとえ</li>
-<li>Rubyはこれをmoduleとして採用</li>
-<li>namespace（ex.Net::HTTP）／singleton（ex.FileUtils）／メソッドの集合（ex.Math）としてのmoduleも</li>
-<li>2013年2.0から新たな機能</li>
-<li>Alias method chain：欠点もある→Module#prependがRailsコミュニティから複数人から提案があった</li>
-<li>一度prependしたら外せないようにするのは敢えて→待てよ</li>
-<li>CLOS（Common Lisp Object System）という言語を想起</li>
-<li>アスペクト指向プログラミングといっても良い（Gregor Kiczalesが考えた）</li>
-<li>リファインメントとしてのmodule</li>
-<li>なぜモンキーパッチングというのか？</li>
-<li>ゲリラ→ゴリラ→モンキーになったっぽい</li>
-<li>ActiveSupportがモンキーパッチングの良い例</li>
-<li>2.days.ago（これRubyかよ）ってのができるようになる</li>
-<li>スコープを区切ったモンキーパッチングなら良いのでは</li>
-<li>Selector namespace （Smallscript）</li>
-<li>Rubyのリファインメント
-
-<ul>
-<li>C#のエクステンションみたいな→ex.RSpec：特定のスコープだけで呼ぶ（現時点でリファインメント使ってない）</li>
-<li>既存のメソッドを置き換える</li>
-</ul>
-</li>
-<li>Structual type checkとしてのmodule（まだプロポーザル）
-
-<ul>
-<li>静的型付けとして将来的には取り込まれる可能性</li>
-</ul>
-</li>
-<li>Ruby3x3への取り組み
-
-<ul>
-<li>MJIT</li>
-<li>Rubex</li>
-<li>Fiber / Guild</li>
-<li>AutoFiber（Unicorn作った人）</li>
-</ul>
-</li>
-<li>静的型付けの取り組みも本日午後に3発表あり</li>
-<li>Matzが手を動かすというよりゴールを示すリードデザイナ</li>
-<li>RubyはMatzの言語というより我々の言語</li>
-<li>ご覧のスポンサーの提供でお送りしています(笑)ブースに行ってくれると私の顔が立つ
-
-<ul>
-<li>Heroku</li>
-<li>VASILY</li>
-<li>Sansan</li>
-<li>Speee</li>
-<li>RakSul</li>
-<li>リクルートマーケティングパートナーズ</li>
-<li>Linkers</li>
-</ul>
-</li>
-</ul>
-
 
 <p>こっから先は話聞くのをメインにしてたので細かくはメモとってなかったので気になる所だけ…</p>
 
-<h2>An introduction and future of Ruby coverage library : Yusuke Endoh @mametter</h2>
+<h2 id="an-introduction-and-future-of-ruby-coverage-library--yusuke-endoh-mametter">An introduction and future of Ruby coverage library : Yusuke Endoh @mametter</h2>
 
 <ul>
-<li>カバレッジの種類にも色々ある
+  <li>カバレッジの種類にも色々ある
+    <ul>
+      <li>条件true/false両方をカバー</li>
+      <li>LINEカバレッジだと後置ifなど見逃すケースも</li>
+    </ul>
+  </li>
+  <li>カバレッジをゴールにするのはよくない</li>
+  <li>SimpleCovはcoverage.soのラッパー</li>
+</ul>
+
+<h2 id="improve-extension-api-c-as-better-language-for-extension--kouhei-sutou-ktou">Improve extension API: C++ as better language for extension : Kouhei Sutou @ktou</h2>
 
 <ul>
-<li>条件true/false両方をカバー</li>
-<li>LINEカバレッジだと後置ifなど見逃すケースも</li>
-</ul>
-</li>
-<li>カバレッジをゴールにするのはよくない</li>
-<li>SimpleCovはcoverage.soのラッパー</li>
+  <li>高速化の為にはC/C++とRubyを行ったり来たりしないこと</li>
+  <li>C++11
+    <ul>
+      <li>型推論auto</li>
+      <li>ラムダ式</li>
+    </ul>
+  </li>
+  <li>遅延メソッド定義</li>
 </ul>
 
-
-<h2>Improve extension API: C++ as better language for extension : Kouhei Sutou @ktou</h2>
+<h2 id="automated-type-contracts-generation-for-ruby--valentin-fondaratov-rubymine">Automated Type Contracts Generation for Ruby : Valentin Fondaratov @rubymine</h2>
 
 <ul>
-<li>高速化の為にはC/C++とRubyを行ったり来たりしないこと</li>
-<li>C++11
+  <li>JetBrainsの中の人の静的解析の話</li>
+  <li>RubyMineの各プロジェクトのテストコードをクラウド化して情報集める的な（たしか）</li>
+</ul>
+
+<h2 id="type-checking-ruby-programs-with-annotations--soutaro-matsumoto-soutaro">Type Checking Ruby Programs with Annotations : Soutaro Matsumoto @soutaro</h2>
 
 <ul>
-<li>型推論auto</li>
-<li>ラムダ式</li>
-</ul>
-</li>
-<li>遅延メソッド定義</li>
+  <li>ずっと前から色々型チェック関連やってる人</li>
+  <li><a href="https://github.com/soutaro/steep">Steep</a></li>
 </ul>
 
-
-<h2>Automated Type Contracts Generation for Ruby : Valentin Fondaratov @rubymine</h2>
+<h2 id="bending-the-curve-putting-rust-in-ruby-with-helix--godfrey-chan-chancancode--terence-lee-hone02">Bending The Curve: Putting Rust in Ruby with Helix : Godfrey Chan @chancancode / Terence Lee @hone02</h2>
 
 <ul>
-<li>JetBrainsの中の人の静的解析の話</li>
-<li>RubyMineの各プロジェクトのテストコードをクラウド化して情報集める的な（たしか）</li>
+  <li>Herokuの中の人＆もうすぐ中の人（デカい外人もHerokuの中の人）</li>
+  <li>RustでRubyのライブラリ作ろう的な <a href="https://github.com/tildeio/helix">https://github.com/tildeio/helix</a></li>
 </ul>
-
-
-<h2>Type Checking Ruby Programs with Annotations : Soutaro Matsumoto @soutaro</h2>
-
-<ul>
-<li>ずっと前から色々型チェック関連やってる人</li>
-<li><a href="https://github.com/soutaro/steep">Steep</a></li>
-</ul>
-
-
-<h2>Bending The Curve: Putting Rust in Ruby with Helix : Godfrey Chan @chancancode / Terence Lee @hone02</h2>
-
-<ul>
-<li>Herokuの中の人＆もうすぐ中の人（デカい外人もHerokuの中の人）</li>
-<li>RustでRubyのライブラリ作ろう的な <a href="https://github.com/tildeio/helix">https://github.com/tildeio/helix</a></li>
-</ul>
-
 </div>
   
   
@@ -1568,8 +1442,6 @@ JavaScriptの性質上、しょうがない側面も大きいかなと思いつ�
 
 
 
-  
-
 
 <time datetime="2017-07-19T19:00:00+09:00" pubdate data-updated="true">Jul 19<span>th</span>, 2017</time>
         
@@ -1582,19 +1454,15 @@ JavaScriptの性質上、しょうがない側面も大きいかなと思いつ�
 というイベントに参加してきました。</p>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">久々サムライインキュベートなう <a href="https://t.co/H9RSzbhKfQ">pic.twitter.com/H9RSzbhKfQ</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/887250994463203328">2017年7月18日</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>私はエンジニアで本来参加対象者って感じではないんですが、参加した目的は以下でした。</p>
 
 <ul>
-<li>参加者がエグゼクティブ向けプログラミング教育のターゲットとなる可能性のある人なので、話してニーズがあるかを確認する</li>
-<li>起業家にどれだけプログラミングスキルが求められる温度感なのか確認する</li>
-<li>今進めているプログラミング教育メディアの構想の壁打ちをしてみる</li>
+  <li>参加者がエグゼクティブ向けプログラミング教育のターゲットとなる可能性のある人なので、話してニーズがあるかを確認する</li>
+  <li>起業家にどれだけプログラミングスキルが求められる温度感なのか確認する</li>
+  <li>今進めているプログラミング教育メディアの構想の壁打ちをしてみる</li>
 </ul>
-
 
 <hr />
 
@@ -1620,18 +1488,16 @@ JavaScriptの性質上、しょうがない側面も大きいかなと思いつ�
 <p>あとは以下、昨晩のメモと感じたことを箇条書きで記しておきます。</p>
 
 <ul>
-<li>アメリカにはプログラミングスクール女子校がある</li>
+  <li>アメリカにはプログラミングスクール女子校がある</li>
 </ul>
-
 
 <p>女性向けサービス開発を行う上で女性の感性が必要なので女性がプログラミングスキルを身に着けて起業家になる女子校があるそう。
 嫁に運営やらせたら面白いかも？とちょっと思いました。
 こういうニッチに特化した方が集客しやすい側面がありそう。</p>
 
 <ul>
-<li>エンジニアを起業家にする教育を施す学校のニーズは一定あるかも？</li>
+  <li>エンジニアを起業家にする教育を施す学校のニーズは一定あるかも？</li>
 </ul>
-
 
 <p>登壇していた<a href="http://gsacademy.tokyo/">G’sアカデミー</a>も起業家向けのプログラミング教育を行ってますが、
 むしろエンジニア界隈で最近主流になってきているプロダクトマネージャーの流れで、
@@ -1640,18 +1506,16 @@ JavaScriptの性質上、しょうがない側面も大きいかなと思いつ�
 <p>その延長線で、エンジニアを起業家にする教育を施す起業家養成学校をやったらニーズはありそうな気がしたんですがどうでしょう。</p>
 
 <ul>
-<li>和田さん曰く「プログラミングとエンジニアリングは分けて考えている」</li>
+  <li>和田さん曰く「プログラミングとエンジニアリングは分けて考えている」</li>
 </ul>
-
 
 <p>最低限動くモノづくりができるというプログラミングと、より良い設計やコードといった高度なエンジニアリングとは分けて考えている、
 ということ。
 CEOはプログラミングはできるべき、エンジニアリングまでは必要ない、とのこと。この主張は分かりやすく共感できた。</p>
 
 <ul>
-<li>G&#8217;sアカデミー児玉さん曰く「スクールの立ち上げに複数関わってきた経験から言えば、集客は難しい。良い講師を揃えれば生徒が集まるかというとそうでもなく工夫が必要」</li>
+  <li>G&#8217;sアカデミー児玉さん曰く「スクールの立ち上げに複数関わってきた経験から言えば、集客は難しい。良い講師を揃えれば生徒が集まるかというとそうでもなく工夫が必要」</li>
 </ul>
-
 
 <p>直感的に経験からの重い言葉と理解しました。
 個人的にはスクール立ち上げの経験がないので実感としてはまだ分からないですが、
@@ -1685,8 +1549,6 @@ CEOはプログラミングはできるべき、エンジニアリングまで�
 
 
 
-  
-
 
 <time datetime="2017-05-22T21:02:41+09:00" pubdate data-updated="true">May 22<span>nd</span>, 2017</time>
         
@@ -1702,9 +1564,9 @@ CEOはプログラミングはできるべき、エンジニアリングまで�
 
 <p>さて本題ですが、このWINGSプロジェクトの主催者である山田祥寛さん著「Ruby on Rails 5 アプリケーションプログラミング」という技術書を献本頂いたのでレビューを書きます。</p>
 
-<p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/4774188832/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4774188832&linkCode=as2&tag=athome0a-22&linkId=c0d7575094675a2af0c9a951687667f7"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4774188832&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=4774188832" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+<p><a target="_blank" href="https://www.amazon.co.jp/gp/product/4774188832/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=4774188832&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=c0d7575094675a2af0c9a951687667f7"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=4774188832&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=athome0a-22" /></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=4774188832" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 
-<h2>網羅性が高い</h2>
+<h2 id="網羅性が高い">網羅性が高い</h2>
 
 <p>全体的にRailsの機能をまんべんなく解説しています。
 たとえばDBから動的にセレクトボックスを生成するoptions_from_collection_for_selectビューヘルパーなど、かなり広範囲にカバーされている印象でした。
@@ -1712,42 +1574,42 @@ CEOはプログラミングはできるべき、エンジニアリングまで�
 さらに、フロントエンドの開発のところで、CoffeeScriptには三項演算子がないなど、CoffeeScriptの基本的な文法まで触れられているのでRubyしか触ったことがない人にとってもこれ1冊でRailsの基礎を身につけることがある程度できそうです。
 あとscss -iでSCSSがインタラクティブモードで起動できるとか実は初めて知ったことも書いてありましたｗ</p>
 
-<h2>解説が分かりやすい(特に解説図)</h2>
+<h2 id="解説が分かりやすい特に解説図">解説が分かりやすい(特に解説図)</h2>
 
 <p>専属テクニカルライターとしてキャリアの長い山田さんならではの分かりやすい解説が特徴かと。
 Rails初心者が読んでも非常に分かりやすいと思います。
 また、ところどころで差し込まれている解説図が直感的に理解しやすいもので感心しました。</p>
 
-<h2>随所にRails5以前のバージョンの知見が散りばめられている</h2>
+<h2 id="随所にrails5以前のバージョンの知見が散りばめられている">随所にRails5以前のバージョンの知見が散りばめられている</h2>
 
 <p>NOTEとしてRails5以前だとどうだったかの解説があります。
 たとえばStrong Parametersの解説など、3系・4系のバージョンと絡めてRails5への理解を深める解説が散りばめられています。</p>
 
-<h2>註釈が結構細かい</h2>
+<h2 id="註釈が結構細かい">註釈が結構細かい</h2>
 
 <p>右側が本文、左側の余白に様々な註釈があり、知識を補強する解説が掲載されています。
 結構かゆいところに手が届く感じの註釈が多い感じで表層的な理解に留まらず背景知識も深く理解できそうです。</p>
 
-<h2>環境構築はちょっと注意が必要</h2>
+<h2 id="環境構築はちょっと注意が必要">環境構築はちょっと注意が必要</h2>
 
 <p>環境構築がWindowsとLinux両方をサポートしているのですが、Railsをガチで開発する場合結構Macで開発することが実際多いかなと。
 Macでの手順の記述がないのはちょっと残念な印象です。
 また、Railsも直接gemをインストールしていますが、実践的にはrbenvでRubyをインストールしてbundler経由でRailsをプロジェクトローカルにインストールすることがほとんどなので、その辺のデファクトが分かっていない人にとってはちょっと注意が必要かなと。
 まぁ、そもそも上級者向けの書籍ではないのでその辺は当初から割愛しているのかな、とは思いますが。</p>
 
-<h2>Action Cableの詳細解説がない</h2>
+<h2 id="action-cableの詳細解説がない">Action Cableの詳細解説がない</h2>
 
 <p>Rails5の目玉機能の1つにAction Cableがあることはサラっと触れられているのですが、残念ながら詳細の解説がないです。
 この辺はページ数の関係で省略したんでしょうか。まぁこれちゃんと説明すると結構面倒なんですよねｗ</p>
 
-<h2>総評</h2>
+<h2 id="総評">総評</h2>
 
 <p>個人的には網羅性と分かりやすさの観点で、初心者を脱却しつつある方が体系的にRailsを捉え直すのにちょうど良い書籍かなと。
 全くの私見ですが個人的にはパーフェクトRuby on Railsより分かりやすい印象ですｗ</p>
 
-<p><a target="_blank"  href="https://www.amazon.co.jp/gp/product/4774188832/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4774188832&linkCode=as2&tag=athome0a-22&linkId=c0d7575094675a2af0c9a951687667f7"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4774188832&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=4774188832" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-<a target="_blank"  href="https://www.amazon.co.jp/gp/product/4774165166/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4774165166&linkCode=as2&tag=athome0a-22&linkId=37d1c46125129eacafd60a4a7f4fa96d"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4774165166&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=4774165166" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-<a target="_blank"  href="https://www.amazon.co.jp/gp/product/4774189774/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4774189774&linkCode=as2&tag=athome0a-22&linkId=ff1909afe5cc88049c9d1fce1130803c"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4774189774&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=athome0a-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&l=am2&o=9&a=4774189774" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+<p><a target="_blank" href="https://www.amazon.co.jp/gp/product/4774188832/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=4774188832&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=c0d7575094675a2af0c9a951687667f7"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=4774188832&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=athome0a-22" /></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=4774188832" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a target="_blank" href="https://www.amazon.co.jp/gp/product/4774165166/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=4774165166&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=37d1c46125129eacafd60a4a7f4fa96d"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=4774165166&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=athome0a-22" /></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=4774165166" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a target="_blank" href="https://www.amazon.co.jp/gp/product/4774189774/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=4774189774&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=ff1909afe5cc88049c9d1fce1130803c"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=4774189774&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=athome0a-22" /></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=4774189774" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 </div>
   
   
@@ -1773,8 +1635,6 @@ Macでの手順の記述がないのはちょっと残念な印象です。
 
 
 
-  
-
 
 <time datetime="2016-09-08T10:17:39+09:00" pubdate data-updated="true">Sep 8<span>th</span>, 2016</time>
         
@@ -1785,133 +1645,117 @@ Macでの手順の記述がないのはちょっと残念な印象です。
 
   <div class="entry-content"><p>聞きながらの自分用メモなのでちょっと正確でない点がありそうですが。</p>
 
-<h2>Ruby3 presented by matz</h2>
-
+<h2 id="ruby3-presented-by-matz">Ruby3 presented by matz</h2>
 <ul>
-<li>Typingの話</li>
-<li>SmallTalk→Java→Ruby,JavaScript→Swift,Go→？</li>
-<li>近視眼的な判断で静的型付けを選択するのは危険</li>
-<li>そもそも未来の型とは？</li>
-<li>Duck typing: アヒルが歩くように。アヒルのように振る舞えばOK</li>
-<li>Duckとは期待される振る舞い</li>
-<li>プログラマのメンタルコストを下げたい</li>
-<li>GoのStructual SubtypingはNominal Subtypingより良さ気</li>
-<li>Rubyには歴史的にこれまで型指定がない</li>
-<li>動的型付けの欠点もある</li>
-<li>エラーメッセージが親切じゃない</li>
-<li>型は絶対に書きたくない(会場笑) DRYじゃないし</li>
-<li>Type Annotation,Mixed/Gradual Typingはダメなアイディア</li>
-<li>人にお願いするんじゃなくて技術で解決したいよね</li>
-<li>型推論は素晴らしい</li>
-<li>インタフェース書きたくない</li>
-<li>型の名前を決めるのは結構なコスト。振る舞いがわかっていれば名前を付けたくない</li>
-<li>振る舞いを決める型のデータベースのようなものと型推論を組み合わせると80%くらいは推論可能では</li>
-<li>オープンクラスとかで再定義しちゃうと型推論無効に</li>
-<li>型データベースをgem化して利用して型推論の精度向上とか</li>
-<li>ダックタイピングを維持して型推論をRubyらしく行う</li>
-<li>これらの構想はすべてRubyistが楽しく生産性を維持できるために検討していること</li>
-<li>Ruby3はいつか？ I don&rsquo;t know.(会場笑)</li>
-<li>次の東京オリンピックの時にはRuby3あると良いなぁ</li>
-<li>OSSコミュニティは前に進めないとつまらない。前に進めるためには何でもやる</li>
+  <li>Typingの話</li>
+  <li>SmallTalk→Java→Ruby,JavaScript→Swift,Go→？</li>
+  <li>近視眼的な判断で静的型付けを選択するのは危険</li>
+  <li>そもそも未来の型とは？</li>
+  <li>Duck typing: アヒルが歩くように。アヒルのように振る舞えばOK</li>
+  <li>Duckとは期待される振る舞い</li>
+  <li>プログラマのメンタルコストを下げたい</li>
+  <li>GoのStructual SubtypingはNominal Subtypingより良さ気</li>
+  <li>Rubyには歴史的にこれまで型指定がない</li>
+  <li>動的型付けの欠点もある</li>
+  <li>エラーメッセージが親切じゃない</li>
+  <li>型は絶対に書きたくない(会場笑) DRYじゃないし</li>
+  <li>Type Annotation,Mixed/Gradual Typingはダメなアイディア</li>
+  <li>人にお願いするんじゃなくて技術で解決したいよね</li>
+  <li>型推論は素晴らしい</li>
+  <li>インタフェース書きたくない</li>
+  <li>型の名前を決めるのは結構なコスト。振る舞いがわかっていれば名前を付けたくない</li>
+  <li>振る舞いを決める型のデータベースのようなものと型推論を組み合わせると80%くらいは推論可能では</li>
+  <li>オープンクラスとかで再定義しちゃうと型推論無効に</li>
+  <li>型データベースをgem化して利用して型推論の精度向上とか</li>
+  <li>ダックタイピングを維持して型推論をRubyらしく行う</li>
+  <li>これらの構想はすべてRubyistが楽しく生産性を維持できるために検討していること</li>
+  <li>Ruby3はいつか？ I don&#8217;t know.(会場笑)</li>
+  <li>次の東京オリンピックの時にはRuby3あると良いなぁ</li>
+  <li>OSSコミュニティは前に進めないとつまらない。前に進めるためには何でもやる</li>
 </ul>
 
-
-<h2>dRuby presented by @m_seki</h2>
-
+<h2 id="druby-presented-by-m_seki">dRuby presented by @m_seki</h2>
 <ul>
-<li>dRubyが生まれたのは1999年</li>
-<li>dRubyはオーパーツ</li>
-<li>shttpsrv: WEBrickより前のRuby製webサーバ</li>
-<li>Rubyのように振る舞う分散オブジェクト</li>
-<li>DRb.start_serviceだけでdRubyの準備可能</li>
-<li>サーバーとクライアントが入れ替わる例</li>
-<li>OOPっぽい感じ</li>
-<li>Queueを使って待合せのデモ</li>
-<li>dRubyはtwitterのプロトタイピングでdRuby/Rindaだったらしい</li>
-<li>プロトタイピングとしての利用価値がある気がする</li>
-<li>セキュリティ系メソッドは消してしまいたい。危ないものは危なく見えるべき</li>
+  <li>dRubyが生まれたのは1999年</li>
+  <li>dRubyはオーパーツ</li>
+  <li>shttpsrv: WEBrickより前のRuby製webサーバ</li>
+  <li>Rubyのように振る舞う分散オブジェクト</li>
+  <li>DRb.start_serviceだけでdRubyの準備可能</li>
+  <li>サーバーとクライアントが入れ替わる例</li>
+  <li>OOPっぽい感じ</li>
+  <li>Queueを使って待合せのデモ</li>
+  <li>dRubyはtwitterのプロトタイピングでdRuby/Rindaだったらしい</li>
+  <li>プロトタイピングとしての利用価値がある気がする</li>
+  <li>セキュリティ系メソッドは消してしまいたい。危ないものは危なく見えるべき</li>
 </ul>
 
-
-<h2>Welcome to haconiwa presented by @udzura</h2>
-
+<h2 id="welcome-to-haconiwa-presented-by-udzura">Welcome to haconiwa presented by @udzura</h2>
 <ul>
-<li>Drone.io</li>
-<li>dockerらしいコマンドをしょっちゅう打ってた</li>
-<li>Sqaleで使ってるLXC</li>
-<li>haconiwaコマンドでRubyで書かれたプロファイル定義を実行とか</li>
-<li>hacorbコマンドとかでmrubyスクリプトのコンテナ実行</li>
-<li>cgroups的な</li>
-<li>最初はCRubyで実装</li>
-<li>システムコール扱うのに色々嵌ったのでmruby実装へ</li>
-<li>mrubyはコンテナが取り扱うシステムコールをサポートしてるので使いやすい</li>
+  <li>Drone.io</li>
+  <li>dockerらしいコマンドをしょっちゅう打ってた</li>
+  <li>Sqaleで使ってるLXC</li>
+  <li>haconiwaコマンドでRubyで書かれたプロファイル定義を実行とか</li>
+  <li>hacorbコマンドとかでmrubyスクリプトのコンテナ実行</li>
+  <li>cgroups的な</li>
+  <li>最初はCRubyで実装</li>
+  <li>システムコール扱うのに色々嵌ったのでmruby実装へ</li>
+  <li>mrubyはコンテナが取り扱うシステムコールをサポートしてるので使いやすい</li>
 </ul>
 
-
-<h2>A proposal of new concurrency model for Ruby 3 presented by @ko1</h2>
-
+<h2 id="a-proposal-of-new-concurrency-model-for-ruby-3-presented-by-ko1">A proposal of new concurrency model for Ruby 3 presented by @ko1</h2>
 <ul>
-<li>資料
-
-<ul>
-<li><a href="http://www.atdot.net/~ko1/activities/2016_rubykaigi.pdf">スライド</a></li>
-<li><a href="http://www.atdot.net/~ko1/diary/201609.html#d6">日本語スクリプト</a></li>
-</ul>
-</li>
-<li>Ruby 3に取り入れられたいと思う並列プログラミングについて</li>
-<li>C言語のポインタと比較するとRubyはGCあるのでハッピープログラムできる</li>
-<li>data raceやrace conditionが発生する例を通してスレッドセーフなプログラミングが如何に難しいかを知る</li>
-<li>Mutexを利用して同期を取るのはバグと性能低下の狭間にある</li>
-<li>Ruby 3ではGuild(ギルド)というスレッドにかわる新たな概念を提案</li>
-<li>Guildは複数スレッドを含む上位概念的なもの</li>
-<li>複数のGuild間での可変オブジェクト受け渡しにはチャネルを使ってコピーするか移籍(transfer membership)という新しい概念で</li>
-<li>Guild内のスレッド間はスレッドセーフが保証される</li>
-<li>これらのGuildの概念でRuby 3で実現したい並列プログラミングのゴールをすべて満たす感じに</li>
-<li>Guild概念導入でスレッドセーフが保証されないキモいコードを書けないようにする方向性</li>
+  <li>資料
+    <ul>
+      <li><a href="http://www.atdot.net/~ko1/activities/2016_rubykaigi.pdf">スライド</a></li>
+      <li><a href="http://www.atdot.net/~ko1/diary/201609.html#d6">日本語スクリプト</a></li>
+    </ul>
+  </li>
+  <li>Ruby 3に取り入れられたいと思う並列プログラミングについて</li>
+  <li>C言語のポインタと比較するとRubyはGCあるのでハッピープログラムできる</li>
+  <li>data raceやrace conditionが発生する例を通してスレッドセーフなプログラミングが如何に難しいかを知る</li>
+  <li>Mutexを利用して同期を取るのはバグと性能低下の狭間にある</li>
+  <li>Ruby 3ではGuild(ギルド)というスレッドにかわる新たな概念を提案</li>
+  <li>Guildは複数スレッドを含む上位概念的なもの</li>
+  <li>複数のGuild間での可変オブジェクト受け渡しにはチャネルを使ってコピーするか移籍(transfer membership)という新しい概念で</li>
+  <li>Guild内のスレッド間はスレッドセーフが保証される</li>
+  <li>これらのGuildの概念でRuby 3で実現したい並列プログラミングのゴールをすべて満たす感じに</li>
+  <li>Guild概念導入でスレッドセーフが保証されないキモいコードを書けないようにする方向性</li>
 </ul>
 
-
-<h2>Isomorphic web programming in Ruby presented by @youchan</h2>
-
+<h2 id="isomorphic-web-programming-in-ruby-presented-by-youchan">Isomorphic web programming in Ruby presented by @youchan</h2>
 <ul>
-<li>去年はHyaliteの話をした</li>
-<li>Menilite: クライアントサイドでもARとか使える的な(JS嫌いなのでw)</li>
-<li>デモ、デモ、ひたすらデモ</li>
+  <li>去年はHyaliteの話をした</li>
+  <li>Menilite: クライアントサイドでもARとか使える的な(JS嫌いなのでw)</li>
+  <li>デモ、デモ、ひたすらデモ</li>
 </ul>
 
-
-<h2>Unifying Fixnum and Bignum into Integer presented by @tanaka_akr</h2>
-
+<h2 id="unifying-fixnum-and-bignum-into-integer-presented-by-tanaka_akr">Unifying Fixnum and Bignum into Integer presented by @tanaka_akr</h2>
 <ul>
-<li>Ruby 2.4ではFixnum,BignumクラスがなくなりIntegerに統合</li>
-<li>環境によってFixnumが扱えるサイズは異なる
-
-<ul>
-<li>手元の環境(OS X Yosemite)だと(2<strong>62-1).classはFixnum,(2</strong>62).classはBignum</li>
-</ul>
-</li>
-<li>Fixnum,BignumはCommon Lispから来てる</li>
-<li>以下のコード無限ループになるけど許容するしか。
+  <li>Ruby 2.4ではFixnum,BignumクラスがなくなりIntegerに統合</li>
+  <li>環境によってFixnumが扱えるサイズは異なる
+    <ul>
+      <li>手元の環境(OS X Yosemite)だと(2<strong>62-1).classはFixnum,(2</strong>62).classはBignum</li>
+    </ul>
+  </li>
+  <li>Fixnum,BignumはCommon Lispから来てる</li>
+  <li>以下のコード無限ループになるけど許容するしか。
 max = 1
 max *= 2 if max.class == Fixnum
 puts max</li>
-<li>教育的に分かりやすい、数学的にも正しい、とmatzに押し込んだ</li>
+  <li>教育的に分かりやすい、数学的にも正しい、とmatzに押し込んだ</li>
 </ul>
 
-
-<h2>Scalable job queue system built with Docker presented by @k0kubun</h2>
-
+<h2 id="scalable-job-queue-system-built-with-docker-presented-by-k0kubun">Scalable job queue system built with Docker presented by @k0kubun</h2>
 <ul>
-<li>coockpadでrails開発者の開発効率を向上する為の開発</li>
-<li>RubyKaigiでrailsの話をすると怒られる</li>
-<li>syoryukenってgemはSQSをジョブキューとして使うやつ</li>
-<li>barbequeを作った</li>
-<li>web consoleもあるよ(rails製)</li>
-<li>kuroko2という社内のクローズツールが秀逸すぎたので本来ジョブキュー使うべきところでも出番なし</li>
-<li>kuroko2はOSS化進めてる</li>
-<li>ECSとAutoScalingグループでスケールを自動化</li>
+  <li>coockpadでrails開発者の開発効率を向上する為の開発</li>
+  <li>RubyKaigiでrailsの話をすると怒られる</li>
+  <li>syoryukenってgemはSQSをジョブキューとして使うやつ</li>
+  <li>barbequeを作った</li>
+  <li>web consoleもあるよ(rails製)</li>
+  <li>kuroko2という社内のクローズツールが秀逸すぎたので本来ジョブキュー使うべきところでも出番なし</li>
+  <li>kuroko2はOSS化進めてる</li>
+  <li>ECSとAutoScalingグループでスケールを自動化</li>
 </ul>
-
 </div>
   
   
@@ -1937,8 +1781,6 @@ puts max</li>
 
 
 
-  
-
 
 <time datetime="2016-07-04T19:38:50+09:00" pubdate data-updated="true">Jul 4<span>th</span>, 2016</time>
         
@@ -1953,157 +1795,129 @@ puts max</li>
 
 <p>最初は自分用の箇条書きとして書いてたのでちょっと読みづらいかもですがご容赦を…</p>
 
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftchikuba%2Fposts%2F1075437859197673&width=500" width="500" height="371" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftchikuba%2Fposts%2F1075437859197673&amp;width=500" width="500" height="371" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
 
+<h2 id="ビズリーチレイハウオリ竹内さん">ビズリーチ/レイハウオリ<a href="https://www.facebook.com/shin.takeuchi">竹内さん</a></h2>
 
-<h2>ビズリーチ/レイハウオリ<a href="https://www.facebook.com/shin.takeuchi">竹内さん</a></h2>
-
-<h3>はじめに</h3>
-
+<h3 id="はじめに">はじめに</h3>
 <ul>
-<li>ビズリーチ最近CMやってるらしい</li>
-<li>CTOを1年前に退任した理由
-
-<ul>
-<li>マネジメントの割合が大きくなる</li>
-<li>エンジニアが自由に研究開発するのもお金がないと</li>
-<li>そのための事業創造したい</li>
-</ul>
-</li>
+  <li>ビズリーチ最近CMやってるらしい</li>
+  <li>CTOを1年前に退任した理由
+    <ul>
+      <li>マネジメントの割合が大きくなる</li>
+      <li>エンジニアが自由に研究開発するのもお金がないと</li>
+      <li>そのための事業創造したい</li>
+    </ul>
+  </li>
 </ul>
 
-
-<h3>うまくいくCTOとうまくいかないCTOの10の違い</h3>
-
+<h3 id="うまくいくctoとうまくいかないctoの10の違い">うまくいくCTOとうまくいかないCTOの10の違い</h3>
 <ul>
-<li>(1)なんでも作れる技術力
-
-<ul>
-<li>人間力があって技術力はそこそこだと超技術力があるエンジニアに尊敬されない</li>
-</ul>
-</li>
-<li>(2)技術を手段として使える
-
-<ul>
-<li>技術を目的化した発言する人は経営陣が耳を貸さない</li>
-</ul>
-</li>
-<li>(3)経済のルールに争わない</li>
-<li>(4)何よりも人を大切にできる
-
-<ul>
-<li>5-10人くらいに増えるタイミングで引っかかるCTOが多い</li>
-</ul>
-</li>
-<li>(5)ビジネス人格
-
-<ul>
-<li>キャラ設定が必要</li>
-<li>人格とか</li>
-</ul>
-</li>
-<li>(6)本気で社長と対立しない
-
-<ul>
-<li>社長が非エンジニアだとムカつくことしか言わない</li>
-<li>人間は動物だと思って悟りを開いた→社長が可愛くみえてくる</li>
-<li>しょうがないしょうがない</li>
-</ul>
-</li>
-<li>(7)発信力</li>
-<li>(8)外交力</li>
-<li>(9)株/SOの交渉ができる
-
-<ul>
-<li>ちゃんと取らないとダメ</li>
-<li>最低5%は取らないと→希薄されても2,3%とか</li>
-<li>1%だったら辞める</li>
-<li>蓋開けるとCFOがいっぱい持ってたのが通例なのでCFOなんかに負けないように頑張りましょう</li>
-</ul>
-</li>
-<li>(10)何があっても辞めない
-
-<ul>
-<li>辞めない、という前提に立つと価値観を変えないといけない場面がある</li>
-</ul>
-</li>
+  <li>(1)なんでも作れる技術力
+    <ul>
+      <li>人間力があって技術力はそこそこだと超技術力があるエンジニアに尊敬されない</li>
+    </ul>
+  </li>
+  <li>(2)技術を手段として使える
+    <ul>
+      <li>技術を目的化した発言する人は経営陣が耳を貸さない</li>
+    </ul>
+  </li>
+  <li>(3)経済のルールに争わない</li>
+  <li>(4)何よりも人を大切にできる
+    <ul>
+      <li>5-10人くらいに増えるタイミングで引っかかるCTOが多い</li>
+    </ul>
+  </li>
+  <li>(5)ビジネス人格
+    <ul>
+      <li>キャラ設定が必要</li>
+      <li>人格とか</li>
+    </ul>
+  </li>
+  <li>(6)本気で社長と対立しない
+    <ul>
+      <li>社長が非エンジニアだとムカつくことしか言わない</li>
+      <li>人間は動物だと思って悟りを開いた→社長が可愛くみえてくる</li>
+      <li>しょうがないしょうがない</li>
+    </ul>
+  </li>
+  <li>(7)発信力</li>
+  <li>(8)外交力</li>
+  <li>(9)株/SOの交渉ができる
+    <ul>
+      <li>ちゃんと取らないとダメ</li>
+      <li>最低5%は取らないと→希薄されても2,3%とか</li>
+      <li>1%だったら辞める</li>
+      <li>蓋開けるとCFOがいっぱい持ってたのが通例なのでCFOなんかに負けないように頑張りましょう</li>
+    </ul>
+  </li>
+  <li>(10)何があっても辞めない
+    <ul>
+      <li>辞めない、という前提に立つと価値観を変えないといけない場面がある</li>
+    </ul>
+  </li>
 </ul>
 
+<h2 id="base藤川えふしんさん---モバツイでceoctoをやってた頃の振り返り">BASE<a href="https://www.facebook.com/fshin2000">藤川(えふしん)さん</a> &ndash; モバツイでCEO/CTOをやってた頃の振り返り</h2>
 
-<h2>BASE<a href="https://www.facebook.com/fshin2000">藤川(えふしん)さん</a> &ndash; モバツイでCEO/CTOをやってた頃の振り返り</h2>
-
-<h3>CTOがエースエンジニアであり続ける問題</h3>
-
+<h3 id="ctoがエースエンジニアであり続ける問題">CTOがエースエンジニアであり続ける問題</h3>
 <ul>
-<li>AWS運用で工数取られる</li>
-<li>CTOは自分よりも技術的に優れた人間を探すべき</li>
-<li>CTOが技術を触って良いのはコアコンピタンスだけに絞る</li>
-<li>人工知能系CTOとか育成問題に悩む</li>
+  <li>AWS運用で工数取られる</li>
+  <li>CTOは自分よりも技術的に優れた人間を探すべき</li>
+  <li>CTOが技術を触って良いのはコアコンピタンスだけに絞る</li>
+  <li>人工知能系CTOとか育成問題に悩む</li>
 </ul>
 
-
-<h3>足回りと未来をつくるコンフリクト</h3>
-
+<h3 id="足回りと未来をつくるコンフリクト">足回りと未来をつくるコンフリクト</h3>
 <ul>
-<li>余裕がなさすぎてやるべきことを理解できてなかった</li>
-<li>現状維持バイアスを捨てるべき</li>
+  <li>余裕がなさすぎてやるべきことを理解できてなかった</li>
+  <li>現状維持バイアスを捨てるべき</li>
 </ul>
 
-
-<h3>BASEでは</h3>
-
+<h3 id="baseでは">BASEでは</h3>
 <ul>
-<li>コードを書かない宣言</li>
-<li>社長のビジョンを支える立ち位置</li>
-<li>マイクロマネジメントの罠にハマっていないか</li>
-<li>港区には近寄らない(夜の街)</li>
+  <li>コードを書かない宣言</li>
+  <li>社長のビジョンを支える立ち位置</li>
+  <li>マイクロマネジメントの罠にハマっていないか</li>
+  <li>港区には近寄らない(夜の街)</li>
 </ul>
 
+<h2 id="パネルディスカッション">パネルディスカッション</h2>
 
-<h2>パネルディスカッション</h2>
-
-<h3>CTOを辞めた理由</h3>
-
+<h3 id="ctoを辞めた理由">CTOを辞めた理由</h3>
 <ul>
-<li>営業が強くてエンジニアの立場がない</li>
-<li>新しい働き方や新しいサービスを自分でやってみたくなった</li>
-<li>社長と合わなかった、最後何かが切れる音がした感じ</li>
-<li>エンジニアよりデータサイエンティストが大事でエンジニア育てる文化がなかった、頭の悪い経営陣</li>
+  <li>営業が強くてエンジニアの立場がない</li>
+  <li>新しい働き方や新しいサービスを自分でやってみたくなった</li>
+  <li>社長と合わなかった、最後何かが切れる音がした感じ</li>
+  <li>エンジニアよりデータサイエンティストが大事でエンジニア育てる文化がなかった、頭の悪い経営陣</li>
 </ul>
 
-
-<h3>もしCTOをやり直すなら</h3>
-
+<h3 id="もしctoをやり直すなら">もしCTOをやり直すなら</h3>
 <ul>
-<li>もっと人を見る、リスクを負ってでも入れてくれるか、SOとか</li>
-<li>早目に人を入れればよかった</li>
-<li>なんでも自分でやっちゃう、もっと優先度高い仕事できれば、採用をもっと任せればよかった</li>
-<li>IPOとか長く続く会社とかやってみたいと思う、スポットライトは2年半で売却、IPO3%,10%,1/3とか</li>
+  <li>もっと人を見る、リスクを負ってでも入れてくれるか、SOとか</li>
+  <li>早目に人を入れればよかった</li>
+  <li>なんでも自分でやっちゃう、もっと優先度高い仕事できれば、採用をもっと任せればよかった</li>
+  <li>IPOとか長く続く会社とかやってみたいと思う、スポットライトは2年半で売却、IPO3%,10%,1/3とか</li>
 </ul>
 
-
-<h3>社長(経営)との関係性</h3>
-
+<h3 id="社長経営との関係性">社長(経営)との関係性</h3>
 <ul>
-<li>CTOだったけどリードエンジニア的な振る舞いだった、あまり経営求められず</li>
-<li>営業系出身社長だと放任でコミュニケーションがとれず1on1入れたり、エンジニア出身だとマイクロマネジメントになりやすい、外部を入れると通じる</li>
-<li>飲み行く、はっきり言う関係性ができてれば良い、社長って人格に欠陥ある人多い、でも本気でいう</li>
-<li>社長が中途半端にコード書けると良くないからPHP以外の言語選んだり</li>
+  <li>CTOだったけどリードエンジニア的な振る舞いだった、あまり経営求められず</li>
+  <li>営業系出身社長だと放任でコミュニケーションがとれず1on1入れたり、エンジニア出身だとマイクロマネジメントになりやすい、外部を入れると通じる</li>
+  <li>飲み行く、はっきり言う関係性ができてれば良い、社長って人格に欠陥ある人多い、でも本気でいう</li>
+  <li>社長が中途半端にコード書けると良くないからPHP以外の言語選んだり</li>
 </ul>
 
-
-<h3>これからCTOになる人に伝えたいこと</h3>
-
+<h3 id="これからctoになる人に伝えたいこと">これからCTOになる人に伝えたいこと</h3>
 <ul>
-<li>エンジニア的な論理はプログラミング以外のところにも役立つ</li>
-<li>コミュニケーション、エンジニアだけじゃなくビジネスサイドの人とも、コミュニケーションを仕組化する、CTOは孤独だから相談する人を作っておく</li>
-<li>会社全体とかビジネスのことを考えるようになるから良い、営業の話も聞きながら技術的負債に向き合ったり</li>
-<li>マネジメント系の本とか読むとか勉強してアウトプットできるようになる、マネジメントだけどコーチングできてないとか、お互いフィードバック貰って成長・学習する</li>
+  <li>エンジニア的な論理はプログラミング以外のところにも役立つ</li>
+  <li>コミュニケーション、エンジニアだけじゃなくビジネスサイドの人とも、コミュニケーションを仕組化する、CTOは孤独だから相談する人を作っておく</li>
+  <li>会社全体とかビジネスのことを考えるようになるから良い、営業の話も聞きながら技術的負債に向き合ったり</li>
+  <li>マネジメント系の本とか読むとか勉強してアウトプットできるようになる、マネジメントだけどコーチングできてないとか、お互いフィードバック貰って成長・学習する</li>
 </ul>
 
-
-<h2>所感</h2>
-
+<h2 id="所感">所感</h2>
 <p>CTOに限らず、ビジネスサイドと近い立ち位置で仕事しているエンジニアの方なら誰もが共感できる内容だったかなと思いました。</p>
 
 <p>私自身も経験に照らし合わせて非常に共感した次第です(笑)</p>
@@ -2194,7 +2008,7 @@ puts max</li>
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2020 - tchikuba -
+  Copyright &copy; 2026 - tchikuba -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
   - <span class="credit">Theme by <a href="http://www.gehaxelt.in">Gehaxelt</a></span>
   <span class="credit">and <a href="http://www.it-solutions-neef.de">IT Solutions Neef</a></span>

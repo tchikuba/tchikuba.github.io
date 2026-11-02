@@ -4,7 +4,7 @@
   <title><![CDATA[Category: life | tchikuba's blog]]></title>
   <link href="https://tchikuba.github.io/blog/categories/life/atom.xml" rel="self"/>
   <link href="https://tchikuba.github.io/"/>
-  <updated>2020-08-07T20:51:12+09:00</updated>
+  <updated>2026-11-02T20:41:28+09:00</updated>
   <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
@@ -18,7 +18,7 @@
     <link href="https://tchikuba.github.io/blog/2019/07/06/roomba-i7/"/>
     <updated>2019-07-06T23:01:22+09:00</updated>
     <id>https://tchikuba.github.io/blog/2019/07/06/roomba-i7</id>
-    <content type="html"><![CDATA[<h2>ルンバi7+を購入したら生活の質が向上したよ</h2>
+    <content type="html"><![CDATA[<h2 id="ルンバi7を購入したら生活の質が向上したよ">ルンバi7+を購入したら生活の質が向上したよ</h2>
 
 <p>久しぶりのブログ更新はいつもとは全く違う毛色でお届けします。</p>
 
@@ -32,10 +32,9 @@
 
 <p>賃貸時も1LDKでしたがちょっと広くなったのでひとまず掃除が面倒だなぁと思っていたので、<a href="https://amzn.to/2xAs6cs">ルンバi7+</a>を購入したら思いの外、快適で費用対効果抜群だったのでルンバちゃんを褒め称える記事ですｗ</p>
 
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftchikuba%2Fposts%2F2651156554959121&width=500" width="500" height="586" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftchikuba%2Fposts%2F2651156554959121&amp;width=500" width="500" height="586" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-
-<h2>ルンバi7+をAmazonでポチった（ポチることができた）</h2>
+<h2 id="ルンバi7をamazonでポチったポチることができた">ルンバi7+をAmazonでポチった（ポチることができた）</h2>
 
 <p>なんとなく値が張る家電って、できるだけ店頭で見て買いたいみたいな思いがあったんですが、エンジニア目線で見て妙にブランディングがしっかりしているiRobot社とかダイソン社とかはAmazonでポチっても問題ないよね感あり、Amazonでポチりました。</p>
 
@@ -51,17 +50,16 @@
 
 <p>という訳でなにが言いたかったかというと、iRobot社のルンバくらいブランディングの立ち位置があるとその辺の時間削減されてユーザー的にも幸せが訪れるということ。</p>
 
-<h2>ルンバi7+の何が良いのか</h2>
+<h2 id="ルンバi7の何が良いのか">ルンバi7+の何が良いのか</h2>
 
 <p>とはいえルンバも色々と種類があってピンきりなので調べたところ、i7+が最上位モデルで以下あたりが特徴でした（認識違ってたらツッコミください）。</p>
 
 <ul>
-<li>ルンバが集めたゴミを一時的に集めておくクリーンベース付きのモデルがある</li>
-<li>ルンバ本体のダストボックスが水洗いできる（それまでのモデルは水洗いできないみたい）</li>
-<li>wifiで繋いでAlexaとも連携できる</li>
-<li>複数の部屋をちゃんと記憶できる（スマートマッピング機能）</li>
+  <li>ルンバが集めたゴミを一時的に集めておくクリーンベース付きのモデルがある</li>
+  <li>ルンバ本体のダストボックスが水洗いできる（それまでのモデルは水洗いできないみたい）</li>
+  <li>wifiで繋いでAlexaとも連携できる</li>
+  <li>複数の部屋をちゃんと記憶できる（スマートマッピング機能）</li>
 </ul>
-
 
 <p>個人的には特に最初のクリーンベースが気に入ったので迷わず最上位モデルのi7+の購入を意思決定しました。クリーンベースがないモデルだと、基本的に毎回本体のダストボックスを掃除してあげる必要があるみたいです。クリーンベースがあれば、30回分はそこに溜められるので1日1回の作業（本体の掃除）が1ヶ月に1回で済むので時間の節約になります。</p>
 
@@ -71,7 +69,7 @@
 
 <p>要はメンテナンスにもほとんど手間暇かかりません。</p>
 
-<h2>ルンバi7+のアプリ</h2>
+<h2 id="ルンバi7のアプリ">ルンバi7+のアプリ</h2>
 
 <p>アプリもよくできてると思います。気になる点は、起動後にルンバに接続するまで少し時間がかかるというのと、ルンバが汚れを検出した時に重点的に掃除する「ダートイベント」の「詳細を確認する」のリンク先がオンラインヘルプになっているんだけど、ずっと「ご利用できません」ってなってることくらいかな（関係者の方なんとかしてくだせぃ）。</p>
 
@@ -125,7 +123,7 @@
 
 <p>こんな感じで、細部はツッコミどころありましたけど、アプリもなかなかによくできている印象です。</p>
 
-<h2>ルンバi7+のコスパ最強（投資回収が早い）</h2>
+<h2 id="ルンバi7のコスパ最強投資回収が早い">ルンバi7+のコスパ最強（投資回収が早い）</h2>
 
 <p>ここが一番言いたかったことです。</p>
 
@@ -135,17 +133,23 @@
 
 <p>仮に自分で掃除するのが半分の20分と仮定すると、我が家にルンバがやってきて2ヶ月なので、</p>
 
-<blockquote><p>1/3時間(20分)×2ヶ月(60日)×時給単価(m)＝20m</p></blockquote>
+<blockquote>
+  <p>1/3時間(20分)×2ヶ月(60日)×時給単価(m)＝20m</p>
+</blockquote>
 
 <p>という数式が成り立ちます。</p>
 
 <p>本体価格が凡そ14万なので、</p>
 
-<blockquote><p>20m≧140,000</p></blockquote>
+<blockquote>
+  <p>20m≧140,000</p>
+</blockquote>
 
 <p>という不等式を解くと</p>
 
-<blockquote><p>時給単価m≧7,000円</p></blockquote>
+<blockquote>
+  <p>時給単価m≧7,000円</p>
+</blockquote>
 
 <p>が導けます（数学が日常生活で役に立った瞬間）。</p>
 
@@ -159,13 +163,13 @@
 
 <p>時間に追われるそこの奥さん！でもご主人でもなんでも良いんですけど、マジおすすめです。当然バリアフリー物件じゃないと導入しづらいってのはありますが。</p>
 
-<p><a href="https://www.amazon.co.jp/gp/product/B07NZJ4MNS/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li3&tag=athome0a-22&linkId=61d5f93aa769133d7c15310c5133d8eb&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07NZJ4MNS&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&language=ja_JP&l=li3&o=9&a=B07NZJ4MNS" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+<p><a href="https://www.amazon.co.jp/gp/product/B07NZJ4MNS/ref=as_li_ss_il?ie=UTF8&amp;psc=1&amp;linkCode=li3&amp;tag=athome0a-22&amp;linkId=61d5f93aa769133d7c15310c5133d8eb&amp;language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B07NZJ4MNS&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=athome0a-22&amp;language=ja_JP" /></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;language=ja_JP&amp;l=li3&amp;o=9&amp;a=B07NZJ4MNS" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 
-<h2>FACTFULNESS（ファクトフルネス）とルンバi7+</h2>
+<h2 id="factfulnessファクトフルネスとルンバi7">FACTFULNESS（ファクトフルネス）とルンバi7+</h2>
 
 <p>話はちょっと変わるんですが、ルンバで生活改善みたいな流れって、以前読んだファクトフルネスって書籍を思い出すんですよね。</p>
 
-<p><a href="https://www.amazon.co.jp/gp/product/B07LG7TG5N/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li3&tag=athome0a-22&linkId=1c725f447b301a5bd9f7f3ffa6a112d7&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07LG7TG5N&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=athome0a-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&language=ja_JP&l=li3&o=9&a=B07LG7TG5N" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+<p><a href="https://www.amazon.co.jp/gp/product/B07LG7TG5N/ref=as_li_ss_il?ie=UTF8&amp;psc=1&amp;linkCode=li3&amp;tag=athome0a-22&amp;linkId=1c725f447b301a5bd9f7f3ffa6a112d7&amp;language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B07LG7TG5N&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=athome0a-22&amp;language=ja_JP" /></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;language=ja_JP&amp;l=li3&amp;o=9&amp;a=B07LG7TG5N" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 
 <p>ファクトフルネスについての詳細は割愛します。簡単に言えば「世の中を事実としてちゃんと正しく認識しようね。それから、世界はよりよい方向に発展しているから無駄にネガティブにならないように気をつけよう」みたいな内容の素晴らしい書籍です。正しい国際感覚を身に着けたい人には必読の書。</p>
 
@@ -174,12 +178,11 @@
 <p>例えば歯ブラシなら以下みたいな感じです。</p>
 
 <ul>
-<li>レベル1：指で磨く</li>
-<li>レベル2：歯ブラシ（家族で1本）</li>
-<li>レベル3：歯ブラシ（1人1本）</li>
-<li>レベル4：電動歯ブラシ</li>
+  <li>レベル1：指で磨く</li>
+  <li>レベル2：歯ブラシ（家族で1本）</li>
+  <li>レベル3：歯ブラシ（1人1本）</li>
+  <li>レベル4：電動歯ブラシ</li>
 </ul>
-
 
 <p>掃除に関して言えば、ルンバが起こしたイノベーションって最早レベル4を超えてレベル5なんじゃないかと思うんですよね。</p>
 
@@ -211,230 +214,105 @@
 <hr />
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> 夫婦エンジニア系勉強会なう／【満席御礼☆増枠！】dots.女子部勉強会 vol.7 わたし、一生エンジニア宣言！～ 女性エンジニアとして長く働く秘訣 ～ <a href="https://t.co/adjBw1WsRX">https://t.co/adjBw1WsRX</a> <a href="https://t.co/aPFt6UVTge">pic.twitter.com/aPFt6UVTge</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712953224685162496">2016年3月24日</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">遠距離恋愛の参考になるのかw <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712953816107212800">2016年3月24日</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>※遠距離恋愛の参考にしたいというdots.女子部メンバーの話を受けて</p>
 
-<h2>夫婦共働きで子供がいるってどんな生活リズム？</h2>
-
+<h2 id="夫婦共働きで子供がいるってどんな生活リズム">夫婦共働きで子供がいるってどんな生活リズム？</h2>
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">6,7時に起きて1930以降に娘を迎えに行く。無認可保育園で22時夕食付き。週に1回土曜ヘルパーさんに掃除してもらってる。子供に生活リズム合わせて貰ってる感じ。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712955153498767360">2016年3月24日</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">週に1度くらいは自炊する。妻の飯はうまい <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712955613215522817">2016年3月24日</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">1930に迎えに行く。市立の保育園。仕事は自宅でも出来る感じ。最短で22時に寝室に連れて行くがなかなか寝ない。自炊は好きな方で週3,4は自宅で食べるよう努力してる。子供生まれる前は2330くらいまで仕事でコード書いてた。早く帰れないと思ったが何とかなってる <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712956654203981824">2016年3月24日</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">育休産休半年とったのがリセットになったかも。子供出来る前は昼前に出社して終電で帰るとかだった <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712957549968904192">2016年3月24日</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">子供出来る前の行きつけの店は子供出来てからは行けなくなった。ウニ、白子ポン酢の離乳食はいける <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712957969789419520">2016年3月24日</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">マネージャーになったんでコーディング以外の仕事も増えたが、それが子供出来てからは良かったかも。デバッグしてるとなかなか手を止められない <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712958720309735424">2016年3月24日</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<h2>家事の役割分担とかどうしてる？</h2>
-
+<h2 id="家事の役割分担とかどうしてる">家事の役割分担とかどうしてる？</h2>
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">家事は分担してるが出来る限り家事を発生させない。ヘルパーに頼む。ヘルパーに抵抗あっても使うと便利で離れられなくなる。お試しもできるのでじっくり選べば良い。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712959669937971200">2016年3月24日</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ルンバで自動化。だけど片付けしないと使えない。食洗機使う。メンタルコストが小さい方がやる。旦那の方が家事やってるかも。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712960205303119872">2016年3月24日</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">子供を病院に連れて行くとか分担難しい。授乳期は女性。風呂入れるのは男性とか。子育てのフェーズによって役割も変わる。病児保育使うケースも。大学の先生は暇じゃないけど休校という必殺技が <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712961486805577728">2016年3月24日</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">小学生になると大変。学童とか、週3日在宅ワークで外部サービス使うとか。出来なくなったら働き方変えるとか。保育園は凄いところ。保育園行ってるといつの間にか橋持てるとか。小学生だと急にサポートが手薄になる。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712962348487606272">2016年3月24日</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<h2>子供にはお金がかかるけど、どうやって踏ん切りつけた？</h2>
-
+<h2 id="子供にはお金がかかるけどどうやって踏ん切りつけた">子供にはお金がかかるけど、どうやって踏ん切りつけた？</h2>
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">子供欲しいから必要コストだし、投資信託を始めよう的な。スマホ買うタイミングに似てるかも。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712963055773061124">2016年3月24日</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<h2>夫婦でエンジニアって同業のメリット・デメリットは？</h2>
-
+<h2 id="夫婦でエンジニアって同業のメリットデメリットは">夫婦でエンジニアって同業のメリット・デメリットは？</h2>
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">同業だと理解がある。実際に助けて貰える。コミュニティも広がる。パソコン見てるだけでは仕事してると思われない。twitterで公開処刑される辛み。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712963563875278848">2016年3月24日</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">英語のabstract書いて貰ったり、自宅ネットワーク調整して貰ったり。家庭内稟議が通りやすい。テクノロジーに対する不信感がない。子供手当が年収高い方に付く、拮抗してると入れ替わったり。コードレビューしたら怒ってた。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712965062034456576">2016年3月24日</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<h2>地方移住とか考えたりする？</h2>
-
+<h2 id="地方移住とか考えたりする">地方移住とか考えたりする？</h2>
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">地方移住はあまり。仕事は東京やりやすい。子育ては地方かも。教育に対する意識は東京高い。米国への移住は考えたことあり。大学の先生は地方が良いかも。2人揃って移住はタイミング難しい。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712966647728832512">2016年3月24日</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">東京はサービス充実してる。夜遅くまでお店やってるし。沖縄に子供2人いる女性でリモートワークしてる人もいる。仕事の幅は変わる。どの区を選ぶか子育てには重要。千代田、港、文京は良い。認可保育園は質が担保、コストは圧倒的に安い。無認可寛容。高いけどサービス充実 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712968433600581632">2016年3月24日</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">家でも普通に仕事してる。子供は気を引いてくるし自宅だと難しい面も。テレビ会議中も泣いてる子供が映り込んだり。youtube便利、広告スキップを1歳半で覚えた。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712969683930992640">2016年3月24日</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>※リモートワーク的な文脈での話。</p>
 
-<h2>2人目ができると更にカオスって聞くけどどう？</h2>
-
+<h2 id="2人目ができると更にカオスって聞くけどどう">2人目ができると更にカオスって聞くけどどう？</h2>
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">2人目は厳しいかな。保育園2名同じとこ入れられないとか。周り見てると2人いると大変。発熱が交互に来るので休みがちに。俺が俺がな30歳頃だと厳しい感じかも。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712971349669511177">2016年3月24日</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<h2>どれくらい産休・育休って取ったの？</h2>
-
+<h2 id="どれくらい産休育休って取ったの">どれくらい産休・育休って取ったの？</h2>
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">生まれる3ヶ月前に休んで3ヶ月で復帰。旦那は1週間育休取った。産休入ってすぐ生まれた、6ヶ月育休。旦那は転職したてて育休取れず。保育園行けるかは死活問題だが分断がある。Googleは男性もほとんど1ヶ月育休取る。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712972849837805568">2016年3月24日</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<h2>今後の夢とかは？</h2>
-
+<h2 id="今後の夢とかは">今後の夢とかは？</h2>
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">成長の過程をnohanaで子供の写真を両親に共有。60歳になってもコーディング出来るの示す。妻が偉くなって。プログラマの多様性が低いのが謎。偉くなること。子育てでも謎な性差別が多い。当たり前が当たり前になる世の中。子育ては男性が言うと受け止められ方が違う <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712975220647141376">2016年3月24日</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<h2>終了後の懇親会</h2>
-
+<h2 id="終了後の懇親会">終了後の懇親会</h2>
 <div id="fb-root"></div>
-
-
 <script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
-
 
 <div class="fb-post" data-href="https://www.facebook.com/tchikuba/posts/1003043319770461" data-width="500"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/tchikuba/posts/1003043319770461"><p>&#x30aa;&#x30b5;&#x30ec;&#x306a;&#x30b1;&#x30fc;&#x30bf;&#x30ea;&#x30f3;&#x30b0;</p><a href="https://www.facebook.com/tchikuba">竹馬 力</a>さんの投稿&nbsp;<a href="https://www.facebook.com/tchikuba/posts/1003043319770461">2016年3月24日</a></blockquote></div></div>
 
-
-
-
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">本日はwomen techmakers様にスポンサードして頂いております！この後は懇親会♡ <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://t.co/2D1w15ZvN6">pic.twitter.com/2D1w15ZvN6</a></p>&mdash; dots. 女子部 - 公式アカウント (@dotsgirls) <a href="https://twitter.com/dotsgirls/status/712977420005933057">2016年3月24日</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<h2>他の参加者の方の感想</h2>
-
+<h2 id="他の参加者の方の感想">他の参加者の方の感想</h2>
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">女性向けの話を男性に聞いてほしいってのはとてもわかる。今日参加者に結構多いのはとても嬉しいし、まじでパネラーの旦那様お二方が素晴らしいし、本当にビデオ撮って見せつければ良かったって後悔してる。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; ちゃんとく (@tokutoku393) <a href="https://twitter.com/tokutoku393/status/712976611251867648">2016年3月24日</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">今日は貴重なお話をありがとうございました！私の彼氏がすごい楽しんでました。参加して良かった«٩(*´ ꒳ `*)۶» <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; なほ (@LaurierPetit) <a href="https://twitter.com/LaurierPetit/status/713004792126177280">2016年3月24日</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">今日楽しかった〜〜。なんか漠然とした不安はいつでもありますって言われて、その言葉になんか安心した。<a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; りほ (@rllllho) <a href="https://twitter.com/rllllho/status/713011568552751104">2016年3月24日</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">帰宅！ 楽しかったです、ありがとうございました。最後の皆さんの感想が割とみんな「（二組とも）いい旦那様だな〜と思いました」だったのがちょっと受けたw <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Kinuko Yasuda (@kinu) <a href="https://twitter.com/kinu/status/713013770071572480">2016年3月24日</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <hr />
 
-<h2>やっぱりエンジニア夫婦って(・∀・)ｲｲﾈ!!</h2>
-
+<h2 id="やっぱりエンジニア夫婦ってｲｲﾈ">やっぱりエンジニア夫婦って(・∀・)ｲｲﾈ!!</h2>
 <p>勉強会に参加して感じたことです。
 同業だと問題もあるという話を聞いたりもしますが、ふたりともエンジニアである場合、メリットばかりが目についてデメリットってほとんど思いつかないです。
 テクノロジーへの理解があるという点、非常に共感しました。新しい製品を買ったりするのに家庭内稟議は圧倒的に通りやすいんじゃないかとｗ</p>
@@ -442,8 +320,7 @@
 <p>あと、今回登壇されたご夫婦2組とも、男性の優秀さもさることながら、女性の優秀さが凄いなと感じました。
 なのでプログラマである私の妻にも、このご夫婦に見習って凄くなってもらおうと思います（笑）</p>
 
-<h2>エンジニア・チームのダイバーシティ向上を！</h2>
-
+<h2 id="エンジニアチームのダイバーシティ向上を">エンジニア・チームのダイバーシティ向上を！</h2>
 <p>私は日頃から、ダイバーシティの観点から、あらゆる組織は男女比率がおよそ半々である方が良いと考えています。
 しかしながら現時点では、特にエンジニアの世界では圧倒的に男性比率が高い状況があります。</p>
 
@@ -463,17 +340,15 @@
     <content type="html"><![CDATA[<p><em>この記事は<a href="http://qiita.com/advent-calendar/2015/livesense_2">リブセンスアドベントカレンダー2015(その2)</a>の5日目です。</em></p>
 
 <ul>
-<li><em>4日目の記事：<a href="http://qiita.com/ma2saka/items/2cd6cb3a8007fdf9fe2e">Amazon LinuxでPHP7をソースからコンパイルしてSymfony3をMariaDB10</a></em></li>
-<li><em>6日目の記事：<a href="http://qiita.com/stackline">stacklineさん</a></em></li>
+  <li><em>4日目の記事：<a href="http://qiita.com/ma2saka/items/2cd6cb3a8007fdf9fe2e">Amazon LinuxでPHP7をソースからコンパイルしてSymfony3をMariaDB10</a></em></li>
+  <li><em>6日目の記事：<a href="http://qiita.com/stackline">stacklineさん</a></em></li>
 </ul>
-
 
 <p>私は現在<a href="https://www.ieshil.com/">IESHIL（イエシル）</a>という中古マンション価格査定サイトのエンジニアやってます。
 担当は雑用係です。
 リブセンスに入社して約2年半ですがリブセンスでwebサービスの自社開発の文脈に身を置いて色々思うところがあるのでその辺をちょっと言語化してみます。</p>
 
-<h1>プロフィールとバックグラウンド</h1>
-
+<h1 id="プロフィールとバックグラウンド">プロフィールとバックグラウンド</h1>
 <p>私はエンジニアになったのが2004年8月でした。
 7年間フリーランスのエンジニアとしてお客さんのところに常駐して作業するという形で、所謂社畜フリーランスでした。
 前半4年間は大手SIer、後半3年間はエンタメ系事業会社に常駐していました。</p>
@@ -493,14 +368,12 @@
 <p>開発マネージャーとして約2年間働いた後、現職のリブセンスに転職をして現在に至ります。
 リブセンスでの強烈なエンジニア文化の中で、エンジニア含めた事業に関わる全ての人が効率の良さと気持ちの良さをどうやったら追求出来るかを最近良く考えます。</p>
 
-<h1>SIerから事業会社の文脈へシフトして感じたビジネスとエンジニアリングの関係性</h1>
-
+<h1 id="sierから事業会社の文脈へシフトして感じたビジネスとエンジニアリングの関係性">SIerから事業会社の文脈へシフトして感じたビジネスとエンジニアリングの関係性</h1>
 <p>自分のキャリアを振り返ってみると受託開発が主であるSIerから徐々に自社サービスを展開する事業会社へとシフトして行ったことになります。
 私のキャリアの文脈が徐々にシフトしたのは単なる偶然な気がしますが、この経験があるからこそなのか、最近良く考えていることがあります。
 それは、<strong>ビジネスとエンジニアリングは一体不可分である</strong>ということです。</p>
 
-<iframe src="https://docs.google.com/presentation/d/1X3EhINjgf6aDLynMZ3_o0H5XQ7Lca6d1b4hZEUjVz-g/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
+<iframe src="https://docs.google.com/presentation/d/1X3EhINjgf6aDLynMZ3_o0H5XQ7Lca6d1b4hZEUjVz-g/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 <p>ある意味これは最早当たり前の時代になってきたんだと思われますが、私が10年前にいたSIerの文脈だと実感として結構違っていました。
 あくまでも受託開発では発注側のお客様がいて請負契約に基づいて予め定義したシステムを納品することが目的です。
@@ -513,13 +386,12 @@
 
 <p>これまでの私の経験上、感じていることをまとめると以下の様な図になる気がしています。</p>
 
-<iframe src="https://docs.google.com/presentation/d/1XNnCjrtSZhOxKDazJqrdHVyfvsPZ19o2w_BvszbHIlk/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
+<iframe src="https://docs.google.com/presentation/d/1XNnCjrtSZhOxKDazJqrdHVyfvsPZ19o2w_BvszbHIlk/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 <p>発注者と受託者という関係では、前者から後者へ金銭的な授受が行われる為、ビジネスパートナーといえど、構造上どうしても主従関係のような強弱がついてしまいます。
 当然上手く行っている受託開発も存在しますが、経験上上手く行かないパターンを見ることが少なからずありました。</p>
 
-<p>※ただ最近は一括請負契約の構造上の問題を解決する受託開発の手法の1つとして<a href="/blog/2014/10/20/sonic-garden-kuranuki-book/">「納品のない受託開発」</a>
+<p>※ただ最近は一括請負契約の構造上の問題を解決する受託開発の手法の1つとして<a href="https://tchikuba.github.io/blog/2014/10/20/sonic-garden-kuranuki-book/">「納品のない受託開発」</a>
 を手掛ける<a href="http://www.atmarkit.co.jp/ait/articles/1504/27/news001.html">ソニックガーデンさんの事例</a>は注目したいところです。</p>
 
 <p>上記の図に表現した通り、時代の変遷と共にエンジニアリングの比重を相対的に大きくしていますが、これも実感としてあるところです。
@@ -532,10 +404,7 @@
 余談ですが最近日経の記事にコーディング・ブートキャンプの話がありました。</p>
 
 <blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">これはマジその通り。特に非エンジニア領域での需要があると実感してる／米で進む大学離れブートキャンプでＩＴの即戦力｜日経カレッジカフェ via <a href="https://twitter.com/hashtag/Kamelio?src=hash">#Kamelio</a> <a href="https://t.co/AsAnCWjYXE">https://t.co/AsAnCWjYXE</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/672073513377796096">2015, 12月 2</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>この記事から類推するに、非エンジニアが何らかのビジネス上の課題解決の為にコーディングを勉強する需要があるんじゃないかと思います。</p>
 
@@ -547,12 +416,13 @@
 スティーブ・ジョブズ曰くの<a href="http://blogs.itmedia.co.jp/tooki/2010/04/connecting-the-.html">connecting the dots</a>を感じてちょっぴり嬉しいのです。
 頭で理解したことと体験で会得したものでは実は雲泥の差だなと思いますので。</p>
 
-<h1>ゴール思考とシステム思考の融合</h1>
+<h1 id="ゴール思考とシステム思考の融合">ゴール思考とシステム思考の融合</h1>
 
 <p><a href="http://blogs.itmedia.co.jp/tooki/2010/04/connecting-the-.html">connecting the dotsのリンク先の記事</a>に曰く、</p>
-
-<blockquote><p>点と点を繋げるということは、あらかじめ仕込むことは出来ないということです。
-しかし、振り返ってみると「あの時のことが役立った」とか、「あそこで出会った人に、こんなタイミングで助けられた」といったことって意外とあるものなんですよね。</p></blockquote>
+<blockquote>
+  <p>点と点を繋げるということは、あらかじめ仕込むことは出来ないということです。
+しかし、振り返ってみると「あの時のことが役立った」とか、「あそこで出会った人に、こんなタイミングで助けられた」といったことって意外とあるものなんですよね。</p>
+</blockquote>
 
 <p>とあります。</p>
 
@@ -573,28 +443,25 @@
 システム思考だけだとビジネス上実現したいビジョン等から外れてしまっても暫く気付かないケースがあるように思います。
 個人的には<strong>ゴール思考とシステム思考の融合を目指したい</strong>と考えています。私の体験上でもそれは理に適っていると思われるのです。</p>
 
-<h1>ヒエラルキーとホラクラシー</h1>
+<h1 id="ヒエラルキーとホラクラシー">ヒエラルキーとホラクラシー</h1>
 
 <p>このような文脈にあってもう1つ私の中で良く考えることがあります。それはクリエイティブな組織の在り方についてです。
-<a href="/blog/2015/01/22/new-type-organization/">私はその1つの解としてホラクラシー型組織の構築があるのではないか？と考えています。</a>
+<a href="https://tchikuba.github.io/blog/2015/01/22/new-type-organization/">私はその1つの解としてホラクラシー型組織の構築があるのではないか？と考えています。</a>
 ホラクラシーとは、マネージャーの存在しないセルフ・マネジメント型組織のことで、ザッポスが導入したことで有名です。</p>
 
 <iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="InterAction Green | ほんとうはこわい、ザッポス。ホラクラシーって何？" src="http://hatenablog.com/embed?url=http://www.interactiongreen.com/?p=864" frameborder="0" scrolling="no"></iframe>
 
-
 <p>最近のハーバード・ビジネス・レビューにホラクラシーに関する記事がありました。</p>
 
 <blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">ホラクラシーに懐疑的な視点。確かに現状の組織形態では合わない場面もあると思うけどクリエイティブな仕事は移行出来ると思う／管理職を置かない組織が理想なのか？ 導入前に自問すべき4つの質問 <a href="https://t.co/YY3L0RCtGn">https://t.co/YY3L0RCtGn</a> <a href="https://twitter.com/dhbr_japan">@dhbr_japan</a>さんから</p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/672302472178720769">2015, 12月 3</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>この記事に曰く、</p>
-
-<blockquote><p>ホラクラシーの大部分は、優れたマネジメントによく見られる要素を単に体系化していると気づいた。
+<blockquote>
+  <p>ホラクラシーの大部分は、優れたマネジメントによく見られる要素を単に体系化していると気づいた。
 ホラクラシーの導入にまつわる細部にとらわれず、それが何に対処するためのものなのかを掘り下げて考えれば、見えてくることがある。
-問題は、ヒエラルキーそのものがいかに正当性を失ったかではなく、速まっている世の中の動向に対してヒエラルキーでは動きが遅れることなのだ。</p></blockquote>
+問題は、ヒエラルキーそのものがいかに正当性を失ったかではなく、速まっている世の中の動向に対してヒエラルキーでは動きが遅れることなのだ。</p>
+</blockquote>
 
 <p>とあります。</p>
 
@@ -611,19 +478,17 @@
 逆に1ヶ月ほど前にバズってた、CIAのスパイマニュアルの記事がヒエラルキーの問題点を端的に表していると思いました。</p>
 
 <blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">これは必見。まぁ組織が成熟してくるとこうなりがちなんだろうけど／CIAのスパイマニュアルに学ぶ「会社をダメにする11の行動様式」 <a href="https://t.co/RcLV7aNegb">https://t.co/RcLV7aNegb</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/662106316492709889">2015, 11月 5</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>曰く、</p>
-
-<blockquote><p>会社内での組織的位置付けにこだわる。
-これからしようとすることが、本当にその組織の権限内なのか、より上層部の決断を仰がなくてよいのか、といった疑問点を常に指摘する</p></blockquote>
+<blockquote>
+  <p>会社内での組織的位置付けにこだわる。
+これからしようとすることが、本当にその組織の権限内なのか、より上層部の決断を仰がなくてよいのか、といった疑問点を常に指摘する</p>
+</blockquote>
 
 <p>これとかまさに先ほど書いた現場の臨機応変な判断を阻害する真逆の論理で一見正当性が見えるので厄介なんですよね(苦笑)</p>
 
-<h1><a href="https://kotobank.jp/word/%E4%B8%8D%E4%BA%8C-617901">「不二」</a>という視座から垣間見る21世紀のスタンダード</h1>
+<h1 id="不二という視座から垣間見る21世紀のスタンダード"><a href="https://kotobank.jp/word/%E4%B8%8D%E4%BA%8C-617901">「不二」</a>という視座から垣間見る21世紀のスタンダード</h1>
 
 <p>ちょっとここまで書いた所で息切れしてきましたが(笑)そろそろ結論めいたことを書きたいと思います。
 結局のところ私の体験という文脈の中でしか実感を持って判断出来ないと思っていまして、その意味では至極主観的極まりない話だということが前提ですが。
@@ -640,8 +505,9 @@
 これを代弁する考え方に仏教の用語で<a href="https://kotobank.jp/word/%E4%B8%8D%E4%BA%8C-617901">「不二(ふに)」</a>という言葉があります。</p>
 
 <p>曰く、</p>
-
-<blockquote><p>対立していて二元的に見える事柄も、絶対的な立場から見ると対立がなく一つのものであるということ。</p></blockquote>
+<blockquote>
+  <p>対立していて二元的に見える事柄も、絶対的な立場から見ると対立がなく一つのものであるということ。</p>
+</blockquote>
 
 <p>前述のような見方が絶対的な立場か否かは分かりません。</p>
 
@@ -653,22 +519,21 @@
 <p>これらを踏まえた上で、私自身の経験に即して、これからの時代以下のような流れになっていくのかなと考えています。</p>
 
 <ul>
-<li>事業会社の内製化により下請けも含めたSIerは斜陽産業化する。</li>
-<li>事業会社がweb企業・インターネット企業となるのが当たり前になる。</li>
-<li>新しいビジネスを起こす人はエンジニアの素養のあることが当たり前になる。</li>
-<li>エンジニアの素養のある人が起業するので、エンジニアの評価がよりまともになり、まともなエンジニアがよりHappyになる。</li>
-<li>非エンジニアの職種では徐々に人工知能や機械学習による自動化が進みよりクリエイティブな仕事をせざるを得ないようになる。</li>
-<li>日頃ルーチンワークが辛いと言って仕事がつまらない思いをしている人は少なくなっていく。(仕事自体がなくなるので)</li>
-<li>プログラミング教育が官民共に爆発的に広まる。</li>
-<li>エンジニアの仕事はコーディングによってビジネス上の価値を創造することが評価のポイントになる。</li>
-<li>世の中の複雑性は増していく一方で先が簡単に読めなくなり、反復型アプローチが問題解決の主流になる。</li>
-<li>ある一定の人々に共感される極めて倫理的なビジョンを有するテックドリブンな企業が緩やかに受け入れられ世界を変えていく。</li>
-<li>急進的なスタートアップより、持続可能な発展を掲げるスモールビジネスが大量に浸透していく。</li>
-<li>副業やリモートワークがより普及して組織力は弱まり、クリエイティブな個人がクローズアップされる。</li>
-<li>自律した働き方の出来るクリエイティブな個人が集まり、プロジェクト単位でギルド的集団を形成し、質の高い仕事を成し遂げる。</li>
-<li>自律した働き方が出来るまでの職業訓練が比較的安価で受けられる教育的な仕組みが出来ていく。</li>
+  <li>事業会社の内製化により下請けも含めたSIerは斜陽産業化する。</li>
+  <li>事業会社がweb企業・インターネット企業となるのが当たり前になる。</li>
+  <li>新しいビジネスを起こす人はエンジニアの素養のあることが当たり前になる。</li>
+  <li>エンジニアの素養のある人が起業するので、エンジニアの評価がよりまともになり、まともなエンジニアがよりHappyになる。</li>
+  <li>非エンジニアの職種では徐々に人工知能や機械学習による自動化が進みよりクリエイティブな仕事をせざるを得ないようになる。</li>
+  <li>日頃ルーチンワークが辛いと言って仕事がつまらない思いをしている人は少なくなっていく。(仕事自体がなくなるので)</li>
+  <li>プログラミング教育が官民共に爆発的に広まる。</li>
+  <li>エンジニアの仕事はコーディングによってビジネス上の価値を創造することが評価のポイントになる。</li>
+  <li>世の中の複雑性は増していく一方で先が簡単に読めなくなり、反復型アプローチが問題解決の主流になる。</li>
+  <li>ある一定の人々に共感される極めて倫理的なビジョンを有するテックドリブンな企業が緩やかに受け入れられ世界を変えていく。</li>
+  <li>急進的なスタートアップより、持続可能な発展を掲げるスモールビジネスが大量に浸透していく。</li>
+  <li>副業やリモートワークがより普及して組織力は弱まり、クリエイティブな個人がクローズアップされる。</li>
+  <li>自律した働き方の出来るクリエイティブな個人が集まり、プロジェクト単位でギルド的集団を形成し、質の高い仕事を成し遂げる。</li>
+  <li>自律した働き方が出来るまでの職業訓練が比較的安価で受けられる教育的な仕組みが出来ていく。</li>
 </ul>
-
 
 <p>私自身はこれまでの経験を踏まえてやりたいことが比較的明確になりつつあるのですが、
 キーワードは<strong>ITと新規事業と教育</strong>ということで一応一貫しているつもりなのでこの方向性は常に持ちつつ、
@@ -677,10 +542,9 @@
 <p><em>この記事は<a href="http://qiita.com/advent-calendar/2015/livesense_2">リブセンスアドベントカレンダー2015(その2)</a>の5日目です。</em></p>
 
 <ul>
-<li><em>4日目の記事：<a href="http://qiita.com/ma2saka/items/2cd6cb3a8007fdf9fe2e">Amazon LinuxでPHP7をソースからコンパイルしてSymfony3をMariaDB10</a></em></li>
-<li><em>6日目の記事：<a href="http://qiita.com/stackline">stacklineさん</a></em></li>
+  <li><em>4日目の記事：<a href="http://qiita.com/ma2saka/items/2cd6cb3a8007fdf9fe2e">Amazon LinuxでPHP7をソースからコンパイルしてSymfony3をMariaDB10</a></em></li>
+  <li><em>6日目の記事：<a href="http://qiita.com/stackline">stacklineさん</a></em></li>
 </ul>
-
 ]]></content>
   </entry>
   

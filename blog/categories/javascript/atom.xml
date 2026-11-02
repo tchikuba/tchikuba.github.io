@@ -4,7 +4,7 @@
   <title><![CDATA[Category: JavaScript | tchikuba's blog]]></title>
   <link href="https://tchikuba.github.io/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="https://tchikuba.github.io/"/>
-  <updated>2020-08-07T20:51:12+09:00</updated>
+  <updated>2026-11-02T20:41:28+09:00</updated>
   <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
@@ -12,6 +12,140 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[【書籍レビュー】超入門シリーズ本を献本頂きました]]></title>
+    <link href="https://tchikuba.github.io/blog/2017/12/11/super-getting-started-books/"/>
+    <updated>2017-12-11T19:47:03+09:00</updated>
+    <id>https://tchikuba.github.io/blog/2017/12/11/super-getting-started-books</id>
+    <content type="html"><![CDATA[<p><a href="https://tchikuba.github.io/blog/2017/05/22/ruby-on-rails-5-application-programming/">前回</a>に引き続き、WINGSプロジェクトが監修し、技術評論社から出版されている超入門シリーズ本を以下の3冊献本して頂きました。</p>
+
+<p><a target="_blank" href="https://www.amazon.co.jp/gp/product/B071GQQDNM/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B071GQQDNM&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=31b2a479600687cd2a87420281ca995e"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B071GQQDNM&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=athome0a-22" /></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=B071GQQDNM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<p><a target="_blank" href="https://www.amazon.co.jp/gp/product/B071X8SKXN/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B071X8SKXN&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=ec260d486540778f7bdc4f8fdd0cebfb"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B071X8SKXN&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=athome0a-22" /></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=B071X8SKXN" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<p><a target="_blank" href="https://www.amazon.co.jp/gp/product/B071GTJSPL/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B071GTJSPL&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=fcb1d876a5f5de8815781b325db0b4d6"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B071GTJSPL&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=athome0a-22" /></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=B071GTJSPL" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<p>それぞれの本についてレビューをば。</p>
+
+<p>※関係者の方々、対応が遅くなり申し訳ありません。。</p>
+
+<hr />
+
+<h2 id="書評たった1日で基本が身に付く--htmlcss超入門">【書評】<a target="_blank" href="https://www.amazon.co.jp/gp/product/B071GQQDNM/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B071GQQDNM&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=942c9cecdc280376dec9ed521cf1406c">たった1日で基本が身に付く！  HTML&amp;CSS超入門</a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=B071GQQDNM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></h2>
+
+<p><a target="_blank" href="https://www.amazon.co.jp/gp/product/B071GQQDNM/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B071GQQDNM&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=31b2a479600687cd2a87420281ca995e"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B071GQQDNM&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=athome0a-22" /></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=B071GQQDNM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<h3 id="webサイトとはそもそもなんぞやという点からちゃんと解説されている">webサイトとはそもそもなんぞや？という点からちゃんと解説されている</h3>
+
+<p>超入門書なだけあって、そもそもwebサイトがサーバーに設置されていてブラウザなどのクライアントからアクセスして読み込むものだ、的な基礎的な部分からちゃんと解説されています。
+また、技術的側面だけでなく、webサイトを設置する目的やどう設計するか？についてもちゃんと触れられている点が素晴らしいです。</p>
+
+<h3 id="html5をベースとしたセマンティックwebが意識されている">HTML5をベースとしたセマンティックwebが意識されている</h3>
+
+<p>超入門書といえど、headerタグやfooterタグなどを通してセマンティックwebについて早い段階でちゃんと解説されています。</p>
+
+<h3 id="csscascading-style-sheetsの基本がしっかり理解できる">CSS（Cascading Style Sheets）の基本がしっかり理解できる</h3>
+
+<p>CSSの発展の歴史を紹介していたり、HTMLタグをwebページの装飾目的で使うことを戒めたりなど、経験あるwebサイト制作者の方の言葉が散りばめられている辺り、好感が持てる印象でした。</p>
+
+<p>あと、私自身はサーバーサイドエンジニアなのでHTMLとCSSはなんとなくのフィーリングで理解しているところもあったので、例えばボックスモデルなどは恥ずかしながらmargin, border, padding辺りの違いについての認識が甘いところがあります。その辺りがちゃんと体系的に再確認できたのは良かったです。</p>
+
+<p>同様の理由で、段組みレイアウトの辺りの解説もまた、何がブロックレベル要素で何がインライン要素なのかとかあまり意識できてなかったり、フロートレイアウトなどもフィーリングで理解していたところがあったので正直勉強になりました。</p>
+
+<h3 id="レスポンシブデザインに対応している">レスポンシブデザインに対応している</h3>
+
+<p>最近では必須のレスポンシブデザインに対応しており、具体的にはスマートフォン対応する具体的な方法についても解説されています。
+私自身、メディアクエリとかちゃんと理解できてなかったところがありました。。</p>
+
+<h3 id="総評">総評</h3>
+
+<p>本書を一通りなぞれば、コーヒーショップのレスポンシブなホームページのサンプルを制作することができます。
+本書を足がかりにすれば、<strong>読者は基本的なwebデザインのうちHTML・CSSコーディングができるようになる</strong>と思います。</p>
+
+<p>その意味で本書は良書だなーと思いました。</p>
+
+<p>また、私みたいにサーバーサイドエンジニアが本業なんだけど、フロントエンドはそこまで詳しくないけどちゃんと体系的にイチからインプットしたい、というモチベーションがある人には刺さるかもしれません。
+とはいえフロントエンドもある程度できるエンジニアにはちょっと物足りないかもしれませんが。</p>
+
+<p>余談ですが、<em>「本業サーバーサイドエンジニアに贈る基礎から学ぶフロントエンド」</em>的な書籍があったら実はニーズあるんじゃないかと思いましたｗ</p>
+
+<h2 id="書評たった1日で基本が身に付く--javascript超入門">【書評】<a target="_blank" href="https://www.amazon.co.jp/gp/product/B071X8SKXN/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B071X8SKXN&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=9d4e7a69fed84321916b7baa8a77ebad">たった1日で基本が身に付く！  JavaScript超入門</a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=B071X8SKXN" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></h2>
+
+<p><a target="_blank" href="https://www.amazon.co.jp/gp/product/B071X8SKXN/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B071X8SKXN&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=ec260d486540778f7bdc4f8fdd0cebfb"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B071X8SKXN&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=athome0a-22" /></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=B071X8SKXN" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<h3 id="webアプリケーションとはなんぞやについてちゃんと解説されている">webアプリケーションとはなんぞや？についてちゃんと解説されている</h3>
+
+<p>超入門シリーズ本にはおなじみですが、ターゲット読者層がプログラミング未経験者なので、そもそもwebアプリケーションってなんだっけ？とかサーバーサイド、クライアントサイドの違いみたいな基礎的なところから解説が始まります。</p>
+
+<p>執筆者の立場として個人的に思うのですが、このあたりの解説ってすんなり説明するのが意外に難しいところだったりします。
+どこまで歴史的な背景やバックグラウンドを説明するのかとか。</p>
+
+<p>このあたりの部分、前半部分での説明が超入門者向けにも過不足なく非常に分かりやすいのではないかと思います。</p>
+
+<p>また、JavaScriptでできることの幅が広がりつつある昨今ですが、その辺りにも触れつつ、本書でカバーする範囲をクライアントサイドのwebアプリケーション機能開発に特化していると明記していることもわかりやすさを担保することに繋がっている気がします。</p>
+
+<h3 id="イベントやapiwebstorageについて扱っている">イベントやAPI、WebStorageについて扱っている</h3>
+
+<p>超入門者向けでも、JavaScriptによるwebアプリケーションの基礎としてイベントドリブンモデルについて解説されています。
+本書はwebアプリケーション前提なので、JavaScriptを語る上で密接に関わってくるイベントについて1つの章を割いて解説を加えているのかもしれません。</p>
+
+<p>後半の章では、Flickr APIを用いて画像検索するアプリ作成を行っており、より実践的な内容になっています。
+更に、Webstorageについても触れられており、こちらもAPI同様、より実践的な内容かなという印象です。</p>
+
+<h3 id="windows環境にapacheインストールの辛い">Windows環境にApacheインストールの辛い</h3>
+
+<p>これも超入門シリーズ本全般で辛いところではありますが、環境構築でWindowsを前提とするツラミはちょっとあるかなと。
+webアプリケーションにおけるJavaScriptというところで、Apacheのインストールは避けられなかったかもしれませんが。</p>
+
+<h3 id="オブジェクトがいきなり出てくる">オブジェクトがいきなり出てくる</h3>
+
+<p>超入門者にとって、前半の早い段階でオブジェクトという概念がいきなり出てくるのでちょっとギョッとするかもしれません。
+JavaScriptの性質上、しょうがない側面も大きいかなと思いつつ。。</p>
+
+<h3 id="総評-1">総評</h3>
+
+<p>全体的にプログラミング言語としての側面からJavaScriptを論じるというより、<strong>より実践的なwebアプリ開発を行う手段としてのJavaScriptを紹介した書籍</strong>という印象を受けました。</p>
+
+<p>プログラミングを全く学習したことのない人向けにしては、プログラミングの基礎的な部分、例えば3大制御構造などについて体系的な解説がそれほど多くなかった印象だったので注意が必要かもしれません。</p>
+
+<p>逆に、<strong>JavaScriptを使って具体的にどういうアプリが作れるのか？という点にフォーカスしたい方にとっては良書</strong>と言えそうです。</p>
+
+<h2 id="書評たった1日で基本が身に付く-java超入門">【書評】<a target="_blank" href="https://www.amazon.co.jp/gp/product/B071GTJSPL/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B071GTJSPL&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=f6e7a1ddc17c34e523450926d9863f48">たった1日で基本が身に付く！ Java超入門</a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=B071GTJSPL" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></h2>
+
+<p><a target="_blank" href="https://www.amazon.co.jp/gp/product/B071GTJSPL/ref=as_li_tl?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B071GTJSPL&amp;linkCode=as2&amp;tag=athome0a-22&amp;linkId=fcb1d876a5f5de8815781b325db0b4d6"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B071GTJSPL&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=athome0a-22" /></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=am2&amp;o=9&amp;a=B071GTJSPL" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<h3 id="コンパイルエラーなど基本的な部分が紹介されている">コンパイルエラーなど基本的な部分が紹介されている</h3>
+
+<p>超入門向けらしく、半角スペースをなくすとコンパイルエラーが発生するなど超入門者向けの内容がちゃんと解説されています。</p>
+
+<h3 id="凄い細かい話ですがnullの正しい発音がコラムにｗ">（凄い細かい話ですが）nullの正しい発音がコラムにｗ</h3>
+
+<p>nullは英語では「ナル」と発音するそうです。nullの紹介のところでコラムとして「正しく発音しましょう」って紹介がありました。
+ちなみに私は普段「ヌル」と発音してます。スミマセン！</p>
+
+<h3 id="二重ループが取り上げられている">二重ループが取り上げられている</h3>
+
+<p>プログラミング初心者にとって最もつまづきやすいのがループと言われます。
+ループを取り扱う章の最後に、本書ではループ処理がネストしている二重ループについて取り上げられています。
+これはプログラミング初心者にとっては有り難い解説かもしれません。</p>
+
+<p>同様に、配列の章の後半で配列とループ処理、ループ処理と条件分岐の組み合わせについても取り上げられており、二重ループ同様、プログラミング初心者にとってはプログラムが複雑になる過程をちゃんと説明してくれていて理解の助けになりそうだなと思いました。</p>
+
+<h3 id="クラス解説で後半2章分割かれている">クラス解説で後半2章分割かれている</h3>
+
+<p>クラスの基礎について1章分、クラスの利用について1章分を割いており、クラスに関する解説はかなりページ数を割いている印象です。
+このあたりはそもそも扱っている内容が重いせいか、その他の章の解説に比べて超入門者がページをまたいであちこちに行ったり来たりして理解を深める必要があるように感じました。</p>
+
+<p>このあたりをプログラミング初心者に分かりやすく解説できる自信は正直私もないのですが（汗）</p>
+
+<h3 id="総評-2">総評</h3>
+
+<p>総合的に見て、<strong>プログラミングが全く初めての人にとって、Javaを学習する目的で本書は向いている</strong>と思います。</p>
+
+<p>ただ、個人的には<strong>そもそも「オブジェクト指向」という概念がプログラミング初心者には分かりづらい気がするのでその点をどうフォローするか、というのはある意味プログラミング教育の永遠のテーマと言える</strong>かもしれません。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[「ECMAScript6勉強会」HappyHalloween JS 祭！！に参加してきました！]]></title>
@@ -22,150 +156,132 @@
 ハロウィンということで仮装して参加すると参加費が半額になるというちょっと変わったイベントでしたｗ</p>
 
 <blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://twitter.com/hashtag/eventdots?src=hash">#eventdots</a> ハロウィン仕様の女子エンジニアたち <a href="https://t.co/d5IIPxpf2o">pic.twitter.com/d5IIPxpf2o</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/660315159399796736">2015, 10月 31</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>※リアルタイム更新してました！</p>
 
-<h2>『Good evening, ES6』byよしこ氏 <a href="https://twitter.com/yoshiko_pg">@yoshiko_pg</a></h2>
-
+<h2 id="good-evening-es6byよしこ氏-yoshiko_pg">『Good evening, ES6』byよしこ氏 <a href="https://twitter.com/yoshiko_pg">@yoshiko_pg</a></h2>
 <ul>
-<li>発表スライド
-
-<ul>
-<li><iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Good afternoon, ES6 - @yoshiko_pg" src="http://hatenablog.com/embed?url=http://yoshiko-pg.github.io/slides/20151031-es6-halloween/" frameborder="0" scrolling="no"></iframe></li>
-</ul>
-</li>
-<li>var &ndash;> constで変数の上書き禁止が可能に</li>
-<li>Template Strings</li>
-<li>関数のDefault Parametersが使えるように</li>
-<li>Rest Parametersで&hellip;argsで引数がarrayで取れるように</li>
-<li>Spread operator(スプレッド演算子)でapplyメソッド使用せずに配列を展開出来るように</li>
-<li>yoshiko氏の年齢がサンプルコードで暴露されてる（笑）</li>
-<li>Destructuringで変数の入れ替えの為のtmp変数が不要に</li>
-<li>Effective ES6(slideshareのスライドがオススメ)</li>
-<li>ES6をES5に変換するBabelを使うとES6で書くことが出来る</li>
-<li>Scratch JS(chrome拡張)入れるとES6をコンソール上で試せる</li>
-<li>gulpfileをv3.9.0以上ならES6で書ける</li>
-</ul>
-
-
-<h2>『Promises』by矢倉 眞隆氏 <a href="https://twitter.com/myakura">@myakura</a></h2>
-
-<ul>
-<li>発表の様子
-
-<ul>
-<li><blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">お次は矢倉さんによるPromiseのお話！ <a href="https://twitter.com/hashtag/eventdots?src=hash">#eventdots</a> <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://t.co/kRmQIKpQiY">pic.twitter.com/kRmQIKpQiY</a></p>&mdash; dots. 女子部 &ndash; 公式アカウント (@dotsgirls) <a href="https://twitter.com/dotsgirls/status/660320481405366272">2015, 10月 31</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></li>
-</ul>
-</li>
-<li>非同期処理について洗濯機とかお風呂とかの例</li>
-<li>JSでの非同期処理だとコールバックヘルに陥りがち</li>
-<li>thenで非同期処理を実行することが可能。メソッドチェーンで繋げることが出来る。</li>
-<li>Async functionでコールバックパターンから開放される方針。try,catchで書ける。MS EdgeやFirefoxで実装される予定。</li>
+  <li>発表スライド
+    <ul>
+      <li>
+        <iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Good afternoon, ES6 - @yoshiko_pg" src="http://hatenablog.com/embed?url=http://yoshiko-pg.github.io/slides/20151031-es6-halloween/" frameborder="0" scrolling="no"></iframe>
+      </li>
+    </ul>
+  </li>
+  <li>var -&gt; constで変数の上書き禁止が可能に</li>
+  <li>Template Strings</li>
+  <li>関数のDefault Parametersが使えるように</li>
+  <li>Rest Parametersで…argsで引数がarrayで取れるように</li>
+  <li>Spread operator(スプレッド演算子)でapplyメソッド使用せずに配列を展開出来るように</li>
+  <li>yoshiko氏の年齢がサンプルコードで暴露されてる（笑）</li>
+  <li>Destructuringで変数の入れ替えの為のtmp変数が不要に</li>
+  <li>Effective ES6(slideshareのスライドがオススメ)</li>
+  <li>ES6をES5に変換するBabelを使うとES6で書くことが出来る</li>
+  <li>Scratch JS(chrome拡張)入れるとES6をコンソール上で試せる</li>
+  <li>gulpfileをv3.9.0以上ならES6で書ける</li>
 </ul>
 
-
-<h2>『Function and Class』by川田 寛氏 <a href="https://twitter.com/_furoshiki">@_furoshiki</a></h2>
-
+<h2 id="promisesby矢倉-眞隆氏-myakura">『Promises』by矢倉 眞隆氏 <a href="https://twitter.com/myakura">@myakura</a></h2>
 <ul>
-<li>発表の様子
-
-<ul>
-<li><blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">pixiv川田さんによる『ECMAscript6 arrows &amp; classes』です！ガチャピンがすごいお似合いです！ <a href="https://twitter.com/hashtag/eventdots?src=hash">#eventdots</a> <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://t.co/1J9rSXJe5j">pic.twitter.com/1J9rSXJe5j</a></p>&mdash; dots. 女子部 &ndash; 公式アカウント (@dotsgirls) <a href="https://twitter.com/dotsgirls/status/660324997202771968">2015, 10月 31</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></li>
-</ul>
-</li>
-<li>Arrow Function
-
-<ul>
-<li>朝起きたらクリックイベント書きたくなる（笑）CoffeeScriptであるやつ(&ndash;>, =>)</li>
-<li>function,selfを書かなくて済むようになる</li>
-<li>引数は括弧を省略可能</li>
-</ul>
-</li>
-<li>ES6クラス
-
-<ul>
-<li>ES5まではclassなのにfunctionだしprototypeとか謎の宣言が必要だったがES6からclassが使えるように</li>
-<li>extendsも使えるように</li>
-</ul>
-</li>
+  <li>発表の様子
+    <ul>
+      <li>
+        <blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">お次は矢倉さんによるPromiseのお話！ <a href="https://twitter.com/hashtag/eventdots?src=hash">#eventdots</a> <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://t.co/kRmQIKpQiY">pic.twitter.com/kRmQIKpQiY</a></p>&mdash; dots. 女子部 - 公式アカウント (@dotsgirls) <a href="https://twitter.com/dotsgirls/status/660320481405366272">2015, 10月 31</a></blockquote>
+        <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </li>
+    </ul>
+  </li>
+  <li>非同期処理について洗濯機とかお風呂とかの例</li>
+  <li>JSでの非同期処理だとコールバックヘルに陥りがち</li>
+  <li>thenで非同期処理を実行することが可能。メソッドチェーンで繋げることが出来る。</li>
+  <li>Async functionでコールバックパターンから開放される方針。try,catchで書ける。MS EdgeやFirefoxで実装される予定。</li>
 </ul>
 
-
-<h2>『ブラウザで今すぐES6を使おう』by林 優一氏 <a href="https://twitter.com/frontainer">@frontainer</a></h2>
-
+<h2 id="function-and-classby川田-寛氏-_furoshiki">『Function and Class』by川田 寛氏 <a href="https://twitter.com/_furoshiki">@_furoshiki</a></h2>
 <ul>
-<li>LIGのCTOやってる人</li>
-<li>ES2015のブラウザ実装状況はIE10で10%,Chromeで65%程度</li>
-<li>WebPack
-
-<ul>
-<li>Module Bundler require();したものの依存関係を解決してまとめる</li>
-<li>webpackコマンドで1つのJSとして合体して出力してくれる</li>
-<li>webpack.config.jsで設定を定義しておくとwebpackコマンドのみでいける</li>
-</ul>
-</li>
-<li>Browserify?</li>
-<li>Loader
-
-<ul>
-<li>読み込んだファイルに何かしらの処理をさせる</li>
-<li>html-loader</li>
-<li>babel-loader</li>
-</ul>
-</li>
-<li>babel-runtime
-
-<ul>
-<li>ファイルサイズに注意だが使った分だけ増える</li>
-</ul>
-</li>
-<li>frontplate
-
-<ul>
-<li>gulp + webpack + babelをまとめたやつを林さんが公開</li>
-</ul>
-</li>
+  <li>発表の様子
+    <ul>
+      <li>
+        <blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">pixiv川田さんによる『ECMAscript6 arrows &amp; classes』です！ガチャピンがすごいお似合いです！ <a href="https://twitter.com/hashtag/eventdots?src=hash">#eventdots</a> <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://t.co/1J9rSXJe5j">pic.twitter.com/1J9rSXJe5j</a></p>&mdash; dots. 女子部 - 公式アカウント (@dotsgirls) <a href="https://twitter.com/dotsgirls/status/660324997202771968">2015, 10月 31</a></blockquote>
+        <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </li>
+    </ul>
+  </li>
+  <li>Arrow Function
+    <ul>
+      <li>朝起きたらクリックイベント書きたくなる（笑）CoffeeScriptであるやつ(-&gt;, =&gt;)</li>
+      <li>function,selfを書かなくて済むようになる</li>
+      <li>引数は括弧を省略可能</li>
+    </ul>
+  </li>
+  <li>ES6クラス
+    <ul>
+      <li>ES5まではclassなのにfunctionだしprototypeとか謎の宣言が必要だったがES6からclassが使えるように</li>
+      <li>extendsも使えるように</li>
+    </ul>
+  </li>
 </ul>
 
-
-<h2>『Years with JavaScript.Next』by dynamis氏 <a href="https://twitter.com/dynamitter">@dynamitter</a></h2>
-
+<h2 id="ブラウザで今すぐes6を使おうby林-優一氏-frontainer">『ブラウザで今すぐES6を使おう』by林 優一氏 <a href="https://twitter.com/frontainer">@frontainer</a></h2>
 <ul>
-<li>発表の様子
-
-<ul>
-<li><blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">Javascriptの祖先図！初めて知りました！ <a href="https://twitter.com/hashtag/eventdots?src=hash">#eventdots</a> <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://t.co/VH1pY4EGYa">pic.twitter.com/VH1pY4EGYa</a></p>&mdash; dots. 女子部 &ndash; 公式アカウント (@dotsgirls) <a href="https://twitter.com/dotsgirls/status/660331941720289281">2015, 10月 31</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></li>
-</ul>
-</li>
-<li>FF1.0の日本語担当で死んだ思い出</li>
-<li>ECMAScript4はYahoo!とMSの猛烈な反対に合い陽の目を見ず</li>
-<li>FirefoxOSでES6書こう</li>
-<li>佐藤徹平さん(@teppeis)イチオシ</li>
-<li>FxDevCon キャンセル待ちだけど参加してね</li>
-</ul>
-
-
-<h2>QA</h2>
-
-<ul>
-<li>エディタ
-
-<ul>
-<li>vim, webstorm, atomとか。Visual Studio Codeも使いやすいかも</li>
-<li>FirefoxのScratchpadが便利でオススメ</li>
-<li>ES6に一番対応出来てるのはFirefoxじゃなくてEdge13(96%ぐらいES6対応が完了)</li>
-<li>プラグインでESlintとか入れればどのエディタでも使える</li>
-</ul>
-</li>
+  <li>LIGのCTOやってる人</li>
+  <li>ES2015のブラウザ実装状況はIE10で10%,Chromeで65%程度</li>
+  <li>WebPack
+    <ul>
+      <li>Module Bundler require();したものの依存関係を解決してまとめる</li>
+      <li>webpackコマンドで1つのJSとして合体して出力してくれる</li>
+      <li>webpack.config.jsで設定を定義しておくとwebpackコマンドのみでいける</li>
+    </ul>
+  </li>
+  <li>Browserify?</li>
+  <li>Loader
+    <ul>
+      <li>読み込んだファイルに何かしらの処理をさせる</li>
+      <li>html-loader</li>
+      <li>babel-loader</li>
+    </ul>
+  </li>
+  <li>babel-runtime
+    <ul>
+      <li>ファイルサイズに注意だが使った分だけ増える</li>
+    </ul>
+  </li>
+  <li>frontplate
+    <ul>
+      <li>gulp + webpack + babelをまとめたやつを林さんが公開</li>
+    </ul>
+  </li>
 </ul>
 
+<h2 id="years-with-javascriptnextby-dynamis氏-dynamitter">『Years with JavaScript.Next』by dynamis氏 <a href="https://twitter.com/dynamitter">@dynamitter</a></h2>
+<ul>
+  <li>発表の様子
+    <ul>
+      <li>
+        <blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">Javascriptの祖先図！初めて知りました！ <a href="https://twitter.com/hashtag/eventdots?src=hash">#eventdots</a> <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://t.co/VH1pY4EGYa">pic.twitter.com/VH1pY4EGYa</a></p>&mdash; dots. 女子部 - 公式アカウント (@dotsgirls) <a href="https://twitter.com/dotsgirls/status/660331941720289281">2015, 10月 31</a></blockquote>
+        <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </li>
+    </ul>
+  </li>
+  <li>FF1.0の日本語担当で死んだ思い出</li>
+  <li>ECMAScript4はYahoo!とMSの猛烈な反対に合い陽の目を見ず</li>
+  <li>FirefoxOSでES6書こう</li>
+  <li>佐藤徹平さん(@teppeis)イチオシ</li>
+  <li>FxDevCon キャンセル待ちだけど参加してね</li>
+</ul>
+
+<h2 id="qa">QA</h2>
+<ul>
+  <li>エディタ
+    <ul>
+      <li>vim, webstorm, atomとか。Visual Studio Codeも使いやすいかも</li>
+      <li>FirefoxのScratchpadが便利でオススメ</li>
+      <li>ES6に一番対応出来てるのはFirefoxじゃなくてEdge13(96%ぐらいES6対応が完了)</li>
+      <li>プラグインでESlintとか入れればどのエディタでも使える</li>
+    </ul>
+  </li>
+</ul>
 ]]></content>
   </entry>
   

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Octopress | tchikuba's blog]]></title>
+  <title><![CDATA[Category: octopress | tchikuba's blog]]></title>
   <link href="https://tchikuba.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="https://tchikuba.github.io/"/>
-  <updated>2020-08-07T20:51:12+09:00</updated>
+  <updated>2026-11-02T20:41:28+09:00</updated>
   <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
@@ -20,139 +20,206 @@
     <id>https://tchikuba.github.io/blog/2014/02/24/octopress-for-facebook-open-graph</id>
     <content type="html"><![CDATA[<p>Octopressでfacebook用OGPを設定する際、意外と引っ掛かるところがあったので手順をまとめておきます。</p>
 
-<h1>OctopressでOGP設定する際に参考にしたサイト</h1>
-
+<h1 id="octopressでogp設定する際に参考にしたサイト">OctopressでOGP設定する際に参考にしたサイト</h1>
 <ul>
-<li><a href="http://www.mk-mode.com/octopress/2012/12/31/octopress-facebook-ogp/">Octopress &ndash; Facebook OGP 設定！</a></li>
-<li><a href="http://www.sankitch.me/blog/2012/05/09/octopress-customize/">Octopressの気になるところを修正してみた</a></li>
-<li><a href="http://morizyun.github.io/blog/octopress-facebook-ogp-upgrade/">OctopressでFacebookシェア用にOGPを設定する</a></li>
+  <li><a href="http://www.mk-mode.com/octopress/2012/12/31/octopress-facebook-ogp/">Octopress &ndash; Facebook OGP 設定！</a></li>
+  <li><a href="http://www.sankitch.me/blog/2012/05/09/octopress-customize/">Octopressの気になるところを修正してみた</a></li>
+  <li><a href="http://morizyun.github.io/blog/octopress-facebook-ogp-upgrade/">OctopressでFacebookシェア用にOGPを設定する</a></li>
 </ul>
 
+<h1 id="手順">手順</h1>
 
-<h1>手順</h1>
-
-<h2>1. facebookのapp_idを取得する</h2>
-
+<h2 id="1-facebookのapp_idを取得する">1. facebookのapp_idを取得する</h2>
 <p>まずfacebookアプリのapp_idを取得します。
 取得方法は<a href="http://www.issun.com/blog/ogp/">facebookのOGP設定について</a>等を参照すると良いかと。</p>
 
 <ul>
-<li>facebookアプリの設定で<code>App Domains</code>を指定しないとJSエラー発生が発生するのでご注意を。</li>
-<li><code>+Add Platform</code>をクリックして<code>ウェブサイト</code>を選択して<code>サイトURL``Mobile Site URL</code>を設定してから<code>App Domains</code>を入力しないと順序が逆だとfacebook側で警告が出ますのでご注意を。</li>
+  <li>facebookアプリの設定で<code class="language-plaintext highlighter-rouge">App Domains</code>を指定しないとJSエラー発生が発生するのでご注意を。</li>
+  <li><code class="language-plaintext highlighter-rouge">+Add Platform</code>をクリックして<code class="language-plaintext highlighter-rouge">ウェブサイト</code>を選択して<code class="language-plaintext highlighter-rouge">サイトURL</code><code class="language-plaintext highlighter-rouge">Mobile Site URL</code>を設定してから<code class="language-plaintext highlighter-rouge">App Domains</code>を入力しないと順序が逆だとfacebook側で警告が出ますのでご注意を。</li>
 </ul>
 
+<h2 id="2-ogp用の画像をアップロードする">2. OGP用の画像をアップロードする</h2>
+<p>OGPの<code class="language-plaintext highlighter-rouge">og:image</code>プロパティに指定する画像をアップロードします。</p>
 
-<h2>2. OGP用の画像をアップロードする</h2>
+<h2 id="3-_configymlを編集する">3. _config.ymlを編集する</h2>
+<p><code class="language-plaintext highlighter-rouge">facebook_app_id</code>, <code class="language-plaintext highlighter-rouge">facebook_locale</code>, <code class="language-plaintext highlighter-rouge">default_ogp_image</code>をセットします。</p>
 
-<p>OGPの<code>og:image</code>プロパティに指定する画像をアップロードします。</p>
+<figure class="code"><figcaption><span>_config.yml</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+</pre></td><td class="code"><pre><code class="yaml"><span class="line"><span class="na">facebook_app_id</span><span class="pi">:</span> <span class="s">app_id ←手順1で取得したapp_id</span>
+</span><span class="line"><span class="na">facebook_locale</span><span class="pi">:</span> <span class="s">ja_JP</span>
+</span><span class="line"><span class="na">default_ogp_image</span><span class="pi">:</span> <span class="s">/images/xxx.jpg ←手順2でアップロードした画像の相対パス</span></span></code></pre></td></tr></table></div></figure>
 
-<h2>3. _config.ymlを編集する</h2>
+<h2 id="4-source_includesfacebook_likehtmlを編集する">4. source/_includes/facebook_like.htmlを編集する</h2>
+<p>以下のように手順3でセットした<code class="language-plaintext highlighter-rouge">facebook_locale</code>と<code class="language-plaintext highlighter-rouge">facebook_app_id</code>を動的になるよう修正します。</p>
 
-<p><code>facebook_app_id</code>, <code>facebook_locale</code>, <code>default_ogp_image</code>をセットします。</p>
+<figure class="code"><figcaption><span>source/_includes/facebook_like.html</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+</pre></td><td class="code"><pre><code class="html"><span class="line">{% if site.facebook_like %}
+</span><span class="line"><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"fb-root"</span><span class="nt">&gt;&lt;/div&gt;</span>
+</span><span class="line"><span class="nt">&lt;script&gt;</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">d</span><span class="p">,</span> <span class="nx">s</span><span class="p">,</span> <span class="nx">id</span><span class="p">)</span> <span class="p">{</span>
+</span><span class="line">  <span class="kd">var</span> <span class="nx">js</span><span class="p">,</span> <span class="nx">fjs</span> <span class="o">=</span> <span class="nx">d</span><span class="p">.</span><span class="nf">getElementsByTagName</span><span class="p">(</span><span class="nx">s</span><span class="p">)[</span><span class="mi">0</span><span class="p">];</span>
+</span><span class="line">  <span class="k">if </span><span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="nx">id</span><span class="p">))</span> <span class="p">{</span><span class="k">return</span><span class="p">;}</span>
+</span><span class="line">  <span class="nx">js</span> <span class="o">=</span> <span class="nx">d</span><span class="p">.</span><span class="nf">createElement</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span> <span class="nx">js</span><span class="p">.</span><span class="nx">id</span> <span class="o">=</span> <span class="nx">id</span><span class="p">;</span>
+</span><span class="line">  <span class="nx">js</span><span class="p">.</span><span class="nx">src</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">//connect.facebook.net/{{ site.facebook_locale }}/all.js#appId={{ site.facebook_app_id }}&amp;xfbml=1</span><span class="dl">"</span><span class="p">;</span>
+</span><span class="line">  <span class="nx">fjs</span><span class="p">.</span><span class="nx">parentNode</span><span class="p">.</span><span class="nf">insertBefore</span><span class="p">(</span><span class="nx">js</span><span class="p">,</span> <span class="nx">fjs</span><span class="p">);</span>
+</span><span class="line"><span class="p">}(</span><span class="nb">document</span><span class="p">,</span> <span class="dl">'</span><span class="s1">script</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">facebook-jssdk</span><span class="dl">'</span><span class="p">));</span><span class="nt">&lt;/script&gt;</span>
+</span><span class="line">{% endif %}</span></code></pre></td></tr></table></div></figure>
 
-<p><code>yaml _config.yml
-facebook_app_id: app_id ←手順1で取得したapp_id
-facebook_locale: ja_JP
-default_ogp_image: /images/xxx.jpg ←手順2でアップロードした画像の相対パス
-</code></p>
-
-<h2>4. source/_includes/facebook_like.htmlを編集する</h2>
-
-<p>以下のように手順3でセットした<code>facebook_locale</code>と<code>facebook_app_id</code>を動的になるよう修正します。</p>
-
-<p>
-``` html source/_includes/facebook_like.html
-{% if site.facebook_like %}</p>
-
-<div id="fb-root"></div>
-
-
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) {return;}
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/{{ site.facebook_locale }}/all.js#appId={{ site.facebook_app_id }}&xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-
-<p>{% endif %}
-```
-</p>
-
-<h2>5. source/_includes/custom/facebook_ogp.htmlを編集する</h2>
-
+<h2 id="5-source_includescustomfacebook_ogphtmlを編集する">5. source/_includes/custom/facebook_ogp.htmlを編集する</h2>
 <p>以下のようなOGPをセットします。</p>
 
-<p>
-<code>html source/_includes/custom/facebook_ogp.html
-&lt;meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}" /&gt;
-&lt;meta property="og:description" content="{{ description | strip_html | condense_spaces | truncate:150 }}" /&gt;
-&lt;meta property="og:url" content="{{ canonical }}/" /&gt;
-&lt;meta property="og:image" content="{{ site.url }}{% if page.ogp_image %}{{ page.ogp_image }}{% else %}{{ site.default_ogp_image }}{% endif %}" /&gt;
-&lt;meta property="og:author" content="{{ site.author }}" /&gt;
-&lt;meta property="og:site_name" content="{{ site.title }}" /&gt;
-&lt;meta property="og:locale" content="{{ site.facebook_locale }}" /&gt;
-&lt;meta property="og:type" content="{% if page.index %}blog{% else %}article{% endif %}" /&gt;
-&lt;meta property="fb:app_id" content="{{ site.facebook_app_id }}" /&gt;
-</code>
-</p>
+<figure class="code"><figcaption><span>source/_includes/custom/facebook_ogp.html</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+</pre></td><td class="code"><pre><code class="html"><span class="line"><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">"og:title"</span> <span class="na">content=</span><span class="s">"{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}"</span> <span class="nt">/&gt;</span>
+</span><span class="line"><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">"og:description"</span> <span class="na">content=</span><span class="s">"{{ description | strip_html | condense_spaces | truncate:150 }}"</span> <span class="nt">/&gt;</span>
+</span><span class="line"><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">"og:url"</span> <span class="na">content=</span><span class="s">"{{ canonical }}/"</span> <span class="nt">/&gt;</span>
+</span><span class="line"><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">"og:image"</span> <span class="na">content=</span><span class="s">"{{ site.url }}{% if page.ogp_image %}{{ page.ogp_image }}{% else %}{{ site.default_ogp_image }}{% endif %}"</span> <span class="nt">/&gt;</span>
+</span><span class="line"><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">"og:author"</span> <span class="na">content=</span><span class="s">"{{ site.author }}"</span> <span class="nt">/&gt;</span>
+</span><span class="line"><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">"og:site_name"</span> <span class="na">content=</span><span class="s">"{{ site.title }}"</span> <span class="nt">/&gt;</span>
+</span><span class="line"><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">"og:locale"</span> <span class="na">content=</span><span class="s">"{{ site.facebook_locale }}"</span> <span class="nt">/&gt;</span>
+</span><span class="line"><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">"og:type"</span> <span class="na">content=</span><span class="s">"{% if page.index %}blog{% else %}article{% endif %}"</span> <span class="nt">/&gt;</span>
+</span><span class="line"><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">"fb:app_id"</span> <span class="na">content=</span><span class="s">"{{ site.facebook_app_id }}"</span> <span class="nt">/&gt;</span></span></code></pre></td></tr></table></div></figure>
 
 <ul>
-<li><code>og:image</code>はフルパスで指定</li>
+  <li><code class="language-plaintext highlighter-rouge">og:image</code>はフルパスで指定</li>
 </ul>
 
+<h2 id="6-source_includesheadhtmlを編集する">6. source/_includes/head.htmlを編集する</h2>
+<p>上記<code class="language-plaintext highlighter-rouge">facebook_ogp.html</code>をインクルードする記述を<code class="language-plaintext highlighter-rouge">&lt;/head&gt;</code>の直前に追加します。</p>
 
-<h2>6. source/_includes/head.htmlを編集する</h2>
+<figure class="code"><figcaption><span>source/_includes/head.html</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+</pre></td><td class="code"><pre><code class="html"><span class="line">  (略)
+</span><span class="line">  {% include custom/facebook_ogp.html %}
+</span><span class="line"><span class="nt">&lt;/head&gt;</span></span></code></pre></td></tr></table></div></figure>
 
-<p>上記<code>facebook_ogp.html</code>をインクルードする記述を<code>&lt;/head&gt;</code>の直前に追加します。</p>
+<p>また、&#8221;authorに関するOGPが設定不十分だよ&#8221;という以下の警告が出ます。</p>
 
-<p>
-<code>html source/_includes/head.html
-  (略)
-  {% include custom/facebook_ogp.html %}
-&lt;/head&gt;
-</code></p>
-
-<p>また、"authorに関するOGPが設定不十分だよ"という以下の警告が出ます。</p>
-
-<blockquote><p>&ldquo;The meta tag on the page was specified with name ‘author’, which matches a configured property of this object type. It will be ignored unless specified with the meta property attribute instead of the meta name attribute.&rdquo;</p></blockquote>
+<blockquote>
+  <p>&#8220;The meta tag on the page was specified with name ‘author’, which matches a configured property of this object type. It will be ignored unless specified with the meta property attribute instead of the meta name attribute.&#8221;</p>
+</blockquote>
 
 <p>これを解消する為には以下のmetaタグを削除します。</p>
 
-<p><code>html source/_includes/head.html
-  &lt;meta name="author" content="{{ site.author }}"&gt;
-</code>
-</p>
+<figure class="code"><figcaption><span>source/_includes/head.html</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="html"><span class="line">  <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"author"</span> <span class="na">content=</span><span class="s">"{{ site.author }}"</span><span class="nt">&gt;</span></span></code></pre></td></tr></table></div></figure>
 
 <p>以下参考記事です。</p>
 
 <ul>
-<li><a href="http://mekemoke.jp/2013/12/1319.html">ブログの記事をFacebookでシェアした時に、作成者名を表示させる方法 #wpacja2013</a></li>
+  <li><a href="http://mekemoke.jp/2013/12/1319.html">ブログの記事をFacebookでシェアした時に、作成者名を表示させる方法 #wpacja2013</a></li>
 </ul>
 
-
-<h2>7. 記事をアップしてOGPデバッガーで確認する</h2>
-
+<h2 id="7-記事をアップしてogpデバッガーで確認する">7. 記事をアップしてOGPデバッガーで確認する</h2>
 <p>facebookが提供している<a href="https://developers.facebook.com/tools/debug">OGPデバッガー</a>で
 OGPが意図するように設定されているか確認します。</p>
 
 <p>以下はデバッガーで確認するとよく出る警告です。</p>
 
-<blockquote><p>&ldquo;og:image should be larger. Provided og:image is not big enough. Please use an image that&rsquo;s at least 200x200 and preferably 1500x1500.&rdquo;</p></blockquote>
+<blockquote>
+  <p>&#8220;og:image should be larger. Provided og:image is not big enough. Please use an image that&#8217;s at least 200x200 and preferably 1500x1500.&#8221;</p>
+</blockquote>
 
 <ul>
-<li>&ldquo;OGPの画像が十分に大きくないよ"という警告。十分に大きいサイズでないと出るようです。以下参考記事。
-
-<ul>
-<li><a href="http://ore.hatenablog.jp/entry/2013/02/24/185923">Facebookのog:imageが無視されて異なる画像が勝手に指定される件（推奨サイズの追記あり）</a></li>
-<li>推奨は1500x1500らしいのですがそこまで大きくなくても私の場合800pxくらいで大丈夫でした。</li>
+  <li>&#8220;OGPの画像が十分に大きくないよ&#8221;という警告。十分に大きいサイズでないと出るようです。以下参考記事。
+    <ul>
+      <li><a href="http://ore.hatenablog.jp/entry/2013/02/24/185923">Facebookのog:imageが無視されて異なる画像が勝手に指定される件（推奨サイズの追記あり）</a></li>
+      <li>推奨は1500x1500らしいのですがそこまで大きくなくても私の場合800pxくらいで大丈夫でした。</li>
+    </ul>
+  </li>
 </ul>
-</li>
-</ul>
-
 
 <p>以上</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopressブログ環境をVagrantのboxで複数マシンで使う]]></title>
+    <link href="https://tchikuba.github.io/blog/2013/10/30/octopress-vagrant/"/>
+    <updated>2013-10-30T20:00:00+09:00</updated>
+    <id>https://tchikuba.github.io/blog/2013/10/30/octopress-vagrant</id>
+    <content type="html"><![CDATA[<p>Linuxで整えたOctopressでブログ書く環境をWindowsとMacでもそれぞれ作りたかったのとrubyのバージョンとか揃えるの億劫だしそれぞれ作るの面倒だなと思ったけど、既にvagrantな環境誰か作ってんじゃね？と思ってググったらありました。</p>
+
+<blockquote>
+  <p><a href="https://github.com/aequasi/octopress-vagrant">octopress-vagrant</a></p>
+</blockquote>
+
+<p>世の中考えることは一緒ですね！</p>
+
+<p>というわけで早速vagrant upしたらすぐにvirtualboxにてブログ書ける環境を整えることが出来ました。
+手順は以下に。</p>
+
+<ul>
+  <li>リモートリポジトリ(私の場合Bitbucket)とGitHubにゲストOS側のssh公開鍵を追加登録</li>
+  <li>Vagrantfileのポート4000番のフォワード設定を追加</li>
+  <li>ubuntuのデフォルトロケールを日本語に変更</li>
+  <li>リモートリポジトリからOctopressソースをgit clone</li>
+  <li>rake generateを叩いて[octopress root]/publicにhtmlの実態を生成</li>
+</ul>
+
+<p>これでホストOSから<code class="language-plaintext highlighter-rouge">http://localhost:4000</code>にアクセスするとvirtualbox上で動いているゲストOSに構築されたブログが見えるようになります。
+後は<a href="http://www.packer.io/">Packer</a>でboxイメージも共有すると良いかもしれません。</p>
+
+<p>余談ですが、DevOps面白いですね！
+PHP開発環境をxampp/mamppとかで作ったり手動でVMWare上でVM開発環境作ったりして格闘してた経験のある私としてはホント良い時代になったなぁと痛感する次第。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[GitHub PagesとOctopressなblog初投稿]]></title>
+    <link href="https://tchikuba.github.io/blog/2013/10/28/github-pages-octopress/"/>
+    <updated>2013-10-28T20:00:00+09:00</updated>
+    <id>https://tchikuba.github.io/blog/2013/10/28/github-pages-octopress</id>
+    <content type="html"><![CDATA[<p>このブログ初投稿。</p>
+
+<p>最近以下の理由でブログ書きたいなぁという思いが強くなってきてた。</p>
+
+<ul>
+  <li>勉強会に参加する機会が増えてて、アウトプットする場所が欲しい</li>
+  <li>リーン回りの事情とか発信する場所を持ちたい</li>
+</ul>
+
+<p>でもどこでブログ書こうかなと思案していた矢先、GitHub Pagesをブログ運用するという
+coolな手段があることが分かったので試してみることにした。</p>
+
+<p>参考にしたのは以下の記事。</p>
+
+<blockquote>
+  <p><a href="http://morizyun.github.io/blog/octopress-gitpage-minimum-install-guide/">OctopressでGitHub無料ブログ構築。sourceをBitbucket管理。簡単ガイド！</a></p>
+</blockquote>
+
+<p>URL見れば分かるけど、上記のブログもこの方法で運用されてる。
+やってみてホント簡単にブログ公開することが出来た＆ローカルでブログ書けるので、プログラマの人にはオススメしたいブログ運用ですね！
+これからブログ書くのが楽しみになりそうな予感。</p>
+
+<hr />
+
+<p>余談だけど最近rubyばかり良く書くのでググった時に結構このブログにはお世話になってて御礼申し上げたいｗ
+あと個人的にタイトルが凄く好き！</p>
+
+<blockquote>
+  <p><a href="http://morizyun.github.io/">酒と泪とRubyとRailsと～Ruby on Rails と Objective-C は酒の肴です！</a></p>
+</blockquote>
+
+<p>というわけ？で今後定期的にブログで情報発信していくます！</p>
 ]]></content>
   </entry>
   
