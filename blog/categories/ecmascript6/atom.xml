@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ECMAScript6 | tchikuba's blog]]></title>
   <link href="https://tchikuba.github.io/blog/categories/ecmascript6/atom.xml" rel="self"/>
   <link href="https://tchikuba.github.io/"/>
-  <updated>2026-11-03T01:34:30+09:00</updated>
+  <updated>2026-11-03T01:36:48+09:00</updated>
   <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
@@ -89,7 +89,7 @@
   </li>
 </ul>
 
-<h2 id="ブラウザで今すぐes6を使おうby林-優一氏-frontainer">『ブラウザで今すぐES6を使おう』by林 優一氏 <a href="https://twitter.com/frontainer">@frontainer</a></h2>
+<h2 id="ブラウザで今すぐes6を使おうby林-優一氏-frontainer">『ブラウザで今すぐES6を使おう』by林 優一氏 <a href="https://web.archive.org/web/20160212142945/https://twitter.com/frontainer">@frontainer</a></h2>
 <ul>
   <li>LIGのCTOやってる人</li>
   <li>ES2015のブラウザ実装状況はIE10で10%,Chromeで65%程度</li>

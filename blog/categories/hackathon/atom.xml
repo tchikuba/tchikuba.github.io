@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hackathon | tchikuba's blog]]></title>
   <link href="https://tchikuba.github.io/blog/categories/hackathon/atom.xml" rel="self"/>
   <link href="https://tchikuba.github.io/"/>
-  <updated>2026-11-03T01:34:30+09:00</updated>
+  <updated>2026-11-03T01:36:48+09:00</updated>
   <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
@@ -18,7 +18,7 @@
     <link href="https://tchikuba.github.io/blog/2015/09/10/jubatus-hackathon-with-yomiuri/"/>
     <updated>2015-09-10T00:05:28+09:00</updated>
     <id>https://tchikuba.github.io/blog/2015/09/10/jubatus-hackathon-with-yomiuri</id>
-    <content type="html"><![CDATA[<p>先月8/23(土)、8/24(日)の2日間で<a href="http://matome.naver.jp/odai/2137457967026150101">歌舞伎座タワーのドワンゴ本社</a>を会場として行われた
+    <content type="html"><![CDATA[<p>先月8/23(土)、8/24(日)の2日間で<a href="https://web.archive.org/web/20150907001741/http://matome.naver.jp/odai/2137457967026150101">歌舞伎座タワーのドワンゴ本社</a>を会場として行われた
 <a href="http://jubatus.connpass.com/event/18166/">Jubatusハッカソンwith読売新聞</a>に参加してきました！
 読売新聞の記事の写真にバッチリ写ってましたｗ</p>
 <iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="新聞記事と分析技術で新サービス考える「ハッカソン」 : 科学 : 読売新聞（YOMIURI ONLINE）" src="https://hatenablog.com/embed?url=http://www.yomiuri.co.jp/science/feature/CO018532/20150825-OYT8T50064.html" frameborder="0" scrolling="no"></iframe>
@@ -29,11 +29,11 @@
 <p>ちょっと遅くなってしまいましたが参加レポートをば。</p>
 
 <p><a href="http://jubat.us/ja/">Jubatus</a>は「ユバタス」と読み、<a href="https://www.preferred-networks.jp/">Preferred Networks</a>と
-<a href="http://www.sic.ecl.ntt.co.jp/">NTTソフトウェアイノベーションセンタ</a>が開発した
+<a href="https://web.archive.org/web/20150826151106/http://www.sic.ecl.ntt.co.jp/">NTTソフトウェアイノベーションセンタ</a>が開発した
 オンライン機械学習向け分散処理フレームワークです。 ※公式HPの受け売りですが(笑)</p>
 
 <p>今回のハッカソンはピンで参加したのでその場で即興でチームビルディングしました。
-以前から知人で<a href="http://www.senkyo-com.jp/team/">選挙ドットコムCTOの佐藤さん</a>
+以前から知人で<a href="https://web.archive.org/web/20150803005634/http://www.senkyo-com.jp/team/">選挙ドットコムCTOの佐藤さん</a>
 率いるチームで<strong>「2030年の日本の首相を予測する」</strong>というチャレンジング？(笑)なテーマに挑戦しました。
 大枠やったことを書くと、1985年時点での各政治家の当選回数、世襲か否か、得票数、選挙区の都市などを説明変数として
 2000年の閣僚経験数が一番多い政治家=首相を推定する
@@ -190,7 +190,7 @@
 やはりデザイナかフロントエンドエンジニアがいないとプロダクトの見栄えが・・・な感じでした。。</p>
 
 <p>ネタとしてはうちのチームでは「みんなのカイシャ(仮)」というタイトルで開発を行いました。
-過去の判例の情報解析を手掛ける<a href="http://www.ubic.co.jp/">UBICさん</a>が用意した自然言語処理系の人工知能APIを使って
+過去の判例の情報解析を手掛ける<a href="https://web.archive.org/web/20150613173900/http://www.ubic.co.jp/">UBICさん</a>が用意した自然言語処理系の人工知能APIを使って
 選択肢に企業理念を候補として出力して選択していくと企業理念が似通った企業を推薦してくれるというものです。
 クローラによるデータの収集や前処理に時間をかけすぎて肝心の人工知能APIバックエンドの実装が中途半端だったのが悔やまれました。</p>
 
@@ -198,7 +198,7 @@
 <blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">人工知能ハッカソン、成果発表中。1チーム目から面白い！ <a href="https://twitter.com/hashtag/AIhack?src=hash">#AIhack</a> <a href="http://t.co/jvUVYxOpBU">pic.twitter.com/jvUVYxOpBU</a></p>&mdash; サムライインキュベート両角 (@ryokado) <a href="https://twitter.com/ryokado/status/602389148721287169">2015, 5月 24</a></blockquote>
 <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<p>以下の通り、優勝したのはダイエット家庭教師等を手掛ける<a href="https://www.finc.co.jp/">FiNC</a>のインターンの方がいたチームでした。</p>
+<p>以下の通り、優勝したのはダイエット家庭教師等を手掛ける<a href="https://web.archive.org/web/20150623162012/https://www.finc.co.jp/">FiNC</a>のインターンの方がいたチームでした。</p>
 
 <blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">《人工知能ハッカソンにてFiNCのインター生が優勝しました！》&#10;&#10;5月23日と24日の両日にわたり、株式会社サムライインキュベートとUBICが開催した人工知能ハッカソンに、FiNCのインターン生や社員が参加してきました！&#8230; <a href="http://t.co/upOrpdQUNF">http://t.co/upOrpdQUNF</a></p>&mdash; 玉野井桐子 (@tamanoifinc) <a href="https://twitter.com/tamanoifinc/status/603371855651581952">2015, 5月 27</a></blockquote>
 <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

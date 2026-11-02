@@ -4,7 +4,7 @@
   <title><![CDATA[tchikuba's blog]]></title>
   <link href="https://tchikuba.github.io/atom.xml" rel="self"/>
   <link href="https://tchikuba.github.io/"/>
-  <updated>2026-11-03T01:34:30+09:00</updated>
+  <updated>2026-11-03T01:36:48+09:00</updated>
   <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
@@ -853,7 +853,7 @@
   <li>NPO法人みんなのコード主任講師：福田晴一氏
     <ul>
       <li>和田中学校藤原さん（民間出身の元校長先生）と一緒にやっていた元先生。</li>
-      <li>余談ですが私は藤原さんが提唱されている<a href="https://logmi.jp/131707">トライセクター・リーダー</a>って考え方に共感してます。簡単にいえば、3つの全く違うそれぞれの分野で100人に1人の人材になり、それを3つ掛け合わせると100万人に1人の人材になれる、というキャリアみたいな感じ。</li>
+      <li>余談ですが私は藤原さんが提唱されている<a href="https://web.archive.org/web/20180419203043/https://logmi.jp/131707">トライセクター・リーダー</a>って考え方に共感してます。簡単にいえば、3つの全く違うそれぞれの分野で100人に1人の人材になり、それを3つ掛け合わせると100万人に1人の人材になれる、というキャリアみたいな感じ。</li>
     </ul>
   </li>
 </ul>
@@ -1200,7 +1200,7 @@ JavaScriptの性質上、しょうがない側面も大きいかなと思いつ�
     <link href="https://tchikuba.github.io/blog/2017/07/19/programming-skils-for-entrepreneur/"/>
     <updated>2017-07-19T19:00:00+09:00</updated>
     <id>https://tchikuba.github.io/blog/2017/07/19/programming-skils-for-entrepreneur</id>
-    <content type="html"><![CDATA[<p>昨晩<a href="http://everevo.com/event/39414">「非エンジニア起業家に求められるプログラミングスキルとは」</a>
+    <content type="html"><![CDATA[<p>昨晩<a href="https://web.archive.org/web/20170828095750/http://everevo.com/event/39414">「非エンジニア起業家に求められるプログラミングスキルとは」</a>
 というイベントに参加してきました。</p>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">久々サムライインキュベートなう <a href="https://t.co/H9RSzbhKfQ">pic.twitter.com/H9RSzbhKfQ</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/887250994463203328">2017年7月18日</a></blockquote>
@@ -1249,7 +1249,7 @@ JavaScriptの性質上、しょうがない側面も大きいかなと思いつ�
   <li>エンジニアを起業家にする教育を施す学校のニーズは一定あるかも？</li>
 </ul>
 
-<p>登壇していた<a href="http://gsacademy.tokyo/">G’sアカデミー</a>も起業家向けのプログラミング教育を行ってますが、
+<p>登壇していた<a href="https://web.archive.org/web/20170729053911/http://gsacademy.tokyo/">G’sアカデミー</a>も起業家向けのプログラミング教育を行ってますが、
 むしろエンジニア界隈で最近主流になってきているプロダクトマネージャーの流れで、
 エンジニアを起業家にする方が筋が良い場合があるのでは？と思いました。</p>
 
@@ -1273,7 +1273,7 @@ CEOはプログラミングはできるべき、エンジニアリングまで�
 
 <hr />
 
-<p>現在少しずつ実験的に開発を進めている<a href="https://www.grami-sensei.com/">プログラミング教育メディア</a>の構想は筋は悪くなさそうという感触は得られました。ただ、ターゲットとなるペルソナは今回のイベントの参加者とはちょっとズレがあるのでその点は考慮が必要で引き続きヒアリングを進める必要がありそう。</p>
+<p>現在少しずつ実験的に開発を進めている<a href="https://web.archive.org/web/20180818213428/https://www.grami-sensei.com/">プログラミング教育メディア</a>の構想は筋は悪くなさそうという感触は得られました。ただ、ターゲットとなるペルソナは今回のイベントの参加者とはちょっとズレがあるのでその点は考慮が必要で引き続きヒアリングを進める必要がありそう。</p>
 ]]></content>
   </entry>
   
@@ -1832,7 +1832,7 @@ puts max</li>
 <p>とあります。</p>
 
 <p>私も自分の経験を振り返ってみて思うのですが、その通りだなと。
-これ実はある意味<a href="http://www.a-kumahira.co.jp/fifth/system.html">「システム思考」</a>だな、ということを最近しみじみ感じます。
+これ実はある意味<a href="https://web.archive.org/web/20151208135205/http://www.a-kumahira.co.jp/fifth/system.html">「システム思考」</a>だな、ということを最近しみじみ感じます。
 少なくとも予め仕込むことは出来ないという点においては、ゴール思考とは遠い気がします。</p>
 
 <p>私実は11年間エンジニアやる前、1年くらい超ブラック企業と言われた某営業会社で営業をしていた時期が(一応)ありました。
@@ -2029,7 +2029,7 @@ puts max</li>
   </li>
 </ul>
 
-<h2 id="ブラウザで今すぐes6を使おうby林-優一氏-frontainer">『ブラウザで今すぐES6を使おう』by林 優一氏 <a href="https://twitter.com/frontainer">@frontainer</a></h2>
+<h2 id="ブラウザで今すぐes6を使おうby林-優一氏-frontainer">『ブラウザで今すぐES6を使おう』by林 優一氏 <a href="https://web.archive.org/web/20160212142945/https://twitter.com/frontainer">@frontainer</a></h2>
 <ul>
   <li>LIGのCTOやってる人</li>
   <li>ES2015のブラウザ実装状況はIE10で10%,Chromeで65%程度</li>
@@ -2196,7 +2196,7 @@ rubyのパパこと<a href="https://twitter.com/yukihiro_matz">matz</a>の話が
     <link href="https://tchikuba.github.io/blog/2015/09/10/jubatus-hackathon-with-yomiuri/"/>
     <updated>2015-09-10T00:05:28+09:00</updated>
     <id>https://tchikuba.github.io/blog/2015/09/10/jubatus-hackathon-with-yomiuri</id>
-    <content type="html"><![CDATA[<p>先月8/23(土)、8/24(日)の2日間で<a href="http://matome.naver.jp/odai/2137457967026150101">歌舞伎座タワーのドワンゴ本社</a>を会場として行われた
+    <content type="html"><![CDATA[<p>先月8/23(土)、8/24(日)の2日間で<a href="https://web.archive.org/web/20150907001741/http://matome.naver.jp/odai/2137457967026150101">歌舞伎座タワーのドワンゴ本社</a>を会場として行われた
 <a href="http://jubatus.connpass.com/event/18166/">Jubatusハッカソンwith読売新聞</a>に参加してきました！
 読売新聞の記事の写真にバッチリ写ってましたｗ</p>
 <iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="新聞記事と分析技術で新サービス考える「ハッカソン」 : 科学 : 読売新聞（YOMIURI ONLINE）" src="https://hatenablog.com/embed?url=http://www.yomiuri.co.jp/science/feature/CO018532/20150825-OYT8T50064.html" frameborder="0" scrolling="no"></iframe>
@@ -2207,11 +2207,11 @@ rubyのパパこと<a href="https://twitter.com/yukihiro_matz">matz</a>の話が
 <p>ちょっと遅くなってしまいましたが参加レポートをば。</p>
 
 <p><a href="http://jubat.us/ja/">Jubatus</a>は「ユバタス」と読み、<a href="https://www.preferred-networks.jp/">Preferred Networks</a>と
-<a href="http://www.sic.ecl.ntt.co.jp/">NTTソフトウェアイノベーションセンタ</a>が開発した
+<a href="https://web.archive.org/web/20150826151106/http://www.sic.ecl.ntt.co.jp/">NTTソフトウェアイノベーションセンタ</a>が開発した
 オンライン機械学習向け分散処理フレームワークです。 ※公式HPの受け売りですが(笑)</p>
 
 <p>今回のハッカソンはピンで参加したのでその場で即興でチームビルディングしました。
-以前から知人で<a href="http://www.senkyo-com.jp/team/">選挙ドットコムCTOの佐藤さん</a>
+以前から知人で<a href="https://web.archive.org/web/20150803005634/http://www.senkyo-com.jp/team/">選挙ドットコムCTOの佐藤さん</a>
 率いるチームで<strong>「2030年の日本の首相を予測する」</strong>というチャレンジング？(笑)なテーマに挑戦しました。
 大枠やったことを書くと、1985年時点での各政治家の当選回数、世襲か否か、得票数、選挙区の都市などを説明変数として
 2000年の閣僚経験数が一番多い政治家=首相を推定する
@@ -2368,7 +2368,7 @@ rubyのパパこと<a href="https://twitter.com/yukihiro_matz">matz</a>の話が
 やはりデザイナかフロントエンドエンジニアがいないとプロダクトの見栄えが・・・な感じでした。。</p>
 
 <p>ネタとしてはうちのチームでは「みんなのカイシャ(仮)」というタイトルで開発を行いました。
-過去の判例の情報解析を手掛ける<a href="http://www.ubic.co.jp/">UBICさん</a>が用意した自然言語処理系の人工知能APIを使って
+過去の判例の情報解析を手掛ける<a href="https://web.archive.org/web/20150613173900/http://www.ubic.co.jp/">UBICさん</a>が用意した自然言語処理系の人工知能APIを使って
 選択肢に企業理念を候補として出力して選択していくと企業理念が似通った企業を推薦してくれるというものです。
 クローラによるデータの収集や前処理に時間をかけすぎて肝心の人工知能APIバックエンドの実装が中途半端だったのが悔やまれました。</p>
 
@@ -2376,7 +2376,7 @@ rubyのパパこと<a href="https://twitter.com/yukihiro_matz">matz</a>の話が
 <blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">人工知能ハッカソン、成果発表中。1チーム目から面白い！ <a href="https://twitter.com/hashtag/AIhack?src=hash">#AIhack</a> <a href="http://t.co/jvUVYxOpBU">pic.twitter.com/jvUVYxOpBU</a></p>&mdash; サムライインキュベート両角 (@ryokado) <a href="https://twitter.com/ryokado/status/602389148721287169">2015, 5月 24</a></blockquote>
 <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<p>以下の通り、優勝したのはダイエット家庭教師等を手掛ける<a href="https://www.finc.co.jp/">FiNC</a>のインターンの方がいたチームでした。</p>
+<p>以下の通り、優勝したのはダイエット家庭教師等を手掛ける<a href="https://web.archive.org/web/20150623162012/https://www.finc.co.jp/">FiNC</a>のインターンの方がいたチームでした。</p>
 
 <blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">《人工知能ハッカソンにてFiNCのインター生が優勝しました！》&#10;&#10;5月23日と24日の両日にわたり、株式会社サムライインキュベートとUBICが開催した人工知能ハッカソンに、FiNCのインターン生や社員が参加してきました！&#8230; <a href="http://t.co/upOrpdQUNF">http://t.co/upOrpdQUNF</a></p>&mdash; 玉野井桐子 (@tamanoifinc) <a href="https://twitter.com/tamanoifinc/status/603371855651581952">2015, 5月 27</a></blockquote>
 <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -2642,7 +2642,7 @@ td-client-rubyのソースコードを見たら案の定クエリタイプを指
     <link href="https://tchikuba.github.io/blog/2015/02/26/fibc2015/"/>
     <updated>2015-02-26T16:00:00+09:00</updated>
     <id>https://tchikuba.github.io/blog/2015/02/26/fibc2015</id>
-    <content type="html"><![CDATA[<p>縁あって<a href="http://fibc.info/fibc2015_event/">金融イノベーションビジネスカンファレンス(FIBC2015)</a>に参加してきました。
+    <content type="html"><![CDATA[<p>縁あって<a href="https://web.archive.org/web/20150217130350/http://fibc.info/fibc2015_event/">金融イノベーションビジネスカンファレンス(FIBC2015)</a>に参加してきました。
 普段参加するイベントはweb技術系かスタートアップ系のものがほとんどですが、
 いつも参加するスタートアップ関連イベントに比べてスーツ率がかなり高いのが金融らしいなと思いましたｗ
 同じ感想持った方がいましたねｗ</p>
@@ -2778,7 +2778,7 @@ td-client-rubyのソースコードを見たら案の定クエリタイプを指
   <li>時代が変わり円建てでの資産形成はリスクが大きい</li>
   <li>5000以上あるETFから50銘柄をピックアップしてグローバル分散投資</li>
   <li>諸々カスタマイズして提供する</li>
-  <li><a href="http://www.money-design.com/">www.money-design.com</a></li>
+  <li><a href="https://web.archive.org/web/20150225010051/http://www.money-design.com/">www.money-design.com</a></li>
 </ul>
 
 <h2 id="アノマリーサーチ">アノマリーサーチ</h2>
@@ -2830,7 +2830,7 @@ td-client-rubyのソースコードを見たら案の定クエリタイプを指
 
 <h2 id="マネックス証券">マネックス証券</h2>
 <ul>
-  <li><a href="http://answer.monex.co.jp/">answer</a>という資産運用目標や保有銘柄を管理出来るアプリ</li>
+  <li><a href="https://web.archive.org/web/20150214172531/http://answer.monex.co.jp/">answer</a>という資産運用目標や保有銘柄を管理出来るアプリ</li>
   <li>一部の金融機関でアグリゲーションでデータ取り込み(スクレイピング)</li>
   <li>設定した目標にどの程度到達しているのかをスコアで評価する</li>
 </ul>
@@ -2848,7 +2848,7 @@ td-client-rubyのソースコードを見たら案の定クエリタイプを指
 <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <ul>
-  <li><a href="http://www.sophiabank.co.jp/partner/fujisawa">シンクタンク・ソフィアバンク藤沢久美氏</a>。ダボス会議でヤングリーダー。7回程参加して感じるのは今、社会全体の転換期にあること</li>
+  <li><a href="https://web.archive.org/web/20150402010705/http://www.sophiabank.co.jp/partner/fujisawa">シンクタンク・ソフィアバンク藤沢久美氏</a>。ダボス会議でヤングリーダー。7回程参加して感じるのは今、社会全体の転換期にあること</li>
   <li>貨幣経済から贈与経済へ。相手に心を使う。結婚式のご祝儀が貨幣経済。</li>
   <li>金融とはそもそも何か？非常に考えさせられる。富を再分配するプラットフォームが金融。現在の銀行や証券会社の限界を感じる。slow&amp;nallow</li>
 </ul>
@@ -2891,7 +2891,7 @@ td-client-rubyのソースコードを見たら案の定クエリタイプを指
     <link href="https://tchikuba.github.io/blog/2015/01/22/new-type-organization/"/>
     <updated>2015-01-22T21:25:44+09:00</updated>
     <id>https://tchikuba.github.io/blog/2015/01/22/new-type-organization</id>
-    <content type="html"><![CDATA[<p><a href="http://hrnabi.com/2015/01/21/5353/">CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ</a>
+    <content type="html"><![CDATA[<p><a href="https://web.archive.org/web/20150123085920/http://hrnabi.com/2015/01/21/5353/">CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ</a>
 というHRナビの記事に興奮したのでこれは久しぶりにブログ記事を書しかない！と決意しました。
 興奮したのは自分が起業したらこういう会社にしたいな、こういう組織が良いな、と思って以前から書き溜めていた内容と結構重複するところがあったからです。
 この記事、タイトルが内容のごく一部というか表層的な部分しか表現出来ておらず、何かチープな印象すら受けるんですよね。。
@@ -2920,7 +2920,7 @@ td-client-rubyのソースコードを見たら案の定クエリタイプを指
 <blockquote class="twitter-tweet" data-cards="hidden" lang="ja"><p>この記事、面白いな。特に組織体系。CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ | HRナビ <a href="http://t.co/bjdje6TB69">http://t.co/bjdje6TB69</a></p>&mdash; NPO法人D×P　今井紀明（共同代表） (@NoriakiImai) <a href="https://twitter.com/NoriakiImai/status/558155025252237312">2015, 1月 22</a></blockquote>
 <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet" data-cards="hidden" lang="ja"><p>Bufferの透明感あるマネジメントスタイル個人的に好き。途中に出てくる組織論の変遷についても勉強になった＞CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ <a href="http://t.co/483OHswpbC">http://t.co/483OHswpbC</a></p>&mdash; Akihisa Ishikawa (@a_ishikawa) <a href="https://twitter.com/a_ishikawa/status/558122469866090497">2015, 1月 22</a></blockquote>
+<blockquote class="twitter-tweet" data-cards="hidden" lang="ja"><p>Bufferの透明感あるマネジメントスタイル個人的に好き。途中に出てくる組織論の変遷についても勉強になった＞CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ <a href="http://t.co/483OHswpbC">http://t.co/483OHswpbC</a></p>&mdash; Akihisa Ishikawa (@a_ishikawa) <a href="https://web.archive.org/web/20160204104200/https://twitter.com/a_ishikawa/status/558122469866090497">2015, 1月 22</a></blockquote>
 <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-cards="hidden" lang="ja"><p>組織をデザインするってほんとにおもろい。うちは今二人だけど、いつかもう少し大きなチームにしたいなと思ってる。 / “CEOの年収2000万円ほか全社員の給与を公開中、Buffer創業者に聞く「過激な透明性」のワケ | HRナビ” <a href="http://t.co/QHK1KNPlwq">http://t.co/QHK1KNPlwq</a></p>&mdash; Hikari Mimura (@picacch) <a href="https://twitter.com/picacch/status/558119299131662336">2015, 1月 22</a></blockquote>
