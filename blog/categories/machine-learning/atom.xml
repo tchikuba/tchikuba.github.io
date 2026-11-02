@@ -4,13 +4,13 @@
   <title><![CDATA[Category: machine learning | tchikuba's blog]]></title>
   <link href="https://tchikuba.github.io/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="https://tchikuba.github.io/"/>
-  <updated>2026-11-03T00:48:24+09:00</updated>
+  <updated>2026-11-03T01:25:04+09:00</updated>
   <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
   </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+  <generator uri="https://jekyllrb.com/">Jekyll</generator>
 
   
   <entry>
@@ -21,7 +21,7 @@
     <content type="html"><![CDATA[<p>先月8/23(土)、8/24(日)の2日間で<a href="http://matome.naver.jp/odai/2137457967026150101">歌舞伎座タワーのドワンゴ本社</a>を会場として行われた
 <a href="http://jubatus.connpass.com/event/18166/">Jubatusハッカソンwith読売新聞</a>に参加してきました！
 読売新聞の記事の写真にバッチリ写ってましたｗ</p>
-<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="新聞記事と分析技術で新サービス考える「ハッカソン」 : 科学 : 読売新聞（YOMIURI ONLINE）" src="http://hatenablog.com/embed?url=http://www.yomiuri.co.jp/science/feature/CO018532/20150825-OYT8T50064.html" frameborder="0" scrolling="no"></iframe>
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="新聞記事と分析技術で新サービス考える「ハッカソン」 : 科学 : 読売新聞（YOMIURI ONLINE）" src="https://hatenablog.com/embed?url=http://www.yomiuri.co.jp/science/feature/CO018532/20150825-OYT8T50064.html" frameborder="0" scrolling="no"></iframe>
 
 <blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">ビッグデータの分析技術とヨミウリ・オンラインの記事を使った「Ｊｕｂａｔｕｓハッカソン　ｗｉｔｈ　読売新聞」。優勝したのは、どんなアイデアだったでしょう？&#10;<a href="http://t.co/euayPP6mU0">http://t.co/euayPP6mU0</a> <a href="http://t.co/BbQxG2Vkc7">pic.twitter.com/BbQxG2Vkc7</a></p>&mdash; 読売新聞YOL (@Yomiuri_Online) <a href="https://twitter.com/Yomiuri_Online/status/636103332449259520">2015, 8月 25</a></blockquote>
 <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -81,23 +81,23 @@
 <p>ちなみにこのChainerもJubatusを開発したPreferred Networksが開発したディープラーニングフレームワークです。</p>
 
 <h2 id="jubatusハッカソンwith読売新聞参加レポート">「Jubatusハッカソンwith読売新聞」参加レポート</h2>
-<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Jubatus ハッカソン with 読売新聞に参加してきました - てくすた" src="http://hatenablog.com/embed?url=http://texta.pixta.jp/entry/2015/08/28/190353" frameborder="0" scrolling="no"></iframe>
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Jubatus ハッカソン with 読売新聞に参加してきました - てくすた" src="https://hatenablog.com/embed?url=http://texta.pixta.jp/entry/2015/08/28/190353" frameborder="0" scrolling="no"></iframe>
 
-<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Jubatusハッカソン with 読売新聞に参加しました | kanonjiのブログ" src="http://hatenablog.com/embed?url=http://kanonji.info/blog/2015/08/27/report-jubatus-hackathon-with-yomiuri-shimbun/" frameborder="0" scrolling="no"></iframe>
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Jubatusハッカソン with 読売新聞に参加しました | kanonjiのブログ" src="https://hatenablog.com/embed?url=http://kanonji.info/blog/2015/08/27/report-jubatus-hackathon-with-yomiuri-shimbun/" frameborder="0" scrolling="no"></iframe>
 
-<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="「Jubatus ハッカソン with 読売新聞」で入賞した！ - 雀巽の日記帳" src="http://hatenablog.com/embed?url=http://necojackarc.hatenablog.com/entry/2015/08/23/210608" frameborder="0" scrolling="no"></iframe>
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="「Jubatus ハッカソン with 読売新聞」で入賞した！ - 雀巽の日記帳" src="https://hatenablog.com/embed?url=http://necojackarc.hatenablog.com/entry/2015/08/23/210608" frameborder="0" scrolling="no"></iframe>
 
-<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Jubatusハッカソンに参加してきました - yustam.jp" src="http://hatenablog.com/embed?url=http://yustam.hatenablog.com/entry/2015/08/24/071123" frameborder="0" scrolling="no"></iframe>
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Jubatusハッカソンに参加してきました - yustam.jp" src="https://hatenablog.com/embed?url=http://yustam.hatenablog.com/entry/2015/08/24/071123" frameborder="0" scrolling="no"></iframe>
 
 <h2 id="jubatusと自然言語処理">Jubatusと自然言語処理</h2>
 <p>同じチームメンバーの方がまとめたQiita記事が分かりやすいです。
 自然言語処理を行う際に避けて通れない前処理が機能としてJubatusに備わっているので便利ですね。</p>
-<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="jubatas - Jubatusで自然言語処理を使うときのまとめ（備忘録） - Qiita" src="http://hatenablog.com/embed?url=http://qiita.com/GushiSnow/items/15ef4c21aa1e8a09a4c5" frameborder="0" scrolling="no"></iframe>
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="jubatas - Jubatusで自然言語処理を使うときのまとめ（備忘録） - Qiita" src="https://hatenablog.com/embed?url=http://qiita.com/GushiSnow/items/15ef4c21aa1e8a09a4c5" frameborder="0" scrolling="no"></iframe>
 
 <h2 id="オンライン機械学習とは">オンライン(機械)学習とは</h2>
 <p>オンライン機械学習はJubatusの最大の特徴とされています。「機械」を省略して「オンライン学習」とも呼ばれます。
 オンライン学習について分かりやすい解説は以下のNTTデータの記事です。</p>
-<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="ビッグデータ時代の機械学習アルゴリズム：オンライン学習 | NTTデータ" src="http://hatenablog.com/embed?url=http://www.nttdata.com/jp/ja/insights/trend_keyword/2014110601.html" frameborder="0" scrolling="no"></iframe>
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="ビッグデータ時代の機械学習アルゴリズム：オンライン学習 | NTTデータ" src="https://hatenablog.com/embed?url=http://www.nttdata.com/jp/ja/insights/trend_keyword/2014110601.html" frameborder="0" scrolling="no"></iframe>
 
 <p>以下の記述がオンライン学習について端的に言い表しています。</p>
 <blockquote>
@@ -123,7 +123,7 @@
 
 <p>そこで個人的に最近良くお世話になっている<a href="http://tjo.hatenablog.com/">銀座で働くデータサイエンティストのブログ</a>を書かれている
 <a href="http://www.linkedin.com/in/tjozaki">Takashi J. OZAKI</a>さんの以下の記事がオススメです。</p>
-<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="社会人が統計学や機械学習を学ぶなら「落下傘方式」で - 銀座で働くデータサイエンティストのブログ" src="http://hatenablog.com/embed?url=http://tjo.hatenablog.com/entry/2014/03/31/191907" frameborder="0" scrolling="no"></iframe>
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="社会人が統計学や機械学習を学ぶなら「落下傘方式」で - 銀座で働くデータサイエンティストのブログ" src="https://hatenablog.com/embed?url=http://tjo.hatenablog.com/entry/2014/03/31/191907" frameborder="0" scrolling="no"></iframe>
 
 <p>ここで出てくる「落下傘方式」とは</p>
 <blockquote>
@@ -132,34 +132,34 @@
 
 <p>という定義だそうですが、この勉強法はwebエンジニアとの親和性が高いんじゃないかと思います。
 ググッたらちょっと古い「Rubyのパパ」こと<a href="https://twitter.com/yukihiro_matz">matz</a>の記事がヒットしました。OSSのコードを読む場合の戦略の一つとして紹介されてました。</p>
-<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="フリー言語で真のプログラミングを学ぶ - Part1　オープンソース/C言語に学ぶ「ソースコードの読み方」：ITpro" src="http://hatenablog.com/embed?url=http://itpro.nikkeibp.co.jp/article/COLUMN/20070622/275606/" frameborder="0" scrolling="no"></iframe>
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="フリー言語で真のプログラミングを学ぶ - Part1　オープンソース/C言語に学ぶ「ソースコードの読み方」：ITpro" src="https://hatenablog.com/embed?url=http://itpro.nikkeibp.co.jp/article/COLUMN/20070622/275606/" frameborder="0" scrolling="no"></iframe>
 
 <p>特に私の場合は機械学習アルゴリズムそのものを研究する訳ではなく、既に確立された機械学習アルゴリズムを利用するユーザーの立場なので、
 実際にJubatusを触ってみたりpythonの機械学習ライブラリの<a href="http://pandas.pydata.org/">pandas</a>や<a href="http://scikit-learn.org/stable/">scikit-learn</a>を
 実データで利用してみた方が理解が進んでいる気がします。</p>
 
 <h3 id="pandasの参考になった入門記事">pandasの参考になった入門記事</h3>
-<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Python - 10分でPandasを学ぶ - Qiita" src="http://hatenablog.com/embed?url=http://qiita.com/tkazusa/items/23bc0142bf277d397260" frameborder="0" scrolling="no"></iframe>
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Python - 10分でPandasを学ぶ - Qiita" src="https://hatenablog.com/embed?url=http://qiita.com/tkazusa/items/23bc0142bf277d397260" frameborder="0" scrolling="no"></iframe>
 
 <h3 id="scikit-learnの参考になった入門記事">scikit-learnの参考になった入門記事</h3>
-<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="pythonの機械学習ライブラリscikit-learnの紹介 - 唯物是真 @Scaled_Wurm" src="http://hatenablog.com/embed?url=http://sucrose.hatenablog.com/entry/2013/05/25/133021" frameborder="0" scrolling="no"></iframe>
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="pythonの機械学習ライブラリscikit-learnの紹介 - 唯物是真 @Scaled_Wurm" src="https://hatenablog.com/embed?url=http://sucrose.hatenablog.com/entry/2013/05/25/133021" frameborder="0" scrolling="no"></iframe>
 
 <h3 id="chainerの参考になった入門記事">Chainerの参考になった入門記事</h3>
-<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Python - 【機械学習】ディープラーニング フレームワークChainerを試しながら解説してみる。 - Qiita" src="http://hatenablog.com/embed?url=http://qiita.com/kenmatsu4/items/7b8d24d4c5144a686412" frameborder="0" scrolling="no"></iframe>
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Python - 【機械学習】ディープラーニング フレームワークChainerを試しながら解説してみる。 - Qiita" src="https://hatenablog.com/embed?url=http://qiita.com/kenmatsu4/items/7b8d24d4c5144a686412" frameborder="0" scrolling="no"></iframe>
 
-<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="機械学習 - 深層学習でニュース記事を分類する - Qiita" src="http://hatenablog.com/embed?url=http://qiita.com/hogefugabar/items/c27ed578717c5e7288c0" frameborder="0" scrolling="no"></iframe>
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="機械学習 - 深層学習でニュース記事を分類する - Qiita" src="https://hatenablog.com/embed?url=http://qiita.com/hogefugabar/items/c27ed578717c5e7288c0" frameborder="0" scrolling="no"></iframe>
 
 <h2 id="参考書籍">参考書籍</h2>
 <div>
-<a href="http://www.amazon.co.jp/gp/product/4621061224/ref=as_li_qf_sp_asin_il?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=4621061224&amp;linkCode=as2&amp;tag=athome0a-22"><img style="max-width:250px;max-height:250px" border="0" src="https://images-fe.ssl-images-amazon.com/images/P/4621061224.09.LZZZZZZZ.jpg" /></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=as2&amp;o=9&amp;a=4621061224" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.co.jp/gp/product/4621061224/ref=as_li_qf_sp_asin_il?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=4621061224&amp;linkCode=as2&amp;tag=athome0a-22"><img style="max-width:250px;max-height:250px" border="0" src="https://images-fe.ssl-images-amazon.com/images/P/4621061224.09.LZZZZZZZ.jpg" /></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=as2&amp;o=9&amp;a=4621061224" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
-<a href="http://www.amazon.co.jp/gp/product/4130420658/ref=as_li_qf_sp_asin_il?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=4130420658&amp;linkCode=as2&amp;tag=athome0a-22"><img style="max-width:250px;max-height:250px" border="0" src="https://images-fe.ssl-images-amazon.com/images/P/4130420658.09.LZZZZZZZ.jpg" /></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=as2&amp;o=9&amp;a=4130420658" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.co.jp/gp/product/4130420658/ref=as_li_qf_sp_asin_il?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=4130420658&amp;linkCode=as2&amp;tag=athome0a-22"><img style="max-width:250px;max-height:250px" border="0" src="https://images-fe.ssl-images-amazon.com/images/P/4130420658.09.LZZZZZZZ.jpg" /></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=as2&amp;o=9&amp;a=4130420658" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
-<a href="http://www.amazon.co.jp/gp/product/4627849710/ref=as_li_qf_sp_asin_il?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=4627849710&amp;linkCode=as2&amp;tag=athome0a-22"><img style="max-width:250px;max-height:250px" border="0" src="https://images-fe.ssl-images-amazon.com/images/P/4627849710.09.LZZZZZZZ.jpg" /></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=as2&amp;o=9&amp;a=4627849710" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.co.jp/gp/product/4627849710/ref=as_li_qf_sp_asin_il?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=4627849710&amp;linkCode=as2&amp;tag=athome0a-22"><img style="max-width:250px;max-height:250px" border="0" src="https://images-fe.ssl-images-amazon.com/images/P/4627849710.09.LZZZZZZZ.jpg" /></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=as2&amp;o=9&amp;a=4627849710" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
-<a href="http://www.amazon.co.jp/gp/product/B00UAAK07S/ref=as_li_qf_sp_asin_il?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B00UAAK07S&amp;linkCode=as2&amp;tag=athome0a-22"><img style="max-width:250px;max-height:250px" border="0" src="https://images-fe.ssl-images-amazon.com/images/P/B00UAAK07S.09.LZZZZZZZ.jpg" /></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=as2&amp;o=9&amp;a=B00UAAK07S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.co.jp/gp/product/B00UAAK07S/ref=as_li_qf_sp_asin_il?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B00UAAK07S&amp;linkCode=as2&amp;tag=athome0a-22"><img style="max-width:250px;max-height:250px" border="0" src="https://images-fe.ssl-images-amazon.com/images/P/B00UAAK07S.09.LZZZZZZZ.jpg" /></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=as2&amp;o=9&amp;a=B00UAAK07S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
-<a href="http://www.amazon.co.jp/gp/product/B0152OV4VW/ref=as_li_tf_il?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B0152OV4VW&amp;linkCode=as2&amp;tag=athome0a-22"><img style="max-width:250px;max-height:250px" border="0" src="https://images-fe.ssl-images-amazon.com/images/P/B0152OV4VW.09.LZZZZZZZ.jpg" /></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=as2&amp;o=9&amp;a=B0152OV4VW" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.co.jp/gp/product/B0152OV4VW/ref=as_li_tf_il?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=B0152OV4VW&amp;linkCode=as2&amp;tag=athome0a-22"><img style="max-width:250px;max-height:250px" border="0" src="https://images-fe.ssl-images-amazon.com/images/P/B0152OV4VW.09.LZZZZZZZ.jpg" /></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;l=as2&amp;o=9&amp;a=B0152OV4VW" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 </div>
 ]]></content>
   </entry>

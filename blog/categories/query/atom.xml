@@ -4,13 +4,13 @@
   <title><![CDATA[Category: query | tchikuba's blog]]></title>
   <link href="https://tchikuba.github.io/blog/categories/query/atom.xml" rel="self"/>
   <link href="https://tchikuba.github.io/"/>
-  <updated>2026-11-03T00:48:24+09:00</updated>
+  <updated>2026-11-03T01:25:04+09:00</updated>
   <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
     
   </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+  <generator uri="https://jekyllrb.com/">Jekyll</generator>
 
   
   <entry>
@@ -26,7 +26,7 @@ td-client-rubyのソースコードを見たら案の定クエリタイプを指
 
 <p><a href="https://github.com/treasure-data/td-client-ruby/blob/master/lib/td/client.rb#L182">https://github.com/treasure-data/td-client-ruby/blob/master/lib/td/client.rb#L182</a></p>
 
-<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="td-client-ruby/client.rb at master · treasure-data/td-client-ruby · GitHub" src="http://hatenablog.com/embed?url=https://github.com/treasure-data/td-client-ruby/blob/master/lib/td/client.rb#L182" frameborder="0" scrolling="no"></iframe>
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="td-client-ruby/client.rb at master · treasure-data/td-client-ruby · GitHub" src="https://hatenablog.com/embed?url=https://github.com/treasure-data/td-client-ruby/blob/master/lib/td/client.rb#L182" frameborder="0" scrolling="no"></iframe>
 
 <figure class="code"><figcaption><span>client.rb#L182付近</span><a href="https://gist.github.com/tchikuba/c1c9e48f88ff7c6d2c94">gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
 <span class="line-number">2</span>
@@ -105,9 +105,9 @@ td-client-rubyのソースコードを見たら案の定クエリタイプを指
 現実的に時間がかかりすぎたクエリでもPrestoであれば動的にデータ取得可能なので利用の幅が広がりますね。</p>
 
 <h2 id="合わせて読みたい">合わせて読みたい</h2>
-<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="『Prestoとは何か，Prestoで何ができるか』 - トレジャーデータ（Treasure Data）公式ブログ" src="http://hatenablog.com/embed?url=http://treasure-data.hateblo.jp/entry/2014/07/10/150250" frameborder="0" scrolling="no"></iframe>
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="『Prestoとは何か，Prestoで何ができるか』 - トレジャーデータ（Treasure Data）公式ブログ" src="https://hatenablog.com/embed?url=http://treasure-data.hateblo.jp/entry/2014/07/10/150250" frameborder="0" scrolling="no"></iframe>
 
-<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="[Ruby on Rails]td-clientでTreasureDataにQueryを発行する ｜ Developers.IO" src="http://hatenablog.com/embed?url=http://dev.classmethod.jp/server-side/ruby-on-rails/ruby-on-railstd-client_treasuredata_query_issue/" frameborder="0" scrolling="no"></iframe>
+<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="[Ruby on Rails]td-clientでTreasureDataにQueryを発行する ｜ Developers.IO" src="https://hatenablog.com/embed?url=http://dev.classmethod.jp/server-side/ruby-on-rails/ruby-on-railstd-client_treasuredata_query_issue/" frameborder="0" scrolling="no"></iframe>
 ]]></content>
   </entry>
   
