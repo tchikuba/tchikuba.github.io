@@ -4,7 +4,7 @@
   <title><![CDATA[Category: claude-code | tchikuba's blog]]></title>
   <link href="https://tchikuba.github.io/blog/categories/claude-code/atom.xml" rel="self"/>
   <link href="https://tchikuba.github.io/"/>
-  <updated>2026-11-03T13:23:20+09:00</updated>
+  <updated>2026-11-03T13:34:08+09:00</updated>
   <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
@@ -650,7 +650,10 @@ Fableで採点すると1件$2.2かかり、Phase 4の採点だけで$54になり
 
 <p>期待していた「Claudeが指揮してローカルが実装」の形は、費用でも速度でも割に合いませんでした。</p>
 
-<p>なので、これから組む「私はFableとだけ話す」オーケストレーター構成も、指揮役の下で動く実装ワーカーはまずClaude（Sonnet）を並列で回し、品質ゲートはテストとレビューの2段にするつもりです。
+<p>なので、これから組むオーケストレーター構成は、当初考えていた「Fableとだけ話す」形ではなく、「Opusとだけ話す」形にするつもりです。指揮役の下で動く実装ワーカーはまずClaude（Sonnet）を並列で回し、品質ゲートはテストとレビューの2段に。</p>
+
+<p>Fableは、ここぞという高度なレビューにだけ使うのがトークン効率が良さそうです。
+今回も、Fableでの採点はOpusの約8倍の費用がかかったのに、2者の判定は21件中18件で一致しました。一方で、Opusが書いた受け入れテストの重大な不備を見つけたのはFableでした。
 トークンの節約という意味でも、GLMに任せて浮くのはSonnetで1件あたり$0.76程度でした。
 それでも、Teamのアカウントで5時間の利用上限に達したときの逃げ道にはなるので、利用枠が逼迫したとき、急がない夜間のバッチ、コードを外部に出したくない場面の補助レーンとしてGLMは残しておきます。</p>
 
