@@ -4,7 +4,7 @@
   <title><![CDATA[tchikuba's blog]]></title>
   <link href="https://tchikuba.github.io/atom.xml" rel="self"/>
   <link href="https://tchikuba.github.io/"/>
-  <updated>2026-11-03T13:34:08+09:00</updated>
+  <updated>2026-11-03T13:47:21+09:00</updated>
   <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
@@ -650,7 +650,7 @@ Fableで採点すると1件$2.2かかり、Phase 4の採点だけで$54になり
 
 <p>期待していた「Claudeが指揮してローカルが実装」の形は、費用でも速度でも割に合いませんでした。</p>
 
-<p>なので、これから組むオーケストレーター構成は、当初考えていた「Fableとだけ話す」形ではなく、「Opusとだけ話す」形にするつもりです。指揮役の下で動く実装ワーカーはまずClaude（Sonnet）を並列で回し、品質ゲートはテストとレビューの2段に。</p>
+<p>これから組むオーケストレーター構成は、当初考えていた「Fableとだけ話す」形ではなく、「Opusとだけ話す」形にするつもりです。指揮役の下で動く実装ワーカーはまずClaude（Sonnet）を並列で回し、品質ゲートはテストとレビューの2段に。</p>
 
 <p>Fableは、ここぞという高度なレビューにだけ使うのがトークン効率が良さそうです。
 今回も、Fableでの採点はOpusの約8倍の費用がかかったのに、2者の判定は21件中18件で一致しました。一方で、Opusが書いた受け入れテストの重大な不備を見つけたのはFableでした。
@@ -781,8 +781,8 @@ Fableで採点すると1件$2.2かかり、Phase 4の採点だけで$54になり
 
 <ul>
   <li><a href="https://huggingface.co/docs/hub/xet/using-xet-storage">Hugging Face: Using Xet Storage</a>：Xetでのダウンロードの設定</li>
-  <li><a href="https://github.com/huggingface/huggingface_hub/issues/4893">huggingface_hub issue #4893</a></li>
-  <li><a href="https://github.com/huggingface/xet-core/issues/883">xet-core issue #883</a></li>
+  <li><a href="https://github.com/huggingface/huggingface_hub/issues/4893">huggingface_hub issue #4893</a>：太い回線だと、既定の並列数では<code class="language-plaintext highlighter-rouge">hf download</code>の速度が出ないという報告</li>
+  <li><a href="https://github.com/huggingface/xet-core/issues/883">xet-core issue #883</a>：大きなモデルのダウンロード中にXetが止まるという報告</li>
 </ul>
 
 <h3 id="claude-code">Claude Code</h3>
@@ -790,19 +790,19 @@ Fableで採点すると1件$2.2かかり、Phase 4の採点だけで$54になり
 <ul>
   <li><a href="https://code.claude.com/docs/en/llm-gateway">Claude Code: LLM gateway configuration</a>：<code class="language-plaintext highlighter-rouge">ANTHROPIC_BASE_URL</code>で接続先を差し替える方法</li>
   <li><a href="https://code.claude.com/docs/en/env-vars">Claude Code: Environment variables</a>：Claude Codeの環境変数</li>
-  <li><a href="https://www.kdnuggets.com/pairing-claude-code-with-local-models">Pairing Claude Code with Local Models（KDnuggets）</a></li>
-  <li><a href="https://www.runlocalai.co/guides/claude-code-with-local-models">Claude Code with local models（runlocalai）</a></li>
+  <li><a href="https://www.kdnuggets.com/pairing-claude-code-with-local-models">Pairing Claude Code with Local Models（KDnuggets）</a>：Claude CodeをローカルLLMとつなぐ方法と、ツール呼び出しの注意点</li>
+  <li><a href="https://www.runlocalai.co/guides/claude-code-with-local-models">Claude Code with local models（runlocalai）</a>：Ollama・LiteLLM・llama.cppでClaude Codeを動かすガイド</li>
   <li><a href="https://docs.z.ai/devpack/tool/others">Z.ai: Other tools</a>：GLMをClaude Codeなどのツールから使う公式の案内</li>
   <li><a href="https://blogs.novita.ai/how-to-access-qwen-3-coder-qwen-code-claude-code-trae/">How to Access Qwen 3 Coder（Novita）</a>：Qwen CodeがQwen3-Coder向けにツール呼び出しを調整しているという話</li>
-  <li><a href="https://blogs.novita.ai/use-qwen3-coder-next-in-claude-code-an-80-cheaper-alternative/">Use Qwen3-Coder-Next in Claude Code（Novita）</a></li>
+  <li><a href="https://blogs.novita.ai/use-qwen3-coder-next-in-claude-code-an-80-cheaper-alternative/">Use Qwen3-Coder-Next in Claude Code（Novita）</a>：Qwen3-Coder-NextをClaude Codeから使う方法</li>
 </ul>
 
 <h3 id="macos動く壁紙とvtdecoderxpcservice">macOS（動く壁紙とVTDecoderXPCService）</h3>
 
 <ul>
-  <li><a href="https://discussions.apple.com/thread/255436944">VTDecoderXPCService memory leak（Apple Community）</a></li>
-  <li><a href="https://discussions.apple.com/thread/255180158?page=2">wallpapervideoextension in Sonoma uses lots of RAM and CPU（Apple Community）</a></li>
-  <li><a href="https://discussions.apple.com/thread/250079339">VTdecoderxpcservice takes 600% cpu（Apple Community）</a></li>
+  <li><a href="https://discussions.apple.com/thread/255436944">VTDecoderXPCService memory leak（Apple Community）</a>：VTDecoderXPCServiceがメモリを解放しないという報告</li>
+  <li><a href="https://discussions.apple.com/thread/255180158?page=2">wallpapervideoextension in Sonoma uses lots of RAM and CPU（Apple Community）</a>：壁紙の動画拡張がRAMとCPUを大量に使うという報告</li>
+  <li><a href="https://discussions.apple.com/thread/250079339">VTdecoderxpcservice takes 600% cpu（Apple Community）</a>：スクリーンセーバーの最中にCPUを600%使うという報告</li>
 </ul>
 ]]></content>
   </entry>
