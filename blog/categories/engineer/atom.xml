@@ -4,7 +4,7 @@
   <title><![CDATA[Category: engineer | tchikuba's blog]]></title>
   <link href="https://tchikuba.github.io/blog/categories/engineer/atom.xml" rel="self"/>
   <link href="https://tchikuba.github.io/"/>
-  <updated>2026-11-03T11:44:50+09:00</updated>
+  <updated>2026-11-03T12:46:19+09:00</updated>
   <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
@@ -12,6 +12,797 @@
   </author>
   <generator uri="https://jekyllrb.com/">Jekyll</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mac Studio（M5 Ultra／256GB）のローカルLLMはClaude Codeの開発ワーカーになるのか、実案件のPRで検証してみた]]></title>
+    <link href="https://tchikuba.github.io/blog/2026/11/03/local-llm-on-mac-studio/"/>
+    <updated>2026-11-03T11:00:00+09:00</updated>
+    <id>https://tchikuba.github.io/blog/2026/11/03/local-llm-on-mac-studio</id>
+    <content type="html"><![CDATA[<p>超絶久々のブログ更新です。</p>
+
+<p>前回の記事が2020年なので、なんと6年ぶり😅
+久々に書きたくなるくらい、面白い検証ができたので、まとめておきます。</p>
+
+<h2 id="mac-studioを買いました">Mac Studioを買いました</h2>
+
+<p><a href="https://www.apple.com/jp/mac-studio/">Mac Studio</a>（M5 Ultra／ユニファイドメモリ256GB）を買いました😁</p>
+
+<p>買った目的はだいたい以下の5つです。</p>
+
+<ul>
+  <li><strong>ローカルLLMを試したい</strong>
+    <ul>
+      <li>256GBあれば、200GB級の量子化モデルでもメモリに載る</li>
+      <li>クラウドのAPIを使わずにどこまで実用になるのか、自分の手で確かめたかった</li>
+    </ul>
+  </li>
+  <li><strong>開発機のリプレイス</strong>
+    <ul>
+      <li>メインの開発機がM1 MaxのMacBook Proで、そろそろ古くなってきた</li>
+      <li>Dockerのコンテナを複数立ち上げてRSpecを回す、みたいな日常の作業でも余裕が欲しくなっていた</li>
+    </ul>
+  </li>
+  <li><strong>外からClaude Codeを操作したい</strong>
+    <ul>
+      <li>家に据え置きのマシンでClaude Codeを常時動かしておき、外出先からリモートで指示を出して進めたい</li>
+      <li>持ち歩くノートではなく、家で動き続けるマシンが欲しかった</li>
+    </ul>
+  </li>
+  <li><strong>Claudeのトークンを節約したい</strong>
+    <ul>
+      <li>普段は複数のクライアントと仕事していて、Claude Team（プレミアム）のアカウントを払い出してもらっているところはそれを、そうでないところは個人契約のClaude Ultraを使っている</li>
+      <li>ただTeamのアカウントは、5時間ごとのセッションの利用上限にすぐ達してしまうので、トークンのやりくりが欠かせない</li>
+      <li>実は今の開発スタイルも、FableをPM役、Opusを実装役として棲み分けて、間の受け渡しを人（私）が中継しているのは、トークン量の節約対策だったりする</li>
+      <li>ローカルLLMに任せられる作業があれば、その分Claudeのトークンを節約できるのでは？という期待があった</li>
+    </ul>
+  </li>
+  <li><strong>オーケストレーター構成を試したい（そこにローカルLLMを加えたい）</strong>
+    <ul>
+      <li>普段の開発では、実はまだオーケストレーター構成をしっかり組んでいない</li>
+      <li>前述の人による中継が地味に面倒なので、私はFableとだけ話せば済むオーケストレーター構成を試したい</li>
+      <li>せっかくなら、その下で動く実装ワーカーにローカルLLMを活用できないか？</li>
+    </ul>
+  </li>
+</ul>
+
+<p>この記事は、主に4つめと5つめ、つまり「ローカルLLMを開発ワーカーとして使えるのか？」を検証した記録です。</p>
+
+<p>11月1日から3日にかけて、5つのフェーズに分けて段階的に測りました。
+ちなみに、検証の方針の相談にはChatGPTも活用しつつ、計画から先（ハーネスの実装・実行・集計）は完全にすべてClaude Codeに任せています。</p>
+
+<h2 id="先に結論">先に結論</h2>
+
+<ul>
+  <li><strong>今は「Claudeだけ」で回すのが一番速く、一番安い</strong>
+    <ul>
+      <li>Opusを指揮役に、Sonnetのワーカーを並列で回す構成</li>
+    </ul>
+  </li>
+  <li><strong>ローカルLLMの候補はGLM-5.3-Flash一択</strong>
+    <ul>
+      <li>完走すれば、Sonnetとほぼ同じ水準のPRを出してくる</li>
+      <li>ただし1件あたりの時間はSonnetの4〜15倍かかり、大きめの課題では2回に1回、途中で手詰まりになった</li>
+    </ul>
+  </li>
+  <li><strong>Qwen3-Coder-Nextは、速いけど開発ワーカーとしては厳しい</strong>
+    <ul>
+      <li>生成は110 tok/sとGLMより速く、メモリも48GBで済む</li>
+      <li>ただ、普段のチケットのような自然言語の課題文だと品質が崩れ（一定品質は33%）、試行ごとの結果も揺れる</li>
+      <li>Claudeが仕様を整理してあげれば持ち直すけど、その手間（費用）をかけるならClaudeが自分で解いたほうが安くて速い</li>
+      <li>ただしClaude Codeのハーネスとの相性も効いていたので、Qwen向けのエージェントで試し直す余地はある</li>
+    </ul>
+  </li>
+  <li><strong>「Claudeが仕様を整理して、ローカルLLMが実装して、Claudeがレビューする」というハイブリッド構成は、費用でも速度でもClaude単独に負けた</strong>
+    <ul>
+      <li>Claudeが指揮やレビューに使うトークンが、Claudeが自分で解くトークンを上回ってしまう</li>
+    </ul>
+  </li>
+  <li>なのでGLMは、<strong>急がない小〜中の課題を夜間に流す補助レーン</strong>という位置付けに落ち着きました
+    <ul>
+      <li>手詰まりになったらSonnetに回す前提</li>
+    </ul>
+  </li>
+</ul>
+
+<p>期待していた構成は、見事に割に合わないという結果に😅</p>
+
+<p>以下、どう測って、なぜこの結論になったのかを書いていきます。</p>
+
+<h2 id="環境">環境</h2>
+
+<h3 id="mac-studioのスペック">Mac Studioのスペック</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>項目</th>
+      <th>内容</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>モデル</td>
+      <td>Mac Studio（Apple M5 Ultra）</td>
+    </tr>
+    <tr>
+      <td>CPU</td>
+      <td>30コア（Superコア10＋Performanceコア20）</td>
+    </tr>
+    <tr>
+      <td>GPU</td>
+      <td>64コア（Metal 4）</td>
+    </tr>
+    <tr>
+      <td>ユニファイドメモリ</td>
+      <td>256GB</td>
+    </tr>
+    <tr>
+      <td>ストレージ</td>
+      <td>SSD 2TB</td>
+    </tr>
+    <tr>
+      <td>OS</td>
+      <td>macOS 27.2</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>ユニファイドメモリなので、CPUとGPUで同じ256GBを使います。
+GPUに常駐（wired）させられるメモリの上限は、既定のままで約240GiBありました。200GB級のモデルでも、設定をいじらずに載るということです。</p>
+
+<h3 id="検証の条件">検証の条件</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>項目</th>
+      <th>内容</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ローカルLLM</td>
+      <td>Qwen3-Coder-Next（4bit／8bit）、GLM-5.3-Flash（4bit相当の量子化＋MTP）</td>
+    </tr>
+    <tr>
+      <td>実行系</td>
+      <td>Ollama 0.40、mlx-lm／mlx-vlm、oMLX</td>
+    </tr>
+    <tr>
+      <td>比較対象</td>
+      <td>Claude Opus 5.5、Claude Sonnet 5.5（Claude Code）</td>
+    </tr>
+    <tr>
+      <td>課題</td>
+      <td>業務で開発しているRailsアプリの、マージ済みの実際のPR</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>ローカルLLMをClaude Codeから使うときは、<code class="language-plaintext highlighter-rouge">ANTHROPIC_BASE_URL</code>をローカルの推論サーバ（Anthropic互換の<code class="language-plaintext highlighter-rouge">/v1/messages</code>）に向けて、モデルだけ差し替えました。</p>
+
+<p>こうするとハーネス（Claude Code自体、ツール、hooks、権限の設定）は同じまま、モデルだけを比べられます。</p>
+
+<p>ただ、Claude向けに作られたハーネスにローカルLLMを載せる形なので、この方式自体がボトルネックになっていないかは気になるところ。
+これは後述の「<a href="#ハーネスがボトルネックになっていないか">ハーネスがボトルネックになっていないか？</a>」で、ログを見直して検証しています。</p>
+
+<h2 id="phase-0まずは単体の速度と品質">Phase 0：まずは単体の速度と品質</h2>
+
+<p>最初は、モデル単体の速度と、小さなコーディング課題・技術QAでの品質を測りました。</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>モデル（量子化）</th>
+      <th>実行系</th>
+      <th style="text-align: right">生成（tok/s）</th>
+      <th style="text-align: right">prefill（tok/s）</th>
+      <th style="text-align: right">メモリ</th>
+      <th style="text-align: center">小課題</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Qwen3-Coder-Next（q4_K_M）</td>
+      <td>Ollama</td>
+      <td style="text-align: right">101.6</td>
+      <td style="text-align: right">3,432</td>
+      <td style="text-align: right">55GB</td>
+      <td style="text-align: center">3/5</td>
+    </tr>
+    <tr>
+      <td>Qwen3-Coder-Next（q8_0）</td>
+      <td>Ollama</td>
+      <td style="text-align: right">91.6</td>
+      <td style="text-align: right">3,571</td>
+      <td style="text-align: right">89GB</td>
+      <td style="text-align: center">3/5</td>
+    </tr>
+    <tr>
+      <td>Qwen3-Coder-Next（4bit）</td>
+      <td>mlx-lm</td>
+      <td style="text-align: right"><strong>110.4</strong></td>
+      <td style="text-align: right"><strong>4,832</strong></td>
+      <td style="text-align: right">48GB</td>
+      <td style="text-align: center">4/5</td>
+    </tr>
+    <tr>
+      <td>GLM-5.3-Flash（4bit）</td>
+      <td>mlx-vlm</td>
+      <td style="text-align: right">3.8</td>
+      <td style="text-align: right">13〜29</td>
+      <td style="text-align: right">208GB</td>
+      <td style="text-align: center">計測不能</td>
+    </tr>
+    <tr>
+      <td>GLM-5.3-Flash（oQ4e＋MTP）</td>
+      <td><strong>oMLX</strong></td>
+      <td style="text-align: right"><strong>69〜73</strong></td>
+      <td style="text-align: right">2,471</td>
+      <td style="text-align: right">182GB</td>
+      <td style="text-align: center"><strong>5/5</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>※prefillは約3万トークンの入力で計測（GLMのoMLXだけ10万トークン、mlx-vlmは1,000トークン程度で落ちたので参考値）。小課題は小さなコーディング課題5問の正解数です。</p>
+
+<p>分かったことは以下です。</p>
+
+<ul>
+  <li><strong>同じ4bitなら、MLXのほうがGGUF（Ollama）より速い</strong>
+    <ul>
+      <li>生成で9%、prefillで41%速く、メモリも少なくて済んだ</li>
+    </ul>
+  </li>
+  <li><strong>Qwenは8bitにしても品質が上がらなかった</strong>
+    <ul>
+      <li>間違え方（明示した境界条件の読み落としや知識の誤り）が4bitと同じ</li>
+      <li>弱点は量子化の誤差じゃなくて、モデル自体にあるっぽい</li>
+      <li>Qwenを使うならMLXの4bitが一番割が良い</li>
+    </ul>
+  </li>
+  <li><strong>GLM-5.3-Flashは、実行系次第で20倍近く速度が変わった</strong>
+    <ul>
+      <li>mlx-vlmだと3.8 tok/sしか出ず、1,000トークン程度の入力でGPUのメモリが足りなくなって落ちる</li>
+      <li>M5 Ultra向けの公開レシピに従ってoMLXをソースからビルドし、MTP（複数トークンの先読み）の層を載せた量子化モデルを使うと、70 tok/s前後まで出た</li>
+      <li>品質も5問中5問正解</li>
+    </ul>
+  </li>
+</ul>
+
+<p>ということで、ここから先はGLMが本命になりました。</p>
+
+<h3 id="ハマったところ">ハマったところ</h3>
+
+<p><strong>動く壁紙のデコーダが104GBのメモリを抱えていた</strong></p>
+
+<p>GLMをロードしている途中で、プロセスがOSに強制終了されました。</p>
+
+<p>調べると、macOSの動画デコード用のサービス（<code class="language-plaintext highlighter-rouge">VTDecoderXPCService</code>）が、ログインから10時間ほどで104GBまで膨らんでいました。
+実体はGPUドライバが確保したまま使っていないメモリで、プロセスを終了させても、メモリを逼迫させても戻らず、結局再起動するしかありませんでした。</p>
+
+<p>当初は、新しいMacへの移行直後で裏で走っていた写真や動画の解析を疑っていました。
+ところが記事を書きながら改めて調べ直すと、犯人は<strong>動く壁紙（Aerial）</strong>っぽい。</p>
+
+<ul>
+  <li>再起動から約1日半で、同じサービスがまた7.2GBまで膨らんでいた</li>
+  <li>直近1時間でこのサービスにデコードを頼んでいたのは、動く壁紙の拡張（<code class="language-plaintext highlighter-rouge">WallpaperAerialsExtension</code>）だけ。約1分ごとに、4KのHEVC動画のデコードを始め直していた</li>
+  <li>増え方にはムラがあるけど、測った1分間では約200MB増えていた（104GBになったときは、10時間の平均で1分あたり約180MB）</li>
+  <li>写真や動画の解析からのデコードは、この1時間で0件</li>
+</ul>
+
+<p>試しに壁紙を風景の静止画（Sonoma）に変えてみたところ、<strong>7.2GBまで膨らんでいたメモリがその場で22MBまで戻り、それ以降は増えなくなりました</strong>。
+1分ごとに走っていたデコードもぴたりと止まったので、少なくとも今回の膨張は動く壁紙が犯人で確定。最初の104GBも同じ原因だろうと見ています。</p>
+
+<p>しかもこの動く壁紙、私が自分で選んだものではなく、<strong>macOSの初期設定のまま</strong>なんですよね。
+デフォルトの壁紙を（しかも誰も見ていない画面の裏で）流しておくだけで、10時間で100GB超のメモリを持っていかれることがあるって…Appleさん、それはちょっとひどくないですか？😇
+256GB積んだMacだから気づけたけど、16GBのMacだったら「なんか最近重いな」で済まされてそう。</p>
+
+<p>Apple Communityにも、<a href="https://discussions.apple.com/thread/255180158?page=2">壁紙の動画拡張がRAMとCPUを大量に使う</a>、<a href="https://discussions.apple.com/thread/255436944">VTDecoderXPCServiceがメモリを解放しない</a>といった報告がいくつかあります（Appleが不具合として認めたものは見つけられませんでした）。</p>
+
+<p>256GBあっても、条件次第で100GB単位で持っていかれるので馬鹿になりません。
+大きなモデルを載せる前には、<code class="language-plaintext highlighter-rouge">footprint</code>や<code class="language-plaintext highlighter-rouge">top -o mem</code>でこの手の常駐プロセスを確認するようにしました。</p>
+
+<p><strong>GPUのwired上限は触らない</strong></p>
+
+<p>GLMが落ちたとき、GPUに常駐できるメモリの上限（<code class="language-plaintext highlighter-rouge">iogpu.wired_limit_mb</code>）を引き上げる手も検討しました。
+ただ、OSに残るメモリが10GB程度になって固まるおそれがあったのでやめました。</p>
+
+<p>結局、実行系をoMLXに変えたら、既定の上限（約240GiB）のままで動きました。</p>
+
+<p><strong>ダウンロードが遅いと思ったらWi-Fiが2.4GHzだった</strong></p>
+
+<p>モデルは1つで数十〜200GBあります。
+最初は合計で12MB/sしか出なくて、調べたら2.4GHzのSSIDにつながっていました。5GHzにしたら約4倍の44MB/sになり、他の通信と取り合わなければ90MB/sを超えました（ありがち）。</p>
+
+<p>Hugging Faceからのダウンロードは<code class="language-plaintext highlighter-rouge">HF_XET_HIGH_PERFORMANCE=1</code>を付けるのが一番速く、Ollamaと同時に落とすと帯域を取り合うだけなので、1本ずつ流すのが正解でした。</p>
+
+<h2 id="phase-1実案件のprをclaude-codeのハーネスで解かせる">Phase 1：実案件のPRをClaude Codeのハーネスで解かせる</h2>
+
+<p>単体のベンチだけだと、実務で使えるかは分かりません。</p>
+
+<p>そこで、業務で開発しているRailsアプリの、マージ済みのPRを課題にしました。</p>
+
+<ul>
+  <li>PRの直前の状態のコードを渡して、PRで入った変更を自然言語の課題文にして解かせる</li>
+  <li>採点には、そのPRで追加されたspecを隠しテストとして使う（モデルからは見えない）</li>
+  <li>ワーカーはClaude Code（<code class="language-plaintext highlighter-rouge">claude -p</code>）で、モデルだけを差し替える</li>
+</ul>
+
+<p>まず7件のPRで試したところ、隠しテストの合格はOpusが7/7（全体5.4分）、GLMが7/7（33.7分）、Qwen（MLX 4bit）が6/7（5.8分）でした。</p>
+
+<p>思ったより差がつかず、課題が小さすぎることが分かりました。</p>
+
+<h2 id="phase-23オーケストレーター構成にローカルllmを混ぜると得なのか">Phase 2〜3：オーケストレーター構成にローカルLLMを混ぜると得なのか？</h2>
+
+<p>ここが本題です。
+期待していたのは以下のような構成でした。</p>
+
+<ul>
+  <li>Claude（Opus）が課題を読んで、仕様を整理して、受け入れテストを書く</li>
+  <li>ローカルLLMが実装する（API費用0）</li>
+  <li>Claudeがレビューして、問題があれば差し戻す</li>
+</ul>
+
+<p>課題を18件に増やしました。内訳はバグ修正、複数ファイルにまたがる変更、性能改善、マイグレーションです。
+課題文は、普段のチケットに近い自然言語で書いています。</p>
+
+<p>品質の基準は「隠しテストに合格し、既存のテストを壊さず、rubocopの違反が0件」です。</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>構成</th>
+      <th style="text-align: center">一定品質</th>
+      <th style="text-align: right">処理量（件／時）</th>
+      <th style="text-align: right">Claude費用（1件）</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Opus単独</td>
+      <td style="text-align: center">16/18</td>
+      <td style="text-align: right">110</td>
+      <td style="text-align: right">$0.93</td>
+    </tr>
+    <tr>
+      <td><strong>Sonnet単独</strong></td>
+      <td style="text-align: center"><strong>16/18</strong></td>
+      <td style="text-align: right"><strong>199</strong></td>
+      <td style="text-align: right"><strong>$0.36</strong></td>
+    </tr>
+    <tr>
+      <td><strong>GLM単独</strong></td>
+      <td style="text-align: center"><strong>16/18</strong></td>
+      <td style="text-align: right">13</td>
+      <td style="text-align: right">$0</td>
+    </tr>
+    <tr>
+      <td>Qwen単独</td>
+      <td style="text-align: center">12/36</td>
+      <td style="text-align: right">4.8</td>
+      <td style="text-align: right">$0</td>
+    </tr>
+    <tr>
+      <td>分業：Opus＋Qwen</td>
+      <td style="text-align: center">20/36</td>
+      <td style="text-align: right">4.8</td>
+      <td style="text-align: right">$3.79</td>
+    </tr>
+    <tr>
+      <td>分業：Sonnet＋Qwen</td>
+      <td style="text-align: center">10/18</td>
+      <td style="text-align: right">4.5</td>
+      <td style="text-align: right">$2.02</td>
+    </tr>
+    <tr>
+      <td>分業：Opus＋GLM</td>
+      <td style="text-align: center">15/18</td>
+      <td style="text-align: right">6.0</td>
+      <td style="text-align: right">$3.59</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>※「分業」は、Claudeが仕様整理・受け入れテスト・レビューを担当し、ローカルLLMが実装する構成です。<br />
+※並列数はClaude単独が4、GLMが1、Qwenが8。Qwen単独と「分業：Opus＋Qwen」は2試行（36ジョブ）です。費用はAPI換算です。<br />
+※「分業：Opus＋GLM」は、レビューが欠陥3件を見逃して通しています（後述）。</p>
+
+<p>結果は、期待をきれいに裏切るものでした😭</p>
+
+<ul>
+  <li><strong>ハイブリッド構成は、どれもOpus単独より1件あたり2〜4倍高く、処理量は1/20</strong>（Sonnet単独と比べると差はもっと開く）
+    <ul>
+      <li>Claudeが仕様整理・受け入れテスト・レビューに使う費用（1件$2〜4）が、Claudeが自分で解く費用（$0.36〜0.93）を上回る</li>
+      <li>そのうえローカルの実装は遅い</li>
+    </ul>
+  </li>
+  <li><strong>Sonnet単独は、Opus単独と同じ品質を39%の費用・1.8倍の速さで出した</strong>
+    <ul>
+      <li>実装のワーカーはSonnetで十分</li>
+    </ul>
+  </li>
+  <li><strong>GLM単独は、品質ではClaudeと並んだ（API費用は0）</strong>
+    <ul>
+      <li>ただし処理量は1時間に13件で、Sonnetの1/15</li>
+      <li>1本の推論でGPUが約90%張り付くので、並列にしても速くならない</li>
+      <li>推論の量（effort）を最大からhighに下げると2.7倍速くなって、実務の課題での合否は変わらなかった</li>
+    </ul>
+  </li>
+  <li><strong>Qwenは、課題文が自然言語になると崩れた</strong>
+    <ul>
+      <li>仕様を明示した課題文なら78%通るのに、自然言語の課題文だと50%まで落ちて、試行ごとの揺れも大きい</li>
+      <li>Claudeが仕様を整理すると83%まで戻るけど、その費用でClaudeが自分で解いたほうが安くて速くて品質も高い</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="claudeのレビューだけでは関門にならない">Claudeのレビューだけでは関門にならない</h3>
+
+<p>もう1つ、大事な発見がありました。</p>
+
+<p>OpusはQwenの実装の欠陥を、1巡目のレビューで9件中9件見つけました。
+ところがGLMの実装の欠陥は、3件中3件見逃してapproveしたんですよね。</p>
+
+<p>Qwenの欠陥は、テストの不足や明らかな仕様違反といった「見て分かる」形で出ます。
+一方GLMの欠陥は、筋の良い実装の中に紛れていて、レビュー役は細かい指摘だけで通してしまう。</p>
+
+<p><strong>レビューの精度は、レビューされる側のモデルによって大きく変わる</strong>ということです。</p>
+
+<p>なので、<strong>LLMのレビューとは独立に、テスト（機械的な検証）を関門に置く必要があります</strong>。
+人のレビューでも同じことは言えますが、LLM同士だとより顕著でした。</p>
+
+<h2 id="phase-4普段のclaude-codeのハーネスでsonnetとglmを比べる">Phase 4：普段のClaude Codeのハーネスで、SonnetとGLMを比べる</h2>
+
+<p>ここまでは、ベンチ用に絞ったハーネスで測っていました。</p>
+
+<p>最後は、普段の自分のClaude Codeの環境をできるだけそのまま再現して、SonnetとGLMを比べました。</p>
+
+<ul>
+  <li>CLAUDE.mdとメモリ、hooks、serenaとcontext7のMCP、pre-commitをそのまま使う</li>
+  <li>CIの失敗は1回だけ差し戻す</li>
+  <li>課題は小・中・大を1件ずつ
+    <ul>
+      <li>小：クエリの性能改善</li>
+      <li>中：運用監視まわりの機能追加</li>
+      <li>大：複数ファイルにまたがるセキュリティ系の新機能</li>
+      <li>どれも受け入れテストを先に作って凍結しておく</li>
+    </ul>
+  </li>
+  <li>採点は2段
+    <ul>
+      <li>1段目は機械的な関門（受け入れテスト、RSpec全件で新しい失敗がないこと、rubocop、brakeman）</li>
+      <li>2段目はOpusとFableによる品質の採点（モデル名は伏せる）</li>
+      <li>実際にマージされたPRも伏せた候補として混ぜて、採点の基準がずれていないかの確認に使う</li>
+    </ul>
+  </li>
+  <li>判定の基準（継続／限定運用／撤退）は、実行前に決めて固定しておく</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>構成</th>
+      <th style="text-align: center">等級（小／中／大）</th>
+      <th style="text-align: center">採用可能</th>
+      <th style="text-align: center">完走できず</th>
+      <th style="text-align: center">時間の中央値（小／中／大）</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sonnet</td>
+      <td style="text-align: center">AAA／AAA／AAA</td>
+      <td style="text-align: center">9/9</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1.8／3.1／7.7分</td>
+    </tr>
+    <tr>
+      <td>GLM</td>
+      <td style="text-align: center">AA／SA／AF</td>
+      <td style="text-align: center">5/6</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">26.9／13.2／33.5分</td>
+    </tr>
+    <tr>
+      <td>参考：実際のPR</td>
+      <td style="text-align: center">A／S／S</td>
+      <td style="text-align: center">—</td>
+      <td style="text-align: center">—</td>
+      <td style="text-align: center">—</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>※Sonnetは普段のハーネス、GLMはGLM向けに調整したハーネスでの結果です。<br />
+※等級はS／A／B／Fの4段階で、SとAを採用可能としています。<br />
+※「完走できず」は、ターン数の上限に達したり、成果をコミットせずに終わったりした件数です。</p>
+
+<ul>
+  <li><strong>完走したものは、GLMもSonnetと同じ水準</strong>
+    <ul>
+      <li>採点者はモデル名を知らないまま、GLMのPRにもAやSを付けていた</li>
+    </ul>
+  </li>
+  <li><strong>GLMの失敗の型は「ターン数の使い切り」</strong>
+    <ul>
+      <li>大の課題で、普段のハーネスで試した1回を含む3回のうち2回が、上限の200ターンに達した（Sonnetは8〜57ターンで終わる）</li>
+      <li>同じ失敗を繰り返しているわけではなく、作業そのものに多くのターンを使っている。空回り検出の仕組みは一度も発火しなかった</li>
+    </ul>
+  </li>
+  <li><strong>速度は1件で4〜15倍の差</strong>
+    <ul>
+      <li>Sonnetは4並列で回せるので、採用可能なPRの処理量で比べると約1/20</li>
+    </ul>
+  </li>
+  <li>普段のハーネスだと、1リクエストのコンテキストは平均で約9.2万トークンもあった
+    <ul>
+      <li>CLAUDE.md、メモリ、ツールの定義が積み上がるため</li>
+      <li>それでもoMLXのプレフィックスキャッシュの命中率が98.9%あって、prefillはボトルネックにならなかった</li>
+    </ul>
+  </li>
+</ul>
+
+<p>判定は「<strong>限定運用</strong>」でした。</p>
+
+<p>ただ、これはきわどい判定です。
+大の課題の2試行がAとFで同数になり、「同数なら低いほうを採る」という事前に決めておいた規則でF扱いになりました。高いほうを採っていれば「継続」でした。</p>
+
+<p>とはいえ、どちらに倒しても言えることは同じです。
+<strong>GLMは完走すれば使えるPRを出すけど、大きな課題では安定せず、遅い。</strong></p>
+
+<h2 id="ベンチを作るときに気をつけたこと">ベンチを作るときに気をつけたこと</h2>
+
+<p>実案件のリポジトリでベンチを回すと、評価そのものより、公平さと安全の確保のほうに手間がかかりました。</p>
+
+<h3 id="正解に到達できないようにする">正解に到達できないようにする</h3>
+
+<p>課題のリポジトリは、PRの直前の履歴から作った独立のリポジトリにして、remoteを外しました。
+正解のコミットにもPRのブランチにも到達できないことを確かめています。</p>
+
+<p>後続のドキュメントやメモリに設計が書き残されていることもあるので、出題前にそれも除きました。</p>
+
+<p>さらに、ワーカーのツール呼び出しをすべてhookで検査して、正解の置き場所、他の試行、ホームディレクトリ、外部への通信を拒否しています。
+わざと「参考の正解」と書いた目印のファイルを置いて誘導してみても、到達は0件でした。</p>
+
+<h3 id="共有の開発環境を壊さない">共有の開発環境を壊さない</h3>
+
+<p>実はPhase 1の準備の途中で、ベンチを組んでいたClaude Codeが、共有のgemのvolumeに<code class="language-plaintext highlighter-rouge">bundle install</code>を流してしまい、他の作業ツリーが使うgemが消えるという事故がありました。共有のテストDBを作り直してしまったこともあります😓</p>
+
+<p>それ以降は、ワーカーごとに専用のテストDBを用意して、依存の導入やプロセスの停止をhookで禁止しました。</p>
+
+<h3 id="外部に作用するツールを外す">外部に作用するツールを外す</h3>
+
+<p>Claude Codeには、通知や定期実行、他のセッションへの送信など、外部に作用する組み込みツールがあります。
+無人のワーカーでは<code class="language-plaintext highlighter-rouge">--disallowedTools</code>で外しました。外部サービスのMCPも外しています。</p>
+
+<h3 id="llmの採点だけに頼らない">LLMの採点だけに頼らない</h3>
+
+<p>前述の通り、LLMのレビューは見逃します。
+機械的な関門を必ず先に置き、採点では正解のPRも伏せた候補として混ぜて、採点がちゃんと機能しているかを確かめました。</p>
+
+<h3 id="判定の基準は先に決める">判定の基準は先に決める</h3>
+
+<p>結果を見てから閾値を動かすと、どんな結論にでも寄せられちゃいます。
+今回は判定表を実行前に固定して、きわどかった点も含めて記録に残しました。</p>
+
+<h2 id="ハーネスがボトルネックになっていないか">ハーネスがボトルネックになっていないか？</h2>
+
+<p><code class="language-plaintext highlighter-rouge">ANTHROPIC_BASE_URL</code>でモデルだけ差し替える方式は、条件を揃えやすい反面、「Claude向けに作られたハーネスにローカルLLMを載せている」とも言えます。
+ハーネス側が足を引っ張っていないか、ログを見直して確かめました。</p>
+
+<ul>
+  <li><strong>時間の大部分はモデルの推論</strong>
+    <ul>
+      <li>Phase 4でGLMのセッションが動いていたのは約3.2時間で、推論サーバの処理時間も同じくらい（約3.1時間、予備実験の分を含む概算）</li>
+      <li>Claude Code側の処理やツールの実行がボトルネックになっているわけではない</li>
+    </ul>
+  </li>
+  <li><strong>プロトコル変換の失敗はほぼない</strong>
+    <ul>
+      <li>GLMのツール呼び出しで、引数の形式エラーは1,232回中8回（0.6%）、APIエラーは0件</li>
+      <li>補助的な呼び出しも含めて、全リクエストがちゃんとGLMに届いていた</li>
+    </ul>
+  </li>
+  <li><strong>長いコンテキストはキャッシュで吸収できていた</strong>
+    <ul>
+      <li>1リクエストの平均は約9.2万トークンと重いけど、プレフィックスキャッシュの命中率が98.9%</li>
+    </ul>
+  </li>
+  <li><strong>effortの受け渡しは連携の穴だった</strong>
+    <ul>
+      <li>Claude Codeから送る推論量（effort）の指定を推論サーバが無視していたので、サーバ側でhighに固定して回避した（これで2.7倍速くなった）</li>
+    </ul>
+  </li>
+  <li><strong>ただしQwenは、ハーネスとの相性が結果に効いていた</strong>
+    <ul>
+      <li>Phase 3（自然言語の課題文）で、Qwenはツール呼び出しの25%がエラー。その約6割は「許可していないコマンドを何度も実行しようとして拒否された」もの</li>
+      <li>GLMやClaudeは約5〜7%。ベンチ用に絞った権限設定に、Qwenだけがうまく適応できず、ターンを浪費していた</li>
+    </ul>
+  </li>
+</ul>
+
+<p>ということで、GLMについては「Claude Code経由だから遅い・失敗する」わけではなく、<strong>ボトルネックはモデル自体の推論量と生成速度</strong>というのが今の見立てです。
+一方Qwenの評価は「Claude Codeのハーネス込み」の結果で、Qwen向けのエージェントなら違う結果になる可能性があります。</p>
+
+<h2 id="費用">費用</h2>
+
+<p>Claude側の費用は、3日間でAPI換算で約$276でした（Phase 1〜2が約$26、Phase 3が$164、Phase 4が$86）。
+実際にはサブスクリプションの利用枠の範囲で回していて、Phase 4では週の利用率が7ポイント増えた程度です。</p>
+
+<p>意外だったのは、<strong>一番お金がかかったのが採点だった</strong>こと。
+Fableで採点すると1件$2.2かかり、Phase 4の採点だけで$54になりました。</p>
+
+<p>一方、実運用でSonnetのワーカーが1件のPRを作る費用は$0.76です。
+つまり、GLMで節約できるのは1件あたりこの$0.76だけなんですよね。</p>
+
+<p>ローカル側の費用は0としていますが、電気代は計っていません。GLMが動いている間はGPUが約90%に張り付きます。</p>
+
+<h2 id="まとめ当初の目的に対する答え">まとめ：当初の目的に対する答え</h2>
+
+<p><strong>ローカルLLMを試したい → 試せた</strong></p>
+
+<p>256GBあれば、GLM-5.3-Flashを実用的な速度（70 tok/s前後）で常駐させられます。ただし1本で182GBを占有します。
+モデルの性能も大事ですが、実行系（mlx-vlmかoMLXか）で20倍近く変わることのほうが印象に残りました。</p>
+
+<p><strong>Claudeのトークンを節約したい／オーケストレーター構成を試したい → ローカルLLMを混ぜるのは今は割に合わない</strong></p>
+
+<p>期待していた「Claudeが指揮してローカルが実装」の形は、費用でも速度でも割に合いませんでした。</p>
+
+<p>なので、これから組む「私はFableとだけ話す」オーケストレーター構成も、指揮役の下で動く実装ワーカーはまずClaude（Sonnet）を並列で回し、関門はテストとレビューの2段にするつもりです。
+トークンの節約という意味でも、GLMに任せて浮くのはSonnetで1件あたり$0.76程度でした。
+それでも、Teamのアカウントで5時間の利用上限に達したときの逃げ道にはなるので、利用枠が逼迫したとき、急がない夜間のバッチ、コードを外部に出したくない場面の補助レーンとしてGLMは残しておきます。</p>
+
+<p><strong>開発機のリプレイス／外からClaude Codeを操作したい → 据え置きの256GB機の恩恵が大きい</strong></p>
+
+<p>こちらはローカルLLMの結果に関係なく、恩恵が大きいです。
+今回の検証も、DockerでRSpecを並列に回しながら182GBのモデルを常駐させ、Claude Codeのセッションを何本も動かして進めました。M1 MaxのMacBookではとてもできない使い方です。</p>
+
+<p>もともと、「最大のモデルを動かすこと」ではなく、「最高品質のモデルを、実用的な速度で、長時間安定して動かすこと」を目標にしていました。</p>
+
+<p>その観点では、<strong>今のところの最適解はクラウドのClaudeで、ローカルLLMは「いざというときの予備」</strong>という結論です。</p>
+
+<h2 id="次に試すなら">次に試すなら</h2>
+
+<p>検証の条件についてChatGPTにも相談してみたところ、以下の3つを提案されました。</p>
+
+<ul>
+  <li>失敗した課題をAPI直叩きで再実行して、モデル自身の問題かClaude Code連携の問題かを切り分ける</li>
+  <li>同じモデル・量子化・コンテキスト長で推論サーバを比べて、改善の余地を測る</li>
+  <li>Claude Code以外のエージェントでも同じ課題を試して、ハーネスへの依存度を測る</li>
+</ul>
+
+<p>前述のログの見直しを踏まえると、優先度はこんな感じかなと思っています。</p>
+
+<ol>
+  <li><strong>推論サーバの比較・チューニング</strong>（優先度：高）
+    <ul>
+      <li>時間の大部分が推論なので、効くとしたらここ</li>
+      <li>短い入力では70 tok/s（10万トークンの入力でも64 tok/s）出るのに、実務では中央値43 tok/sまで落ちていた。この差の原因（MTPの当たり率、thinkingの量、並行処理の影響など）を切り分けたい</li>
+      <li>ただしGPUはすでに張り付いているので、伸び代は数割程度と見ている</li>
+    </ul>
+  </li>
+  <li><strong>Claude Code以外のエージェントで試す</strong>（優先度：中）
+    <ul>
+      <li>Qwenは独自のツール呼び出し形式を持ち、Qwen Code向けに調整されているので、Qwenの評価はやり直す価値がありそう</li>
+      <li>GLMは、開発元（Z.ai）がClaude Codeから使う手順を公式に案内しているくらいなので、ハーネスを変えて劇的に良くなる可能性は低そう</li>
+    </ul>
+  </li>
+  <li><strong>失敗した課題をAPI直叩きで再実行する</strong>（優先度：低）
+    <ul>
+      <li>GLMの失敗は、プロトコルのエラーではなく「作業に200ターンを使い切る」型だったので、API直叩きで切り分けられることは少なそう</li>
+      <li>そもそもツールを使わずに解ける課題ではないので、結局何かしらのエージェントのループが要る</li>
+    </ul>
+  </li>
+</ol>
+
+<p>とはいえ、ローカルLLMの進歩はめちゃくちゃ速いので、新しいモデルや実行系が出たら、同じハーネスでまた測ってみようと思います😃</p>
+
+<h2 id="所感">所感</h2>
+
+<p>改めて振り返ると、こういう検証をまるごとAIにやらせられるのは、すごい時代になったなぁと思います。</p>
+
+<p>計画を立てて、ハーネスを実装して、ベンチマークを回して、集計してレポートにまとめる。私がやったのは、方針の相談と、要所での判断くらいでした。
+そもそもこのブログ記事も、AIに書かせています（6年ぶりの更新がこれというのも、なんとも今っぽい😅）。</p>
+
+<p>それと、結果を眺めていて想起されたのが、人のチームの話です。</p>
+
+<ul>
+  <li><strong>1人でやった方が速い vs チームでやった方がスケールする</strong>
+    <ul>
+      <li>Claudeが仕様を整理してローカルLLMに実装させる分業は、指示やレビューのコストが重くて、Claudeが1人で解いた方が速くて安かった</li>
+      <li>人のチームでよく聞く「説明してお願いするくらいなら、自分でやった方が早い」そのものなんですよね</li>
+    </ul>
+  </li>
+  <li><strong>少数精鋭のエンジニア vs 多数の一般的なエンジニア</strong>
+    <ul>
+      <li>Qwenを8並列で回しても、GLM1本やSonnetの品質と処理量には届かなかった</li>
+      <li>数を増やしても、仕様の読み違いや手戻りで、かえってコストが膨らむ</li>
+    </ul>
+  </li>
+  <li><strong>できる人のPRほどレビューが甘くなる</strong>
+    <ul>
+      <li>レビュー役のOpusは、Qwenの分かりやすいミスは全部見つけたのに、GLMの筋の良い実装に紛れた欠陥は見逃した</li>
+      <li>これも人のレビューでありがちな話</li>
+    </ul>
+  </li>
+</ul>
+
+<p>人の組織なら、ここでエンジニアリングマネジメントの出番です。
+役割の分け方、委譲の粒度、コミュニケーションのコスト、品質を担保する仕組み、チームの規模と生産性の関係…。これまで人のチームのために磨かれてきた考え方が、そのままAIのチーム編成の悩みにも重なって見えます。</p>
+
+<p>では、メンバーが人ではなくAIになったとき、これまでのエンジニアリングマネジメントの考え方は、どこまでそのまま応用できて、どこをどう発展させていく必要があるんだろう？</p>
+
+<p>「クリエイティブが輝ける組織をエンジニアリングする」をテーマに掲げてきた身としては、その「組織」にAIが加わった今、改めてじっくり向き合っていきたい問いです。</p>
+
+<h2 id="参考文献">参考文献</h2>
+
+<p>この一連の検証で参照したものをまとめておきます。</p>
+
+<h3 id="モデル">モデル</h3>
+
+<ul>
+  <li><a href="https://huggingface.co/zai-org/GLM-5.3-Flash">zai-org/GLM-5.3-Flash</a>：GLM-5.3-Flashの公式。チャットテンプレートの確認に使用</li>
+  <li><a href="https://huggingface.co/dfp-official/GLM-5.3-Flash-oQ4e-mtp">dfp-official/GLM-5.3-Flash-oQ4e-mtp</a>：oMLXで動かした量子化モデル本体</li>
+  <li><a href="https://huggingface.co/Vontra/GLM-5.3-Flash-MLX-4bit-MTP">Vontra/GLM-5.3-Flash-MLX-4bit-MTP</a>：MTPの層の移植元</li>
+  <li><a href="https://huggingface.co/mlx-community/GLM-5.3-Flash-4bit">mlx-community/GLM-5.3-Flash-4bit</a>：mlx-vlmで最初に試した4bit版</li>
+  <li><a href="https://huggingface.co/orcarouter/GLM-5.3-Flash-MLX">orcarouter/GLM-5.3-Flash-MLX</a>：3bit／2bit版のサイズと精度の比較</li>
+  <li><a href="https://huggingface.co/mlx-community/Qwen3-Coder-Next-4bit">mlx-community/Qwen3-Coder-Next-4bit</a>：MLX版のQwen3-Coder-Next</li>
+  <li><a href="https://ollama.com/library/qwen3-coder-next">Ollama: qwen3-coder-next</a>：Ollama版（q4_K_M／q8_0）のQwen3-Coder-Next</li>
+  <li><a href="https://ollama.com/library/glm-5.3-flash">Ollama: glm-5.3-flash</a>：Ollama版のGLM-5.3-Flash（クラウド版のみでローカルでは動かせなかった）</li>
+</ul>
+
+<h3 id="実行系ツール">実行系・ツール</h3>
+
+<ul>
+  <li><a href="https://github.com/jundot/omlx">oMLX</a>：GLM-5.3-Flashを実用速度で動かせた推論サーバ</li>
+  <li><a href="https://github.com/jundot/omlx/pull/4086">oMLX PR #4086</a>：GLMのツール呼び出しが無限ループする不具合の修正</li>
+  <li><a href="https://github.com/jundot/omlx/pull/3944">oMLX PR #3944</a>：GLM-5.3のprefillの改善</li>
+  <li><a href="https://github.com/ml-explore/mlx-lm">mlx-lm</a>：MLX版Qwenの実行、wiredの上限やKVキャッシュの設定の確認</li>
+  <li><a href="https://github.com/Blaizzy/mlx-vlm">mlx-vlm</a>：GLM-5.3-Flashを最初に動かした実行系</li>
+  <li><a href="https://github.com/ollama/ollama">Ollama</a>：GGUF版Qwenの実行</li>
+  <li><a href="https://docs.ollama.com/api/anthropic-compatibility">Ollama: Anthropic compatibility</a>：Anthropic互換APIでClaude Codeからつなぐ方法</li>
+</ul>
+
+<h3 id="成功事例既知の問題">成功事例・既知の問題</h3>
+
+<ul>
+  <li><a href="https://github.com/sethforprivacy/GLM-5.3-Flash-M5-Ultra-oMLX">sethforprivacy/GLM-5.3-Flash-M5-Ultra-oMLX</a>：M5 UltraでGLM-5.3-Flashを動かすレシピ。今回はこれを再現した</li>
+  <li><a href="https://omlx.ai/benchmarks/performance/pma3568d">oMLX Benchmarks</a>：oMLXでの速度の実測例</li>
+  <li><a href="https://github.com/fireside-labs/m5-ultra-llm-benchmarks/blob/main/WRITEUP.md">fireside-labs/m5-ultra-llm-benchmarks</a>：M5 UltraでのローカルLLMのベンチマーク</li>
+  <li><a href="https://github.com/Blaizzy/mlx-vlm/issues/2254">mlx-vlm issue #2254</a>：M3 Ultra（512GB）でGLM-5.3-Flashが約29 tok/s出たという報告</li>
+</ul>
+
+<h3 id="ダウンロードの高速化">ダウンロードの高速化</h3>
+
+<ul>
+  <li><a href="https://huggingface.co/docs/hub/xet/using-xet-storage">Hugging Face: Using Xet Storage</a>：Xetでのダウンロードの設定</li>
+  <li><a href="https://github.com/huggingface/huggingface_hub/issues/4893">huggingface_hub issue #4893</a></li>
+  <li><a href="https://github.com/huggingface/xet-core/issues/883">xet-core issue #883</a></li>
+</ul>
+
+<h3 id="claude-code">Claude Code</h3>
+
+<ul>
+  <li><a href="https://code.claude.com/docs/en/llm-gateway">Claude Code: LLM gateway configuration</a>：<code class="language-plaintext highlighter-rouge">ANTHROPIC_BASE_URL</code>で接続先を差し替える方法</li>
+  <li><a href="https://code.claude.com/docs/en/env-vars">Claude Code: Environment variables</a>：Claude Codeの環境変数</li>
+  <li><a href="https://www.kdnuggets.com/pairing-claude-code-with-local-models">Pairing Claude Code with Local Models（KDnuggets）</a></li>
+  <li><a href="https://www.runlocalai.co/guides/claude-code-with-local-models">Claude Code with local models（runlocalai）</a></li>
+  <li><a href="https://docs.z.ai/devpack/tool/others">Z.ai: Other tools</a>：GLMをClaude Codeなどのツールから使う公式の案内</li>
+  <li><a href="https://blogs.novita.ai/how-to-access-qwen-3-coder-qwen-code-claude-code-trae/">How to Access Qwen 3 Coder（Novita）</a>：Qwen CodeがQwen3-Coder向けにツール呼び出しを調整しているという話</li>
+  <li><a href="https://blogs.novita.ai/use-qwen3-coder-next-in-claude-code-an-80-cheaper-alternative/">Use Qwen3-Coder-Next in Claude Code（Novita）</a></li>
+</ul>
+
+<h3 id="macos動く壁紙とvtdecoderxpcservice">macOS（動く壁紙とVTDecoderXPCService）</h3>
+
+<ul>
+  <li><a href="https://discussions.apple.com/thread/255436944">VTDecoderXPCService memory leak（Apple Community）</a></li>
+  <li><a href="https://discussions.apple.com/thread/255180158?page=2">wallpapervideoextension in Sonoma uses lots of RAM and CPU（Apple Community）</a></li>
+  <li><a href="https://discussions.apple.com/thread/250079339">VTdecoderxpcservice takes 600% cpu（Apple Community）</a></li>
+</ul>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[エンジニア目線でルンバi7+激オススメ！ファクトフルネスを拡張して言うと「レベル5」の生活を手に入れることができるよ]]></title>
@@ -555,140 +1346,6 @@ CEOはプログラミングはできるべき、エンジニアリングまで�
 <p>また、場合によってはみずからの価値観を見直す柔軟性も必要なことだなとも思います。</p>
 
 <p>ある意味政治というか、相反する部分をいかに粘り強くコミュニケーションを取って折り合いをつけるか、という点が重要ですね。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[イベント「dots.女子部勉強会 vol.7 わたし、一生エンジニア宣言！～ 女性エンジニアとして長く働く秘訣 ～」に参加しました！]]></title>
-    <link href="https://tchikuba.github.io/blog/2016/03/26/dots-womans-is-eternal-engineers/"/>
-    <updated>2016-03-26T01:00:00+09:00</updated>
-    <id>https://tchikuba.github.io/blog/2016/03/26/dots-womans-is-eternal-engineers</id>
-    <content type="html"><![CDATA[<p>先日<a href="http://eventdots.jp/event/581423">「dots.女子部勉強会 vol.7 わたし、一生エンジニア宣言！～ 女性エンジニアとして長く働く秘訣 ～」</a>
-というイベントに参加してきました。
-私の妻も私と同じエンジニアでdots.女子部の一員として運営に関わっています。
-妻からこのイベントを企画していることを事前に聞いており、参加を楽しみにしていました。</p>
-
-<p>参加した当日はノートPCを持っていくのを忘れていたので、スマホからひたすらtwitterで実況中継していました（笑）
-備忘録的な意味も込めて、当日のtweetをtogetterまとめっぽくお届けします。</p>
-
-<hr />
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> 夫婦エンジニア系勉強会なう／【満席御礼☆増枠！】dots.女子部勉強会 vol.7 わたし、一生エンジニア宣言！～ 女性エンジニアとして長く働く秘訣 ～ <a href="https://t.co/adjBw1WsRX">https://t.co/adjBw1WsRX</a> <a href="https://t.co/aPFt6UVTge">pic.twitter.com/aPFt6UVTge</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712953224685162496">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">遠距離恋愛の参考になるのかw <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712953816107212800">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>※遠距離恋愛の参考にしたいというdots.女子部メンバーの話を受けて</p>
-
-<h2 id="夫婦共働きで子供がいるってどんな生活リズム">夫婦共働きで子供がいるってどんな生活リズム？</h2>
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">6,7時に起きて1930以降に娘を迎えに行く。無認可保育園で22時夕食付き。週に1回土曜ヘルパーさんに掃除してもらってる。子供に生活リズム合わせて貰ってる感じ。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712955153498767360">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">週に1度くらいは自炊する。妻の飯はうまい <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712955613215522817">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">1930に迎えに行く。市立の保育園。仕事は自宅でも出来る感じ。最短で22時に寝室に連れて行くがなかなか寝ない。自炊は好きな方で週3,4は自宅で食べるよう努力してる。子供生まれる前は2330くらいまで仕事でコード書いてた。早く帰れないと思ったが何とかなってる <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712956654203981824">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">育休産休半年とったのがリセットになったかも。子供出来る前は昼前に出社して終電で帰るとかだった <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712957549968904192">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">子供出来る前の行きつけの店は子供出来てからは行けなくなった。ウニ、白子ポン酢の離乳食はいける <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712957969789419520">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">マネージャーになったんでコーディング以外の仕事も増えたが、それが子供出来てからは良かったかも。デバッグしてるとなかなか手を止められない <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712958720309735424">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<h2 id="家事の役割分担とかどうしてる">家事の役割分担とかどうしてる？</h2>
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">家事は分担してるが出来る限り家事を発生させない。ヘルパーに頼む。ヘルパーに抵抗あっても使うと便利で離れられなくなる。お試しもできるのでじっくり選べば良い。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712959669937971200">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ルンバで自動化。だけど片付けしないと使えない。食洗機使う。メンタルコストが小さい方がやる。旦那の方が家事やってるかも。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712960205303119872">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">子供を病院に連れて行くとか分担難しい。授乳期は女性。風呂入れるのは男性とか。子育てのフェーズによって役割も変わる。病児保育使うケースも。大学の先生は暇じゃないけど休校という必殺技が <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712961486805577728">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">小学生になると大変。学童とか、週3日在宅ワークで外部サービス使うとか。出来なくなったら働き方変えるとか。保育園は凄いところ。保育園行ってるといつの間にか橋持てるとか。小学生だと急にサポートが手薄になる。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712962348487606272">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<h2 id="子供にはお金がかかるけどどうやって踏ん切りつけた">子供にはお金がかかるけど、どうやって踏ん切りつけた？</h2>
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">子供欲しいから必要コストだし、投資信託を始めよう的な。スマホ買うタイミングに似てるかも。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712963055773061124">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<h2 id="夫婦でエンジニアって同業のメリットデメリットは">夫婦でエンジニアって同業のメリット・デメリットは？</h2>
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">同業だと理解がある。実際に助けて貰える。コミュニティも広がる。パソコン見てるだけでは仕事してると思われない。twitterで公開処刑される辛み。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712963563875278848">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">英語のabstract書いて貰ったり、自宅ネットワーク調整して貰ったり。家庭内稟議が通りやすい。テクノロジーに対する不信感がない。子供手当が年収高い方に付く、拮抗してると入れ替わったり。コードレビューしたら怒ってた。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712965062034456576">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<h2 id="地方移住とか考えたりする">地方移住とか考えたりする？</h2>
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">地方移住はあまり。仕事は東京やりやすい。子育ては地方かも。教育に対する意識は東京高い。米国への移住は考えたことあり。大学の先生は地方が良いかも。2人揃って移住はタイミング難しい。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712966647728832512">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">東京はサービス充実してる。夜遅くまでお店やってるし。沖縄に子供2人いる女性でリモートワークしてる人もいる。仕事の幅は変わる。どの区を選ぶか子育てには重要。千代田、港、文京は良い。認可保育園は質が担保、コストは圧倒的に安い。無認可寛容。高いけどサービス充実 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712968433600581632">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">家でも普通に仕事してる。子供は気を引いてくるし自宅だと難しい面も。テレビ会議中も泣いてる子供が映り込んだり。youtube便利、広告スキップを1歳半で覚えた。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712969683930992640">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>※リモートワーク的な文脈での話。</p>
-
-<h2 id="2人目ができると更にカオスって聞くけどどう">2人目ができると更にカオスって聞くけどどう？</h2>
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">2人目は厳しいかな。保育園2名同じとこ入れられないとか。周り見てると2人いると大変。発熱が交互に来るので休みがちに。俺が俺がな30歳頃だと厳しい感じかも。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712971349669511177">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<h2 id="どれくらい産休育休って取ったの">どれくらい産休・育休って取ったの？</h2>
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">生まれる3ヶ月前に休んで3ヶ月で復帰。旦那は1週間育休取った。産休入ってすぐ生まれた、6ヶ月育休。旦那は転職したてて育休取れず。保育園行けるかは死活問題だが分断がある。Googleは男性もほとんど1ヶ月育休取る。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712972849837805568">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<h2 id="今後の夢とかは">今後の夢とかは？</h2>
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">成長の過程をnohanaで子供の写真を両親に共有。60歳になってもコーディング出来るの示す。妻が偉くなって。プログラマの多様性が低いのが謎。偉くなること。子育てでも謎な性差別が多い。当たり前が当たり前になる世の中。子育ては男性が言うと受け止められ方が違う <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Tsutomu Chikuba (@tchikuba) <a href="https://twitter.com/tchikuba/status/712975220647141376">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<h2 id="終了後の懇親会">終了後の懇親会</h2>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
-
-<div class="fb-post" data-href="https://www.facebook.com/tchikuba/posts/1003043319770461" data-width="500"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/tchikuba/posts/1003043319770461"><p>&#x30aa;&#x30b5;&#x30ec;&#x306a;&#x30b1;&#x30fc;&#x30bf;&#x30ea;&#x30f3;&#x30b0;</p><a href="https://www.facebook.com/tchikuba">竹馬 力</a>さんの投稿&nbsp;<a href="https://www.facebook.com/tchikuba/posts/1003043319770461">2016年3月24日</a></blockquote></div></div>
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">本日はwomen techmakers様にスポンサードして頂いております！この後は懇親会♡ <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a> <a href="https://t.co/2D1w15ZvN6">pic.twitter.com/2D1w15ZvN6</a></p>&mdash; dots. 女子部 - 公式アカウント (@dotsgirls) <a href="https://twitter.com/dotsgirls/status/712977420005933057">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<h2 id="他の参加者の方の感想">他の参加者の方の感想</h2>
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">女性向けの話を男性に聞いてほしいってのはとてもわかる。今日参加者に結構多いのはとても嬉しいし、まじでパネラーの旦那様お二方が素晴らしいし、本当にビデオ撮って見せつければ良かったって後悔してる。 <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; ちゃんとく (@tokutoku393) <a href="https://twitter.com/tokutoku393/status/712976611251867648">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">今日は貴重なお話をありがとうございました！私の彼氏がすごい楽しんでました。参加して良かった«٩(*´ ꒳ `*)۶» <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; なほ (@LaurierPetit) <a href="https://twitter.com/LaurierPetit/status/713004792126177280">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">今日楽しかった〜〜。なんか漠然とした不安はいつでもありますって言われて、その言葉になんか安心した。<a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; りほ (@rllllho) <a href="https://twitter.com/rllllho/status/713011568552751104">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">帰宅！ 楽しかったです、ありがとうございました。最後の皆さんの感想が割とみんな「（二組とも）いい旦那様だな〜と思いました」だったのがちょっと受けたw <a href="https://twitter.com/hashtag/dotsgirls?src=hash">#dotsgirls</a></p>&mdash; Kinuko Yasuda (@kinu) <a href="https://twitter.com/kinu/status/713013770071572480">2016年3月24日</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<hr />
-
-<h2 id="やっぱりエンジニア夫婦ってｲｲﾈ">やっぱりエンジニア夫婦って(・∀・)ｲｲﾈ!!</h2>
-<p>勉強会に参加して感じたことです。
-同業だと問題もあるという話を聞いたりもしますが、ふたりともエンジニアである場合、メリットばかりが目についてデメリットってほとんど思いつかないです。
-テクノロジーへの理解があるという点、非常に共感しました。新しい製品を買ったりするのに家庭内稟議は圧倒的に通りやすいんじゃないかとｗ</p>
-
-<p>あと、今回登壇されたご夫婦2組とも、男性の優秀さもさることながら、女性の優秀さが凄いなと感じました。
-なのでプログラマである私の妻にも、このご夫婦に見習って凄くなってもらおうと思います（笑）</p>
-
-<h2 id="エンジニアチームのダイバーシティ向上を">エンジニア・チームのダイバーシティ向上を！</h2>
-<p>私は日頃から、ダイバーシティの観点から、あらゆる組織は男女比率がおよそ半々である方が良いと考えています。
-しかしながら現時点では、特にエンジニアの世界では圧倒的に男性比率が高い状況があります。</p>
-
-<p>たとえば、10代、20代の女性をターゲットにしたwebサービス開発エンジニアは全員男性で、女性が1人もいない、などのケースも比較的よく耳にします。
-中長期的に続くことが前提のサービスにあって、手を動かすエンジニアがdog foodingできることは、成功する確率を高める最も大きな要因の1つだと思います。
-その意味では、女性向けのwebサービスであれば女性エンジニアが手を動かした方が、より良いサービスを創ることができるのではないでしょうか。</p>
-
-<p>今後もしエンジニアのチームを構成することがあるとすれば、できる限り男女比率を半々になるようにやっていきたいと改めて決意した次第です！</p>
 ]]></content>
   </entry>
   
