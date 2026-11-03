@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ai | tchikuba's blog]]></title>
   <link href="https://tchikuba.github.io/blog/categories/ai/atom.xml" rel="self"/>
   <link href="https://tchikuba.github.io/"/>
-  <updated>2026-11-03T13:47:21+09:00</updated>
+  <updated>2026-11-03T16:52:47+09:00</updated>
   <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
@@ -64,6 +64,8 @@
     </ul>
   </li>
 </ul>
+
+<p>※この記事に出てくるClaudeのモデル（Fable／Opus／Sonnet）は、どれもClaude Codeで使える最新の5系（Fable 5.1、Opus 5.5、Sonnet 5.5）です。以降はバージョンを省いて書きます。</p>
 
 <p>この記事は、主に4つめと5つめ、つまり「ローカルLLMを開発ワーカーとして使えるのか？」を検証した記録です。</p>
 
@@ -170,7 +172,7 @@ GPUに常駐（wired）させられるメモリの上限は、既定のままで
     </tr>
     <tr>
       <td>比較対象</td>
-      <td>Claude Opus 5.5、Claude Sonnet 5.5（Claude Code）</td>
+      <td>Claude Opus、Claude Sonnet（Claude Code）</td>
     </tr>
     <tr>
       <td>課題</td>
