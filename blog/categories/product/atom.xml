@@ -4,7 +4,7 @@
   <title><![CDATA[Category: product | tchikuba's blog]]></title>
   <link href="https://tchikuba.github.io/blog/categories/product/atom.xml" rel="self"/>
   <link href="https://tchikuba.github.io/"/>
-  <updated>2026-11-03T11:21:35+09:00</updated>
+  <updated>2026-11-03T11:25:45+09:00</updated>
   <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
@@ -38,7 +38,7 @@
 
 <p>なんとなく値が張る家電って、できるだけ店頭で見て買いたいみたいな思いがあったんですが、エンジニア目線で見て妙にブランディングがしっかりしているiRobot社とかダイソン社とかはAmazonでポチっても問題ないよね感あり、Amazonでポチりました。</p>
 
-<p><img src="https://lh3.googleusercontent.com/-JR9OjgPFEHE/XSDHndwDD6I/AAAAAAAAU_8/WxH4ktozdWkDg5QnIr0PuCug0La_0r3TwCE0YBhgL/%25E3%2582%25B9%25E3%2582%25AF%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%25B3%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%2583%25E3%2583%2588%2B2019-07-07%2B1.08.35.png" alt="Amazonでルンバi7+をポチった" /></p>
+<p><img src="https://tchikuba.github.io/images/roomba-i7/amazon-order.png" alt="Amazonでルンバi7+をポチった" /></p>
 
 <p>マーケティングなのかもですが、こういうマーケティング／ブランディングって海外のプロダクトのがちゃんと立ち位置築いている感じがする。</p>
 
@@ -73,33 +73,33 @@
 
 <p>アプリもよくできてると思います。気になる点は、起動後にルンバに接続するまで少し時間がかかるというのと、ルンバが汚れを検出した時に重点的に掃除する「ダートイベント」の「詳細を確認する」のリンク先がオンラインヘルプになっているんだけど、ずっと「ご利用できません」ってなってることくらいかな（関係者の方なんとかしてくだせぃ）。</p>
 
-<p><img src="https://lh3.googleusercontent.com/-w_IY_yYbrUE/XSDGOIEzq0I/AAAAAAAAU_0/d68SIVD5ULAYAv4nv-h9lp1kxlXJoVOcwCE0YBhgL/Screenshot_20190706-235442_iRobot.jpg" alt="ダートイベント" /></p>
+<p><img src="https://tchikuba.github.io/images/roomba-i7/dirt-event.jpg" alt="ダートイベント" /></p>
 
 <p>一部スクリーンショットを紹介します。</p>
 
 <p>まずアプリトップ。</p>
 
-<p><img src="https://lh3.googleusercontent.com/-QjCWSJkwwjc/XSDE0NRhGvI/AAAAAAAAU_Y/TqciRc1sOcQ6aP8z2Vry8zpgHNRF0xZDACE0YBhgL/Screenshot_20190706-234122_iRobot.jpg" alt="アプリトップ" /></p>
+<p><img src="https://tchikuba.github.io/images/roomba-i7/app-top.jpg" alt="アプリトップ" /></p>
 
 <p>中心にあるでかい「CLEAN」って丸いところをタップすると、アプリから手動でも掃除を開始できます。厳密にはタップした後に全部屋か部屋を指定するか選べます。</p>
 
 <p>続いて「お手入れ」をタップした画面。</p>
 
-<p><img src="https://lh3.googleusercontent.com/-1V7Rsq1J27I/XSDGOEWLOtI/AAAAAAAAU_0/aQYdamfQxKgjtav44KEJIC2TiWKi9cPgQCE0YBhgL/Screenshot_20190706-234143_iRobot.jpg" alt="お手入れ" /></p>
+<p><img src="https://tchikuba.github.io/images/roomba-i7/maintenance.jpg" alt="お手入れ" /></p>
 
 <p>これはルンバ本体のメンテナンスが必要かどうかを表示するところ。このステータスは自動というわけにいかないので自分で選択してそれぞれのステータスを管理する必要があるっぽい。</p>
 
 <p>ちなみにそれぞれを選ぶと「ステータスのリセット」が選択できるんだけどこれがやたらと時間かかっていたのも気になった点かも。</p>
 
-<p><img src="https://lh3.googleusercontent.com/-lZ1o43LT9mU/XSDGOAaXcfI/AAAAAAAAU_0/U8ph7hjWmAcMGpHEmMbRs3ULEuToqQnHwCE0YBhgL/Screenshot_20190707-000200_iRobot.jpg" alt="ステータスのリセット" /></p>
+<p><img src="https://tchikuba.github.io/images/roomba-i7/status-reset.jpg" alt="ステータスのリセット" /></p>
 
 <p>続いてトップから「履歴」をタップした画面。</p>
 
-<p><img src="https://lh3.googleusercontent.com/-GEaIkAHwaGA/XSDGODXpb3I/AAAAAAAAU_0/aIwTAA_3iXMM3tIxfM3AU2gXASJtOb4GQCE0YBhgL/Screenshot_20190706-234201_iRobot.jpg" alt="履歴一覧" /></p>
+<p><img src="https://tchikuba.github.io/images/roomba-i7/history.jpg" alt="履歴一覧" /></p>
 
 <p>これはスクショの通り直近30件の掃除の一覧ですね。ここからそれぞれの履歴の行をタップすると以下のように掃除についての詳細が見れます。</p>
 
-<p><img src="https://lh3.googleusercontent.com/-jFPgrqn9aiI/XSDGONt5fhI/AAAAAAAAU_0/-7KEkjnqIEU4M6AOBhZqrxD15zUHZXfhgCE0YBhgL/Screenshot_20190706-234238_iRobot.jpg" alt="清掃の詳細" /></p>
+<p><img src="https://tchikuba.github.io/images/roomba-i7/cleaning-detail.jpg" alt="清掃の詳細" /></p>
 
 <p>初期は「清掃が完了し、ダスト容器が空になりました！」のところは閉じている状態です。スクショはそれをタップして開いたところ。</p>
 
@@ -107,13 +107,13 @@
 
 <p>続いてトップから「スケジュール」をタップした画面。</p>
 
-<p><img src="https://lh3.googleusercontent.com/-Fez6YFEFXp0/XSDGOAccXEI/AAAAAAAAU_0/aYXzCPcn7uYPgkya6U7Twaf1Uk748E8qgCE0YBhgL/Screenshot_20190706-234253_iRobot.jpg" alt="スケジュール" /></p>
+<p><img src="https://tchikuba.github.io/images/roomba-i7/schedule.jpg" alt="スケジュール" /></p>
 
 <p>こんな感じで清掃のスケジューリングを予め登録しておけば、その時間になれば自動で起動して掃除してくれます。エンジニア的に言えば要はcronジョブですね。意味が分からない人はスルーしてください。</p>
 
 <p>続いてトップから「スマートマップ」をタップした画面。</p>
 
-<p><img src="https://lh3.googleusercontent.com/-n8B9XCD-sBY/XSDGOAtMcwI/AAAAAAAAU_0/S46xuS9ZoIkw9JcnnjcU0e6USJjRSVWDgCE0YBhgL/Screenshot_20190706-234333_iRobot.jpg" alt="スマートマップ" /></p>
+<p><img src="https://tchikuba.github.io/images/roomba-i7/smart-map.jpg" alt="スマートマップ" /></p>
 
 <p>これ凄いなーと思ったのが、最初何度か掃除を繰り返すと自動で部屋の区分を提案してきてくれて、足りないところは自分で部屋の境界線を指定して部屋を定義できるところ。日々の掃除自体も部屋の形状を記憶して人工知能的な掃除効率化がなされているっぽい（日常的な掃除の動きを見ているとようわからんですが）。</p>
 
