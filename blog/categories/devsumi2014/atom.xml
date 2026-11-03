@@ -4,7 +4,7 @@
   <title><![CDATA[Category: devsumi2014 | tchikuba's blog]]></title>
   <link href="https://tchikuba.github.io/blog/categories/devsumi2014/atom.xml" rel="self"/>
   <link href="https://tchikuba.github.io/"/>
-  <updated>2026-11-03T11:17:24+09:00</updated>
+  <updated>2026-11-03T11:21:35+09:00</updated>
   <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
@@ -152,7 +152,7 @@ Play2/Scalaについては実際に触ったことがないので聞いていて
     <content type="html"><![CDATA[<p>デブサミ2014 2日目。
 ミイル/トレタ増井雄一郎氏の「エンジニアだからできる 自由な生き方」というセッションを聞いて内容をまとめました。
 増井雄一郎さんといえば<a href="https://github.com/mruby/mruby">mruby</a>のイメージである程度略歴知っていたんでどういう考えなのか聞いてみたかったんですよね。
-このまつもとゆきひろ氏との<a href="http://next.rikunabi.com/tech/docs/ct_s03600.jsp?p=002300">この対談</a>が印象に残ってます。</p>
+このまつもとゆきひろ氏との<a href="https://web.archive.org/web/20131013103829/http://next.rikunabi.com/tech/docs/ct_s03600.jsp?p=002300">この対談</a>が印象に残ってます。</p>
 
 <hr />
 
@@ -160,7 +160,7 @@ Play2/Scalaについては実際に触ったことがないので聞いていて
 <ul>
   <li><a href="http://www.miil.jp/">ミイル</a>／<a href="http://toreta.in/">トレタ</a>という2つの会社のCTO</li>
   <li>コード好き：風呂でもコード書くくらい</li>
-  <li><a href="https://web.archive.org/web/20140214172550/http://www.appcelerator.com/">Appcelerator</a> x <a href="http://www.appcelerator.com/titanium/">Titanium</a></li>
+  <li><a href="https://web.archive.org/web/20140214172550/http://www.appcelerator.com/">Appcelerator</a> x <a href="https://web.archive.org/web/20140214174744/http://www.appcelerator.com/titanium/">Titanium</a></li>
   <li>Ruby好き</li>
   <li>高校からPC漬け</li>
   <li>高校は工業高校で大学もあったが男ばっかりじゃ人生暗いので大学は文系</li>
@@ -341,7 +341,7 @@ Atlassian、いつも</p>
   <li>マインドマップ使ってゴールからアクター／インパクト／成果物のレイヤーにブレイクダウンしていく</li>
   <li>マインドマップで結婚式のスピーチとかも考えるそうな by 平鍋さん
     <ul>
-      <li>個人的には<a href="http://sourceforge.jp/projects/freemind/">FreeMind</a>を良く使ってます</li>
+      <li>個人的には<a href="https://web.archive.org/web/20140214083236/http://sourceforge.jp/projects/freemind/">FreeMind</a>を良く使ってます</li>
     </ul>
   </li>
 </ul>
