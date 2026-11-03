@@ -4,7 +4,7 @@
   <title><![CDATA[Category: python | tchikuba's blog]]></title>
   <link href="https://tchikuba.github.io/blog/categories/python/atom.xml" rel="self"/>
   <link href="https://tchikuba.github.io/"/>
-  <updated>2026-11-03T11:25:45+09:00</updated>
+  <updated>2026-11-03T11:44:50+09:00</updated>
   <id>https://tchikuba.github.io/</id>
   <author>
     <name><![CDATA[tchikuba]]></name>
@@ -20,7 +20,7 @@
     <id>https://tchikuba.github.io/blog/2020/07/28/review-dokusyu-python</id>
     <content type="html"><![CDATA[<p>技術書執筆者コミュニティのWINGSプロジェクト代表・山田祥寛さん著「独習Python」を献本頂いたのでレビューします。</p>
 
-<p><a href="https://www.amazon.co.jp/dp/B087JDXCX9/ref=as_li_ss_il?_encoding=UTF8&amp;btkr=1&amp;linkCode=li3&amp;tag=athome0a-22&amp;linkId=f539b9d0c9f0b357f49cded4fd689245&amp;language=ja_JP" target="_blank"><img style="max-width:250px;max-height:250px" border="0" src="https://images-fe.ssl-images-amazon.com/images/P/B087JDXCX9.09.LZZZZZZZ.jpg" /></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;language=ja_JP&amp;l=li3&amp;o=9&amp;a=B087JDXCX9" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+<p><a href="https://www.amazon.co.jp/dp/B087JDXCX9/ref=as_li_ss_il?_encoding=UTF8&amp;btkr=1&amp;linkCode=li3&amp;tag=athome0a-22&amp;linkId=f539b9d0c9f0b357f49cded4fd689245&amp;language=ja_JP" target="_blank"><img style="max-width:250px;max-height:250px" border="0" src="https://images-fe.ssl-images-amazon.com/images/P/B087JDXCX9.09.LZZZZZZZ.jpg" /></a></p>
 
 <p>なおこの記事の前提ですが、私はこれまで業務でPythonをゴリゴリ書いた経験は乏しく、読んだりデバッグ＆修正のような感じの経験が多かったので、そもそもあまりPythonの言語仕様について詳しくありません。</p>
 
@@ -79,7 +79,7 @@
 
 <p>気になる方はぜひ手にとってみてください😃</p>
 
-<p><a href="https://www.amazon.co.jp/dp/B087JDXCX9/ref=as_li_ss_il?_encoding=UTF8&amp;btkr=1&amp;linkCode=li3&amp;tag=athome0a-22&amp;linkId=f539b9d0c9f0b357f49cded4fd689245&amp;language=ja_JP" target="_blank"><img style="max-width:250px;max-height:250px" border="0" src="https://images-fe.ssl-images-amazon.com/images/P/B087JDXCX9.09.LZZZZZZZ.jpg" /></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=athome0a-22&amp;language=ja_JP&amp;l=li3&amp;o=9&amp;a=B087JDXCX9" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+<p><a href="https://www.amazon.co.jp/dp/B087JDXCX9/ref=as_li_ss_il?_encoding=UTF8&amp;btkr=1&amp;linkCode=li3&amp;tag=athome0a-22&amp;linkId=f539b9d0c9f0b357f49cded4fd689245&amp;language=ja_JP" target="_blank"><img style="max-width:250px;max-height:250px" border="0" src="https://images-fe.ssl-images-amazon.com/images/P/B087JDXCX9.09.LZZZZZZZ.jpg" /></a></p>
 ]]></content>
   </entry>
   
